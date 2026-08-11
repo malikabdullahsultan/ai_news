@@ -1,0 +1,12 @@
+{
+  "demo": true,
+  "report_date": "2026-08-12",
+  "note": "No network request or AI inference was performed.",
+  "stories": [
+    {
+      "title": "Demo story",
+      "confidence": "demo",
+      "primary_sources": []
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "feeds": [
+    {
+      "name": "OpenAI News",
+      "organization": "OpenAI",
+      "region": "US",
+      "kind": "official",
+      "url": "https://openai.com/news/rss.xml",
+      "topics": ["models", "agents", "coding", "research"]
+    },
+    {
+      "name": "Anthropic News",
+      "organization": "Anthropic",
+      "region": "US",
+      "kind": "official",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "topics": ["models", "agents", "safety", "coding"]
+    },
+    {
+      "name": "Google AI Blog",
+      "organization": "Google DeepMind",
+      "region": "US",
+      "kind": "official",
+      "url": "https://blog.google/technology/ai/rss/",
+      "topics": ["Gemini", "research", "multimodal", "science"]
+    },
+    {
+      "name": "Google Research Blog",
+      "organization": "Google Research",
+      "region": "US",
+      "kind": "official",
+      "url": "https://research.google/blog/rss/",
+      "topics": ["research", "science", "robotics"]
+    },
+    {
+      "name": "Meta AI Blog",
+      "organization": "Meta AI",
+      "region": "US",
+      "kind": "official",
+      "url": "https://ai.meta.com/blog/rss/",
+      "topics": ["Llama", "open-source", "research"]
+    },
+    {
+      "name": "Microsoft AI Blog",
+      "organization": "Microsoft",
+      "region": "US",
+      "kind": "official",
+      "url": "https://blogs.microsoft.com/ai/feed/",
+      "topics": ["Copilot", "agents", "models"]
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "organization": "NVIDIA",
+      "region": "US",
+      "kind": "official",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "topics": ["hardware", "inference", "robotics"]
+    },
+    {
+      "name": "Hugging Face Blog",
+      "organization": "Hugging Face",
+      "region": "Global",
+      "kind": "official",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "topics": ["open-source", "models", "agents"]
+    },
+    {
+      "name": "Qwen Blog",
+      "organization": "Alibaba / Qwen",
+      "region": "China",
+      "kind": "official",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "topics": ["China", "open-source", "models"]
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "organization": "DeepSeek",
+      "region": "China",
+      "kind": "official",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "topics": ["China", "open-source", "models"]
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "organization": "arXiv",
+      "region": "Global",
+      "kind": "research",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "topics": ["research", "reasoning", "agents"]
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "organization": "arXiv",
+      "region": "Global",
+      "kind": "research",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "topics": ["research", "models", "inference"]
+    },
+    {
+      "name": "arXiv Robotics",
+      "organization": "arXiv",
+      "region": "Global",
+      "kind": "research",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "topics": ["research", "robotics", "embodied AI"]
+    },
+    {
+      "name": "AI news discovery",
+      "organization": "Google News RSS",
+      "region": "Global",
+      "kind": "discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": ["discovery"]
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "organization": "Google News RSS",
+      "region": "China",
+      "kind": "discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": ["China", "discovery"]
+    }
+  ],
+  "watchlist": {
+    "global": [
+      "OpenAI", "ChatGPT", "Codex", "Anthropic", "Claude", "Claude Code",
+      "Google DeepMind", "Gemini", "Google Research", "Meta AI", "Llama",
+      "Microsoft", "Copilot", "Azure AI", "NVIDIA", "AMD", "xAI", "Grok",
+      "Hugging Face", "robotics", "computer use", "AI agents", "MCP"
+    ],
+    "china": [
+      "DeepSeek", "Alibaba", "Qwen", "Tencent", "Hunyuan", "Baidu", "ERNIE",
+      "ByteDance", "Doubao", "Seed", "Moonshot AI", "Kimi", "Zhipu AI", "GLM",
+      "MiniMax", "01.AI", "StepFun", "Huawei", "Pangu", "Ascend", "Xiaomi AI",
+      "SenseTime", "iFlytek", "Ant Group AI", "JD AI", "Meituan AI", "Unitree",
+      "Chinese AI chip", "中国人工智能", "大模型", "机器人"
+    ]
+  }
+}

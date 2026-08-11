@@ -1,0 +1,8 @@
+{
+  "siteName": "Daily AI Intelligence",
+  "tagline": "Your daily map of what actually matters in artificial intelligence.",
+  "timezone": "Asia/Hong_Kong",
+  "desiredDomain": "ai-malik.duckdns.org",
+  "basePath": "/ai_news/",
+  "pagesFallback": "https://malikabdullahsultan.github.io/ai_news/"
+}

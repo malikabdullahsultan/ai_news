@@ -1,0 +1,11 @@
+dist/
+node_modules/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.pyc
+data/report-meta/*.json
+!data/research/.gitkeep
+!data/report-meta/.gitkeep

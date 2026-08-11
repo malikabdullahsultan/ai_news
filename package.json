@@ -1,0 +1,17 @@
+{
+  "name": "daily-ai-intelligence",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A static Daily AI Intelligence dashboard for GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "python -m pytest",
+    "report:dry": "python scripts/report_pipeline.py --dry-run",
+    "report:run": "python scripts/report_pipeline.py"
+  },
+  "engines": {
+    "node": ">=20",
+    "python": ">=3.11"
+  }
+}

@@ -1,0 +1,56 @@
+name: Daily AI Intelligence
+
+on:
+  schedule:
+    # 03:30 Asia/Hong_Kong is 19:30 UTC on the previous UTC date.
+    - cron: '30 19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      AI_PROVIDER: github-models
+      AI_MODEL: auto
+      FREE_ONLY: 'true'
+      TIMEZONE: Asia/Hong_Kong
+      REPORT_TIME: '03:30'
+      MAX_RESEARCH_ITEMS: '24'
+      MAX_SOURCE_FETCHES: '36'
+      RECENT_REPORT_CONTEXT_DAYS: '3'
+      MAX_CONTINUATIONS: '2'
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate and validate report with GitHub Models
+        run: python scripts/report_pipeline.py
+
+      - name: Commit new report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/ data/research/
+          if git diff --cached --quiet; then
+            echo 'No report changes to commit.'
+          else
+            git commit -m "chore: publish Daily AI Intelligence report"
+            git push
+          fi
