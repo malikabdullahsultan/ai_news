@@ -291,12 +291,6 @@ function readingTime(words) {
   return `${Math.max(1, Math.round(words / 200))} min read`;
 }
 
-function tocHtml(headings) {
-  const visible = headings.filter(item => item.level >= 2 && item.level <= 3).slice(0, 24);
-  if (!visible.length) return '';
-  return `<nav class="toc" aria-label="On this page"><div class="eyebrow">On this page</div><ol>${visible.map(item => `<li class="toc-level-${item.level}"><a href="#${escapeHtml(item.id)}">${inlineMarkdown(item.text)}</a></li>`).join('')}</ol></nav>`;
-}
-
 function siteShell({ title, description, body, active = '', canonical = '', demo = false }) {
   const fullTitle = title === SITE_CONFIG.siteName ? title : `${title} — ${SITE_CONFIG.siteName}`;
   const navLink = (href, label, key) => `<a class="nav-link ${active === key ? 'is-active' : ''}" href="${urlFor(href)}">${label}</a>`;
@@ -306,7 +300,7 @@ function siteShell({ title, description, body, active = '', canonical = '', demo
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="${escapeHtml(description)}">
-    <meta name="theme-color" content="#08111f">
+    <meta name="theme-color" content="#17122d">
     <link rel="icon" href="${urlFor('favicon.svg')}" type="image/svg+xml">
     ${canonical ? `<link rel="canonical" href="${escapeHtml(canonical)}">` : ''}
     <title>${escapeHtml(fullTitle)}</title>
@@ -335,7 +329,7 @@ function siteShell({ title, description, body, active = '', canonical = '', demo
 }
 
 function heroBlock() {
-  return `<section class="hero page-container"><div class="hero-copy"><div class="eyebrow"><span class="pulse-dot"></span> Daily signal · ${escapeHtml(TIMEZONE.replace('_', ' '))}</div><h1>Your daily map of what actually matters in <span class="gradient-text">artificial intelligence.</span></h1><p class="hero-lede">A personal Bloomberg terminal for AI — understandable, skeptical, and built for people who want to know what changed and why it matters.</p><div class="hero-actions"><a class="button button-primary" href="${urlFor('latest/')}">Read the latest report <span>→</span></a><a class="text-link" href="${urlFor('archive/')}">Browse the archive <span>↗</span></a></div></div><div class="hero-orbit" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core"><span>AI</span><small>signal</small></div><div class="orbit-label label-top">MODELS</div><div class="orbit-label label-right">AGENTS</div><div class="orbit-label label-bottom">EVIDENCE</div><div class="orbit-label label-left">ROBOTS</div></div></section>`;
+  return `<section class="hero page-container"><div class="hero-copy"><div class="eyebrow"><span class="pulse-dot"></span> Daily signal · ${escapeHtml(TIMEZONE.replace('_', ' '))}</div><h1>Your daily map of what actually matters in <span class="gradient-text">artificial intelligence.</span></h1><p class="hero-lede">A personal Bloomberg terminal for AI — understandable, skeptical, and built for people who want to know what changed and why it matters.</p><div class="hero-actions"><a class="button button-primary" href="${urlFor('latest/')}">Read the latest report <span>→</span></a><a class="text-link" href="${urlFor('archive/')}">Browse the archive <span>↗</span></a></div></div><div class="hero-orbit" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core"><span>AI</span><small>signal</small></div><div class="orbit-items"><div class="orbit-item orbit-item-one"><span>MODELS</span></div><div class="orbit-item orbit-item-two"><span>AGENTS</span></div><div class="orbit-item orbit-item-three"><span>EVIDENCE</span></div><div class="orbit-item orbit-item-four"><span>ROBOTS</span></div></div></div></section>`;
 }
 
 function latestCard(report, demo = false) {
@@ -358,7 +352,7 @@ function homeBody(reports, latest, demo) {
 
 function reportBody(report, demo = false) {
   const sourceNote = report.model ? `<span>Generated with ${escapeHtml(report.model)}</span>` : '';
-  return `<section class="report-hero page-container"><div class="breadcrumb"><a href="${urlFor('')}">Home</a><span>/</span><a href="${urlFor('archive/')}">Archive</a><span>/</span><span>${escapeHtml(report.date)}</span></div><div class="eyebrow"><span class="pulse-dot"></span> Daily AI Intelligence · ${escapeHtml(report.date)}</div><h1>${escapeHtml(report.title)}</h1><p class="report-subtitle">${escapeHtml(report.subtitle)}</p><div class="report-meta"><span>${escapeHtml(formatDate(report.date, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }))}</span><span>·</span><span>${readingTime(report.words)}</span>${sourceNote ? `<span>·</span>${sourceNote}` : ''}</div></section><div class="report-layout page-container"><aside>${tocHtml(report.headings)}<a class="back-link" href="${urlFor('archive/')}">← Back to archive</a></aside><article class="report-content">${report.html}</article></div>`;
+  return `<section class="report-hero page-container"><div class="breadcrumb"><a href="${urlFor('')}">Home</a><span>/</span><a href="${urlFor('archive/')}">Archive</a><span>/</span><span>${escapeHtml(report.date)}</span></div><div class="eyebrow"><span class="pulse-dot"></span> Daily AI Intelligence · ${escapeHtml(report.date)}</div><h1>${escapeHtml(report.title)}</h1><p class="report-subtitle">${escapeHtml(report.subtitle)}</p><div class="report-meta"><span>${escapeHtml(formatDate(report.date, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }))}</span><span>·</span><span>${readingTime(report.words)}</span>${sourceNote ? `<span>·</span>${sourceNote}` : ''}</div></section><div class="report-layout page-container"><a class="back-link" href="${urlFor('archive/')}">← Back to archive</a><article class="report-content">${report.html}</article></div>`;
 }
 
 function archiveBody(reports) {
