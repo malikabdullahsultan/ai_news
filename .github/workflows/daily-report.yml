@@ -32,17 +32,26 @@ jobs:
       SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: Generate and validate report with SambaNova Free Tier
         run: python scripts/report_pipeline.py
+
+      - name: Upload redacted generated Markdown for debugging
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: generated-report-${{ github.run_id }}
+          path: data/debug/generated-report.md
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Commit new report
         run: |

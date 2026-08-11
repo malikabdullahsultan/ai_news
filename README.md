@@ -128,6 +128,7 @@ If a separately owned domain is used later, set its subdomain CNAME directly to 
 ## Troubleshooting
 
 - **No report generated:** open the failed Actions run. A missing/denied SambaNova key, exhausted Free Tier quota, all research feeds failing, or validation failure stops publication intentionally.
+- **Inspect generated Markdown:** every generation run uploads a seven-day `generated-report-<run-id>` workflow artifact. It contains the generated Markdown plus validation status, with configured secrets and credential-looking assignments redacted. Open the workflow run summary and download it under **Artifacts**.
 - **Pages looks old:** check the Deploy workflow and confirm Pages is set to **GitHub Actions**.
 - **Links include the wrong path:** project Pages uses `PUBLIC_BASE_PATH=/ai_news/`; a custom root domain uses `PUBLIC_BASE_PATH=/`.
 - **A duplicate date fails:** that is intentional. The generator never silently overwrites an existing report.

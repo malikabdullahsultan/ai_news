@@ -16,9 +16,11 @@ from scripts.report_pipeline import (
     ensure_report_date_heading,
     parse_feed,
     persist_report,
+    redact_report_for_debug,
     report_date_from_utc,
     report_date_for,
     validate_report,
+    write_debug_report,
 )
 
 
@@ -71,11 +73,51 @@ def test_validation_accepts_structured_report() -> None:
 
 Today\'s verified evidence explains a useful change in AI systems. """ + ("More detail. " * 100) + """
 
+An API key may be required to try some developer services. Discussing that phrase is ordinary reporting, not a credential leak.
+
 ## SOURCES
 
 - [Official evidence](https://example.com/source)
 """
     assert validate_report(report, date(2026, 8, 12)) == []
+
+
+def test_validation_rejects_credential_assignment_but_redacts_value() -> None:
+    fake_credential = "test-only-credential-value-123456789"
+    report = f"""# The Daily AI Intelligence Report — 2026-08-12
+
+## WHAT HAPPENED
+
+API_KEY={fake_credential}
+
+## SOURCES
+
+- [Evidence](https://example.com)
+"""
+    errors = validate_report(report, date(2026, 8, 12), minimum_chars=0)
+    assert "report contains a credential-like assignment (value redacted)" in errors
+    redacted = redact_report_for_debug(report)
+    assert fake_credential not in redacted
+    assert "API_KEY=[REDACTED CREDENTIAL]" in redacted
+
+
+def test_debug_artifact_redacts_configured_secret(tmp_path: Path) -> None:
+    fake_secret = "configured-test-secret-123456789"
+    report = f"# The Daily AI Intelligence Report — 2026-08-12\n\n{fake_secret}\n\n## SOURCES\n"
+    errors = validate_report(report, date(2026, 8, 12), secret_values=[fake_secret], minimum_chars=0)
+    destination = tmp_path / "generated-report.md"
+    write_debug_report(
+        date(2026, 8, 12),
+        report,
+        errors,
+        secret_values=[fake_secret],
+        destination=destination,
+    )
+    artifact = destination.read_text(encoding="utf-8")
+    assert fake_secret not in artifact
+    assert "[REDACTED CONFIGURED SECRET]" in artifact
+    assert "Validation: FAILED" in artifact
+    assert "report contains a configured secret" in artifact
 
 
 def test_runtime_prompt_requires_exact_iso_dated_title() -> None:

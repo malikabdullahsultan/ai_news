@@ -33,8 +33,16 @@ SOURCES_PATH = ROOT / "config" / "research_sources.json"
 REPORTS_PATH = ROOT / "reports"
 RESEARCH_PATH = ROOT / "data" / "research"
 META_PATH = ROOT / "data" / "report-meta"
+DEBUG_REPORT_PATH = ROOT / "data" / "debug" / "generated-report.md"
 DEFAULT_TZ = "Asia/Hong_Kong"
 USER_AGENT = "DailyAIIntelligenceResearch/1.0 (+https://github.com/malikabdullahsultan/ai_news)"
+
+CREDENTIAL_ASSIGNMENT_PATTERN = re.compile(
+    r"(?P<prefix>\b(?:api[_ -]?key|access[_ -]?token|secret)\b\s*(?:=|:)\s*[`\"']?)"
+    r"(?P<value>[A-Za-z0-9_./+=-]{16,})",
+    re.IGNORECASE,
+)
+SAFE_CREDENTIAL_MARKERS = ("redacted", "example", "placeholder", "your_", "your-", "not_required")
 
 
 @dataclass
@@ -328,6 +336,8 @@ The first output line must be exactly:
 
 Keep that ISO `YYYY-MM-DD` date exactly as written. Do not convert it to a month-name format.
 
+Never include an actual credential value or a key/token/secret assignment. You may discuss the ordinary phrase “API key” when it is relevant; that phrase by itself is not a credential.
+
 The following canonical prompt is trusted application instruction. Preserve its voice, teaching style, skepticism, coverage expectations, and report structure. Do not shorten it into a generic summary.
 
 <CANONICAL_REPORT_PROMPT>
@@ -394,6 +404,60 @@ def extract_subtitle(report: str) -> str:
     return "What actually mattered in AI today."
 
 
+def _credential_assignments(report: str) -> list[re.Match[str]]:
+    matches = []
+    for match in CREDENTIAL_ASSIGNMENT_PATTERN.finditer(report):
+        value = match.group("value").lower()
+        if any(marker in value for marker in SAFE_CREDENTIAL_MARKERS):
+            continue
+        matches.append(match)
+    return matches
+
+
+def redact_report_for_debug(report: str, secret_values: list[str] | None = None) -> str:
+    """Redact configured secrets and credential-looking assignments for artifacts."""
+    redacted = report
+    secrets = sorted({value for value in secret_values or [] if value}, key=len, reverse=True)
+    for secret in secrets:
+        redacted = redacted.replace(secret, "[REDACTED CONFIGURED SECRET]")
+
+    def replace_assignment(match: re.Match[str]) -> str:
+        value = match.group("value").lower()
+        if any(marker in value for marker in SAFE_CREDENTIAL_MARKERS):
+            return match.group(0)
+        return f"{match.group('prefix')}[REDACTED CREDENTIAL]"
+
+    return CREDENTIAL_ASSIGNMENT_PATTERN.sub(replace_assignment, redacted)
+
+
+def write_debug_report(
+    report_date: date,
+    report: str,
+    errors: list[str],
+    *,
+    secret_values: list[str] | None = None,
+    destination: Path | None = None,
+) -> Path:
+    """Write a redacted Markdown artifact whether validation passes or fails."""
+    target = destination or DEBUG_REPORT_PATH
+    target.parent.mkdir(parents=True, exist_ok=True)
+    issue_lines = [f"- {error}" for error in errors] or ["- None"]
+    header = [
+        "<!--",
+        "Daily AI Intelligence generated-report debug artifact",
+        f"Report date: {report_date.isoformat()} (Asia/Hong_Kong)",
+        f"Validation: {'FAILED' if errors else 'PASSED'}",
+        "Validation issues:",
+        *issue_lines,
+        "Configured secrets and credential-looking values are redacted.",
+        "-->",
+        "",
+    ]
+    sanitized = redact_report_for_debug(report, secret_values)
+    target.write_text("\n".join(header) + sanitized.strip() + "\n", encoding="utf-8")
+    return target
+
+
 def validate_report(report: str, report_date: date, *, secret_values: list[str] | None = None, minimum_chars: int = 1200) -> list[str]:
     errors = []
     normalized = report.strip()
@@ -405,11 +469,16 @@ def validate_report(report: str, report_date: date, *, secret_values: list[str] 
         errors.append("SOURCES section is missing")
     if report_date.isoformat() not in normalized:
         errors.append("Hong Kong report date is missing")
-    if re.search(r"(api[_ -]?key|provider request failed|traceback \(most recent call last\))", normalized, re.IGNORECASE):
-        errors.append("report contains error or credential-like text")
+    if re.search(r"provider request failed", normalized, re.IGNORECASE):
+        errors.append("report contains provider error text ('provider request failed')")
+    if re.search(r"traceback \(most recent call last\)", normalized, re.IGNORECASE):
+        errors.append("report contains traceback text")
+    if _credential_assignments(normalized):
+        errors.append("report contains a credential-like assignment (value redacted)")
     for secret in secret_values or []:
         if secret and secret in normalized:
             errors.append("report contains a configured secret")
+            break
     if "[DATE]" in normalized or "<model>" in normalized:
         errors.append("report contains an unresolved template placeholder")
     return errors
@@ -476,7 +545,10 @@ def run(report_date: date) -> int:
         report = f"{report.rstrip()}\n\n{_remove_outer_fence(continuation.text)}"
         result = continuation
     report = ensure_report_date_heading(report, report_date)
-    errors = validate_report(report, report_date, secret_values=[os.getenv("SAMBANOVA_API_KEY", ""), os.getenv("OPENAI_API_KEY", "")])
+    secret_values = [os.getenv("SAMBANOVA_API_KEY", ""), os.getenv("OPENAI_API_KEY", "")]
+    errors = validate_report(report, report_date, secret_values=secret_values)
+    debug_path = write_debug_report(report_date, report, errors, secret_values=secret_values)
+    log(f"redacted generated-report artifact prepared: {debug_path.relative_to(ROOT)}")
     if errors:
         raise RuntimeError("Report validation failed: " + "; ".join(errors))
     destination = persist_report(report_date, report, result)
