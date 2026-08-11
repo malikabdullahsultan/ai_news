@@ -454,7 +454,7 @@ def run(report_date: date) -> int:
         continuation = provider.continue_report(system_prompt, report, model=result.model)
         report = f"{report.rstrip()}\n\n{_remove_outer_fence(continuation.text)}"
         result = continuation
-    errors = validate_report(report, report_date, secret_values=[os.getenv("GITHUB_TOKEN", ""), os.getenv("OPENAI_API_KEY", "")])
+    errors = validate_report(report, report_date, secret_values=[os.getenv("SAMBANOVA_API_KEY", ""), os.getenv("OPENAI_API_KEY", "")])
     if errors:
         raise RuntimeError("Report validation failed: " + "; ".join(errors))
     destination = persist_report(report_date, report, result)

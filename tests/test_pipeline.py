@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.providers import ProviderError, make_provider
+from scripts.providers import ProviderError, SambaNovaProvider, make_provider
 from scripts.report_pipeline import (
     FeedItem,
     cluster_items,
@@ -77,11 +77,57 @@ Today\'s verified evidence explains a useful change in AI systems. """ + ("More 
 
 
 def test_default_provider_requires_no_openai_key(monkeypatch: pytest.MonkeyPatch) -> None:
-    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    monkeypatch.delenv("SAMBANOVA_API_KEY", raising=False)
     monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    monkeypatch.delenv("AI_PROVIDER", raising=False)
+    monkeypatch.setenv("FREE_ONLY", "true")
+    with pytest.raises(ProviderError, match="SAMBANOVA_API_KEY"):
+        make_provider()
+
+
+def test_free_only_refuses_paid_or_unknown_model(monkeypatch: pytest.MonkeyPatch) -> None:
+    provider = object.__new__(SambaNovaProvider)
+    provider.free_only = True
+    provider.catalog = lambda: [{"id": "gpt-oss-120b"}]
+    with pytest.raises(ProviderError, match="FREE_ONLY"):
+        provider.choose_models("openai/gpt-4.1")
+
+
+def test_auto_prefers_high_quality_verified_free_model() -> None:
+    provider = object.__new__(SambaNovaProvider)
+    provider.free_only = True
+    provider.catalog = lambda: [
+        {"id": "Meta-Llama-3.3-70B-Instruct"},
+        {"id": "gpt-oss-120b"},
+        {"id": "DeepSeek-V3.1"},
+    ]
+    assert provider.choose_models("auto")[0][0] == "gpt-oss-120b"
+
+
+def test_free_only_refuses_custom_endpoint() -> None:
+    with pytest.raises(ProviderError, match="non-official"):
+        SambaNovaProvider(token="test-key", base_url="https://example.com/openai/v1", free_only=True)
+
+
+def test_retired_github_provider_fails_with_migration_message(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setenv("AI_PROVIDER", "github-models")
     monkeypatch.setenv("FREE_ONLY", "true")
-    with pytest.raises(ProviderError, match="GITHUB_TOKEN"):
+    with pytest.raises(ProviderError, match="retired"):
+        make_provider()
+
+
+def test_previous_groq_provider_fails_with_migration_message(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("AI_PROVIDER", "groq")
+    monkeypatch.setenv("FREE_ONLY", "true")
+    with pytest.raises(ProviderError, match="sambanova"):
+        make_provider()
+
+
+def test_openai_cannot_activate_in_free_only_mode(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("AI_PROVIDER", "openai")
+    monkeypatch.setenv("FREE_ONLY", "true")
+    monkeypatch.setenv("OPENAI_API_KEY", "test-key")
+    with pytest.raises(ProviderError, match="disabled"):
         make_provider()
 
 

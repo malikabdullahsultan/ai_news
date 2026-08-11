@@ -12,7 +12,7 @@ This is a safe sample so the site can be previewed before the first real researc
 ## ⚡ THE 60-SECOND VERSION
 
 - **SYSTEM:** The site is built as static files, so GitHub Pages can serve it without a server running all day.
-- **COST:** The default report provider is GitHub Models with `GITHUB_TOKEN`; no OpenAI API key is required.
+- **COST:** The default report provider is SambaNova's Free Tier with `SAMBANOVA_API_KEY`; no paid OpenAI API key is required.
 - **RESEARCH:** A scheduled workflow will collect feeds, cluster duplicate coverage, and preserve source links.
 - **SAFETY:** If free inference is unavailable, yesterday's report stays online instead of spending money or publishing broken text.
 - **TRY THIS:** Open the Archive, switch themes, and search for `agents` to see the reading experience.
@@ -40,7 +40,7 @@ The technical term is **static site generation**. The pages are generated ahead 
 ## WORDS I LEARNED TODAY
 
 - **Static site:** Web pages built before a reader visits them.
-- **Provider abstraction:** A common plug shape that lets the app use GitHub Models now and another provider later.
+- **Provider abstraction:** A common plug shape that lets the app use SambaNova's Free Tier now and another provider later.
 - **RSS feed:** A machine-readable stream of new posts.
 - **Validation:** Checks that reject empty, malformed, or suspicious output before publishing.
 

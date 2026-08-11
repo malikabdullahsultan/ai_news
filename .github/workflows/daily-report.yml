@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: daily-report
@@ -19,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      AI_PROVIDER: github-models
+      AI_PROVIDER: sambanova
       AI_MODEL: auto
       FREE_ONLY: 'true'
       TIMEZONE: Asia/Hong_Kong
@@ -28,7 +27,9 @@ jobs:
       MAX_SOURCE_FETCHES: '36'
       RECENT_REPORT_CONTEXT_DAYS: '3'
       MAX_CONTINUATIONS: '2'
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      MAX_PROVIDER_FALLBACKS: '2'
+      MAX_OUTPUT_TOKENS: '14000'
+      SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -40,7 +41,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate and validate report with GitHub Models
+      - name: Generate and validate report with SambaNova Free Tier
         run: python scripts/report_pipeline.py
 
       - name: Commit new report

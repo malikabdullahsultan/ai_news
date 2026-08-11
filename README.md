@@ -9,7 +9,7 @@ Daily AI Intelligence is a static, source-aware AI news dashboard designed to ex
       ↓
 GitHub Actions researches feeds and papers
       ↓
-GitHub Models writes the report using prompts/daily-report.md
+SambaNova's Free Tier writes the report using prompts/daily-report.md
       ↓
 Validation rejects broken or suspicious output
       ↓
@@ -26,19 +26,21 @@ The production configuration is intentionally zero-cost-first:
 
 - GitHub Pages: free within GitHub's applicable limits.
 - GitHub Actions: subject to the account's GitHub plan and usage limits.
-- GitHub Models: uses the currently available free, rate-limited allowance through `GITHUB_TOKEN`.
+- SambaNova API: uses the currently available no-payment-method Free Tier through `SAMBANOVA_API_KEY`.
 - OpenAI API: **not required by default**.
 - VPS: **not required**.
 
 The default environment is:
 
 ```text
-AI_PROVIDER=github-models
+AI_PROVIDER=sambanova
 AI_MODEL=auto
 FREE_ONLY=true
 ```
 
-`AI_MODEL=auto` reads the GitHub Models catalog and selects an eligible text model using capability and output-length heuristics. The actual selected model is stored in ignored build metadata. If free inference is unavailable or rate-limited, the workflow fails safely; it does not switch to a paid endpoint and does not overwrite yesterday's report.
+`AI_MODEL=auto` reads SambaNova's active model catalog and selects the first available model from a verified Free Tier order: `gpt-oss-120b`, `DeepSeek-V3.1`, then `Meta-Llama-3.3-70B-Instruct`. These production models are currently listed with the same 200,000-token-per-day Free Tier allowance, so the order prioritizes report-writing and reasoning quality. The actual selected model is stored in ignored build metadata. If free inference is unavailable or rate-limited, the workflow fails safely; it does not switch to a paid tier or overwrite yesterday's report.
+
+You may set `AI_MODEL` to one of those exact model IDs. While `FREE_ONLY=true`, any model outside that allowlist and any non-official API endpoint is rejected before inference. `MAX_PROVIDER_FALLBACKS` and `MAX_OUTPUT_TOKENS` centrally control fallback attempts and report output size.
 
 Free allowances, catalogs, endpoints, and model availability can change. The code treats those as runtime conditions instead of assuming unlimited quota.
 
@@ -52,10 +54,10 @@ npm run build        # build dist/ for GitHub Pages
 python -m pytest     # run deterministic tests
 ```
 
-To run the real generator locally, set `GITHUB_TOKEN` in the environment and use the same safe defaults as the workflow:
+To run the real generator locally, set `SAMBANOVA_API_KEY` in the environment and use the same safe defaults as the workflow:
 
 ```bash
-AI_PROVIDER=github-models AI_MODEL=auto FREE_ONLY=true python scripts/report_pipeline.py
+AI_PROVIDER=sambanova AI_MODEL=auto FREE_ONLY=true python scripts/report_pipeline.py
 ```
 
 Never paste a token into the repository or into Codex chat.
@@ -66,7 +68,7 @@ Never paste a token into the repository or into Codex chat.
 prompts/daily-report.md              canonical writing prompt
 config/research_sources.json         official feeds, discovery feeds, global/China watchlist
 scripts/report_pipeline.py           research → continuity → synthesis → validation → Markdown
-scripts/providers.py                  GitHub Models default; OpenAI explicitly opt-in only
+scripts/providers.py                  SambaNova Free Tier default; OpenAI explicitly opt-in only
 scripts/build-site.mjs                static HTML, archive, latest, search index, Markdown renderer
 src/styles/site.css                   responsive dashboard and long-form reading styles
 src/client.js                         theme switcher, date picker, static search
@@ -91,24 +93,27 @@ The research pass checks official feeds/pages first, research feeds, repositorie
 
 Fetched text is treated as untrusted data. It is wrapped inside structured research data and explicitly cannot change the application's instructions, request secrets, or execute commands. The final report is rejected if it is empty, missing a date or SOURCES section, contains obvious provider errors, contains template placeholders, or would overwrite an existing report.
 
-## GitHub Models details
+## SambaNova Free Tier details
 
-The provider uses the official catalog endpoint and inference endpoint:
+The provider uses SambaNova's official OpenAI-compatible model catalog and chat endpoint:
 
 ```text
-GET  https://models.github.ai/catalog/models
-POST https://models.github.ai/inference/chat/completions
+GET  https://api.sambanova.ai/v1/models
+POST https://api.sambanova.ai/v1/chat/completions
 ```
 
-The Actions job requests only:
+The current account setup and limits are documented in SambaNova's [API key and endpoint guide](https://docs.sambanova.ai/docs/en/get-started/api-keys-urls) and [rate-limit policy](https://docs.sambanova.ai/docs/en/models/rate-limits).
 
-```yaml
-permissions:
-  contents: write
-  models: read
-```
+When `FREE_ONLY=true`, the provider:
+
+- only accepts the verified Free Tier model allowlist;
+- uses the official SambaNova endpoint;
+- never falls back to OpenAI or another paid provider;
+- treats quota/rate-limit errors as a safe workflow failure.
 
 The optional `OpenAIProvider` exists for a future advanced configuration, but it requires an explicit `AI_PROVIDER=openai`, `FREE_ONLY=false`, and `OPENAI_API_KEY`. It cannot activate automatically.
+
+SambaNova documents that its Free Tier applies when no payment method is linked to the SambaCloud account. Keep the account without a payment method for the zero-cost guarantee. A paid SambaNova account could still bill its own requests; the software cannot inspect your account's billing plan, so the manual account choice is important. Free service limits and model availability can change.
 
 ## GitHub Pages and domain
 
@@ -122,7 +127,7 @@ If a separately owned domain is used later, set its subdomain CNAME directly to 
 
 ## Troubleshooting
 
-- **No report generated:** open the failed Actions run. A missing/denied GitHub Models allowance, all research feeds failing, or validation failure stops publication intentionally.
+- **No report generated:** open the failed Actions run. A missing/denied SambaNova key, exhausted Free Tier quota, all research feeds failing, or validation failure stops publication intentionally.
 - **Pages looks old:** check the Deploy workflow and confirm Pages is set to **GitHub Actions**.
 - **Links include the wrong path:** project Pages uses `PUBLIC_BASE_PATH=/ai_news/`; a custom root domain uses `PUBLIC_BASE_PATH=/`.
 - **A duplicate date fails:** that is intentional. The generator never silently overwrites an existing report.

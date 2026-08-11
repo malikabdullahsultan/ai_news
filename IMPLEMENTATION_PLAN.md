@@ -13,10 +13,10 @@ GitHub Actions (03:30 Asia/Hong_Kong)
         |      - source clustering + structured JSON
         |      - Chinese/global watchlist
         |
-        +--> GitHubModelsProvider (default)
-        |      - GITHUB_TOKEN only
-        |      - models: read permission
-        |      - catalog-based model selection
+        +--> SambaNovaProvider (default)
+        |      - SAMBANOVA_API_KEY only
+        |      - verified Free Tier model allowlist
+        |      - catalog-based active-model check
         |      - FREE_ONLY=true fail-safe
         |
         +--> validation + Markdown report
@@ -42,7 +42,7 @@ GitHub Actions (03:30 Asia/Hong_Kong)
 ## Generation structure
 
 - `scripts/report_pipeline.py` — date handling, feed fetching, source normalization, clustering, continuity, provider calls, validation, and report persistence.
-- `scripts/providers.py` — provider abstraction with GitHub Models as the default and an explicitly opt-in OpenAI Responses API provider for future advanced use.
+- `scripts/providers.py` — provider abstraction with SambaNova's Free Tier as the default and an explicitly opt-in OpenAI Responses API provider for future advanced use.
 - `config/research_sources.json` — editable source/watchlist configuration.
 - `data/research/` — structured research artifacts.
 - `data/report-meta/` — build metadata such as the model actually selected; no credentials.
@@ -50,10 +50,10 @@ GitHub Actions (03:30 Asia/Hong_Kong)
 
 ## Safety and cost rules
 
-- The default is `AI_PROVIDER=github-models`, `AI_MODEL=auto`, and `FREE_ONLY=true`.
-- The workflow passes only `GITHUB_TOKEN` and requests `contents: write` plus `models: read`.
+- The default is `AI_PROVIDER=sambanova`, `AI_MODEL=auto`, and `FREE_ONLY=true`.
+- The workflow passes `SAMBANOVA_API_KEY` only to the generator and uses `contents: write` for the report commit.
 - No OpenAI key is required. Paid OpenAI support cannot activate unless explicitly configured with `AI_PROVIDER=openai` and `FREE_ONLY=false`.
-- If GitHub Models is unavailable or the free allowance is exhausted, the workflow fails without touching the existing report or site.
+- If SambaNova's Free Tier is unavailable or the free allowance is exhausted, the workflow fails without touching the existing report or site.
 - Fetched material is treated as untrusted data and is fenced before model synthesis.
 - Existing report paths are never silently overwritten.
 

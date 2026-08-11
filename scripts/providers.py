@@ -1,7 +1,8 @@
 """AI provider abstraction for Daily AI Intelligence.
 
-The default provider is GitHub Models. The optional OpenAI provider is deliberately
-guarded by FREE_ONLY so a paid endpoint cannot be selected accidentally.
+The default provider is SambaNova's no-payment-method Free Tier. The optional
+OpenAI provider is deliberately guarded by FREE_ONLY so a paid endpoint cannot
+be selected accidentally.
 """
 
 from __future__ import annotations
@@ -16,6 +17,11 @@ from typing import Any
 
 class ProviderError(RuntimeError):
     """A provider could not safely complete a request."""
+
+    def __init__(self, message: str, *, retryable: bool = False, status_code: int | None = None):
+        super().__init__(message)
+        self.retryable = retryable
+        self.status_code = status_code
 
 
 @dataclass
@@ -41,10 +47,11 @@ def _json_request(
     token: str | None = None,
     payload: dict[str, Any] | None = None,
     headers: dict[str, str] | None = None,
+    provider_label: str = "Provider",
     timeout: int = 60,
 ) -> dict[str, Any] | list[Any]:
     request_headers = {
-        "Accept": "application/vnd.github+json",
+        "Accept": "application/json",
         "User-Agent": "daily-ai-intelligence/1.0",
     }
     if headers:
@@ -61,11 +68,16 @@ def _json_request(
             raw = response.read().decode("utf-8")
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")[:500]
-        if error.code in {402, 429}:
-            raise ProviderError("Daily report could not be generated because the free AI inference limit was reached or unavailable; no paid fallback is enabled.") from error
-        if error.code == 403:
-            raise ProviderError(f"GitHub Models access was denied. Check the workflow's models: read permission. Detail: {detail}") from error
-        raise ProviderError(f"Provider request failed with HTTP {error.code}: {detail}") from error
+        retryable = error.code == 429 or error.code >= 500 or error.code == 408
+        if error.code == 429:
+            message = f"The {provider_label} free-tier rate limit or quota was reached; no paid fallback is enabled."
+        elif error.code in {401, 403}:
+            message = f"{provider_label} rejected the API key or account access. Check the free-tier API key and account permissions."
+        elif error.code == 402:
+            message = f"{provider_label} requires paid billing for this request; FREE_ONLY refused to continue."
+        else:
+            message = f"Provider request failed with HTTP {error.code}: {detail}"
+        raise ProviderError(message, retryable=retryable, status_code=error.code) from error
     except urllib.error.URLError as error:
         raise ProviderError(f"Provider request could not reach {url}: {error.reason}") from error
     try:
@@ -90,95 +102,57 @@ class AIProvider:
         return self.generate(system_prompt, user_prompt, model=model)
 
 
-class GitHubModelsProvider(AIProvider):
-    name = "github-models"
-    default_base_url = "https://models.github.ai"
-    api_version = "2026-03-10"
+class SambaNovaProvider(AIProvider):
+    """SambaNova OpenAI-compatible API with a strict Free Tier allowlist."""
+
+    name = "sambanova"
+    default_base_url = "https://api.sambanova.ai/v1"
+    free_model_order = (
+        "gpt-oss-120b",
+        "DeepSeek-V3.1",
+        "Meta-Llama-3.3-70B-Instruct",
+    )
 
     def __init__(self, *, token: str | None = None, base_url: str | None = None, free_only: bool = True):
-        self.token = token or os.getenv("GITHUB_TOKEN")
-        self.base_url = (base_url or os.getenv("GITHUB_MODELS_API_URL") or self.default_base_url).rstrip("/")
+        self.token = token or os.getenv("SAMBANOVA_API_KEY")
+        requested_base = (base_url or os.getenv("SAMBANOVA_API_URL") or self.default_base_url).rstrip("/")
         self.free_only = free_only
+        if free_only and requested_base != self.default_base_url:
+            raise ProviderError("FREE_ONLY refuses a non-official SambaNova endpoint.")
+        self.base_url = requested_base
         if not self.token:
-            raise ProviderError("GITHUB_TOKEN is required for GitHub Models; no paid fallback is enabled.")
+            raise ProviderError("SAMBANOVA_API_KEY is required for the free-tier provider; no paid fallback is enabled.")
 
     def catalog(self) -> list[dict[str, Any]]:
         result = _json_request(
-            f"{self.base_url}/catalog/models",
+            f"{self.base_url}/models",
             token=self.token,
-            headers={"X-GitHub-Api-Version": self.api_version},
+            provider_label="SambaNova",
+            timeout=45,
         )
+        if isinstance(result, dict):
+            result = result.get("data", [])
         if not isinstance(result, list):
-            raise ProviderError("GitHub Models catalog did not return a list.")
+            raise ProviderError("SambaNova model catalog did not return a list.")
         return [item for item in result if isinstance(item, dict) and item.get("id")]
 
-    @staticmethod
-    def _model_score(model: dict[str, Any]) -> int:
-        model_id = str(model.get("id", "")).lower()
-        tags = " ".join(str(tag).lower() for tag in model.get("tags", []))
-        summary = str(model.get("summary", "")).lower()
-        capabilities = " ".join(str(item).lower() for item in model.get("capabilities", []))
-        limits = model.get("limits") or {}
-        max_output = int(limits.get("max_output_tokens") or 0)
-        score = 0
-        preferred_families = {
-            "gpt-4o-mini": 70,
-            "gpt-4.1-mini": 72,
-            "phi-4": 62,
-            "mistral-small": 59,
-            "qwen": 55,
-            "deepseek": 53,
-            "llama-3.3": 50,
-            "llama-3.1": 44,
-        }
-        for family, points in preferred_families.items():
-            if family in model_id:
-                score += points
-        if "multipurpose" in tags:
-            score += 14
-        if "reasoning" in tags or "reason" in summary:
-            score += 13
-        if "coding" in tags or "code" in summary:
-            score += 10
-        if "multilingual" in tags:
-            score += 5
-        if "chat" in capabilities or "tool-calling" in capabilities:
-            score += 3
-        if "mini" in model_id or "small" in model_id or "phi" in model_id:
-            score += 10
-        if max_output >= 16000:
-            score += 6
-        elif max_output >= 8000:
-            score += 3
-        if any(term in model_id for term in ("vision", "embed", "audio", "whisper", "tts", "image")):
-            score -= 80
-        return score
-
-    def choose_model(self, requested: str = "auto") -> tuple[str, dict[str, Any]]:
+    def choose_models(self, requested: str = "auto") -> list[tuple[str, dict[str, Any]]]:
         catalog = self.catalog()
+        by_id = {str(item["id"]): item for item in catalog}
         if requested and requested != "auto":
-            for item in catalog:
-                if item.get("id") == requested:
-                    return requested, item
-            raise ProviderError(f"Requested GitHub Model '{requested}' was not present in the current catalog.")
-        eligible = []
-        for item in catalog:
-            limits = item.get("limits") or {}
-            modalities = item.get("supported_input_modalities") or ["text"]
-            output_modalities = item.get("supported_output_modalities") or ["text"]
-            if "text" not in modalities or "text" not in output_modalities:
-                continue
-            if int(limits.get("max_output_tokens") or 0) < 8000:
-                continue
-            eligible.append(item)
-        if not eligible:
-            raise ProviderError("GitHub Models catalog has no eligible text model with enough output capacity.")
-        chosen = max(eligible, key=self._model_score)
-        return str(chosen["id"]), chosen
+            if self.free_only and requested not in self.free_model_order:
+                raise ProviderError(f"FREE_ONLY refuses model '{requested}'; choose a verified SambaNova Free Tier model.")
+            if requested not in by_id:
+                raise ProviderError(f"Requested SambaNova model '{requested}' is not active in the current catalog.")
+            return [(requested, by_id[requested])]
+        candidates = [(model_id, by_id[model_id]) for model_id in self.free_model_order if model_id in by_id]
+        if not candidates:
+            raise ProviderError("No verified SambaNova Free Tier model is active in the current catalog.")
+        max_fallbacks = max(0, int(os.getenv("MAX_PROVIDER_FALLBACKS", "2")))
+        return candidates[: max_fallbacks + 1]
 
-    def generate(self, system_prompt: str, user_prompt: str, *, model: str = "auto") -> GenerationResult:
-        selected, details = self.choose_model(model)
-        max_catalog_output = int((details.get("limits") or {}).get("max_output_tokens") or 16000)
+    def _generate_one(self, system_prompt: str, user_prompt: str, selected: str, details: dict[str, Any]) -> GenerationResult:
+        max_catalog_output = int(details.get("max_completion_tokens") or 16000)
         requested_output = int(os.getenv("MAX_OUTPUT_TOKENS", "14000"))
         max_tokens = min(requested_output, max_catalog_output)
         payload = {
@@ -191,22 +165,22 @@ class GitHubModelsProvider(AIProvider):
             "max_tokens": max_tokens,
         }
         result = _json_request(
-            f"{self.base_url}/inference/chat/completions",
+            f"{self.base_url}/chat/completions",
             method="POST",
             token=self.token,
             payload=payload,
-            headers={"X-GitHub-Api-Version": self.api_version},
+            provider_label="SambaNova",
             timeout=180,
         )
         if not isinstance(result, dict):
-            raise ProviderError("GitHub Models inference returned an unexpected response.")
+            raise ProviderError("SambaNova inference returned an unexpected response.")
         try:
             choice = result["choices"][0]
             text = str(choice["message"]["content"] or "").strip()
         except (KeyError, IndexError, TypeError) as error:
-            raise ProviderError("GitHub Models inference response did not contain message content.") from error
+            raise ProviderError("SambaNova inference response did not contain message content.") from error
         if not text:
-            raise ProviderError("GitHub Models returned an empty completion.")
+            raise ProviderError("SambaNova returned an empty completion.")
         return GenerationResult(
             text=text,
             model=selected,
@@ -214,6 +188,18 @@ class GitHubModelsProvider(AIProvider):
             usage=result.get("usage") or {},
             raw=result,
         )
+
+    def generate(self, system_prompt: str, user_prompt: str, *, model: str = "auto") -> GenerationResult:
+        candidates = self.choose_models(model)
+        last_error: ProviderError | None = None
+        for selected, details in candidates:
+            try:
+                return self._generate_one(system_prompt, user_prompt, selected, details)
+            except ProviderError as error:
+                last_error = error
+                if not self.free_only or model != "auto" or not error.retryable:
+                    raise
+        raise ProviderError(f"All configured SambaNova Free Tier models were unavailable: {last_error}")
 
 
 class OpenAIProvider(AIProvider):
@@ -242,6 +228,7 @@ class OpenAIProvider(AIProvider):
                 "max_output_tokens": int(os.getenv("MAX_OUTPUT_TOKENS", "14000")),
             },
             headers={"Accept": "application/json"},
+            provider_label="OpenAI",
             timeout=180,
         )
         if not isinstance(result, dict):
@@ -259,10 +246,14 @@ class OpenAIProvider(AIProvider):
 
 
 def make_provider() -> AIProvider:
-    provider_name = os.getenv("AI_PROVIDER", "github-models").strip().lower()
+    provider_name = os.getenv("AI_PROVIDER", "sambanova").strip().lower()
     free_only = env_bool("FREE_ONLY", True)
-    if provider_name == "github-models":
-        return GitHubModelsProvider(free_only=free_only)
+    if provider_name in {"sambanova", "sambacloud"}:
+        return SambaNovaProvider(free_only=free_only)
     if provider_name == "openai":
         return OpenAIProvider(free_only=free_only)
-    raise ProviderError(f"Unknown AI_PROVIDER '{provider_name}'. Use github-models or an explicit optional provider.")
+    if provider_name in {"github-models", "github"}:
+        raise ProviderError("GitHub Models has been retired; configure AI_PROVIDER=sambanova instead.")
+    if provider_name == "groq":
+        raise ProviderError("Groq is no longer the configured default; use AI_PROVIDER=sambanova instead.")
+    raise ProviderError(f"Unknown AI_PROVIDER '{provider_name}'. Use sambanova or an explicit optional provider.")
