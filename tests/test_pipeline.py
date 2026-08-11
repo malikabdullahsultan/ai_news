@@ -11,7 +11,9 @@ import pytest
 from scripts.providers import ProviderError, SambaNovaProvider, make_provider
 from scripts.report_pipeline import (
     FeedItem,
+    build_system_prompt,
     cluster_items,
+    ensure_report_date_heading,
     parse_feed,
     persist_report,
     report_date_from_utc,
@@ -74,6 +76,33 @@ Today\'s verified evidence explains a useful change in AI systems. """ + ("More 
 - [Official evidence](https://example.com/source)
 """
     assert validate_report(report, date(2026, 8, 12)) == []
+
+
+def test_runtime_prompt_requires_exact_iso_dated_title() -> None:
+    prompt = build_system_prompt("Canonical instructions stay unchanged.", date(2026, 8, 12))
+    assert "# *** The Daily AI Intelligence Report — 2026-08-12***" in prompt
+    assert "Do not convert it to a month-name format" in prompt
+
+
+def test_date_heading_normalizes_model_month_name() -> None:
+    report = """# *** The Daily AI Intelligence Report — August 12, 2026***
+
+## SOURCES
+
+- [Evidence](https://example.com)
+"""
+    normalized = ensure_report_date_heading(report, date(2026, 8, 12))
+    assert normalized.splitlines()[0] == "# *** The Daily AI Intelligence Report — 2026-08-12***"
+    assert "August 12, 2026" not in normalized
+    assert validate_report(normalized, date(2026, 8, 12), minimum_chars=0) == []
+
+
+def test_date_heading_is_added_when_model_omits_title() -> None:
+    report = "# THE 60-SECOND VERSION\n\nOpening paragraph without a title.\n\n## SOURCES\n\n- Evidence"
+    normalized = ensure_report_date_heading(report, date(2026, 8, 12))
+    assert normalized.startswith("# *** The Daily AI Intelligence Report — 2026-08-12***\n\n")
+    assert "# THE 60-SECOND VERSION" in normalized
+    assert ensure_report_date_heading(normalized, date(2026, 8, 12)) == normalized
 
 
 def test_default_provider_requires_no_openai_key(monkeypatch: pytest.MonkeyPatch) -> None:

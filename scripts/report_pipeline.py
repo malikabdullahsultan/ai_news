@@ -323,6 +323,11 @@ def build_system_prompt(canonical_prompt: str, report_date: date) -> str:
 
 The report date is {report_date.isoformat()} in Asia/Hong_Kong. Return only a finished Markdown report, not planning notes, JSON, or a preamble about being an AI.
 
+The first output line must be exactly:
+# *** The Daily AI Intelligence Report — {report_date.isoformat()}***
+
+Keep that ISO `YYYY-MM-DD` date exactly as written. Do not convert it to a month-name format.
+
 The following canonical prompt is trusted application instruction. Preserve its voice, teaching style, skepticism, coverage expectations, and report structure. Do not shorten it into a generic summary.
 
 <CANONICAL_REPORT_PROMPT>
@@ -354,6 +359,22 @@ def _remove_outer_fence(text: str) -> str:
     stripped = text.strip()
     match = re.fullmatch(r"```(?:markdown|md)?\s*\n([\s\S]*?)\n```", stripped, flags=re.IGNORECASE)
     return match.group(1).strip() if match else stripped
+
+
+def ensure_report_date_heading(report: str, report_date: date) -> str:
+    """Deterministically put the required Hong Kong ISO date in the report H1."""
+    required_heading = f"# *** The Daily AI Intelligence Report — {report_date.isoformat()}***"
+    normalized = report.strip()
+    if not normalized:
+        return required_heading
+    lines = normalized.splitlines()
+    for index, line in enumerate(lines):
+        if re.match(r"^#\s+", line):
+            if "Daily AI Intelligence Report" in line:
+                lines[index] = required_heading
+                return "\n".join(lines).strip()
+            break
+    return f"{required_heading}\n\n{normalized}"
 
 
 def _clean_meta(value: str, fallback: str) -> str:
@@ -454,6 +475,7 @@ def run(report_date: date) -> int:
         continuation = provider.continue_report(system_prompt, report, model=result.model)
         report = f"{report.rstrip()}\n\n{_remove_outer_fence(continuation.text)}"
         result = continuation
+    report = ensure_report_date_heading(report, report_date)
     errors = validate_report(report, report_date, secret_values=[os.getenv("SAMBANOVA_API_KEY", ""), os.getenv("OPENAI_API_KEY", "")])
     if errors:
         raise RuntimeError("Report validation failed: " + "; ".join(errors))
