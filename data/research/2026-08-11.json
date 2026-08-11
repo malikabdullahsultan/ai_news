@@ -1,0 +1,945 @@
+{
+  "report_date": "2026-08-11",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-08-11T12:49:17.371338+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/rss/",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Microsoft AI Blog",
+      "url": "https://blogs.microsoft.com/ai/feed/",
+      "status": "error",
+      "error": "HTTP Error 410: Gone"
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5475, column 1125"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "unclosed token: line 5718, column 6"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 158
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 63
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 84
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 314,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Alibaba tests paid AI appetite with US$30 annual QwenWork subscription - South China Morning Post",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T11:30:07+00:00",
+      "summary": "Alibaba tests paid AI appetite with US$30 annual QwenWork subscription South China Morning Post",
+      "claims": [
+        "Alibaba tests paid AI appetite with US$30 annual QwenWork subscription South China Morning Post"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcnJ3QWt1N092NUJ4U2wwX1lTb2RwamhMLVF4S1pVMTR0ZFc2T2JpQUx1Y2RnbllwZjhCYUJhYXEwQ0ozVWZjZmU5NDM0dG85WE5ZY3Q3eGEwdTdhM0pZUnpvcEYybkptbDhSOXpZNThlYW5Tc2k0N2lldXF3VnVrMTJOUmpmcnpZeGZuSXQ5WlJWSUJtMlh5dDlHa2FrQmExMEJiekdOMnVZN1h5WUZjS25vM0VrUdIBtgFBVV95cUxPTFRZSmRndUdrZGpCc2M4RkZweTZhNzlqaW9yYkVndmxVZlFJVl9IYjlEN0h5dVRvcnh0dGtzUEJTYTM4WFkzN3pSQk0wRXRNNW16X2lvWUJYYVdqeTNNZHRSWU9qeG12aHhRdHVVREZBS3FjVXVDc1B4V2F5SmZmX1hNR3lfbko1RWtwclpaZnJUWm1oOUlQOGF3aTZSYkZxTC1SbVEwR3FJNlh1ejBhOVdzcU42QQ?oc=5",
+          "published_at": "2026-08-11T11:30:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Indonesia and Indosat collaborate on an AI supply chain - Indonesia Business Post",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T11:23:02+00:00",
+      "summary": "Indonesia and Indosat collaborate on an AI supply chain Indonesia Business Post",
+      "claims": [
+        "Indonesia and Indosat collaborate on an AI supply chain Indonesia Business Post"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdU9JOWVuY2RYakhNcWdOc2JnNWFXY3AwWmktM0dMdXJzSmtYNFFWc1ZlcGRnOXd4WWFDOVVrNnpLZXk5N1A5YzlGQWZ4X1NiS3FDbTJKVGNSOXN3R2dWNUdSZlpKXy1jYngwUHhaZC1Ib19pTDF6d2duR0pvWTVMTnlDcF93ai1kbnQ5aE8xc3FNaDJubUwtODJldm1VR0pSSk41bHIwRFAwRWxvTHllX293?oc=5",
+          "published_at": "2026-08-11T11:23:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Unique Max Verstappen comparison made in Kimi Antonelli career prediction - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T10:55:00+00:00",
+      "summary": "Unique Max Verstappen comparison made in Kimi Antonelli career prediction racingnews365.com",
+      "claims": [
+        "Unique Max Verstappen comparison made in Kimi Antonelli career prediction racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQk8zTXJObjBMbFdQQmhxUWc2Z0tBQk5mSzRkcFlISXlJNXRycS1uMWtIU0dwUjBoSHQwTWhmVkE4eGhJREFiNHJUOTFrOUo1aWI0YjZ3bE1yTVBrUFJSbDFia1dERXM4amlTNGRfYkljOHN5TmlXZVRrTXFqTklnVGlKNDZYZ0Q5TVh6d2t6WlA1bXFpbElIY1BRTXllTTFC?oc=5",
+          "published_at": "2026-08-11T10:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Tokens to usage: Why cheaper AI still leaves enterprises with bigger bills - Business Standard",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T10:30:54+00:00",
+      "summary": "Tokens to usage: Why cheaper AI still leaves enterprises with bigger bills Business Standard",
+      "claims": [
+        "Tokens to usage: Why cheaper AI still leaves enterprises with bigger bills Business Standard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNTF9WMjdQMU5NazU1cFZHVHhZTF9TMXRLWnBQUE9aWlpWZVo5UVJtQ0hfRTIzN3Jma2Y3cEFTY0hqOF9nZzhnOTlnVkJXc2tBYlBaV3g2Y3REVzcyOE9oNS15Z3FxYlFuQ2pVdWZJTDUycGx6Ulh4ZV91NXBIT0RnNURzeW1qNUI4cmlLR28yNzhvQzlOT3g3RXRDV3NSRC1aSXZ6b3JEQngtWVJCLW5MNVB0UEFSTlJ2M2NzX2Y1UDAxLWdOdERxY0tKY0JQeW9ZUnVUYVladDl3SDQ2WnlhZF9wV3FsbndUcUt5d2pNVm9oMFdwc1FPTTFsa1NpWkJOSW94SG5pTdIBjAJBVV95cUxOdnpZWkU1bXFCczEyOGVDUFJtWGtoWUV0RHhuRXhybHRKNm14QXozcG5PWmFfV1d1UUpZNGhPZWdZNkJ0ajR4SmlzaEgxU1lfVGJKWEMydldRU2YtNDI3eTF4M09ueEs3X1UybFgzTzk5dWpXNDA1RTEzMDhJekxJVzhBYVFNNzIwNFc1SHo3NXhwTTBqc1M0Q0ZMZ2pQTmZER0tGc0dpTEo1YlpzN0pvY294U0RXX3FTUWRPV1BONklsVm9MVnRmMlg0TlhvMFQxZm5DdDBGVnBsbDFqUDdoVkxacFFoU0hqdklOMTZEZC1XczhXSi1OM3JKNTI1bW5HSDVsSHdadV8xNHdB?oc=5",
+          "published_at": "2026-08-11T10:30:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "OpenAI copyright case: the court ruling gave the company relief but doesn’t relieve the AI industry - livemint.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T10:30:01+00:00",
+      "summary": "OpenAI copyright case: the court ruling gave the company relief but doesn’t relieve the AI industry livemint.com",
+      "claims": [
+        "OpenAI copyright case: the court ruling gave the company relief but doesn’t relieve the AI industry livemint.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZVJBY2RxYzlrYzZBWVMzVUIzQ19wN0hoNDFEUkZwV0RaaUlyVnM2aU5MWFNnc0Y2ajBNZ0QtaUIzMlZJUGEzT1FjY3V6RWVCV0tkUWtOckdLY1R0OHJnS0JoM1UzVVpDTjN5d2NEN3VxNVJMNnI3WE1vTVBBcnc3ako2Z3I2QUhra3NDNTJURTRqaGxSYlYta2NiaWlicmxnSWhzUHJua0pUUXRmQ2trMXU1dXlFeHE0MXRzVGlyQ21jTWhsZnFrSWlFMlkzRlpFajRpSjBEeVJnXzA3M2wxMlhCeTlxVTNfcHBR0gHwAUFVX3lxTFBHNDRHeWh2QlhZdF9UZVprVXl4cll3MnJiRE9kdHhWdUU0QUVLMnQ4THZMS1BmV215R3ptTktnbVRnaXZobGFFbE95YlJLVGlTR1VRVklHUE1sMm1sM00yTnBJM0c1eGNheFVZTUJLNS1DdHhWRF9qZ1VyM0Y0WWx0NzlJMUV2TjRoblQzc21DeE9Cbm4xSmJLTlprbWxqOWpPRFN6cG5ZR0dxZzdGN3ctZ1ZsY2N5TG9DU2dDSzNKeDBVa0tPU3VNTllyZWdja0pnWHJhcFpBMzNnSkZfMmNxaHNTaEdRcmZWSlk0WkotOQ?oc=5",
+          "published_at": "2026-08-11T10:30:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "What is Muse Glimmer? Meta’s 30 Billion Parameter AI Model Explained - Jagran Josh",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T10:08:49+00:00",
+      "summary": "What is Muse Glimmer? Meta’s 30 Billion Parameter AI Model Explained Jagran Josh",
+      "claims": [
+        "What is Muse Glimmer? Meta’s 30 Billion Parameter AI Model Explained Jagran Josh"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTlJuNUpZTFNkanVZalpyLXpjR3k1b0lMRkRTT2Y2Y003U1VYNzRsM3FFTXNFaWFSSFNqRk1Oak5JYnVCN0ZvSUhTUVRYbV9pVk9xOWpETGNhcXd5UXZqS3dLd0F4RHQ2YjZaQlR3TERjUW9yMS1tT0pOUjlWTE9lVGFrOVV2ekY1QjF4eDVGZG45Zjh0RGZhNkMzQUVmazZzUGFES1VBRDVTWUZrYlYtQ1BVa1RNR05BQ0pBQ0swVjNjMzk4OXVwVVNxWkpRMGtPbWMwSGpEREVKWHJkQi1vX1JCVFlXU0lISjJmdml30gH0AUFVX3lxTFBkOFk2ZWxGdVJ2ckJsdm9nQXVYNlhHTnc2TDZkNmhKRXA3emUzS0Vqdl8zT2RNc1Zxa09LS2VObkJseHVfRUxUaTB5SW85b1E0RU1iZThXWVBONElZWXVlRjJGSUsxWmNlRDZYVG56dXhSRy1MdHF1REt4VXEtRTRUWkt5Y2hCTUxJUXdwY1VnMG5ISHhLWDNOa3hEdEtwN0pXb21vd292bTJfOUI5R1paTGVEdTU1U25TSm91U3NGZzY5Sy1pZXFMYnlqMzdlT3I1SEVFamdRU1RQLTVjVTRJWUdhQXVqT1hlaGNzR1I5cUNMdE4?oc=5",
+          "published_at": "2026-08-11T10:08:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Olbia, Kimi Antonelli leaves Sardinia: \"I've relaxed, now I'm ready to get back on track.\" - L'Unione Sarda.it",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T10:06:17+00:00",
+      "summary": "Olbia, Kimi Antonelli leaves Sardinia: \"I've relaxed, now I'm ready to get back on track.\" L'Unione Sarda.it",
+      "claims": [
+        "Olbia, Kimi Antonelli leaves Sardinia: \"I've relaxed, now I'm ready to get back on track.\" L'Unione Sarda.it"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZWdnOHRha0lvc0VLVWZldEM4amNNQWQ0UDBfVG5feU1ZTGpzdVlrSkdiODJ4UU90dXZ4ajgtdFFuQW1ORGdDZkFORFNpTUgwTnJjUmF0Rk9xN1QwREIwT2lYcHNNay1XQ19hMU9abndVaTRYSkRjbTFldUVod3VFVXVwN1MtQlBsUjJ6UFBkNnFTTEpXMmtUMm1jdlhOTHNaRGliMGNmMkJmblZBRjNwRmxMbUlkV3EyU1JyNVBRYktKVUVaT01pT2lVVDkzd0dLUmxwVlNycWdLSDAxbVHSAeYBQVVfeXFMTURtb0tCdHlObUhnSmNaZEdvVXFsVTVWUG9laEFHRUw2Y052SWs3cnlpV0pWZkhybWRFNUxiSVhYQ1RNLW1ZU2VZaDNhaWNMVG83OFZXVmtSaVBreDl0U3QycG1lLXQ0cjFrYzU3TkJMMjdPVE95SlRzbklXMC1oSnJsVHNGR3h4ek83eUtZMUtGdGZIdmNaMWlLaVd4SG9IYlNKTm12QkZ0akhHekJ2ejNDcWdPUVNhRVdBSjRVbkNxLU5sT1NReXRzeXpad19KbjdmOE1FWTlNTkZoUTdXRlFUcXNTOXc?oc=5",
+          "published_at": "2026-08-11T10:06:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Gate.io launches pre-market perpetual futures trading for Moonshot AI (KIMI) token - Traders Union",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T10:04:20+00:00",
+      "summary": "Gate.io launches pre-market perpetual futures trading for Moonshot AI (KIMI) token Traders Union",
+      "claims": [
+        "Gate.io launches pre-market perpetual futures trading for Moonshot AI (KIMI) token Traders Union"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb3lUdU9FOWQySm1fSlBGQXozWGhFbHMwdk1LYTNwbzFWcDRDNno2Wjdab0t0N3Y3TmMxZEo3UmdGY2QzMkNfZjdkdzZuejduTFJSQnBGejduaEZpSVdsQVZIS0ItZnFxTG8tSDdwNkdzbzVaYWV3dHFab1ZBYkl6b0dmcWdOWEE0WHBOb21oV24wSEJJVHIxSW5xY24?oc=5",
+          "published_at": "2026-08-11T10:04:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "‘AI a new way of running a bank’: RBI Governor Sanjay Malhotra outlines governance roadmap, flags 7 AI risks - financialexpress.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T09:30:07+00:00",
+      "summary": "‘AI a new way of running a bank’: RBI Governor Sanjay Malhotra outlines governance roadmap, flags 7 AI risks financialexpress.com",
+      "claims": [
+        "‘AI a new way of running a bank’: RBI Governor Sanjay Malhotra outlines governance roadmap, flags 7 AI risks financialexpress.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYUs4eGxSQW1zR2FjNXVPQXNaZXFKTUFzTkNiV1JOQkkyRHNPbUxvbXdXc0FCU29PQi1yc1A0UUhTaXFRcFlRbmVZcTZZRFlFWTVzY2t3NWF1Y2hXVk00ZHlIZVNibXY0YUd2VUZwRGRHRHkyNVJYRnhjZ2N4T0wwUGNpVE9HY0UwZnpCeE01R0pSbGpCUThxNWxHbFFMc3U2R3dRemxOZlpSS2JfMnItYW52UEtIUzIyaUdmSjBFMnZPZWlOYV94V1ViY2JGSlYzSzYzOVl4VHk3dUVtc0xTQ21RbnpwWGltNVZaVDJwMkZ3STZiQUp6b1psRVI0aUdI0gGHAkFVX3lxTE1VQ19rV0N5WWtzRThaaXh2MVVIbFRZUGxQcnhzUi15U3JEdnEzVzkzNTIwR1dKc0hnT0dBSmUtOGVlaDdmczQxaDNQRGx1aWJDMmFWeE5UUi1tTWNJRWJyMFkySVhIU3hJbVBSc2VTNUJNZWQ4b215bU1PRFRiY1M2azM0X3B5RHlqVHphMS1zRHNQdG01bF9nUHJBZmc0WGptLWlUQTVjeEVydnpGLWtOYUhpdlFkX2ZnRUdLUVh3VlNBU2dzdHFhT0szLTRYYW9MdmxpOWY5R3FGT2xlcy1rY2JoR1ZSMGZSY2phbGZiNXJzTlNwVDB2RkZ0VHVqd1Bocmxkc0p3?oc=5",
+          "published_at": "2026-08-11T09:30:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Fraud can outrun conventional bank systems in the AI era, warns SBI's Setty - livemint.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T08:55:18+00:00",
+      "summary": "Fraud can outrun conventional bank systems in the AI era, warns SBI's Setty livemint.com",
+      "claims": [
+        "Fraud can outrun conventional bank systems in the AI era, warns SBI's Setty livemint.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPelR2cXJ6cnlFR2JWWGFFWE54VU8wRVNZNEY5eFpYS1VJUWJqbDdjNUtJMk1aTlNrelJIai02SFoxbXJOTm01VmxKSzEyUlVoSjhyWFFjWHAwdXNpZFZoVTgyLUhwazNkN3BQckh1SnJORWtxR1RBcjc0T2ZMYTNObzdJWnAwNUVnS3JadUZqQkZqZ2pJQlY2YTNjWVNFdjRpa0RGeXFwWExicjJmemtZWkhpc3JHdWJJ0gG-AUFVX3lxTE4xb2JDWmkyQzFrc01JNXVFenVfSWVGWXpBMm0tQ2tORXFvckpiel9iS3hvRFFWcTVoaGFqRzQycE1LZWUwWWVTNi15NlNUX09TUFY1WDlFMElLakk1TjlfazZiRXlrN3VDS1VnYjY4Y1UwYjlyVThjYWE2M25QQWd1YVpwVW9qZXhaVVZsaTBfWU9QRVRpWHNpLVNxWl9qaWE0VnBJZ3JZdDJJMi05VEZRbTJCbTU2ZGk1ejI2ZkE?oc=5",
+          "published_at": "2026-08-11T08:55:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Meta Muse Glimmer Explained: The New AI Model Designed to Run on Your PC - Gizbot",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T08:35:23+00:00",
+      "summary": "Meta Muse Glimmer Explained: The New AI Model Designed to Run on Your PC Gizbot",
+      "claims": [
+        "Meta Muse Glimmer Explained: The New AI Model Designed to Run on Your PC Gizbot"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMzNjOVlpVExRanBvb1hvbDQwbUdhWXdwbGc3cEQzTWVLU0JUQS1SdVJuQUZjUEdVbjVrdEdqem9BQTJERkFJeEgyV3JZY1hNaVVIQ1FETkdNVkNuQ2pKR0R5WG9XeXRVZE5ObS1KVmJINzB1U0NfajNmSmN5MFgyS0o3a0tKT0wyQ2pDNDMxMEVBZFc5RmQ5VExsSXZmdDNybUxRQVJ0U1k0eTBmVVNqYVRmZURSNjNEZ1pJQmp6cFJwUXVW?oc=5",
+          "published_at": "2026-08-11T08:35:23+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Frontlines of the future: AI data centers move in next door - reflector.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T08:30:00+00:00",
+      "summary": "Frontlines of the future: AI data centers move in next door reflector.com",
+      "claims": [
+        "Frontlines of the future: AI data centers move in next door reflector.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQazBraTNCdWpiQzY2Nlp0eFZaT3RhY0pHMnk3WGZaX0U1UUdsTTBDek1CNzEtZkYxUWNNb1JrcW5ZU28xSmdNSFVEMjZHcDd3VWIxWmhZbzBXUjFVal94dWh4dHoxOUdtZ3BpLXQ2dTlmSGZzWUpaSmpEQ3lDQ1dmN2g4Z3I4ZTllLUxTT0MzSmRCekZYOTFqT2tpTzFvRGJFNlVkQnJkRWVhSFhMWG5ETkt6TE9hemd0eWVGcExtRHJYSGxHbzFYb0tXTVBUcEVpb1YzV1Jjc04xVkRE?oc=5",
+          "published_at": "2026-08-11T08:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "'Very aggressive' Kimi Antonelli backed to become like George Russell - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T08:10:00+00:00",
+      "summary": "'Very aggressive' Kimi Antonelli backed to become like George Russell racingnews365.com",
+      "claims": [
+        "'Very aggressive' Kimi Antonelli backed to become like George Russell racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVGVGMGpfSHVvcFJMQlNsb20tSmVmd1NRYm1hLV9pNGZDNkxCUFVHWThzWkEtX25JSTM3YV9pbWY0dEtvMTBsd1JoWmZXbmg0SVBtZWJDSmJyQjRBaGFWcENNbjZDV0RwWFpWc1RoaW9Wcm85OER0NUV1SFVsbmtRVG5nMDRPYkhSM2Z6alpXNHlVeFZlVlVqUA?oc=5",
+          "published_at": "2026-08-11T08:10:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service - AOL.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T08:03:53+00:00",
+      "summary": "Apple says Mac users in China can connect to Alibaba's Qwen AI service AOL.com",
+      "claims": [
+        "Apple says Mac users in China can connect to Alibaba's Qwen AI service AOL.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsS3pIZC1HdW91X0F0enU4ZC1Wa192cXViZUZpRzBvS2NiQjJlNWNFMF8wUnNjNGh1dGhMX2pjNFF6U25yN2xvMXJoSThQRWtaeURkR2t6VmlTQy00dklhTFp3aEdKNHBGeXNTX0ZtMC1tTVdESk5YVDFB?oc=5",
+          "published_at": "2026-08-11T08:03:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek, Unitree Join Forces to Develop Robotics AI Models - thelec.net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T07:47:43+00:00",
+      "summary": "DeepSeek, Unitree Join Forces to Develop Robotics AI Models thelec.net",
+      "claims": [
+        "DeepSeek, Unitree Join Forces to Develop Robotics AI Models thelec.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QOGF6TkZXTTFpSWNNTGVQR24xTWVUazFqWldLVE5yaFpEZmloRVZ2ZjdqRm03S0ZlOV9aeHBSSXZIQjl3SERDemlOSm9rSjFMYVV5bk9YTmJEeTgwM3RrM1NpRGxhdWs?oc=5",
+          "published_at": "2026-08-11T07:47:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "AI maps autism brain network shifts beyond symptoms in South Korea study - CHOSUNBIZ - Chosunbiz",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T07:44:00+00:00",
+      "summary": "AI maps autism brain network shifts beyond symptoms in South Korea study - CHOSUNBIZ Chosunbiz",
+      "claims": [
+        "AI maps autism brain network shifts beyond symptoms in South Korea study - CHOSUNBIZ Chosunbiz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU2JnSkdUYjdDNmtSbEw1NTZuTWFSWDZsSG9MbzZybV9IMWJxUnBLWWtNYjdnZ0xtR0NrX0d2MmMzaWNDS2FMelRiYWJDRTlvbnpVU3hTZHVLTEdGZlVnRUFjeDBjb01vcTRyT29UNUxHNWZpWUp1dHZwalMxd3JzQtIBlAFBVV95cUxPVXU3RVNhY0ZmS0lScmxRdWFqby1wd05GWlJFTXZYajRYSmlnTmpybnRTbENpbjdLeExBWHhKQXJGTjdWaEJjSXM5VHZ4OWNFWUJvN2ota251WlhGZ2ZOcUE0ZU1EcGt6QkVVeDBzallqNjVVbnE4dExSVi1kcV9TQng4YndwdTB5ZHZ3ZklRYUNPYnV0?oc=5",
+          "published_at": "2026-08-11T07:44:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Meta strikes at China’s open AI lead, betting on potential US curbs - South China Morning Post",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T07:30:39+00:00",
+      "summary": "Meta strikes at China’s open AI lead, betting on potential US curbs South China Morning Post",
+      "claims": [
+        "Meta strikes at China’s open AI lead, betting on potential US curbs South China Morning Post"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbFdjcEg1emNZUGVTS1MxZHdFZ1pkWURabzAxSlA5bUtEa00zQlBkZFFOR1B0YmxrdDhaaEFlOVZpbklQM2xfaHd1Y2RRNWlvbmdTZUNWc2R6ZEE1Tm1oeXRsaTVyOVNnN0dQbW5fUXpoUl83X0JJZ1N1SExvaHF5aF9oOTl6OGg3WjVMLUJEUTlCTWZERTVlaks4YVBZVmtQaXVaNndTR3NQU3ZwcUhORG5ZSHlhbnp2LTF4WGljWdIBvwFBVV95cUxQbFdjcEg1emNZUGVTS1MxZHdFZ1pkWURabzAxSlA5bUtEa00zQlBkZFFOR1B0YmxrdDhaaEFlOVZpbklQM2xfaHd1Y2RRNWlvbmdTZUNWc2R6ZEE1Tm1oeXRsaTVyOVNnN0dQbW5fUXpoUl83X0JJZ1N1SExvaHF5aF9oOTl6OGg3WjVMLUJEUTlCTWZERTVlaks4YVBZVmtQaXVaNndTR3NQU3ZwcUhORG5ZSHlhbnp2LTF4WGljWQ?oc=5",
+          "published_at": "2026-08-11T07:30:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "\"AI Chatbot Keeps Calling Users by Nicknames\"... DeepSeek Explains - 아시아경제",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T07:29:54+00:00",
+      "summary": "\"AI Chatbot Keeps Calling Users by Nicknames\"... DeepSeek Explains 아시아경제",
+      "claims": [
+        "\"AI Chatbot Keeps Calling Users by Nicknames\"... DeepSeek Explains 아시아경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56NEkyOVl1LVJKQXVZakhEeW5USk5xeDlfY0k5LW9xYXhVZmotS2hQTHNUVTJjVkpuSnlCNEJzNlV2RXNQbkFjVnJOdWdidlBBVHZJLW1OZXo2QVV0MVlrQzhienhpMkxaTFUwbnZYVEdsSEhVbzU4?oc=5",
+          "published_at": "2026-08-11T07:29:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Supercomputer predicts Kimi Antonelli to beat Lewis Hamilton to 2026 Formula 1 title - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T07:25:40+00:00",
+      "summary": "Supercomputer predicts Kimi Antonelli to beat Lewis Hamilton to 2026 Formula 1 title grandprix247",
+      "claims": [
+        "Supercomputer predicts Kimi Antonelli to beat Lewis Hamilton to 2026 Formula 1 title grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS09iTXJnYm4taGMtb2pfaXZ1VXlZWHRIbWpiSnptUy1pVUJsNmFzdWtRX0cwcHJSR0ZqS3pnT3c4SEVlMWhFWEJ1d2QxQjJBbHVidjlldjJyZWVGQU5pNHpZMWhLbUNGWC10QmtDWEw2RUttTG5pWVNFNjUwbTQyYzBNUTdIeUNha3UwYzVoT1duRThlSHpqa1pVZ1pTbkI2NnctTEtkS1FfenVwMmtldkZRQ0hsZWJCR1lLbDNwMjk4WGZSZUhr?oc=5",
+          "published_at": "2026-08-11T07:25:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Top 3 Free China AI Models That Could Beat ChatGPT, Gemini and Claude - Memeburn",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T07:20:54+00:00",
+      "summary": "Top 3 Free China AI Models That Could Beat ChatGPT, Gemini and Claude Memeburn",
+      "claims": [
+        "Top 3 Free China AI Models That Could Beat ChatGPT, Gemini and Claude Memeburn"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZV9NSkVqUGJ2aEcxeHhFUGpudmtYTjk2THJFOFVYaDBoYWdiS2xFYmdPaXlLQkNreWRMU3EyMUZvaHV6M0U1OS14M1BDcWl2SUotTXNCNkNiRTBiLU5XLUlrbGtkbUZ5M1RFX0swS2VvQ0xkTEZiWFZjUm05N0s2N2RsQmNNNTVETkczQWZNUGRvQmln?oc=5",
+          "published_at": "2026-08-11T07:20:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Qwen3.8 Max Debuts With 2.4 Trillion Parameters, Trailing Only Fable 5 - Yellow.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T07:17:02+00:00",
+      "summary": "Qwen3.8 Max Debuts With 2.4 Trillion Parameters, Trailing Only Fable 5 Yellow.com",
+      "claims": [
+        "Qwen3.8 Max Debuts With 2.4 Trillion Parameters, Trailing Only Fable 5 Yellow.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ubWNHSGpRNE1PRDFfSG1oNWlEWEcwdjVHVEpjMXJxc0tFT3dSdUEyRFBOSFMxZk8tcWVfeHlKMFNCT1FSTndaVkpHX3A5Zkx4dEdjY2NvWTNXRmdwRU9JWURSTFlQYWFsb1JFWUlyYVFLTjhsU3ZfMw?oc=5",
+          "published_at": "2026-08-11T07:17:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Verstappen and Antonelli flagged as reasons behind Russell’s 2026 struggles - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-11T07:13:40+00:00",
+      "summary": "Verstappen and Antonelli flagged as reasons behind Russell’s 2026 struggles GPblog",
+      "claims": [
+        "Verstappen and Antonelli flagged as reasons behind Russell’s 2026 struggles GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdDdCZTU5aEhLOHN3V0hSM3RQWVlrc3dGSWVxek5SN0ZIMHYyTVg2QXh6bE9mOUcxY1gzRjRHOWtoT0NTdC1fbDlOMVc4YUg5NVVzUTJxWmIzYXBBTUE1OGZiamtlSm1VMDVyMHF1UURJX1F1NlFVUkVIVnZGZFB0Mi1FQ1haT1U2RzhYYW9nRVpFeDFfN1RrdXpLTHhjb3ZCcTFRRGhhd1ZnM28?oc=5",
+          "published_at": "2026-08-11T07:13:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mark Zuckerberg bats for distillation, open AI models in 6,500 word AI manifesto: 7 key takeaways - Moneycontrol.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T07:12:01+00:00",
+      "summary": "Mark Zuckerberg bats for distillation, open AI models in 6,500 word AI manifesto: 7 key takeaways Moneycontrol.com",
+      "claims": [
+        "Mark Zuckerberg bats for distillation, open AI models in 6,500 word AI manifesto: 7 key takeaways Moneycontrol.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOX0tyd2FmU2p0d2ZfQTlPNExWNTllTHptbG9DbjJlWlR5Vm5INlpKSGNnUUt6UnRTLTZCVlp3TUJrNHZxMFd0azk4MF9hUkx3NDlpVzJUbTZGQ2NpTjU3TzlyQUVCYXRJajRVVjdIRHdDRU1vYWJiUlhZeThmbmc4S2pBSmRwYzk3eW44NmZRT0YzZEY1RnVZdFY5cHJSY3dJWU94cHlIVFRWbzIwOXVCY29rUkY0T3JCb1lyVmpXeFVKdzhoUk1YcWQzX0pIVjNROGJtNmVwQ01PRklwZERYNWMteHBOanNzUGF6UUcxNDhRWUh4ZEJQZlRQczlqdEXSAYQCQVVfeXFMTlpOTTdWMFpnU2pBU0JnYjE3czRqZVVYNVFMM2V6aW9lN1FZU3NaeFFNT3NCbWRVUUFUb2U5YzFPOFh3bkxrOW1KWEdRR1pmQ01VTUplZHpvLXVINzdKanZKQkpySkx3Z0U4U0d5S1ZLaXBhWURXT04yTmVVc3d4cEN5ZW0tNm9QZjdCcjRWcmsteHA1U0FzaDkxSUpqNXoxcGtzcEpuajVCMzYteE9uM1lrZUhTZWJ0eGRIdXhmVUJQeXVPR21mN21sQ1JzdUhiT1pfcHNWY0JNVXB0eEprVnJiVi1FUmJPVk50bHJHOWJLT2huZjF5dnRwd3dncWMwYmNkMEE?oc=5",
+          "published_at": "2026-08-11T07:12:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "As generative artificial intelligence (AI) technology permeates the entire financial industry, FinTe.. - 매일경제",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-11T07:10:14+00:00",
+      "summary": "As generative artificial intelligence (AI) technology permeates the entire financial industry, FinTe.. 매일경제",
+      "claims": [
+        "As generative artificial intelligence (AI) technology permeates the entire financial industry, FinTe.. 매일경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PN0lqcUNvSmJoNWdabmlMQzBCd0ZLNV9uWmRpWnMzWENfRkdRbTEzaTFkcnlmdWJTWXZ2bXR0VFlXbHpMZnJaaWJaV3g5RTVCVFFnb1drM1FyRlJB?oc=5",
+          "published_at": "2026-08-11T07:10:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
