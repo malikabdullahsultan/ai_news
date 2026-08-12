@@ -211,7 +211,12 @@ def test_dry_run_and_static_build() -> None:
     assert (ROOT / "dist" / "latest" / "index.html").exists()
     assert (ROOT / "dist" / "archive" / "index.html").exists()
     assert (ROOT / "dist" / "search" / "index.html").exists()
-    assert "DEMO MODE" in (ROOT / "dist" / "index.html").read_text(encoding="utf-8")
+    home = (ROOT / "dist" / "index.html").read_text(encoding="utf-8")
+    production_reports = list((ROOT / "reports").rglob("*.md"))
+    assert ("DEMO MODE" not in home) if production_reports else ("DEMO MODE" in home)
+    assert 'href="/ai_news/latest/"' in home
+    assert 'href="/ai_news/archive/"' in home
+    assert 'href="/ai_news/search/"' in home
 
 
 def test_production_archive_latest_and_search_index() -> None:

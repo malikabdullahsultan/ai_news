@@ -3,6 +3,19 @@
   const storedTheme = localStorage.getItem('daily-ai-theme');
   if (storedTheme) root.dataset.theme = storedTheme;
 
+  const revealItems = [...document.querySelectorAll('[data-reveal]')];
+  if (revealItems.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    root.classList.add('reveal-ready');
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+    requestAnimationFrame(() => revealItems.forEach(item => revealObserver.observe(item)));
+  }
+
   const themes = ['system', 'dark', 'light'];
   document.querySelectorAll('[data-theme-toggle]').forEach(button => {
     button.addEventListener('click', () => {
@@ -11,6 +24,7 @@
       root.dataset.theme = next;
       localStorage.setItem('daily-ai-theme', next);
       button.title = `Theme: ${next}`;
+      button.setAttribute('aria-label', `Change color theme. Current theme: ${next}`);
     });
   });
 
@@ -33,6 +47,8 @@
   const status = document.querySelector('[data-search-status]');
   if (searchInput && searchResults) {
     let index = [];
+    const initialQuery = new URLSearchParams(window.location.search).get('q');
+    if (initialQuery) searchInput.value = initialQuery;
     const render = () => {
       const query = searchInput.value.trim().toLowerCase();
       const matches = query ? index.filter(item => `${item.title} ${item.subtitle} ${item.excerpt}`.toLowerCase().includes(query)) : index.slice(0, 8);
