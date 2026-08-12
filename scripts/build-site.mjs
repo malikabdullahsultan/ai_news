@@ -402,7 +402,6 @@ await fs.mkdir(DIST, { recursive: true });
 await writeFile('assets/site.css', await fs.readFile(path.join(ROOT, 'src', 'styles', 'site.css'), 'utf8'));
 await writeFile('assets/client.js', await fs.readFile(path.join(ROOT, 'src', 'client.js'), 'utf8'));
 await writeFile('favicon.svg', await fs.readFile(path.join(ROOT, 'public', 'favicon.svg'), 'utf8'));
-await writeFile('CNAME', await fs.readFile(path.join(ROOT, 'CNAME'), 'utf8'));
 await writeFile('index.json', JSON.stringify(reports.map(report => ({ date: report.date, title: report.title, subtitle: report.subtitle, url: report.url, excerpt: report.excerpt, words: report.words })), null, 2));
 
 await writeFile('index.html', siteShell({ title: SITE_CONFIG.siteName, description: SITE_CONFIG.tagline, body: homeBody(reports, latest, demo), active: 'home', demo }));
