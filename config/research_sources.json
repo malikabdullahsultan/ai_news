@@ -9,14 +9,6 @@
       "topics": ["models", "agents", "coding", "research"]
     },
     {
-      "name": "Anthropic News",
-      "organization": "Anthropic",
-      "region": "US",
-      "kind": "official",
-      "url": "https://www.anthropic.com/news/rss.xml",
-      "topics": ["models", "agents", "safety", "coding"]
-    },
-    {
       "name": "Google AI Blog",
       "organization": "Google DeepMind",
       "region": "US",
@@ -31,22 +23,6 @@
       "kind": "official",
       "url": "https://research.google/blog/rss/",
       "topics": ["research", "science", "robotics"]
-    },
-    {
-      "name": "Meta AI Blog",
-      "organization": "Meta AI",
-      "region": "US",
-      "kind": "official",
-      "url": "https://ai.meta.com/blog/rss/",
-      "topics": ["Llama", "open-source", "research"]
-    },
-    {
-      "name": "Microsoft AI Blog",
-      "organization": "Microsoft",
-      "region": "US",
-      "kind": "official",
-      "url": "https://blogs.microsoft.com/ai/feed/",
-      "topics": ["Copilot", "agents", "models"]
     },
     {
       "name": "NVIDIA Technical Blog",

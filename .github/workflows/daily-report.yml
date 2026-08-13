@@ -4,7 +4,15 @@ on:
   schedule:
     # 03:30 Asia/Hong_Kong is 19:30 UTC on the previous UTC date.
     - cron: '30 19 * * *'
+    # Idempotent retries protect against delayed schedules, feed timeouts, and free-tier outages.
+    - cron: '30 22 * * *'
+    - cron: '30 1 * * *'
   workflow_dispatch:
+    inputs:
+      report_date:
+        description: 'Optional Hong Kong report date to backfill (YYYY-MM-DD)'
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -30,6 +38,7 @@ jobs:
       MAX_PROVIDER_FALLBACKS: '2'
       MAX_OUTPUT_TOKENS: '14000'
       SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
+      REPORT_DATE_OVERRIDE: ${{ inputs.report_date }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -42,7 +51,12 @@ jobs:
           python-version: '3.12'
 
       - name: Generate and validate report with SambaNova Free Tier
-        run: python scripts/report_pipeline.py
+        run: |
+          if [ -n "$REPORT_DATE_OVERRIDE" ]; then
+            python scripts/report_pipeline.py --date "$REPORT_DATE_OVERRIDE"
+          else
+            python scripts/report_pipeline.py
+          fi
 
       - name: Upload redacted generated Markdown for debugging
         if: always()

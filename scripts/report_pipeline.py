@@ -247,6 +247,43 @@ def _unique_sources(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return unique
 
 
+def select_candidate_stories(clusters: list[dict[str, Any]], max_items: int) -> list[dict[str, Any]]:
+    """Keep a useful mix of official, research, and discovery coverage."""
+    if max_items <= 0:
+        return []
+
+    def has_kind(story: dict[str, Any], kind: str) -> bool:
+        return any(source.get("kind") == kind for source in story.get("primary_sources", []))
+
+    official = [story for story in clusters if has_kind(story, "official")]
+    research = [story for story in clusters if has_kind(story, "research")]
+    watched = [
+        story for story in clusters
+        if not story.get("primary_sources") and story.get("watchlist_matches")
+    ]
+    discovery = [story for story in clusters if not story.get("primary_sources")]
+    selected: list[dict[str, Any]] = []
+
+    def add(stories: list[dict[str, Any]], limit: int) -> None:
+        for story in stories:
+            if len(selected) >= max_items or limit <= 0:
+                return
+            if story in selected:
+                continue
+            selected.append(story)
+            limit -= 1
+
+    official_quota = max(1, max_items // 3)
+    research_quota = max(1, max_items // 3)
+    watched_quota = max(1, max_items - official_quota - research_quota)
+    add(official, official_quota)
+    add(research, research_quota)
+    add(watched, watched_quota)
+    add(discovery, max_items - len(selected))
+    add(clusters, max_items - len(selected))
+    return selected[:max_items]
+
+
 def collect_research(report_date: date, config: dict[str, Any], *, now: datetime | None = None) -> dict[str, Any]:
     local_now = now or datetime.now(timezone.utc)
     if local_now.tzinfo is None:
@@ -269,7 +306,7 @@ def collect_research(report_date: date, config: dict[str, Any], *, now: datetime
     combined_watchlist = {"global": list(watchlist.get("global", [])), "china": list(watchlist.get("china", []))}
     clusters = cluster_items(items, combined_watchlist)
     max_items = int(os.getenv("MAX_RESEARCH_ITEMS", "24"))
-    clusters = clusters[:max_items]
+    clusters = select_candidate_stories(clusters, max_items)
     successful = sum(1 for status in statuses if status.get("status") == "ok")
     return {
         "report_date": report_date.isoformat(),
@@ -387,6 +424,177 @@ def ensure_report_date_heading(report: str, report_date: date) -> str:
     return f"{required_heading}\n\n{normalized}"
 
 
+def _markdown_text(value: str, fallback: str = "Untitled AI development") -> str:
+    cleaned = _clean_text(value, 900).replace("[", "(").replace("]", ")")
+    return cleaned or fallback
+
+
+def _story_sources(story: dict[str, Any]) -> list[dict[str, Any]]:
+    return _unique_sources([
+        *story.get("primary_sources", []),
+        *story.get("secondary_sources", []),
+        *story.get("creator_sources", []),
+    ])
+
+
+def calculate_importance_rating(research: dict[str, Any]) -> int:
+    """Return a stable 1–5 rating based only on collected evidence quality and reach."""
+    stories = list(research.get("stories", []))
+    official = sum(
+        1 for story in stories
+        if any(source.get("kind") == "official" for source in story.get("primary_sources", []))
+    )
+    watched = sum(1 for story in stories if story.get("watchlist_matches"))
+    multi_source = any(len(_story_sources(story)) > 1 for story in stories)
+    rating = 1
+    if len(stories) >= 3:
+        rating += 1
+    if official:
+        rating += 1
+    if watched >= 2:
+        rating += 1
+    if multi_source or int(research.get("successful_source_count", 0)) >= 8:
+        rating += 1
+    return max(1, min(5, rating))
+
+
+def build_evidence_fallback_report(report_date: date, research: dict[str, Any]) -> str:
+    """Create a conservative report when the AI provider is unavailable or invalid."""
+    stories = list(research.get("stories", []))
+    if not stories:
+        statuses = list(research.get("source_status", []))
+        attempted = len(statuses)
+        lines = [
+            f"# *** The Daily AI Intelligence Report — {report_date.isoformat()}***",
+            "",
+            "**Source availability incident — today’s monitored feeds returned no usable evidence, so no AI claims are being asserted.**",
+            "",
+            "> **Evidence-only resilient edition.** The research layer could not collect a usable story. This briefing records the outage transparently instead of leaving a missing date or manufacturing a news summary.",
+            "",
+            "---",
+            "",
+            "## ⚡ THE 60-SECOND VERSION",
+            "",
+            f"- The pipeline attempted {attempted} configured source feeds and collected no publishable evidence.",
+            "- No model release, benchmark, product announcement, funding event, policy change, or market claim is asserted in this edition.",
+            "- Scheduled retries can replace a transient execution failure before publication, while the dated archive remains complete and auditable.",
+            "- Readers should use the previous verified briefing for context and wait for primary-source confirmation before acting on same-day rumors.",
+            "",
+            "---",
+            "",
+            "## SOURCE AVAILABILITY INCIDENT",
+            "",
+            "The normal research pass completed without a usable candidate story. That can happen when upstream feeds time out together, change endpoint format, rate-limit automated checks, or publish nothing inside the configured collection window. Because the evidence ledger is empty, a normal synthesis would create an unacceptable risk of invented details.",
+            "",
+            "This status edition is the safety mechanism: it preserves the Hong Kong calendar date, makes the lack of evidence visible, and gives the next scheduled retry an idempotent target. It is not evidence that no AI activity occurred; it means only that this pipeline could not verify activity from its configured inputs during this run.",
+            "",
+            "## WHAT READERS SHOULD DO",
+            "",
+            "1. Treat unsourced same-day claims as unverified until an official announcement, paper, repository, regulatory filing, or reproducible benchmark appears.",
+            "2. Check the next daily briefing for recovered source coverage and any developments that can then be supported by direct links.",
+            "3. Use the archive as an audit trail: a clearly labeled availability incident is more trustworthy than a silently missing report or a confident summary built without evidence.",
+            "",
+            "## METHODOLOGY NOTE",
+            "",
+            "The generator publishes factual story summaries only when its collected ledger contains usable feed items. When all inputs fail, it produces this deterministic status report, assigns the lowest importance rating, records source health in the research artifact, and avoids calling unavailable evidence a news event.",
+            "",
+            "## SOURCES",
+            "",
+        ]
+        unavailable = [status for status in statuses if status.get("url")]
+        if unavailable:
+            for status in unavailable:
+                label = _markdown_text(status.get("name", "Configured feed"))
+                lines.append(f"- [{label}]({status.get('url')}) — attempted by the pipeline; no usable items were collected in this run")
+        else:
+            lines.append("- No configured feed endpoint was available to cite in this run.")
+        return "\n".join(lines).strip()
+    featured = stories[: min(7, len(stories))]
+    lead = _markdown_text(featured[0].get("title", ""))
+    rating = calculate_importance_rating(research)
+    lines = [
+        f"# *** The Daily AI Intelligence Report — {report_date.isoformat()}***",
+        "",
+        f"**{lead} — plus the strongest verified signals from today’s research window.**",
+        "",
+        "> **Evidence-only resilient edition.** The normal synthesis service was unavailable, so this briefing was built directly from the collected source ledger. It intentionally avoids claims that were not present in the feeds.",
+        "",
+        "---",
+        "",
+        "## ⚡ THE 60-SECOND VERSION",
+        "",
+    ]
+    for story in featured[:5]:
+        sources = _story_sources(story)
+        title = _markdown_text(story.get("title", ""))
+        if sources:
+            lines.append(f"- [{title}]({sources[0].get('url', '#')})")
+        else:
+            lines.append(f"- {title}")
+
+    lines.extend([
+        "",
+        "---",
+        "",
+        "## TODAY’S EVIDENCE LEDGER",
+        "",
+        f"**Importance rating:** {rating}/5. **Coverage:** {research.get('successful_source_count', 0)} responding feeds, {research.get('raw_item_count', 0)} recent items, and {research.get('candidate_story_count', len(stories))} selected candidate stories.",
+        "",
+    ])
+    for index, story in enumerate(featured, 1):
+        title = _markdown_text(story.get("title", ""))
+        summary = _markdown_text(story.get("summary", ""), title)
+        sources = _story_sources(story)
+        primary = bool(story.get("primary_sources"))
+        evidence_label = "PRIMARY / HIGH CONFIDENCE" if primary else "DISCOVERY / NEEDS PRIMARY CONFIRMATION"
+        source_text = ", ".join(
+            f"[{_markdown_text(source.get('name', 'Source'))}]({source.get('url', '#')})"
+            for source in sources[:3]
+        ) or "No usable source link was captured."
+        topics = ", ".join(_markdown_text(str(topic)) for topic in story.get("topics", [])[:5]) or "AI"
+        lines.extend([
+            f"### {index}. {title}",
+            "",
+            f"**What the feed says:** {summary}",
+            "",
+            f"**Evidence status:** {evidence_label}. {'This came from an official or research feed.' if primary else 'This headline arrived through discovery coverage; its details should remain provisional until a primary source appears.'}",
+            "",
+            f"**Why it is on the desk:** It intersects today’s monitored areas: {topics}. The practical next step is to watch for primary documentation, independent testing, pricing details, or deployment evidence.",
+            "",
+            f"**Sources:** {source_text}",
+            "",
+        ])
+
+    lines.extend([
+        "---",
+        "",
+        "## WHAT TO WATCH NEXT",
+        "",
+        "1. Whether discovery-only headlines gain an official announcement, model card, paper, repository, or reproducible benchmark.",
+        "2. Whether performance and price claims hold up under independent measurement rather than launch-day comparisons.",
+        "3. Whether any announced capability becomes available to ordinary developers instead of remaining a controlled demo.",
+        "",
+        "## METHODOLOGY NOTE",
+        "",
+        "This edition is deliberately conservative. It uses the same collected RSS evidence as the normal report, keeps source provenance visible, labels discovery-only coverage as provisional, and does not invent missing technical details. A resilient edition is preferable to a silent gap in the archive.",
+        "",
+        "## SOURCES",
+        "",
+    ])
+    seen_urls: set[str] = set()
+    for story in featured:
+        for source in _story_sources(story):
+            url = str(source.get("url", ""))
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            label = _markdown_text(source.get("name", "Source"))
+            organization = _markdown_text(source.get("organization", "Unknown organization"))
+            kind = _markdown_text(source.get("kind", "source"))
+            lines.append(f"- [{label}]({url}) — {organization}; {kind}")
+    return "\n".join(lines).strip()
+
+
 def _clean_meta(value: str, fallback: str) -> str:
     value = re.sub(r"[`*_#]", "", value).replace('"', "'").strip()
     return (value or fallback)[:220]
@@ -484,7 +692,7 @@ def validate_report(report: str, report_date: date, *, secret_values: list[str] 
     return errors
 
 
-def frontmatter(report_date: date, subtitle: str, generated_at: str, model: str) -> str:
+def frontmatter(report_date: date, subtitle: str, generated_at: str, model: str, importance: int = 3) -> str:
     return "\n".join([
         "---",
         f"date: {report_date.isoformat()}",
@@ -493,17 +701,18 @@ def frontmatter(report_date: date, subtitle: str, generated_at: str, model: str)
         f'generated_at: "{generated_at}"',
         f'timezone: "{os.getenv("TIMEZONE", DEFAULT_TZ)}"',
         f'model: "{model.replace(chr(34), chr(39))}"',
+        f"importance: {max(1, min(5, int(importance)))}",
         "---",
         "",
     ])
 
 
-def persist_report(report_date: date, body: str, result: GenerationResult) -> Path:
+def persist_report(report_date: date, body: str, result: GenerationResult, *, importance: int = 3) -> Path:
     destination = REPORTS_PATH / report_date.strftime("%Y") / report_date.strftime("%m") / f"{report_date.isoformat()}.md"
     destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.exists():
         raise RuntimeError(f"Refusing to overwrite existing report: {destination}")
-    value = f"{frontmatter(report_date, extract_subtitle(body), datetime.now(timezone.utc).isoformat(), result.model)}{body.strip()}\n"
+    value = f"{frontmatter(report_date, extract_subtitle(body), datetime.now(timezone.utc).isoformat(), result.model, importance)}{body.strip()}\n"
     with destination.open("x", encoding="utf-8") as handle:
         handle.write(value)
     return destination
@@ -522,40 +731,65 @@ def dry_run(report_date: date) -> int:
 
 
 def run(report_date: date) -> int:
+    existing = REPORTS_PATH / report_date.strftime("%Y") / report_date.strftime("%m") / f"{report_date.isoformat()}.md"
+    if existing.exists():
+        log(f"report already exists; retry is a no-op: {existing.relative_to(ROOT)}")
+        return 0
     config = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
     research = collect_research(report_date, config)
     write_json(RESEARCH_PATH / f"{report_date.isoformat()}.json", research)
-    if research["successful_source_count"] == 0:
-        raise RuntimeError("All configured research sources failed; refusing to synthesize a report without evidence.")
     canonical_prompt = read_prompt()
     continuity_days = int(os.getenv("RECENT_REPORT_CONTEXT_DAYS", "3"))
     system_prompt = build_system_prompt(canonical_prompt, report_date)
     user_prompt = build_user_prompt(report_date, research, recent_continuity(report_date, continuity_days))
-    provider = make_provider()
-    requested_model = os.getenv("AI_MODEL", "auto")
-    log(f"provider={provider.name} model_request={requested_model} free_only={env_bool('FREE_ONLY', True)}")
-    result = provider.generate(system_prompt, user_prompt, model=requested_model)
-    report = _remove_outer_fence(result.text)
     max_continuations = int(os.getenv("MAX_CONTINUATIONS", "2"))
     continuation_count = 0
-    while result.finish_reason in {"length", "max_tokens"} and continuation_count < max_continuations:
-        continuation_count += 1
-        log(f"output reached provider limit; requesting continuation {continuation_count}/{max_continuations}")
-        continuation = provider.continue_report(system_prompt, report, model=result.model)
-        report = f"{report.rstrip()}\n\n{_remove_outer_fence(continuation.text)}"
-        result = continuation
-    report = ensure_report_date_heading(report, report_date)
     secret_values = [os.getenv("SAMBANOVA_API_KEY", ""), os.getenv("OPENAI_API_KEY", "")]
+    provider_name = "evidence-fallback"
+    fallback_reason = ""
+    try:
+        if research["successful_source_count"] == 0 or not research.get("stories"):
+            raise ProviderError("No usable feed evidence was collected; publishing a transparent source-availability edition.")
+        provider = make_provider()
+        requested_model = os.getenv("AI_MODEL", "auto")
+        provider_name = provider.name
+        log(f"provider={provider.name} model_request={requested_model} free_only={env_bool('FREE_ONLY', True)}")
+        result = provider.generate(system_prompt, user_prompt, model=requested_model)
+        report = _remove_outer_fence(result.text)
+        while result.finish_reason in {"length", "max_tokens"} and continuation_count < max_continuations:
+            continuation_count += 1
+            log(f"output reached provider limit; requesting continuation {continuation_count}/{max_continuations}")
+            continuation = provider.continue_report(system_prompt, report, model=result.model)
+            report = f"{report.rstrip()}\n\n{_remove_outer_fence(continuation.text)}"
+            result = continuation
+        report = ensure_report_date_heading(report, report_date)
+        provider_errors = validate_report(report, report_date, secret_values=secret_values)
+        if provider_errors:
+            raise ProviderError("Generated report did not pass validation: " + "; ".join(provider_errors))
+    except ProviderError as error:
+        fallback_reason = str(error)[:500]
+        provider_name = "evidence-fallback"
+        continuation_count = 0
+        log(f"AI synthesis unavailable; creating evidence-only resilient edition: {fallback_reason}")
+        report = build_evidence_fallback_report(report_date, research)
+        result = GenerationResult(
+            text=report,
+            model="deterministic-evidence-fallback",
+            usage={"fallback": True},
+        )
     errors = validate_report(report, report_date, secret_values=secret_values)
     debug_path = write_debug_report(report_date, report, errors, secret_values=secret_values)
     log(f"redacted generated-report artifact prepared: {debug_path.relative_to(ROOT)}")
     if errors:
         raise RuntimeError("Report validation failed: " + "; ".join(errors))
-    destination = persist_report(report_date, report, result)
+    importance = calculate_importance_rating(research)
+    destination = persist_report(report_date, report, result, importance=importance)
     write_json(META_PATH / f"{report_date.isoformat()}.json", {
         "report_date": report_date.isoformat(),
-        "provider": provider.name,
+        "provider": provider_name,
         "model": result.model,
+        "importance": importance,
+        "fallback_reason": fallback_reason,
         "continuations": continuation_count,
         "usage": result.usage,
         "generated_at": datetime.now(timezone.utc).isoformat(),

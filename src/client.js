@@ -55,7 +55,8 @@
       if (status) status.textContent = query ? `${matches.length} result${matches.length === 1 ? '' : 's'} for “${query}”` : `${index.length} reports indexed · showing the newest first`;
       searchResults.innerHTML = matches.length ? matches.map(item => {
         const text = query ? highlight(item.excerpt, query) : escapeHtml(item.excerpt);
-        return `<a class="search-result" href="${item.url}"><div class="search-result-meta"><span>${escapeHtml(item.date)}</span><span>·</span><span>${item.words ? `${item.words} words` : 'report'}</span></div><h2>${highlight(item.subtitle || item.title, query)}</h2><p>${text}</p></a>`;
+        const importance = Math.max(1, Math.min(5, Number(item.importance) || 3));
+        return `<a class="search-result importance-${importance}" href="${item.url}"><div class="search-result-top"><div class="search-result-meta"><span>${escapeHtml(item.date)}</span><span>·</span><span>${item.words ? `${item.words} words` : 'report'}</span></div><span class="importance-badge importance-${importance} is-compact" aria-label="Importance ${importance} out of 5"><span class="importance-star" aria-hidden="true"><i></i></span><span class="importance-copy"><small>IMPORTANCE</small><strong>${importance}/5</strong></span></span></div><h2>${highlight(item.subtitle || item.title, query)}</h2><p>${text}</p></a>`;
       }).join('') : '<div class="empty-state"><span class="empty-icon">⌁</span><h3>No matching signal.</h3><p>Try a company, model, or concept from the daily reports.</p></div>';
     };
     fetch(`${window.DAILY_AI_BASE}index.json`).then(response => response.json()).then(data => { index = data; render(); }).catch(() => { if (status) status.textContent = 'The archive index could not be loaded.'; });

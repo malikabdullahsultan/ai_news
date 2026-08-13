@@ -11,7 +11,9 @@ import pytest
 from scripts.providers import ProviderError, SambaNovaProvider, make_provider
 from scripts.report_pipeline import (
     FeedItem,
+    build_evidence_fallback_report,
     build_system_prompt,
+    calculate_importance_rating,
     cluster_items,
     ensure_report_date_heading,
     parse_feed,
@@ -19,6 +21,7 @@ from scripts.report_pipeline import (
     redact_report_for_debug,
     report_date_from_utc,
     report_date_for,
+    select_candidate_stories,
     validate_report,
     write_debug_report,
 )
@@ -57,6 +60,158 @@ def test_duplicate_coverage_becomes_one_story() -> None:
     assert len(stories[0]["primary_sources"]) == 1
     assert len(stories[0]["secondary_sources"]) == 1
     assert "china" in stories[0]["watchlist_matches"]
+
+
+def sample_research() -> dict:
+    official_source = {
+        "name": "Official Lab",
+        "organization": "Official Lab",
+        "region": "Global",
+        "kind": "official",
+        "url": "https://example.com/official",
+        "published_at": "2026-08-13T01:00:00+00:00",
+    }
+    research_source = {
+        "name": "Research Feed",
+        "organization": "Research Lab",
+        "region": "Global",
+        "kind": "research",
+        "url": "https://example.com/paper",
+        "published_at": "2026-08-13T02:00:00+00:00",
+    }
+    discovery_source = {
+        "name": "Discovery Feed",
+        "organization": "News Index",
+        "region": "China",
+        "kind": "discovery",
+        "url": "https://example.com/discovery",
+        "published_at": "2026-08-13T03:00:00+00:00",
+    }
+
+    def story(title: str, source: dict, *, watched: bool = False) -> dict:
+        primary = [source] if source["kind"] in {"official", "research"} else []
+        secondary = [source] if source["kind"] == "discovery" else []
+        return {
+            "title": title,
+            "summary": f"Evidence summary for {title} with enough detail to explain why the item belongs in the daily briefing.",
+            "topics": ["models", "research"],
+            "primary_sources": primary,
+            "secondary_sources": secondary,
+            "creator_sources": [],
+            "watchlist_matches": ["china"] if watched else [],
+        }
+
+    return {
+        "successful_source_count": 8,
+        "raw_item_count": 42,
+        "candidate_story_count": 3,
+        "stories": [
+            story("Official model release", official_source, watched=True),
+            story("New research result", research_source),
+            story("China market signal", discovery_source, watched=True),
+        ],
+    }
+
+
+def test_candidate_selection_balances_source_types() -> None:
+    research = sample_research()
+    selected = select_candidate_stories(list(reversed(research["stories"])), 3)
+    assert any(story["primary_sources"][0]["kind"] == "official" for story in selected if story["primary_sources"])
+    assert any(story["primary_sources"][0]["kind"] == "research" for story in selected if story["primary_sources"])
+    assert any(story["secondary_sources"] for story in selected)
+
+
+def test_evidence_fallback_is_valid_and_rated() -> None:
+    research = sample_research()
+    report_date = date(2026, 8, 13)
+    report = build_evidence_fallback_report(report_date, research)
+    assert validate_report(report, report_date) == []
+    assert "Evidence-only resilient edition" in report
+    assert "https://example.com/official" in report
+    assert calculate_importance_rating(research) == 5
+
+
+def test_all_source_failure_creates_transparent_status_report() -> None:
+    report_date = date(2026, 8, 14)
+    research = {
+        "successful_source_count": 0,
+        "raw_item_count": 0,
+        "candidate_story_count": 0,
+        "stories": [],
+        "source_status": [
+            {
+                "name": "Official Lab",
+                "url": "https://example.com/feed.xml",
+                "status": "error",
+                "error": "temporary timeout",
+            }
+        ],
+    }
+    report = build_evidence_fallback_report(report_date, research)
+    assert validate_report(report, report_date) == []
+    assert "Source availability incident" in report
+    assert "no AI claims are being asserted" in report
+    assert calculate_importance_rating(research) == 1
+
+
+def test_provider_failure_persists_resilient_report(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    import scripts.report_pipeline as pipeline
+
+    report_date = date(2026, 8, 13)
+    monkeypatch.setattr(pipeline, "ROOT", tmp_path)
+    monkeypatch.setattr(pipeline, "REPORTS_PATH", tmp_path / "reports")
+    monkeypatch.setattr(pipeline, "RESEARCH_PATH", tmp_path / "research")
+    monkeypatch.setattr(pipeline, "META_PATH", tmp_path / "meta")
+    monkeypatch.setattr(pipeline, "DEBUG_REPORT_PATH", tmp_path / "debug" / "generated-report.md")
+    source_config = tmp_path / "research_sources.json"
+    source_config.write_text('{"feeds": []}', encoding="utf-8")
+    prompt = tmp_path / "daily-report.md"
+    prompt.write_text("Write a careful report.", encoding="utf-8")
+    monkeypatch.setattr(pipeline, "SOURCES_PATH", source_config)
+    monkeypatch.setattr(pipeline, "PROMPT_PATH", prompt)
+    monkeypatch.setattr(pipeline, "collect_research", lambda *args, **kwargs: sample_research())
+    monkeypatch.setattr(pipeline, "make_provider", lambda: (_ for _ in ()).throw(ProviderError("temporary free-tier outage")))
+
+    assert pipeline.run(report_date) == 0
+    report_path = tmp_path / "reports" / "2026" / "08" / "2026-08-13.md"
+    contents = report_path.read_text(encoding="utf-8")
+    assert 'model: "deterministic-evidence-fallback"' in contents
+    assert "importance: 5" in contents
+    assert pipeline.run(report_date) == 0
+
+
+def test_run_persists_status_report_when_all_sources_fail(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    import scripts.report_pipeline as pipeline
+
+    report_date = date(2026, 8, 14)
+    monkeypatch.setattr(pipeline, "ROOT", tmp_path)
+    monkeypatch.setattr(pipeline, "REPORTS_PATH", tmp_path / "reports")
+    monkeypatch.setattr(pipeline, "RESEARCH_PATH", tmp_path / "research")
+    monkeypatch.setattr(pipeline, "META_PATH", tmp_path / "meta")
+    monkeypatch.setattr(pipeline, "DEBUG_REPORT_PATH", tmp_path / "debug" / "generated-report.md")
+    source_config = tmp_path / "research_sources.json"
+    source_config.write_text('{"feeds": []}', encoding="utf-8")
+    prompt = tmp_path / "daily-report.md"
+    prompt.write_text("Write a careful report.", encoding="utf-8")
+    monkeypatch.setattr(pipeline, "SOURCES_PATH", source_config)
+    monkeypatch.setattr(pipeline, "PROMPT_PATH", prompt)
+    monkeypatch.setattr(
+        pipeline,
+        "collect_research",
+        lambda *args, **kwargs: {
+            "successful_source_count": 0,
+            "raw_item_count": 0,
+            "candidate_story_count": 0,
+            "stories": [],
+            "source_status": [{"name": "Official Lab", "url": "https://example.com/feed.xml", "status": "error"}],
+        },
+    )
+    monkeypatch.setattr(pipeline, "make_provider", lambda: pytest.fail("provider should not run without evidence"))
+
+    assert pipeline.run(report_date) == 0
+    contents = (tmp_path / "reports" / "2026" / "08" / "2026-08-14.md").read_text(encoding="utf-8")
+    assert "Source availability incident" in contents
+    assert "importance: 1" in contents
 
 
 def test_validation_catches_missing_sections() -> None:
@@ -245,7 +400,9 @@ timezone: \"Asia/Hong_Kong\"
         index = (ROOT / "dist" / "index.json").read_text(encoding="utf-8")
         assert "Newer signal" in home
         assert home.index("Newer signal") < home.index("Older signal")
+        assert 'aria-label="Importance 3 out of 5"' in home
         assert index.index("2099-01-02") < index.index("2099-01-01")
+        assert '"importance": 3' in index
         assert (ROOT / "dist" / "reports" / "2099-01-02" / "index.html").exists()
     finally:
         shutil.rmtree(ROOT / "reports" / "2099", ignore_errors=True)

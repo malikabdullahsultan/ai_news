@@ -57,6 +57,7 @@ function parseScalar(value = '') {
   }
   if (text === 'true') return true;
   if (text === 'false') return false;
+  if (/^-?\d+(?:\.\d+)?$/.test(text)) return Number(text);
   return text;
 }
 
@@ -270,6 +271,7 @@ async function loadReports() {
       generatedAt: String(parsed.frontmatter.generated_at || ''),
       timezone: String(parsed.frontmatter.timezone || TIMEZONE),
       model: String(parsed.frontmatter.model || ''),
+      importance: Math.max(1, Math.min(5, Number(parsed.frontmatter.importance) || 3)),
       body: parsed.body,
       html: rendered.html,
       headings: rendered.headings,
@@ -289,6 +291,11 @@ function formatDate(date, options = {}) {
 
 function readingTime(words) {
   return `${Math.max(1, Math.round(words / 200))} min read`;
+}
+
+function importanceBadge(report, compact = false) {
+  const rating = Math.max(1, Math.min(5, Number(report?.importance) || 3));
+  return `<span class="importance-badge importance-${rating} ${compact ? 'is-compact' : ''}" aria-label="Importance ${rating} out of 5"><span class="importance-star" aria-hidden="true"><i></i></span><span class="importance-copy"><small>IMPORTANCE</small><strong>${rating}/5</strong></span></span>`;
 }
 
 function siteShell({ title, description, body, active = '', canonical = '', demo = false }) {
@@ -333,7 +340,8 @@ function heroBlock() {
 }
 
 function latestCard(report, demo = false) {
-  return `<section class="latest-card page-container" data-reveal><div class="briefing-rail"><div><span class="rail-label">LATEST DROP</span><span class="rail-status"><i></i> VERIFIED BRIEF</span></div><strong>${report ? escapeHtml(report.date.slice(-2)) : '—'}</strong><small>${report ? `${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())} · ${escapeHtml(report.date.slice(0, 4))}` : 'AWAITING SIGNAL'}</small></div><div class="briefing-main"><div class="section-kicker"><span>DAILY BRIEFING</span><span class="section-line"></span><span>${report ? escapeHtml(formatDate(report.date, { month: 'long', day: 'numeric', year: 'numeric' })) : 'Awaiting first report'}</span></div><h2>${escapeHtml(report?.subtitle || 'Your first signal is almost here.')}</h2><p>${escapeHtml(report?.excerpt || 'Run the daily workflow to turn fresh research into a readable, source-linked report.')}</p><div class="card-meta">${report ? `<span>${readingTime(report.words)}</span><span>·</span><span>${demo ? 'Sample content' : 'Source-linked analysis'}</span><span>·</span><span>Hong Kong desk</span>` : '<span>GitHub Actions ready</span>'}</div></div><div class="briefing-cta"><span class="briefing-stamp">NO HYPE<br><strong>JUST SIGNAL</strong></span><a class="button button-light" href="${urlFor(demo ? 'demo/' : 'latest/')}">${demo ? 'Open demo report' : 'Read full briefing'} <span>→</span></a></div></section>`;
+  const importanceClass = `importance-${Math.max(1, Math.min(5, Number(report?.importance) || 3))}`;
+  return `<section class="latest-card page-container ${importanceClass}" data-reveal><div class="briefing-rail"><div><span class="rail-label">LATEST DROP</span><span class="rail-status"><i></i> VERIFIED BRIEF</span></div><strong>${report ? escapeHtml(report.date.slice(-2)) : '—'}</strong><small>${report ? `${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())} · ${escapeHtml(report.date.slice(0, 4))}` : 'AWAITING SIGNAL'}</small></div><div class="briefing-main"><div class="section-kicker"><span>DAILY BRIEFING</span><span class="section-line"></span><span>${report ? escapeHtml(formatDate(report.date, { month: 'long', day: 'numeric', year: 'numeric' })) : 'Awaiting first report'}</span></div><h2>${escapeHtml(report?.subtitle || 'Your first signal is almost here.')}</h2><p>${escapeHtml(report?.excerpt || 'Run the daily workflow to turn fresh research into a readable, source-linked report.')}</p><div class="card-meta">${report ? `<span>${readingTime(report.words)}</span><span>·</span><span>${demo ? 'Sample content' : 'Source-linked analysis'}</span><span>·</span><span>Hong Kong desk</span>` : '<span>GitHub Actions ready</span>'}</div></div><div class="briefing-cta">${importanceBadge(report)}<a class="button button-light" href="${urlFor(demo ? 'demo/' : 'latest/')}">${demo ? 'Open demo report' : 'Read full briefing'} <span>→</span></a></div></section>`;
 }
 
 function statsBlock(reports) {
@@ -343,7 +351,7 @@ function statsBlock(reports) {
 
 function archiveCards(reports) {
   if (!reports.length) return `<div class="empty-state"><span class="empty-icon">✦</span><h3>The archive is waiting for its first signal.</h3><p>The scheduled workflow will research, write, validate, and publish the first report without a server or paid API key.</p><a class="text-link" href="https://github.com/malikabdullahsultan/ai_news/blob/main/SETUP.md" target="_blank" rel="noreferrer noopener">See setup notes <span>→</span></a></div>`;
-  return `<div class="archive-grid">${reports.slice(0, 9).map((report, index) => `<a class="archive-card ${index === 0 ? 'is-newest' : ''}" href="${report.url}"><div class="archive-card-top"><span>${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())}</span><span>${escapeHtml(report.date.slice(0, 4))}</span></div><div class="archive-day">${escapeHtml(report.date.slice(-2))}</div><div class="archive-card-bottom"><span>${escapeHtml(report.subtitle)}</span><span class="arrow">↗</span></div></a>`).join('')}</div>`;
+  return `<div class="archive-grid">${reports.slice(0, 9).map((report, index) => `<a class="archive-card importance-${report.importance} ${index === 0 ? 'is-newest' : ''}" href="${report.url}"><div class="archive-card-top"><span>${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())}</span>${importanceBadge(report, true)}</div><div class="archive-day">${escapeHtml(report.date.slice(-2))}<small>${escapeHtml(report.date.slice(0, 4))}</small></div><div class="archive-card-bottom"><span>${escapeHtml(report.subtitle)}</span><span class="arrow">↗</span></div></a>`).join('')}</div>`;
 }
 
 function homeBody(reports, latest, demo) {
@@ -352,13 +360,13 @@ function homeBody(reports, latest, demo) {
 
 function reportBody(report, demo = false) {
   const sourceNote = report.model ? `<span>Generated with ${escapeHtml(report.model)}</span>` : '';
-  return `<section class="report-hero page-container"><div class="breadcrumb"><a href="${urlFor('')}">Home</a><span>/</span><a href="${urlFor('archive/')}">Archive</a><span>/</span><span>${escapeHtml(report.date)}</span></div><div class="eyebrow"><span class="pulse-dot"></span> Daily AI Intelligence · ${escapeHtml(report.date)}</div><h1>${escapeHtml(report.title)}</h1><p class="report-subtitle">${escapeHtml(report.subtitle)}</p><div class="report-meta"><span>${escapeHtml(formatDate(report.date, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }))}</span><span>·</span><span>${readingTime(report.words)}</span>${sourceNote ? `<span>·</span>${sourceNote}` : ''}</div></section><div class="report-layout page-container"><a class="back-link" href="${urlFor('archive/')}">← Back to archive</a><article class="report-content">${report.html}</article></div>`;
+  return `<section class="report-hero page-container importance-${report.importance}"><div class="breadcrumb"><a href="${urlFor('')}">Home</a><span>/</span><a href="${urlFor('archive/')}">Archive</a><span>/</span><span>${escapeHtml(report.date)}</span></div><div class="report-title-row"><div><div class="eyebrow"><span class="pulse-dot"></span> Daily AI Intelligence · ${escapeHtml(report.date)}</div><h1>${escapeHtml(report.title)}</h1></div>${importanceBadge(report)}</div><p class="report-subtitle">${escapeHtml(report.subtitle)}</p><div class="report-meta"><span>${escapeHtml(formatDate(report.date, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }))}</span><span>·</span><span>${readingTime(report.words)}</span>${sourceNote ? `<span>·</span>${sourceNote}` : ''}</div></section><div class="report-layout page-container"><a class="back-link" href="${urlFor('archive/')}">← Back to archive</a><article class="report-content">${report.html}</article></div>`;
 }
 
 function archiveBody(reports) {
   const years = {};
   for (const report of reports) (years[report.date.slice(0, 4)] ||= []).push(report);
-  const groups = Object.entries(years).map(([year, items]) => `<section class="year-group"><div class="year-label">${escapeHtml(year)} <span>${items.length} ${items.length === 1 ? 'report' : 'reports'}</span></div><div class="archive-list">${items.map(report => `<a href="${report.url}" class="archive-row"><span class="archive-row-date"><strong>${escapeHtml(report.date.slice(-2))}</strong><small>${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())}</small></span><span class="archive-row-title"><strong>${escapeHtml(report.subtitle)}</strong><small>${escapeHtml(report.excerpt)}</small></span><span class="archive-row-arrow">↗</span></a>`).join('')}</div></section>`).join('');
+  const groups = Object.entries(years).map(([year, items]) => `<section class="year-group"><div class="year-label">${escapeHtml(year)} <span>${items.length} ${items.length === 1 ? 'report' : 'reports'}</span></div><div class="archive-list">${items.map(report => `<a href="${report.url}" class="archive-row importance-${report.importance}"><span class="archive-row-date"><strong>${escapeHtml(report.date.slice(-2))}</strong><small>${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())}</small></span><span class="archive-row-title"><strong>${escapeHtml(report.subtitle)}</strong><small>${escapeHtml(report.excerpt)}</small></span>${importanceBadge(report, true)}<span class="archive-row-arrow">↗</span></a>`).join('')}</div></section>`).join('');
   const activeDates = JSON.stringify(reports.map(report => report.date));
   return `<section class="page-container archive-header"><div class="eyebrow">REPORT ARCHIVE</div><h1>A running record of the AI race.</h1><p>Newest first. One report per Hong Kong calendar day. Use the date picker to jump straight to a report.</p><div class="archive-tools"><label for="report-date">Jump to date</label><input id="report-date" type="date" data-report-date min="2020-01-01"><button class="button button-dark" type="button" data-date-go>Open report →</button><span class="date-feedback" data-date-feedback></span></div></section><section class="page-container archive-content" data-report-dates='${escapeHtml(activeDates)}'>${groups || '<div class="empty-state"><span class="empty-icon">✦</span><h3>No production reports yet.</h3><p>Run the workflow once, then this page will become your daily archive.</p></div>'}</section>`;
 }
@@ -387,6 +395,7 @@ if (!latest) {
     generatedAt: '',
     timezone: TIMEZONE,
     model: 'demo fixture',
+    importance: 3,
     body: parsed.body,
     html: rendered.html,
     headings: rendered.headings,
@@ -402,7 +411,7 @@ await fs.mkdir(DIST, { recursive: true });
 await writeFile('assets/site.css', await fs.readFile(path.join(ROOT, 'src', 'styles', 'site.css'), 'utf8'));
 await writeFile('assets/client.js', await fs.readFile(path.join(ROOT, 'src', 'client.js'), 'utf8'));
 await writeFile('favicon.svg', await fs.readFile(path.join(ROOT, 'public', 'favicon.svg'), 'utf8'));
-await writeFile('index.json', JSON.stringify(reports.map(report => ({ date: report.date, title: report.title, subtitle: report.subtitle, url: report.url, excerpt: report.excerpt, words: report.words })), null, 2));
+await writeFile('index.json', JSON.stringify(reports.map(report => ({ date: report.date, title: report.title, subtitle: report.subtitle, url: report.url, excerpt: report.excerpt, words: report.words, importance: report.importance })), null, 2));
 
 await writeFile('index.html', siteShell({ title: SITE_CONFIG.siteName, description: SITE_CONFIG.tagline, body: homeBody(reports, latest, demo), active: 'home', demo }));
 await writeFile('latest/index.html', siteShell({ title: latest.title, description: latest.subtitle, body: reportBody(latest, demo), active: 'latest', demo }));
