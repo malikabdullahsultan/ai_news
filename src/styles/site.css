@@ -492,11 +492,11 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: -.04
 
 /* Report importance: monochrome cards, brightening stars */
 .year-label { letter-spacing: 0; }
-.importance-1 { --importance-card: #09090b; --importance-star: #111114; --importance-face: #ffffff; }
-.importance-2 { --importance-card: #34343a; --importance-star: #4f4632; --importance-face: #ffffff; }
-.importance-3 { --importance-card: #78787f; --importance-star: #a57f22; --importance-face: #241c00; }
-.importance-4 { --importance-card: #c9c9c7; --importance-star: #efbd22; --importance-face: #241c00; }
-.importance-5 { --importance-card: #ffffff; --importance-star: #ffe33f; --importance-face: #241c00; }
+.importance-1 { --importance-card: #09090b; --importance-text: #ffffff; --importance-muted: rgba(255,255,255,.56); --importance-star: #111114; --importance-face: #ffffff; }
+.importance-2 { --importance-card: #34343a; --importance-text: #ffffff; --importance-muted: rgba(255,255,255,.6); --importance-star: #4f4632; --importance-face: #ffffff; }
+.importance-3 { --importance-card: #78787f; --importance-text: #ffffff; --importance-muted: rgba(255,255,255,.72); --importance-star: #a57f22; --importance-face: #241c00; }
+.importance-4 { --importance-card: #c9c9c7; --importance-text: #15151a; --importance-muted: rgba(10,10,14,.58); --importance-star: #efbd22; --importance-face: #241c00; }
+.importance-5 { --importance-card: #ffffff; --importance-text: #111116; --importance-muted: rgba(10,10,14,.55); --importance-star: #ffe33f; --importance-face: #241c00; }
 
 .importance-badge { display: inline-flex; align-items: center; gap: 9px; flex: 0 0 auto; color: #fff; }
 .importance-star { position: relative; display: block; width: 46px; height: 46px; clip-path: polygon(50% 0%, 61% 33%, 96% 34%, 68% 55%, 78% 90%, 50% 70%, 22% 90%, 32% 55%, 4% 34%, 39% 33%); background: #fff; filter: drop-shadow(0 6px 12px rgba(0,0,0,.32)); transform: rotate(-5deg); transition: transform .25s ease, filter .25s ease; }
@@ -512,13 +512,17 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: -.04
 .importance-badge.is-compact .importance-copy small { display: none; }
 .importance-badge.is-compact .importance-copy strong { font-size: 9px; }
 
-.archive-card[class*='importance-'] { color: #fff; background: linear-gradient(140deg, #030304 0%, #101014 62%, var(--importance-card) 155%); box-shadow: inset 0 -95px 75px rgba(0,0,0,.3); }
-.archive-card[class*='importance-'].is-newest { background: linear-gradient(140deg, #030304 0%, #11151a 55%, var(--importance-card) 155%); }
-.archive-card[class*='importance-']:hover { background: linear-gradient(140deg, #08080a 0%, #17171c 58%, var(--importance-card) 150%); }
-.archive-card .archive-card-top { align-items: center; color: rgba(255,255,255,.6); }
-.archive-card .archive-day { display: flex; align-items: baseline; gap: 9px; color: #fff; text-shadow: 0 2px 18px rgba(0,0,0,.34); }
-.archive-day small { color: rgba(255,255,255,.48); font: 500 9px var(--mono); letter-spacing: .12em; }
-.archive-card .archive-card-bottom { color: rgba(255,255,255,.78); }
+.archive-card[class*='importance-'] { --snapshot-text: #ffffff; --snapshot-muted: rgba(255,255,255,.62); color: var(--snapshot-text); background: rgb(var(--snapshot-shade), var(--snapshot-shade), var(--snapshot-shade)); border-color: rgba(255,255,255,.16); box-shadow: 0 12px 28px rgba(8,8,12,.14); }
+.archive-card[class*='importance-']::before { background: var(--importance-star); }
+.archive-card[class*='importance-'].is-newest { background: rgb(var(--snapshot-shade), var(--snapshot-shade), var(--snapshot-shade)); border-color: rgba(110,231,209,.62); }
+.archive-card[class*='importance-']:hover { background: rgb(var(--snapshot-shade), var(--snapshot-shade), var(--snapshot-shade)); border-color: var(--importance-star); }
+.archive-card.snapshot-light { --snapshot-text: #111116; --snapshot-muted: rgba(10,10,14,.58); border-color: rgba(9,9,12,.15); }
+.archive-card .archive-card-top { align-items: center; color: var(--snapshot-muted); }
+.archive-card .archive-day { display: flex; align-items: baseline; gap: 9px; color: var(--snapshot-text); text-shadow: none; }
+.archive-day small { color: var(--snapshot-muted); font: 500 9px var(--mono); letter-spacing: .12em; }
+.archive-card .archive-card-bottom { color: var(--snapshot-muted); }
+.archive-card.snapshot-light .importance-copy strong { color: #111116; }
+.archive-card.snapshot-light .importance-copy small { color: rgba(10,10,14,.55); }
 .archive-card .arrow { color: var(--importance-star); }
 .archive-card:hover .importance-star, .search-result:hover .importance-star, .archive-row:hover .importance-star { transform: rotate(5deg) scale(1.08); filter: drop-shadow(0 8px 15px rgba(0,0,0,.4)); }
 
@@ -526,22 +530,49 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: -.04
 .latest-card .briefing-cta { min-width: 195px; }
 .latest-card .importance-badge { align-self: flex-end; }
 
-.archive-row[class*='importance-'] { grid-template-columns: 90px 1fr auto 28px; margin: 6px 0; padding: 15px 14px; border: 1px solid rgba(255,255,255,.1); border-radius: 13px; background: linear-gradient(105deg, #050506 0%, #121216 74%, var(--importance-card) 180%); color: #fff; }
-.archive-row[class*='importance-']:hover { background: linear-gradient(105deg, #0a0a0c 0%, #19191e 72%, var(--importance-card) 170%); }
-.archive-row[class*='importance-'] .archive-row-title strong { color: #fff; }
-.archive-row[class*='importance-'] .archive-row-title small { color: rgba(255,255,255,.55); }
+.archive-row[class*='importance-'] { grid-template-columns: 90px 1fr auto 28px; margin: 6px 0; padding: 15px 14px; border: 1px solid rgba(10,10,14,.14); border-radius: 13px; background: var(--importance-card); color: var(--importance-text); }
+.archive-row[class*='importance-']:hover { background: var(--importance-card); border-color: var(--importance-star); }
+.archive-row[class*='importance-'] .archive-row-title strong { color: var(--importance-text); }
+.archive-row[class*='importance-'] .archive-row-title small { color: var(--importance-muted); }
+.archive-row[class*='importance-'] .importance-copy strong { color: var(--importance-text); }
+.archive-row[class*='importance-'] .importance-copy small { color: var(--importance-muted); }
 .archive-row[class*='importance-'] .archive-row-date strong, .archive-row[class*='importance-'] .archive-row-arrow { color: var(--importance-star); }
 .archive-row-title { min-width: 0; }
 .archive-row-title strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-.search-result[class*='importance-'] { border-color: rgba(255,255,255,.1); background: linear-gradient(115deg, #050506 0%, #141418 75%, var(--importance-card) 190%); color: #fff; }
+.search-result[class*='importance-'] { border-color: rgba(10,10,14,.14); background: var(--importance-card); color: var(--importance-text); }
 .search-result[class*='importance-']:hover { border-color: rgba(255,227,63,.34); }
-.search-result[class*='importance-'] h2 { color: #fff; }
-.search-result[class*='importance-'] p { color: rgba(255,255,255,.62); }
+.search-result[class*='importance-'] h2 { color: var(--importance-text); }
+.search-result[class*='importance-'] p { color: var(--importance-muted); }
+.search-result[class*='importance-'] .importance-copy strong { color: var(--importance-text); }
+.search-result[class*='importance-'] .importance-copy small { color: var(--importance-muted); }
 .search-result-top { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
 
 .report-title-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 35px; }
 .report-title-row .importance-badge { margin-top: 13px; padding: 11px 13px; border: 1px solid rgba(255,255,255,.1); border-radius: 14px; background: linear-gradient(135deg, #050506, #17171b 70%, var(--importance-card) 190%); }
+
+/* Bubble-like solid surfaces; color progression is reserved for the report snapshot set. */
+body { background: var(--bg); }
+body::before { background-image: none; mask-image: none; }
+.brand-mark { background: var(--accent); }
+.gradient-text { background: none; color: var(--accent-2); }
+.nav-link.is-active { background: var(--surface-strong); }
+.button { border-radius: 999px; }
+.button-primary { background: var(--accent); }
+.planet-core { background: color-mix(in srgb, var(--accent-2) 68%, transparent); }
+.signal-console { border-radius: 30px; background: #15192d; }
+.signal-row { border-radius: 18px; }
+.mini-avatar { border-radius: 50%; background: var(--accent-2); }
+.latest-card, .latest-card[class*='importance-'] { border-radius: 32px; background: #151722; }
+.latest-card::before { background: var(--accent); }
+.archive-card { border-radius: 30px; }
+.principle-grid article { border-radius: 26px; background: var(--surface); }
+.principle-grid article:nth-child(1), .principle-grid article:nth-child(2), .principle-grid article:nth-child(3) { background: var(--surface); }
+.archive-header, .search-header, .report-hero { border-radius: 30px; background: var(--surface); }
+.archive-tools { border-radius: 22px; }
+.report-content h2 { border-radius: 22px; background: var(--surface); }
+.archive-row[class*='importance-'], .search-result[class*='importance-'] { border-radius: 24px; }
+.report-title-row .importance-badge { border-radius: 22px; background: #151722; }
 
 @media (max-width: 700px) {
   .importance-copy small { display: none; }

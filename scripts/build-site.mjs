@@ -351,7 +351,12 @@ function statsBlock(reports) {
 
 function archiveCards(reports) {
   if (!reports.length) return `<div class="empty-state"><span class="empty-icon">✦</span><h3>The archive is waiting for its first signal.</h3><p>The scheduled workflow will research, write, validate, and publish the first report without a server or paid API key.</p><a class="text-link" href="https://github.com/malikabdullahsultan/ai_news/blob/main/SETUP.md" target="_blank" rel="noreferrer noopener">See setup notes <span>→</span></a></div>`;
-  return `<div class="archive-grid">${reports.slice(0, 9).map((report, index) => `<a class="archive-card importance-${report.importance} ${index === 0 ? 'is-newest' : ''}" href="${report.url}"><div class="archive-card-top"><span>${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())}</span>${importanceBadge(report, true)}</div><div class="archive-day">${escapeHtml(report.date.slice(-2))}<small>${escapeHtml(report.date.slice(0, 4))}</small></div><div class="archive-card-bottom"><span>${escapeHtml(report.subtitle)}</span><span class="arrow">↗</span></div></a>`).join('')}</div>`;
+  const snapshots = reports.slice(0, 9);
+  return `<div class="archive-grid">${snapshots.map((report, index) => {
+    const shade = snapshots.length === 1 ? 8 : Math.round(8 + (240 * index / (snapshots.length - 1)));
+    const tone = shade >= 150 ? 'snapshot-light' : 'snapshot-dark';
+    return `<a class="archive-card ${tone} importance-${report.importance} ${index === 0 ? 'is-newest' : ''}" style="--snapshot-shade: ${shade}" href="${report.url}"><div class="archive-card-top"><span>${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())}</span>${importanceBadge(report, true)}</div><div class="archive-day">${escapeHtml(report.date.slice(-2))}<small>${escapeHtml(report.date.slice(0, 4))}</small></div><div class="archive-card-bottom"><span>${escapeHtml(report.subtitle)}</span><span class="arrow">↗</span></div></a>`;
+  }).join('')}</div>`;
 }
 
 function homeBody(reports, latest, demo) {
