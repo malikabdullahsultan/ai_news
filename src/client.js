@@ -28,22 +28,56 @@
     return audioContext;
   };
 
-  const playTick = (context, start, frequency, duration, volume, type) => {
-    const oscillator = context.createOscillator();
-    const filter = context.createBiquadFilter();
-    const gain = context.createGain();
-    oscillator.type = type;
-    oscillator.frequency.setValueAtTime(frequency, start);
-    oscillator.frequency.exponentialRampToValueAtTime(Math.max(80, frequency * .58), start + duration);
-    filter.type = 'bandpass';
-    filter.frequency.setValueAtTime(frequency, start);
-    filter.Q.setValueAtTime(2.5, start);
-    gain.gain.setValueAtTime(.0001, start);
-    gain.gain.exponentialRampToValueAtTime(volume, start + .003);
-    gain.gain.exponentialRampToValueAtTime(.0001, start + duration);
-    oscillator.connect(filter).connect(gain).connect(context.destination);
-    oscillator.start(start);
-    oscillator.stop(start + duration + .01);
+  const playBlockStrike = (context, output, start, frequency, volume) => {
+    const body = context.createOscillator();
+    const knock = context.createOscillator();
+    const bodyGain = context.createGain();
+    const knockGain = context.createGain();
+    const tone = context.createBiquadFilter();
+
+    body.type = 'triangle';
+    body.frequency.setValueAtTime(frequency, start);
+    body.frequency.exponentialRampToValueAtTime(frequency * .72, start + .065);
+    knock.type = 'sine';
+    knock.frequency.setValueAtTime(frequency * 1.86, start);
+    knock.frequency.exponentialRampToValueAtTime(frequency * 1.35, start + .026);
+    tone.type = 'lowpass';
+    tone.frequency.setValueAtTime(2300, start);
+    tone.Q.setValueAtTime(1.2, start);
+
+    bodyGain.gain.setValueAtTime(.0001, start);
+    bodyGain.gain.exponentialRampToValueAtTime(volume, start + .002);
+    bodyGain.gain.exponentialRampToValueAtTime(.0001, start + .07);
+    knockGain.gain.setValueAtTime(.0001, start);
+    knockGain.gain.exponentialRampToValueAtTime(volume * .48, start + .001);
+    knockGain.gain.exponentialRampToValueAtTime(.0001, start + .028);
+
+    body.connect(bodyGain).connect(tone);
+    knock.connect(knockGain).connect(tone);
+    tone.connect(output);
+    body.start(start);
+    knock.start(start);
+    body.stop(start + .075);
+    knock.stop(start + .035);
+
+    const noiseLength = Math.max(1, Math.floor(context.sampleRate * .012));
+    const noiseBuffer = context.createBuffer(1, noiseLength, context.sampleRate);
+    const noiseData = noiseBuffer.getChannelData(0);
+    for (let index = 0; index < noiseLength; index += 1) {
+      noiseData[index] = (Math.random() * 2 - 1) * (1 - index / noiseLength);
+    }
+    const noise = context.createBufferSource();
+    const noiseFilter = context.createBiquadFilter();
+    const noiseGain = context.createGain();
+    noise.buffer = noiseBuffer;
+    noiseFilter.type = 'bandpass';
+    noiseFilter.frequency.setValueAtTime(1450, start);
+    noiseFilter.Q.setValueAtTime(.85, start);
+    noiseGain.gain.setValueAtTime(volume * .7, start);
+    noiseGain.gain.exponentialRampToValueAtTime(.0001, start + .014);
+    noise.connect(noiseFilter).connect(noiseGain).connect(output);
+    noise.start(start);
+    noise.stop(start + .016);
   };
 
   const playClickClack = (soft = false) => {
@@ -52,9 +86,16 @@
     if (!context) return;
     if (context.state === 'suspended') context.resume().catch(() => {});
     const now = context.currentTime + .004;
-    const scale = soft ? .62 : 1;
-    playTick(context, now, soft ? 720 : 940, .018, .028 * scale, 'square');
-    playTick(context, now + .038, soft ? 310 : 390, .034, .036 * scale, 'triangle');
+    const compressor = context.createDynamicsCompressor();
+    compressor.threshold.setValueAtTime(-12, now);
+    compressor.knee.setValueAtTime(8, now);
+    compressor.ratio.setValueAtTime(7, now);
+    compressor.attack.setValueAtTime(.002, now);
+    compressor.release.setValueAtTime(.08, now);
+    compressor.connect(context.destination);
+    const scale = soft ? .72 : 1;
+    playBlockStrike(context, compressor, now, soft ? 520 : 610, .075 * scale);
+    playBlockStrike(context, compressor, now + .068, soft ? 330 : 380, .095 * scale);
   };
 
   updateSoundControls();

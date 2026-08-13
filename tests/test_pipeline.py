@@ -376,6 +376,8 @@ def test_dry_run_and_static_build() -> None:
     client = (ROOT / "dist" / "assets" / "client.js").read_text(encoding="utf-8")
     assert "daily-ai-sound" in client
     assert "AudioContext" in client
+    assert "playBlockStrike" in client
+    assert "createDynamicsCompressor" in client
 
 
 def test_production_archive_latest_and_search_index() -> None:
