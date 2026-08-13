@@ -372,6 +372,10 @@ def test_dry_run_and_static_build() -> None:
     assert 'href="/ai_news/latest/"' in home
     assert 'href="/ai_news/archive/"' in home
     assert 'href="/ai_news/search/"' in home
+    assert 'data-sound-toggle' in home
+    client = (ROOT / "dist" / "assets" / "client.js").read_text(encoding="utf-8")
+    assert "daily-ai-sound" in client
+    assert "AudioContext" in client
 
 
 def test_production_archive_latest_and_search_index() -> None:

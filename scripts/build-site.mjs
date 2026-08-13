@@ -323,7 +323,7 @@ function siteShell({ title, description, body, active = '', canonical = '', demo
           ${navLink('archive/', 'Archive', 'archive')}
           ${navLink('search/', 'Search', 'search')}
         </nav>
-        <div class="nav-actions"><span class="nav-live"><i></i> Live feed</span><button class="icon-button" type="button" data-theme-toggle aria-label="Change color theme" title="Change color theme">◐</button><a class="github-link" href="https://github.com/malikabdullahsultan/ai_news" target="_blank" rel="noreferrer noopener" aria-label="Open project on GitHub">GitHub ↗</a></div>
+        <div class="nav-actions"><span class="nav-live"><i></i> Live feed</span><button class="icon-button sound-button" type="button" data-sound-toggle aria-label="Turn interface sounds off" aria-pressed="true" title="Interface sounds: on"><span aria-hidden="true" data-sound-icon>♪</span></button><button class="icon-button" type="button" data-theme-toggle aria-label="Change color theme" title="Change color theme">◐</button><a class="github-link" href="https://github.com/malikabdullahsultan/ai_news" target="_blank" rel="noreferrer noopener" aria-label="Open project on GitHub">GitHub ↗</a></div>
       </div>
     </header>
     ${demo ? '<div class="demo-banner"><span>DEMO MODE</span> The production archive is empty, so you are viewing a local sample report.</div>' : ''}
