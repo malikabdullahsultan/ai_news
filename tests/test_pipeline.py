@@ -468,6 +468,8 @@ def test_dry_run_and_static_build() -> None:
     assert 'href="/ai_news/latest/"' in home
     assert 'href="/ai_news/archive/"' in home
     assert 'href="/ai_news/search/"' in home
+    assert 'data-focus-music' in home
+    assert 'aria-label="Start focus music"' in home
     assert 'data-sound-toggle' in home
     latest_report = (ROOT / "dist" / "reports" / "2026-08-14" / "index.html").read_text(encoding="utf-8")
     assert "LATE EDITION" in latest_report
@@ -475,6 +477,9 @@ def test_dry_run_and_static_build() -> None:
     client = (ROOT / "dist" / "assets" / "client.js").read_text(encoding="utf-8")
     assert "daily-ai-sound" in client
     assert "AudioContext" in client
+    assert "focusProgression" in client
+    assert "scheduleFocusMusic" in client
+    assert "Stop focus music" in client
     assert "playBlockStrike" in client
     assert "createDynamicsCompressor" in client
 

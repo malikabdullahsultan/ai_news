@@ -582,7 +582,16 @@ body::before { background-image: none; mask-image: none; }
 .sound-button::after { content: ''; position: absolute; right: 5px; bottom: 5px; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent); }
 .sound-button.is-muted { color: var(--faint); }
 .sound-button.is-muted::after { background: var(--faint); box-shadow: none; }
+.music-button { position: relative; color: var(--accent-2); font-size: 16px; }
+.music-button::before, .music-button::after { content: ''; position: absolute; bottom: 5px; width: 2px; border-radius: 999px; background: var(--accent-2); opacity: 0; }
+.music-button::before { right: 8px; height: 5px; }
+.music-button::after { right: 4px; height: 8px; }
+.music-button.is-playing { border-color: color-mix(in srgb, var(--accent-2) 58%, var(--line)); background: color-mix(in srgb, var(--accent-2) 15%, var(--surface)); color: var(--accent-2); }
+.music-button.is-playing::before, .music-button.is-playing::after { opacity: 1; animation: focus-equalizer .8s ease-in-out infinite alternate; }
+.music-button.is-playing::after { animation-delay: -.4s; }
 .is-sfx-pressed { transform: translateY(1px) scale(.97) !important; }
+
+@keyframes focus-equalizer { from { height: 3px; } to { height: 9px; } }
 
 @media (max-width: 700px) {
   .importance-copy small { display: none; }
@@ -596,5 +605,6 @@ body::before { background-image: none; mask-image: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .music-button.is-playing::before, .music-button.is-playing::after { animation: none; }
   .is-sfx-pressed { transform: none !important; }
 }

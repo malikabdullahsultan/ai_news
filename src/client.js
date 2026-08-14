@@ -5,8 +5,24 @@
 
   const SOUND_KEY = 'daily-ai-sound';
   const soundButtons = [...document.querySelectorAll('[data-sound-toggle]')];
+  const musicButtons = [...document.querySelectorAll('[data-focus-music]')];
   let soundsEnabled = localStorage.getItem(SOUND_KEY) !== 'off';
   let audioContext;
+  let focusMusicPlaying = false;
+  let focusMusicStarting = false;
+  let focusMaster;
+  let focusFilter;
+  let focusTimer;
+  let focusNextTime = 0;
+  let focusBarIndex = 0;
+
+  const FOCUS_BAR_SECONDS = 4;
+  const focusProgression = [
+    [130.81, 164.81, 196.00, 246.94],
+    [110.00, 130.81, 164.81, 220.00],
+    [87.31, 130.81, 164.81, 196.00],
+    [98.00, 146.83, 196.00, 246.94],
+  ];
 
   const updateSoundControls = () => {
     root.dataset.sound = soundsEnabled ? 'on' : 'off';
@@ -14,9 +30,19 @@
       button.classList.toggle('is-muted', !soundsEnabled);
       button.setAttribute('aria-pressed', String(soundsEnabled));
       button.setAttribute('aria-label', soundsEnabled ? 'Turn interface sounds off' : 'Turn interface sounds on');
-      button.title = `Interface sounds: ${soundsEnabled ? 'on' : 'off'}`;
+      button.title = `Button sounds: ${soundsEnabled ? 'on' : 'off'}`;
       const icon = button.querySelector('[data-sound-icon]');
-      if (icon) icon.textContent = soundsEnabled ? '♪' : '×';
+      if (icon) icon.textContent = soundsEnabled ? '▦' : '×';
+    });
+  };
+
+  const updateFocusControls = () => {
+    root.dataset.focusMusic = focusMusicPlaying ? 'playing' : 'off';
+    musicButtons.forEach(button => {
+      button.classList.toggle('is-playing', focusMusicPlaying);
+      button.setAttribute('aria-pressed', String(focusMusicPlaying));
+      button.setAttribute('aria-label', focusMusicPlaying ? 'Stop focus music' : 'Start focus music');
+      button.title = `Focus music: ${focusMusicPlaying ? 'playing' : 'off'}`;
     });
   };
 
@@ -26,6 +52,104 @@
     if (!AudioEngine) return null;
     audioContext = new AudioEngine();
     return audioContext;
+  };
+
+  const scheduleFocusBar = (context, output, start, frequencies, barIndex) => {
+    frequencies.slice(0, 3).forEach((frequency, index) => {
+      const tone = context.createOscillator();
+      const gain = context.createGain();
+      tone.type = index === 0 ? 'triangle' : 'sine';
+      tone.frequency.setValueAtTime(frequency, start);
+      tone.detune.setValueAtTime(index % 2 ? 3 : -3, start);
+      gain.gain.setValueAtTime(.0001, start);
+      gain.gain.exponentialRampToValueAtTime(index === 0 ? .026 : .018, start + .7);
+      gain.gain.setValueAtTime(index === 0 ? .022 : .014, start + 3.55);
+      gain.gain.exponentialRampToValueAtTime(.0001, start + 4.35);
+      tone.connect(gain).connect(output);
+      tone.start(start);
+      tone.stop(start + 4.4);
+    });
+
+    const pattern = barIndex % 2
+      ? [0, 2, 1, 3, 2, 1, 3, 2]
+      : [0, 1, 2, 3, 2, 1, 2, 3];
+    pattern.forEach((noteIndex, step) => {
+      const noteStart = start + step * .5;
+      const bell = context.createOscillator();
+      const bellGain = context.createGain();
+      bell.type = 'sine';
+      bell.frequency.setValueAtTime(frequencies[noteIndex] * 2, noteStart);
+      bell.frequency.exponentialRampToValueAtTime(frequencies[noteIndex] * 1.995, noteStart + .42);
+      bellGain.gain.setValueAtTime(.0001, noteStart);
+      bellGain.gain.exponentialRampToValueAtTime(step % 4 === 0 ? .019 : .012, noteStart + .035);
+      bellGain.gain.exponentialRampToValueAtTime(.0001, noteStart + .44);
+      bell.connect(bellGain).connect(output);
+      bell.start(noteStart);
+      bell.stop(noteStart + .46);
+    });
+  };
+
+  const scheduleFocusMusic = () => {
+    const context = audioContext;
+    if (!focusMusicPlaying || !context || !focusMaster) return;
+    while (focusNextTime < context.currentTime + 8) {
+      const chord = focusProgression[focusBarIndex % focusProgression.length];
+      scheduleFocusBar(context, focusMaster, focusNextTime, chord, focusBarIndex);
+      focusNextTime += FOCUS_BAR_SECONDS;
+      focusBarIndex += 1;
+    }
+  };
+
+  const startFocusMusic = async () => {
+    if (focusMusicPlaying || focusMusicStarting) return;
+    focusMusicStarting = true;
+    const context = audioEngine();
+    if (!context) {
+      focusMusicStarting = false;
+      return;
+    }
+    if (context.state === 'suspended') {
+      try { await context.resume(); } catch {
+        focusMusicStarting = false;
+        return;
+      }
+    }
+    focusMaster = context.createGain();
+    focusFilter = context.createBiquadFilter();
+    focusFilter.type = 'lowpass';
+    focusFilter.frequency.setValueAtTime(1850, context.currentTime);
+    focusFilter.Q.setValueAtTime(.55, context.currentTime);
+    focusMaster.gain.setValueAtTime(.0001, context.currentTime);
+    focusMaster.gain.exponentialRampToValueAtTime(.42, context.currentTime + 1.1);
+    focusMaster.connect(focusFilter).connect(context.destination);
+    focusMusicPlaying = true;
+    focusNextTime = context.currentTime + .06;
+    focusBarIndex = 0;
+    scheduleFocusMusic();
+    focusTimer = window.setInterval(scheduleFocusMusic, 1500);
+    focusMusicStarting = false;
+    updateFocusControls();
+  };
+
+  const stopFocusMusic = () => {
+    focusMusicPlaying = false;
+    if (focusTimer) window.clearInterval(focusTimer);
+    focusTimer = undefined;
+    const master = focusMaster;
+    const filter = focusFilter;
+    focusMaster = undefined;
+    focusFilter = undefined;
+    if (master && audioContext) {
+      const now = audioContext.currentTime;
+      master.gain.cancelScheduledValues(now);
+      master.gain.setValueAtTime(Math.max(.0001, master.gain.value), now);
+      master.gain.exponentialRampToValueAtTime(.0001, now + .55);
+      window.setTimeout(() => {
+        try { master.disconnect(); } catch {}
+        try { filter?.disconnect(); } catch {}
+      }, 650);
+    }
+    updateFocusControls();
   };
 
   const playBlockStrike = (context, output, start, frequency, volume) => {
@@ -99,6 +223,13 @@
   };
 
   updateSoundControls();
+  updateFocusControls();
+  musicButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      if (focusMusicPlaying) stopFocusMusic();
+      else startFocusMusic();
+    });
+  });
   soundButtons.forEach(button => {
     button.addEventListener('click', () => {
       const wasEnabled = soundsEnabled;
