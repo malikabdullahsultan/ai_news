@@ -12,6 +12,7 @@
   let focusMusicStarting = false;
   let focusMaster;
   let focusFilter;
+  let focusCompressor;
   let focusTimer;
   let focusNextTime = 0;
   let focusBarIndex = 0;
@@ -62,8 +63,8 @@
       tone.frequency.setValueAtTime(frequency, start);
       tone.detune.setValueAtTime(index % 2 ? 3 : -3, start);
       gain.gain.setValueAtTime(.0001, start);
-      gain.gain.exponentialRampToValueAtTime(index === 0 ? .026 : .018, start + .7);
-      gain.gain.setValueAtTime(index === 0 ? .022 : .014, start + 3.55);
+      gain.gain.exponentialRampToValueAtTime(index === 0 ? .065 : .048, start + .7);
+      gain.gain.setValueAtTime(index === 0 ? .055 : .04, start + 3.55);
       gain.gain.exponentialRampToValueAtTime(.0001, start + 4.35);
       tone.connect(gain).connect(output);
       tone.start(start);
@@ -81,7 +82,7 @@
       bell.frequency.setValueAtTime(frequencies[noteIndex] * 2, noteStart);
       bell.frequency.exponentialRampToValueAtTime(frequencies[noteIndex] * 1.995, noteStart + .42);
       bellGain.gain.setValueAtTime(.0001, noteStart);
-      bellGain.gain.exponentialRampToValueAtTime(step % 4 === 0 ? .019 : .012, noteStart + .035);
+      bellGain.gain.exponentialRampToValueAtTime(step % 4 === 0 ? .038 : .026, noteStart + .035);
       bellGain.gain.exponentialRampToValueAtTime(.0001, noteStart + .44);
       bell.connect(bellGain).connect(output);
       bell.start(noteStart);
@@ -116,12 +117,18 @@
     }
     focusMaster = context.createGain();
     focusFilter = context.createBiquadFilter();
+    focusCompressor = context.createDynamicsCompressor();
     focusFilter.type = 'lowpass';
     focusFilter.frequency.setValueAtTime(1850, context.currentTime);
     focusFilter.Q.setValueAtTime(.55, context.currentTime);
+    focusCompressor.threshold.setValueAtTime(-16, context.currentTime);
+    focusCompressor.knee.setValueAtTime(16, context.currentTime);
+    focusCompressor.ratio.setValueAtTime(4, context.currentTime);
+    focusCompressor.attack.setValueAtTime(.012, context.currentTime);
+    focusCompressor.release.setValueAtTime(.24, context.currentTime);
     focusMaster.gain.setValueAtTime(.0001, context.currentTime);
-    focusMaster.gain.exponentialRampToValueAtTime(.42, context.currentTime + 1.1);
-    focusMaster.connect(focusFilter).connect(context.destination);
+    focusMaster.gain.exponentialRampToValueAtTime(.72, context.currentTime + 1.1);
+    focusMaster.connect(focusFilter).connect(focusCompressor).connect(context.destination);
     focusMusicPlaying = true;
     focusNextTime = context.currentTime + .06;
     focusBarIndex = 0;
@@ -137,8 +144,10 @@
     focusTimer = undefined;
     const master = focusMaster;
     const filter = focusFilter;
+    const compressor = focusCompressor;
     focusMaster = undefined;
     focusFilter = undefined;
+    focusCompressor = undefined;
     if (master && audioContext) {
       const now = audioContext.currentTime;
       master.gain.cancelScheduledValues(now);
@@ -147,6 +156,7 @@
       window.setTimeout(() => {
         try { master.disconnect(); } catch {}
         try { filter?.disconnect(); } catch {}
+        try { compressor?.disconnect(); } catch {}
       }, 650);
     }
     updateFocusControls();

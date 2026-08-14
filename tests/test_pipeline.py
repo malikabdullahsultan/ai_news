@@ -479,6 +479,8 @@ def test_dry_run_and_static_build() -> None:
     assert "AudioContext" in client
     assert "focusProgression" in client
     assert "scheduleFocusMusic" in client
+    assert "exponentialRampToValueAtTime(.72" in client
+    assert "createDynamicsCompressor" in client
     assert "Stop focus music" in client
     assert "playBlockStrike" in client
     assert "createDynamicsCompressor" in client
