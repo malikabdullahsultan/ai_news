@@ -35,6 +35,7 @@ jobs:
       MAX_SOURCE_FETCHES: '36'
       RECENT_REPORT_CONTEXT_DAYS: '3'
       MAX_CONTINUATIONS: '2'
+      MAX_VALIDATION_REPAIRS: '2'
       MAX_PROVIDER_FALLBACKS: '2'
       MAX_OUTPUT_TOKENS: '14000'
       SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
@@ -63,7 +64,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: generated-report-${{ github.run_id }}
-          path: data/debug/generated-report.md
+          path: data/debug/
           if-no-files-found: warn
           retention-days: 7
 

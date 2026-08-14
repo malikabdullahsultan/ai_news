@@ -79,7 +79,11 @@ def _json_request(
             message = f"Provider request failed with HTTP {error.code}: {detail}"
         raise ProviderError(message, retryable=retryable, status_code=error.code) from error
     except urllib.error.URLError as error:
-        raise ProviderError(f"Provider request could not reach {url}: {error.reason}") from error
+        raise ProviderError(f"Provider request could not reach {url}: {error.reason}", retryable=True) from error
+    except TimeoutError as error:
+        raise ProviderError(f"{provider_label} request timed out after {timeout} seconds.", retryable=True) from error
+    except OSError as error:
+        raise ProviderError(f"{provider_label} request failed at the network layer: {error}", retryable=True) from error
     try:
         return json.loads(raw)
     except json.JSONDecodeError as error:

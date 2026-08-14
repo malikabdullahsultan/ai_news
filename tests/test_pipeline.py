@@ -8,10 +8,11 @@ from pathlib import Path
 
 import pytest
 
-from scripts.providers import ProviderError, SambaNovaProvider, make_provider
+from scripts.providers import GenerationResult, ProviderError, SambaNovaProvider, make_provider
 from scripts.report_pipeline import (
     FeedItem,
     build_evidence_fallback_report,
+    build_revision_prompt,
     build_system_prompt,
     calculate_importance_rating,
     cluster_items,
@@ -180,6 +181,53 @@ def test_provider_failure_persists_resilient_report(tmp_path: Path, monkeypatch:
     assert pipeline.run(report_date) == 0
 
 
+def test_invalid_provider_draft_is_repaired_in_place(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    import scripts.report_pipeline as pipeline
+
+    report_date = date(2026, 8, 14)
+    research = sample_research()
+    repaired_report = build_evidence_fallback_report(report_date, research).replace(
+        "Evidence-only resilient edition",
+        "Provider-repaired edition",
+    )
+
+    class RepairingProvider:
+        name = "repairing-provider"
+
+        def __init__(self) -> None:
+            self.prompts: list[str] = []
+
+        def generate(self, system_prompt: str, user_prompt: str, *, model: str = "auto") -> GenerationResult:
+            self.prompts.append(user_prompt)
+            if len(self.prompts) == 1:
+                return GenerationResult(text="# Broken draft", model="repair-model")
+            assert "<EXISTING_DRAFT>\n# *** The Daily AI Intelligence Report — 2026-08-14***" in user_prompt
+            assert "report is too short" in user_prompt
+            return GenerationResult(text=repaired_report, model="repair-model")
+
+    provider = RepairingProvider()
+    monkeypatch.setattr(pipeline, "ROOT", tmp_path)
+    monkeypatch.setattr(pipeline, "REPORTS_PATH", tmp_path / "reports")
+    monkeypatch.setattr(pipeline, "RESEARCH_PATH", tmp_path / "research")
+    monkeypatch.setattr(pipeline, "META_PATH", tmp_path / "meta")
+    monkeypatch.setattr(pipeline, "DEBUG_REPORT_PATH", tmp_path / "debug" / "generated-report.md")
+    source_config = tmp_path / "research_sources.json"
+    source_config.write_text('{"feeds": []}', encoding="utf-8")
+    prompt = tmp_path / "daily-report.md"
+    prompt.write_text("Write a careful report.", encoding="utf-8")
+    monkeypatch.setattr(pipeline, "SOURCES_PATH", source_config)
+    monkeypatch.setattr(pipeline, "PROMPT_PATH", prompt)
+    monkeypatch.setattr(pipeline, "collect_research", lambda *args, **kwargs: research)
+    monkeypatch.setattr(pipeline, "make_provider", lambda: provider)
+
+    assert pipeline.run(report_date) == 0
+    contents = (tmp_path / "reports" / "2026" / "08" / "2026-08-14.md").read_text(encoding="utf-8")
+    assert 'model: "repair-model"' in contents
+    assert "Provider-repaired edition" in contents
+    assert len(provider.prompts) == 2
+    assert (tmp_path / "debug" / "validation-attempt-1.md").exists()
+
+
 def test_run_persists_status_report_when_all_sources_fail(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     import scripts.report_pipeline as pipeline
 
@@ -281,6 +329,20 @@ def test_runtime_prompt_requires_exact_iso_dated_title() -> None:
     assert "Do not convert it to a month-name format" in prompt
 
 
+def test_revision_prompt_preserves_draft_and_lists_errors() -> None:
+    prompt = build_revision_prompt(
+        date(2026, 8, 14),
+        sample_research(),
+        "# Existing useful draft",
+        ["SOURCES section is missing"],
+        1,
+    )
+    assert "Edit the existing" in prompt
+    assert "# Existing useful draft" in prompt
+    assert "SOURCES section is missing" in prompt
+    assert "Do not summarize it, throw it away" in prompt
+
+
 def test_date_heading_normalizes_model_month_name() -> None:
     report = """# *** The Daily AI Intelligence Report — August 12, 2026***
 
@@ -309,6 +371,18 @@ def test_default_provider_requires_no_openai_key(monkeypatch: pytest.MonkeyPatch
     monkeypatch.setenv("FREE_ONLY", "true")
     with pytest.raises(ProviderError, match="SAMBANOVA_API_KEY"):
         make_provider()
+
+
+def test_raw_provider_timeout_becomes_retryable_provider_error(monkeypatch: pytest.MonkeyPatch) -> None:
+    import scripts.providers as providers
+
+    def time_out(*args, **kwargs):
+        raise TimeoutError("socket timed out")
+
+    monkeypatch.setattr(providers.urllib.request, "urlopen", time_out)
+    with pytest.raises(ProviderError, match="timed out") as captured:
+        providers._json_request("https://example.com", provider_label="Test provider", timeout=3)
+    assert captured.value.retryable is True
 
 
 def test_free_only_refuses_paid_or_unknown_model(monkeypatch: pytest.MonkeyPatch) -> None:
