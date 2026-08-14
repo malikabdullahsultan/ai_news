@@ -272,6 +272,9 @@ async function loadReports() {
       timezone: String(parsed.frontmatter.timezone || TIMEZONE),
       model: String(parsed.frontmatter.model || ''),
       importance: Math.max(1, Math.min(5, Number(parsed.frontmatter.importance) || 3)),
+      late: parsed.frontmatter.late === true,
+      delayMinutes: Math.max(0, Number(parsed.frontmatter.delay_minutes) || 0),
+      scheduledFor: String(parsed.frontmatter.scheduled_for || ''),
       body: parsed.body,
       html: rendered.html,
       headings: rendered.headings,
@@ -291,6 +294,20 @@ function formatDate(date, options = {}) {
 
 function readingTime(words) {
   return `${Math.max(1, Math.round(words / 200))} min read`;
+}
+
+function formatDelay(minutes) {
+  const total = Math.max(0, Number(minutes) || 0);
+  const hours = Math.floor(total / 60);
+  const remainder = total % 60;
+  if (!hours) return `${remainder}m`;
+  if (!remainder) return `${hours}h`;
+  return `${hours}h ${remainder}m`;
+}
+
+function lateEditionNote(report) {
+  if (!report?.late) return '';
+  return `<aside class="late-edition-note" role="note" aria-label="Late edition"><strong>⏱ LATE EDITION</strong><span>Published ${escapeHtml(formatDelay(report.delayMinutes))} after the 03:30 HKT target.</span></aside>`;
 }
 
 function importanceBadge(report, compact = false) {
@@ -341,7 +358,10 @@ function heroBlock() {
 
 function latestCard(report, demo = false) {
   const importanceClass = `importance-${Math.max(1, Math.min(5, Number(report?.importance) || 3))}`;
-  return `<section class="latest-card page-container ${importanceClass}" data-reveal><div class="briefing-rail"><div><span class="rail-label">LATEST DROP</span><span class="rail-status"><i></i> VERIFIED BRIEF</span></div><strong>${report ? escapeHtml(report.date.slice(-2)) : '—'}</strong><small>${report ? `${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())} · ${escapeHtml(report.date.slice(0, 4))}` : 'AWAITING SIGNAL'}</small></div><div class="briefing-main"><div class="section-kicker"><span>DAILY BRIEFING</span><span class="section-line"></span><span>${report ? escapeHtml(formatDate(report.date, { month: 'long', day: 'numeric', year: 'numeric' })) : 'Awaiting first report'}</span></div><h2>${escapeHtml(report?.subtitle || 'Your first signal is almost here.')}</h2><p>${escapeHtml(report?.excerpt || 'Run the daily workflow to turn fresh research into a readable, source-linked report.')}</p><div class="card-meta">${report ? `<span>${readingTime(report.words)}</span><span>·</span><span>${demo ? 'Sample content' : 'Source-linked analysis'}</span><span>·</span><span>Hong Kong desk</span>` : '<span>GitHub Actions ready</span>'}</div></div><div class="briefing-cta">${importanceBadge(report)}<a class="button button-light" href="${urlFor(demo ? 'demo/' : 'latest/')}">${demo ? 'Open demo report' : 'Read full briefing'} <span>→</span></a></div></section>`;
+  const status = report?.late
+    ? '<span class="rail-status is-late"><i></i> LATE EDITION</span>'
+    : '<span class="rail-status"><i></i> VERIFIED BRIEF</span>';
+  return `<section class="latest-card page-container ${importanceClass}" data-reveal><div class="briefing-rail"><div><span class="rail-label">LATEST DROP</span>${status}</div><strong>${report ? escapeHtml(report.date.slice(-2)) : '—'}</strong><small>${report ? `${escapeHtml(formatDate(report.date, { month: 'short' }).toUpperCase())} · ${escapeHtml(report.date.slice(0, 4))}` : 'AWAITING SIGNAL'}</small></div><div class="briefing-main"><div class="section-kicker"><span>DAILY BRIEFING</span><span class="section-line"></span><span>${report ? escapeHtml(formatDate(report.date, { month: 'long', day: 'numeric', year: 'numeric' })) : 'Awaiting first report'}</span></div><h2>${escapeHtml(report?.subtitle || 'Your first signal is almost here.')}</h2><p>${escapeHtml(report?.excerpt || 'Run the daily workflow to turn fresh research into a readable, source-linked report.')}</p><div class="card-meta">${report ? `<span>${readingTime(report.words)}</span><span>·</span><span>${demo ? 'Sample content' : 'Source-linked analysis'}</span><span>·</span><span>Hong Kong desk</span>` : '<span>GitHub Actions ready</span>'}</div></div><div class="briefing-cta">${importanceBadge(report)}<a class="button button-light" href="${urlFor(demo ? 'demo/' : 'latest/')}">${demo ? 'Open demo report' : 'Read full briefing'} <span>→</span></a></div></section>`;
 }
 
 function statsBlock(reports) {
@@ -365,7 +385,7 @@ function homeBody(reports, latest, demo) {
 
 function reportBody(report, demo = false) {
   const sourceNote = report.model ? `<span>Generated with ${escapeHtml(report.model)}</span>` : '';
-  return `<section class="report-hero page-container importance-${report.importance}"><div class="breadcrumb"><a href="${urlFor('')}">Home</a><span>/</span><a href="${urlFor('archive/')}">Archive</a><span>/</span><span>${escapeHtml(report.date)}</span></div><div class="report-title-row"><div><div class="eyebrow"><span class="pulse-dot"></span> Daily AI Intelligence · ${escapeHtml(report.date)}</div><h1>${escapeHtml(report.title)}</h1></div>${importanceBadge(report)}</div><p class="report-subtitle">${escapeHtml(report.subtitle)}</p><div class="report-meta"><span>${escapeHtml(formatDate(report.date, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }))}</span><span>·</span><span>${readingTime(report.words)}</span>${sourceNote ? `<span>·</span>${sourceNote}` : ''}</div></section><div class="report-layout page-container"><a class="back-link" href="${urlFor('archive/')}">← Back to archive</a><article class="report-content">${report.html}</article></div>`;
+  return `<section class="report-hero page-container importance-${report.importance}"><div class="breadcrumb"><a href="${urlFor('')}">Home</a><span>/</span><a href="${urlFor('archive/')}">Archive</a><span>/</span><span>${escapeHtml(report.date)}</span></div><div class="report-title-row"><div><div class="eyebrow"><span class="pulse-dot"></span> Daily AI Intelligence · ${escapeHtml(report.date)}</div><h1>${escapeHtml(report.title)}</h1></div>${importanceBadge(report)}</div><p class="report-subtitle">${escapeHtml(report.subtitle)}</p><div class="report-meta"><span>${escapeHtml(formatDate(report.date, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }))}</span><span>·</span><span>${readingTime(report.words)}</span>${sourceNote ? `<span>·</span>${sourceNote}` : ''}</div>${lateEditionNote(report)}</section><div class="report-layout page-container"><a class="back-link" href="${urlFor('archive/')}">← Back to archive</a><article class="report-content">${report.html}</article></div>`;
 }
 
 function archiveBody(reports) {
@@ -401,6 +421,9 @@ if (!latest) {
     timezone: TIMEZONE,
     model: 'demo fixture',
     importance: 3,
+    late: false,
+    delayMinutes: 0,
+    scheduledFor: '',
     body: parsed.body,
     html: rendered.html,
     headings: rendered.headings,
@@ -416,7 +439,7 @@ await fs.mkdir(DIST, { recursive: true });
 await writeFile('assets/site.css', await fs.readFile(path.join(ROOT, 'src', 'styles', 'site.css'), 'utf8'));
 await writeFile('assets/client.js', await fs.readFile(path.join(ROOT, 'src', 'client.js'), 'utf8'));
 await writeFile('favicon.svg', await fs.readFile(path.join(ROOT, 'public', 'favicon.svg'), 'utf8'));
-await writeFile('index.json', JSON.stringify(reports.map(report => ({ date: report.date, title: report.title, subtitle: report.subtitle, url: report.url, excerpt: report.excerpt, words: report.words, importance: report.importance })), null, 2));
+await writeFile('index.json', JSON.stringify(reports.map(report => ({ date: report.date, title: report.title, subtitle: report.subtitle, url: report.url, excerpt: report.excerpt, words: report.words, importance: report.importance, late: report.late, delayMinutes: report.delayMinutes })), null, 2));
 
 await writeFile('index.html', siteShell({ title: SITE_CONFIG.siteName, description: SITE_CONFIG.tagline, body: homeBody(reports, latest, demo), active: 'home', demo }));
 await writeFile('latest/index.html', siteShell({ title: latest.title, description: latest.subtitle, body: reportBody(latest, demo), active: 'latest', demo }));

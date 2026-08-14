@@ -31,6 +31,7 @@ jobs:
       FREE_ONLY: 'true'
       TIMEZONE: Asia/Hong_Kong
       REPORT_TIME: '03:30'
+      LATE_REPORT_GRACE_MINUTES: '30'
       MAX_RESEARCH_ITEMS: '24'
       MAX_SOURCE_FETCHES: '36'
       RECENT_REPORT_CONTEXT_DAYS: '3'

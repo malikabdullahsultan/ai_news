@@ -19,6 +19,7 @@ from scripts.report_pipeline import (
     ensure_report_date_heading,
     parse_feed,
     persist_report,
+    publication_timing,
     redact_report_for_debug,
     report_date_from_utc,
     report_date_for,
@@ -37,6 +38,27 @@ def test_hong_kong_timezone_rolls_forward_after_1930_utc() -> None:
     assert report_date_for(before) == date(2026, 8, 12)
     assert report_date_for(after) == date(2026, 8, 12)
     assert report_date_from_utc("2026-08-11T18:00:00Z") == "2026-08-12"
+
+
+def test_publication_timing_marks_only_meaningful_delays() -> None:
+    on_time = publication_timing(
+        date(2026, 8, 14),
+        datetime(2026, 8, 13, 19, 55, tzinfo=timezone.utc),
+        report_time="03:30",
+        grace_minutes=30,
+    )
+    late = publication_timing(
+        date(2026, 8, 14),
+        datetime(2026, 8, 13, 20, 1, tzinfo=timezone.utc),
+        report_time="03:30",
+        grace_minutes=30,
+    )
+
+    assert on_time["delay_minutes"] == 25
+    assert on_time["late"] is False
+    assert late["delay_minutes"] == 31
+    assert late["late"] is True
+    assert late["scheduled_for"] == "2026-08-14T03:30:00+08:00"
 
 
 def test_parse_feed_filters_old_items() -> None:
@@ -447,6 +469,9 @@ def test_dry_run_and_static_build() -> None:
     assert 'href="/ai_news/archive/"' in home
     assert 'href="/ai_news/search/"' in home
     assert 'data-sound-toggle' in home
+    latest_report = (ROOT / "dist" / "reports" / "2026-08-14" / "index.html").read_text(encoding="utf-8")
+    assert "LATE EDITION" in latest_report
+    assert "11h 12m after the 03:30 HKT target" in latest_report
     client = (ROOT / "dist" / "assets" / "client.js").read_text(encoding="utf-8")
     assert "daily-ai-sound" in client
     assert "AudioContext" in client

@@ -14,7 +14,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter
 from dataclasses import dataclass
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, time as datetime_time, timedelta, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
@@ -718,7 +718,44 @@ def validate_report(report: str, report_date: date, *, secret_values: list[str] 
     return errors
 
 
-def frontmatter(report_date: date, subtitle: str, generated_at: str, model: str, importance: int = 3) -> str:
+def publication_timing(
+    report_date: date,
+    generated_at: datetime | None = None,
+    *,
+    timezone_name: str | None = None,
+    report_time: str | None = None,
+    grace_minutes: int | None = None,
+) -> dict[str, Any]:
+    """Calculate whether publication missed the configured Hong Kong target."""
+    zone_name = timezone_name or os.getenv("TIMEZONE", DEFAULT_TZ)
+    local_zone = ZoneInfo(zone_name)
+    hour, minute = (int(part) for part in (report_time or os.getenv("REPORT_TIME", "03:30")).split(":"))
+    scheduled = datetime.combine(report_date, datetime_time(hour=hour, minute=minute), tzinfo=local_zone)
+    current = generated_at or datetime.now(timezone.utc)
+    if current.tzinfo is None:
+        current = current.replace(tzinfo=timezone.utc)
+    published = current.astimezone(local_zone)
+    delay_minutes = max(0, int((published - scheduled).total_seconds() // 60))
+    grace = max(0, grace_minutes if grace_minutes is not None else int(os.getenv("LATE_REPORT_GRACE_MINUTES", "30")))
+    return {
+        "late": delay_minutes > grace,
+        "delay_minutes": delay_minutes,
+        "scheduled_for": scheduled.isoformat(),
+        "published_at": current.astimezone(timezone.utc).isoformat(),
+    }
+
+
+def frontmatter(
+    report_date: date,
+    subtitle: str,
+    generated_at: str,
+    model: str,
+    importance: int = 3,
+    *,
+    late: bool = False,
+    delay_minutes: int = 0,
+    scheduled_for: str = "",
+) -> str:
     return "\n".join([
         "---",
         f"date: {report_date.isoformat()}",
@@ -728,17 +765,30 @@ def frontmatter(report_date: date, subtitle: str, generated_at: str, model: str,
         f'timezone: "{os.getenv("TIMEZONE", DEFAULT_TZ)}"',
         f'model: "{model.replace(chr(34), chr(39))}"',
         f"importance: {max(1, min(5, int(importance)))}",
+        f"late: {'true' if late else 'false'}",
+        f"delay_minutes: {max(0, int(delay_minutes))}",
+        f'scheduled_for: "{scheduled_for}"',
         "---",
         "",
     ])
 
 
-def persist_report(report_date: date, body: str, result: GenerationResult, *, importance: int = 3) -> Path:
+def persist_report(
+    report_date: date,
+    body: str,
+    result: GenerationResult,
+    *,
+    importance: int = 3,
+    generated_at: datetime | None = None,
+    timing: dict[str, Any] | None = None,
+) -> Path:
     destination = REPORTS_PATH / report_date.strftime("%Y") / report_date.strftime("%m") / f"{report_date.isoformat()}.md"
     destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.exists():
         raise RuntimeError(f"Refusing to overwrite existing report: {destination}")
-    value = f"{frontmatter(report_date, extract_subtitle(body), datetime.now(timezone.utc).isoformat(), result.model, importance)}{body.strip()}\n"
+    generated = generated_at or datetime.now(timezone.utc)
+    publication = timing or publication_timing(report_date, generated)
+    value = f"{frontmatter(report_date, extract_subtitle(body), generated.astimezone(timezone.utc).isoformat(), result.model, importance, late=bool(publication['late']), delay_minutes=int(publication['delay_minutes']), scheduled_for=str(publication['scheduled_for']))}{body.strip()}\n"
     with destination.open("x", encoding="utf-8") as handle:
         handle.write(value)
     return destination
@@ -839,7 +889,16 @@ def run(report_date: date) -> int:
     if errors:
         raise RuntimeError("Report validation failed: " + "; ".join(errors))
     importance = calculate_importance_rating(research)
-    destination = persist_report(report_date, report, result, importance=importance)
+    generated_at = datetime.now(timezone.utc)
+    timing = publication_timing(report_date, generated_at)
+    destination = persist_report(
+        report_date,
+        report,
+        result,
+        importance=importance,
+        generated_at=generated_at,
+        timing=timing,
+    )
     write_json(META_PATH / f"{report_date.isoformat()}.json", {
         "report_date": report_date.isoformat(),
         "provider": provider_name,
@@ -849,7 +908,10 @@ def run(report_date: date) -> int:
         "continuations": continuation_count,
         "validation_repairs": validation_repair_count,
         "usage": result.usage,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": generated_at.isoformat(),
+        "late": timing["late"],
+        "delay_minutes": timing["delay_minutes"],
+        "scheduled_for": timing["scheduled_for"],
         "free_only": env_bool("FREE_ONLY", True),
     })
     log(f"validated report: {destination.relative_to(ROOT)}")

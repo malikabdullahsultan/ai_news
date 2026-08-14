@@ -529,6 +529,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: -.04
 .latest-card[class*='importance-'] { background: linear-gradient(118deg, #050506 0%, #141622 59%, var(--importance-card) 165%); }
 .latest-card .briefing-cta { min-width: 195px; }
 .latest-card .importance-badge { align-self: flex-end; }
+.rail-status.is-late { color: #ffc466; }
+.rail-status.is-late i { background: #ffc466; box-shadow: 0 0 0 4px rgba(255,196,102,.14); }
 
 .archive-row[class*='importance-'] { grid-template-columns: 90px 1fr auto 28px; margin: 6px 0; padding: 15px 14px; border: 1px solid rgba(10,10,14,.14); border-radius: 13px; background: var(--importance-card); color: var(--importance-text); }
 .archive-row[class*='importance-']:hover { background: var(--importance-card); border-color: var(--importance-star); }
@@ -550,6 +552,9 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: -.04
 
 .report-title-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 35px; }
 .report-title-row .importance-badge { margin-top: 13px; padding: 11px 13px; border: 1px solid rgba(255,255,255,.1); border-radius: 14px; background: linear-gradient(135deg, #050506, #17171b 70%, var(--importance-card) 190%); }
+.late-edition-note { display: inline-flex; align-items: center; gap: 9px; max-width: 100%; margin-top: 18px; padding: 9px 13px; border: 1px solid rgba(255,183,86,.36); border-radius: 999px; background: #211d19; color: #ebd7bd; font-size: 10px; line-height: 1.4; }
+.late-edition-note strong { color: #ffc466; font: 600 8px var(--mono); letter-spacing: .11em; white-space: nowrap; }
+.late-edition-note span { color: #c9b9a6; }
 
 /* Bubble-like solid surfaces; color progression is reserved for the report snapshot set. */
 body { background: var(--bg); }
@@ -587,6 +592,7 @@ body::before { background-image: none; mask-image: none; }
   .archive-row[class*='importance-'] { grid-template-columns: 57px 1fr auto 15px; gap: 8px; padding-inline: 10px; }
   .report-title-row { grid-template-columns: 1fr; gap: 5px; }
   .report-title-row .importance-badge { width: max-content; margin: 0 0 18px; }
+  .late-edition-note { align-items: flex-start; flex-direction: column; gap: 3px; border-radius: 18px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
