@@ -462,12 +462,14 @@ def test_dry_run_and_static_build() -> None:
     assert (ROOT / "dist" / "latest" / "index.html").exists()
     assert (ROOT / "dist" / "archive" / "index.html").exists()
     assert (ROOT / "dist" / "search" / "index.html").exists()
+    assert (ROOT / "dist" / "architecture" / "index.html").exists()
     home = (ROOT / "dist" / "index.html").read_text(encoding="utf-8")
     production_reports = list((ROOT / "reports").rglob("*.md"))
     assert ("DEMO MODE" not in home) if production_reports else ("DEMO MODE" in home)
     assert 'href="/ai_news/latest/"' in home
     assert 'href="/ai_news/archive/"' in home
     assert 'href="/ai_news/search/"' in home
+    assert 'href="/ai_news/architecture/"' in home
     assert 'data-focus-music' in home
     assert 'aria-label="Start focus music"' in home
     assert 'data-sound-toggle' in home
@@ -481,6 +483,14 @@ def test_dry_run_and_static_build() -> None:
     assert "scheduleFocusMusic" in client
     assert "exponentialRampToValueAtTime(.72" in client
     assert "createDynamicsCompressor" in client
+
+    architecture = (ROOT / "dist" / "architecture" / "index.html").read_text(encoding="utf-8")
+    assert "How this little AI newsroom works." in architecture
+    assert "architecture-pipeline" in architecture
+    assert "A report’s day, step by step." in architecture
+    assert "Three doors in → one verified story out." in architecture
+    assert "SAMBANOVA_API_KEY" not in architecture
+    assert "OPENAI_API_KEY" not in architecture
     assert "Stop focus music" in client
     assert "playBlockStrike" in client
     assert "createDynamicsCompressor" in client
