@@ -1,0 +1,931 @@
+{
+  "report_date": "2026-08-16",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-08-15T19:53:58.953816+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 299
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 48
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 79
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 427,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Serve Qwen3.8-2.4T-A95B, a 2.4T-Parameter Model, with Configurable Reasoning on NVIDIA GB300 NVL72",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-08-14T15:45:00+00:00",
+      "summary": "Alibaba released the open weights for Qwen3.8-2.4T-A95B (Qwen3.8-Max), its largest open-weight model, bringing near-frontier capabilities to the open...",
+      "claims": [
+        "Alibaba released the open weights for Qwen3.8-2.4T-A95B (Qwen3.8-Max), its largest open-weight model, bringing near-frontier capabilities to the open..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
+          "published_at": "2026-08-14T15:45:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and rapid progress, the generative AI community has not clearly converged on operational definitions for reasoning and often implicitly rejects the historical treatment of this topic in logic and verifiable automated reasoning. This position contends that definitional ambiguity leaves the construct validity of reasoning evaluation unverifiable, undermining quantifiable progress toward trustworthy autonomous reasoning. We also contend that this ambiguity is addressable. To that end, we provide (1) operational definitions based on a synthesis of the literature, positioning valid and sound reasoning as a learnable rule-based process; and (2) a checklist for best practices in the communication of AI reasoning research.",
+      "claims": [
+        "arXiv:2608.12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and rapid progress, the generative AI community has not clearly converged on operational definitions for reasoning and often implicitly rejects the historical treatment of this topic in logic and verifiable automated reasoning. This position contends that definitional ambiguity leaves the construct validity of reasoning evaluation unverifiable, undermining quantifiable progress toward trustworthy autonomous reasoning. We also contend that this ambiguity is addressable. To that end, we provide (1) operational definitions based on a synthesis of the literature, positioning valid and sound reasoning as a learnable rule-based process; and (2) a checklist for best practices in the communication of AI reasoning research."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12325",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action reasoning and artifact-grounded decision making across 36 paired tasks under a 5-level implicit-explicit pressure protocol spanning 3 domains and 4 research stages. Evaluating 18 frontier model variants, we find that under peak pressure, models fail roughly 1 in 3 integrity-critical decisions, and neither scale nor reasoning ability reliably mitigates this. Explicit pressures induce compliance with misconduct, while implicit contextual reframing more often causes over-refusal of legitimate research tasks. Interestingly, models failing to classify research requests accurately perform equally or better on artifact-grounded decision making (85.7 vs. 79.4), suggesting the three facets are structurally dissociated and correct ethical action does not require accurate classification. Frontier models can thus appear helpful while harbouring integrity failures that create two distinct deployment risks: facilitating research misconduct and eroding trust in AI-assisted research.",
+      "claims": [
+        "arXiv:2608.12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action reasoning and artifact-grounded decision making across 36 paired tasks under a 5-level implicit-explicit pressure protocol spanning 3 domains and 4 research stages. Evaluating 18 frontier model variants, we find that under peak pressure, models fail roughly 1 in 3 integrity-critical decisions, and neither scale nor reasoning ability reliably mitigates this. Explicit pressures induce compliance with misconduct, while implicit contextual reframing more often causes over-refusal of legitimate research tasks. Interestingly, models failing to classify research requests accurately perform equally or better on artifact-grounded decision making (85.7 vs. 79.4), suggesting the three facets are structurally dissociated and correct ethical action does not require accurate classification. Frontier models can thus appear helpful while harbouring integrity failures that create two distinct deployment risks: facilitating research misconduct and eroding trust in AI-assisted research."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12345",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment techniques to the possibility and actual cases of misuse, we show that the quest for a \"perfectly aligned\" model inadvertently also provides malicious actors with an ever-improving tool for informational dominance. We need to discuss this dual-use potential now, as its risk is exacerbated by rapid user adoption of AI as information provider, economic power asymmetries, and a political landscape that increasingly shifts towards authoritarianism. We conclude by urging the community to consider the intentional misuse of AI alignment mechanisms and propose mitigation strategies to safeguard against this dual-use potential.",
+      "claims": [
+        "arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment techniques to the possibility and actual cases of misuse, we show that the quest for a \"perfectly aligned\" model inadvertently also provides malicious actors with an ever-improving tool for informational dominance. We need to discuss this dual-use potential now, as its risk is exacerbated by rapid user adoption of AI as information provider, economic power asymmetries, and a political landscape that increasingly shifts towards authoritarianism. We conclude by urging the community to consider the intentional misuse of AI alignment mechanisms and propose mitigation strategies to safeguard against this dual-use potential."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12346",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same judgment while appealing to different principles, contextual assumptions, or interpretations of the situation. We test this distinction using a curated 500-item ETHICS-derived benchmark spanning five domains of moral judgment, with new human annotator and LLM annotations of both final labels and supporting rationales. Across frontier and open model families, agreement with human annotator majority labels is often high. However, rationale-level analysis reveals systematic divergence in the moral grounds expressed by human annotators and models. In particular, models redistribute attention across categories such as harm, respect, promise-keeping, justice, desert, and excuse relevance, even when their final labels match the human annotator majority. Our results show that agreement should not be treated as equivalent to alignment. Label-based evaluation can therefore be misleadingly reassuring unless complemented by analysis of the reasons, principles, and moral priorities expressed in model judgments.",
+      "claims": [
+        "arXiv:2608.12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same judgment while appealing to different principles, contextual assumptions, or interpretations of the situation. We test this distinction using a curated 500-item ETHICS-derived benchmark spanning five domains of moral judgment, with new human annotator and LLM annotations of both final labels and supporting rationales. Across frontier and open model families, agreement with human annotator majority labels is often high. However, rationale-level analysis reveals systematic divergence in the moral grounds expressed by human annotators and models. In particular, models redistribute attention across categories such as harm, respect, promise-keeping, justice, desert, and excuse relevance, even when their final labels match the human annotator majority. Our results show that agreement should not be treated as equivalent to alignment. Label-based evaluation can therefore be misleadingly reassuring unless complemented by analysis of the reasons, principles, and moral priorities expressed in model judgments."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12368",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12371v1 Announce Type: new Abstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper proposes \\emph{MAS-DecStream}, whose main contribution is \\emph{LLM-MR-CNP}: an extension of the classical Contract Net Protocol with semantic CFP formulation, progressive context disclosure, multi-round proposal revision, negotiation memory, and deterministic validation. Edge-cluster agents refine natural-language offloading proposals from local observations, predicted resource states, and qualitative runtime context, while hard resource and QoS constraints remain deterministic. Experiments derived from the Alibaba ASI Trace evaluate the extension at three levels: single- versus multi-round CNP, rule-based versus LLM-assisted refinement, and fixed-model single- versus multi-round negotiation. Under the evaluated configurations, MAS-DecStream reduces latency violations to 3\\%, eliminates resource overcommitment, reaches a conflict-resolution rate of 0.91 with 20 agents, and improves utility by up to 22\\% over the multi-round rule-based baseline. A separate 25-case evaluation shows model- and prompt-dependent accuracy--cost trade-offs. The results provide initial evidence that multi-r",
+      "claims": [
+        "arXiv:2608.12371v1 Announce Type: new Abstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper proposes \\emph{MAS-DecStream}, whose main contribution is \\emph{LLM-MR-CNP}: an extension of the classical Contract Net Protocol with semantic CFP formulation, progressive context disclosure, multi-round proposal revision, negotiation memory, and deterministic validation. Edge-cluster agents refine natural-language offloading proposals from local observations, predicted resource states, and qualitative runtime context, while hard resource and QoS constraints remain deterministic. Experiments derived from the Alibaba ASI Trace evaluate the extension at three levels: single- versus multi-round CNP, rule-based versus LLM-assisted refinement, and fixed-model single- versus multi-round negotiation. Under the evaluated configurations, MAS-DecStream reduces latency violations to 3\\%, eliminates resource overcommitment, reaches a conflict-resolution rate of 0.91 with 20 agents, and improves utility by up to 22\\% over the multi-round rule-based baseline. A separate 25-case evaluation shows model- and prompt-dependent accuracy--cost trade-offs. The results provide initial evidence that multi-r"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12371",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Position: We Need Practical AI Alignment Methods to Mirror Human Reasoning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12372v1 Announce Type: new Abstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers. This position paper argues that in many settings, particularly high-stakes decision-making, we need accurate cognitively-aligned AI systems that reason similarly to their users, and faithfully communicate their reasoning. We review evidence that cognitive alignment improves understandability and trustworthiness, and provide new survey data showing that many users find cognitive alignment \"essential\" when an AI's rationale for a judgment or action is important to them. We outline the gaps between existing alignment methods and what is needed to achieve cognitive alignment, and present a research agenda to address these gaps. We argue that cognitive misalignment represents a likely impediment to AI adoption in many envisioned applications, and that addressing it is important for creating AI systems on which users are both willing and justified to rely.",
+      "claims": [
+        "arXiv:2608.12372v1 Announce Type: new Abstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers. This position paper argues that in many settings, particularly high-stakes decision-making, we need accurate cognitively-aligned AI systems that reason similarly to their users, and faithfully communicate their reasoning. We review evidence that cognitive alignment improves understandability and trustworthiness, and provide new survey data showing that many users find cognitive alignment \"essential\" when an AI's rationale for a judgment or action is important to them. We outline the gaps between existing alignment methods and what is needed to achieve cognitive alignment, and present a research agenda to address these gaps. We argue that cognitive misalignment represents a likely impediment to AI adoption in many envisioned applications, and that addressing it is important for creating AI systems on which users are both willing and justified to rely."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12372",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12373v1 Announce Type: new Abstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's decision in a high-stakes scenario. We use single-turn game-theoretic vignettes in which a model advises a nuclear-armed nation on whether to strike a defenseless opponent. The prompt is intentionally amoral and strategically identical across languages. We find that Japanese prompts reduce launch rates in the Claude model family: Claude Sonnet 4.6 drops from 40% to 0% in scenarios where the strike is unnecessary and from 93% to 17% in contested scenarios, with minimal effect when the strike is strategically rational. The effect extends to Gemini Pro 3.1 (53% to 13%). A cross-language experiment isolates the mechanism: when instructed to reason in Japanese in an English prompt, launch rates drop from 93% to 37%. It is the language the model is asked to reason in, not the language of the input, that drives the effect. When reasoning in Japanese, models spontaneously generate moral vocabulary (''moral cost'', ''millions of lives'') that is entirely absent from the prompt. Five other models show no language effect, but they launch in nearly every condition regardless of language. The effect ",
+      "claims": [
+        "arXiv:2608.12373v1 Announce Type: new Abstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's decision in a high-stakes scenario. We use single-turn game-theoretic vignettes in which a model advises a nuclear-armed nation on whether to strike a defenseless opponent. The prompt is intentionally amoral and strategically identical across languages. We find that Japanese prompts reduce launch rates in the Claude model family: Claude Sonnet 4.6 drops from 40% to 0% in scenarios where the strike is unnecessary and from 93% to 17% in contested scenarios, with minimal effect when the strike is strategically rational. The effect extends to Gemini Pro 3.1 (53% to 13%). A cross-language experiment isolates the mechanism: when instructed to reason in Japanese in an English prompt, launch rates drop from 93% to 37%. It is the language the model is asked to reason in, not the language of the input, that drives the effect. When reasoning in Japanese, models spontaneously generate moral vocabulary (''moral cost'', ''millions of lives'') that is entirely absent from the prompt. Five other models show no language effect, but they launch in nearly every condition regardless of language. The effect "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12373",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-15T04:00:00+00:00",
+      "summary": "arXiv:2608.12385v1 Announce Type: new Abstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently: prompt prefill is parallel and typically compute-bound, whereas autoregressive decode is sequential and often memory-bandwidth-bound. Conventional width or depth scaling increases both costs together because every added layer is evaluated in both phases. We ask whether additional learned computation can instead be allocated to continuation prediction while preserving the prompt-wide primary computation and a single persistent key-value (KV) cache. We introduce the Dual-Flow Transformer. Its primary flow is a complete causal language model that processes the prompt and writes the KV cache. The auxiliary flow is omitted during prompt processing and activated only from the final prompt position onward, adding continuation-prediction computation without writing persistent state or influencing the primary flow. The two flows share major attention, MLP, and output matrices, while using separate token embeddings and lightweight coupling. Sharing weights and the primary cache also creates opportunities to reuse loaded weights and cached keys and values during grouped execution. Across matched-token comparisons, Dual-Flow achieves lower validatio",
+      "claims": [
+        "arXiv:2608.12385v1 Announce Type: new Abstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently: prompt prefill is parallel and typically compute-bound, whereas autoregressive decode is sequential and often memory-bandwidth-bound. Conventional width or depth scaling increases both costs together because every added layer is evaluated in both phases. We ask whether additional learned computation can instead be allocated to continuation prediction while preserving the prompt-wide primary computation and a single persistent key-value (KV) cache. We introduce the Dual-Flow Transformer. Its primary flow is a complete causal language model that processes the prompt and writes the KV cache. The auxiliary flow is omitted during prompt processing and activated only from the final prompt position onward, adding continuation-prediction computation without writing persistent state or influencing the primary flow. The two flows share major attention, MLP, and output matrices, while using separate token embeddings and lightweight coupling. Sharing weights and the primary cache also creates opportunities to reuse loaded weights and cached keys and values during grouped execution. Across matched-token comparisons, Dual-Flow achieves lower validatio"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.12385",
+          "published_at": "2026-08-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek Harness: Everything-is-a-Plugin Developer Preview - SitePoint",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T18:38:52+00:00",
+      "summary": "DeepSeek Harness: Everything-is-a-Plugin Developer Preview SitePoint",
+      "claims": [
+        "DeepSeek Harness: Everything-is-a-Plugin Developer Preview SitePoint"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5nODRRcG5ILWVxYUpDZGRac19PT0lVYlVGdS1hYk1ZdkxLOWZLeF9qdUpIR0JtUmhPR2Z6eWZXczBQTGRZdmNaQ2xBQ1ZfYkRrak1lQmFGc3IwVGtkVjVLOXZxbXFLS0VORHFPWnVB?oc=5",
+          "published_at": "2026-08-15T18:38:52+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Apple Turns to Alibaba to Help Build AI Model for China - Decrypt",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-15T17:01:03+00:00",
+      "summary": "Apple Turns to Alibaba to Help Build AI Model for China Decrypt",
+      "claims": [
+        "Apple Turns to Alibaba to Help Build AI Model for China Decrypt"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qX2JyZi03YXlia2t6eWkzMXdEWWdpQUNLVlpBWWJzU3YwZW5Ec2FSOEFxQjVNdnJ3dUljWmswVEdvRHMzNDJOUmxvMzhpVGl0Um9DQmVLRG96WHJVdlZZaHJLb2hUUXBaZnZ1a9IBdEFVX3lxTE5IZG1Yd1lsVHU4N0xxZVF5Q3NXZXA3b2tSbXZBVFg2ejRlZUFuTEdrcjRucHYwY2ozd0ZnZW9Ta2o0QVpoUWN6MUY5Y0RPSWh0bmhrVWllbjFta2NvYjNQZ1pQeDYza1Z6UExidkktSXRtRXp4?oc=5",
+          "published_at": "2026-08-15T17:01:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Stock Price Prediction? Moonshot AI Valuation and IPO Outlook 2026–2030 - MEXC",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T16:31:21+00:00",
+      "summary": "Kimi Stock Price Prediction? Moonshot AI Valuation and IPO Outlook 2026–2030 MEXC",
+      "claims": [
+        "Kimi Stock Price Prediction? Moonshot AI Valuation and IPO Outlook 2026–2030 MEXC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWkNvNUZMQmR2b3I2SFdvYVpJdlZTUGRjaTNRUHpPM2RWS0tzcGJkRVVKSEJ0eW05VkNzSnFNbVV2eGxRY1YwY1Z6a0VYQzJVN1BVNWNVd3ViN2ZzWGRCUkJpeXRzRjVpZHBodHdKNlVVZ25qOExPSjFxY2RCTHN4bXNNc1JrQWk1c1BDWlB0bXlUbVZRNHgzanZpaUlORk53VldNUWVzbmFqTk03ZkNaMVJKTHJuY1FUQ1E?oc=5",
+          "published_at": "2026-08-15T16:31:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI company Anthropic investors hoping for $2 trillion public valuation - newstalk.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-15T16:05:43+00:00",
+      "summary": "AI company Anthropic investors hoping for $2 trillion public valuation newstalk.com",
+      "claims": [
+        "AI company Anthropic investors hoping for $2 trillion public valuation newstalk.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLTFIWEw1MjVBUG0tVVZuQjdseDBjR2tCM1N2TzhueWhpVGJ1RlZfaFNGa2lEdzdTT2htdHprbUJ6dUY1V2xFem1YazZpMVdLNDNVemVKVmVjMGdHUkNlUUctVXFhM3ZmMXJSbUVkYkpKQ2lfSmRHZXE3QUlsaWt3bnhHcXdDZ2VSek8wSG9mb1Axa3pyQXFNeXJXakJqb3JaalY3TkVSam9FT2dlU0hDMGFRNjdsc3ROY0Vn?oc=5",
+          "published_at": "2026-08-15T16:05:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Runtime: DeepSeek's new coding harness; Grok levels up - thestack.technology",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T15:43:00+00:00",
+      "summary": "Runtime: DeepSeek's new coding harness; Grok levels up thestack.technology",
+      "claims": [
+        "Runtime: DeepSeek's new coding harness; Grok levels up thestack.technology"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcFliMloxbDlDcnNaTWVKQWltWkVXT20yV3FtTXczaklRMlh1UXJiZnZYQWtRYXgyekxuOHY3OUpwRUlwMFFqV0NkaW1SNU1LYjdTYTU1MDIzZUIyMTFqdkhUZWw4UE5mcnlJVy0zS2VJTVRuYWYyZnc4WS03V00wajZDakM4d3ctM1pTMw?oc=5",
+          "published_at": "2026-08-15T15:43:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Alibaba Qwen surpasses peers with 3 billion downloads, Susan Li notes - Traders Union",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T15:35:11+00:00",
+      "summary": "Alibaba Qwen surpasses peers with 3 billion downloads, Susan Li notes Traders Union",
+      "claims": [
+        "Alibaba Qwen surpasses peers with 3 billion downloads, Susan Li notes Traders Union"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbC1ZX1RpeldFSlh5blIwbmVTd0xlclBpZmZIekZmd2YyekhrSElQdXRSMkdZRzVoamE1amdzdl94NUI4U1RDVDN4aXBJeFNpOFlab1kyajU1X1dpVDhXUHFkWDBzVUVLbkh2dVo1V0syd2o5aVU0cVYzVWFxQ3c4QlBKQWtPbE1lRkJ3ZA?oc=5",
+          "published_at": "2026-08-15T15:35:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Qwen Beats Meta and Google With 3 Billion Downloads; Alibaba’s Model Becomes No. 1 Open-Source AI - LatestLY",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-15T15:07:43+00:00",
+      "summary": "Qwen Beats Meta and Google With 3 Billion Downloads; Alibaba’s Model Becomes No. 1 Open-Source AI LatestLY",
+      "claims": [
+        "Qwen Beats Meta and Google With 3 Billion Downloads; Alibaba’s Model Becomes No. 1 Open-Source AI LatestLY"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTmI1ZUpTSi1GUU5TdlpNdTN0c3JhTWRKaDlOdkJFT3p4T1pFY2JfY0oteVZaa3B3U3Y0SU85QlNod3hKMTA3QU12MFpRQUo1X3pLUEl6dmh6dHRzd0tyZ3FoQ0pNUnRWOVJfaWJnMmFuM1VmNG12ci1fa0h5bVBWYUFWLXpjdTdKZ1VPUzFMMG1UX3A0UkFSU1N2ZjN0NGkxdE93RS1KSnpzNnZDYkEwcXZMR25Yd1laeW95VUw2STRFVWtYeFltekpuUDQ1WHRHSlBqeERTV0tzT0XSAeABQVVfeXFMT2FLVkxtWUhXSE5lSTNGcnRDWURzU1FlWmV4SWlCQWhwd0lxMVRFRnptTHJDTW9SdjA3UjhZU0E0Um1wejA2SXN4YzNsY3l0dWFhVjEwWHB2TE5LN0tSSE56RXRTTFRwb2J3OXNPODV1LUdIUjM3WDBXTkNtNU85YjVMWGZXRHo3S3d1NVNoWGhjSVl1ZHZVaTd2cjIxNmhnZFVqMmxVZjQwUjRvOUZ5cGRhbXdKOXIwdktoUWFudmI2QzkwM2s1dEpwbXNoSE5HZ0czcHFSYTI5R2h5anVJWmU?oc=5",
+          "published_at": "2026-08-15T15:07:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Guenther Steiner says Mercedes has found the next Max Verstappen in Kimi Antonelli - Motorcycle Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T14:32:26+00:00",
+      "summary": "Guenther Steiner says Mercedes has found the next Max Verstappen in Kimi Antonelli Motorcycle Sports",
+      "claims": [
+        "Guenther Steiner says Mercedes has found the next Max Verstappen in Kimi Antonelli Motorcycle Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdW81dVZaQjByQ0hvWk0ybVFkdjE1czZoTzZ3Y2U4MWVUQ1ZYMzJXal82NHFiR2otUzJPU1NKdGJrNzY4YXphMlNWV1VybW12RTFHNGo4SHBxVEhpcmZNWngwdTNFWEN1UDZkT0E2dW94cDZrMDFnWm5LMVcwazRORGx3dzdiNndhYldsYVVCdWZKSkEzTGJjVkhHNnZZOVpTdEFNZVQxc0trQUdXZFpFY0J3?oc=5",
+          "published_at": "2026-08-15T14:32:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI, Automation Reshape India’s Telecom Jobs As 5G Hiring Boom Slows - ABP Live English",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-15T16:41:54+00:00",
+      "summary": "AI, Automation Reshape India’s Telecom Jobs As 5G Hiring Boom Slows ABP Live English",
+      "claims": [
+        "AI, Automation Reshape India’s Telecom Jobs As 5G Hiring Boom Slows ABP Live English"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX1VFaHk0Sk5BaDVEdUh5MWpyTVh2T0ZKTTlKc1lJUkpIWm5DcFd0XzUzbnlrdzdBUmJhTnZVZGhqVjk2UmVsMG9Ibm5MNVlwSFdBZGhQSHJXbmJIamZENnNGbUp0SmpZZkp3YlNyd041U2hiaVhoOWlKXy1GdkI1WjI2Yl8zWVZyeU80ck9KUFd1SWlMV2hHUVVJcGt5c3dkS1dNVlZsT2RrVGdGd1NXTnU4OTZTZ3dQ?oc=5",
+          "published_at": "2026-08-15T16:41:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Can AI jump over railings? - Diari ARA",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-15T16:28:35+00:00",
+      "summary": "Can AI jump over railings? Diari ARA",
+      "claims": [
+        "Can AI jump over railings? Diari ARA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSjFTUjFKd0hzVTZQRXRHLWVvOVZKRXp2bGYxcUEyM1pVLVRDYzJoS1VUZ1FtQ2FrUnlHVGRmLTJEYUVKRFpWbWhOLVNBTGlkMzhXVmpRWENsaE4wTFd2WkJnb19INkZDMGhQb0NCUkZRdmk5YW1wZTB6Y1E1bmR0R9IBgAFBVV95cUxQSjFTUjFKd0hzVTZQRXRHLWVvOVZKRXp2bGYxcUEyM1pVLVRDYzJoS1VUZ1FtQ2FrUnlHVGRmLTJEYUVKRFpWbWhOLVNBTGlkMzhXVmpRWENsaE4wTFd2WkJnb19INkZDMGhQb0NCUkZRdmk5YW1wZTB6Y1E1bmR0Rw?oc=5",
+          "published_at": "2026-08-15T16:28:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Artificial Intelligence: the hype, the dangers, and the resistance—Part III - mronline.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-15T14:47:48+00:00",
+      "summary": "Artificial Intelligence: the hype, the dangers, and the resistance—Part III mronline.org",
+      "claims": [
+        "Artificial Intelligence: the hype, the dangers, and the resistance—Part III mronline.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTkZIQ254YnF1VlJBMm9iOE1zZWREVGVacjRXZFNfZFZ2bmlJeHBoTFdoRWc2R09Ba19qWHAxZmlMNG9qWnQ3S2ZfUWk4dFFqTUlDMnU2OThkU2x2TW8yaThpTmJIWndNVGlRbzJGWVBLSk5TSVN5dFlBQVVmbVNVdGNhNjBNcnZmUnNJdkc2WE9nRGhCTndBV1VQRnF4bEtsVE41TEVjQXg?oc=5",
+          "published_at": "2026-08-15T14:47:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek Statistics 2026: Users, Token Share, Pricing and Benchmark Data - About Chromebooks",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T14:03:54+00:00",
+      "summary": "DeepSeek Statistics 2026: Users, Token Share, Pricing and Benchmark Data About Chromebooks",
+      "claims": [
+        "DeepSeek Statistics 2026: Users, Token Share, Pricing and Benchmark Data About Chromebooks"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGcEpfRUdldnJxNGpwODVuek5qeVJkTVdOQlR1YmtxMEZLdDZlN1p1eEN6RUdiWmhNS1c2MDBEYnpiWUI5TFdTeThSdVEwZnpHaC1yUUVSZWJHbGdYdDdzbms0OA?oc=5",
+          "published_at": "2026-08-15T14:03:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Maganga Thishela – Phumani Kimi Zinja - Six9ja",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T13:55:36+00:00",
+      "summary": "Maganga Thishela – Phumani Kimi Zinja Six9ja",
+      "claims": [
+        "Maganga Thishela – Phumani Kimi Zinja Six9ja"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DWnNoR2Z6VlBJdmwtWTUxdnU3eGxhN2ZnLTh2RHRSQUFDUFBWaGpoOTU1a3o3cnNBOWtabG01cjBtRTVlN2pRMGpNRmRubVdnRy16aENiSnVxTkM0VUQ0Zk82b09Iam1MZFFtWkJITzZwbHpH?oc=5",
+          "published_at": "2026-08-15T13:55:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek V4 Pro: Ignites AI Price War With Grok 4.6 - blockchain.news",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T13:45:36+00:00",
+      "summary": "DeepSeek V4 Pro: Ignites AI Price War With Grok 4.6 blockchain.news",
+      "claims": [
+        "DeepSeek V4 Pro: Ignites AI Price War With Grok 4.6 blockchain.news"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOEdjWFd4elRET3lra25XeWljS3pwOHFNMHNILUFZT3VUM1lJUWRkNHJ2c3Vuc3RtT1lyeFVCNXZpazlvZEE2NHRDc3NGV3BFZGZTZGtidUUzcFFjWTlfLVNTcExlSEoweDdEbVNNSkJDQjJqaS1yeVhXSk1iRjVsb1R6U1Y3Zw?oc=5",
+          "published_at": "2026-08-15T13:45:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "how hamilton's engineer helped shape antonelli's striking f1 transformation, reveals toto wolff - F1ingenerale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-15T13:05:28+00:00",
+      "summary": "how hamilton's engineer helped shape antonelli's striking f1 transformation, reveals toto wolff F1ingenerale",
+      "claims": [
+        "how hamilton's engineer helped shape antonelli's striking f1 transformation, reveals toto wolff F1ingenerale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd0xBNHIwTWE0Z1o1T3FPNDloTnhFSFpfLVlmWGVMaTcxS1I1U01QNExsSTdfOW5VSFlTZFc1cUUwYktzdEdsV0NSMjlYLUNjVDFzdlpVUDRlVTRIWlJoUXZRTl9NODZVVEE0SWRjdjgxQm5oWEM3Q0Rnbl9pZmpKaW9JWTRyWEMyRFBLVDQ1YWZXWHFZczdhWng4ZXc5NUk0MGc0a1hyNXI2X2U4OHZkOW1ORERhTFZFSEhNcmFtZFMyQQ?oc=5",
+          "published_at": "2026-08-15T13:05:28+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
