@@ -425,7 +425,7 @@ Home       → overview, latest report, and recent snapshots
 Latest     → the newest full report
 Archive    → every saved report, newest first
 Search     → a small browser-side search over the static index
-Architecture → this friendly backstage tour
+How It Works → this friendly backstage tour (`/how-it-works/`)
 Reports    → one permanent page for each date
 ```
 
