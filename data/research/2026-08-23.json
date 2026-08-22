@@ -1,0 +1,1047 @@
+{
+  "report_date": "2026-08-23",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-08-22T19:55:30.849945+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 48
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 154,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Where Security Fits in an AI Agent Stack",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-08-21T22:32:02+00:00",
+      "summary": "As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes increasingly important....",
+      "claims": [
+        "As AI agents become more capable and operate over longer horizons, building security and trust into the applications they power becomes increasingly important...."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/where-security-fits-in-an-ai-agent-stack/",
+          "published_at": "2026-08-21T22:32:02+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-08-21T21:08:48+00:00",
+      "summary": "A frontier language model is only one component of an AI agent. The surrounding agent system—often called a harness—determines how the model receives...",
+      "claims": [
+        "A frontier language model is only one component of an AI agent. The surrounding agent system—often called a harness—determines how the model receives..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
+          "published_at": "2026-08-21T21:08:48+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Generative Recommenders Are Redefining RecSys at Scale",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-08-21T18:29:21+00:00",
+      "summary": "Recommender systems (RecSys) are one of the most ubiquitous machine learning problems in the consumer internet industry yet notoriously difficult to train and...",
+      "claims": [
+        "Recommender systems (RecSys) are one of the most ubiquitous machine learning problems in the consumer internet industry yet notoriously difficult to train and..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-generative-recommenders-are-redefining-recsys-at-scale/",
+          "published_at": "2026-08-21T18:29:21+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-08-21T17:02:24+00:00",
+      "summary": "Generative AI",
+      "claims": [
+        "Generative AI"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
+          "published_at": "2026-08-21T17:02:24+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-08-21T16:21:21+00:00",
+      "summary": "Use AdaptGrow, a GPU-accelerated matrix factorization algorithm, to turn rolling correlation and tail-dependence matrices into hard clusters, soft factor...",
+      "claims": [
+        "Use AdaptGrow, a GPU-accelerated matrix factorization algorithm, to turn rolling correlation and tail-dependence matrices into hard clusters, soft factor..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
+          "published_at": "2026-08-21T16:21:21+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How mobility gives language models a deeper understanding of place",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-08-21T10:54:00+00:00",
+      "summary": "Algorithms & Theory",
+      "claims": [
+        "Algorithms & Theory"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+          "published_at": "2026-08-21T10:54:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Dutch Grand Prix: Title leader Kimi Antonelli admits series of mistakes are a wake up call - LiveonScore.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T18:50:59+00:00",
+      "summary": "Dutch Grand Prix: Title leader Kimi Antonelli admits series of mistakes are a wake up call LiveonScore.com",
+      "claims": [
+        "Dutch Grand Prix: Title leader Kimi Antonelli admits series of mistakes are a wake up call LiveonScore.com",
+        "Kimi Antonelli's Dutch Grand Prix Wake-Up Call Devdiscourse",
+        "Dutch Grand Prix: Title leader Kimi Antonelli admits series of mistakes are a 'wake-up call' ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSWZnS3VWNFR2VTJDYjN5aUl6SGFnVUVqdkdkZnNIRFd5dFY0VmxKa1JObTZ2YndzTUd6Y2dTdERYWVh6THkwdWJ1TGtIaXl5VFFXSDF2SlA4Nmx3SWV1c2x3WEl0Q0NiV3VYMWNCYmhZdmJPR29KT1h2LV85TDVIdzMwYzNYOEZSaDB2WHlEOFM5VjJaNG1RSjRibkNUaUZkejBfMTVWSS1wWmlLalNUYVVRaWdMSG9IN0E?oc=5",
+          "published_at": "2026-08-22T18:50:59+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT045dmZpeG8wUGVhbUo2NGlZV2hqZllZWVdqdE5vM3A5Tm1tQmh5QXZrY1Z2UmpZelpZWjdnXzhacFFaZE5LZ2k3RjhnS2llby00alhySllzUnIzcXRKSEhldExKV1lRcndmZURxUnZ3a0dMc3N3eGNMLWl3bERUZTdSV3htVTBJTFpDOFNUSUNzSVMzUi1xSEwxVV9yTUxZT28wNGl30gGrAUFVX3lxTE5JNjJIZ0paWGo2akR2V2ZScDJ5SjVod01JWjhRanJ3WUc0ZHVTSVl3Mk14STBrOVE3RVJRQWJ4MUVUSk5ZZ05VOXhVYm82dVg0UzNITzNydTdablRabFU1VDBZV3ZnZ1JtaC1xTUpOdEpCbTZrWXM4TE1raHpHcVRHYkRDYllFOVZkVWdVOTg4RXZNWDdoZzVpZ1dNa2lUQkk1cmxIanZMR0Fkdw?oc=5",
+          "published_at": "2026-08-22T18:23:34+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZHRBZzViU1NJRDFxTXkwbVFwYjBwcWlDSFhaSkZvYjltYTAxY3k4UXRNMFBCbUZHM3FpYzU4OUxKMGNjTm9yaG9oUHJDa0UxdUtZdHJwNV91ZHlVdDR2MlBxMEVNOFJnQjNNTGtQTmFac3BJOTJQaEltTG9fR1dEendVQ2Z3YV9TVlRDMVdkamUyNmU4b3BvMUNxME51NU9nd3dFTEl1Mks4d29TdmNyUDhISFo4MFQwT252UllQR3M4ZDU3ZVhnSHpINHVKZnBSdjh2c1doZ0JCZw?oc=5",
+          "published_at": "2026-08-22T16:48:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell on title fight with teammate Kimi Antonelli: 'The pressure's off, it's mine to gain' - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T18:15:00+00:00",
+      "summary": "George Russell on title fight with teammate Kimi Antonelli: 'The pressure's off, it's mine to gain' ESPN",
+      "claims": [
+        "George Russell on title fight with teammate Kimi Antonelli: 'The pressure's off, it's mine to gain' ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZGN2Qm12S3dUeFVKQUMzNzJabGZyR0h2RVIzNEJ4YWJKdXQzeENHRTdIRTZHbF9UMnpWUGxGUnJqc1JKSHB1WWJ1THBPUXp3WEZEandTM2RMWGdYNmpKeVJzRHRtd3RDekNXM1BzOWlDbkdwZm1SYmlaNGxVUkhtTy1MbkN0cy1la0ZwTkFIU1Nib212SmE2YjhWSXkyeVoyU25XRUQ5TFhKcGR0bkxqa3JrczZGTmlLVEhleDR2czVrV1N5Q3llM0paS2xzdldJTk9ZdU41WVVGcFZZUU5Z?oc=5",
+          "published_at": "2026-08-22T18:15:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lando Norris produces 'best lap of my life' to seal Dutch GP pole with title-race leader Kimi Antonelli third - thenationalnews.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T18:09:43+00:00",
+      "summary": "Lando Norris produces 'best lap of my life' to seal Dutch GP pole with title-race leader Kimi Antonelli third thenationalnews.com",
+      "claims": [
+        "Lando Norris produces 'best lap of my life' to seal Dutch GP pole with title-race leader Kimi Antonelli third thenationalnews.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZkZxS2hUbFhOclJDMXprNE5FcGVKd2VLU0VmVlF2WTRCWGFMLTRlVmxlMF9aaGpoMHRTRnhlcXJzWEZta05kM2hTN2FjXzdyYzRXZENqRHpnVjR1SThPdzBSbDFvWHNza2tXX3k0QWFKZ01PMFRIWkVoVGtOUGgzaTBnMEdzMWUxRGZjMHZkX2IzNk5ueHA1NEV4RXo5LWdMS0xaTTFKRHdSaFh1TWdkY0NZX1FxY3o5amdUblZNUWFua3F1VWc4TzQxN0VQVjd3S0x0OXpzN1dST2VtZlRNaXkyR3FxWDYzbFEtRzFn?oc=5",
+          "published_at": "2026-08-22T18:09:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli frustrated after Turn 1 \"mistake\" cost him Dutch GP pole - motors-addict",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T17:59:09+00:00",
+      "summary": "Kimi Antonelli frustrated after Turn 1 \"mistake\" cost him Dutch GP pole Motorsport.com",
+      "claims": [
+        "Kimi Antonelli frustrated after Turn 1 \"mistake\" cost him Dutch GP pole motors-addict",
+        "Kimi Antonelli frustrated after Turn 1 \"mistake\" cost him Dutch GP pole Yahoo Sports",
+        "Kimi Antonelli frustrated after Turn 1 \"mistake\" cost him Dutch GP pole Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQanJ6dDMtUC1FYlpFOFE0ZWZvVzBkc0ZMYVVHVHQ0WVFTZndMcFNWM2xEWVp6TjRNTHRkbUhwWWIyZkZla2N6c2RDV2M5emRaQnpEQTNPTmF2WGFZbTNZTWItYWYzVTJobXVBajFiaWNFUWRoTER6QWEzTll5dG5MOUpDdjRNYnJlZ2JxUjcwcy1RaEYzSEhkZ1ZSNFNXaC1WSnZUdHVBLXF2WEJHUWRVeHMySTc3NjZwQ0xKblVZc0d1ZTFRRm9xY1o4d0xhekYxdkpvaQ?oc=5",
+          "published_at": "2026-08-22T17:59:09+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU1ViLUZoblVTVlVwVkUyUkh4c0psR1RtVFlKSXNtOG5IUkpVQzlBTzVGOW4yZlFHbTlFVzdob3hzeDQ1UldKUkI2YzI0RWd4Zm9UZEphcFVTcENid3B0aEpUNzN1RVNFNV9lZ0tycnQxNERrd3VJai03eGxZOEM2dUtmYXFfRzd1?oc=5",
+          "published_at": "2026-08-22T16:22:30+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObGxyeTJ3VHlqcHpOY2k1M3VjUTlhdTdMVjJpZE4tRWtaX0VtUTdhOGZOVXE0Z0dJZmdCRWdTWkRsanM2ZVBnVG1Vb1hPTlI3OExkbC1Ha2VhREM3VHlZWmpOZG5OZ0J0STUxN0lFTUplTUN0LTktNjg2bnhsXzhDMHNXWkRsQmhVLWhjcV96TC1IRWxUS3c2WTRWLW4yZE1yNnlLc251ZUZXRTBlOWk0WVhHUQ?oc=5",
+          "published_at": "2026-08-22T16:22:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell \"more relaxed\" as F1 2026 title is Kimi Antonelli's to lose - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T17:57:42+00:00",
+      "summary": "George Russell \"more relaxed\" as F1 2026 title is Kimi Antonelli's to lose Motorsport.com",
+      "claims": [
+        "George Russell \"more relaxed\" as F1 2026 title is Kimi Antonelli's to lose Motorsport.com",
+        "George Russell \"more relaxed\" as F1 2026 title is Kimi Antonelli's to lose inkl"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWZyVDg4Z0cyU3pFd2dxQ0d5OUlsdVhtcGdKTkNiWEpJNmhhNVhMTUNjNm1scTVCaUhvN1N4aU5aR0xEdkk1TGpOWWZOSkpzYjZnQjJpaFYwRjNpb0MtVWs4bU1YaEJVeXpkVkJqRFE4T0VZN1pXQzFoUTdZdWZfZjZfWEV4UktEZWhTakRQeTA0aTFZd1Bqd0VvdU1iWlktQVcxLXZPN05WdG5OUGpMWXQwUkNaNlk?oc=5",
+          "published_at": "2026-08-22T17:57:42+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVXZFejVFMHNsWVp6WlVpalZxVGxCQWZRMGdOLVpDOWFlX3phYko5YWY4ZkdwLWsxendVMFlwSnFoNXA5bkhvRTlHNG5Mb014aXpNM2t5SDhUUldJU1Zvb2ppVE1vcl95dXRhb3pJNjJON2xYTVAwbnRiZWRfTGZzbncxaXBZY3dFMVI3WHlWWk50NWFrQU8tV0lhWGRQUQ?oc=5",
+          "published_at": "2026-08-22T17:57:42+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 championship leader Kimi Antonelli confirms grid penalty: 'We'll try to recover anyway' - gpfans.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T17:30:00+00:00",
+      "summary": "F1 championship leader Kimi Antonelli confirms grid penalty: 'We'll try to recover anyway' gpfans.com",
+      "claims": [
+        "F1 championship leader Kimi Antonelli confirms grid penalty: 'We'll try to recover anyway' gpfans.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRVgyd3Jqa05ZQ0JwREFfWi1pWFA5RGxORllSU0wwcVktbldiblFKdjVPX1NUUUxNdW02UU9MNnhPekpEOFFjLWNNREJmZEhHdS1ZZlZEZjRZY2dPb3gtMVlIOWFlSllwX1RhU0g1ckg1MVZmM0Z5ZlI3SGI3aEFpdHlpZWtkcXpFS2xqWTRhTG42YUE0UkI1MzFHd2lKSG0zdGFpRXgxRkt2QkdDNUdYZzl2ZVZoM1dKbFB6N0ZHcWloWWhMb2EzNU5udXhhWXVGUHc?oc=5",
+          "published_at": "2026-08-22T17:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell Says Kimi Antonelli Forced a Big Mercedes Driving-Style Change at Dutch GP - MotorBiscuit",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T17:13:18+00:00",
+      "summary": "George Russell Says Kimi Antonelli Forced a Big Mercedes Driving-Style Change at Dutch GP MotorBiscuit",
+      "claims": [
+        "George Russell Says Kimi Antonelli Forced a Big Mercedes Driving-Style Change at Dutch GP MotorBiscuit"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTExwS1p0YWY3ZFVxVHVmclp4RnNiUXdLOXI5VHd1R3NSTERtaEtWVXhRQjJtSm5LMGFMY3FnTGNiLVUzd0M0Z182SG0xWFN5aGxhYzY1NU9TYzRzVjU3YWhLSi10cFFDREN1QS1aZURrQVdmQlhWaTE3UTFyRkNjQlFuYnhMdEVYVy1DTzFOcXkyMVZ0SzhGX2NTTzAxZFgxVG9KSkpGejZ3a2ZMWlI0?oc=5",
+          "published_at": "2026-08-22T17:13:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 - Kimi Antonelli's struggles at Zandvoort: \"Friday's crash made me lose confidence\" - autohebdof1.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T17:12:10+00:00",
+      "summary": "F1 - Kimi Antonelli's struggles at Zandvoort: \"Friday's crash made me lose confidence\" autohebdof1.com",
+      "claims": [
+        "F1 - Kimi Antonelli's struggles at Zandvoort: \"Friday's crash made me lose confidence\" autohebdof1.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rR2hOUjFYNHRvenBnRHNvYXgxSFVSY19PNzQwS1NlZlVzTWtCT3pzc1JqVHRfbUx2eE1MRmw5SWZ2dVMzN184RnJ5cy1ySjg5VTB6NGstNVVRenM2WjlJMWxvaG1MNG0yNkpLbGhUVTV5ay15S0gw?oc=5",
+          "published_at": "2026-08-22T17:12:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Apple vs. Meta Platforms: Which \"Magnificent Seven\" Giant Has the Stronger Artificial Intelligence (AI) Growth Engine? - The Motley Fool",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-22T19:51:01+00:00",
+      "summary": "Apple vs. Meta Platforms: Which \"Magnificent Seven\" Giant Has the Stronger Artificial Intelligence (AI) Growth Engine? The Motley Fool",
+      "claims": [
+        "Apple vs. Meta Platforms: Which \"Magnificent Seven\" Giant Has the Stronger Artificial Intelligence (AI) Growth Engine? The Motley Fool"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQURfZENHc01vQVVDdFhDMW1ZR1lUMWN0ZlBZa1ZLYjYySDUyMm1FRlBfMnFlV3lYa2xpTkVmY2FNNGFtYm82WlVXSXhwdkN4VjNCUC1uQVBKUVRqWm1pQmtzRHVjaFNqdDBhVmdES21kT1NRN1piWVE5akpLSVlrUDRaTl9pOWxPZW1UeUdGN05jUC1J?oc=5",
+          "published_at": "2026-08-22T19:51:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli Takes Dutch GP Performance as \"Wake-Up Call\" in F1 2026 Title Fight - MotorBiscuit",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T18:18:25+00:00",
+      "summary": "Antonelli Takes Dutch GP Performance as \"Wake-Up Call\" in F1 2026 Title Fight MotorBiscuit",
+      "claims": [
+        "Antonelli Takes Dutch GP Performance as \"Wake-Up Call\" in F1 2026 Title Fight MotorBiscuit"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSXU2UjI5MkF3dFhzYmd1SFcxUWtXbFBxNkZOcEcyc3c3bUNNVHRlbUNtMXh3Z0ZzVVI4cXdVdFU1VFRENVJXMWdoZFp5ektoVWJGdkVObFFYUTB4cnB0ZU91RHV0RG9TaUVUUm9DNDlZX28zZEJIc21QS0xoQUdFcGptVmhfdGxzS0txcjNWVVcyQmlrdGlBc08yT2NyNjVjdHdvbjZCdnE?oc=5",
+          "published_at": "2026-08-22T18:18:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli says Dutch GP mistakes are a 'wake-up call' amid F1 2026 title fight - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T18:18:00+00:00",
+      "summary": "Antonelli says Dutch GP mistakes are a 'wake-up call' amid F1 2026 title fight GPblog",
+      "claims": [
+        "Antonelli says Dutch GP mistakes are a 'wake-up call' amid F1 2026 title fight GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcmlNdUVUeDRHN2hFeXVONzRoUk4zcGwyTkJYSkxYaEdta1Q5aHlMNTV0dXVLdE5QNm5oTUtqRU5BaHloZzlWWWVCYU11WWJJNjdLaEJZVjdseUFORUg1OG4wbEVsc19ueTNKTXFLVWItS3dpNk5qX1N6VWRoZFE3NHlkcXdPenlYcnhiRnc0QVJta3Vqb0pkNnppQWlnc1VuTVFVdjE5QTBWUE1ZYmdB?oc=5",
+          "published_at": "2026-08-22T18:18:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli given 'wake up call' as Mercedes star pays the price at Dutch GP - Daily Express",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T17:04:00+00:00",
+      "summary": "Kimi Antonelli given 'wake up call' as Mercedes star pays the price at Dutch GP Daily Express",
+      "claims": [
+        "Kimi Antonelli given 'wake up call' as Mercedes star pays the price at Dutch GP Daily Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3BxbExpUWZlTGxZdVU4T2RFNHF0MmJ1VDloS291WGNfbW5fa0xkemF6UzYwM0paS1ZXd0liSDBRZWFPZFdxUm1ST0NQa2ROUWZZcU1hQXdGd3Z4WmNsSlhHWGNSRGNfYzI2SUgwTFZjbXpxUjhSY0cyN1dQc0s4Z3Roa1JXc0V0MHFhNHdzVEYyNlV5NlcwSNIBngFBVV95cUxNQkNQYjZuTldVeGNfd2pfcWxMMkZweHB0MFQyTVRJb2Q3STJSMHJDVnRIcnhNZk5sUVEtWmZPcUNUZXJtWDh6SkNQZzdHb1lENjVUTVZEVHg3MnZLc3RBUkgzM1YwVGNlZlZrUHpBcUN4ZDVQZG9DTlFQRkstUW5qajBmUlpleHZ5ak5lazFTb3lGY2tUVVh5VVkxUy1iZw?oc=5",
+          "published_at": "2026-08-22T17:04:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli admits Diutch Grand Prix weekend has so far been a great wake-up call - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T16:52:47+00:00",
+      "summary": "Kimi Antonelli admits Diutch Grand Prix weekend has so far been a great wake-up call grandprix247",
+      "claims": [
+        "Kimi Antonelli admits Diutch Grand Prix weekend has so far been a great wake-up call grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcDlUZlRHN0U3VVl4ZkRjZVltQWhJUVJRS3VhQXV0cklJQWJ4UlFNUTV2azk1eU5zcnYyUzY1aVpJdGpIRWFNMWxsSy11ZzhpRl9Udjczd3haZzJ6ZE1WS25PQXlFTnA1d21NUHFtTlJSWWswWUl3SUpGeDNBd2xxVmthdTNXamJGVG5RbXcyV2Q2Y0t0c3Z2UzNfNy1DRkJ0WEw3MWNWM2pOOXpuZE9fcWdRRXJ0aTF2MXRfVnJFc3VST0oxYXNnQnhaUDRPX2FqUlVQUThwOF9HdHc?oc=5",
+          "published_at": "2026-08-22T16:52:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Dutch GP: Lando Norris beats George Russell and Kimi Antonelli to Zandvoort pole with Lewis Hamilton in fifth - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T16:49:40+00:00",
+      "summary": "Dutch GP: Lando Norris beats George Russell and Kimi Antonelli to Zandvoort pole with Lewis Hamilton in fifth Sky Sports",
+      "claims": [
+        "Dutch GP: Lando Norris beats George Russell and Kimi Antonelli to Zandvoort pole with Lewis Hamilton in fifth Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc1lPZTNfQ3lDTlJDRkJyTkR4MlZWQTNmNTJ5bU5vSTVwVEZ3X2FoUWxBTTdNdl9xaElsZkZZUk9rVEZ2SDN3Ry1ENVBRaDNWcUE5WUQwOFpCempVcWtXVkZ1UFdSX0w3M2NCZEREOE9JY2cyV1U4cWloeXBsTFZCOFh5cXpEeEt0eDFWOXFUR0l0cjVvaHdtLW5zV0dDTnJXUE0zNU9DX2tNb3BCTWVvcTZnRDFQRzFWbDkzS0dWTV9ra2FHb1hhVk5TaTkteFotamVWTTRvMlhHa0FKZlZ3TkY1TVFKdUI5SzNMRg?oc=5",
+          "published_at": "2026-08-22T16:49:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli owns up to mistakes amid Zandvoort “wake-up call” at F1 Dutch GP - Crash.net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T16:35:32+00:00",
+      "summary": "Kimi Antonelli owns up to mistakes amid Zandvoort “wake-up call” at F1 Dutch GP Crash.net",
+      "claims": [
+        "Kimi Antonelli owns up to mistakes amid Zandvoort “wake-up call” at F1 Dutch GP Crash.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQczhGZzNkNWYtZXdUcTdZMDFmWTBZWGd5ekwtYXpRZldpV194RzZCeTlBRWlRN2s5Rkg3b29VX1JDeXhlTUEyZi1wY2JLYS1hV1ZscDdDMjNLOHZFemd4QmFkZnRhSndqWHlBSF95MldzMTFBTlh5S294UTBWVVZONnduNEtfLXNmeGpaVGpGbU1kVEVfWHZjZGhnN3phY3R0T3BaWGI5NWU?oc=5",
+          "published_at": "2026-08-22T16:35:32+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Who knows Mizuki's secret in Hana-Kimi Season 2? - Business Upturn",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T16:34:55+00:00",
+      "summary": "Who knows Mizuki's secret in Hana-Kimi Season 2? Business Upturn",
+      "claims": [
+        "Who knows Mizuki's secret in Hana-Kimi Season 2? Business Upturn"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMzdnTG5LQTZ3OVZPaDVVYTAyOWRkVDNDNGp1bDVGQW5SSVlnZ0VXVzU0Yy1EelZjcU9ydDNWQUthWjdENHVsMW1NLXFMdlBCUUhSTkdDdnFUMDhfSW1tbUxSV3VBeDdGMlV3MV9NWVc3TWNiNTZZY0F4MGVsQjFOUXNOWU1EZFd6NVdRU1FTNlRBRUNSaWhBUHZn?oc=5",
+          "published_at": "2026-08-22T16:34:55+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli respects ‘wake-up call’ in F1 title bid before Dutch Grand Prix - Herts Advertiser",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T16:32:20+00:00",
+      "summary": "Kimi Antonelli respects ‘wake-up call’ in F1 title bid before Dutch Grand Prix Lancashire Telegraph",
+      "claims": [
+        "Kimi Antonelli respects ‘wake-up call’ in F1 title bid before Dutch Grand Prix Herts Advertiser",
+        "Kimi Antonelli respects ‘wake-up call’ in F1 title bid before Dutch Grand Prix The Bury Times",
+        "Kimi Antonelli respects ‘wake-up call’ in F1 title bid before Dutch Grand Prix Chester Standard",
+        "Kimi Antonelli respects ‘wake-up call’ in F1 title bid before Dutch Grand Prix Lancashire Telegraph"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd0lWanAtU1VJdXNWaE4zWGN3Z0pnVXJPTmxFZUxYRTNzT3JtY1VxaVhvX3hYWmRXb2h3WDJlZXBFSjlnQy1EM1pldnNLaFA2UjBKOXZfeFNlNTNVS09fb0dCa1JRNnF4VnZXZWpFcXZacEtVcGVraHJQUkxOZF9BYUhwSi0wNC1mZUtRMWpPSkNxcEc0WV9Ea0FYYWJ1OHRuT2VtUldha043eHNvU0RwczdSUFJBLU1adzVIQWhMV2k?oc=5",
+          "published_at": "2026-08-22T16:32:20+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSjhuOU5ndklObjVVOVVPTERsMXMza1JQMk4xSmI2TFZRSGFrUzIxbUI5U2hxbVhra28xVWMxSlAtWWRaUTNYZlp4R0tINzRJXzI4NjhvRTlsZFNUbENKOUkyVXdjUHRHTjNQamhacGN4WmY5bUVwUW5pNFlZZXhtOFhrLVViZDItOHBxbF9NandiRVJHYWE5Z3dJWE1fRS14R3RRWHVzTXlwTHVPc2s5UnozM2drbjR0MThDeFNqMktQQXJXVUZpTHlyc1c2LVlhS3c?oc=5",
+          "published_at": "2026-08-22T16:32:20+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONlZFS3Q1aXlsNjNqYmNNdmV0MUpMRTdHOV8yZEtELUxJQzcwblBaZkNMcTB5cVBEU0gweERLN1F5TkVveVMwR3dhT3M3NVcyZTlpR2FBUWRJWXdYTmpiS0MtbXRsUk1nZ0xqd3Z5QVNjQWJuc3ZELXVPaU9MejhoTkVRUW5nOVFsNF9nd1ZLYWVuTl9MN09nbEliYVRXTnNQdHkwZGp1YXFaNjUycUVoVXZJeUxaWElEMzRkWkl5NTlZS0k?oc=5",
+          "published_at": "2026-08-22T16:32:20+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRjJiZnVOeUxlSHdnSU9yOF9XV216aVAxaDk2YzQ3VEVXXzFyUWxyYUVVajFWcDhrcHJpWWs2VXNMc0VZck0tMFVEb2R3VC1reXJfby1wMFEwMm9FT28yaUZ2b0tWWDc2ZE5sV0dBUG8yRG1tS0Fwc05UZDQ5eFFOWlI1SUV5Z0hQWHJzOGJxTldfc1RKVG12aWxVUGo0MEp5TjE5YVZjenRWYjliWVlYMnpyazh2UVBhcGltenBLUE8wZFhtUnQyTA?oc=5",
+          "published_at": "2026-08-22T16:32:20+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2RNS0N6bHM5NEpDWXB6MDVoREhvN3hwaVoybFVTbzZvdmlMakxSdEhIajlRbUI0VmhibjdiVTZhMno3emk5ZGNQZ05USWdkNnR4YVEwZHhOQW1sQVoySlZnLVVtLTZrcUpFS3plckN2X3JUSXlfYTVfWld4Ykw2SFQ0eEcyZGFZNk9sWFFXc29kcC1mLU1IOTVwR3VpeU1NMEFnVw?oc=5",
+          "published_at": "2026-08-22T16:27:27+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGFtN29IUmczZUgwckNBRXVtWTJuaU41aFhFcmZCTnVtQktzNzZSQWVKNzFsMVlUcXZWYWE1ZFZvbTRXOC1jWURxbTB2R0ZQWVJtTk52eXNwdm9Zek5ER3pLMVNXMGpIZjE0VThkREhMMDZJeHc2SDFiNGszWFlCQ05yYzlidHlCQmpsUXUtbkVRNXR3VHRiWGZCWFVnY0UzZl8tM1pXQUs?oc=5",
+          "published_at": "2026-08-22T16:27:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli set for F1 grid penalty at Italian Grand Prix - motors-addict",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-22T16:32:10+00:00",
+      "summary": "Toto Wolff confirms Kimi Antonelli is set for grid penalty at Italian Grand Prix for exceeding engine allocation Formula 1",
+      "claims": [
+        "Kimi Antonelli set for F1 grid penalty at Italian Grand Prix motors-addict",
+        "Kimi Antonelli set for F1 grid penalty at Italian Grand Prix Crash.net",
+        "Toto Wolff confirms Kimi Antonelli is set for grid penalty at Italian Grand Prix for exceeding engine allocation Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZmoweGo1TkxmNjhCMEtKa0toOTBuY0RtcWNDQmRUSnBFcWJNTlFfdUJWTEljaENLTk56djF4UHk2RlE2dmQ5Yl9weXNBaE4xVDNEd2o1bU5GTTNOaGpISXFiOEVxSEluM3o4bEVuWE5xY3lGNWZEeTVDTEF4UW9TVTQ3TlhYejZmWERCYjBWU19jQzVjZHE3c0x2aHJqYzFLckt4NlFqaUNITEw1MjRQaHdITUQ4TUpjVUxPVDljeUVfYlotTTdPQ3p2dXJsM0k?oc=5",
+          "published_at": "2026-08-22T16:32:10+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY2RaczFISWUzYWFFc2FjZXlhcXBYZnJ4a0l3QllmUlp4OWtDa0ZkaS1EcjNGSWpkdVdXdG9sVjBBaVJDQ1l2X1FfdklPdnYxeFBqT2ltX3RGVDhqUmo0OGVyMWh1b3MtcFRrZG1SMlhaak1odER1amdCTm1EaWVtbld1OGEzem5rWk91aEtEUVNvcU1QUlppQg?oc=5",
+          "published_at": "2026-08-22T14:09:36+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOERJaTg1MlZBaHQ2QnFsdi1rZ3NzRU5jR0g5VVNLYi11SFNQNFVRdlRFTENZSG9UTGczVThlcVFWc1JLNElFTWVuXzhGd3FrUzRNS01rbFN5X1VVa0c1bXAwU2tWSEJZdzltbWpHT21maVU3RE9ackJ5dnotbnlWNF92M3VkdnRDQk1PenpFMi1qWGQ2bXdEbWlQVUFROU5iSHkwdTJFX0pPMTJKOTkyU2ZXZUVzR1hHeWluSDg4UUNlQ09OMS1mellIT1MzY3ZXVXc?oc=5",
+          "published_at": "2026-08-22T12:27:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
