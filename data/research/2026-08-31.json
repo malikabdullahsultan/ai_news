@@ -1,0 +1,936 @@
+{
+  "report_date": "2026-08-31",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-08-30T19:30:58.167801+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 46
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 44
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 90,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Kimi Antonelli arrives at Monza with renewed confidence after tough debut - F1ingenerale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T18:25:12+00:00",
+      "summary": "Kimi Antonelli arrives at Monza with renewed confidence after tough debut F1ingenerale",
+      "claims": [
+        "Kimi Antonelli arrives at Monza with renewed confidence after tough debut F1ingenerale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSlN1NVFYWXFEZ0pzUEFLVmRhVnBqVm1wOEVVaTc5clc5VENRWlB0MVoxc20ydU1KQ3hjNlNGaElxUm15cUVkMU5ORC1KbnA4LUFwVEREQmMydUF3cmk1eXRNcFJ4NUVfRVNEOU9vUEdVcWU3eGsxRnRWT25pT1VJYzZlU2RNTmVXX0NYUDlkdm5ad0F2bHN1bGdIMGxHTDVwQy11dXVuYnk?oc=5",
+          "published_at": "2026-08-30T18:25:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race. - The Motley Fool",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T17:50:51+00:00",
+      "summary": "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race. The Motley Fool",
+      "claims": [
+        "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race. The Motley Fool",
+        "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race. Yahoo Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFN0RTZoMXNQZ0JUS2dHcWtFeGdKVGZtQjl2M1I4N1BYZWNkNVo5SkxPcWdQNmxIcnRkbnhRVUl1X3ZhbktwN2FKZWlmaEJXNm1DdXZLVkctLTE5T2hVS0JaUUlQVGtWTFAyaXoxbGp3NUNaRlYwRVBqQi1rLTVZbXF3VF9Ka2MyTWJacTNiandvN21CZ1E?oc=5",
+          "published_at": "2026-08-30T17:50:51+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTWJ4dGZtY3JEb2tVVU00Z0pqNFdIaHprUmQzal9rdUJnOUdFTDMtRTN3a3FRX2ctdjJEbmEwMnRMblBrTXYwS1ByaUR0NXBCaXgwd3RSOWRlb1hwa0VmWkFQaXV0SGJYWjhuSjRhX3NSNm1MR3ZKdmExVzhxd3pfeUt0MjA3REcyWXpXZnVZODJGVzgwOHJjaVlCMTQ?oc=5",
+          "published_at": "2026-08-30T17:35:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Jack Whitehall & Emily Hampshire Surprise Kimi Antonelli In Montreal Ontario Tornado Warnings (Kympdx7sQq) - Mshale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T17:34:25+00:00",
+      "summary": "Jack Whitehall & Emily Hampshire Surprise Kimi Antonelli In Montreal Ontario Tornado Warnings (Kympdx7sQq) Mshale",
+      "claims": [
+        "Jack Whitehall & Emily Hampshire Surprise Kimi Antonelli In Montreal Ontario Tornado Warnings (Kympdx7sQq) Mshale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VZ1c4SlJHNGxFQnpNZVg1bDJaR09wdmZQRXQ2cUJBR3F4Y0JlX3FvZkZ6WC1pV082TU5UQk5xdEVBZGdPNk9IbWdqaFJUakwtUWw1UWhxZ2o1VXM?oc=5",
+          "published_at": "2026-08-30T17:34:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Sony, Warner sue Anthropic over alleged mass copyright infringement - The Express Tribune",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T17:27:41+00:00",
+      "summary": "Sony, Warner sue Anthropic over alleged mass copyright infringement The Express Tribune",
+      "claims": [
+        "Sony, Warner sue Anthropic over alleged mass copyright infringement The Express Tribune"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZFVoNHlHdlp2WGV1eGY0enFqNnMxM3g1VEpSYklKZW5SZk8wRGtnNWFrbDRLWHg4QmhZWjl5S0czU0RRTXk3YzhXSHlYZjNoR2N6bmQ5TXFJSHQzLVdtOHlweDZDMkJKQnpod0NQRU1WQW11MEROaldBcjBTNk1wTjBJYXJvVjJ5bHpEY1NTMXR1SnV0LVd2T1g2R2JYemRnZF9WR05B0gGuAUFVX3lxTE96NDRHaTZwbF91dzE0TVVSYzVmVE52ZklmZm5UUzExZms1NTh1YUI2ZVFDdDdZLTJBcTVWNy1ySXJXN2FGQ3pfWmlvLTN6U3ZTaW5uTy1tTnM3MWxYcGV6RUU5SFZlbzZ2eFgwWnRwSi04aHRIMTU4NTJ6LUI0djhXMDQzcGJyclc5emNoQmlZNkJpVFAzemRwLWdiWmhVTEdhUVVCdGFTWEV1OTlTdw?oc=5",
+          "published_at": "2026-08-30T17:27:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Monza home race: Why Kimi Antonelli remains relaxed despite an engine penalty - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T17:01:37+00:00",
+      "summary": "Monza home race: Why Kimi Antonelli remains relaxed despite an engine penalty SPEEDWEEK.com",
+      "claims": [
+        "Monza home race: Why Kimi Antonelli remains relaxed despite an engine penalty SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONWpUUElOam1Jd2lvcV9MbEpJZ0hldTdjaWNzaXY4NHpla3k1cWtPYmpCLVpQRmxYRzItSzlnc0VLVUxGZWRtajFZRDhMRGhLS3ZMU2RaX1pERU9mM0prSDJGbFBHVWNKYmI0ZEw5UTcwZTdKbFlIQnA1XzZmSFFCb05FRUR6c2xiRHBSSXYybm10VExRMjhTYzdFREtOVDVSaE00ODFFVExyUWhfaEdQZldsVmU?oc=5",
+          "published_at": "2026-08-30T17:01:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli reveals how tough moments fueled his F1 growth - Paddock News 24",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T16:12:03+00:00",
+      "summary": "Kimi Antonelli reveals how tough moments fueled his F1 growth Paddock News 24",
+      "claims": [
+        "Kimi Antonelli reveals how tough moments fueled his F1 growth Paddock News 24"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WN0h5ZVd3RDJ3OWR4eWt4M2VxdFVHcHBwNnJnaS1MS0l4Nmk2YkpnZWZHbkotU1g4TWhweGhsT2o3MUhCcWZjQjM3LXp3Xy1RTU9naQ?oc=5",
+          "published_at": "2026-08-30T16:12:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Reveals Unusual Thursday Routine That Helps Him Handle F1 Pressure - MotorBiscuit",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T15:23:40+00:00",
+      "summary": "Kimi Antonelli Reveals Unusual Thursday Routine That Helps Him Handle F1 Pressure MotorBiscuit",
+      "claims": [
+        "Kimi Antonelli Reveals Unusual Thursday Routine That Helps Him Handle F1 Pressure MotorBiscuit"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMTg2Rkctd1VIQjdXNlplOHpGcTNET25kZmRPcDM0Tll3dFpCemhYNWJMWkRZeDVJN014UEczYnBOSURDUWc5a1JVaVNsU3pJM0tDVzBVODNzVDNqZGhWVFFZcVV3a0YydjlwRHY1bmpqZVJvaHg0d0ZqeUFBU1NSVnlKZ2JIeldPRF9jS1JVT28tTFI5d3BZRUZCUF85a21UaHVlUFdGUFJvUlMxZGhqVg?oc=5",
+          "published_at": "2026-08-30T15:23:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli BEST Pranks At Mercedes Nordio Querela Mediaset (dh1mDVW7xs) - Mshale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T14:48:27+00:00",
+      "summary": "Kimi Antonelli BEST Pranks At Mercedes Nordio Querela Mediaset (dh1mDVW7xs) Mshale",
+      "claims": [
+        "Kimi Antonelli BEST Pranks At Mercedes Nordio Querela Mediaset (dh1mDVW7xs) Mshale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hd0RGbXV0VjMtOXRmT0l1T2I5ZHBtc0ZSNkIta3RHZ3hqV1ZabW1CMVdGNTREWEJneHlnTXRHcVoxTlgxcDVEdnpUbkViNkFKYTB4bDA3N05xTzA?oc=5",
+          "published_at": "2026-08-30T14:48:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "The turbulent AI era is here. The choices we make now are critical. - gatesnotes.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T18:43:08+00:00",
+      "summary": "The turbulent AI era is here. The choices we make now are critical. gatesnotes.com",
+      "claims": [
+        "The turbulent AI era is here. The choices we make now are critical. gatesnotes.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+          "published_at": "2026-08-30T18:43:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "As AI grows, China's workers are also worrying about their jobs - 1News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T17:15:53+00:00",
+      "summary": "As AI grows, China's workers are also worrying about their jobs 1News",
+      "claims": [
+        "As AI grows, China's workers are also worrying about their jobs 1News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV1EtTnBZb1hncllicEl0dVJWZzFYV1RnRWtVT1diMjRDdFRVWmxHdXlERC1YY196OWJINmVWQ25ISHlKOFdmd0dHYWZoTFhTX1VSTzcwYTZHbHotRllpaTNEcjV2ZWVDYmFfeXZLUXYtbE5vVDh6bDIzbkdiek9TUkNBbm4yOHltR1MyWGh6aFF2X1VwTmhBWDd4WEhaUQ?oc=5",
+          "published_at": "2026-08-30T17:15:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "ISMG Editors: The Case for Open-Weight AI Models - GovInfoSecurity",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T16:38:28+00:00",
+      "summary": "ISMG Editors: The Case for Open-Weight AI Models GovInfoSecurity",
+      "claims": [
+        "ISMG Editors: The Case for Open-Weight AI Models GovInfoSecurity"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3pDTGwwMXFvSktyanNoQ084S0twTmlrbWVDUWlhNmpVa0pxRjFWTmhNTFFpblpoc0xLTHZnVW5Eb1I1N3B6dmhVSzBqbEVITFUxXzZXSUFxbWpPVWVRa0RwU3JCRGhVck9rOWp3VUI1aU9KVHFJd3ktZVJ4eFZlRVFWak0tOTlPTVFr?oc=5",
+          "published_at": "2026-08-30T16:38:28+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sarvam AI co-founder Vivek Raghavan named among TIME's top AI leaders - Business Standard",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T16:27:12+00:00",
+      "summary": "Sarvam AI co-founder Vivek Raghavan named among TIME's top AI leaders Business Standard",
+      "claims": [
+        "Sarvam AI co-founder Vivek Raghavan named among TIME's top AI leaders Business Standard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRnpBOXlCZjhVZ0ZPVXlBdG9wdW1iQTRaZ2N3b2x1TEJsRVhpYm1JUFVVbXhBQTFCNHdFWV83dXZnZHp6b05lSkxRUkw1azUyRUx0R1dwaDlTRWZZQ1lQOEo2aWVFMk45WGtHNXhYdUloQjlOeW5JdGpxTTRWOUFzNlFLT1M5VGkzQnRpMk9NUzZ3eEJwSF9SYjlWdGRBVGF2U056MGJIOWV2eTQzbGVuTUVfbGJHX1FuQVRLMVA5UHZJZzZxRjlxZGxnamo4Zy1QLUQ00gHYAUFVX3lxTE96R2ZiYy16OHNCY1p4YlJFRmZPdHQyalJCMlZ4Z0haT25JbWotNUl1UUF6NDVJTElRMElmWW14X3FpeWpMTm1tWk93UXgxM2s2ajdUWXBEMjV4eVpxZjlVQnltMk9BeWpvclF0VFRBWEI2NFhlTnNyNTE3a2ZVVmxMZXRJYXMtZkZObVVLNE1fdFZtX3ExQjh6MTFNTjhfQ0ROSHBlS2dOYW10VDNnbUtiWXc5TWFDUm4yc1lQd2dWQV9ySDNWTTZaQnVwV3lGeU82aWkzb0R5RA?oc=5",
+          "published_at": "2026-08-30T16:27:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Open-source AI models pose greatest security threat: Meerah Rajavel - Business Standard",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T16:20:03+00:00",
+      "summary": "Open-source AI models pose greatest security threat: Meerah Rajavel Business Standard",
+      "claims": [
+        "Open-source AI models pose greatest security threat: Meerah Rajavel Business Standard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOXpYel93N09IVWdzTU14SlZ3X1pYR3VkM1dpeTFaemZBZTVlaVhTclhxX09UWXE2MkZScXUtemo0YmxJOGpsNUhLMVAtNUg5UkVFV0llbC13a0RabmtJN0NKbDRwTDV4dEU3Tk1RdmNyc3N0ODZRRFdRUWtnU3FkQ2t4M2ZUNU1uRFJDc05OQVBWdUVQTGpVZm9Uc053bTM3bEVjTF9aQlVwbG9BNnNuU0VuOEVsY0RBZmw1Q3JnOEF1Smdqbnl0dlZ2dFZzOXJBNlNaX2IxOE_SAdgBQVVfeXFMTzl6WHpfdzdPSFVnc01NeEpWd19aWEd1ZDNXaXkxWnpmQWU1ZWlYU3JYcV9PVFlxNjJGUnF1LXpqNGJsSThqbDVISzFQLTVIOVJFRVdJZWwtd2tEWm5rSTdDSmw0cEw1eHRFN05NUXZjcnNzdDg2UURXUVFrZ1NxZENreDNmVDVNbkRSQ3NOTkFQVnVFUExqVWZvVHNOd20zN2xFY0xfWkJVcGxvQTZzblNFbjhFbGNEQWZsNUNyZzhBdUpnam55dHZWdnRWczlyQTZTWl9iMThP?oc=5",
+          "published_at": "2026-08-30T16:20:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Japan and India discuss collaboration in health & medical device fields | Akashvani News - News On AIR",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T15:47:09+00:00",
+      "summary": "Japan and India discuss collaboration in health & medical device fields | Akashvani News News On AIR",
+      "claims": [
+        "Japan and India discuss collaboration in health & medical device fields | Akashvani News News On AIR"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUp1a2VoOGcteFQ5b2UzUWJaWXJFMGdBbDZVTzFTenN3MHA5eUVLYkVHOFNoMXlvYnRFV2t1V3gyTkJZbzJzYWFrZm04RURtbmw1SWJ3b05Xd0RvT1h2eFRWMzE0VktUeEFFMkJnR0lUV0lta1RoSmdXd1pmNXJBNFlHeThsckJzVHRZUGhnd2JnZ0hHbkpaam1SWQ?oc=5",
+          "published_at": "2026-08-30T15:47:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Top tech firms call for defensive measures against looming wave of AI-driven hacks - The Times of Israel",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T15:41:47+00:00",
+      "summary": "Top tech firms call for defensive measures against looming wave of AI-driven hacks The Times of Israel",
+      "claims": [
+        "Top tech firms call for defensive measures against looming wave of AI-driven hacks The Times of Israel"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUN5SkRUVmdQcnAteXVMVjhqSFltdWVZTFA5bEVSVVhGRlpWdHVxazIzdDhfS3F6UEFMc2c2VndxSjZ4a1BTbXc2UG9ISjNOd0JQYlhFaVZJUkY4dV9XZEFVSFctdEJ6Qlo5dFJvU29ibDduczhRX3owblZwQTBwSTllNkF5RnhwWXdkYlFQRHFCRzBxQXB6MHNhclozSGFYd0w3eDA3dk9sRlp3d0U5REdtMU5lRl9i0gG4AUFVX3lxTE9JQ3lKRFRWZ1BycC15dUxWOGpIWW11ZVlMUDlsRVJVWEZGWlZ0dXFrMjN0OF9LcXpQQUxzZzZWd3FKNnhrUFNtdzZQb0hKM053QlBiWEVpVklSRjh1X1dkQVVIVy10QnpCWjl0Um9Tb2JsN25zOFFfejBuVnBBMHBJOWU2QXlGeHBZd2RiUVBEcUJHMHFBcHowc2FyWjNIYVh3TDd4MDd2T2xGWnd3RTlER20xTmVGX2I?oc=5",
+          "published_at": "2026-08-30T15:41:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The Evolution and Impact of Artificial Intelligence in Orthognathic Surgery: A Bibliometric Analysis - Cureus",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T15:34:16+00:00",
+      "summary": "The Evolution and Impact of Artificial Intelligence in Orthognathic Surgery: A Bibliometric Analysis Cureus",
+      "claims": [
+        "The Evolution and Impact of Artificial Intelligence in Orthognathic Surgery: A Bibliometric Analysis Cureus"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMGppY0V0aXp0MmZNUlY1UVpaVUYxaTF1V0xhV21qem1BX1RES3ZiRHppQjBYNWVOWVBiMG9KTXI0VXNvZWxlSmNpT2lKRThFSVZNd2lhSWI1eHZ4ODRrZUVoVEZtYjBpb3ZwMFAtSlpzV2RKZ2s0dzZXTDZoQVFWeVRDOHY1TmtHWFFTUTNtcldLTDZZRm5BZjZqT0g2LUs0TkZvMVoxYU85ZFVESXlvbEgwNzJVbk9JUmt3Qkp3OEQxOFVaallzbVFYaG1MMEN4YzRXZg?oc=5",
+          "published_at": "2026-08-30T15:34:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "We Tried EVERY Ben & Jerry's Ice Cream Flavor Kimi (BwNrw0zJXP) - Mshale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T14:47:49+00:00",
+      "summary": "We Tried EVERY Ben & Jerry's Ice Cream Flavor Kimi (BwNrw0zJXP) Mshale",
+      "claims": [
+        "We Tried EVERY Ben & Jerry's Ice Cream Flavor Kimi (BwNrw0zJXP) Mshale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZUno1QUNKNmtrSnJLbk5OOERtTFNRNmVUeE9QS0NKbEc1aWl1a3VaZEhNRnhQbkdpSlpqQS0ySXNldGpIb0E3b3BtMU1Rd3JDUllOanpYSWo1R28?oc=5",
+          "published_at": "2026-08-30T14:47:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "X Is Letting Advertisers Pipe Their Campaign Data Straight Into ChatGPT and Claude - English Bombay Samachar",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T14:33:39+00:00",
+      "summary": "X Is Letting Advertisers Pipe Their Campaign Data Straight Into ChatGPT and Claude English Bombay Samachar",
+      "claims": [
+        "X Is Letting Advertisers Pipe Their Campaign Data Straight Into ChatGPT and Claude English Bombay Samachar"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVRaZDlGTFJ6WHhiU3VmR1RyV21FUnRaZS1MbkY5aGpUcE5INXFFU0lvWFJqM0J6OFFLZ2tCV2ZIMGYtZlFYSV9sLW13VHVGRmoyRUFiQjRURVpwZUtUVVdHNEVFYW5KeTVOMmx0Y2kxcXJXWTd4T3FRc2ktSlltSFp6SFFxM0VGaDQ5LWZGODlTZlNHMDJUWWEtOWZITldM?oc=5",
+          "published_at": "2026-08-30T14:33:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Hung Yen promotes digital transformation, piloting at least 10 AI models - Laodong.vn",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T14:25:03+00:00",
+      "summary": "Hung Yen promotes digital transformation, piloting at least 10 AI models Laodong.vn",
+      "claims": [
+        "Hung Yen promotes digital transformation, piloting at least 10 AI models Laodong.vn"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVEhqcF9EaGJSN3cwQjY2dTVsNnczMV9RNzhUcnVaUXB4Q0NLc1l0QnhUS2RIOEs1X2g2ZlhXTlJaMGZjQ3BVMHhobjB1WGdNOEV0cm1EUUtDdnRndnE3X1pkMDRtcHdRcHlJWTN1aVlzdXpPNmZRUFJvNldYUVY2QVM3d2hGX2RNdVNpdzBjMkZFTEVaSlBkLWhmWVlDVGxFWW5SWkhqNllrTEpnMy13?oc=5",
+          "published_at": "2026-08-30T14:25:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Seihantai na Kimi to Boku (You and I Are Polar Opposites) – 21 - Lost in Anime",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T14:15:07+00:00",
+      "summary": "Seihantai na Kimi to Boku (You and I Are Polar Opposites) – 21 Lost in Anime",
+      "claims": [
+        "Seihantai na Kimi to Boku (You and I Are Polar Opposites) – 21 Lost in Anime"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOajJ4bmdoZk9DVHlWTGJUMmY1a0ZjYnE0ZlNQOVBHMWpXVHVtNkRvdmE2blptVFJpa1Jval9Wekd0bWR0MlJPcUkwUXU0bXpJcGU1MExNekxsdlFkbnJ3ak1mUW5rdDdLNkk3N0dDb0k0RVpLU1k4R0wtbHRfMXlkMl9QWXh4b3RWa1JCZ0hkaWZpV2toblE?oc=5",
+          "published_at": "2026-08-30T14:15:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "君の名前を呼びたくて Kimi No Namae O Yobitakute (Aku Ingin Memanggil Namamu) (Special Edition) Fenerbahçe (GdWx379qGU) - Mshale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T14:06:49+00:00",
+      "summary": "君の名前を呼びたくて Kimi No Namae O Yobitakute (Aku Ingin Memanggil Namamu) (Special Edition) Fenerbahçe (GdWx379qGU) Mshale",
+      "claims": [
+        "君の名前を呼びたくて Kimi No Namae O Yobitakute (Aku Ingin Memanggil Namamu) (Special Edition) Fenerbahçe (GdWx379qGU) Mshale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wWGcyRktfYWtTdWFPUnMtTFN4d0Q0QklZVS1nWmEtQ3BLTDV3YWpUQjZGNTR4SGdQb00wOW9scUowYmh4aHdBdTVVdzJvcnMtNXZMel9zV3FhanM?oc=5",
+          "published_at": "2026-08-30T14:06:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Funko Pop expands Mercedes F1 line with four new figures available in September - F1ingenerale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-30T14:05:29+00:00",
+      "summary": "Funko Pop expands Mercedes F1 line with four new figures available in September F1ingenerale",
+      "claims": [
+        "Funko Pop expands Mercedes F1 line with four new figures available in September F1ingenerale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdmd0TnBqN1BwQ0RzWTJfQTcxS210WTU1cjFtY2Jrbjd0a3UyNC1aQ2xaT09nVWMwVjVQNUZuZEsyMWFSWWZQTkM3MFNEenM2YjVfRXRwZWV2NmFzUUdsZkZCWTE2M0FLVDJfbDh2VzRPRzZGUnZIWU1VVHcyUDNnLWFGb2stZjl6VlpWR3FXdHpRYjVpSUZxNkw1VllobWtVZFlrOUVNOThvNVVsU05qUQ?oc=5",
+          "published_at": "2026-08-30T14:05:29+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI as good as humans at predicting breast cancer outcomes: Studies - news.cgtn.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T13:53:55+00:00",
+      "summary": "AI as good as humans at predicting breast cancer outcomes: Studies news.cgtn.com",
+      "claims": [
+        "AI as good as humans at predicting breast cancer outcomes: Studies news.cgtn.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObVNjOGFSQmJ5YTdDdTZkOXBDLTgwWUdzSzFXT3BvSUx2em5FVEJQbnhjT1FRTWZ2dHJPRDFDMjRMN1ZTZjJXX1NNNnU2N0xhTmNYRXd2aXlXVTRVM0VFR0NnQjFkU0NyazVicVpuSFVlVlh1YTNBaGlXZE00cUFaWnk5VGtUNk1KdWxUODZNX2U3bUk0TWt0ZTk4dThaVlViQzFoa3JWWW41c1F4YzY5TnFRcDBwSGhfOWlCckRFOTgwUVp6cXFlTURB?oc=5",
+          "published_at": "2026-08-30T13:53:55+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Music publishers accuse Anthropic of ‘blatant theft’ in major new lawsuit - South China Morning Post",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-30T13:44:43+00:00",
+      "summary": "Music publishers accuse Anthropic of ‘blatant theft’ in major new lawsuit South China Morning Post",
+      "claims": [
+        "Music publishers accuse Anthropic of ‘blatant theft’ in major new lawsuit South China Morning Post"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0dVeWZrVE9XNUtrTENWdUd1WUNsN3FXcDJkd2RZR2RRc0pEdG9xSW1YSmV4UHM2MHoxbjVQZ3NQYXRpNlNfNjFSaFBKY0dFS3VzNXE4dldEeHlCTTdqLVF3OHp2NFJDTlF6RDlSUTRtQWRweWVDX0FIX05Ja1BLb1lxTVNaeFdOdXJuM1B6V2NEWkZHZlEtbkVTbjZRUDNSZ19BUmZnUEJwWTBSSHpJaEYyMl9sSW540gG4AUFVX3lxTE5vR1V5ZmtUT1c1S2tMQ1Z1R3VZQ2w3cVdwMmR3ZFlHZFFzSkR0b3FJbVhKZXhQczYwejFuNVBnc1BhdGk2U182MVJoUEpjR0VLdXM1cTh2V0R4eUJNN2otUXc4enY0UkNOUXpEOVJRNG1BZHB5ZUNfQUhfTklrUEtvWXFNU1p4V051cm4zUHpXY0RaRkdmUS1uRVNuNlFQM1JnX0FSZmdQQnBZMFJIekloRjIyX2xJbng?oc=5",
+          "published_at": "2026-08-30T13:44:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    }
+  ]
+}
