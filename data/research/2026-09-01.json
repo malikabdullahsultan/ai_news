@@ -1,0 +1,923 @@
+{
+  "report_date": "2026-09-01",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-08-31T19:31:18.613111+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 210
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 53
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 51
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 54
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 371,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-08-31T17:19:40+00:00",
+      "summary": "Data Management",
+      "claims": [
+        "Data Management"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+          "published_at": "2026-08-31T17:19:40+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-08-31T16:23:58+00:00",
+      "summary": "Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next....",
+      "claims": [
+        "Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next...."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science/",
+          "published_at": "2026-08-31T16:23:58+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "claims": [
+        "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27507v1 Announce Type: new Abstract: Policy Gradient for Parallel State Entropy maximization (PGPSE) expands state-space coverage by training independently parameterized policies in replicated copies of the same environment. However, its pooled team-entropy score measures only collective exploration and cannot identify policies that contribute non-redundant coverage. We introduce Marginal Coverage Credit for PGPSE (MCC-PGPSE), which combines leave-one-policy-out coverage with state-owner specialization to estimate policy-specific credit. MCC-PGPSE preserves PGPSE's pooled objective and redistributes non-negative auxiliary intrinsic rewards according to these credits without changing their total mass. This redistribution is designed to discourage redundant visitation and promote complementary coverage. We evaluated MCC-PGPSE in controlled environments, seven public discrete-state benchmarks, and representative Room and Maze settings from the original PGPSE protocol. Across all tested settings, MCC-PGPSE produced positive final window gains in normalized team state entropy and state support over the Entropy baseline. Controlled-task comparisons and the fixed-suite public aggregate were significant, whereas five-seed original-protocol comparisons were directionally consistent. Ablations and credit alignment controls indicate that most gains arise from leave-one-policy-o",
+      "claims": [
+        "arXiv:2608.27507v1 Announce Type: new Abstract: Policy Gradient for Parallel State Entropy maximization (PGPSE) expands state-space coverage by training independently parameterized policies in replicated copies of the same environment. However, its pooled team-entropy score measures only collective exploration and cannot identify policies that contribute non-redundant coverage. We introduce Marginal Coverage Credit for PGPSE (MCC-PGPSE), which combines leave-one-policy-out coverage with state-owner specialization to estimate policy-specific credit. MCC-PGPSE preserves PGPSE's pooled objective and redistributes non-negative auxiliary intrinsic rewards according to these credits without changing their total mass. This redistribution is designed to discourage redundant visitation and promote complementary coverage. We evaluated MCC-PGPSE in controlled environments, seven public discrete-state benchmarks, and representative Room and Maze settings from the original PGPSE protocol. Across all tested settings, MCC-PGPSE produced positive final window gains in normalized team state entropy and state support over the Entropy baseline. Controlled-task comparisons and the fixed-suite public aggregate were significant, whereas five-seed original-protocol comparisons were directionally consistent. Ablations and credit alignment controls indicate that most gains arise from leave-one-policy-o"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27507",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Quantization-Triggered Backdoors in Language Models: Cross-Quantizer Transferability and the Validation--Deployment Gap",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27512v1 Announce Type: new Abstract: Post-training quantization is often treated as a semantically neutral optimization for edge deployment of Large Language Models. When a full-precision source checkpoint is evaluated and quantization is applied downstream without equivalent re-evaluation, this workflow creates a structural validation--deployment gap: because quantization is a many-to-one mapping over parameter space, source-precision certification does not guarantee behavioral equivalence in the deployed configuration. We formalize this gap through Quantization Behavioral Equivalence Classes (QBECs) and prove that QBEC membership does not imply behavioral equivalence, providing a theoretical basis for quantization-triggered backdoor attacks. Building on a three-stage adversarial fine-tuning framework, we embed latent malicious payloads into models that satisfy the source-precision checks used in our evaluation, yet activate targeted adversarial behavior upon INT8 or 4-bit compression. We evaluate this threat in two operationally motivated scenarios, tactical machine translation and political content analysis, extending prior work from decoder-only causal LMs to multilingual encoder-decoder sequence-to-sequence models. Results show that backdoored translation models move from zero measured friend--foe corruption at repaired FP16 to up to 85.02% inversion after quant",
+      "claims": [
+        "arXiv:2608.27512v1 Announce Type: new Abstract: Post-training quantization is often treated as a semantically neutral optimization for edge deployment of Large Language Models. When a full-precision source checkpoint is evaluated and quantization is applied downstream without equivalent re-evaluation, this workflow creates a structural validation--deployment gap: because quantization is a many-to-one mapping over parameter space, source-precision certification does not guarantee behavioral equivalence in the deployed configuration. We formalize this gap through Quantization Behavioral Equivalence Classes (QBECs) and prove that QBEC membership does not imply behavioral equivalence, providing a theoretical basis for quantization-triggered backdoor attacks. Building on a three-stage adversarial fine-tuning framework, we embed latent malicious payloads into models that satisfy the source-precision checks used in our evaluation, yet activate targeted adversarial behavior upon INT8 or 4-bit compression. We evaluate this threat in two operationally motivated scenarios, tactical machine translation and political content analysis, extending prior work from decoder-only causal LMs to multilingual encoder-decoder sequence-to-sequence models. Results show that backdoored translation models move from zero measured friend--foe corruption at repaired FP16 to up to 85.02% inversion after quant"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27512",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27513v1 Announce Type: new Abstract: Softmax attention stores key and value vectors for every preceding token, causing inference memory to grow with sequence length. Recent language models incorporating Gated DeltaNet (GDN) or Kimi Delta Attention (KDA) reduce this cost by replacing the KV cache in most layers with fixed-size recurrent states. However, these recurrent states are commonly stored in FP32 and consume substantial GPU memory; their updates are memory-bandwidth bound and contribute significantly to decoding latency. To our knowledge, we are the first to study post-training quantization of recurrent states in GDN and KDA based language models. We find that uniform quantization provides a poor accuracy--storage trade-off: INT8 and FP8 already degrade accuracy on complex reasoning tasks, while INT4 and NVFP4 reduce it to near zero. We further find that most quantization-error energy is concentrated in a small subset of channels and that the relative decay strength of state channels remains stable across prompts and tasks. Motivated by these findings, DAMP uses both quantization-error energy and decay-based persistence to identify high-risk channels during offline calibration. It stores these channels at higher precision and the remainder in INT8. We evaluate DAMP on Qwen3.6-35B and Kimi-Linear-48B across six benchmarks covering mathematical reasoning, general",
+      "claims": [
+        "arXiv:2608.27513v1 Announce Type: new Abstract: Softmax attention stores key and value vectors for every preceding token, causing inference memory to grow with sequence length. Recent language models incorporating Gated DeltaNet (GDN) or Kimi Delta Attention (KDA) reduce this cost by replacing the KV cache in most layers with fixed-size recurrent states. However, these recurrent states are commonly stored in FP32 and consume substantial GPU memory; their updates are memory-bandwidth bound and contribute significantly to decoding latency. To our knowledge, we are the first to study post-training quantization of recurrent states in GDN and KDA based language models. We find that uniform quantization provides a poor accuracy--storage trade-off: INT8 and FP8 already degrade accuracy on complex reasoning tasks, while INT4 and NVFP4 reduce it to near zero. We further find that most quantization-error energy is concentrated in a small subset of channels and that the relative decay strength of state channels remains stable across prompts and tasks. Motivated by these findings, DAMP uses both quantization-error energy and decay-based persistence to identify high-risk channels during offline calibration. It stores these channels at higher precision and the remainder in INT8. We evaluate DAMP on Qwen3.6-35B and Kimi-Linear-48B across six benchmarks covering mathematical reasoning, general"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27513",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "A Deeper Analysis of Block-Sparse Featurizers",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27515v1 Announce Type: new Abstract: The recently introduced block-sparse featurizer (BSF; Fel et al., 2026) is similar to a sparse autoencoder (SAE), but its atomic unit is a small subspace (a block of directions) rather than a single direction. It is designed for features that live on low-dimensional manifolds, which are especially frequent in vision. This work studies the BSF's strengths and weaknesses, finding how it still somewhat suffers from classic SAE failure modes, like feature splitting and composition. We propose several architectural changes to the BSF, including a Tournament Top-K selection rule that significantly reduces feature splitting, and we also extend the block paradigm to the crosscoder.",
+      "claims": [
+        "arXiv:2608.27515v1 Announce Type: new Abstract: The recently introduced block-sparse featurizer (BSF; Fel et al., 2026) is similar to a sparse autoencoder (SAE), but its atomic unit is a small subspace (a block of directions) rather than a single direction. It is designed for features that live on low-dimensional manifolds, which are especially frequent in vision. This work studies the BSF's strengths and weaknesses, finding how it still somewhat suffers from classic SAE failure modes, like feature splitting and composition. We propose several architectural changes to the BSF, including a Tournament Top-K selection rule that significantly reduces feature splitting, and we also extend the block paradigm to the crosscoder."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27515",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "When Muon Meets Task Interference: A Spectral Perspective on Continual Learning and Model Merging",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27518v1 Announce Type: new Abstract: Continual learning (CL) and model merging (MM) both aim to obtain a single model that performs well across multiple tasks, challenged respectively by catastrophic forgetting and weight-disentanglement error. In the literature, these difficulties are merely treated separately and mitigated through a variety of solutions, while the geometry induced by the base optimizer is treated as an implementation detail. In this work, we show that the two difficulties are in fact two instances of the same phenomenon: a parameter update useful for one task shifts the model's outputs on another. We formalize this shared phenomenon as \\textit{task interference} and reduce it to a common layer-wise Frobenius inner product $\\langle \\Delta W_\\ell, J_\\ell(x)\\rangle_F$. This quantity, in turn, is utilized to expose the role of the optimizer. We theoretically derive an upper bound that isolates the spectral norm $\\|\\Delta W_\\ell\\|_2$ as an optimizer-controllable factor of task interference, and a per-mode analysis shows that this bound tracks the dominant part of the empirical interference. Specifically, we then identify the recent Muon optimizer as a mechanism that regulates this factor by construction. Our work reveals that its elegant control on spectral norm tightens the interference bound for both CL and MM, positioning Muon as a principled optimiz",
+      "claims": [
+        "arXiv:2608.27518v1 Announce Type: new Abstract: Continual learning (CL) and model merging (MM) both aim to obtain a single model that performs well across multiple tasks, challenged respectively by catastrophic forgetting and weight-disentanglement error. In the literature, these difficulties are merely treated separately and mitigated through a variety of solutions, while the geometry induced by the base optimizer is treated as an implementation detail. In this work, we show that the two difficulties are in fact two instances of the same phenomenon: a parameter update useful for one task shifts the model's outputs on another. We formalize this shared phenomenon as \\textit{task interference} and reduce it to a common layer-wise Frobenius inner product $\\langle \\Delta W_\\ell, J_\\ell(x)\\rangle_F$. This quantity, in turn, is utilized to expose the role of the optimizer. We theoretically derive an upper bound that isolates the spectral norm $\\|\\Delta W_\\ell\\|_2$ as an optimizer-controllable factor of task interference, and a per-mode analysis shows that this bound tracks the dominant part of the empirical interference. Specifically, we then identify the recent Muon optimizer as a mechanism that regulates this factor by construction. Our work reveals that its elegant control on spectral norm tightens the interference bound for both CL and MM, positioning Muon as a principled optimiz"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27518",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Dandelion: A Spherical Flower for Neural Simulation of Planetary Dynamics",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27521v1 Announce Type: new Abstract: Many dynamical processes unfold on the sphere but the default scientific machine learning architectures are Euclidean. Applying these architectures on a regular lat-lon grid causes problems: Cartesian convolutions become distorted at high latitude; 2D FFTs in Fourier neural operators incorrectly assume double periodicity; Cartesian positional encodings in ViTs distort spherical geodesic distances. Recent work moves towards natively spherical primitives, including spherical convolutions (e.g., DeepSphere or DISCO), Spherical Fourier Neural Operators (SFNOs), and geodesic attention. Here we propose Dandelion, a spherical version of Flower, a warp-based neural PDE solver. Layers of Dandelion predict a tangent-plane displacement and transport features along great circles. We obtain a U-Net-like structure by implementing hierarchical pooling entirely in the spherical-harmonic domain. There are thus no convolutions: spatial mixing is achieved only through spherical coordinate changes, or warps. To compare Dandelion with existing spherical architectures, we release an evolving benchmark suite of challenging, natively-spherical PDE datasets including a modified Galewsky jet, anomalous chained turbulence, Cahn-Hilliard decomposition, spherical Riemann shocks, Held-Suarez dry atmospheric transport and global ocean dynamics. This new benchma",
+      "claims": [
+        "arXiv:2608.27521v1 Announce Type: new Abstract: Many dynamical processes unfold on the sphere but the default scientific machine learning architectures are Euclidean. Applying these architectures on a regular lat-lon grid causes problems: Cartesian convolutions become distorted at high latitude; 2D FFTs in Fourier neural operators incorrectly assume double periodicity; Cartesian positional encodings in ViTs distort spherical geodesic distances. Recent work moves towards natively spherical primitives, including spherical convolutions (e.g., DeepSphere or DISCO), Spherical Fourier Neural Operators (SFNOs), and geodesic attention. Here we propose Dandelion, a spherical version of Flower, a warp-based neural PDE solver. Layers of Dandelion predict a tangent-plane displacement and transport features along great circles. We obtain a U-Net-like structure by implementing hierarchical pooling entirely in the spherical-harmonic domain. There are thus no convolutions: spatial mixing is achieved only through spherical coordinate changes, or warps. To compare Dandelion with existing spherical architectures, we release an evolving benchmark suite of challenging, natively-spherical PDE datasets including a modified Galewsky jet, anomalous chained turbulence, Cahn-Hilliard decomposition, spherical Riemann shocks, Held-Suarez dry atmospheric transport and global ocean dynamics. This new benchma"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27521",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Self-Explainable Multi-Label Graph Neural Network for Correlated Evidence Attribution",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27574v1 Announce Type: new Abstract: Multi-label graph learning intends to capture the intrinsic complexity of real-world applications, where one sample is often related to multiple groups or consists of multiple objects. To date, a handful of multi-label graph learning methods exist, but none of them integrate training-time interpretation capability. While post-hoc graph explainers have been developed, they do not explicitly model label-dependent evidence sharing in multi-label graph learners, especially when label pairs are weakly or negatively associated. As a result, post-hoc approaches may miss how evidence should be shared or separated across different labels. This paper advances a new end-to-end self-explainable multi-label graph neural network (SEMGNN), which aims to simultaneously classify multi-labeled nodes and identify edges significantly contributing to each target node w.r.t. predicted labels. Different from post-hoc methods, SEMGNN jointly learns a predictor and a sparse edge-mask explainer within a unified framework and training objective. Label-label correlations are used to improve multi-label node classification and enhance individual label explanations, so that different labels of a node can be supported by distinct yet coherent structural and/or correlated evidence. Experiments and comparisons on synthetic and real-world multi-label networks, in ",
+      "claims": [
+        "arXiv:2608.27574v1 Announce Type: new Abstract: Multi-label graph learning intends to capture the intrinsic complexity of real-world applications, where one sample is often related to multiple groups or consists of multiple objects. To date, a handful of multi-label graph learning methods exist, but none of them integrate training-time interpretation capability. While post-hoc graph explainers have been developed, they do not explicitly model label-dependent evidence sharing in multi-label graph learners, especially when label pairs are weakly or negatively associated. As a result, post-hoc approaches may miss how evidence should be shared or separated across different labels. This paper advances a new end-to-end self-explainable multi-label graph neural network (SEMGNN), which aims to simultaneously classify multi-labeled nodes and identify edges significantly contributing to each target node w.r.t. predicted labels. Different from post-hoc methods, SEMGNN jointly learns a predictor and a sparse edge-mask explainer within a unified framework and training objective. Label-label correlations are used to improve multi-label node classification and enhance individual label explanations, so that different labels of a node can be supported by distinct yet coherent structural and/or correlated evidence. Experiments and comparisons on synthetic and real-world multi-label networks, in "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27574",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Curvature-Aware Radius Shrinkage for Adaptive Nearest Neighbor Classification",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-08-31T04:00:00+00:00",
+      "summary": "arXiv:2608.27634v1 Announce Type: new Abstract: Nearest neighbor classification relies fundamentally on how locality is defined, yet conventional $k$-NN imposes the same neighborhood cardinality throughout the feature space. This assumption can be inadequate for data whose local geometry varies substantially across the underlying manifold. We introduce Curvature-Aware Radius Shrinkage for Adaptive Nearest Neighbor Classification (CARSANN), a geometry-driven framework that adapts the spatial support of each neighborhood according to local geometric complexity. CARSANN first estimates intrinsic dimensionality using TwoNN and constructs an intrinsic representation through principal component analysis. Local mean curvature is then estimated using a shape-operator-based formulation and controls neighborhood scale: highly curved regions receive stronger radius shrinkage, whereas approximately flat regions retain broader spatial support. Unlike methods that modify only the number of neighbors or the local metric, CARSANN explicitly adapts the spatial extent of local evidence. Experiments on more than 70 real-world OpenML datasets show that CARSANN consistently improves upon standard $k$-NN and is competitive with adaptive nearest-neighbor methods. In a controlled comparison using the same base neighborhood size, CARSANN achieves higher balanced accuracy on 40 of 45 datasets, increasin",
+      "claims": [
+        "arXiv:2608.27634v1 Announce Type: new Abstract: Nearest neighbor classification relies fundamentally on how locality is defined, yet conventional $k$-NN imposes the same neighborhood cardinality throughout the feature space. This assumption can be inadequate for data whose local geometry varies substantially across the underlying manifold. We introduce Curvature-Aware Radius Shrinkage for Adaptive Nearest Neighbor Classification (CARSANN), a geometry-driven framework that adapts the spatial support of each neighborhood according to local geometric complexity. CARSANN first estimates intrinsic dimensionality using TwoNN and constructs an intrinsic representation through principal component analysis. Local mean curvature is then estimated using a shape-operator-based formulation and controls neighborhood scale: highly curved regions receive stronger radius shrinkage, whereas approximately flat regions retain broader spatial support. Unlike methods that modify only the number of neighbors or the local metric, CARSANN explicitly adapts the spatial extent of local evidence. Experiments on more than 70 real-world OpenML datasets show that CARSANN consistently improves upon standard $k$-NN and is competitive with adaptive nearest-neighbor methods. In a controlled comparison using the same base neighborhood size, CARSANN achieves higher balanced accuracy on 40 of 45 datasets, increasin"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2608.27634",
+          "published_at": "2026-08-31T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli reveals how he is staying grounded in 2026 F1 title fight - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-31T19:00:03+00:00",
+      "summary": "Kimi Antonelli reveals how he is staying grounded in 2026 F1 title fight Yahoo Sports",
+      "claims": [
+        "Kimi Antonelli reveals how he is staying grounded in 2026 F1 title fight Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOTFrT3gwalF4dmlBb29wNUFIUzhUUkxOZ21LNXZRSWRuUDNyRFVTelQySTBaNFdOcndiVW4zOFAyU0FtMDNJejJ5dHBXSmVZZXBlMURKajBqc1ZvRVFZZ29QZVNOcVY2emlKMkdlSl9pX0hWTTBraG0zLTFBT3Jrc0k0UFRnV3VoeGg4UHRQRU12QQ?oc=5",
+          "published_at": "2026-08-31T19:00:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Monaco GP: Kimi Antonelli STRIKES Again But HEARTBREAK For Verstappen & Leclerc | Up To Speed Spotify Premium (PLWFun6mWL) - Mshale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-31T18:11:53+00:00",
+      "summary": "Monaco GP: Kimi Antonelli STRIKES Again But HEARTBREAK For Verstappen & Leclerc | Up To Speed Spotify Premium (PLWFun6mWL) Mshale",
+      "claims": [
+        "Monaco GP: Kimi Antonelli STRIKES Again But HEARTBREAK For Verstappen & Leclerc | Up To Speed Spotify Premium (PLWFun6mWL) Mshale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WcThCSzFOUnZQTWRWck8zYWlZZTN2RDhxZE1qT3MxOC0zUmwxQ0FwMjFIWUo5YkdxY3R3aHc5cFh6aldXcTFjRTc1Q29TeklKaHVLTmw5UzRaUXc?oc=5",
+          "published_at": "2026-08-31T18:11:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Faces Grid Penalty at Monza as F1 Title Fight Tightens - sportsnaut.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-31T16:19:30+00:00",
+      "summary": "Kimi Antonelli Faces Grid Penalty at Monza as F1 Title Fight Tightens sportsnaut.com",
+      "claims": [
+        "Kimi Antonelli Faces Grid Penalty at Monza as F1 Title Fight Tightens sportsnaut.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sZWRUSVRFdEVkTTJaR1d3d0x3Mi13b0pUcW56ZEFkUmNHMERkTEkzZl9mY1lxTldyZ3BzdkE1OWtmcDc3X0RwRVVweEQ3TU9meEwyS2FWbzBiZXJiaWtySG5nYjc0TTJWYnhzN1JuNnJBTmUxWWZj?oc=5",
+          "published_at": "2026-08-31T16:19:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Power Rankings: Why Kimi Antonelli Is Not the Favorite Heading Into the Italian GP - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-31T15:12:53+00:00",
+      "summary": "F1 Power Rankings: Why Kimi Antonelli Is Not the Favorite Heading Into the Italian GP Yahoo Sports",
+      "claims": [
+        "F1 Power Rankings: Why Kimi Antonelli Is Not the Favorite Heading Into the Italian GP Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUFdhVVJpZFdkYkkxT0ZhemRPMU5FRUJ3eTdvNXVNWVlMR3luOExEOERlX3U4ZHk5YnJraktoTmctenA2NnhkTXBWNHM3cmRCcURJckJna1FWZTNkcjl3eUlKUzFsQTM3Rjd3QVR6TGFXT1RuQmo4ZlRzbmpuWGplRw?oc=5",
+          "published_at": "2026-08-31T15:12:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "China Unicom Research Institute's MCP Special Test: StartLux-27B Achieves Second Place Overall, Surpassing 284B DeepSeek V4 Flash - t.co",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-31T15:10:43+00:00",
+      "summary": "China Unicom Research Institute's MCP Special Test: StartLux-27B Achieves Second Place Overall, Surpassing 284B DeepSeek V4 Flash t.co",
+      "claims": [
+        "China Unicom Research Institute's MCP Special Test: StartLux-27B Achieves Second Place Overall, Surpassing 284B DeepSeek V4 Flash t.co"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1ib1ZWYzNGdFhvWHVvWVB6dHJWNXBVS3EydWZiMUZHaGQ4TTE3STNsT3RiZzFaU3kyZ3dV?oc=5",
+          "published_at": "2026-08-31T15:10:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Nvidia Backs Chinese Open AI Models As U.S. Restriction Risk Grows - Memeburn",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-31T15:07:07+00:00",
+      "summary": "Nvidia Backs Chinese Open AI Models As U.S. Restriction Risk Grows Memeburn",
+      "claims": [
+        "Nvidia Backs Chinese Open AI Models As U.S. Restriction Risk Grows Memeburn"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVzJfd29uUURCSjRGRFFBNjkyelA4VktWODZtbk1fX093b0tsVFdjQmlPYmp2cjdPZFR1R3g1dkVKOWoyMFZBZGdfdVFVWTRZWDBveDB1b3BKdjUxd3h5dk1QQkhzd21OZnhQbE9taFpSSnpZMDhFMEN6a05pQ09tLVNFdnhLWHA2Q0p4Y1BkQXM?oc=5",
+          "published_at": "2026-08-31T15:07:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "US-China AI Rivalry Escalates in Egypt: Why Huawei’s Data Centers Matter - Modern Diplomacy",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-31T14:50:00+00:00",
+      "summary": "US-China AI Rivalry Escalates in Egypt: Why Huawei’s Data Centers Matter Modern Diplomacy",
+      "claims": [
+        "US-China AI Rivalry Escalates in Egypt: Why Huawei’s Data Centers Matter Modern Diplomacy"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN1A0WVpCQnpNQnFMU2VjZmxka3Jmb0VFQ0hEMGlCc2M1Qy1tQTJpc19QbHZYTVEtdWR2WXBOZjFSLVRCRDM1VmxoX0pJU19GMldiQlVHSEpkTG5fazZiXzVmb3hVakxsVnFvd1pUR2lpQXVNLXRYUXdiRkl0TFNPZi1CbDdXZFhoQ0ZyWVE0cHV4SmxLMkp2MVBXdjhwNTJaVm15MlkzRjVUZl9nb3c?oc=5",
+          "published_at": "2026-08-31T14:50:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Ferrari reveal clever upgrade as Kimi Antonelli faces crucial grid penalty test - Motorcycle Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-08-31T14:34:44+00:00",
+      "summary": "Ferrari reveal clever upgrade as Kimi Antonelli faces crucial grid penalty test Motorcycle Sports",
+      "claims": [
+        "Ferrari reveal clever upgrade as Kimi Antonelli faces crucial grid penalty test Motorcycle Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRHFsdVAyYWRXWU9GUkZENUVlSHpOR2ZFNjBtREgyZlVLOUkxNVQzSmlmakdoSjVnZ21fTzlXOF9SRS1fcDRzY1NfQ2JCTWNEaC1VemZHT0l1dXdsWm9nQ1YxNE52ZktaZ2VVeGRmdlpiVUl2LURDZ0J3SnFJbTBwZ0hubjdCTE9ETi14Sml1bnBDN3lrY3hMblBQWmFTMERMdGZtM0xUM1hmQUtmOXc?oc=5",
+          "published_at": "2026-08-31T14:34:44+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "The turbulent AI era is here. The choices we make now are critical. - gatesnotes.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-31T17:46:48+00:00",
+      "summary": "The turbulent AI era is here. The choices we make now are critical. gatesnotes.com",
+      "claims": [
+        "The turbulent AI era is here. The choices we make now are critical. gatesnotes.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+          "published_at": "2026-08-31T17:46:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Bank of England Governor Warns AI Represents Threat to the Global Economy - Gizmodo",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-31T17:40:01+00:00",
+      "summary": "Bank of England Governor Warns AI Represents Threat to the Global Economy Gizmodo",
+      "claims": [
+        "Bank of England Governor Warns AI Represents Threat to the Global Economy Gizmodo"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPenl4QzFMcHN1SHA1SVlZNnZ4YnJ5LUFKb21taS01S3ByQTZITzk0cmdtOC1OdF96dzRGdW50bmhZTnBvZnp5WkRxaGZ2Z1NJTUh1Y0w4TTJyMXN1dFFXMGdhbDBob3ozMTdtNmhXNmVEYmV2cU1EeDZXckwwakktdjZJelVyV0dmamhiQVc4Y29aS2NUV2x2VXhRVkdxMy1rYVRsYzdIRQ?oc=5",
+          "published_at": "2026-08-31T17:40:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "OxyContin maker Purdue Pharma set to dissolve after $5B sentence; Mayo Clinic AI detects pancreatic cancer years before diagnosis; results of FDA’s largest-ever infant formula test – Morning Medical Update - Medical Economics",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-31T17:23:12+00:00",
+      "summary": "OxyContin maker Purdue Pharma set to dissolve after $5B sentence; Mayo Clinic AI detects pancreatic cancer years before diagnosis; results of FDA’s largest-ever infant formula test – Morning Medical Update Medical Economics",
+      "claims": [
+        "OxyContin maker Purdue Pharma set to dissolve after $5B sentence; Mayo Clinic AI detects pancreatic cancer years before diagnosis; results of FDA’s largest-ever infant formula test – Morning Medical Update Medical Economics"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQZ20xZ3ZwendIYWM0c0pnMGt6T0JaSHE3MXV6NGVxSXpScGx4UEFuUkRvN2ZWeUl1eWRITjBSa1pWcURObnppNHlZUlFfZW41OExPSVMxR0g4Q1JIV0dhcnc5LUZ5ZlVqUE5ObGtlVjhmQ3ZKLXVkV1Q2elhPTmZLVGc5NGVHdVBZYmZpeDlVaE1BRzhXdmJwSXROT01JTXVqSDcyc2VrT21ZMTZ4YlU2WURCbTA3MXNpRkVfdElJNldZbl94ZXhIM3ZBbmdsbHdGSWhDTHo0RUVZbk5fdzFsLVBBaG1GdTFDeVk1UHd1YS1ZUV90WHBKTzRHcTJmSzl0ajBJbzJZUExHY2Q2RlgzREdPblBxQmlJbzdzTVFYR2txa2lkQXZWR1Vldl9VUHRpdEhraFh2VTlkekRucGJReUFQc0VMQnRtSlM0SGJSeVM2Sml3QlZycl9n?oc=5",
+          "published_at": "2026-08-31T17:23:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "When the Models Move Faster Than the Rules: Inside America’s AI Policy Crisis - Spencer Fane",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-31T17:10:39+00:00",
+      "summary": "When the Models Move Faster Than the Rules: Inside America’s AI Policy Crisis Spencer Fane",
+      "claims": [
+        "When the Models Move Faster Than the Rules: Inside America’s AI Policy Crisis Spencer Fane"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbm9faG1MM1RSdVJzbEE5dm4tb0s5NUlUekxla2dZUmpjcTlSNUIzdzB6MmtFMUM3NENoSFlOQ0JJXzNKV2RKUTNIRTVMSFlkOTV4VVdRNEhodld3TDNIemRBTERheTQwMzNuTFVxd3FmTzZhdU83VkxvRUl4ODJzLVFZM3VlX1p1RzJyM2VhX3VUMy1iRHBCUkFqcEdhWndvVWNwakNYLTlLZHlhTEhVMVVn?oc=5",
+          "published_at": "2026-08-31T17:10:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "What Is a Large Language Model, Really? - t.co",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-08-31T17:03:13+00:00",
+      "summary": "What Is a Large Language Model, Really? t.co",
+      "claims": [
+        "What Is a Large Language Model, Really? t.co"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9uMlhHdUtvZmpzSnppbjNOaUZEZDJOcE9vclRMclRWQmhOcW5QVG1Hb3dEM3FtMmpWa0xZ?oc=5",
+          "published_at": "2026-08-31T17:03:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
