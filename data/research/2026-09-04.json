@@ -1,0 +1,920 @@
+{
+  "report_date": "2026-09-04",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-03T19:31:08.944811+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 288
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 278
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 73
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 55
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 73
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 779,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Transfer learning for genomic prediction in underrepresented populations",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-09-03T18:20:31+00:00",
+      "summary": "General Science",
+      "claims": [
+        "General Science"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+          "published_at": "2026-09-03T18:20:31+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-09-03T16:00:03+00:00",
+      "summary": "General Science",
+      "claims": [
+        "General Science"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+          "published_at": "2026-09-03T16:00:03+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-09-03T13:13:48+00:00",
+      "summary": "arXiv:2609.01657v1 Announce Type: cross Abstract: Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models. Visual document retrievers such as ColPali repurpose these models as encoders, carrying over the parameter and compute overhead of a VLM for a non-generative task. We introduce NeoMME, a family of 260M and 800M-parameter Multimodal and Multilingual bidirectional Encoders that process multilingual text and raw image patches in a single bidirectional Transformer encoder. Both models are pretrained from scratch with a masked discrete-diffusion text objective, conditioned on visible image patches for multimodal examples. Both support a 16,384-token context, enough to encode up to two standard 4K UHD images. To demonstrate its downstream capabilities, we fine-tune NeoMME with jointly trained dense and late-interaction heads. On the ViDoRe v3 benchmark, the resulting NeoMME-Retriever 260M outperforms all evaluated models strictly below 800M parameters with 0.523 nDCG@10, while NeoMME-Retriever 800M reaches 0.556. At a matched 2048x2048 image input size on an NVIDIA L40S, NeoMME-260M encodes pages with about 2x the throughput of ColModernVBERT. Hierarchical token pooling and asymmetric quantization compress late-interaction multimodal document embeddings ",
+      "claims": [
+        "arXiv:2609.01657v1 Announce Type: cross Abstract: Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models. Visual document retrievers such as ColPali repurpose these models as encoders, carrying over the parameter and compute overhead of a VLM for a non-generative task. We introduce NeoMME, a family of 260M and 800M-parameter Multimodal and Multilingual bidirectional Encoders that process multilingual text and raw image patches in a single bidirectional Transformer encoder. Both models are pretrained from scratch with a masked discrete-diffusion text objective, conditioned on visible image patches for multimodal examples. Both support a 16,384-token context, enough to encode up to two standard 4K UHD images. To demonstrate its downstream capabilities, we fine-tune NeoMME with jointly trained dense and late-interaction heads. On the ViDoRe v3 benchmark, the resulting NeoMME-Retriever 260M outperforms all evaluated models strictly below 800M parameters with 0.523 nDCG@10, while NeoMME-Retriever 800M reaches 0.556. At a matched 2048x2048 image input size on an NVIDIA L40S, NeoMME-260M encodes pages with about 2x the throughput of ColModernVBERT. Hierarchical token pooling and asymmetric quantization compress late-interaction multimodal document embeddings "
+      ],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/Hcompany/neomme",
+          "published_at": "2026-09-03T13:13:48+00:00"
+        },
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01657",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+          "published_at": "2026-09-03T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/funes",
+          "published_at": "2026-09-03T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/train-to-paint-with-code",
+          "published_at": "2026-09-03T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-02T23:06:37+00:00",
+      "summary": "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and...",
+      "claims": [
+        "This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+          "published_at": "2026-09-02T23:06:37+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-02T21:33:39+00:00",
+      "summary": "AI agents are learning to do more by working together. A lead agent can break a complex task into smaller jobs and assign those jobs to specialized subagents....",
+      "claims": [
+        "AI agents are learning to do more by working together. A lead agent can break a complex task into smaller jobs and assign those jobs to specialized subagents...."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/",
+          "published_at": "2026-09-02T21:33:39+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation results, which are a crucial component of current AI safety frameworks. We introduce EvalDetectBench, an open pipeline and benchmark for measuring evaluation awareness that works with any Inspect-compatible evaluation, allowing practitioners to test against current and future benchmarks. EvalDetectBench ships with a newly curated transcript suite covering current frontier system-card evaluations and diverse deployment sources. The benchmark serves two purposes: measuring how reliably frontier LLMs recognize that they are being evaluated, and assessing how detectable individual benchmarks are as evaluations. We identify two methodological choices in the existing literature that introduce systematic bias: the identity of the model that generated the deployment transcripts accounts for 11.25% of measurement variance and can reorder model rankings; and elicitation prompts selected for high performance on one model can perform near chance on others. EvalDetectBench corrects for both via per-model probe calibration and a stratified generator-harmonisation procedure.",
+      "claims": [
+        "arXiv:2609.01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation results, which are a crucial component of current AI safety frameworks. We introduce EvalDetectBench, an open pipeline and benchmark for measuring evaluation awareness that works with any Inspect-compatible evaluation, allowing practitioners to test against current and future benchmarks. EvalDetectBench ships with a newly curated transcript suite covering current frontier system-card evaluations and diverse deployment sources. The benchmark serves two purposes: measuring how reliably frontier LLMs recognize that they are being evaluated, and assessing how detectable individual benchmarks are as evaluations. We identify two methodological choices in the existing literature that introduce systematic bias: the identity of the model that generated the deployment transcripts accounts for 11.25% of measurement variance and can reorder model rankings; and elicitation prompts selected for high performance on one model can perform near chance on others. EvalDetectBench corrects for both via per-model probe calibration and a stratified generator-harmonisation procedure."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01611",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01685v1 Announce Type: new Abstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it. In particular, if future AI systems were to exhibit sufficiently integrated capacities for moral reasoning, moral intentionality, and moral reflection, novel meta-ethical questions would arise concerning what I call \"AI's own ethics\", as distinct from ethical principles merely imposed on AI by human designers. This paper offers a conditional and methodological framework for identifying the questions that would emerge if such AI systems were to arise. On that basis, the paper distinguishes four domains of meta-ethical inquiry in the era of AI: questions about the nature of human ethics from the human perspective; questions about the nature of AI's own ethics from the human perspective; questions about the nature of human ethics from the AI perspective; and questions about the nature of AI's own ethics from the AI perspective. The paper then considers how some existing mainstream meta-ethical theories (such as cognitivism and non-cognitivism, error theory and success theory, relativism, and objective realism) might illuminate these domains, while arguing that many familiar human-centred formulations of those theories may not transfer straightforwardly to",
+      "claims": [
+        "arXiv:2609.01685v1 Announce Type: new Abstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it. In particular, if future AI systems were to exhibit sufficiently integrated capacities for moral reasoning, moral intentionality, and moral reflection, novel meta-ethical questions would arise concerning what I call \"AI's own ethics\", as distinct from ethical principles merely imposed on AI by human designers. This paper offers a conditional and methodological framework for identifying the questions that would emerge if such AI systems were to arise. On that basis, the paper distinguishes four domains of meta-ethical inquiry in the era of AI: questions about the nature of human ethics from the human perspective; questions about the nature of AI's own ethics from the human perspective; questions about the nature of human ethics from the AI perspective; and questions about the nature of AI's own ethics from the AI perspective. The paper then considers how some existing mainstream meta-ethical theories (such as cognitivism and non-cognitivism, error theory and success theory, relativism, and objective realism) might illuminate these domains, while arguing that many familiar human-centred formulations of those theories may not transfer straightforwardly to"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01685",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "When Can a Machine Trust a Statute? A Survival Certificate for Machine-Extracted Legal Logic",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01741v1 Announce Type: new Abstract: Statutes are increasingly parsed by machines before people read them, and the parsers disagree: on Missouri's statutes, two independently written extractors diverge on numeric-threshold presence at a false-negative rate of 0.43. We ask what formal logic survives such noise. We build a passive survival certificate for the Duquenne-Guigues implication basis of machine-extracted statutory contexts: per-attribute inter-extractor disagreement is measured, replayed against the basis in 1,000 Monte Carlo trials, and an implication is certified only when a one-sided Wilson 95% lower bound on survival reaches 0.95; every certified implication carries premise spans and a minimal counterexample. On 29,365 Missouri sections and 502 Indian central-Act sections, the preregistered held-out gate passes (10 statute families across 7 Titles exact; 16 across 11 with 5% tolerance), yet under one globally deployed error model 93.2% of held-out chapters fall below the informativeness floor, and a 2x2 factorial assigns that to calibration-rate transfer, not selection. The certificate is usable but fragile: deploy it per-chapter-calibrated or error-tolerant. Code, data products, and the audit trail, including one retracted claim, are released.",
+      "claims": [
+        "arXiv:2609.01741v1 Announce Type: new Abstract: Statutes are increasingly parsed by machines before people read them, and the parsers disagree: on Missouri's statutes, two independently written extractors diverge on numeric-threshold presence at a false-negative rate of 0.43. We ask what formal logic survives such noise. We build a passive survival certificate for the Duquenne-Guigues implication basis of machine-extracted statutory contexts: per-attribute inter-extractor disagreement is measured, replayed against the basis in 1,000 Monte Carlo trials, and an implication is certified only when a one-sided Wilson 95% lower bound on survival reaches 0.95; every certified implication carries premise spans and a minimal counterexample. On 29,365 Missouri sections and 502 Indian central-Act sections, the preregistered held-out gate passes (10 statute families across 7 Titles exact; 16 across 11 with 5% tolerance), yet under one globally deployed error model 93.2% of held-out chapters fall below the informativeness floor, and a 2x2 factorial assigns that to calibration-rate transfer, not selection. The certificate is usable but fragile: deploy it per-chapter-calibrated or error-tolerant. Code, data products, and the audit trail, including one retracted claim, are released."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01741",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01814v1 Announce Type: new Abstract: Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person accuracy can coexist with different portfolio values. Under a registered incremental-sharing protocol, a sharing step improves discovery exactly when pooled residual error contracts faster than an independent rescue attempt. Exact bounded registries exhibit compression, aggregation, neutral curves, and a bounded zero mixed class. In a two-agent Bayesian game with a hidden mixture of common and independent signal sources, the registered selected equilibrium yields a strict positive sharing interval at signal accuracy 3/5, while alternative equilibria show that the result is selection-dependent rather than universal. The models are synthetic and finite; no human or organizational data are used.",
+      "claims": [
+        "arXiv:2609.01814v1 Announce Type: new Abstract: Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person accuracy can coexist with different portfolio values. Under a registered incremental-sharing protocol, a sharing step improves discovery exactly when pooled residual error contracts faster than an independent rescue attempt. Exact bounded registries exhibit compression, aggregation, neutral curves, and a bounded zero mixed class. In a two-agent Bayesian game with a hidden mixture of common and independent signal sources, the registered selected equilibrium yields a strict positive sharing interval at signal accuracy 3/5, while alternative equilibria show that the result is selection-dependent rather than universal. The models are synthetic and finite; no human or organizational data are used."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01814",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Induction and Inquiry via Probabilistic Reasoning over Language and Code",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01815v1 Announce Type: new Abstract: How humans grow and maintain abstract knowledge from the sparse, streaming noisy data of experience is a longstanding challenge in cognitive science. Any computational account must satisfy at least three desiderata: It must be (1) data-efficient and compute-efficient, (2) capture gradations of uncertainty to support intelligent inquiry and information gathering, and (3) be flexible enough to mentally represent the endless range of concepts people can learn and think about. Here we introduce a computational model that captures these three properties, by encoding symbolic knowledge as mental programs that combine natural language with source code, and sequentially inferring mental programs using LLM-guided Bayesian learning algorithms. Across a range of behavioral studies this model successfully reproduces quantitative signatures of human inductive learning and active inquiry, such as anchoring, garden-pathing, and other effects. In contrast, pure LLMs and classic Bayesian models either fail at the underlying task, or do not reproduce human behavior, or succeed only at exorbitant computational cost. These results suggest that one way humans continually grow their knowledge is by mentally representing many hypotheses spanning language-like and program-like representations, then revising those hypotheses to approximate Bayesian update",
+      "claims": [
+        "arXiv:2609.01815v1 Announce Type: new Abstract: How humans grow and maintain abstract knowledge from the sparse, streaming noisy data of experience is a longstanding challenge in cognitive science. Any computational account must satisfy at least three desiderata: It must be (1) data-efficient and compute-efficient, (2) capture gradations of uncertainty to support intelligent inquiry and information gathering, and (3) be flexible enough to mentally represent the endless range of concepts people can learn and think about. Here we introduce a computational model that captures these three properties, by encoding symbolic knowledge as mental programs that combine natural language with source code, and sequentially inferring mental programs using LLM-guided Bayesian learning algorithms. Across a range of behavioral studies this model successfully reproduces quantitative signatures of human inductive learning and active inquiry, such as anchoring, garden-pathing, and other effects. In contrast, pure LLMs and classic Bayesian models either fail at the underlying task, or do not reproduce human behavior, or succeed only at exorbitant computational cost. These results suggest that one way humans continually grow their knowledge is by mentally representing many hypotheses spanning language-like and program-like representations, then revising those hypotheses to approximate Bayesian update"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01815",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applications to manage the entire burden of conversational state and semantic memory. The work identifies the Hydration Proxy Pattern, an architecture that decouples session persistence from the reasoning engine. The framework ensures platform sovereignty over conversational data while enabling secure, multi-stage semantic grounding. We further propose the Context Stabilization Mandate to resolve the tradeoff between sovereign state management and KV caching.",
+      "claims": [
+        "arXiv:2609.01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applications to manage the entire burden of conversational state and semantic memory. The work identifies the Hydration Proxy Pattern, an architecture that decouples session persistence from the reasoning engine. The framework ensures platform sovereignty over conversational data while enabling secure, multi-stage semantic grounding. We further propose the Context Stabilization Mandate to resolve the tradeoff between sovereign state management and KV caching."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01834",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01849v1 Announce Type: new Abstract: This article presents SSAKG 2.0, an open-source software package for constructing and operating Structural Sequential Associative Knowledge Graphs (SSAKGs). An SSAKG represents objects as graph vertices and ordered sequences as structural patterns of graph connections. The resulting sparse graph is used as an associative memory in which complete sequences can be reconstructed from a partial, unordered context. Version 2.0 introduces new algorithms that exploit individual bits of computer memory to efficiently search graph connections. The package is implemented in Python, while performance-critical graph operations are implemented in C and exposed through a Python interface. This hybrid implementation provides a flexible high-level programming environment while reducing the memory and computational overhead associated with large sparse graphs. The algorithms were evaluated using randomly generated numerical sequences, sequences derived from sentences in the NLTK corpus, and mRNA sequences. The experiments demonstrate the ability of the package to store and reconstruct sequences from partial contexts and provide a basis for evaluating the effects of graph density, sequence length, and memory size on retrieval performance. SSAKG 2.0 is distributed under the Apache 2.0 open-source license. The package includes documentation and repro",
+      "claims": [
+        "arXiv:2609.01849v1 Announce Type: new Abstract: This article presents SSAKG 2.0, an open-source software package for constructing and operating Structural Sequential Associative Knowledge Graphs (SSAKGs). An SSAKG represents objects as graph vertices and ordered sequences as structural patterns of graph connections. The resulting sparse graph is used as an associative memory in which complete sequences can be reconstructed from a partial, unordered context. Version 2.0 introduces new algorithms that exploit individual bits of computer memory to efficiently search graph connections. The package is implemented in Python, while performance-critical graph operations are implemented in C and exposed through a Python interface. This hybrid implementation provides a flexible high-level programming environment while reducing the memory and computational overhead associated with large sparse graphs. The algorithms were evaluated using randomly generated numerical sequences, sequences derived from sentences in the NLTK corpus, and mRNA sequences. The experiments demonstrate the ability of the package to store and reconstruct sequences from partial contexts and provide a basis for evaluating the effects of graph density, sequence length, and memory size on retrieval performance. SSAKG 2.0 is distributed under the Apache 2.0 open-source license. The package includes documentation and repro"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01849",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-03T04:00:00+00:00",
+      "summary": "arXiv:2609.01852v1 Announce Type: new Abstract: Persistent memory supports personalized agents, but a stale stored fact can override current authoritative evidence without warning. We study when this harm begins as model capability changes. We evaluate a frozen, closed-set, action-scored benchmark with 2 suites that represent 2 different meanings of \"no memory\" (a Benefit suite, unsolvable without the stored fact, and a Safety suite, in which an authoritative tool always holds the correct value), on a same-family model-size series (Qwen3 0.6/1.7/4/8B). The Memory Trust Gap reflects over-trust rather than confusion. In the Benefit suite, models answer with the stale value 0.92-1.00 of the time at every scale. In the Safety suite, harm below the no-memory baseline under the trap conditions ($\\Delta_{\\mathrm{mem}}$) is capability-gated, with the larger models collapsing most once a stale note is made to look current. In a $2\\times2\\times2\\times2$ factorial, which feature triggers over-trust depends on both the feature and model scale. Removing a label amplifies over-trust at every size, and a recency feature (stale dated newer) fools the larger models harder. Source authority is weak and scale-flat, and position changes from positive to negative across the Qwen3 model-size series. We confirm these scale interactions with direct cross-size contrast tests rather than overlapping per",
+      "claims": [
+        "arXiv:2609.01852v1 Announce Type: new Abstract: Persistent memory supports personalized agents, but a stale stored fact can override current authoritative evidence without warning. We study when this harm begins as model capability changes. We evaluate a frozen, closed-set, action-scored benchmark with 2 suites that represent 2 different meanings of \"no memory\" (a Benefit suite, unsolvable without the stored fact, and a Safety suite, in which an authoritative tool always holds the correct value), on a same-family model-size series (Qwen3 0.6/1.7/4/8B). The Memory Trust Gap reflects over-trust rather than confusion. In the Benefit suite, models answer with the stale value 0.92-1.00 of the time at every scale. In the Safety suite, harm below the no-memory baseline under the trap conditions ($\\Delta_{\\mathrm{mem}}$) is capability-gated, with the larger models collapsing most once a stale note is made to look current. In a $2\\times2\\times2\\times2$ factorial, which feature triggers over-trust depends on both the feature and model scale. Removing a label amplifies over-trust at every size, and a recency feature (stale dated newer) fools the larger models harder. Source authority is weak and scale-flat, and position changes from positive to negative across the Qwen3 model-size series. We confirm these scale interactions with direct cross-size contrast tests rather than overlapping per"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.01852",
+          "published_at": "2026-09-03T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI begins rollout of new powerful AI model GPT-6 Astra - Tech - Business - Ahram Online",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-03T19:16:22+00:00",
+      "summary": "OpenAI begins rollout of new powerful AI model GPT-6 Astra - Tech - Business Ahram Online",
+      "claims": [
+        "OpenAI begins rollout of new powerful AI model GPT-6 Astra - Tech - Business Ahram Online"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NajI3SWpva2RrWVpxNjBiUHkzbEZrVzF2RUItcDR2U1NQOTdab3k1Zl9JYjk4Snh1aEFOYnVJak9WNkgwYzRXeElEVjEwRkhjZ2RNODFKajc?oc=5",
+          "published_at": "2026-09-03T19:16:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-03T18:43:00+00:00",
+      "summary": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release The Guardian",
+      "claims": [
+        "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release The Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5",
+          "published_at": "2026-09-03T18:43:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "OpenAI’s next big AI model has ‘entered the AGI era’ - The Verge",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-03T18:00:00+00:00",
+      "summary": "OpenAI’s next big AI model has ‘entered the AGI era’ The Verge",
+      "claims": [
+        "OpenAI’s next big AI model has ‘entered the AGI era’ The Verge"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ2hnTl9HSkEyWms5WjFLRmpfRW5acEMzRzRwQ01xY0ZKZ3ZiMG5sZk5QMUp5SVI2OWhkQkNlTUs2QVBzMlItaTN1M0VZbXVDYml2alVIUHNxc0hOcm85SWdUVC1XUFEwaEV2UGc3RlhwaWdEcElHcUZiZW5zLXFjUmpCQUFxanYtS2QxZThn?oc=5",
+          "published_at": "2026-09-03T18:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli hit with Mercedes revenge prank at Italian GP - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-03T17:15:19+00:00",
+      "summary": "Kimi Antonelli hit with Mercedes revenge prank at Italian GP Motorsport.com",
+      "claims": [
+        "Kimi Antonelli hit with Mercedes revenge prank at Italian GP Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdHA0SnRhQTdjOF9IZ3VIbU1jRk1ITUczcU1iZUp5elUzdGxLdlQ3ZFVnalpOSXBlTkJXZkhETDUyQXZway1OZ2NwVW1HcHZudEFWQXQ2S293S1BOSGpSdFVLOVVuQk05SFVoNWRtOUsyY2ZhaEJfLU1uZk9oOEhxYVBQMGFScmtVN2lUa2lNNGJrVlQ4OThfdFF5VktRZ2kzQVhOWWs5bW0?oc=5",
+          "published_at": "2026-09-03T17:15:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli confirms second penalty as F1 title fight blows wide open - total-motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-03T16:48:46+00:00",
+      "summary": "Kimi Antonelli confirms second penalty as F1 title fight blows wide open total-motorsport.com",
+      "claims": [
+        "Kimi Antonelli confirms second penalty as F1 title fight blows wide open total-motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczh6UWhjYXJvRktPOE5kcl9lQUVuT05nMll2QmxJSi1YTktaZ3pDdTNMVlFZN0d6QmhwMnRJa3hfY0Z6eWtmZGZjN3Uxa3V6Vjd0cmFaeE9CYno4QzJXX1pyYTVNZ3pUZWw4MTRCSklPOUo1RzhlbFFvY3B6dEFFcktJTQ?oc=5",
+          "published_at": "2026-09-03T16:48:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Italian GP 2026: Kimi Antonelli served with grid penalty over planned engine change - Sportstar",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-03T16:19:05+00:00",
+      "summary": "Italian GP 2026: Kimi Antonelli served with grid penalty over planned engine change Sportstar",
+      "claims": [
+        "Italian GP 2026: Kimi Antonelli served with grid penalty over planned engine change Sportstar"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc1pOS25IWUdERnZFNDJkR1ZMQm9NdUdwWVM2M3dMck1XaTFkMURwOUQ4OS14SW9kcXFFeW8yRFF0V2JzRExqSExMUG5lTEc0Szg3amtSUno0c0tiOEw1MTNiY1NleThsSVdxT2RZTFU3dUR0cHJxclFiWC1rU2RmUFh6VzV4bVpVN25Sc2t3LUtyVjQtRWlXS2xLbkRWVlNFVnB4Y2Y0Zlo2QWZvZ0J4cko5d2EyRlJpRkFwSURIY1k2a1Q0NE1B0gHOAUFVX3lxTE0xTkM5ZFY0U0xYU2tLWXlaSlhPc2ZraERhM1loSWxVOGp6QXk4dHpPVFBpZmNtU0VxeWhFcXNqblVzWkpCdjdwUWZWR2NPV0I2YXM5TnpjU1k2MlNWMXhJWjBzdHNpMGZQc0NpWndJRUppLUhVTmJXSkRQVVNxMHVmVEJZZW1mZ3h1RFpsNUlEdGpYdHM0aWI0ZHFiVUtTOXFDNzhnOTdYdXZxalUzcy00SHM4V1pHMFdzRThGYmE1M21uanRsai1RbWU2b3R3?oc=5",
+          "published_at": "2026-09-03T16:19:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Italian GP 2026: Why Championship Leader Kimi Antonelli Will Start From Back of Grid at Monza | Explained - sundayguardianlive.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-03T16:12:56+00:00",
+      "summary": "F1 Italian GP 2026: Why Championship Leader Kimi Antonelli Will Start From Back of Grid at Monza | Explained sundayguardianlive.com",
+      "claims": [
+        "F1 Italian GP 2026: Why Championship Leader Kimi Antonelli Will Start From Back of Grid at Monza | Explained sundayguardianlive.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTlNVUDV5V091MTFxYTJiYmxlSERENElMTUdGQng3ZnFndGYzbVRhaTN1elgwcGV6MzBGWGVFUWRPVGptS3MxZnhPQ3Jzc3pwYWI1TWZrakpPeU5xQ2pzT3NEZHU4MlQ3N3prck5TRDNuUTA1U3JVdmk1eENHQldOSTlIajlBVDBneHRFR3NBX28tV3QzRGoyU0RmQzRlRUtMdEZ3MWNEX0NmdDZsazBRdHZxTlQ0a1p5aXE2S0VvYTZpclVvSUdTU2FkUHRnTXA5TlppNXJvLU1wbHJvc1ZCTVQ2Q1hEeGtQZTNTazNkLWt3NFltNFhHZ2gzQUJBM3BGdlpwRldyZlRkUDhl0gGSAkFVX3lxTE5sRG5HOS1RU1BDUkw2cGNIbWFOUGFSOEZFNVk0TVRjQTAzSHRxaHRfYm9oRE04RXN3eTVnUEdidC1KYWRQcXNNU0tmT01mNUE1d1FSMlJOaU9OQUQyX2lZUjV6MXMtdnY1Q2p1bkVzcTNhdDZvU18xN3VFcE5VUHVWSEJlNUljM0I5dFhzVXh2YUcwMXhqVm01a2oxZGxmQmR5RXBUcEliaG1KYmkzV1ExTWVrSW9FN1Y5eWY4X19TTkVGMGFXRVh2OE5Kd0N2MzByYjFKYkhpV2E4dkVQWTZpUXJSYjdNN0JwVVY3THpBZmViZFdZZG1DYzJ3U0FCUDJvek9SMlJNQnpCemRWaWlmQXc?oc=5",
+          "published_at": "2026-09-03T16:12:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "ChatGPT, Gemini, Claude face widespread outages; Amazon Web Services also hit - The Hindu",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-03T16:12:13+00:00",
+      "summary": "ChatGPT, Gemini, Claude face widespread outages; Amazon Web Services also hit The Hindu",
+      "claims": [
+        "ChatGPT, Gemini, Claude face widespread outages; Amazon Web Services also hit The Hindu"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1Bd3FMWFdDbWJhMjluQjRoTzlTX2RoUjd3TU55YVphNDlSbnJBRXJHMWJUX0EyU3FEdlhsRlZhcllmZnM2V3hnOV9IakZ2c2lBMGt0UkVocWwwYmZxS0pqLWtTZlU2MTlKdTdTLXY2bzh6RWFjT0VJNElVNEZSaUc1V3VxVE83UE5ySzBUTDdDMFpJU2RGMDFsTFkzWXFkQzNWcmtkTnNWWEpJZk10UFUwNNIBugFBVV95cUxNam9OTzlLYzlyUDBQTlJOaXphZ21rR2g5OExnOHRGbzBGUFhrV0c2R3ZWTGJveXI4aEg3ZFIyaWFBLUpQZHBwRVAwbHhsNzN5M1c2YTR1NG1PWmxGY0pzUG1WdERCdWxUREdET2E4SFhOQVNnNGZxZnRKNXFpX3hDS1BWUVFlWW9SaE5xWE5iX2pxNUNld3hTWkFhckJJWmlVWDFYQURVNG1Vc1ZZd0YxYnllLXoyQmdoMGc?oc=5",
+          "published_at": "2026-09-03T16:12:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    }
+  ]
+}
