@@ -1,0 +1,946 @@
+{
+  "report_date": "2026-09-06",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-05T19:31:08.446650+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 47
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 56
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 106,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-04T19:52:48+00:00",
+      "summary": "Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s...",
+      "claims": [
+        "Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-on-nvidia-gb300-nvl72-for-agentic-coding/",
+          "published_at": "2026-09-04T19:52:48+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-04T18:05:02+00:00",
+      "summary": "Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it...",
+      "claims": [
+        "Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
+          "published_at": "2026-09-04T18:05:02+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-04T16:21:13+00:00",
+      "summary": "Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently, models capable of multi-step reasoning were too large to run...",
+      "claims": [
+        "Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently, models capable of multi-step reasoning were too large to run..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson/",
+          "published_at": "2026-09-04T16:21:13+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "\"I did what the team asked\": Kimi Antonelli expects George Russell to return favour later in season - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T19:16:40+00:00",
+      "summary": "\"I did what the team asked\": Kimi Antonelli expects George Russell to return favour later in season Motorsport.com",
+      "claims": [
+        "\"I did what the team asked\": Kimi Antonelli expects George Russell to return favour later in season Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcDVLb2JMeUstd1dSbjkwM1R0eGtCZFdxb2htUDFtS2RETXRzSlBSSlUwd3R1QUVfVDNSQmVDd0MxRTN5TW9qLXgwSTYzTTlOVlNSYmZEZVhOTE12VlNHc3NfTFRMZXlXbGw3ODRldThNZlpKaFZCd2RNMVF0M0xIS0M2c2Z2ZG5wdTB4WVpFQjk0Q3NmMERGVlgyWlFxazZTdXZ6ZDhoMXQza3N3VzZVOGUxYVdPUE1UOTEtNkg0OWJaSVVmMDZ5QXZtRTdiWDN6OHl5cjBaYmg?oc=5",
+          "published_at": "2026-09-05T19:16:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Italian GP: Kimi Antonelli to help Mercedes team-mate George Russell in Monza qualifying due to engine grid penalty - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T19:16:12+00:00",
+      "summary": "Italian GP: Kimi Antonelli to help Mercedes team-mate George Russell in Monza qualifying due to engine grid penalty Sky Sports",
+      "claims": [
+        "Italian GP: Kimi Antonelli to help Mercedes team-mate George Russell in Monza qualifying due to engine grid penalty Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQUUhOWUlZUElQS2NTT2xwV2w3elY1LXc4eS11OEQ5VWdNeHZpa1czME15WUVvZVpJN2RTSFdvT2lCX0ZYam9hQWdHc28tRHptb2JqaWEtTUYtaGR6TDFYLTRyTDhUd20ySi1SQ1pabUpKd0ExNDl5cWluWG41TFNraUFvQkZHZ0RkVm9UN0IycDBGeWdjSnBfcmhoUGc2UktBYno4cVltOW5yMUpwYUhka3o1ZHd3aWdDa05vbEJwU2hKcVNPSHQ0SGJwLV9sSDE3eXdRYklwSDZXb18wU0xXR0liN0dtbm5JQnE2MV82WC1GcllSbFE?oc=5",
+          "published_at": "2026-09-05T19:16:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli helped Russell in Italian Grand Prix qualifying - UA.NEWS",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T18:47:08+00:00",
+      "summary": "Kimi Antonelli helped Russell in Italian Grand Prix qualifying UA.NEWS",
+      "claims": [
+        "Kimi Antonelli helped Russell in Italian Grand Prix qualifying UA.NEWS"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNnZYQ2sxWk1BSDhndjl4Q0hpWnlxWFk0YXVDYnNFa2dlY3dVcVdxRGY4OVFvcS1QTjBnMGFrR0JFanpnUGRhLWo5Um1YbWt5eXI3VFQ3Q1Vsd1ZpUTRQdmoway15b1dsVzQxRlhoeDZ5TXRBZlYyc1Q2UlpYUkU2OXVKNHhnQy1ELTdtYTNGWUh1cmxJ?oc=5",
+          "published_at": "2026-09-05T18:47:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: Monza's Strategic Hero in Formula One Battle - Devdiscourse",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T18:25:05+00:00",
+      "summary": "Kimi Antonelli: Monza's Strategic Hero in Formula One Battle Devdiscourse",
+      "claims": [
+        "Kimi Antonelli: Monza's Strategic Hero in Formula One Battle Devdiscourse"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNmtpM294M2hNMU83UmdVWTZCa1g5bU83TjBJclZFOE1sTmJhakI1dFcwR3V2R0RNdlFoN2JhMHQyRXRHbUs3LWpQRDQwZFVhSU5aZWdmUlIzemlfT3UwX2hod1I2RExpaWdNeG5MZlZOczZka2d0c01uakUzYkRnQnpsREhvdEtNVVMybFVYNExzbGs1b3Z5NDFxdExZWnZmSzdLY19YaVlFbDBEZEYtTFYtN2NFaTjSAbwBQVVfeXFMTVR5SGRiRHVPR1RaSF9oZU9SY25UQjNXTnd6QmZINkpTWU1EVi1YR3AzdDJXUUVPQ2ZjSnRKd2JnZkYwQ0VfbzV6MzRRcFpZcGlnaUs2SG12akltaDhMMFltQlRlRXVfY29aaXZNMmNkWFdud01iUlUzdjNyb3AxRDdtbmYyb19FV1ktNWJWQnNzX1VDQTh6ZEFZcl9hWmxBOWRZaWJucG5FcDhqM3pVS2prS2ZZRDMxQzNYY1I?oc=5",
+          "published_at": "2026-09-05T18:25:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI introduces GPT-6 Astra, calls it its most capable AI model yet - Daily Pakistan",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T18:03:33+00:00",
+      "summary": "OpenAI introduces GPT-6 Astra, calls it its most capable AI model yet Daily Pakistan",
+      "claims": [
+        "OpenAI introduces GPT-6 Astra, calls it its most capable AI model yet Daily Pakistan",
+        "OpenAI launches GPT-6 Astra, calls it its ‘most intelligent’ AI model Pragativadi"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcHJkb29SWjN0NjlUc1Nyc0hhNE9jWTlzNVUwTE5CWUo0ZjFabjZwT0xNSU9aTXZaOWs2Mk8xRHk3QllQY0dIRXFwUVFoMUt4MmJhY2ZJMzZmeXhseDZtN2pmSVpZdUtHX1ctUE1hUWltUWpLcVJvQU9LQW1mb3ZxWnZUY3lwS2JEMGRwTGxtV2xNTGl1Z3ZaamtoSDR0RGpjYkpITVVxQ2JQMnpEQjRMczZR?oc=5",
+          "published_at": "2026-09-05T18:03:33+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYUlwdGhVQjlXU2pPaFNRQ2NCZDFVbEM0SEZQaEZqYXFqTFZ6MFoyZFF1ZnctcFBTaUpsbWlMUm1qOThpVERoZ3pqUUZPWHFsV0ljb0FaV0Q3OTdoZWNOcjVlcWM1VnBOSm8zRlBGUHdlSmEwMjJQSlM1LTJHc2JZSTFQZFd1VUh0S3AtVUs0aGFmcEN2YUE?oc=5",
+          "published_at": "2026-09-05T01:19:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "OpenAI begins rollout of new powerful AI model GPT-6 Astra - thedailystar.net",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T17:54:44+00:00",
+      "summary": "OpenAI begins rollout of new powerful AI model GPT-6 Astra thedailystar.net",
+      "claims": [
+        "OpenAI begins rollout of new powerful AI model GPT-6 Astra thedailystar.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRUNZV2dsYVAybnRrVFd5MlVkcFhWc0x5aHFoVmNGVFZtNjdkc1gyVm5XdUhiSG1ORXZLMjNqeXpiZTJ5bGozOEpyTkhNc1FCbU5EVEo3eVNkSC1TSDg4RFoyVFk1UVRVZTlNcUY4NTZUa0xzWXp5OVFBdHRfRkJrZ2U0Qk1laG9ZSVNhblY5UlNreUpJMUxObWlieTd4cEVoMTluSXJxOVgxMnExbnB6NlZ2WQ?oc=5",
+          "published_at": "2026-09-05T17:54:44+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "研究称中国黑客利用 DeepSeek 等开源 AI 扩大攻击 - CryptoRank",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T17:45:04+00:00",
+      "summary": "研究称中国黑客利用 DeepSeek 等开源 AI 扩大攻击 CryptoRank",
+      "claims": [
+        "研究称中国黑客利用 DeepSeek 等开源 AI 扩大攻击 CryptoRank"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1MHdEemFOazRYMWt0b200ajk0TmlYckRaekJybktFVHBndWVrZVpZZm80X1JzRUdnelJpNGV1UE9NQXJPeEVaWUYwWlM0WWkta3hSVHZLd2o?oc=5",
+          "published_at": "2026-09-05T17:45:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek is buying 160,000 Huawei chips, and the detail that matters is what it will not use them for - WION",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T17:35:00+00:00",
+      "summary": "DeepSeek is buying 160,000 Huawei chips, and the detail that matters is what it will not use them for WION",
+      "claims": [
+        "DeepSeek is buying 160,000 Huawei chips, and the detail that matters is what it will not use them for WION"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSmFFbGJqWndnLUYxa0dPX0g2LVhSb2xxeElaX1htQmxzQXU3bGtBTEVIWTRDU0lENUtKNE5nMTYyNmtvY2ZudnA3LUVqRy1zSUFHMUlMVzVUamxOMmFHMFRncnNjcDVkeUhYdlg3azg1TDE3RG1JUU5oejE4bUczczRFOEhjUmNxV3F2TU4zV2NmNlVlN05iUnRqNDZOcnBfbHFiZHhzcV9HVkVrMU14bWVGeUlidzA2V0RhZTYxeGFtVkF3aWxWbTBuZmdLMlloR1lOdUpNc2ZfZjRn0gHiAUFVX3lxTFBNZDFyRWFxU1laNzBwWTNwcmtQc3VmT0NBeGw4djJyUlc0ZFVaeU1rNWNreHBaeWlQY2dVUjlYTXJGNDFxR0JvNDk0UWtuSUlHVERtZzd0dnI4MkpvRWJLSW9vekdDeDZ6Y0dxV0ZWdVFUbW1pcGtwUU5VaEFkdWVZa0xDWHktOWEwQ3N2UUtHRG9RUUE3QldUXzZkU2tTUmxKYmdDdURJdU8zQ0lOV202SHBkQXJodGJmb0RXczNDOXBBdnNfbjlJM1prdnAxWW01bElQRG9Bam5zVGRxN0ZmTUE?oc=5",
+          "published_at": "2026-09-05T17:35:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Russell shares ‘honest’ update on Antonelli relationship amid F1 title fight - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T19:00:00+00:00",
+      "summary": "Russell shares ‘honest’ update on Antonelli relationship amid F1 title fight F1 Oversteer",
+      "claims": [
+        "Russell shares ‘honest’ update on Antonelli relationship amid F1 title fight F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3ZXV3BTZ1VxekNtcEhqdXg1QkMwbHJ2dWlZYzZQSDJpRkhZQ1FabzlGUUdDWXpXc1FUZE85OHdrVENSYm5pUC1CaTg0TURVUFVsNDQ1Y3ZhUkt2WHM3WFB4NlZ2UDFZaTg1elhCS2xGT0JWNGJ0SVJPRFB0MkdEdUhhZmhYRjlObkVZOEp5Y1J3bzhXWXRmeXV2elV3cFAxYmE0WHdsaWFGU2ZPeVFkU3hXNlNpMWplUkhvODhqZV9xSURkNG9QNlFLYmc?oc=5",
+          "published_at": "2026-09-05T19:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T17:53:39+00:00",
+      "summary": "The turbulent AI era is here. The choices we make now are critical. Gates Notes",
+      "claims": [
+        "The turbulent AI era is here. The choices we make now are critical. Gates Notes"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+          "published_at": "2026-09-05T17:53:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Tecno launches Camon Slim 5G and Camon Air in Bangladesh - thedailystar.net",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T17:42:41+00:00",
+      "summary": "Tecno launches Camon Slim 5G and Camon Air in Bangladesh thedailystar.net",
+      "claims": [
+        "Tecno launches Camon Slim 5G and Camon Air in Bangladesh thedailystar.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZVY4Z1FxbEFWTWpqZEhuZEFaMlBhMjJUd3YtU1lBNGtaV0M3MTB0bmp2aFZFZXpYS2otamVYUW1oUlZiRGZRMFFNbHAxODVaeFNpUXk3VGJZVjJ6WmN6YlpKY0k3bGNzZ2NMQkptZTMxOHRsVGU4VUZGX3BjR3hyOUYxeDdPX21TbkhpNWR3TEYxYkwyWG43WEtrZE0xdFVTR2s1THJEbkhMcEJhNm5Ddw?oc=5",
+          "published_at": "2026-09-05T17:42:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli Repays Zandvoort Debt by Blocking Verstappen’s Sneaky Tow Hijack at Monza - MotorBiscuit",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T16:58:36+00:00",
+      "summary": "Antonelli Repays Zandvoort Debt by Blocking Verstappen’s Sneaky Tow Hijack at Monza MotorBiscuit",
+      "claims": [
+        "Antonelli Repays Zandvoort Debt by Blocking Verstappen’s Sneaky Tow Hijack at Monza MotorBiscuit"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQTRIdkRPbE5jSHVzRHRoY2pYa3pHcE9tM243Um55QlZYOU9WV0xJMmtuOGlTdUJKay1JLUJPNzc1WDE4TEI4WmtyUVZMMXlCbGxsOVZ0X2llRXN0NWtSdFptUk9NLTlGd2xpZVVvZkJTVnh6QVc1S1VqSllpMHhCVzh0SGtrSmY0c3lfMjhMYWdybEFsTy1QOGNSRUZCS2w2NEhFODcwZVFVLXFYUnBrVTJB?oc=5",
+          "published_at": "2026-09-05T16:58:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli issues hilarious 'shut up' response: 'Don't joke with me' - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T16:22:10+00:00",
+      "summary": "Kimi Antonelli issues hilarious 'shut up' response: 'Don't joke with me' racingnews365.com",
+      "claims": [
+        "Kimi Antonelli issues hilarious 'shut up' response: 'Don't joke with me' racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMklCeVVWT1NPSmIxQk5JUVFzYkk0OVlGUXRYWkQxelJGbnF1clh6dEMwM0lYdG5BcmxETG93amJsNVMwV1B4Q1Z1TDVjY1pvdGxYbDFnWmlDWlFia1Q4Tm40b1ZDZ1phNTJSNEUtb0ZjcnpJSkhENXhYSjBGRHpaRS12TFhqZmlRQ05vZjdqajlQNl96bHRZ?oc=5",
+          "published_at": "2026-09-05T16:22:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Former ISRO Chairman S Somanath calls for larger AI models to address India's social problems - Deccan Herald",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T16:14:00+00:00",
+      "summary": "Former ISRO Chairman S Somanath calls for larger AI models to address India's social problems Deccan Herald",
+      "claims": [
+        "Former ISRO Chairman S Somanath calls for larger AI models to address India's social problems Deccan Herald"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQLTg2b1VMQlNXMXc3SHliNWI1WkRHM3otODBnTWJGdnhtbi1UNEhyZ0g3dThPNjZnR0VGZ2NleW1yaF9xVGJmTXBoNjVTaFdCRXdmdU00bzkyc0c3b2czV1dhLVRVbHA4aWtRSWhkMlVTY2JZRExKeDkwM1FJcjIyVjZuZDFubEJvWkQ0RTdabFBEU1lTR2p0QktVSHo4UWNlaFl0WGRnRERPd3JkZHVMTjJhLWZJcHE1MElNZy1TR1REc3hqc1JMRkZyUFdqQURqQjRWM0V0MDgydlVOME13c2J1Y0hVZ1M1SmQxOFdVOVpNcjd1S1VnTlRkdG1naXlSS1FpNEMwcWMxZw?oc=5",
+          "published_at": "2026-09-05T16:14:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Google launches Lyria 3.5 for AI music generation - thedailystar.net",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T16:01:50+00:00",
+      "summary": "Google launches Lyria 3.5 for AI music generation thedailystar.net",
+      "claims": [
+        "Google launches Lyria 3.5 for AI music generation thedailystar.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMmFfLTcyUlY5bDZxMXlQQVlaOXpSdXpSSVVnZ0NrRjd4T2RxY0NiS3g4Um8xa2tRdmw1aUJGQVZhSkQ5R0plNDFmOHU2Zkpsb3djWkpOdDFNY1ZtbmtjVkFUbEhRc2pmRE9KdlhtWHZVb1luZ2JMZF9NczdJbjFCdHUzWnBGWk9tRUVrQWswZG42NjdIUEFoUnN0SFdzblFqSDFpQg?oc=5",
+          "published_at": "2026-09-05T16:01:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The Lewis Hamilton Starting Trick Kimi Antonelli Has Added to His F1 Routine - MotorBiscuit",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T15:58:36+00:00",
+      "summary": "The Lewis Hamilton Starting Trick Kimi Antonelli Has Added to His F1 Routine MotorBiscuit",
+      "claims": [
+        "The Lewis Hamilton Starting Trick Kimi Antonelli Has Added to His F1 Routine MotorBiscuit"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeXBwbUF5N1NyOEJPRWYxenNMSWxhNDU3eTlqMDEyZGZBcXJVbTJheGZJY0VjNXJNQ09sRGRaajR1ZEp5UVdEMENtRmQweVQtbEdSUV9JMVBHOVVQQWdlWFhfWTRhemNiTWFOWE95dzBvdWxQb2hTc29mcExQWkZDeElWM1ZYTHBRVDk2b1VsUTZQZFltclBFUVdzTllTTkZlM0pzQXhlTkNxdw?oc=5",
+          "published_at": "2026-09-05T15:58:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Jensen Huang AGI practically already G20 - StartupHub.ai",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T15:58:03+00:00",
+      "summary": "Jensen Huang AGI practically already G20 StartupHub.ai",
+      "claims": [
+        "Jensen Huang AGI practically already G20 StartupHub.ai"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQzFWUlRBN2tjdTR6RkN2NVJEa1pnR3FFdkpqU0RaNXB1TU9nX2hvNF92Y0IzWFpFY05JRzZpM2NYY3lxdkFTUUtoOUVsb2FOcEdwaWtROFNaXzAtbDYxS0R4VlR0RDBhQ1JwcUROYmVzZE5OSFZfNnV0dUdrRzhVRVFJSno5N2JkbGI0cTBTRmp0Wm84dEcybl9uSTFKUm44ZG91UTN3?oc=5",
+          "published_at": "2026-09-05T15:58:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Microsoft AI CEO raises safety concerns after reported Hugging Face breach - enterpriseai.economictimes.indiatimes.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T14:29:07+00:00",
+      "summary": "Microsoft AI CEO raises safety concerns after reported Hugging Face breach enterpriseai.economictimes.indiatimes.com",
+      "claims": [
+        "Microsoft AI CEO raises safety concerns after reported Hugging Face breach enterpriseai.economictimes.indiatimes.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNkpWa2RuSWlhRzNDQzRVT0hxNVEzTTdNM0F6RFI0WWhYU1FiMUFiQXl4MTdIX0Vzd1RRYmVucmxKWUZTN2lJYmttVTZvdE9jOUppMmdyWmxMbG5GYy1XZzVleW51UGlmRW9XOUd4RlUwMVlTOGxWQktnTEhoZVMzTEdJc1RNdG1HaExNenZnbFN4RkdtWXdxVU9lX1J1VmVnVnFPalc2dHpKNnNCdVc1cXRNM295amcxRVVwTk41UVAteWZlQlphOHIySlVKM0xrb1E2ZVdDY19Tb29tX0ZSTUNR0gHnAUFVX3lxTE1xanNZSEdIRTg3TmhqLTZ3Z3M1X2RIVXVlMzdaMVgtWjZfUnNLQzVoREZ4QWZzdWZrTzhGV2RzcEhsMUQxLWZOODNEYk5Gb1JleWdMOTlGTFFLZnhhdzlTVS1sWUsyemhXUHNLTy1UUXFuN0ZhZ0dzY0haa3BxLW1ZcFZ6dDFnU2NpYU1HcFhzQUZTRlM1UWVhTXQ1YzR2UmJITnFQUjdQQS0tOGp1Tml5cUlWSU56cldaaVIyNVRVM19NNzNMSUx2bVFsUjY5SGtra0NNNTNJZGFUaFRsMzRDdnlVN1ZXMA?oc=5",
+          "published_at": "2026-09-05T14:29:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek Orders 160,000 Huawei Chips in a $2.56 Billion Bet on Domestic AI Silicon - trendingonweibo.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T14:12:25+00:00",
+      "summary": "DeepSeek Orders 160,000 Huawei Chips in a $2.56 Billion Bet on Domestic AI Silicon trendingonweibo.com",
+      "claims": [
+        "DeepSeek Orders 160,000 Huawei Chips in a $2.56 Billion Bet on Domestic AI Silicon trendingonweibo.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeVR0aEZmSTJBRGFfT21UVjVMTmNMdUVlYTZwSWZJUWJjbFFZU1doV1FBMlg5Y1VyQ1FPRzF5NEZuallFUUZnMTA4TTVuVldocm4ySGtIMUUyci1yZzJTN05kNkhGdF9GMlNTaWxGMmk2MlV0bXJJaDNaaG9mNW9mSUN5Ymg1S0ROU2VEbmtn?oc=5",
+          "published_at": "2026-09-05T14:12:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Astra: New Features and Availability - Aktualita.co",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-05T14:07:13+00:00",
+      "summary": "OpenAI Launches GPT-6 Astra: New Features and Availability Aktualita.co",
+      "claims": [
+        "OpenAI Launches GPT-6 Astra: New Features and Availability Aktualita.co"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWEVQemhZSC11XzYtcDJ6MzBmUjBIcHV0OWhwN185QjhWa3RJLVVkaTY2ZXhxTWtsMXRKdWd1VXBRZzdPVzZlVW4tSlZKUzJpM25NSnI2Y0xmSER6X2wwSnBBUllkcF9wZXRTYmJBbVJMbXZpaUNTeWR4Z29TLUx3NlJTeEQzSlJwTXp6eUMtN0VvNk1UWWM4?oc=5",
+          "published_at": "2026-09-05T14:07:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek’s 160,000-Chip Huawei Order Puts PRC Law Over Every API Query - Tech Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-05T14:05:38+00:00",
+      "summary": "DeepSeek’s 160,000-Chip Huawei Order Puts PRC Law Over Every API Query Tech Times",
+      "claims": [
+        "DeepSeek’s 160,000-Chip Huawei Order Puts PRC Law Over Every API Query Tech Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNmtpbFBmOWl2NkpQOVYyMEUyV0NvNWVKLTJrQ2FBNTZVRUlUbUhUdHFNV2g2bU5yUUdnNjQtUXRWXzFaUTcxSW5HR1JKWWR6Q3ZhTXBaVGJYdTdiRTBfUGVQaVhEY3BvSkRTYW9Za3ZINTRNc2lFRTBEbWM5bjNXN01ySmoyV2ZkRHJDUk5kajNyRFdIUGVkTllVREFLU0czWldRX0pzRVp3SnAzZTk5Q0lvSEs3bkFVSUZfVGVpMUo?oc=5",
+          "published_at": "2026-09-05T14:05:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
