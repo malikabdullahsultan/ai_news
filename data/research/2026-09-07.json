@@ -1,0 +1,1073 @@
+{
+  "report_date": "2026-09-07",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-06T19:31:16.838720+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 57
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 159,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "An Alien Mind",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-06T09:00:00+00:00",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "claims": [
+        "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/an-alien-mind",
+          "published_at": "2026-09-06T09:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-06T08:00:00+00:00",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "claims": [
+        "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "published_at": "2026-09-06T08:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Charles Leclerc red flag crash scare as Kimi Antonelli crowned ‘King’ - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T19:30:00+00:00",
+      "summary": "Charles Leclerc red flag crash scare as Kimi Antonelli crowned ‘King’ racingnews365.com",
+      "claims": [
+        "Charles Leclerc red flag crash scare as Kimi Antonelli crowned ‘King’ racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV3k4aTlkUUF4YkUxbHFVZWQwS0h5UEcwT0Z0ek1mZEllM1REQXJPR1Z3eDJuZUZJdFdXQTJORDR3RmU4OE5mZ3N0dVRqNXcybUQ5LTM1ODgyZExVV014R19NcUVYQU11aGhENVlHSnE1Y1RLTUZmTWs2Rkg2TElkRUlzMVNxWFdCVzNXYnJkQXVLTHdaRy0tLQ?oc=5",
+          "published_at": "2026-09-06T19:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-06T19:25:53+00:00",
+      "summary": "OpenAI's next-generation artificial intelligence (AI) model 'GPT-6 Astra' has rekindled its semicond.. 매일경제",
+      "claims": [
+        "GPT-6 Astra: A new generation of intelligence OpenAI",
+        "OpenAI's next-generation artificial intelligence (AI) model 'GPT-6 Astra' has rekindled its semicond.. 매일경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+          "published_at": "2026-09-06T19:25:53+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtMEM4aE1OM1QtX3NEblR0V3dnR1ZhdUI2RHA2TjliM2kxNkNvUE9NeUJ6dGczOTJ4TGJINHFlb3RLQTNvU25HbjNFX2R2QkE?oc=5",
+          "published_at": "2026-09-06T08:26:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Astra, Its Most Powerful AI Model Yet - Infomance",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-06T19:20:28+00:00",
+      "summary": "OpenAI Launches GPT-6 Astra, Its Most Powerful AI Model Yet Infomance",
+      "claims": [
+        "OpenAI Launches GPT-6 Astra, Its Most Powerful AI Model Yet Infomance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObUhBbW1leXpjNVJHeVIzQlIxNzJSMmFibHFtYXBxRE9wRVMzc3lEVVNhUHA4d1JJUDhnbUFuLUx2ay1HQXpmMGNaMURoZUp6NHV6SHpTY2NrcVRNSWlDSFZ6WHJGR1VhXzJmNFJDc0FPVnlrZnpINWxWWW91NllfU1BhdEJuLVpQNTVEek5memFvRWFJNC14RzR2QW94S09tTUdzbDdnQQ?oc=5",
+          "published_at": "2026-09-06T19:20:28+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "F1: Kimi Antonelli takes sensational win from back of Monza grid - RNZ",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T19:13:50+00:00",
+      "summary": "F1: Kimi Antonelli takes sensational win from back of Monza grid RNZ",
+      "claims": [
+        "F1: Kimi Antonelli takes sensational win from back of Monza grid RNZ"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbG96WktKTmRUOGhOMVAzRTlIVGlWbzR4RVVneWt4TmpHT0dnWHE2OEVrQmZuc3RLQTJlUG1mdEJDYXBZSVBHTTF1YTNKOEFFOTE1SkxJS0JEaENrOW5XWGpnaGI2SlBjbXVvUnQxVDRHajROcV9VX3I1ZFlVV1VRZ2dGT3Q3NEV3aWpYaW9NV3FNYVhfUlQ3QUZJXzFSMkZYYjJxcmNzaw?oc=5",
+          "published_at": "2026-09-06T19:13:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi is in control of title race and deserves to be, says Russell - Reuters",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T19:13:35+00:00",
+      "summary": "Kimi is in control of title race and deserves to be, says Russell Reuters",
+      "claims": [
+        "Kimi is in control of title race and deserves to be, says Russell Reuters",
+        "Kimi is in control of title race and deserves to be, says Russell CNA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWlZlTHBXLUQxLXJGWjZNdnJoXy1UdkNXNjZ5cGNIZEl1bVNGa2RCeWpWRW16QnM2NlZPTTdTQ05VOHE3d3FPVlJhbzhkMzBHWTViMVo1b0JJTGp6NDMzWFkwYnFaenJaQVR3VE51c3AtOTJPV3RYUWo2cmZ0d2ZRZ3ZZSXREMEozczh6dUtqb3RLcXl1LWtxbnZIeG81RTFyODNmSGJB?oc=5",
+          "published_at": "2026-09-06T19:13:35+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSFVGWkdJUHZ1eEFyZExZRnNkOFIwMERTLThaRGItenBEWkdyb0poYzVORWVsSFVhYmVQWXZXcE9rTGpYd2YzX2ZMaVRtQkc4N1BHTU4tUFRpRWNsdWdDVlhEWE5Yd0dMWFh0bXYzcGE2eG5MQlNtbnIzd0ZfYlAzMExndF93cG5WVFJuNUpxWWo5LTY4ZEYzNjdpT1JYNXY3RXFN?oc=5",
+          "published_at": "2026-09-06T19:12:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Toto Wolff predicted Kimi Antonelli had potential to 'walk on water' after 19th to victory at Italian GP - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T19:01:00+00:00",
+      "summary": "Toto Wolff predicted Kimi Antonelli had potential to 'walk on water' after 19th to victory at Italian GP ESPN",
+      "claims": [
+        "Toto Wolff predicted Kimi Antonelli had potential to 'walk on water' after 19th to victory at Italian GP ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPM1dXRmhMUkJDZnllc3hmWWNUeHctRzBGR0daM2NLNFRFQ3hkUkpkY1FiaVNWNUQ5d2x5SWx6NXh5VllfVThRX05kSzBqb3NPTjFCYXhXUm55NWNtczROWE1oSkJtZl9sdmhNZTdEVTRlc1RQaWdELW1UNkw0RWMzNVU1bkJ5Q1lnSmtKMVFlc2ptNE5kbHFxcmZKX0I2ZTJ6MWpPcC04OUZCY3BWSDNyOTJlWk1Ob19PRG1QVnpzNlRzVmNPSE9NbVFLQVYyVkgyQ0ZWWjBQV21Vd1VtZjBDZjcycndjMFdkV0pjZEZYWQ?oc=5",
+          "published_at": "2026-09-06T19:01:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back - Baltimore Sun",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:58:49+00:00",
+      "summary": "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back | Sports | 2news.com ktvn.com",
+      "claims": [
+        "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back Baltimore Sun",
+        "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back hibbingmn.com",
+        "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back Al Jazeera",
+        "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back The News-Item"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGdvTGlBaW5qTmFxTXVkTVhUa2NmbVRnSFpkYXRkR2hTVnl6bU5wUlhxVnMtWFhBelFJVkViNVJxY09ReF9fd19YVzFJb1h1Y2toUFlJWXVHOGc2eEUtc0NyRmZ1b1FmX0RqcWdtaktkTzB0VEtqY2txRUU5VExsaFdNSHZDWDdvZzY2T1YzUFJJTG9ZWGpQVW5Lb2trZS1VUGZIZWJiRlBKLVFUMzRLbS14UQ?oc=5",
+          "published_at": "2026-09-06T18:58:49+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVnUzWGJUbXN4cThCeTR3Zkh3cmZuN215VVdYeENPWGNNNWJsbnhiZkd4MFZ1eU5WSWw4T29yaG4ydGJTQnlFWl9tQTctbzRZNGhPbU51d3V1bXFjX2d0N1h2X0FpcnJlbmdKd3VDOVBabEJwRDBTNzJYNjdFdWdoamJ2RTlmX1ZFNnZPeWhuZ21DZ0c1UzJvLTJncHV2RFo2NGVCWjBvbjgyX0lwTjFuNEVjVVdXdy1RVnpZdG1jelNLWGJ4VTNLSTFwSzVLcWpNMDdiVnlsMlJyR1RqMWlNbGxaajNESVhHbld0SXVGQQ?oc=5",
+          "published_at": "2026-09-06T18:17:14+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnFwNnp3bEpNYnVyVnB3OVdpc3kxaGREdkVjTC1YX2dmaldRdGJoeUU4Nk5meGNMOGdGNGp6Tl9SeG1OUkFnYXpzR01zRXJIaXZQb0c0SzRUVkVlRGxXVUFQVWRLY1ZUQ3BWQldWZXVJaFZjRE5ndTd4blAzWWt2blBia2NxQ3d0UW9lVUs5NzhxQWdGT3Axb052RVRsLVhvZlE4TmFQaWRiZ2NGa2JIaEhnbTTSAboBQVVfeXFMT0ZNakttUXJGWmRPa0h1V1d3WFFUMzRveThRYzZsTmh4YVRqenItUF9BZ1FleW56ZlhPdjhLYkY3d25Ra25OckJWY2VKYy16bmEzSDA3TGFKVS1PcnJKemlUWE1UbWt3WC0xZWRhX3MwREZaXzdWN2dvMzVrNDVQXzY5MHRUeXZ4OXIwX2gxQWxuYUpxLVFkdXNiWWlhT2d0NlJXZXpzMEVuWU5lZ2xpMDdMcmgtYlBwb2Zn?oc=5",
+          "published_at": "2026-09-06T17:41:06+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVGkzc2VMTlRiSy1uTHpBenZNc0x4RFR3Qkw2YnVIbmdMek5DeVBQZ0EzY2tsUWNaTV84T2hGSmsxbUVsNTdCTV9ybnh4SjI2YUJSS3J1ZFg4UkVuX0xZUHJMVW9ic1dJUkhLWXV1NDlLUXR0LTRCRjFBbGtIZjlnX01uU1QyMFpkdHVDazByZ2tpQldSODdQc1QtdlgwdlRXZkhMb2VMbTduM1l6bjNacnFQNWNBemJ0S1ZnTDdnQldPOVliYm5RTjlOU0VueVRaMmJKNmtwM2EzbzBOYmtqSUUzcm50a20yNUd3Mk9B?oc=5",
+          "published_at": "2026-09-06T17:07:06+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNUkxMd2dISjFRS1o3cnJrTkNqdElfMDZRZnhya0NqbXRGMHRUcmx4aFV3YVJHcThEc3I3Mjg2b2hkVTZSb3otWlFZTWtpYkpaZ2tDUVFhTEhNRUU1ZGVMYWJIN1N1Ry1DYjlRS2xnMXo2UlNvY1QtMFhPVkp3eHpfRXFFR3ZiLTZmNFNfZXZIUGtsbkJCeW9ZbFhWVUNDNVBnZ1MyYTgwTnlINm85ZUd0R2xXUDZVWGpvY0JqRHdEd1ZTcFB3ajVhT3lWdlJoLWJTY0ZIYWJHX1hZYTNzQXNvcWJTS3hWUE1yM1BnWl82Z3RPNTBtWFZ3a2VKR2YtYUNqN1pXMw?oc=5",
+          "published_at": "2026-09-06T16:05:33+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWVJqbS0wYUlYejlJN0MzMzU2dkJENGM0VUtyWGJOZTNLTm5sQzlCMTF6QnZ4R3docU05VFhPa3RpS1lMU1hfLUNmdy0wbVZGRG9CekJwUGZjSDlfU0EwMWZ0ZGprQ2lmWXRrbUk5TjNIQTlRMWVPTW9kZXYyMXZLbVVUQTctRXliTl9PT2tmc2tIaDNvRC1NRE93TVluWlVVQmU2VmVLZGR2Q0FpVXVwbEJGamJGZmozUExsdWpKejdKVmdxbjlhVWdtNGMyMGZmcUlBclF0UTJXQXF1SlFTQVFndw?oc=5",
+          "published_at": "2026-09-06T15:10:44+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1B3bUtUWVVxOC1udFY2eXhsYXZwNl8yQ3l6WHFyelNWTDVMSXhsWWNLaTlzeXgxeVYyWGtCbFZ1ZlFlZ2haMngxbTZNSzgxaTNaZkZ6M2JteEJJX0prNFJvaWpTZlljOFZPaDRUb1lBXzFwT3l2TzlvMktNdGZpYlU0U0p5b0gwbzhtYjZRZnF4ZmV1V01r0gGXAUFVX3lxTE5jUHdtS1RZVXE4LW50VjZ5eGxhdnA2XzJDeXpYcXJ6U1ZMNUxJeGxZY0tpOXN5eDF5VjJYa0JsVnVmUWVnaFoyeDFtNk1LODFpM1pmRnozYm14QklfSms0Um9palNmWWM4Vk9oNFRvWUFfMXBPeXZPOW8yS010ZmliVTRTSnlvSDBvOG1iNlFmcXhmZXVXTWs?oc=5",
+          "published_at": "2026-09-06T15:10:44+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT19pa05Oc2ZidDdiSlRZM29SeTBhZE9hWldSOU4zSzNyOXE5TzVlRlc3WkN2WDVucTdtUGpVMmRxZ3ZxUEpjTkZsTXFJaEMtNEY4c3pUVEI4emhxVHk0TGE4T3ZKR1NmT3JaaU5hd3hZNDFOaUpOUlRSSndiSFZrRWszbXJoS05PaEpNbVBGTGJzTTJLaFRNSnpIcmo1Ui1SZHVwVUZqLWcwSGc1a29xS3JJb0k0X0V2aEduLTNPYXc1SlZrRmhBd3praEphSHdFeHk0T0E0cVNWaExjYzMtaUZhRlFfUQ?oc=5",
+          "published_at": "2026-09-06T15:10:44+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNem8xWHdxRzZ2czg5dHlQeHoxQjF6ZzZ0S25iQXlkWnZyY19zcU5HYnh5NG5BbzdwRDJ3X205OFlCbURaYlRFX1FlaDM5c3FkSVN0bVFuazNHYjdKd2tsT3BnU0ViRDB3b0hHN29NaUNRZTJkeUNLS2hQUnV1YzJ0U1ZHMUphY3NGVDMyMm5oMzFSWDY2eDRhQ2hPZkVER3hVZGVYaDY3bUtZS2FfTlhzUGw1WThPZ2JCYzFmOFVGcXBMeEdMRm40alpXYkdnZXp5dTBvRnNYQ1N4a0NKa0pjU0JCOC1uVjJ2MlJTTnh3?oc=5",
+          "published_at": "2026-09-06T15:10:44+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcTVhblFac0NxTGNNVjlsUUdzbkFsTUNHVnVpMzctUWI2NkxFOEJxeExzWTNUSHJMNkFyTTdYdG5KcUhBeE9wZmc1TTIzeFNOS3BDYWFxRldwZlE2U0duRHp2SGNTTW05eVhJbTk0ZEFvTTQ4VHhSaUhSVE9FN25GMWJ4bFY0OUxhQllEdC1ZTXBySzFMZ1QtbDFDM1ctZjBjR1E0OUg5eU9BckExSllSbTFqcVhfQkFRRkRCaVN1UG9ObXBJLS0yVDRBUERrdjJGN0F6M3Jn0gHWAUFVX3lxTE1xNWFuUVpzQ3FMY01WOWxRR3NuQWxNQ0dWdWkzNy1RYjY2TEU4QnF4THNZM1RIckw2QXJNN1h0bkpxSEF4T3BmZzVNMjN4U05LcENhYXFGV3BmUTZTR25EenZIY1NNbTl5WEltOTRkQW9NNDhUeFJpSFJUT0U3bkYxYnhsVjQ5TGFCWUR0LVlNcHJLMUxnVC1sMUMzVy1mMGNHUTQ5SDl5T0FyQTFKWVJtMWpxWF9CQVFGREJpU3VQb05tcEktLTJUNEFQRGt2MkY3QXozcmc?oc=5",
+          "published_at": "2026-09-06T12:05:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Nvidia’s $12.93 Billion Hugging Face Deal Includes $1 Billion Employee Retention Plan - ascendants.in",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-06T18:56:25+00:00",
+      "summary": "Nvidia’s $12.93 Billion Hugging Face Deal Includes $1 Billion Employee Retention Plan ascendants.in",
+      "claims": [
+        "Nvidia’s $12.93 Billion Hugging Face Deal Includes $1 Billion Employee Retention Plan ascendants.in"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDBFNnRVNnFMLWZSelFhcUNMVzJfRk1SN18ySlpId05FZUR6X0dvQ3RKeWRxMmkxRU9SWE12SEhiWFBQV2w1eW9fR1VycEs0dV9fYUNRejBvcDlPRDIwdWtnOXhRQl91NHlBMUtrWEdFeWNMQkZFNmhVUzFlYjVfSG1jbS1pbkVRano2SVM2Rkw0OHkzLW1HR0cxSF9fUXVHamVZMnItMWp5cTg?oc=5",
+          "published_at": "2026-09-06T18:56:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell gracious as Antonelli takes Monza win in “roll of the dice” strategy split - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T19:00:00+00:00",
+      "summary": "George Russell gracious as Antonelli takes Monza win in “roll of the dice” strategy split Motorsport Week",
+      "claims": [
+        "George Russell gracious as Antonelli takes Monza win in “roll of the dice” strategy split Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaEhwQnBLQ2d4YWVjNHRfY1hVVkl0aXJjTXVDbG9SU0EtMXVJVUZ1U1lyWnFqTGl6d2EtQXducHdwU1FCMldDUXBxNGNWbHRYMzNUWTJmRUx5Q09uT1RsWGJHMWEwcTRXbUNqWXNQY2d6VS15RXA0LUgwUHpWVmotWDRUQzJxU0NvUGROVUlOY0NKTXZpcTdyR2dzQWNXd3FKSnppWk1iUFI2WjdlZnROUUVGS2lSUWJiRUVJUlBPMHJFRFlKRFNJNU93?oc=5",
+          "published_at": "2026-09-06T19:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli’s Historic Monza Win Headlines Formula 1 Weekend - Autoweek",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:56:00+00:00",
+      "summary": "Kimi Antonelli’s Historic Monza Win Headlines Formula 1 Weekend Autoweek",
+      "claims": [
+        "Kimi Antonelli’s Historic Monza Win Headlines Formula 1 Weekend Autoweek"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX2hWOGpVMXUwM1hFWGpybXZiMWZnSl9vVnZqaVh2T0Z5Vk5remo1ZWJjTExZajMtV2NFLWxmOHJGaUlxMk1uM3hBUW5hd3cyRVc0Wm12dzZEb1dOS3FKWGtSQ3M1V3JpSnRYQjhPQnVXbVJGZDI1WWtMXzJKM01DSmNhcTd1ZlU4d0E?oc=5",
+          "published_at": "2026-09-06T18:56:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "All the key moments from the 2026 Italian Grand Prix - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:56:00+00:00",
+      "summary": "All the key moments from the 2026 Italian Grand Prix Formula 1",
+      "claims": [
+        "All the key moments from the 2026 Italian Grand Prix Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUXkzREZqNE9kVlYtVFFXTUdGQmR1aE1uVXZBQm1NaGluWEpJMVJHWWRFN2tZUnB5cFRRMzVWa2JJdGVUSVRrOUdLUTJyWmZBU01GaFBXaUVLS1RPRjZGclRKekVQZEJ1TDlTYVc2YklPX2swRERKLUFZdUVpbl94bFo3YnBkRktVeUZONWRWMlBvekNsMldvZ3cyRWozenhoMVVrXzRFNXF1OVhHUDMycVRhWnp4YXJ1dFJIelhqRzhkYlZ3QWxrd3RQVEMxUncycUJGMUpCcGl4aTNkQlVVT3UzcDhzbHVBa2RxSFVFSHBMRDczTkE?oc=5",
+          "published_at": "2026-09-06T18:56:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar - TechPowerUp",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:55:57+00:00",
+      "summary": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar TechPowerUp",
+      "claims": [
+        "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar TechPowerUp"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM1lLc1Zab3p6c09Ub1NEQ2Y4c1hrTk1PVFF2T3hTbnJ2UV8tRm9mckJBVll0clFacm8wbU50a3pEcnBuS3J0d0VVY3RjcEJ6bjVBaXJMcE9HcUNvWHZHcUJaRmNhVnFURl9ZYXFVTHMtTWVYZEgzSlVqeWNHYktITXFRTGdlcXJmVWV3ckVxakZvbVNpOGFmclhZcWJkZXdjNU9YX2Q4SktUblo5S2fSAbMBQVVfeXFMTjBmWkxiM3daYm1MRzBtX19jNExETmxFZmhWc3haeFRVLXYtVGlCQURVOWdfT1QyRFhQNExIUXgxbFljaU1fcmlYb0ZWWGt5QlRrc1pvb083c0NuRkdIQmpSWmEzMW9kVWp5aVpJSENPaXJsbU9YNnZIXzhSOXNTZTBxMmVHeVF1VzdiMmY2OVBwLWF6WEcwNUR1clRzMEZSMVIyUGNjcVZQMHVkT0I0WHk2SUk?oc=5",
+          "published_at": "2026-09-06T18:55:57+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Antonelli ends Italy’s 60-year wait for home F1 win with Monza triumph from 19th - The Guardian",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:51:00+00:00",
+      "summary": "Kimi Antonelli ends Italy’s 60-year wait for home F1 win with stunning Monza triumph The Irish Times",
+      "claims": [
+        "Antonelli ends Italy’s 60-year wait for home F1 win with Monza triumph from 19th The Guardian",
+        "Kimi Antonelli ends Italy’s 60-year wait for home F1 win with stunning Monza triumph The Irish Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQV9hYlBmOV82QUt3Uk9SQjY0ejdZaU04TVFtaFprdG5OTk1kSVdMOTBCaElqUXZfcXpkZVBnd3FNZEV0ZnhoSkEtdDlQeXVxRlhnN2c5cUotcTA4WWppb0RfZ2RxZzdQeGFEWVlMR3VndHRPSng2R1REODRfOEFnQ19MMGdFNDdYeUZlZnZIR3d4UC1WSFlJWjl0SXFHcWtmOWprX3NsMHJSVG51UEtZeFE3bE1Od0V3NVpxbm1MdWsyTWhGbDA1OVk3RDZNWC1LZDlhNlBqcw?oc=5",
+          "published_at": "2026-09-06T18:51:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMkU3Ym5ldFE4Mk9NSW14RVZ5b0c5Zi1BaHBpeE9NYmM0ZXo5anVsS2E5SHdHWFZVVWNnQnp1QnZSYk8tU0ZEXzB5bC1oVDJGd3NDcmsyY1JybkswSGx3RVNEYWNjV3NOa0hTRUhNNm9PQlNUaFhMVnhvaHNuOU1CVHpsMThkNk9CUndLNndpTzRWT2pxbnV1WS1FMlRtWjZ3MVpXTkdFS1l5emZpNGxQbGNyREJwaVRJVVViT2l4YnZxU25KalJ3?oc=5",
+          "published_at": "2026-09-06T16:47:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Sinner, Berrettini watch Kimi Antonelli snap wait for home winner at Italian Grand Prix - ATP Tour",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:49:00+00:00",
+      "summary": "Sinner, Berrettini watch Kimi Antonelli snap wait for home winner at Italian Grand Prix ATP Tour",
+      "claims": [
+        "Sinner, Berrettini watch Kimi Antonelli snap wait for home winner at Italian Grand Prix ATP Tour"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdFRmVVo0aklidmRlcXo0a0M1QlNzWl9PSE9vV2FwbmFod01sMmdtSHozTjJZaEdRa3J3YVlSQ1pxZGZfQjZCdThFSGpZM1hvcXR4anZmYm9zSFhza3liNkdMNEtjV2dJcFQzbTJaX21xTlllc05NZlN6QUhZRVRXWVhHWkNVaEhMTVJwTGlPamNMRTQtcmNtZA?oc=5",
+          "published_at": "2026-09-06T18:49:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wins Italian Grand Prix - Larry Brown Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:45:51+00:00",
+      "summary": "Kimi Antonelli wins Italian Grand Prix Larry Brown Sports",
+      "claims": [
+        "Kimi Antonelli wins Italian Grand Prix Larry Brown Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd3NVUXdIaFJDVklrbTAwY3hJZnVnQWRzVnBtUVRyMS1scHMzclBUdHFkUTNCc21UY2xaSWwzSy1TNzFVVUgxVVpQWXhOWDdjX0ktSUNkWDlfSUhKWjRTN3JrVUJCRG9QSzQ5dDFFMjhTa2lVT2Q5N0prQ3FqR1F5WUxJVkdoOWk4UHpYQ1lB?oc=5",
+          "published_at": "2026-09-06T18:45:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Hidden Kimi Antonelli and George Russell telemetry emerges after Italian GP - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:26:43+00:00",
+      "summary": "Hidden Kimi Antonelli and George Russell telemetry emerges after Italian GP PlanetF1",
+      "claims": [
+        "Hidden Kimi Antonelli and George Russell telemetry emerges after Italian GP PlanetF1",
+        "George Russell booed by tifosi after Kimi Antonelli Italian GP incident PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFhwdUtid0xPRmlsLUhwNWpfY3hNUk9LYzI5aUNCb1RuUTh0TXRtYjhmcHZ6YUhCLTdYbTJEWDY1VTR1d1JtcXNFOXA4ZUc1ZHM0MkYyS2NPZEdxZTJ5WEFiQjZQTEs2dk1Mb0swQ3VDd0lGUlpPcTlZM2FUZ1c1aU84S1VidF90QTVENzJxSDFtbEZram40YkhMM1ZCSlVhRDU3dTVsTmg?oc=5",
+          "published_at": "2026-09-06T18:26:43+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYi1kZ2YzU0J4VmlDQzdBaG9Hc1dwRW9rdDhXTmlqTFdzLTlJNkNLZ1VZcVVtTHNRd0NiMkhvUUFmdFB0MkI5WVhQbTFqSXZORjc4dVlfRHNPdVZJakRWenlWRmpVTzc3SlNiVE92MmcxUTNLeGRNUHUtd0p6b2k1aUwyank2Vjktd3VKZg?oc=5",
+          "published_at": "2026-09-06T16:11:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell realistic on title fight with Kimi Antonelli: 'Challenging to overcome that gap' - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:21:00+00:00",
+      "summary": "George Russell realistic on title fight with Kimi Antonelli: 'Challenging to overcome that gap' ESPN",
+      "claims": [
+        "George Russell realistic on title fight with Kimi Antonelli: 'Challenging to overcome that gap' ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSi1IVEpvdTRkS0xkWUV5Y2xzZ1J1VEowVDVIdno1THNLb0JyUE1TaGlyZmF4elVDZElwRy1yUVZLeUM1Si04Zzc1U0ttUWU5MG1kLWhzTS1zMEdHMllwNmxzQnNTTU1pTlpBXzg1SXJObVJMZzB4dHVob2w0Tkl6REh5UEluWkhiSVozMEFLb2pDN0hBbFZ2SkdrcHlrYVdlZHFsZS1wNHlGS0VrdEhRX1BtRjBYSkd0TjluMUR0T3NmXzhrRnRDMlBROTlCS1dPRWw5X2liQ2tyaGRuNzQ2SDJjRi1SNU1yWURz?oc=5",
+          "published_at": "2026-09-06T18:21:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wins Italian GP, ends 60-year wait for Italian winner at Monza - India Today",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:19:02+00:00",
+      "summary": "Kimi Antonelli wins Italian GP, ends 60-year wait for Italian winner at Monza India Today",
+      "claims": [
+        "Kimi Antonelli wins Italian GP, ends 60-year wait for Italian winner at Monza India Today"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSnpuY1N5WW0yZFpGczBxUUJBOXVYU0NDYmxIVFZmczNjOW1wcFdKTzJITzRSOWp2cnB6WUhseE9Uc2RSb1Q3cEw5cEZxaDVlMjc5SmVJUjVDX2dOS2p2NFZkN1ZMOUU1VzJ4QW02ZFRWNk80UFNEMlU2TXVzbk1VYlhBREpiS1JTOUI5U3VzTHREVjRRMG5Wcnp3eTlUVGszVS1JbC1rUzlLOUtZRjdTV055RE5DUTEwLUHSAb8BQVVfeXFMT2tJazc4T3BfczNIalVOT1lFQmFQLVNOSTc2ZEdVaVk2WllSSUkxV2pRQ3ZYVm02NEgwOUV5UjNIUkxxaWRJMVRwak96VDVsY2VpTEp4MzNnUVVtQ2ZnVFdOZmMzenQtV3JIU0o4WEFfSDdRQk1yQXVwdk5wb091YVhFcllGcUtaTERONExQWTY5MWt2WFJYUnJFT040LW5wYldpSUlDY2lBR2kzQnE1TnFjaFk5Q0ZINWtscFA3SGM?oc=5",
+          "published_at": "2026-09-06T18:19:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Pulled Off A Miracle At Monza - Defector",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:19:00+00:00",
+      "summary": "Kimi Antonelli Pulled Off A Miracle At Monza Defector",
+      "claims": [
+        "Kimi Antonelli Pulled Off A Miracle At Monza Defector"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtRFJMR3ZXUUtrV0NUOUpvZC1oUDd3Q0xPbF9WM2M1blpJM25Qc3lwODAxMFRGYzhLcFZJTVp2ZnVEcjNjM0FGUUV6TTJOaVBZdl9RSEM3YllBRXBtSElLSm8yVFV6dUIydHRGX1VRN1k0NVk?oc=5",
+          "published_at": "2026-09-06T18:19:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Italian Grand Prix: Harry Benjamin's driver ratings as Kimi Antonelli wins for Mercedes at Monza - BBC",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:18:12+00:00",
+      "summary": "Italian Grand Prix: Harry Benjamin's driver ratings as Kimi Antonelli wins for Mercedes at Monza BBC",
+      "claims": [
+        "Italian Grand Prix: Harry Benjamin's driver ratings as Kimi Antonelli wins for Mercedes at Monza BBC",
+        "Mercedes driver Kimi Antonelli wins Formula 1’s Italian Grand Prix WKYC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WYzRsbFROaEM5bTh1UzNDY2pMNm80X1VNTi1yTFJYSXV3eTdvUHNrT3FrX0dNQWR0Y2EtVUtoTHhvZm1VRWI5WFZEbVhkR0ZmQXNoQk5HRWxodzg1M1RWSTRvOFpyd29hT0E?oc=5",
+          "published_at": "2026-09-06T18:18:12+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVkMzV2MtbXJ6V2Zaa01kT3JDbFFYM0hMQjA4aWJrMHJ0enUxcTNLa0NHZ2lqV3dSTzNzQURCMEZzSUhFS04xRzZkY0hZXzdud0pfdWdBTFQ4YWE4Wk1WcHdMV01GUmdfTDZaV3dnNVpybklTWlpLYWxWemRheFpLNHdpeXNGdTVuQlp2bXc1OUdrMFIyNmUwOU1NQkU2akhFd0RPdG5IX3NLZnMtcWd5aGNZOTROZXRiczlNS0diYnpNam1sYlpqNWpETTZlMHVnd0tBazBXV1ZZSWhxb2VwcEY1QWdtQ0hrYjBJS2dSOW94NjVBVXc?oc=5",
+          "published_at": "2026-09-06T14:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Why OpenAI Sat on 15,000 Rogue Agent Edits to a German Coding Wiki - eGamers.io",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-06T18:14:16+00:00",
+      "summary": "Why OpenAI Sat on 15,000 Rogue Agent Edits to a German Coding Wiki eGamers.io",
+      "claims": [
+        "Why OpenAI Sat on 15,000 Rogue Agent Edits to a German Coding Wiki eGamers.io"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOblJ0bWRQcWozU2dyblFhZFRNVURiWVVVM19XUFgtWlVUQnY5NTNFWkZIZWxudnFmSktncjBYcVpMand5dWhiM29YT09wN2ZPUzZKTmJHaTNHR2tsZTNyV0ZWbDd1dHdCQ0RPNU14eHBRLUFwM1JEZ2N6NnlPY21GNzlWZ0NuLXN1QzI3Z0pR?oc=5",
+          "published_at": "2026-09-06T18:14:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli echoes Formula 1 fans after historic Italian GP win: ‘Unbelievable, unbelievable! - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-06T18:11:15+00:00",
+      "summary": "Kimi Antonelli echoes Formula 1 fans after historic Italian GP win: ‘Unbelievable, unbelievable! grandprix247",
+      "claims": [
+        "Kimi Antonelli echoes Formula 1 fans after historic Italian GP win: ‘Unbelievable, unbelievable! grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUGVYLW1pVGhqYkY3c2F2N1ZlUDJwTWVvNU12em9yREQ3bFdyQjYxQnhVQ2ZhV3JWSHFEYUdlbUphMW9ESzhEd1dmclZZSHhWcmpQTVhGRS02MjZ6VnR2SS02Y2tuM2wzZUUzS0J1RGFGNC1PaUd6MWdZRmxhVHpKRkppbVNLTG4xZFRVdzhBZUJNV1NvX01VREl2X1kxcVVGNnZpSTFoSU43X3pZOXUydnNrektsZHFKZkx4V3JQYnRubDBudUlfcmt0eU5FZlVxYVJxNTFvZnYxM3NYNndXVzZR?oc=5",
+          "published_at": "2026-09-06T18:11:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
