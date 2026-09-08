@@ -1,0 +1,980 @@
+{
+  "report_date": "2026-09-09",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-08T19:33:43.550360+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 56
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 90
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 153,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-09-08T14:23:07+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "published_at": "2026-09-08T14:23:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-08T13:00:00+00:00",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "claims": [
+        "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/the-work-now-within-reach",
+          "published_at": "2026-09-08T13:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Introducing ChatGPT Images 2.5",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-08T11:30:00+00:00",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "claims": [
+        "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "published_at": "2026-09-08T11:30:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-08T10:00:00+00:00",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "claims": [
+        "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/navier-stokes-solution",
+          "published_at": "2026-09-08T10:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Funding grants for new research into AI and teen development",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-08T09:00:00+00:00",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "claims": [
+        "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/teen-development-research-grants",
+          "published_at": "2026-09-08T09:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "claims": [
+        "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "published_at": "2026-09-08T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "claims": [
+        "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/1password",
+          "published_at": "2026-09-08T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek is hiring 150 engineers, and none of them will touch a model - The New Stack",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T19:02:14+00:00",
+      "summary": "DeepSeek is hiring 150 engineers, and none of them will touch a model The New Stack",
+      "claims": [
+        "DeepSeek is hiring 150 engineers, and none of them will touch a model The New Stack"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SZ3pPOEo1aEJMYzRuaGtvUGFXUG1BVkNiaVFQbGpTZDh5Vm9sQ21nUTlYQzhabXdLUkU0UkxDQ01JWkV5QVdXYmVoQjd1WW1CUTFFNFJLalVVR3dNQm04?oc=5",
+          "published_at": "2026-09-08T19:02:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Raikkonen's son wanted by Red Bull - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T19:00:00+00:00",
+      "summary": "Kimi Raikkonen's son wanted by Red Bull GPblog",
+      "claims": [
+        "Kimi Raikkonen's son wanted by Red Bull GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVJBMUJCOGxWWDJBRmNVYnpIVWk1VHdXOFczbWY1WC1hOWV1TlRBbHhtdGotVjZzaTdzVTVNOEJRSnV4dHJ4NUx3QnhFZFVKak54N3Q0cm1VREJ5V1hkS05uM0VLdW1tNEZjRGE4YV9kcF9OWEcxMll2NXdMTHhVaXVKWnh5WFMwdTlMTEVZR2JraUdId1MxYUgtWWZJdUFOeFNPLURyREcxY3lxNVBvM01FOVdzOUZB?oc=5",
+          "published_at": "2026-09-08T19:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T17:51:33+00:00",
+      "summary": "Has AI surpassed human intelligence? What OpenAI’s GPT-6 Astra can actually do The Times of India",
+      "claims": [
+        "GPT-6 Astra: A new generation of intelligence OpenAI",
+        "Has AI surpassed human intelligence? What OpenAI’s GPT-6 Astra can actually do The Times of India"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+          "published_at": "2026-09-08T17:51:33+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOV0ZDVXFpR1AyZ1lpekhLTkVzNG9XclJWMnFka0RXRXBqSUNyQWxLSzlXNG1JVFRQeUZUbllLWGVzZUxkdW1nS3Zxc2pXY2pxcm9GQ2t0Wl9FbUtveGpqNDhySVpTY1ZmX19EaEt4VjdvWjBTUkdGTTJCMFh5SEdqREViR0ZkWU5MUldjNktQc2NGcUgxSU1BTFNGeHZlUFptbmJBN0pQZkNBaUVjOXpIbzhvZnFMY3B5a3Q0cXJYY21KdE0yQldfcUY1SF85OWFSYktHenprWWtxeDl4WjZSdzE2c1hMMTcxdGlJNGRORXA?oc=5",
+          "published_at": "2026-09-08T14:19:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Raikkonen's son Ace is about to take a huge step in racing - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T17:49:04+00:00",
+      "summary": "Kimi Raikkonen's son Ace is about to take a huge step in racing PlanetF1",
+      "claims": [
+        "Kimi Raikkonen's son Ace is about to take a huge step in racing PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSnNxUE9BcGJrcW9tcGVKOVhtbmNma21wTjR1bFVEMUQ4ZXV5WVdGNEhWbXlRR3hEWVloOXVScG1VRzZ5M0pRMnREcFFaVjMyaEFXM1VIQXUycndacEszZmpNOFQxUndGS196VHRXWFUxN3Z5a3RnY1NuZXhFcXFnbEhuNFNTQWt6TGNZTzU2RDhEQQ?oc=5",
+          "published_at": "2026-09-08T17:49:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "3 AI Infrastructure Stocks Retail Investors Are Researching After The OpenAI News - simplywall.st",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T17:25:48+00:00",
+      "summary": "3 AI Infrastructure Stocks Retail Investors Are Researching After The OpenAI News simplywall.st",
+      "claims": [
+        "3 AI Infrastructure Stocks Retail Investors Are Researching After The OpenAI News simplywall.st"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWTdYQVdBYkpGbktuYm5yczRDbHY2UHhLUWJQQ3FHRVMtQUo2UEFQalZYZlFrU2dLeU12UjVhTV9pbXRLVmd2MDM2ZmszYzRkcUxZZ2x6aUFRbXlBRlhKYVp1TlI3VjZ4VkdfWjRucm9INUoweUZKZnVvNnU2Njl2MnBQcGJyMFIwZWtXNTZDY0twMVNyMjhqZC1WbmpPaTlZSFBWUTN1cDZ5OUFmbno3Yk5wNGdSS3MxUHBWbmVmanhKYWRjTVdvQml1Sm9RbExobm16bF9QLTRYQdIB3wFBVV95cUxQeTlPWWlrMElUX2pXUzRxaGdvYnNZMVVaR1UxaWxMbUlqNkowalhReUpxTThGbUxIX09WVzB5UzBoQ1pXRVVzNXUzT2RmWl9ERmFDbzJkcW41a0tvUGVrWDBkdjFheHZXNzB4ZDZVaG94QlhPYWdMeERWNXVuUU9wam9zSlExVGtBblBSMVZPMFJPeTduOFFFbWlqOEhWWHA5c2VJazAzN29KSUVTdGozbURJRm9RR2NSeTdaYlU5bHpiWHZvRDUxVDc5OGZtZXkxYktWLWp3RWFQQk9aTHp3?oc=5",
+          "published_at": "2026-09-08T17:25:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli’s Monza triumph creates uncomfortable Ferrari moment in front of John Elkann - scuderiafans.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T17:22:31+00:00",
+      "summary": "Kimi Antonelli’s Monza triumph creates uncomfortable Ferrari moment in front of John Elkann scuderiafans.com",
+      "claims": [
+        "Kimi Antonelli’s Monza triumph creates uncomfortable Ferrari moment in front of John Elkann scuderiafans.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSEFEcWE3TU8xWGtzTC1OUXdONFkwWVZYRWp5UEh6MFpkd21BdzlMa0dBUUx5MDFheXJzTmI4OHNFQmdDSGxTSldQbG5iV1F3UndseDdWMVcyNGhYYnhCbnAzM1d5TWtoZWVLeE5PdkFGNTYwUHJvWkJfeTIyWWpmMENuVzlSNzBzbTYyR2Y0OFUxMmliS1Z3MGJwR2pfQUh5c0daZkRLV3dwcVloMmhoemJLQnhISEk?oc=5",
+          "published_at": "2026-09-08T17:22:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI agents raise new control questions for telecom networks - Fierce Network",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T16:21:38+00:00",
+      "summary": "AI agents raise new control questions for telecom networks Fierce Network",
+      "claims": [
+        "AI agents raise new control questions for telecom networks Fierce Network"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRHFfLWxFcW40NjlndG5iVWxvb1F6MnVsR3ZUbkV1akVnZXBldmp6dXNyZHNLRWlZSXNtMWJmcUF2TmZnTnRIZjlLakpuTklEemNZOWRhb3Fpck83bElQSEd5MVUwVjEyVG1IWGZjLWRtMGhBMjFJM1Z2STJmTXBEaWJUZE40bGtyU0RaS042elVrWTN1Wmc?oc=5",
+          "published_at": "2026-09-08T16:21:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "AMAP Platform Showcases Spatial Intelligence at Qwen Conference Thailand 2026 - Sin Chew Daily",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T16:05:13+00:00",
+      "summary": "AMAP Platform Showcases Spatial Intelligence at Qwen Conference Thailand 2026 FinancialContent",
+      "claims": [
+        "AMAP Platform Showcases Spatial Intelligence at Qwen Conference Thailand 2026 Sin Chew Daily",
+        "AMAP Platform Showcases Spatial Intelligence at Qwen Conference Thailand 2026 FinancialContent",
+        "AMAP Platform Showcases Spatial Intelligence at Qwen Conference Thailand 2026 Malay Mail",
+        "AMAP Platform Showcases Spatial Intelligence at Qwen Conference Thailand 2026 The Manila Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MMGFJZkpYeEZ6YlZtLWlLRWgtdTZOcDZVQkpEZnp1VnpKWXBzeHdQcUZEZmcwamhqSEQ3czZ4bFBsazlQZnhYSl90SmtaTERZQktxMkVXMkRscUtnakFjVzlJZG9oRWVOdlE?oc=5",
+          "published_at": "2026-09-08T16:05:13+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVGtsTW40eGZxU1FIbmhGVGlBeUJZTkhUMW1WU2JwdFB1RE5ENG51NGZXd2Q1cXA2TFZ5YVlPdzk2akNjLTNFV1NHZlNYY3RtdlZnOXg3R1VrYmZ2NmQ3OUtNRlN6OTc1Z1BxNF9TaUIyUHpXWW1KSWVTV0pBcjMxYlh4cHhkVlFNODVXMmppalBkUTZJUzQwNUtQWERhSWZTV05YNXJPQjJES0ZNUk94WlhGU1JwMThLcFpTTnpNS0xycXJlVWV0RjZMWVpBQlcwQXJ0eWV0NnYzaHR3?oc=5",
+          "published_at": "2026-09-08T15:56:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaEFWMG1HemRDX05BSTlDSGszWXJoemRhZHhOMGRvekVYMWFfR3Uwc01taTQxZEs2cFBlbndwUXRJWnQwOU9Ic09VaXZGdFlKdjBrMEp0dlFDTnVjR184a29sVERFdUJXZ25tLXRkOWl4VXdPcThUZHp2dXFocDlDdEw5SS1fN0dWQlhNcWQxTF9mMWVOeUEwTTRKdUtyaE85cUZuQUN2UkFuWlMyaG1YNncwZ3R6dkVxSWsxRFozNTRTWm9fZV9oV3pybmxsNDc1RTRyekpmeVNTNkpfcTJIdzVGaUHSAeQBQVVfeXFMTWhBVjBtR3pkQ19OQUk5Q0hrM1lyaHpkYWR4TjBkb3pFWDFhX0d1MHNNbWk0MWRLNnBQZW53cFF0SVp0MDlPSHNPVWl2RnRZSnYwazBKdHZRQ051Y0dfOGtvbFRERXVCV2dubS10ZDlpeFV3T3E4VGR6dnVxaHA5Q3RMOUktXzdHVkJYTXFkMUxfZjFlTnlBME00SnVLcmhPOXFGbkFDdlJBblpTMmhtWDZ3MGd0enZFcUlrMURaMzU0U1pvX2VfaFd6cm5sbDQ3NUU0cnpKZnlTUzZKX3EySHc1RmlB?oc=5",
+          "published_at": "2026-09-08T10:45:02+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTWZBU0RsSjJOMnRKelZuaG56YVRGZDg2M2dfTGlBMUtVcnYzMGI2bzJfLU5DcFc2c2FwZnV2Yk96ajlxZk92VVFMbTh3NDRZOXN1MHFPR0RMcUU0d0luQXYzUVJoY3hURDFRTVJjZU5ROHgtSnBWNlBwa3h6RlN2NHBad2R1YWRlZjI0V3ZBbTNlbTJZemlWS3pHVVVPVjRFR0dnS3dBWjJFWkpLNTlldVhzNGdjMkgtaktyZXFlSlBERlhzdmlVVFVsMU13SWI3Q3Q3OW1FcDY4SzVWNjFhTGhUbURjb3g5a1hfWW5xeFc5V0t3ZW1xdNIB-AFBVV95cUxPTWZBU0RsSjJOMnRKelZuaG56YVRGZDg2M2dfTGlBMUtVcnYzMGI2bzJfLU5DcFc2c2FwZnV2Yk96ajlxZk92VVFMbTh3NDRZOXN1MHFPR0RMcUU0d0luQXYzUVJoY3hURDFRTVJjZU5ROHgtSnBWNlBwa3h6RlN2NHBad2R1YWRlZjI0V3ZBbTNlbTJZemlWS3pHVVVPVjRFR0dnS3dBWjJFWkpLNTlldVhzNGdjMkgtaktyZXFlSlBERlhzdmlVVFVsMU13SWI3Q3Q3OW1FcDY4SzVWNjFhTGhUbURjb3g5a1hfWW5xeFc5V0t3ZW1xdA?oc=5",
+          "published_at": "2026-09-08T10:42:16+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzh5YkJ0TnlMa2g4cEpiT0UxdFpKZjF4VXlUYWFYTXhWcWNhWEg3SWRabUc1VnVieXNYWEE5aS1kQXN0MkxsVHRBRnljcEJvVm5mQTRmLTJ4cW0ya0szQ3RaRHoyMEx4MjlkaUpQMVhZMVQzd2ZiWXF2bTA1OThjdkItYm03bFhpbHMxVUJMeWwyNExCNVBUYTM5bGY5dVplMnpyeS0wa1U1UG5Rc2kxVEwzUWpvU2hZVl80dU95eGI?oc=5",
+          "published_at": "2026-09-08T10:34:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "He moved up 18 (!!!) positions. Plus: Who’s right, Leclerc or Hamilton? - The New York Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T19:26:06+00:00",
+      "summary": "He moved up 18 (!!!) positions. Plus: Who’s right, Leclerc or Hamilton? The New York Times",
+      "claims": [
+        "He moved up 18 (!!!) positions. Plus: Who’s right, Leclerc or Hamilton? The New York Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVXNIUTBEdUUwd1RqTmVuWF9LazFMY05iVVlUQVB0TmdVNVNNeVJKVlJhdmgtWFRrZkdGa1pxQUhaVVBwWDNNR2hiZnRTek83cHowV0pYYm5wcDl2ZHdJMzNyM1R1bmhabmw5MUxabi1ONHNKVnNaSlY4SldrUDdSdTN2SjRKRHRHcVFwOS0tRW5PUW1sUlJxcldUYlFkM2JSd0xxUTRtaHhDdw?oc=5",
+          "published_at": "2026-09-08T19:26:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Robots Protest in Poland Against the Uncontrolled Use of Artificial Intelligence - ColombiaOne.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T19:00:00+00:00",
+      "summary": "Robots Protest in Poland Against the Uncontrolled Use of Artificial Intelligence ColombiaOne.com",
+      "claims": [
+        "Robots Protest in Poland Against the Uncontrolled Use of Artificial Intelligence ColombiaOne.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ1BGZGVWZENxQ2Rpc2VTNTVYekhfWU0zVDRSTVJUNGFla1IyT09ZRDFZRHNKVmN0bmxzNmNEVk9CNkJhdFhVaWg1X2hUUVd5cTAyM2tjWUFxb01CYkp0TUVmTERkWGV3ZWc5X1pOSXFEVktxbkZoa0FqTl92QVJjRmZsaw?oc=5",
+          "published_at": "2026-09-08T19:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Schumacher comparisons made as Antonelli continues historic F1 season - ABC News & Headlines – Australian Broadcasting Corporation",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T18:53:14+00:00",
+      "summary": "Schumacher comparisons made as Antonelli continues historic F1 season ABC News & Headlines – Australian Broadcasting Corporation",
+      "claims": [
+        "Schumacher comparisons made as Antonelli continues historic F1 season ABC News & Headlines – Australian Broadcasting Corporation"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR1Y5NjE2RTZEaE5XNGtaZHEtTndOUFpsMGVwV3JSRl9VdjlyX0F1enlrUUNCUG9aMThROWV5WS1uZGVFVGpyLXhEc29vQU1OSlJuRkN3anNqU0JaN0NBS2ZQVWxuMEJsUTRLSnNPUElnR0NoY3ZrY2RlRjdaZ0p0aFNvRVZxV1lfVG5jdHY4YVhZZXo5a0dyZEJWLTlyZw?oc=5",
+          "published_at": "2026-09-08T18:53:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli’s generation is better prepared for success, says Wolff - Kuwait Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T18:05:14+00:00",
+      "summary": "Antonelli’s generation is better prepared for success, says Wolff Kuwait Times",
+      "claims": [
+        "Antonelli’s generation is better prepared for success, says Wolff Kuwait Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRVR1ODRrSFNIYWhNN1hobmFiNENxckdNa2VfTGdZLVpoZHJYb3NZczB0NEhkZnh3SzZhUno1MXljQkZIMEpRTnZOdUk1RGEzMmRJQlhyT2htSFlpdDI0cWh5Qmd0TGhVeUJUN3R1YTRRd3Z6WG9JbTlVejZMWUNma2pyQkpiTV84YjM3UG40S19oWGlQdDFQS3VnSU5fTWdQWFdmY3NNb2p5NE1LdW9zR0N4azBfWVBCV1gxQk9UTdIBwwFBVV95cUxQZEdJNmVISDNqVVdnc1dEamk3NFM0RXhtT3dsNm5OaUk2NHBuOGZIUjNlMFZOMjhLaG9pdk55Y2VHaHhneGJULTVKcGxEdGJ2a2xDX0lrMjl1MDVDNm9lbmFCQXRwOHU5c1JSYXotS3g2YzJERld4WXkyZVk2TGpoN0tYckYwUmVSUHdUT2dhTlQ0Mm8zUnhxNGRINVVYQzRNdl9qU1pmYzZkUE9lemd4Tk9Kemx1RDRYOEdfMmtVQmF1MFk?oc=5",
+          "published_at": "2026-09-08T18:05:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "If AI thinks it's conscious, it's more likely to believe in vampires, karma and ghosts, new study shows. What does it mean for how we use it? - livescience.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T17:37:33+00:00",
+      "summary": "If AI thinks it's conscious, it's more likely to believe in vampires, karma and ghosts, new study shows. What does it mean for how we use it? livescience.com",
+      "claims": [
+        "If AI thinks it's conscious, it's more likely to believe in vampires, karma and ghosts, new study shows. What does it mean for how we use it? livescience.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPa2lyM1RoTXBRN19Ub0JDbnUxSlJoTnduRWg0WG9SQXp5ejJIOXFWSGo4MXRpZFNmS24xVGFQY3FicVB1R3lJcmpyX3pjUEZKSjNrb3dQbHRIMVRXYzFobTV1SktKX0ZZallJUlpXSFJNeFhBblBEZGFkc3hZM0g2RG5ybzAzazlHVGJFb1huQTFXMUF5dkw3V0JBbVZZbHpLRUhNdW5sMnZBODMzMWYzbU5iWWdtYThTeXZFNXpGbnpvUFFaMjI3U0c2SGZFNXJBOUd2NUxDVHFZZFR6TlJGUDlJdk9MWndJVkszMnNGSF9faW5MTGsweW9fb0wxY212MC1MYnlyM3ZaTmN4TmwwOGdpVGJYYTNtcWY5aEVxbnYtblE?oc=5",
+          "published_at": "2026-09-08T17:37:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Shameless Lewis Hamilton in dangerous game, painful Russell defeat - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-08T17:33:18+00:00",
+      "summary": "Shameless Lewis Hamilton in dangerous game, painful Russell defeat PlanetF1",
+      "claims": [
+        "Shameless Lewis Hamilton in dangerous game, painful Russell defeat PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MRVYxZVQ4LVgtS1ljRWRFcUg3V2I3QTJ4UXZLU1NhYmVVS016SkhtT0NQU0xkalJhRkdFMmJYdTZjWXhXSHp0MU11Wkl4Q2xfMVB1LW5sbHg4dmdmSFB4N3hGNFIxVW5IRUVxbVdMc1pYQXdVVDVhMA?oc=5",
+          "published_at": "2026-09-08T17:33:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI picked up a human bias it was never supposed to learn - Earth.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T17:13:01+00:00",
+      "summary": "AI picked up a human bias it was never supposed to learn Earth.com",
+      "claims": [
+        "AI picked up a human bias it was never supposed to learn Earth.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uZXNKT0QyQ2pjblhIX1RTUE1HeU95MTltVGo4TDg4NW9KT3hKTzY3VWtUenc0MWlMcU5SRWZIS3hELXJXbUJrTG5zalI3ZDNrSUZzbnBaTHpNUFNydV93?oc=5",
+          "published_at": "2026-09-08T17:13:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "NSA and Others Warn China-Based AI Companies are Distilling U.S. Frontier AI Models - National Security Agency (NSA) (.gov)",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T17:06:47+00:00",
+      "summary": "NSA and Others Warn China-Based AI Companies are Distilling U.S. Frontier AI Models National Security Agency (NSA) (.gov)",
+      "claims": [
+        "NSA and Others Warn China-Based AI Companies are Distilling U.S. Frontier AI Models National Security Agency (NSA) (.gov)"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbE80SEUzdlJMcDM2NEI3dFFreTJzNVdQeFlBenYybG5RekJvUFRldEtWd3NCZ0FJSG0wbjQ4SDgwM1BWWW55YTVvX0VEQV9yUzRNMk4wLXdPZDRVMEI3THAxSU9BRmNwMFJSNEltZk5Za28zS2ZjNFR3X2pfbzJrQnhjLUlVWVlCTXQ0X042cmhoR2loWjRUdnp0Yk1xYmVjMkR6RUxjZ295djlfOHlZemlMdEtXU01McndEdU9CVVhqOUNPMFR1TWRibmhJYXlJampGNzZzdlZDWF9TQm13eEswdFktM3VxY0tmcUJoQ012XzFMcVpNNm5kY09UQld1MlE?oc=5",
+          "published_at": "2026-09-08T17:06:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2 - Amazon Web Services (AWS)",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-08T17:03:50+00:00",
+      "summary": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2 Amazon Web Services (AWS)",
+      "claims": [
+        "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2 Amazon Web Services (AWS)",
+        "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1 Amazon Web Services (AWS)"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWDh0YjNxZWQ1Q0V1ZlhaS3dqNkdPUnprYkFYUDZ0cVVGYk5WaF9YT251NEJLRDlobFlWUy1lQUZRM2w0bW9FblZKdm9WUlBhUUZsVXNhamotU091S2dFZVd2V2F6ZldZaUlSek9jZVVoc2trZEV2OWl4bUdOZlN6RUdkNExBS3o1azhxcnVLTEhveGZ3UFRXZXhkQnUzNGc4VXpBYVVFbkRaMmJBNUpkdldZV2oxbFJEU3FTX3ZuSjc?oc=5",
+          "published_at": "2026-09-08T17:03:50+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM1dtak0zYldNN1dTNHlPYld2UjNURHk5bE8wNm1fU0hoY0QzYmRrMU53SGVvZ0VSdEFUcHhnTEEtdTg1T1ZYek5FTW95dXc4anZXTGpkMmI0WXVEbEFGN2lfT2dtbGJlYVZ2YmdEZlJpWExXalV6V3ctOWY3V2tIOW1KQUlSdWFDa0hzeTUtTkFWdHpORTZpc1U1b08tUXlNM3NueWthUDZRVmtkaGxLNUhYZGQtOElMQTJ4OGFpY0w?oc=5",
+          "published_at": "2026-09-08T17:03:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
