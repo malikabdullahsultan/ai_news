@@ -1,0 +1,948 @@
+{
+  "report_date": "2026-09-11",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-10T19:31:16.744915+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5595, column 711"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "unclosed token: line 5730, column 21"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 82
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 50
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 252,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-10T17:27:17+00:00",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "claims": [
+        "GPT-6 Astra: A new generation of intelligence OpenAI",
+        "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "published_at": "2026-09-09T11:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+          "published_at": "2026-09-10T17:27:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "discovery",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-10T16:55:39+00:00",
+      "summary": "Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent users as...",
+      "claims": [
+        "Deploying a large language model is only the first step toward production-ready serving. Production teams also need to serve as many concurrent users as..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
+          "published_at": "2026-09-10T16:55:39+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-10T16:00:00+00:00",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "claims": [
+        "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "published_at": "2026-09-10T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "3 ways to prep for your next big race with Search",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-09-10T16:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+          "published_at": "2026-09-10T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Now everyone can put data to work",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-10T15:00:00+00:00",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "claims": [
+        "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/put-data-to-work",
+          "published_at": "2026-09-10T15:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-10T07:00:00+00:00",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "claims": [
+        "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "published_at": "2026-09-10T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-10T07:00:00+00:00",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "claims": [
+        "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/expanding-ai-access-us-government",
+          "published_at": "2026-09-10T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "From Wafer-Out to First Token: Codifying Supply Chain Expertise with Nemotron and Palantir Foundry",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-10T05:31:11+00:00",
+      "summary": "NVIDIA has one of the largest and most complex supply chains in the world, and its performance is measured from wafer-out to first token. The interval is in two...",
+      "claims": [
+        "NVIDIA has one of the largest and most complex supply chains in the world, and its performance is measured from wafer-out to first token. The interval is in two..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry/",
+          "published_at": "2026-09-10T05:31:11+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Identifying Habit, Physics, and Nuisance in Robot World Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09210v1 Announce Type: new Abstract: Teleoperated demonstrations are often multimodal even when the underlying dynamics are nearly deterministic given the executed action. We argue that this multimodality typically mixes three factors--operator habit in action selection, shared physics, and observation nuisance--and that entangled next-observation predictors absorb all three. We formalize the split with a structural causal model a=g(h,z,u), z'=f(z,a), o=r(z,c), and test it with complementary interventions: replacing or shuffling actions at fixed state sharply increases next-state error, whereas appearance and camera changes should not; habit-aware reverse scoring improves ranking of feasible pasts without rewriting the dynamics. The associated adaptation rule is to freeze a shared physics readout and update only a thin interface. On StackCube, DROID, and RH20T this rule improves low-shot transfer relative to training from scratch, retains cleaner dynamics under corrupted adaptation data, and extends from proprioception to pixel observations with multi-view and multi-step checks. We do not equate latent actions with operator habit, and we do not target large-scale video generation benchmarks.",
+      "claims": [
+        "arXiv:2609.09210v1 Announce Type: new Abstract: Teleoperated demonstrations are often multimodal even when the underlying dynamics are nearly deterministic given the executed action. We argue that this multimodality typically mixes three factors--operator habit in action selection, shared physics, and observation nuisance--and that entangled next-observation predictors absorb all three. We formalize the split with a structural causal model a=g(h,z,u), z'=f(z,a), o=r(z,c), and test it with complementary interventions: replacing or shuffling actions at fixed state sharply increases next-state error, whereas appearance and camera changes should not; habit-aware reverse scoring improves ranking of feasible pasts without rewriting the dynamics. The associated adaptation rule is to freeze a shared physics readout and update only a thin interface. On StackCube, DROID, and RH20T this rule improves low-shot transfer relative to training from scratch, retains cleaner dynamics under corrupted adaptation data, and extends from proprioception to pixel observations with multi-view and multi-step checks. We do not equate latent actions with operator habit, and we do not target large-scale video generation benchmarks."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09210",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Geometry Conditioning in an Embodied SLM: Training Controls and Robustness Diagnostics in a 0.8B Hybrid Model",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09213v1 Announce Type: new Abstract: We study how physical-state inputs affect a 0.8B hybrid language model adapted for manipulation with 6.2M trainable parameters. Six conditions are trained on three LIBERO-Spatial tasks and evaluated over three seeds and 540 held-out rollouts. Conditioning recurrent decay gates on geometric increments yields 28.9% success, compared with 36.7% when those increments are shuffled during training and 24.4% without explicit object/goal geometry. Both geometry policies receive correct inputs at evaluation. A token adapter using the same increments scores 27.8%; differences vary across seeds and remain inconclusive. Token-clock conditioning scores 11.1%, including one seed that fails to converge. In separate robustness tests, a state-only relative-coordinate policy retains 7/10 success under frame relabeling, whereas all four tested visual policies fall to at most 3/20 after a 5 cm object displacement. These results show no reliable advantage from training-time geometric alignment under this recipe and illustrate the gap between coordinate invariance and physical-layout generalization. Episode records, seed-level analyses, and figure-generation code accompany the paper.",
+      "claims": [
+        "arXiv:2609.09213v1 Announce Type: new Abstract: We study how physical-state inputs affect a 0.8B hybrid language model adapted for manipulation with 6.2M trainable parameters. Six conditions are trained on three LIBERO-Spatial tasks and evaluated over three seeds and 540 held-out rollouts. Conditioning recurrent decay gates on geometric increments yields 28.9% success, compared with 36.7% when those increments are shuffled during training and 24.4% without explicit object/goal geometry. Both geometry policies receive correct inputs at evaluation. A token adapter using the same increments scores 27.8%; differences vary across seeds and remain inconclusive. Token-clock conditioning scores 11.1%, including one seed that fails to converge. In separate robustness tests, a state-only relative-coordinate policy retains 7/10 success under frame relabeling, whereas all four tested visual policies fall to at most 3/20 after a 5 cm object displacement. These results show no reliable advantage from training-time geometric alignment under this recipe and illustrate the gap between coordinate invariance and physical-layout generalization. Episode records, seed-level analyses, and figure-generation code accompany the paper."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09213",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Design and Attitude Control of an Underwater Quadruped Robot",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09217v1 Announce Type: new Abstract: Legged robots are versatile on land, but their use in underwater environments remains limited. Extending quadruped locomotion to water enables amphibious mobility with applications in inspection, environmental monitoring and disaster response. This paper presents the design, modeling, and experimental validation of a reproducible underwater quadruped robot. The robot is built around custom waterproof motor housings machined from polyoxymethylene plastic, which use off-the-shelf O-rings and dynamic shaft seals. A simplified model is derived to describe the dynamics of this underwater legged system, capturing how drag forces on spherical end effectors transmit torque to the floating base. Building on this model, a closed-loop attitude controller is developed using an error formulation defined on the special orthogonal group SO(3). The controller is evaluated both in simulation and experimentally in a water tank, where the robot tracks desired orientation setpoints in roll, pitch and yaw.",
+      "claims": [
+        "arXiv:2609.09217v1 Announce Type: new Abstract: Legged robots are versatile on land, but their use in underwater environments remains limited. Extending quadruped locomotion to water enables amphibious mobility with applications in inspection, environmental monitoring and disaster response. This paper presents the design, modeling, and experimental validation of a reproducible underwater quadruped robot. The robot is built around custom waterproof motor housings machined from polyoxymethylene plastic, which use off-the-shelf O-rings and dynamic shaft seals. A simplified model is derived to describe the dynamics of this underwater legged system, capturing how drag forces on spherical end effectors transmit torque to the floating base. Building on this model, a closed-loop attitude controller is developed using an error formulation defined on the special orthogonal group SO(3). The controller is evaluated both in simulation and experimentally in a water tank, where the robot tracks desired orientation setpoints in roll, pitch and yaw."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09217",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Learning to Fly: Stable Vision-Guided UAV Servoing with Compact Target-Centric Cues and Reinforcement Learning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09234v1 Announce Type: new Abstract: Vision-guided reinforcement learning for Unmanned Aerial Vehicles (UAVs) remains challenging due to unstable policy optimisation, aggressive exploration, and the cost of high-dimensional visual perception. In this work, we investigate long-horizon UAV visual servoing using compact target-centric cues combined with low-dimensional sensor measurements. Rather than learning directly from RGB images, lightweight target segmentation provides image-space offsets and relative depth, which are combined with quadrotor velocity and projected-gravity measurements into a compact 12D policy observation. We compare Direct PPO with three matched-budget curriculum strategies: a Visual curriculum that progressively expands target placement difficulty, a Dynamics curriculum that gradually relaxes action constraints and smoothing, and a Joint curriculum that combines both progressions. All strategies reach comparable nominal performance, with complementary advantages across tracking metrics. Observation ablations show that proprioceptive measurements are critical for stable flight and image-space cues for target alignment, while explicit depth is not necessary for strong performance in the evaluated setting. Against tuned classical visual-servo controllers, learned policies show greater robustness to strong control and visual perturbations, while th",
+      "claims": [
+        "arXiv:2609.09234v1 Announce Type: new Abstract: Vision-guided reinforcement learning for Unmanned Aerial Vehicles (UAVs) remains challenging due to unstable policy optimisation, aggressive exploration, and the cost of high-dimensional visual perception. In this work, we investigate long-horizon UAV visual servoing using compact target-centric cues combined with low-dimensional sensor measurements. Rather than learning directly from RGB images, lightweight target segmentation provides image-space offsets and relative depth, which are combined with quadrotor velocity and projected-gravity measurements into a compact 12D policy observation. We compare Direct PPO with three matched-budget curriculum strategies: a Visual curriculum that progressively expands target placement difficulty, a Dynamics curriculum that gradually relaxes action constraints and smoothing, and a Joint curriculum that combines both progressions. All strategies reach comparable nominal performance, with complementary advantages across tracking metrics. Observation ablations show that proprioceptive measurements are critical for stable flight and image-space cues for target alignment, while explicit depth is not necessary for strong performance in the evaluated setting. Against tuned classical visual-servo controllers, learned policies show greater robustness to strong control and visual perturbations, while th"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09234",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09250v1 Announce Type: new Abstract: A verifier for robot policies reads a candidate behavior and returns a score for how well it did, used both to evaluate vision-language-action policies and to train them. Verifiers range from success detectors and reward models to runtime monitors, safety filters, and temporal-logic specifications. We survey roughly 150 verifiers and compare them along two properties. Availability is how much a verdict costs, how early in a rollout the verdict arrives, and how often a verdict can be asked for. Availability rises as verdicts get cheaper, earlier, and denser. Credibility is how much a high score tells us about the task. Credibility falls as the judgment becomes gameable and self-serving. We group the verifiers by who supplies the judgment: human verifiers, rule-based and formal verifiers, learned and pretrained verifiers, and model-intrinsic verifiers. Across the four families, we find that credibility falls as availability rises. Regardless of who supplies the judgment, there is no free checker. We then examine what validates a verifier itself, and how much a high score tells us. Three measures appear in the literature: agreement with human labels, the performance of the policy it trains, and behavior under reward hacking. We close with nine metrics that make a verifier claim checkable, and coordinates for the verifiers still to be",
+      "claims": [
+        "arXiv:2609.09250v1 Announce Type: new Abstract: A verifier for robot policies reads a candidate behavior and returns a score for how well it did, used both to evaluate vision-language-action policies and to train them. Verifiers range from success detectors and reward models to runtime monitors, safety filters, and temporal-logic specifications. We survey roughly 150 verifiers and compare them along two properties. Availability is how much a verdict costs, how early in a rollout the verdict arrives, and how often a verdict can be asked for. Availability rises as verdicts get cheaper, earlier, and denser. Credibility is how much a high score tells us about the task. Credibility falls as the judgment becomes gameable and self-serving. We group the verifiers by who supplies the judgment: human verifiers, rule-based and formal verifiers, learned and pretrained verifiers, and model-intrinsic verifiers. Across the four families, we find that credibility falls as availability rises. Regardless of who supplies the judgment, there is no free checker. We then examine what validates a verifier itself, and how much a high score tells us. Three measures appear in the literature: agreement with human labels, the performance of the policy it trains, and behavior under reward hacking. We close with nine metrics that make a verifier claim checkable, and coordinates for the verifiers still to be"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09250",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AccelMPC: High-Rate, Low-Power FPGA-Accelerated Model Predictive Control for Tiny Drones",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09380v1 Announce Type: new Abstract: Unlocking the potential of tiny aerial robots requires order of magnitude improvements in the performance of embedded edge control. In particular, although recent cached model predictive control (MPC) solvers can handle the fast system dynamics and complex constraints required for agile drone flight, their computational demands remain prohibitive for resource-constrained robots, forcing prior implementations to operate at reduced control rates. AccelMPC overcomes this challenge through an end-to-end co-design approach that jointly optimizes the solver algorithm, numerical representation, hardware mapping, and physical integration. AccelMPC pairs a co-designed FPGA-accelerated alternating direction method of multipliers (ADMM)-based MPC solver with a custom 6g PCB, providing high-bandwidth communication for deployment on a 35g Crazyflie. Hardware experiments demonstrate 1 kHz onboard constrained MPC with dynamic obstacles, up to 15.6x faster solve times and 195.4x improvement in energy-delay product over state-of-the-art embedded microcontroller-based solvers, all while scaling to optimization problems with over 20,000 optimization variables and a comparable number of constraints. We release our PCB design files, firmware, and FPGA solver code open source.",
+      "claims": [
+        "arXiv:2609.09380v1 Announce Type: new Abstract: Unlocking the potential of tiny aerial robots requires order of magnitude improvements in the performance of embedded edge control. In particular, although recent cached model predictive control (MPC) solvers can handle the fast system dynamics and complex constraints required for agile drone flight, their computational demands remain prohibitive for resource-constrained robots, forcing prior implementations to operate at reduced control rates. AccelMPC overcomes this challenge through an end-to-end co-design approach that jointly optimizes the solver algorithm, numerical representation, hardware mapping, and physical integration. AccelMPC pairs a co-designed FPGA-accelerated alternating direction method of multipliers (ADMM)-based MPC solver with a custom 6g PCB, providing high-bandwidth communication for deployment on a 35g Crazyflie. Hardware experiments demonstrate 1 kHz onboard constrained MPC with dynamic obstacles, up to 15.6x faster solve times and 195.4x improvement in energy-delay product over state-of-the-art embedded microcontroller-based solvers, all while scaling to optimization problems with over 20,000 optimization variables and a comparable number of constraints. We release our PCB design files, firmware, and FPGA solver code open source."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09380",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "A Decade of Bayesian Optimization for Controller Tuning and Robot Learning: Tutorial, Review, and Future Prospects",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09403v1 Announce Type: new Abstract: In the past decade, Bayesian optimization (BO) has emerged as a powerful and adaptable framework for automatic controller tuning and robot learning. This article offers a comprehensive overview of the state-of-the-art in BO, designed to support both researchers and practitioners in understanding recent advancements, practical applications, and future research directions. We begin by adopting a practitioner's perspective, illustrating how to effectively set up BO through a representative controller tuning example. We position BO within the broader context of learning paradigms, ranging from deep reinforcement learning to data-driven control, and highlight scenarios where BO is most advantageous. Next, we discuss the diverse range of BO methods that have been developed to tackle complex problems and specific applications. This article provides a unified perspective on the current landscape of BO, emphasizing its relevance to control systems and robotics, and it highlights future prospects by identifying key research challenges and promising avenues for advancing BO in the field. This includes addressing a significant gap in the BO landscape: the lack of standardized benchmark problems specifically for control-related applications. To foster future research and ensure rigorous evaluation, we start an effort towards a lightweight benc",
+      "claims": [
+        "arXiv:2609.09403v1 Announce Type: new Abstract: In the past decade, Bayesian optimization (BO) has emerged as a powerful and adaptable framework for automatic controller tuning and robot learning. This article offers a comprehensive overview of the state-of-the-art in BO, designed to support both researchers and practitioners in understanding recent advancements, practical applications, and future research directions. We begin by adopting a practitioner's perspective, illustrating how to effectively set up BO through a representative controller tuning example. We position BO within the broader context of learning paradigms, ranging from deep reinforcement learning to data-driven control, and highlight scenarios where BO is most advantageous. Next, we discuss the diverse range of BO methods that have been developed to tackle complex problems and specific applications. This article provides a unified perspective on the current landscape of BO, emphasizing its relevance to control systems and robotics, and it highlights future prospects by identifying key research challenges and promising avenues for advancing BO in the field. This includes addressing a significant gap in the BO landscape: the lack of standardized benchmark problems specifically for control-related applications. To foster future research and ensure rigorous evaluation, we start an effort towards a lightweight benc"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09403",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Actuator Dynamics Curricula for Narrow-Viability Tasks in Legged Robot Learning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-10T04:00:00+00:00",
+      "summary": "arXiv:2609.09492v1 Announce Type: new Abstract: Reinforcement learning has produced capable controllers across a broad range of legged-robot tasks, but a subset of these tasks fail to converge under standard training: those for which most exploration trajectories terminate before producing useful gradient signal. To address such tasks we introduce the \\emph{Actuator Dynamics Curriculum}, a procedure that initializes joint stiffness at a high value and anneals it toward the system-identified value as completed episode lengths grow. Using a cart-pole system as a representative example, we show that higher closed-loop joint natural frequency under critical damping enlarges the viability kernel of the underlying Markov Decision Process, increasing the fraction of initial states from which the task is feasible. We validate the kernel monotonicity on the cart-pole and apply the curriculum to a quadrupedal-to-handstand transition on the Boston Dynamics Spot, a narrow-viability task where training under fixed identified stiffness plateaus at a policy that never completes the transition. The trained policy executes the transition in simulation across 10 seeds and transfers to hardware. More broadly, our results suggest that simulated actuator dynamics is a useful axis along which to design curricula for tasks in which exploration is bottlenecked by termination conditions rather than by ",
+      "claims": [
+        "arXiv:2609.09492v1 Announce Type: new Abstract: Reinforcement learning has produced capable controllers across a broad range of legged-robot tasks, but a subset of these tasks fail to converge under standard training: those for which most exploration trajectories terminate before producing useful gradient signal. To address such tasks we introduce the \\emph{Actuator Dynamics Curriculum}, a procedure that initializes joint stiffness at a high value and anneals it toward the system-identified value as completed episode lengths grow. Using a cart-pole system as a representative example, we show that higher closed-loop joint natural frequency under critical damping enlarges the viability kernel of the underlying Markov Decision Process, increasing the fraction of initial states from which the task is feasible. We validate the kernel monotonicity on the cart-pole and apply the curriculum to a quadrupedal-to-handstand transition on the Boston Dynamics Spot, a narrow-viability task where training under fixed identified stiffness plateaus at a policy that never completes the transition. The trained policy executes the transition in simulation across 10 seeds and transfers to hardware. More broadly, our results suggest that simulated actuator dynamics is a useful axis along which to design curricula for tasks in which exploration is bottlenecked by termination conditions rather than by "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.09492",
+          "published_at": "2026-09-10T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek V4.1 Flash ignites AI price war under 1¢/M - Briefs Finance",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T19:28:44+00:00",
+      "summary": "DeepSeek V4.1 Flash ignites AI price war under 1¢/M Briefs Finance",
+      "claims": [
+        "DeepSeek V4.1 Flash ignites AI price war under 1¢/M Briefs Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSURaWkZ0d0lXT3BlZzlxV0hwMHlJTU5icHNjNEJnRGctd0xWVkdkdWpLVjd1UF9yTUg3bDZLdVVkZGczS2hPbWtab1pOTW5BSUlxNnRZcXlPa0dBR1VEUTFQUW1ydHl5VkxtSVFGYU1SOTBsR3NHRXJVeHZDblQwVzN3VWd3T3ViTEt3c2xIY3lhZw?oc=5",
+          "published_at": "2026-09-10T19:28:44+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic accuses DeepSeek, Xiaomi, and Moonshot of misusing AI data - TradingView",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T19:00:11+00:00",
+      "summary": "Anthropic accuses DeepSeek, Xiaomi, and Moonshot of misusing AI data TradingView",
+      "claims": [
+        "Anthropic accuses DeepSeek, Xiaomi, and Moonshot of misusing AI data TradingView"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa0VnQ0FseU5EUmhJS0RlOWlXdTg1WUpLcThuWkJOQU9pZ0NhWTRRTVVrNjM2aG83YlowblpDZThjN0RjT1VYRWZtQzRZUTVSUnhXakNLRWJoNHJPRG9NLWtEN1M3dkJWMm1IckgxMnZ5czUyYXdEcVJ4THg5QWRoMG1uTHlnSkhiSHZYRko4NzFMd0lhZ3RyOVlBUUFxMk9iT01DYmtwZE8yVENMZHhZNjN0dTFDV1QyZ2tNTnNyTENReEZvdFZUdw?oc=5",
+          "published_at": "2026-09-10T19:00:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli confronts major strategic wild card at new Madrid street circuit - Read Motorsport",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T18:36:47+00:00",
+      "summary": "Kimi Antonelli confronts major strategic wild card at new Madrid street circuit Read Motorsport",
+      "claims": [
+        "Kimi Antonelli confronts major strategic wild card at new Madrid street circuit Read Motorsport"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeERfbFZIdGdOakxVaXFkWEVpWk1HSEp0UkJVdkxhNUdMOGtfeU84cVNWb1hucUFfMU5NR2k4MEY2YzV3UGk3MW92c0FRdmJ0MFBLTFVUVmxKSFp3cUhLNjc0bU1waXQ5Rm1Rbm5WWlg5M21QQmZRR3ZwaUtMalhlbkJKUzNMMjZieGxjRGhqcHpOVUVzbndVM2FoaElPVlh6aWtFYTl5UFpYdjd0YXVnS3lWY2N1QkRLbXc?oc=5",
+          "published_at": "2026-09-10T18:36:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli focused on winning, not F1 championship - Rediff",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T18:31:13+00:00",
+      "summary": "Kimi Antonelli focused on winning, not F1 championship Rediff",
+      "claims": [
+        "Kimi Antonelli focused on winning, not F1 championship Rediff"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTkxDWHVVOVEzXzFodHRYNzZQaHJMMWpnYUo1RW5BXzBIVzlUb3huTG1oeUpyVGNLV0NOdU1aSGZkdmo2TFdiWVhIeW5TV0xTMmpleUpqeWtpMUpDdndqQmFibHFEOHFzSUhLQ0FpcjFaLVBUUExPajNjbTgxTV9UcDc0WGNiNWhxUnNrQV9GT1B6VHdHTXhiZ3B5TFYyOWtTLWxrSDVKNVVkU2Jyblo0S3I3UVdkYm5GZ05FY1NIMXdrQdIBxAFBVV95cUxQclM5T1BvaDNpaGhmMzM3cTROeTBYYWd6d0NmLUladnNvZDdsX0FXUXNDcm1IOHZoRkJjbVBKNy1jSER1ZUsyYVVNUWVVY2dsZWUwdEpMdWU0Nkt1QVZFeU11Ny1nQmRhUG9kQm5pUXctZ0tuazBiR2NuSjJhUXBTUE1zVkNHZHJDRy1JZl9WNFVIYzdGUW9qV09uUUtuOHJlbHBkbGVjd0hBc2lrR1FiZ2ZiTV9uQ1MydEt6Vkw5M3dVdXVi?oc=5",
+          "published_at": "2026-09-10T18:31:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell insists he 'has an answer' to Kimi Antonelli's pace amid his Mercedes team-mate's dominance in title battle - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T18:06:31+00:00",
+      "summary": "George Russell insists he 'has an answer' to Kimi Antonelli's pace amid his Mercedes team-mate's dominance in title battle Sky Sports",
+      "claims": [
+        "George Russell insists he 'has an answer' to Kimi Antonelli's pace amid his Mercedes team-mate's dominance in title battle Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMkRZN2JTTl9YbTZTSmhXUTFhbk94OV9wTzA0QW45cHB0Mk4xODA3ZDBFNi1kN1VjUUJtZU1uXzhhejdlbnpLT0d2MzI2TlAxbW1mLXh4NndfdksxOVJ5NUJWaURoN3JPcW5TS21YNW5WLU84OU0wQ0F0dFZHMWFOZzhxVWF5enQzeTVzNW5tcl9CTGpaaVRxbU1rcTdzdmFtemxhalRtdXpGYUlfTGF3VWVzOGFWaTRPZUhQejRNVFNOODNzYnBKRmVtZGdtcDFxYXp0VDVSbTBvd0hKYzB5emQ5LThCMWFxZy1NSDFNR3dlVDdObDItc1VaVQ?oc=5",
+          "published_at": "2026-09-10T18:06:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Monza winner Kimi Antonelli reveals: a congratulatory text from Valentino Rossi - Formula 1 - speedweek.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T18:00:03+00:00",
+      "summary": "Monza winner Kimi Antonelli reveals: a congratulatory text from Valentino Rossi - Formula 1 speedweek.com",
+      "claims": [
+        "Monza winner Kimi Antonelli reveals: a congratulatory text from Valentino Rossi - Formula 1 speedweek.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa2JPUzlRMmtWYzFVS01DcTFyLW5LWUo5Q1RNUWpmdGJTQkpRUWJTR1FyNnBLV2ljcTlqRzl4dWI4dFBtSDdldFdfUFdqTEhHQUpYWXFVQXdIN0xYMXcwaXFzNlE1bmZVcFJXSFZKanhwUWYzLURBSDVDTDU2THVFVGt3Mkdqd0EtMVpHOGMzRU5xclpseGdCNHR2aFJ3YVJx?oc=5",
+          "published_at": "2026-09-10T18:00:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: Rising Star in Formula One - Devdiscourse",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T17:58:33+00:00",
+      "summary": "Kimi Antonelli: Rising Star in Formula One Devdiscourse",
+      "claims": [
+        "Kimi Antonelli: Rising Star in Formula One Devdiscourse"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY2w4ZldtalpyTGo4a053SFdMOFBzbnNaZnVlNmtTVGNuQ2YzT1FVLXhUVnNRRFFEOE5UaVNTYnhtaXN1c0NyS2gwb1ZZS1I1TDhxZVdXY2dpSFNIRUVQaU4yc0h3aWpNR3FvZ3FseC1LYjZuQjBERDlBMTBrei1OQy0xTkdJVHB6MXRyUElqX0FnbGYtQmJsYnp3aW91ZUY00gGmAUFVX3lxTFA5bm40R2lkM3FqQWl3UnZZdGVhTld5MGF2cFVMQTExY1M1V1YtRndhVEIzZFlSSTJfQlN1R2lOMkMzbFB6QWRDVHNvWUZQNk1SeEYtMGt4SlN5SWFTVnZ0SktGeHNHa1JEMXZLZm1jR0FVUHJDS05ZVnQ3bDVGV2lVOXhmN3VZOXo5MC15cV9iT1N1MzFIbGI2cFhGT2Z6MFJ0NFI5YUE?oc=5",
+          "published_at": "2026-09-10T17:58:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli phone crashed after Italian GP win: Jannik Sinner and Valentino Rossi among messages - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-10T17:55:00+00:00",
+      "summary": "Kimi Antonelli phone crashed after Italian GP win: Jannik Sinner and Valentino Rossi among messages ESPN",
+      "claims": [
+        "Kimi Antonelli phone crashed after Italian GP win: Jannik Sinner and Valentino Rossi among messages ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVlQ0T2dZejNxcUJHUFV3cTV0Vmsyc3lGZkNkd2V1WGZDcmx2QVlUR1R2VVlBbWhWQ2tjandCazBSQnp3WVFRMzhPQWF3Y1pNVG9ocUNRQjBVTXJEei1UVjJ6RkppZE5fcmxfYUh0RVcyS2d4THhONmt2RG1Jd2RxMjliTGlTdk1vOVlPd3JRM3lxWDU4cEJ4ay13YXYtZHhZSl9YV2U5Q3lDbVRoRERoSTJwQW41U3hXamtWbWVoN1ZBVjJEcGNtbW1NdFBpT2FwM0hDOG9lcU1vX3la?oc=5",
+          "published_at": "2026-09-10T17:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
