@@ -1,0 +1,991 @@
+{
+  "report_date": "2026-09-14",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-13T21:29:31.113127+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 44
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 145,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-14T00:00:00+00:00",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "claims": [
+        "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "published_at": "2026-09-14T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli's \"precious\" moment with father goes viral after Spanish GP win - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T21:11:41+00:00",
+      "summary": "Kimi Antonelli's \"precious\" moment with father goes viral after Spanish GP win Motorsport.com",
+      "claims": [
+        "Kimi Antonelli's \"precious\" moment with father goes viral after Spanish GP win Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTFJXVU45aU9kZFdvd1NnSUZkVm96elYxbUczOEFnblVMYTVVNTZsT2RLeVpPcU5Dbjc1d0FhR0VvaVdxNDJ2djhqSlhsZi1hQlVlcUNTcGxfd29NSHVlNzRoN2JpLWItSFJOUDJVTWxTTVZrTHZCZVFheUhWWXMwOTN0anlyVGtmSkotcFVfcFc2RWluX3F5d1VERDhJNk9FMnlGQjBKamotaXdmbTRQNGQ1MjRDdWtBMVQ5Zw?oc=5",
+          "published_at": "2026-09-13T21:11:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Spanish Grand Prix: Kimi Antonelli Title boost, fends off Max Verstappen & Lando Norris, wins at Madring - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T20:37:30+00:00",
+      "summary": "Spanish Grand Prix: Kimi Antonelli Title boost, fends off Max Verstappen & Lando Norris, wins at Madring grandprix247",
+      "claims": [
+        "Spanish Grand Prix: Kimi Antonelli Title boost, fends off Max Verstappen & Lando Norris, wins at Madring grandprix247",
+        "Kimi Antonelli Wins Inaugural Spanish Grand Prix at the Madring VAVEL.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPclIxOTl4a0FqVktzX3JQaG92UzFSczdYT2tPRFN2STAybG85LWR2cGdPY25TSGdib1NGQVB4WWRBSW5FVjdJYmZtTGFGQVd2aU5DY0lLN1dKRzA0TVFPNjVSV0Z5WEJKcTRnUVVJRlpBVkZtckx1NHhoLTcwRjJjMFlVbHdtd2FuUzA2dzlkMWJsajZGUXdTMDdEY0tJeGtHLUo0cUFOeE1FeDRvWVRsMnZHeUNuQmZBa05QWEUzRTNuaGdTTzhZYVdFNXBaRVNnLUh1Zk5jX1l3S0U?oc=5",
+          "published_at": "2026-09-13T20:37:30+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY2F2cFZpelRSbV9UYmMxWVAxd1pQMmNGb0EzM29ianFWQ0xlVzNiMHVVTmlKZWdQYkFMN0VwM09SQmgxLVQ5ZmxrdmdhS0V2eVdUblhEaVhlUFRPME81VlFtZXlraWFoMW1jaXJFVHRDa1pWZkY4WjQ2S3dFaXhMOVhRX0xqUWk2RTc40gGLAUFVX3lxTE1jYXZwVml6VFJtX1RiYzFZUDF3WlAyY0ZvQTMzb2JqcVZDTGVXM2IwdVVOaUplZ1BiQUw3RXAzT1JCaDEtVDlmbGt2Z2FLRXZ5V1RuWERpWGVQVE8wTzVWUW1leWtpYWgxbWNpckVUdENrWlZmRjhaNDZLd0VpeEw5WFFfTGpRaTZFNzg?oc=5",
+          "published_at": "2026-09-13T15:31:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Wins First Race At The Madring - sports.yahoo.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T20:29:38+00:00",
+      "summary": "Kimi Antonelli Wins First Race At The Madring sports.yahoo.com",
+      "claims": [
+        "Kimi Antonelli Wins First Race At The Madring sports.yahoo.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2kxWVBGMnNnOXVad0ZndXlGUTFFQmxaYmFqSHBqTjdENlVsZzR4V1hkWFZ6UXRpdTVxN2piaDE0aWlOUUFIWVJfNmpLWnhzZUc1cDZpMTVBNTlueEtTM0ItWmRKRV9uci1zM2dTQmJTcHMzMDhReTZUTzBaTmJKYmlxaXJfZw?oc=5",
+          "published_at": "2026-09-13T20:29:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mercedes F1 boss Toto Wolf blasts 'bulls*** couch warriors' on Kimi Antonelli conspiracy - gpfans.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T19:57:00+00:00",
+      "summary": "Mercedes F1 boss Toto Wolf blasts 'bulls*** couch warriors' on Kimi Antonelli conspiracy gpfans.com",
+      "claims": [
+        "Mercedes F1 boss Toto Wolf blasts 'bulls*** couch warriors' on Kimi Antonelli conspiracy gpfans.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZzlfNlFNVi1FamI0bHZpNmpyV1hXamE1QllsMHRUOUVwbXJRZGhEVVdIZ09ybVh0X2tvdTZqSEJndVR5RGpWVzNTSFpodGE5REJ1RUtkclpWOTdEXzhSRXl6eWIwOWc0R3E1TV9Jd2MwcVpJaTF1UDN5Ni1acWowYVd4ei0yNkNwSGpjVHJjcElrekFWbjdKZElyazk5UjdNdldISTdtZTlBc0ZFcUgzRzFCbDIwOVdCSTl6ejhESQ?oc=5",
+          "published_at": "2026-09-13T19:57:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wins Spanish Grand Prix as Piastri languishes in eighth - CODE Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T19:52:30+00:00",
+      "summary": "Kimi Antonelli wins Spanish Grand Prix as Piastri languishes in eighth CODE Sports",
+      "claims": [
+        "Kimi Antonelli wins Spanish Grand Prix as Piastri languishes in eighth CODE Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONXg1WDJYR0N3dFNOd2NHUy0zb1FGTF9iamF0UEZaLVZoTkYyV2JQOTF5TjZwNDVfeFhhcUoxbFVaUnhMMnlfUXFENWctS1Z4MkQ5V0FGMXVuTFhYNmtyLWpnM0xwNjZ0UWVrM3IzMW9qcktIOElVYUJuNVhEb2d2QUxad3VtaTdKZGc3MTFUNkphN3BNaWVmanQ0bk9PMGRwX1dfYjJsSXVqdFFHVE9JVENZM0J6VHRfcF9jd05IN1pNbkZrVG52YU9CaFJvcXMxdG1UeXVTYkJMQnRiS2RlSWx5b2hlRWdjSzFmbDR2c2pPV1R3SEdZ?oc=5",
+          "published_at": "2026-09-13T19:52:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "All the key moments from the 2026 Spanish Grand Prix as Kimi Antonelli wins again after Lando Norris denied by VSC - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T19:52:00+00:00",
+      "summary": "All the key moments from the 2026 Spanish Grand Prix as Kimi Antonelli wins again after Lando Norris denied by VSC Formula 1",
+      "claims": [
+        "All the key moments from the 2026 Spanish Grand Prix as Kimi Antonelli wins again after Lando Norris denied by VSC Formula 1",
+        "F1-Kimi Antonelli-Lando Norris-2026-Spanish Grand Prix Auto Action",
+        "Kimi Antonelli wins the Formula 1 Spanish Grand Prix UA.NEWS"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVzh2M1EtdndQX0RjZjVqZUZySVhGNGNFVjhUOW5MVTVCVjVNbWlIcTI4bkRhbmpQYzNzd0JHdlVoT3pSSTlvdjNVWUd0SGh2eUpPczZ5eVdlSi1jT0xQdXlHX3RtQjlUS3JRN2FIeDVaOXU2aEtxVmhmV0FyZ0JlaTBnVFJKYmRxVnVmWHZmUmdxM09lY1lBTkV2bk9GZXdjV3Fnam9MdWhLX3V3blBLbzhVbmhQRHlHdTR0em5EVW5iMmVjMVVlVTZzb296blpQSkdQUHJjdkFvRm1hVHlDYmFoeGI?oc=5",
+          "published_at": "2026-09-13T19:52:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGhVYzBCcmJidTU4RGtDTU5wcDFYRjBsZ055MzAzMWpaNzBFbGdFbUVOLXI3Uk50eDltc3VRaFNLS0hFQ0ZzUURaOHV6MzZtOVJpZi1WMDZUaWZ0cldPVWF2Y2Y1U2hKMnk1WnJjRmJUR1Jjdk1HTWtNQUU3RUdIaGItUU1oTUItU0c4RXZUSXFzWWVGUFVON2h4X0d2cy1BNmc2TmxodzhJZU0?oc=5",
+          "published_at": "2026-09-13T18:28:38+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tblJWTVpkSW9Nd1ZwZHhjZHJNdGQ5cDNlNVJjaElHeVlueXBLNE5lREFELWQwdU9qT1hfQjBtSU1zbjJKQ0tibXhxczRwM3RmR2pBQ3dhWFNCWU5Ia3ZHdV9fYVFxNUoxMWllV3RoOGJ4SnZRZ3E0d2F2S0RpNmc?oc=5",
+          "published_at": "2026-09-13T16:22:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli holds off Max Verstappen during Madring debut to win F1 Spanish GP - The Guardian",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T19:48:00+00:00",
+      "summary": "Kimi Antonelli holds off Max Verstappen during Madring debut to win Spanish Grand Prix irishtimes.com",
+      "claims": [
+        "Kimi Antonelli holds off Max Verstappen during Madring debut to win F1 Spanish GP The Guardian",
+        "Kimi Antonelli holds off Max Verstappen during Madring debut to win Spanish Grand Prix irishtimes.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUUd4a3VkU1V4TGwycHBtdFJyLVROcWR1QS1EWWpCVEdUOWZRNlhqQVp5NVh1VEpvNG1kRkpKd0dQb1pycXRxajF6SFVWUnBBU0xEV0U0dWRvZG1VQTEwS1N0SUFQMHl0YTd2VmstWk9MMkc1T2ZUVzJZeUgtZWx5OUFEZmZ4TkcwUkwxZWtsRGZDa21LajljV0hIMHh4MFgwV00zWWRtc2M?oc=5",
+          "published_at": "2026-09-13T19:48:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb1RMcWFuTTdjMWE5Vk51QTYydFBfeWhyNlIzT0NVMWI2Yl8wTXVUM3pkcjRuRW1OeHFnZWpxc3YtaGQtblJDcTdMam9xdlkyMVFZN3pPRmZtM0NUTTdCeGgyeXlWaE5BcXc1SHFELU81Rk5rc2h1UnRjdUVMNHhpWEtvRWkyNEhSVWc2cXlpQnVsejg5SzI3U1FQNW11MnVPTTZmcnRUR3FFWm1pRUszZGUxaUpod2lIYWNQalB2bXlRSk9KcElUSFAtdw?oc=5",
+          "published_at": "2026-09-13T16:09:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Wins Historic First Formula 1 Race at Madrid’s MADRING - Speedway Digest",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T18:45:27+00:00",
+      "summary": "Kimi Antonelli Wins Historic First Formula 1 Race at Madrid’s MADRING Speedway Digest",
+      "claims": [
+        "Kimi Antonelli Wins Historic First Formula 1 Race at Madrid’s MADRING Speedway Digest"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNHRNa3BqUUxxWjBtM1I0al9Fd2h2REl1eWFuTEtBcW9OMTZ2THFwNEI2WTZUbWsyZXRlMVlnNV9WYlpwWlA3OFNhcjBTME1aTzFaeWFmbXAyckctLTNjYUt1NkxLMjhYamNTZmI5NjFiTnVHM19aQzgxNWIyWHp4anVxRnhpYkNSWUZpcnVkY2cyUmJJZlFNVWdmdlRMVDFxNElDRVJrRHJzOVUtQzlLU2J5U0wxTW8xU0tUdzZxZEg0VzlzNndWd0pB?oc=5",
+          "published_at": "2026-09-13T18:45:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "2026 Spanish Grand Prix - Race Report: Victory in Spain as Madring Makes F1 Debut - Mercedes-AMG PETRONAS F1 Team",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T20:48:45+00:00",
+      "summary": "2026 Spanish Grand Prix - Race Report: Victory in Spain as Madring Makes F1 Debut Mercedes-AMG PETRONAS F1 Team",
+      "claims": [
+        "2026 Spanish Grand Prix - Race Report: Victory in Spain as Madring Makes F1 Debut Mercedes-AMG PETRONAS F1 Team"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZnEtWU9sYmpVcWVTbUR4UVl5QzFsallqWU1QbENXVUtrVnlrcUhPaVc5TExWMTNCRHdDU1lZWV9QUGNUaVNybFMzcFdPVzVheVZUcUp6bU1URDcxRDlJRFd2X0ttT3dNTHotckZDc3JCMlFSczhoMHNzdmMwNGlvTHNNQ2pWTG9aMmxScy1WTm12bUhxY3ZF?oc=5",
+          "published_at": "2026-09-13T20:48:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli wins first Formula 1 race in Madrid in 45 years after unlucky break for pole-sitter Norris - AP News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T20:08:00+00:00",
+      "summary": "Antonelli wins first Formula 1 race in Madrid in 45 years after unlucky break for pole-sitter Norris AP News",
+      "claims": [
+        "Antonelli wins first Formula 1 race in Madrid in 45 years after unlucky break for pole-sitter Norris AP News",
+        "Antonelli wins first Formula 1 race in Madrid in 45 years af... Standard Democrat"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPczMzR1pIbXpQSjRqdzZlVmMxdHd4UXhWcXhfUHlvNlhjTjZlMVZzVmpqNEZCWW43Ykl0NDZXOVZYYk42RVFrR2tGWDg5MVVJemEwcUxWblJWcFJMNnIwRmZvSExJNG1tVmk1QWxiX1laNHN3QTBfUnZTelNYTnVDb0s3S24wS2lFaTRxM0xZQXhobDJvOXpMOG04NkZydw?oc=5",
+          "published_at": "2026-09-13T20:08:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNGE5cVlUUUt0S3k3dUx5M3AyYTU3Z3JHb0dlcGp2eThPSFRJWlhlak5pQmV2U2QzMkJpZVhTMGV3dDR1Qy0yZy1jUEo5anF6SldhVHBrYWtJOURjNWQ3LVhmMEhpd1paeDFCSjhHbFdnN1FkR0RaeG84WHIyRDQ5NXJ4eVd2dkwtaFpSaWF5Vnl6Ty1UTURSN25yYnRSQy1sQ2h6MGNyQkYxQ1BJU3J1ek1ET3gtSFQ4d2I4djhvZnB0dDEzNVVaYWl6M1RHX3laUGlRNWpncG5POEs5c3d4RlNYUQ?oc=5",
+          "published_at": "2026-09-13T19:30:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Trump resists AI slowdown as the political tide turns - The Washington Post",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-13T20:03:03+00:00",
+      "summary": "Trump resists AI slowdown as the political tide turns The Washington Post",
+      "claims": [
+        "Trump resists AI slowdown as the political tide turns The Washington Post"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUC1sNlREa2ZpZmZkaklBb3dodW5GQV95czZiNVJCYXlhNlQxQXdpQ0pEWU5vZ3FsUVVEMzh0eUt1UVN0LXNvM2U5N0wtNVVkclVPbmRYZHBzanliXzhJMXZaUGp6MGthbWNoVUg2T3VSeFlIeVdNOFpwbmdrNkJZcENKd3ptaTVvakRlSDJWNUlMa1lOSG1MQkhzeHdVMXBYTVQ3ZHRRUXUwbkktZVAwRGFZZERhZk5rSEJudzhR?oc=5",
+          "published_at": "2026-09-13T20:03:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "‘Are you gonna fix it?’: Piastri snaps after opening lap clash; ‘unlucky’ Lando stung — F1 Wrap - Fox Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T19:29:17+00:00",
+      "summary": "‘Are you gonna fix it?’: Piastri snaps after opening lap clash; ‘unlucky’ Lando stung — F1 Wrap Fox Sports",
+      "claims": [
+        "‘Are you gonna fix it?’: Piastri snaps after opening lap clash; ‘unlucky’ Lando stung — F1 Wrap Fox Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxNeUdEVVl1LWw0TzM0V0hFQkFHOGowV2ZWUndzRm9COExNVW5lV0NzNFhMaDMzT1dRZVhwR0I2eFFudG5iaGhkUkczc211aTVvdDBKY0NwZ1RXZ0ZPMXI2RFVjb3ppam1MQ0ZwZ29aaUxOb19yd1EyX0FOUXVmZDBQUkpnLVlxN1VZX0g3Mmcta1FUenNvVHQ5YkRTRXM5V0tDQWkyVzBQWXFuYkNXV0kwMmxIR19NWmtGZXZ1eUoweXJxMWppUkVjUnZidEctcWxEMDBhay0yN2lHdU9vZS0wR0tXTjBadWZjMmxvVFM4REJUOHdYR3lPYXRINVd4TFRLOFc3U1A4cXRrNnVybW9PSExjOWNEel8xUl9jTFZGcHpfX0JpYkZQU0FHLUtDTHd5TC1oYXFtNVZ3QW9WVlVGbUZ6bl9WMFYwcXRraUtHcnc4MDVHNkg5NWlrTFVxVWVmdlNSREN6cWJJbDZpNVJqVEFwQmNuLWtGNGgxZDNJbXJRRE5XUDVYNm96ZlRUak1nbUlNejAyQncyUkUyYmd0V0dBTWg2Qlp4SUhPVjhLbTExSXNUZFp3Mnk2V05Lc2xR0gHAA0FVX3lxTE15R0RVWXUtbDRPMzRXSEVCQUc4ajBXZlZSd3NGb0I4TE1VbmVXQ3M0WExoMzNPV1FlWHBHQjZ4UW50bmJoaGRSRzNzbXVpNW90MEpjQ3BnVFdnRk8xcjZEVWNvemlqbUxDRnBnb1ppTE5vX3J3UTJfQU5RdWZkMFBSSmctWXE3VVlfSDcyZy1rUVR6c29UdDliRFNFczlXS0NBaTJXMFBZcW5iQ1dXSTAybEhHX01aa0ZldnV5SjB5cnExamlSRWNSdmJ0Ry1xbEQwMGFrLTI3aUd1T29lLTBHS1dOMFp1ZmMybG9UUzhEQlQ4d1hHeU9hdEg1V3hMVEs4VzdTUDhxdGs2dXJtb09ITGM5Y0R6XzFSX2NMVkZwel9fQmliRlBTQUctS0NMd3lMLWhhcW01VndBb1ZWVUZtRnpuX1YwVjBxdGtpS0dydzgwNUc2SDk1aWtMVXFVZWZ2U1JEQ3pxYklsNmk1UmpUQXBCY24ta0Y0aDFkM0ltclFETldQNVg2b3pmVFRqTWdtSU16MDJCdzJSRTJiZ3RXR0FNaDZCWnhJSE9WOEttMTFJc1RkWncyeTZXTktzbFE?oc=5",
+          "published_at": "2026-09-13T19:29:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Introducing SWE-2: Pushing the Pareto Frontier - Cognition",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T19:03:14+00:00",
+      "summary": "Introducing SWE-2: Pushing the Pareto Frontier Cognition",
+      "claims": [
+        "Introducing SWE-2: Pushing the Pareto Frontier Cognition"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBwTnlyakE4ZHJtTFdkN1dhUUh1UnhsRFpuamNmTTNNVFZvODVkY3VwSloydjAzV0xCNmNSTjlBdHJpU0FhaFM4?oc=5",
+          "published_at": "2026-09-13T19:03:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Experts urge sovereign AI models tailored to African realities - Capital Newspaper",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-13T18:44:04+00:00",
+      "summary": "Experts urge sovereign AI models tailored to African realities Capital Newspaper",
+      "claims": [
+        "Experts urge sovereign AI models tailored to African realities Capital Newspaper"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNlFjVVhxaGVKWmdkbzZ3Uk9GVW8xMDdMQmlrckJuNDI5ZTZvc2ZCZ0FOb25meWp5S1A5cXZ5cllGQVFob2pfVDZ3a1VySEo4dVYyZVFCUUlmclc0REZJd2hSMlRkd1MtVjlLcnJkamFJNWxla2NxVW1IQks4NW5OODRQRF9uMXhZX1BNX0lDWF9VZGFlbWxSZ1R6VWJoSFdyd1g4dw?oc=5",
+          "published_at": "2026-09-13T18:44:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli reveals he deliberately slowed to time the VSC to perfection at Madring - DIVEBOMB Motorsport",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T18:43:32+00:00",
+      "summary": "Kimi Antonelli reveals he deliberately slowed to time the VSC to perfection at Madring DIVEBOMB Motorsport",
+      "claims": [
+        "Kimi Antonelli reveals he deliberately slowed to time the VSC to perfection at Madring DIVEBOMB Motorsport"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMERkWlRucXVSNGNTTHRvUGREbDFZdDlYV1p1ajV4bk9aREgwbHZYUWNtTXVJdnIyV2RQSnVqRGF3bmRvOUVVSlVQYkFET213T1JoVTBkem5KNFhYWFNhNEw3aHA3YkJERXR1bGpGWkVxVi1DNGRSYlk0TzdIREwyT3BCQ2RCRlMwRnpFZU9MMm5ZZU50WDBGR2tHY2VqNW1nSzNwa3JSS2lLS2gtUHV0QWVnNXlXWHpPTjNYVw?oc=5",
+          "published_at": "2026-09-13T18:43:32+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Spanish Grand Prix: Harry Benjamin's driver ratings as Kimi Antonelli wins again - BBC",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T18:25:05+00:00",
+      "summary": "Spanish Grand Prix: Harry Benjamin's driver ratings as Kimi Antonelli wins again BBC",
+      "claims": [
+        "Spanish Grand Prix: Harry Benjamin's driver ratings as Kimi Antonelli wins again BBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPS2FURXdQY3plRGxfTXM5Z3RHVDZqREpkaEhCLWExZGZYTUIzdllFQW5rR3JUV2NSSXRCZUozTlYtZi1KZTVUMm50d2ZrU05pZkJhVDhNNFU0R2h5b3pSczc0ZkF1enl2Rk5JVlZnSm5xSXI1Tkt6dElNdFQ0TVp0WWs1Sm9MU096WXVrQUY0NklwLTMyU1d5c1QxZzNsc25iU2E1YkFQRXZjSk5qZTJnRTNDejFQdnBocnNsM0hfVzFod1FydU9wM05jNUZoV1dBa1VlU0IySl9lQkN6NEd0aU1Xbk5xSVVudm5uUEFvODQ?oc=5",
+          "published_at": "2026-09-13T18:25:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli's Triumph at Madrid Energizes Formula One Championship - Devdiscourse",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T18:11:26+00:00",
+      "summary": "Kimi Antonelli's Triumph at Madrid Energizes Formula One Championship Devdiscourse",
+      "claims": [
+        "Kimi Antonelli's Triumph at Madrid Energizes Formula One Championship Devdiscourse"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNlBuTmFqd1NyRXdlV3dtMGZnWU1WeWQtWmRFWUg0UW05TTlvS2s2NEFiRjctTmtwd0FlRDJmUDhRQnE3eDFOR255dUJnQW5aNmw5c1hlTDJCUnd1ZUVKbnBLUGFkRlA0NUtydU9jaERQbVk2X0MtaXVhTWtxRzVsWVU0VGlmR3ZZNnM1UE1CX3JGTzRoRU5OczFyV2NZeGVBZzdoN1pFTmJxUTRpQzBCNnM1RWN1bjlsOXZVaTJCOGJndGFY0gHKAUFVX3lxTFBaS25yMlRGNExHNVJfSWNhcE95UkZnclVvb1BnRmtUS3psNi1YeXZ1YThvOXlIUGRUeXdkRUpuQkRSdWRnRUFFZmxRcllUNEJ6VjdYRmUyRXY5LXBIa2wtclF4dnBhQkxvRUJzajdDN1hhcUxvTVJhZktBRnRGWENNOFZmVzYzTHg3blZ3NzB3YVFwYjJrLWs1WU55cFZBdDRSVFRYVWVUZkJfUC10UkZPd1FwOXFrX2xpbm1QVXh0WFkteE0tdndFTkE?oc=5",
+          "published_at": "2026-09-13T18:11:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli inches closer to F1 title after winning Spanish GP - thenationalnews.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T17:58:54+00:00",
+      "summary": "Kimi Antonelli inches closer to F1 title after winning Spanish GP thenationalnews.com",
+      "claims": [
+        "Kimi Antonelli inches closer to F1 title after winning Spanish GP thenationalnews.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONS1IdDlZaXc4MlR3cVp5bkpQd3VjQnVTUGVUbUhuYS1mSGktYXdJZ20wQ1c0OUgyNDc2QVdwb0wxeVNMMEsyT28xTXdXS1YxMEg5N0YyeG0zYzVoNmhrSjNVcTZtLVNMUmw3RzUzb2QtdTE1X2ZZLV9BNGx1el9kV0JjeFF0eEVnRUI0RjRNMHJiRFJXSExYS3p5Q3g1VTctTUQyRzVDSlUxb0piNW9RVVY5OUJHWm1wRmc?oc=5",
+          "published_at": "2026-09-13T17:58:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lewis Hamilton says 'there's no stopping' Kimi Antonelli as Ferrari driver appears to give up 2026 F1 title bid - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T17:58:39+00:00",
+      "summary": "Lewis Hamilton says 'there's no stopping' Kimi Antonelli as Ferrari driver appears to give up 2026 F1 title bid Sky Sports",
+      "claims": [
+        "Lewis Hamilton says 'there's no stopping' Kimi Antonelli as Ferrari driver appears to give up 2026 F1 title bid Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaUs2U3lnaHRnU0Fta1pxangyN2U1Q3dCQ2FtODY3anJrbEN4SzlqWVBBSHhwTDFNZkkyNWNwcHFDalRLRkFGVVdIMnBZT0o2cUJ5X2RmNXM1UkUzZVR2ZWotd2t4TXJrSTFaSHlZNlNSTjJIZ0lWNExvaUVqblBrT2JYd1FwNVhhNGRGODlXT3diT25mN016Qm1HS1VCZkg5WXEwZ005WFByejVEdjFQRzl6YTNQZ3R6c29ocDhWanJBSGVfQThvZ25oR1NXSHJDdWFjNHdEUXhINUlYS1AyOWVWTnRhX3E0T19LYVVB?oc=5",
+          "published_at": "2026-09-13T17:58:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Spanish Grand Prix Takeaways: Kimi Antonelli wins in Madrid - VAVEL.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T17:58:38+00:00",
+      "summary": "F1 Spanish Grand Prix Takeaways: Kimi Antonelli wins in Madrid VAVEL.com",
+      "claims": [
+        "F1 Spanish Grand Prix Takeaways: Kimi Antonelli wins in Madrid VAVEL.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQzRrU0ZCYWY2Z3BCWG1Td3JnU3JQZnBNR1V6VVRPZDh0ZUN2akdlRWpod0syVTZVOWd5SVVMaU9EczQwSHJISjF1ZmNrRExsSmFZbFRTbUVwVmhOZjI2N2YwN0tuMkpudmtSa1dQYUUwdHBYUEc3WnZuaFNZTTVMM2RyRk10YWphZGUzYkw5cnFFNG93TGhmcHBaY0FRcFBaLWUtZlFqQWdiRTVIdHp5Ri00RVlFYXdJeXdIRVJsaHRrcGIw0gHEAUFVX3lxTE1DNGtTRkJhZjZncEJYbVN3cmdTclBmcE1HVXpVVE9kOHRlQ3ZqR2VFamh3SzJVNlU5Z3lJVUxpT0RzNDBIckhKMXVmY2tETGxKYVlsVFNtRXBWaE5mMjY3ZjA3S24ySm52a1JrV1BhRTB0cFhQRzdadm5oU1lNNUwzZHJGTXRhamFkZTNiTDlycUU0b3dMaGZwcFpjQVFwUFotZS1mUWpBZ2JFNUh0enlGLTRFWUVhd0l5d0hFUmxodGtwYjA?oc=5",
+          "published_at": "2026-09-13T17:58:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lando Norris: McLaren driver calls for rule changes to Formula 1 Virtual Safety Car rules after losing out on win to Kimi Antonelli - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T17:55:04+00:00",
+      "summary": "Lando Norris: McLaren driver calls for rule changes to Formula 1 Virtual Safety Car rules after losing out on win to Kimi Antonelli Sky Sports",
+      "claims": [
+        "Lando Norris: McLaren driver calls for rule changes to Formula 1 Virtual Safety Car rules after losing out on win to Kimi Antonelli Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNmQ3NEVqeHZwODRzNW5QWEhSSEd0eFFBSUZaNmZCUmxPeE5IZGt0R1pYc3RiVFN0SjlsemU2bURBbURGZ3N3MzdWMUdQeWNVU1B5OV94emU5TFRHTFVWOVhoN2xOUjBoVFV5M19WZUJ2WW8zWmdZTTduSFNlb2VJVHpkUHFrdUZQekxZaF9Qc201M3cxUGZMVEFWdm9xdXlrbC0wa3lTNERWc0JWQlNLRVpaX0FFSG5XaWJRY2R1UnZRdGxtZGNYTURUT2tSbmRITUFHTFBvcDk0WURFZFhQZzdUdTNxaGRZWUs3UzlPczJkQ1A2dGV1U0pKSlpudTg0bWwxblJxc0VIbkU?oc=5",
+          "published_at": "2026-09-13T17:55:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi K2.5: Scaling Long-Context Intelligence for Agentic AI - Dealroom",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T17:53:25+00:00",
+      "summary": "Kimi K2.5: Scaling Long-Context Intelligence for Agentic AI Dealroom",
+      "claims": [
+        "Kimi K2.5: Scaling Long-Context Intelligence for Agentic AI Dealroom"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU1BELUNHLW1HSWZnY3RfSEFCZUNBWE9lcU9RS3ZvLUxoUE1MVDFiaDQ4V2hlSHlfX1pCeC1tVS05bG5LeExMMUxOVE5KTnYwZHo5eFFlV2JYSkFYS3FJT1djejJSNk9ObjJnaU9vVllkNnFCODBBQmJsWUJLY1o4elVQNVFGcUk1VUhYMFhOcE15RDlmOFNV?oc=5",
+          "published_at": "2026-09-13T17:53:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "When can Kimi Antonelli win the 2026 F1 drivers' world championship? - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-13T17:45:00+00:00",
+      "summary": "When can Kimi Antonelli win the 2026 F1 drivers' world championship? racingnews365.com",
+      "claims": [
+        "When can Kimi Antonelli win the 2026 F1 drivers' world championship? racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTVR5Yk9uUHJpc2RXdllqN0p6UEZteFBtYXRFZ0N4eUthNWtPbUc3anV5bGM3aWN0U1VxdXE1LUdpVzlBMWN4bmlmczF4aG9Wbk9WY21vVE9ackpxOVdPRDZiTjdPR05fNU9FYmhYeC1MQUd6aGlyMDlkZVJpT0FJbkFaNnlNV3BPVmNhNFNSOGlVQWgtemtR?oc=5",
+          "published_at": "2026-09-13T17:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
