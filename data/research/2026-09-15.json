@@ -1,0 +1,945 @@
+{
+  "report_date": "2026-09-15",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-14T22:36:14.421742+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 260
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 93
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 48
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 506,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-09-14T19:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+          "published_at": "2026-09-14T19:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Accelerating Dropless MoE Training in JAX with NVIDIA Transformer Engine",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-14T16:39:23+00:00",
+      "summary": "Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE...",
+      "claims": [
+        "Mixture of experts (MoE) has become one of the defining architectural trends in large-scale AI model training. DeepSeek, Qwen, and Mixtral are examples of MoE..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine/",
+          "published_at": "2026-09-14T16:39:23+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "DevFest is back",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-09-14T16:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+          "published_at": "2026-09-14T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-14T12:00:00+00:00",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "claims": [
+        "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/fyxer",
+          "published_at": "2026-09-14T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-14T00:00:00+00:00",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "claims": [
+        "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "published_at": "2026-09-14T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11934v1 Announce Type: new Abstract: In networked dynamical systems, the parameter of primary mechanistic interest is signed interaction structure. Recovering this structure from perturbation time-series data is a fundamental identification problem, compounded by three coupled obstacles: the combinatorial complexity of interaction architectures, ambiguity of causal attribution under limited interventions, and state-dependent dynamics that confound structural inference. Each obstacle is structural in origin and calls for a structural solution. We address these challenges by adopting a reductionist approach, introducing Fundamental Dynamical Units (FDUs): signed three-node interaction patterns as composable primitives that convert the interaction hypothesis space into a finite, constructive, and tractable representation. We show that local interaction structure determines the perturbation conditions required to disentangle direct from relayed influence, making intervention design a structural consequence of the FDU representation. We embed FDU-regularized structural inference within a physics-informed neural ordinary differential equation (ODE) whose governing-equation constraint transforms structural hypotheses into verifiable dynamical predictions, enabling joint recovery of interaction structure and perturbation-resolved trajectories. Validated on synthetic benchmar",
+      "claims": [
+        "arXiv:2609.11934v1 Announce Type: new Abstract: In networked dynamical systems, the parameter of primary mechanistic interest is signed interaction structure. Recovering this structure from perturbation time-series data is a fundamental identification problem, compounded by three coupled obstacles: the combinatorial complexity of interaction architectures, ambiguity of causal attribution under limited interventions, and state-dependent dynamics that confound structural inference. Each obstacle is structural in origin and calls for a structural solution. We address these challenges by adopting a reductionist approach, introducing Fundamental Dynamical Units (FDUs): signed three-node interaction patterns as composable primitives that convert the interaction hypothesis space into a finite, constructive, and tractable representation. We show that local interaction structure determines the perturbation conditions required to disentangle direct from relayed influence, making intervention design a structural consequence of the FDU representation. We embed FDU-regularized structural inference within a physics-informed neural ordinary differential equation (ODE) whose governing-equation constraint transforms structural hypotheses into verifiable dynamical predictions, enabling joint recovery of interaction structure and perturbation-resolved trajectories. Validated on synthetic benchmar"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11934",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Physics-Informed Conformal Prediction: Embedding PDE Consistency into Distribution-Free Uncertainty Quantification for Neural Operators",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11935v1 Announce Type: new Abstract: Neural operators such as the Fourier Neural Operator (FNO) achieve remarkable accuracy in approximating solutions to partial differential equations (PDEs). However, providing rigorous uncertainty estimates remains an open challenge. We propose Physics-Informed Conformal Prediction (PI-CP), a framework that embeds PDE residuals into the nonconformity score of split conformal prediction, producing prediction intervals that are (i) distribution-free with provable coverage guarantees, and (ii) spatially adaptive when the PDE residual correlates with prediction error -- tighter where physics is well-satisfied, wider where it is violated. Additionally, we prove that FNO's translation equivariance creates a fundamental approximation barrier for PDEs with Dirichlet boundary conditions, and show that coordinate channels resolve this with up to 63x error reduction. We validate PI-CP across six physics scenarios -- heat conduction (2D/3D), structural mechanics (2D/3D), Darcy flow, and Navier-Stokes -- demonstrating consistent 89-91% coverage for all four Conformal methods, while MC Dropout and Deep Ensembles are unstable (82-100%). FNO outperforms CNN and DeepONet by 10-12x.",
+      "claims": [
+        "arXiv:2609.11935v1 Announce Type: new Abstract: Neural operators such as the Fourier Neural Operator (FNO) achieve remarkable accuracy in approximating solutions to partial differential equations (PDEs). However, providing rigorous uncertainty estimates remains an open challenge. We propose Physics-Informed Conformal Prediction (PI-CP), a framework that embeds PDE residuals into the nonconformity score of split conformal prediction, producing prediction intervals that are (i) distribution-free with provable coverage guarantees, and (ii) spatially adaptive when the PDE residual correlates with prediction error -- tighter where physics is well-satisfied, wider where it is violated. Additionally, we prove that FNO's translation equivariance creates a fundamental approximation barrier for PDEs with Dirichlet boundary conditions, and show that coordinate channels resolve this with up to 63x error reduction. We validate PI-CP across six physics scenarios -- heat conduction (2D/3D), structural mechanics (2D/3D), Darcy flow, and Navier-Stokes -- demonstrating consistent 89-91% coverage for all four Conformal methods, while MC Dropout and Deep Ensembles are unstable (82-100%). FNO outperforms CNN and DeepONet by 10-12x."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11935",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Fed-Equilibrium Framework for Topological Pareto Control in Robust and Fair Clinical Federated Learning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11937v1 Announce Type: new Abstract: The deployment of Federated Learning (FL) in multi-center clinical networks faces the challenge of \"knowledge dominance,\" where high-volume hubs naturally overwhelm minority community nodes, implicitly treating the distinct clinical patterns of smaller cohorts as outliers. Existing geometric defenses provide a security baseline but leave this efficiency-fairness dilemma unresolved. To bridge this gap, we propose Fed-Equilibrium, a framework that advances the paradigm from simple defense to topological equilibrium. Unlike traditional aggregators, Fed-Equilibrium implements a sequential architectural synergy. It utilizes a two-stage gradient control cascade: Stage I (geometric quality assurance) enforces directional consistency via a cosine similarity funnel to filter malicious noise, creating a stabilized manifold; Stage II (topological Pareto control) then actively modulates verified contributions by identifying the optimal Pareto knee point. We validated this framework on a bi-national simulation integrating Canadian (CNODES) and U.S. (SyntheticMass) registries. Experimental results demonstrate that the system simultaneously secures the network against adversarial divergence while accommodating underrepresented signals. Notably, the minority U.S. spoke (representing less than 3% of data volume) achieved deep convergence comparabl",
+      "claims": [
+        "arXiv:2609.11937v1 Announce Type: new Abstract: The deployment of Federated Learning (FL) in multi-center clinical networks faces the challenge of \"knowledge dominance,\" where high-volume hubs naturally overwhelm minority community nodes, implicitly treating the distinct clinical patterns of smaller cohorts as outliers. Existing geometric defenses provide a security baseline but leave this efficiency-fairness dilemma unresolved. To bridge this gap, we propose Fed-Equilibrium, a framework that advances the paradigm from simple defense to topological equilibrium. Unlike traditional aggregators, Fed-Equilibrium implements a sequential architectural synergy. It utilizes a two-stage gradient control cascade: Stage I (geometric quality assurance) enforces directional consistency via a cosine similarity funnel to filter malicious noise, creating a stabilized manifold; Stage II (topological Pareto control) then actively modulates verified contributions by identifying the optimal Pareto knee point. We validated this framework on a bi-national simulation integrating Canadian (CNODES) and U.S. (SyntheticMass) registries. Experimental results demonstrate that the system simultaneously secures the network against adversarial divergence while accommodating underrepresented signals. Notably, the minority U.S. spoke (representing less than 3% of data volume) achieved deep convergence comparabl"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11937",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Efficient AI Model Deployment Using Quantization Analysis Tool",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11954v1 Announce Type: new Abstract: As deep learning models are increasingly deployed on resource constrained devices, the demand for efficient model optimization techniques continues to grow. Effective deployment of AI models on edge and low power platforms requires optimization methods that reduce model size and computational cost while maintaining high accuracy. This paper presents Quantization Analysis Tool, a practical system designed to streamline quantization workflows and support performance efficient model deployment. Built on the ONNX framework for broad interoperability, the tool provides detailed layer-wise sensitivity analysis, visualization of weight and activation distributions, and insights to guide precision selection. By identifying layers that are resilient or sensitive to reduced precision, the tool enables developers to make informed trade-offs between model size, latency, and accuracy. Experimental evaluations across multiple neural network architectures demonstrate that the tool effectively improves the quantized accuracy, leading to improved efficiency in real-world deployment scenarios. The tool also provides developers valuable insights into the effects on quantization on the model and its accuracy. This work highlights the tools capabilities, practical applications, and its role in enabling efficient AI model deployment through robust quan",
+      "claims": [
+        "arXiv:2609.11954v1 Announce Type: new Abstract: As deep learning models are increasingly deployed on resource constrained devices, the demand for efficient model optimization techniques continues to grow. Effective deployment of AI models on edge and low power platforms requires optimization methods that reduce model size and computational cost while maintaining high accuracy. This paper presents Quantization Analysis Tool, a practical system designed to streamline quantization workflows and support performance efficient model deployment. Built on the ONNX framework for broad interoperability, the tool provides detailed layer-wise sensitivity analysis, visualization of weight and activation distributions, and insights to guide precision selection. By identifying layers that are resilient or sensitive to reduced precision, the tool enables developers to make informed trade-offs between model size, latency, and accuracy. Experimental evaluations across multiple neural network architectures demonstrate that the tool effectively improves the quantized accuracy, leading to improved efficiency in real-world deployment scenarios. The tool also provides developers valuable insights into the effects on quantization on the model and its accuracy. This work highlights the tools capabilities, practical applications, and its role in enabling efficient AI model deployment through robust quan"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11954",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Performance, Efficiency and Collapse -- Advantages and Challenges in Offline Post-training of Code LLMs",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11956v1 Announce Type: new Abstract: Post-training with reinforcement learning (RL) is a critical phase in the development of code-generating large language models (LLMs), as it ensures adherence to instructions and the production of functionally correct code. This process typically requires computationally intensive code sample generation from Transformer-based LLMs and substantial GPU-CPU communication for sequence verification. To address these computational challenges, this work examines whether RL-based post-training can be performed entirely offline by leveraging existing datasets rather than generating new samples. The findings indicate that, with only a few hours of training, zero-shot code generation performance of LLMs can be substantially improved without online sampling. Additionally, offline RL produces performance gains across models ranging from 0.5B to 7B parameters, although the extent of improvement varies among model families.",
+      "claims": [
+        "arXiv:2609.11956v1 Announce Type: new Abstract: Post-training with reinforcement learning (RL) is a critical phase in the development of code-generating large language models (LLMs), as it ensures adherence to instructions and the production of functionally correct code. This process typically requires computationally intensive code sample generation from Transformer-based LLMs and substantial GPU-CPU communication for sequence verification. To address these computational challenges, this work examines whether RL-based post-training can be performed entirely offline by leveraging existing datasets rather than generating new samples. The findings indicate that, with only a few hours of training, zero-shot code generation performance of LLMs can be substantially improved without online sampling. Additionally, offline RL produces performance gains across models ranging from 0.5B to 7B parameters, although the extent of improvement varies among model families."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11956",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Look Before You Leap: Pre-Action Verification for LLM Agents",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11957v1 Announce Type: new Abstract: An LLM agent acts on the world by emitting actions: shell commands to run, edits to apply. A wrong action does not always fail loudly; it can fail silently, producing a plausible but incorrect effect that raises no error. We argue that a cheap deterministic check, run before an action takes effect, is an effective and underused form of agent oversight, and we study it across two action modalities in one framework. The idea is to fix an action's correct effect by construction, before any executor runs, so that silent failure is measured directly and the verifier may abstain rather than guess. For shell commands, a static verifier over 9930 commands and 482 tools catches 95.8% of invalid commands at a 10.0% false-positive rate. Its syntax and binary checks are oracle-exact, giving zero false positives while catching half of all errors; the flag check is bounded only by help-text coverage and accounts for every false positive. For code edits, a benchmark of 640 edits over 224 files isolating the apply step exposes a sharp split. Content-anchored formats such as search/replace and diff fail cleanly, whereas location-anchored formats fail silently: line numbers corrupt 99.1% of files under a one-line shift, and function-name edits hit the wrong function 12.7% of the time. In both settings a refuse-when-unsure policy turns silent failur",
+      "claims": [
+        "arXiv:2609.11957v1 Announce Type: new Abstract: An LLM agent acts on the world by emitting actions: shell commands to run, edits to apply. A wrong action does not always fail loudly; it can fail silently, producing a plausible but incorrect effect that raises no error. We argue that a cheap deterministic check, run before an action takes effect, is an effective and underused form of agent oversight, and we study it across two action modalities in one framework. The idea is to fix an action's correct effect by construction, before any executor runs, so that silent failure is measured directly and the verifier may abstain rather than guess. For shell commands, a static verifier over 9930 commands and 482 tools catches 95.8% of invalid commands at a 10.0% false-positive rate. Its syntax and binary checks are oracle-exact, giving zero false positives while catching half of all errors; the flag check is bounded only by help-text coverage and accounts for every false positive. For code edits, a benchmark of 640 edits over 224 files isolating the apply step exposes a sharp split. Content-anchored formats such as search/replace and diff fail cleanly, whereas location-anchored formats fail silently: line numbers corrupt 99.1% of files under a one-line shift, and function-name edits hit the wrong function 12.7% of the time. In both settings a refuse-when-unsure policy turns silent failur"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11957",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Decoding Mixture Perception through Computational Modeling of Component Interactions",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11958v1 Announce Type: new Abstract: Olfaction played an indispensable role throughout human evolution and civilization. Even in the contemporary era of advanced technology, olfaction remains a critical channel for person to conduct danger discrimination, emotional experience, and memory formation. However, most substances in nature exist as multi-molecule mixtures. The complexity of mixture compositions, as well as concentration dependent saturation effects and receptor specific activation thresholds, pose substantial challenges in identifying olfactory characteristics. In this study, we proposed a novel bio inspired deep learning framework for accurate odor perception recognition of mixtures. We robustly constructed neural response curves for molecule-receptor interactions, and developed a fusion strategy that integrates attention-weighted multi-receptor curves with concentration-dependent multi-molecule curves, replicating the competitive activation and synergistic integration of mixture components. Furthermore, by comparing the consistency of response curve patterns, the model can transfer knowledge from the semantically rich space of molecular associations to guide recognition of mixture perception characteristics. Therefore, we established a complete computational pathway from chemical blending, neural encoding, to perceptual formation. Finally, we conducted co",
+      "claims": [
+        "arXiv:2609.11958v1 Announce Type: new Abstract: Olfaction played an indispensable role throughout human evolution and civilization. Even in the contemporary era of advanced technology, olfaction remains a critical channel for person to conduct danger discrimination, emotional experience, and memory formation. However, most substances in nature exist as multi-molecule mixtures. The complexity of mixture compositions, as well as concentration dependent saturation effects and receptor specific activation thresholds, pose substantial challenges in identifying olfactory characteristics. In this study, we proposed a novel bio inspired deep learning framework for accurate odor perception recognition of mixtures. We robustly constructed neural response curves for molecule-receptor interactions, and developed a fusion strategy that integrates attention-weighted multi-receptor curves with concentration-dependent multi-molecule curves, replicating the competitive activation and synergistic integration of mixture components. Furthermore, by comparing the consistency of response curve patterns, the model can transfer knowledge from the semantically rich space of molecular associations to guide recognition of mixture perception characteristics. Therefore, we established a complete computational pathway from chemical blending, neural encoding, to perceptual formation. Finally, we conducted co"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11958",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Space as an Interventional Invariant: Cross-Modal Predictive Geometry for Stratified Cities and Em-Spaced Intelligence",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-14T04:00:00+00:00",
+      "summary": "arXiv:2609.11959v1 Announce Type: new Abstract: Space is a foundational concept across mathematics, physics, spatial cognition, urban science, and embodied intelligence, yet these fields often treat spatial structure either as a shared geometric container or as a collection of disconnected representations. Such approaches struggle to explain how heterogeneous sensory and urban processes can jointly reveal a common spatial structure, particularly when different modalities do not share the same metric or representation. This paper addresses this gap by defining space as an interventional invariant: the minimal relational structure that preserves local compatibility and the conditional laws of future observations under admissible actions. We develop a cross-modal predictive geometry that integrates local state spaces, modality-specific observation maps, an action groupoid, and a canonical predictive-state quotient, with explicit causal conditions for identifying interventional rather than merely observational structure. The key theoretical result shows that, under joint point separation, equivariance, and interventional faithfulness, the latent space is identifiable up to the centraliser of the intervention group, thereby reducing representational ambiguity to residual coordinate freedom. The framework is further extended to stratified urban systems using sheaf-valued representati",
+      "claims": [
+        "arXiv:2609.11959v1 Announce Type: new Abstract: Space is a foundational concept across mathematics, physics, spatial cognition, urban science, and embodied intelligence, yet these fields often treat spatial structure either as a shared geometric container or as a collection of disconnected representations. Such approaches struggle to explain how heterogeneous sensory and urban processes can jointly reveal a common spatial structure, particularly when different modalities do not share the same metric or representation. This paper addresses this gap by defining space as an interventional invariant: the minimal relational structure that preserves local compatibility and the conditional laws of future observations under admissible actions. We develop a cross-modal predictive geometry that integrates local state spaces, modality-specific observation maps, an action groupoid, and a canonical predictive-state quotient, with explicit causal conditions for identifying interventional rather than merely observational structure. The key theoretical result shows that, under joint point separation, equivariance, and interventional faithfulness, the latent space is identifiable up to the centraliser of the intervention group, thereby reducing representational ambiguity to residual coordinate freedom. The framework is further extended to stratified urban systems using sheaf-valued representati"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.11959",
+          "published_at": "2026-09-14T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antropic, the developer of the artificial intelligence (AI) model \"Claude,\" will pursue a listing on.. - 매일경제",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-14T20:52:36+00:00",
+      "summary": "Antropic, the developer of the artificial intelligence (AI) model \"Claude,\" will pursue a listing on.. 매일경제",
+      "claims": [
+        "Antropic, the developer of the artificial intelligence (AI) model \"Claude,\" will pursue a listing on.. 매일경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tbXVJYWxPSkRzdFVyNTlyVzN0Rk5ldDhza3JsYWNMSzE3OXYxYTdnZW5FWE9zZ1pINTBBTHQtUC0ybU1yR3pUaUNiU2NDQ28?oc=5",
+          "published_at": "2026-09-14T20:52:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Anthropic CEO’s plan raises concerns for Qwen, Llama, Mistral builders - cryptobriefing.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-14T20:05:52+00:00",
+      "summary": "Anthropic CEO’s plan raises concerns for Qwen, Llama, Mistral builders cryptobriefing.com",
+      "claims": [
+        "Anthropic CEO’s plan raises concerns for Qwen, Llama, Mistral builders cryptobriefing.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HdTNoNWFTNGpfci1SQTlQUVJsNkZjQ2kwVXc0MmZESnJ2bEFuaU5vNmw1bFNYMkFFRjVJQzRiZHV6V2Uwb1NHV2VDTXVHbkdMOFlhdTBjYVFoSDVwSGt2NzF3QmE1bkFUV1lNMHhuTjVfYTJVRUM3a0d3?oc=5",
+          "published_at": "2026-09-14T20:05:52+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic faces scrutiny over AI rules, data practices - The Express Tribune",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-14T19:37:53+00:00",
+      "summary": "Anthropic faces scrutiny over AI rules, data practices The Express Tribune",
+      "claims": [
+        "Anthropic faces scrutiny over AI rules, data practices The Express Tribune"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb2sxc21VdnZnU09TODFGTzdXRkY1Z1dXdHY4ajBYZzRiNVYyMFVIYmxHQW9qYWVsQk1ZaWVEUkJtbHA0T2JsSHRmemlvTzFsRU43SFJncFZ6dzBVOERUalN6MjdPYWwtR056U3ZjU0VDVzJERllPcWdBNURIcmlNakRDS3JvM0VqdlRXTE5VbDJPZ0Yy?oc=5",
+          "published_at": "2026-09-14T19:37:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "F1 Review: Kimi Antonelli Conquers the Madring to Win Dreary Spanish Grand Prix - Frontstretch",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-14T19:04:24+00:00",
+      "summary": "F1 Review: Kimi Antonelli Conquers the Madring to Win Dreary Spanish Grand Prix Frontstretch",
+      "claims": [
+        "F1 Review: Kimi Antonelli Conquers the Madring to Win Dreary Spanish Grand Prix Frontstretch"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOalhSeDBtWlBDQUNfTXhrWnRWT1pzeFlPSlpHcU1HUHRXbEJqN0Jyam1VdlZyQXlxaXZlTVRzR0hNWFI3MUdNdFFvclVQWDFGY3lFalZyOFlqNWs1Z2ZiUnlzUG1Rc21YeHZkQVNfcUhVa0toUmN4bGNQVU0tVTFrYWpnWGw1U0RrSVY3SjJOeGR0R0tvaGJPYjdrMU9xREVxd1JvblFnRVE?oc=5",
+          "published_at": "2026-09-14T19:04:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli's \"Le Grand 8\" is featured on the cover of AUTOhebdo issue #2579. - autohebdof1.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-14T18:07:55+00:00",
+      "summary": "Kimi Antonelli's \"Le Grand 8\" is featured on the cover of AUTOhebdo issue #2579. autohebdof1.com",
+      "claims": [
+        "Kimi Antonelli's \"Le Grand 8\" is featured on the cover of AUTOhebdo issue #2579. autohebdof1.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbW9Fa3FKN05tZl9Rdk1lOV8xUTA0NmxuR3lUOHlzNzFVSlY1aEkxUlU4ZVVzcnFHUWhWYW5iUEVMaEVEX1MtU0VkajZVRXl4b0hzV3phcTFIWGF4Rmg2RWltLXdlV2htYVBaNHNFdmU4V2VnNDk2dmk0VWhHakhMRFFWVlNsdW5VT1h5a1dFTUFUbTNXaHI4WmgwcUxqSG1QbEt4VFpWR09Xai1PZUdnQ3AtZ1VNQmZKdFppSU5YenpNTGNmN1E0TDRCR1lRa1Nr?oc=5",
+          "published_at": "2026-09-14T18:07:55+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lewis Hamilton and Nico Rosberg reach the same conclusion after Kimi Antonelli wins in Madrid - Scuderia Ferrari Fans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-14T18:06:15+00:00",
+      "summary": "Lewis Hamilton and Nico Rosberg reach the same conclusion after Kimi Antonelli wins in Madrid Scuderia Ferrari Fans",
+      "claims": [
+        "Lewis Hamilton and Nico Rosberg reach the same conclusion after Kimi Antonelli wins in Madrid Scuderia Ferrari Fans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSG9aXzZ6QkQtbVFrcWNEWnNWLW1za2MyMG1NWVlSclRaTktweGc2M0ZUU0o1WjUyQU0zSy1GUkNrUDU5RmRXdDNDYUU1bVNOYjVLWXVfTDRqc3E0eFFvYjVaY09lM0xJQ0FLbXRweXgwOFkxT2JtaGJsYXhtT0pMSHB1cTViMFlhUE41aHktWXFESFRQd3RZWE9PMHRxMm12eGN4c05wdDVUam9heXdILXNyS1pKWkhyNEZj?oc=5",
+          "published_at": "2026-09-14T18:06:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mercedes’ Kimi Antonelli makes Lando Norris admission after 'lucky' Spanish GP victory - Banbury Guardian",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-14T18:05:00+00:00",
+      "summary": "Mercedes’ Kimi Antonelli makes Lando Norris admission after 'lucky' Spanish GP victory Northampton Chronicle and Echo",
+      "claims": [
+        "Mercedes’ Kimi Antonelli makes Lando Norris admission after 'lucky' Spanish GP victory Banbury Guardian",
+        "Mercedes’ Kimi Antonelli makes Lando Norris admission after 'lucky' Spanish GP victory Northampton Chronicle and Echo"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYXQ0NzdrSm1tQU5WUVhZbzBFSDFZOF9obGVSLVdpQ01Xa2xfVkJnNHhVNktjR09xMjY0QjJZamVYLWkxRlRUU2RlOHlnVjRWTHBuZEUtcVBaU1pNMmdybW45ZWdkWjJORFZGbmlQR19pUnhVV1RqNG5MbmpqNGdwRmt2cWdxZ3kxRlVVandES21QMERTWV9zTlc1UlpYdDg1ZzNGdUE5YUpCNmxGQ3lSRC1uLWs2MEs3R2xQR1gwNUFCQzBkNFB2YjJfdHM1azhnekt0MldSbG5GZFE?oc=5",
+          "published_at": "2026-09-14T18:05:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPY2x2SHBMZm5meVNYM2NyZlRuLVlIN3pEcklvbnFTVUlyTkpsZHJTTWdaVWVZN0RNMU1TMDVkNkFxY3JyRTk5aV91a3A0NnRDa3VWQkljQkNhTnVNWVNTVTMwUGY4U0ZOZDlDdzdmQmpDaHdxSkItUDVoakI3MFlWSkFYZm9HMTc4U29jaTdwYXdhX1F5Ukw5UF9uZWVBX1REb0k4dEpyRG5VRUhGemJSUUxMNnlDZDFqUjhWX1pkb1hXY25Yei12UEc5dGVzMWZ6NndIN2wxdU9mazVp?oc=5",
+          "published_at": "2026-09-14T18:05:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO - The Economic Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-14T17:30:14+00:00",
+      "summary": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO The Economic Times",
+      "claims": [
+        "China's DeepSeek hires dealmaker as CFO ahead of possible IPO The Economic Times",
+        "China's DeepSeek hires dealmaker as CFO ahead of possible IPO Reuters",
+        "China's DeepSeek hires dealmaker as CFO ahead of possible IPO TradingView"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWThyWk1EOXZfTHFxa0pieEdBdUJvZnFCNHdwcnFMSlJsODhHTEFjMEZRMHF2ZXVxYkNRX3VNZEQ0RkZMelBxTnpCdURWbUJpVHdDRy1oSlJIVTZodDExTE5LUWRRSHRFRG9DTzlZOVlJOC15S3RkLUgtcURTWlRTdW5IMXZjOWxWc0w3djNRRjhxR0dfMjlrNU91NlpEQVdLQVRBNENkTnZBb1lIcUJiS2FkQWZxZUI1cm9iOFQ0UjdQSzNOdldhbG1FcDhYeU5OeWhFSDFfWmtqUnNvN0p6NzNlRHpfRTTSAeABQVVfeXFMTWg2MlNaU0IzdWIyMUJqemQ3STRGUHB0UmFEMkU5UFF5WE1HdktOOFIwMkNoQjZTZDZUQW5VVlFJUVpqdWVkR0l6eVZnMEdfbUwwWVhIOVd3TkoxVDZEOWZ6aUpPYnpzMHJXTHpkeklONGtVbkpYQmg0aWdUOGZLLXZqZWd5NllIdTFEU1l3dU50bmtUVXhyeTBjN29CUEZGNTM3Sl9jWUNQVXFPRW96Nl9YNVY5Y3NJa2tVNTJfYU9oWjFyRVhGZThGOXp4M25DRHJNdi1XTVctc3piYnVGSjU?oc=5",
+          "published_at": "2026-09-14T17:30:14+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHdQbHZseE9aRy1MVkFWYnNwZXFwZVFKZnU4dWRLSlpjeC1aTmRUdWYxUFhaMGNFd0ZRb3dMdHUwdnFUNnJENkZfRE42X2pxOEllNFlSaElvbUY0eEU4ei12UF90MmxScmdxNkdGeWRicU1FUmlWZTJCNjB1WXNoaXlfQ1hDdS05UV9KLUZ2bWFhY0lQU0FNQ0R4WmI4d1VHc3l4Sk9mZTFjTm8?oc=5",
+          "published_at": "2026-09-14T16:37:13+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTnl4eHdMdWJ1b3JoRGNpSUFYU0xtd1kxQ1FYMHNRRDliRHNrOVp3TmhzbWwtTTNmSWxxNHhDd2FXa25MaUc0X1NoTUd1RXEweE9xN0ZjbW5TQVItUk14d255NmdPX0pTYUZiNmpnZTQ2ZE5PazdTNXJST0ZPdmlaQjhsNGlOY3dpblV1UmY0T2FGRThIN2hHMlljUWFzSGY1UGt0Y3F6VFc4QUJadWdhcFd4MURQYVhGSWdfbU5ycE04bkVTaloyR19qZw?oc=5",
+          "published_at": "2026-09-14T16:31:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI Forms Its Own Hypotheses and Makes New Discoveries... Who Wins the Nobel Prize? [125 Years of the Nobel Prize Era] ② - 아시아경제",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-14T21:30:00+00:00",
+      "summary": "AI Forms Its Own Hypotheses and Makes New Discoveries... Who Wins the Nobel Prize? [125 Years of the Nobel Prize Era] ② 아시아경제",
+      "claims": [
+        "AI Forms Its Own Hypotheses and Makes New Discoveries... Who Wins the Nobel Prize? [125 Years of the Nobel Prize Era] ② 아시아경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uLXVCTlVwQVBhemRsbVYwZXVKSll0bE1HSDZyMUlHU0lBVTAwaWwyelljZVctVTcyTkNBcDYtUU04SFVrQk8yNnBoYmpjVy13YmpHbUV0bXBRWjJ6WTR6czFHYjA?oc=5",
+          "published_at": "2026-09-14T21:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI tool successfully predicts outcomes of immunotherapy in lung cancer - Medical Xpress",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-14T20:40:20+00:00",
+      "summary": "AI tool successfully predicts outcomes of immunotherapy in lung cancer Medical Xpress",
+      "claims": [
+        "AI tool successfully predicts outcomes of immunotherapy in lung cancer Medical Xpress"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONy1YMV91eEVDTzdWa1RpMndKa1hJc0YwWEtTOU9JZEtIeEt4REsyeW5PWEQ4SGRQb0VGU2JMS0diMnFwQkxhT3dKa3NHWjMwWGRqc1IxQ3cxMHlITUNVQnBwcmg4Z1RralhTUGhFQ1JYV2M5ZlpPalBCb1RyZWhPXzExdXRVMFZNdnJaQi05THk?oc=5",
+          "published_at": "2026-09-14T20:40:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI’s biggest players want to slow down the race over fears of losing control - WBFF",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-14T19:33:51+00:00",
+      "summary": "AI’s biggest players want to slow down the race over fears of losing control WBFF",
+      "claims": [
+        "AI’s biggest players want to slow down the race over fears of losing control WBFF"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQX1ZaOGRDbUVyWkQ3WnZUYkgwY1lZQ3ZjUmViQTkyb2xlN21ERlBIeXZOWXpGNjd4RGJZWnN1YUxBcjVqWjJiOUZHRFJ3Ny1aNC1BN2FYTXpKMlRWanp2YUk2SU1LaGFxUVV5RjZuM0IyeXVXY184NXpndm1jTnMxUEluQ05OZ2U5Qm9nSU9sOXZrazFBSHBzbE9VZjg5UHJVclVZZlBXelM1ckd4ejM2aGxtVFdDejdxV0lzUlBueGoxY2dsaVR4ZXI5Q2t0N216c2RQNHZaOE9WdkRrWGZlc242RU9kakN6RXY1Z0JKdHNFcTZVNWRfQ21pVmRpNkFpcWlyYVh4cjlWdHZl?oc=5",
+          "published_at": "2026-09-14T19:33:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
