@@ -1,0 +1,933 @@
+{
+  "report_date": "2026-09-16",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-15T22:21:19.410421+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5574, column 506"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "no element found: line 5722, column 1043"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 187
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 56
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 67
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 324,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-09-15T20:00:35+00:00",
+      "summary": "Algorithms & Theory",
+      "claims": [
+        "Algorithms & Theory"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+          "published_at": "2026-09-15T20:00:35+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-15T17:06:22+00:00",
+      "summary": "Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize...",
+      "claims": [
+        "Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
+          "published_at": "2026-09-15T17:06:22+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-15T17:00:18+00:00",
+      "summary": "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the larger model? Nemotron 3.5 Lightning illustrates the...",
+      "claims": [
+        "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the larger model? Nemotron 3.5 Lightning illustrates the..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/",
+          "published_at": "2026-09-15T17:00:18+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-15T16:42:44+00:00",
+      "summary": "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster...",
+      "claims": [
+        "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
+          "published_at": "2026-09-15T16:42:44+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-09-15T16:00:44+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "published_at": "2026-09-15T16:00:44+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI for Societal Impact",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-09-15T16:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+          "published_at": "2026-09-15T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Building AI to accelerate science and improve lives",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-09-15T16:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+          "published_at": "2026-09-15T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI for everyone in every language",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-09-15T16:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+          "published_at": "2026-09-15T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Seeing What the Vehicle Sees: Video-Augmented Virtual Reality for Physical Autonomous Vehicles",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13224v1 Announce Type: new Abstract: Autonomous vehicles are expected to improve road safety and efficiency, but passengers often remain uncertain about what the vehicle perceives and why it acts as it does. Virtual reality (VR) offers a safe and repeatable medium for presenting this information, yet most passenger-facing VR studies rely on fully simulated vehicles or pre-scripted scenarios, so the motion and perception shown to the user do not originate from a physically operating autonomous system. This paper presents a video-augmented VR framework that couples a physical ROS 2 autonomous robot vehicle to a Unity 6 application deployed on a Meta Quest 3S headset. The vehicle state and live onboard camera stream are transmitted over two independent communication channels, allowing the virtual vehicle to mirror the physical robot's motion while the passenger simultaneously views the vehicle's first-person camera feed and its navigation decisions through an in-vehicle dashboard interface. We evaluate the framework over 20 repeated closed-loop navigation trials. The system achieves a mean state-update latency of 29.63 ms, a mean relative route-progress error of 2.28% between the physical and virtual vehicles, and video delivery at 10.006 frames per second with 0.25% frame loss. All monitored navigation decisions were correctly reflected in the VR interface with no miss",
+      "claims": [
+        "arXiv:2609.13224v1 Announce Type: new Abstract: Autonomous vehicles are expected to improve road safety and efficiency, but passengers often remain uncertain about what the vehicle perceives and why it acts as it does. Virtual reality (VR) offers a safe and repeatable medium for presenting this information, yet most passenger-facing VR studies rely on fully simulated vehicles or pre-scripted scenarios, so the motion and perception shown to the user do not originate from a physically operating autonomous system. This paper presents a video-augmented VR framework that couples a physical ROS 2 autonomous robot vehicle to a Unity 6 application deployed on a Meta Quest 3S headset. The vehicle state and live onboard camera stream are transmitted over two independent communication channels, allowing the virtual vehicle to mirror the physical robot's motion while the passenger simultaneously views the vehicle's first-person camera feed and its navigation decisions through an in-vehicle dashboard interface. We evaluate the framework over 20 repeated closed-loop navigation trials. The system achieves a mean state-update latency of 29.63 ms, a mean relative route-progress error of 2.28% between the physical and virtual vehicles, and video delivery at 10.006 frames per second with 0.25% frame loss. All monitored navigation decisions were correctly reflected in the VR interface with no miss"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13224",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13231v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but existing fine-tuning methods provide limited safety guarantees. Current approaches primarily rely on Lagrangian optimization that enforces safety through soft penalties on expected cumulative cost, often resulting in residual constraint violations or overly conservative behavior. Moreover, learning safety in visual domains is challenging due to the absence of dense per-step safety annotations. We propose ShieldVLA, a safety-aligned fine-tuning framework for VLA models based on Hamilton-Jacobi (HJ) reachability. ShieldVLA learns a model-free approximation of the HJ reachability value function directly from visual observations to estimate the safe operating region. The learned safety critic gates policy optimization by separating reward maximization within feasible regions from recovery near unsafe states, avoiding persistent reward-cost trade-offs. To enable scalable supervision in visual environments, we introduce rubric-based VLM safety scores that convert semantic safety feedback into structured critic targets without requiring manual cost labels. Across five navigation and manipulation benchmarks spanning multiple VLA backbones, ShieldVLA reduces cumulative safety cost by 57% on average and improves task success rat",
+      "claims": [
+        "arXiv:2609.13231v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but existing fine-tuning methods provide limited safety guarantees. Current approaches primarily rely on Lagrangian optimization that enforces safety through soft penalties on expected cumulative cost, often resulting in residual constraint violations or overly conservative behavior. Moreover, learning safety in visual domains is challenging due to the absence of dense per-step safety annotations. We propose ShieldVLA, a safety-aligned fine-tuning framework for VLA models based on Hamilton-Jacobi (HJ) reachability. ShieldVLA learns a model-free approximation of the HJ reachability value function directly from visual observations to estimate the safe operating region. The learned safety critic gates policy optimization by separating reward maximization within feasible regions from recovery near unsafe states, avoiding persistent reward-cost trade-offs. To enable scalable supervision in visual environments, we introduce rubric-based VLM safety scores that convert semantic safety feedback into structured critic targets without requiring manual cost labels. Across five navigation and manipulation benchmarks spanning multiple VLA backbones, ShieldVLA reduces cumulative safety cost by 57% on average and improves task success rat"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13231",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Harnessing human expertise for high-precision robotic assembly in industrialized construction: A sample-efficient installer-in-the-loop interactive reinforcement learning framework",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13234v1 Announce Type: new Abstract: Industrialized construction imposes stringent precision requirements on robotic assembly of modular components such as prefabricated window units. In tolerance-critical operations, the central bottleneck is not only mechanical clearance but also converting tacit installer expertise into data-efficient autonomy under sparse acceptance feedback, contact variability, and millimeter-scale constraints. We present an installer-in-the-loop interactive reinforcement learning framework that acquires expertise through offline teleoperated demonstrations, sparse event-driven binary takeovers at contact-failure boundaries, and acceptance-aligned terminal rewards, logged under a unified schema for traceable offline-to-online adaptation. A temporally abstract action-sequence policy built on Q-chunking with Flow Q-Learning captures multimodal recovery maneuvers under sparse terminal rewards, while a non-updating warm-start phase stabilizes the offline-to-online transition. The framework is evaluated in MuJoCo across the workflow from suction acquisition through clearance-limited seating, under structured staging and end-to-end randomized placement. Within a defined stress-test regime with 2 mm per-side clearance, bounded pose perturbations, and friction randomization, the pipeline attains 100\\% autonomous seating with 12--15 min of cumulative in",
+      "claims": [
+        "arXiv:2609.13234v1 Announce Type: new Abstract: Industrialized construction imposes stringent precision requirements on robotic assembly of modular components such as prefabricated window units. In tolerance-critical operations, the central bottleneck is not only mechanical clearance but also converting tacit installer expertise into data-efficient autonomy under sparse acceptance feedback, contact variability, and millimeter-scale constraints. We present an installer-in-the-loop interactive reinforcement learning framework that acquires expertise through offline teleoperated demonstrations, sparse event-driven binary takeovers at contact-failure boundaries, and acceptance-aligned terminal rewards, logged under a unified schema for traceable offline-to-online adaptation. A temporally abstract action-sequence policy built on Q-chunking with Flow Q-Learning captures multimodal recovery maneuvers under sparse terminal rewards, while a non-updating warm-start phase stabilizes the offline-to-online transition. The framework is evaluated in MuJoCo across the workflow from suction acquisition through clearance-limited seating, under structured staging and end-to-end randomized placement. Within a defined stress-test regime with 2 mm per-side clearance, bounded pose perturbations, and friction randomization, the pipeline attains 100\\% autonomous seating with 12--15 min of cumulative in"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13234",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Learning Manipulation-Sufficient Representations via Outcome Bottlenecks",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13235v1 Announce Type: new Abstract: Networked manipulation endpoints couple perception to actuation across compute- and bandwidth-limited links, yet commonly exchange dense geometric states optimized for fidelity rather than action outcomes. A stochastic representation is learned with a policy-free, action-conditioned outcome bottleneck: marginal outcome log-loss supplies distortion and a KL term regularizes rate. The construction is motivated by the minimal statistic that preserves the outcome distribution of every admissible action, while the implemented finite model is evaluated as a rate-regularized mixture predictor. The same encoder and outcome head support grasp selection, singleton conformal filtering, active viewpoint selection, and latent test-time adaptation. A finite-probe theorem identifies the local level-set tangent space with the null space of an outcome Jacobian. The synthetic oracle verifies this result; on scanned objects, an analytic surrogate agrees with measured simulator invariances within \\(0.56^\\circ\\). Across 11,979 simulated grasps on 13 objects, a reconstructed-geometry wrench score attains 0.542 AUC against lift success and falls below chance on curved objects, while our representation attains 0.876. At 25\\% commitment, executed-grasp success is 0.503 versus 0.984. The 512-byte interface is \\(288\\times\\) smaller than one RGB-D frame and ",
+      "claims": [
+        "arXiv:2609.13235v1 Announce Type: new Abstract: Networked manipulation endpoints couple perception to actuation across compute- and bandwidth-limited links, yet commonly exchange dense geometric states optimized for fidelity rather than action outcomes. A stochastic representation is learned with a policy-free, action-conditioned outcome bottleneck: marginal outcome log-loss supplies distortion and a KL term regularizes rate. The construction is motivated by the minimal statistic that preserves the outcome distribution of every admissible action, while the implemented finite model is evaluated as a rate-regularized mixture predictor. The same encoder and outcome head support grasp selection, singleton conformal filtering, active viewpoint selection, and latent test-time adaptation. A finite-probe theorem identifies the local level-set tangent space with the null space of an outcome Jacobian. The synthetic oracle verifies this result; on scanned objects, an analytic surrogate agrees with measured simulator invariances within \\(0.56^\\circ\\). Across 11,979 simulated grasps on 13 objects, a reconstructed-geometry wrench score attains 0.542 AUC against lift success and falls below chance on curved objects, while our representation attains 0.876. At 25\\% commitment, executed-grasp success is 0.503 versus 0.984. The 512-byte interface is \\(288\\times\\) smaller than one RGB-D frame and "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13235",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Self-Evolving AI for Humanoids: Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13236v1 Announce Type: new Abstract: Humanoid robots are becoming an important part of embodied artificial intelligence, driven by advances in reinforcement learning for locomotion, world models for prediction, and vision-language-action models for general control. However, most of these systems remain static after deployment. A policy is trained offline for a fixed objective and then frozen, even though the tasks, environments, and robot bodies keep drifting over time. An emerging paradigm of self-evolving agents aims to address this problem by allowing systems to improve from their own post-deployment experience. Since most existing studies focus on disembodied software agents, this survey examines how self-evolution changes when an agent has a physical body. We first define self-evolution for humanoids and represent a deployed robot using a state tuple that includes its policy, perception, memory, workflow, and body. This state is updated by an evolution operator in a slow outer loop with a lifelong objective. We then organize the literature into four complementary mechanisms of self-evolution, presented in increasing order of autonomy: self-learning, self-adaptation, self-optimization, and self-generation. Since changes to a humanoid can introduce physical hazards, we treat safety and uncertainty as key design dimensions of the evolution operator, and further for",
+      "claims": [
+        "arXiv:2609.13236v1 Announce Type: new Abstract: Humanoid robots are becoming an important part of embodied artificial intelligence, driven by advances in reinforcement learning for locomotion, world models for prediction, and vision-language-action models for general control. However, most of these systems remain static after deployment. A policy is trained offline for a fixed objective and then frozen, even though the tasks, environments, and robot bodies keep drifting over time. An emerging paradigm of self-evolving agents aims to address this problem by allowing systems to improve from their own post-deployment experience. Since most existing studies focus on disembodied software agents, this survey examines how self-evolution changes when an agent has a physical body. We first define self-evolution for humanoids and represent a deployed robot using a state tuple that includes its policy, perception, memory, workflow, and body. This state is updated by an evolution operator in a slow outer loop with a lifelong objective. We then organize the literature into four complementary mechanisms of self-evolution, presented in increasing order of autonomy: self-learning, self-adaptation, self-optimization, and self-generation. Since changes to a humanoid can introduce physical hazards, we treat safety and uncertainty as key design dimensions of the evolution operator, and further for"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13236",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "GzDRL: Reproducible and Scalable Deep Reinforcement Learning with Gazebo",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13243v1 Announce Type: new Abstract: We present GzDRL, a novel single-process reinforcement learning (RL) framework for Gazebo that overcomes longstanding bottlenecks in scalable, reproducible robotics experimentation. Unlike conventional middleware-based RL-Gazebo integrations that suffer from nondeterminism and irreproducibility, GzDRL introduces a systematic, middleware-free environment-stepping mechanism that directly synchronizes agent actions and physics updates. This design enables deterministic, high-throughput data collection, efficient vectorization, and reproducible RL training and evaluation. Comprehensive benchmarks demonstrate that GzDRL achieves the highest workstation throughput among the evaluated frameworks while remaining competitive with GPU-accelerated simulators on laptop hardware, and maintains precise agent-environment synchronization, multi-agent scalability, and experiment-level reproducibility. We further validate sim-to-real transfer by deploying learned policies directly onto a physical quadrotor, without fine-tuning. Our results establish GzDRL as an accessible and reproducible platform for advancing RL in robotics and automation.",
+      "claims": [
+        "arXiv:2609.13243v1 Announce Type: new Abstract: We present GzDRL, a novel single-process reinforcement learning (RL) framework for Gazebo that overcomes longstanding bottlenecks in scalable, reproducible robotics experimentation. Unlike conventional middleware-based RL-Gazebo integrations that suffer from nondeterminism and irreproducibility, GzDRL introduces a systematic, middleware-free environment-stepping mechanism that directly synchronizes agent actions and physics updates. This design enables deterministic, high-throughput data collection, efficient vectorization, and reproducible RL training and evaluation. Comprehensive benchmarks demonstrate that GzDRL achieves the highest workstation throughput among the evaluated frameworks while remaining competitive with GPU-accelerated simulators on laptop hardware, and maintains precise agent-environment synchronization, multi-agent scalability, and experiment-level reproducibility. We further validate sim-to-real transfer by deploying learned policies directly onto a physical quadrotor, without fine-tuning. Our results establish GzDRL as an accessible and reproducible platform for advancing RL in robotics and automation."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13243",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Physical Kernel: Structured Visual Latents for Dark Manipulation",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13244v1 Announce Type: new Abstract: We study dark manipulation: after a brief lit Write encodes z0 = Enc(rgb), a policy pi(z) and open-loop dynamics f(z,a) complete contact-rich skills without further pixels (dark_f). On ManiSkill StackCube (n=160; seed packs 0/1000), dark_f attains 68.1% stacked on the five-rung chain (near_A -> grasped -> lifted -> on_B -> stacked), compared with 35.6% for per-step lit_reenc and 0% for freeze/encode_black. On a shared Write->HOLD protocol (n=40), occlusion and camera-aligned GT contact-neighbor masks drive lit lift from 43% to 0%, while dark_f holds 82.5%; shuffling actions inflates dynamics MSE by ~9.4x; write-time appearance shifts break encoding (night: 0% stacked), yet the same shifts during HOLD leave dark_f lift unchanged; Write length Tw is flat once the stop phase is reached, while earlier stops and write-time blur/JPEG sharply cut stacked. A dedicated pi_write reaches 35% vision-budget stacked (n=80); matched Dreamer-style/pixel nulls without privileged geom stay at 0%. Privileged state-RSSM MPC reaches ~35% stacked with 9D dark observations -- a stronger-observation null, not a matched visual baseline.",
+      "claims": [
+        "arXiv:2609.13244v1 Announce Type: new Abstract: We study dark manipulation: after a brief lit Write encodes z0 = Enc(rgb), a policy pi(z) and open-loop dynamics f(z,a) complete contact-rich skills without further pixels (dark_f). On ManiSkill StackCube (n=160; seed packs 0/1000), dark_f attains 68.1% stacked on the five-rung chain (near_A -> grasped -> lifted -> on_B -> stacked), compared with 35.6% for per-step lit_reenc and 0% for freeze/encode_black. On a shared Write->HOLD protocol (n=40), occlusion and camera-aligned GT contact-neighbor masks drive lit lift from 43% to 0%, while dark_f holds 82.5%; shuffling actions inflates dynamics MSE by ~9.4x; write-time appearance shifts break encoding (night: 0% stacked), yet the same shifts during HOLD leave dark_f lift unchanged; Write length Tw is flat once the stop phase is reached, while earlier stops and write-time blur/JPEG sharply cut stacked. A dedicated pi_write reaches 35% vision-budget stacked (n=80); matched Dreamer-style/pixel nulls without privileged geom stay at 0%. Privileged state-RSSM MPC reaches ~35% stacked with 9D dark observations -- a stronger-observation null, not a matched visual baseline."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13244",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Conflict-Predictive Variable Horizons in Multi-Drone Distributed Model Predictive Control",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-15T04:00:00+00:00",
+      "summary": "arXiv:2609.13270v1 Announce Type: new Abstract: In distributed model predictive control for multi-drone collision avoidance, a fixed prediction horizon forces a compromise: a short horizon is inexpensive but reacts late to approaching neighbors, whereas a long one anticipates conflicts at a per-step cost that grows superlinearly with its length. We propose a conflict-predictive variable horizon that each drone sets locally, leaving the distributed model predictive control itself unchanged. From a short history of observed positions, a drone extrapolates the flight lines of its neighbors, tests each against its own using confidence funnels that narrow with prediction range, and obtains each time to conflict in closed form. The horizon is then the smallest admissible value whose planning window covers the farthest predicted conflict. It collapses to its minimum in clear airspace and grows only when a conflict lies ahead. Provided this minimum meets a single computable feasibility bound, we prove that recursive feasibility and asymptotic stability are preserved for every horizon the policy can select. These guarantees hold for a linear model, and a cascaded inner loop reduces each quadrotor's translational dynamics to a perturbed double integrator, so they carry over to the linearized quadrotor model and, as practical stability, to the full nonlinear one. In simulation on dense an",
+      "claims": [
+        "arXiv:2609.13270v1 Announce Type: new Abstract: In distributed model predictive control for multi-drone collision avoidance, a fixed prediction horizon forces a compromise: a short horizon is inexpensive but reacts late to approaching neighbors, whereas a long one anticipates conflicts at a per-step cost that grows superlinearly with its length. We propose a conflict-predictive variable horizon that each drone sets locally, leaving the distributed model predictive control itself unchanged. From a short history of observed positions, a drone extrapolates the flight lines of its neighbors, tests each against its own using confidence funnels that narrow with prediction range, and obtains each time to conflict in closed form. The horizon is then the smallest admissible value whose planning window covers the farthest predicted conflict. It collapses to its minimum in clear airspace and grows only when a conflict lies ahead. Provided this minimum meets a single computable feasibility bound, we prove that recursive feasibility and asymptotic stability are preserved for every horizon the policy can select. These guarantees hold for a linear model, and a cascaded inner loop reduces each quadrotor's translational dynamics to a perturbed double integrator, so they carry over to the linearized quadrotor model and, as practical stability, to the full nonlinear one. In simulation on dense an"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.13270",
+          "published_at": "2026-09-15T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Why a DeepSeek Engineer Is Helping AI Replace Him - geopolitechs.org",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-15T21:26:21+00:00",
+      "summary": "Why a DeepSeek Engineer Is Helping AI Replace Him geopolitechs.org",
+      "claims": [
+        "Why a DeepSeek Engineer Is Helping AI Replace Him geopolitechs.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BVmctb2EtSThFNU9HYURHNVRfTXJGT0NQQm04QlFxcUszVTJlMlJmWHd2N2MtTDlfMXozOEJ0RHRqVnNodG5pa0NQVU51T2U4SFN1M1F4bWJnRkNlQ2NVNGQ0MUZQWjZKb0wtejZxRFdHT0E?oc=5",
+          "published_at": "2026-09-15T21:26:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash & Hermes Boosted Resident Evil 7 Performance By 50% On A 4-Year-Old Smartphone With Upscaling And Reducing Textures By 68% Without Quality Loss - Wccftech",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-15T18:58:31+00:00",
+      "summary": "DeepSeek-V4.1-Flash & Hermes Boosted Resident Evil 7 Performance By 50% On A 4-Year-Old Smartphone With Upscaling And Reducing Textures By 68% Without Quality Loss Wccftech",
+      "claims": [
+        "DeepSeek-V4.1-Flash & Hermes Boosted Resident Evil 7 Performance By 50% On A 4-Year-Old Smartphone With Upscaling And Reducing Textures By 68% Without Quality Loss Wccftech"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRUJ1RzVFdUhMTjI2VmEtbW0wTnNGaExVaUhFZjh3eGxURXJrQ2NEaE5TQzZhSGsxVEJNdUQ5VUduNFdLUmxpQ2JnX054TjRnbUpUaXY4eURlMjJQU1VBNHJic2xtYWJsY1dIRm9MVXIwTEVMOVdJSlVxRVBQckV2ZmYxZVZLMVlQaVFFemFZMXlISS0t0gGaAUFVX3lxTFBxNmhFSHZNNGhnSHNXYnRPZE1uaEJUajRxR0xwOEdGRmE2TUFwSFc5eGxMOERtY19JRUw5WTJwOW14VmlqTUNqaDVsUm1uVUVpS3Y5R3V3TDg1WlRSY1FmOUt6Z29EdzV6OUxMUFRJSGxBR3dZVHBCWFJ4VzZBaDR1MmFJaE1hQzZfR1pXeGRGUnRDQmdTLVNEVWc?oc=5",
+          "published_at": "2026-09-15T18:58:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Salesforce debuts Koa CRM AI on Nvidia Nemotron to boost secure enterprise work - CHOSUNBIZ - Chosunbiz",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-15T18:51:00+00:00",
+      "summary": "Salesforce debuts Koa CRM AI on Nvidia Nemotron to boost secure enterprise work - CHOSUNBIZ Chosunbiz",
+      "claims": [
+        "Salesforce debuts Koa CRM AI on Nvidia Nemotron to boost secure enterprise work - CHOSUNBIZ Chosunbiz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMTlNa09HekxQeV91bU5rUXlKV0g4azFVdkRabHVieVVrdTR6ZUctOGl1UDJWMzF0M3JCb0ZyaDVyR1FVbHJaak41VE51RDM0UXowZ2V4d2VMMnBNMWszT3NPd045V0J2UTM0S0pKQ3V3RnpUUDZlUW1HLTlkRmFldU9EUGZ0NjVGbnVQdENn0gGOAUFVX3lxTFAxOU1rT0d6TFB5X3VtTmtReUpXSDhrMVV2RFpsdWJ5VWt1NHplRy04aXVQMlYzMXQzckJvRnJoNXJHUVVsclpqTjVUTnVEMzRRejBnZXh3ZUwycE0xazNPc093TjlXQnZRMzRLSkpDdXdGelRQNmVRbUctOWRGYWV1T0RQZnQ2NUZudVB0Q2c?oc=5",
+          "published_at": "2026-09-15T18:51:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi K3 Closes the AI Capability Gap to Four Months at a Fifth of the Price - startupfortune.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-15T18:46:26+00:00",
+      "summary": "Kimi K3 Closes the AI Capability Gap to Four Months at a Fifth of the Price startupfortune.com",
+      "claims": [
+        "Kimi K3 Closes the AI Capability Gap to Four Months at a Fifth of the Price startupfortune.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQlRKd0NFOW9BbjlSdnpEenJvTDQwMFNVUGFWRUpLbWRJS1NkWWRGeUl6YnAwc2RlRW5KNGtieHVoRXlVT00xY2JYNXE4Nk5VblplaEtVVzhVMDVFd3pWWHRFaTgtaWE0WnpFYUdjejQ1ZXE2c3BWWGJxeWRMX1BIV2NpLURwbFJMeTNZWk82dHhYSDVFb3NHX1FXVGxValpsVHZXempB?oc=5",
+          "published_at": "2026-09-15T18:46:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1's Kimi Antonelli stays hot and Kyle Larson closes in on NASCAR Chase leader Denny Hamlin - wdtimes.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-15T18:34:22+00:00",
+      "summary": "F1's Kimi Antonelli stays hot and Kyle Larson closes in on NASCAR Chase leader Denny Hamlin Times West Virginian",
+      "claims": [
+        "F1's Kimi Antonelli stays hot and Kyle Larson closes in on NASCAR Chase leader Denny Hamlin wdtimes.com",
+        "F1's Kimi Antonelli stays hot and Kyle Larson closes in on NASCAR Chase leader Denny Hamlin Herald Bulletin",
+        "F1's Kimi Antonelli stays hot and Kyle Larson closes in on NASCAR Chase leader Denny Hamlin Times West Virginian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZFdxVmJhaWZ3NVZuVm1QSlZsYmxGQTBmX2ZSSTRPdThqQVJJdVJUZkR3N2RBUUlfRWhRaEJSTWRpdEZPc25yLXUxV3cwUE40Znh5XzRZa0JfM0VnNlBsZUF1TnlnV0JNSGYwUlhwT0VkMXk0bnB3RkxRS3M0MG5IZENVQ1g0ZlAwWEU3TTl6QndfZWRhQXBhbmFPWDV3OHE2TzFtSFZDSVU5VVJsN1FyZXZWOTMwZ0VweWtQSTFSdDdVYm8xbkR1eUNDbjVBX01EZTdQTkpKRHBIT2wxQjdiYmpTTmVkNW9XQ0o2ZzVFT0FRaUEtNC1YZ3BXdGlEamxzUGVaeHFWdjhtVHFS?oc=5",
+          "published_at": "2026-09-15T18:34:22+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQbFd0SmRvaVRYWmFZbzRzMHpRcHFLa3pnMUxuTnFFYzQ0YUdMTkoxWnl5TlEyV2g2UjNUUW5Db0NMM0JmdlZWNm03Rl9neVRnY09pM2dQWmNoVVJrSVdnRjhSVFFMM0JQcExSWHJqTUlVcHpHV3ZSSXdRMmMzRTdXWnlFelM4djJkSU1TT1dlak9HejB1S0RLSFpWY2xwM3Z3cGFxSTY2MXUyc3RVQzFZYXVJVlhrNnJ2ODg3UlQ3eFRXOU9sNExJVWpESE95QnAwYXF6Y3d2Zkg5WnBIcHlsbGkwU0J5OUpKLWZ4WmpPdDdUaWZkTzlOSlM5U1Fyd2laY3Y4X1pHUGZnZDRXVHNNVHJOSjV2dw?oc=5",
+          "published_at": "2026-09-15T18:34:22+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNN2FIREdpQ0RpNFMxekFHNTl0eGk3X0hUX3RZaEoyaC1RcXVaU0pJTkNXczFNYjdSYUpaU2lkVmdIOElfRHVUQzRCTk1ZbW1kZV9sX3JiTVg2aHlRWGprVjJjVmNJOEFqRm5CNGdhRzI4LTcxdGtIWVl1MzlwRXoyZDBrRG5vYkQwSEtHQWV4R3A0NG9oMWc5ZWlTSVdwNUIwYnNsa1hHTFhlNjhGNEFVRHhhMldQX1FicTdENS1SNEdTdHIxSEJOaGJLcEg2N1JSUEpTRWkxVnVVY1hvZjQwOEdYOF9UYkdYY3hPbnFzUVBGY3JCOV9F?oc=5",
+          "published_at": "2026-09-15T18:34:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Harness 官方桌面端已合入仓库主分支 - CryptoRank",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-15T18:14:02+00:00",
+      "summary": "DeepSeek Harness 官方桌面端已合入仓库主分支 CryptoRank",
+      "claims": [
+        "DeepSeek Harness 官方桌面端已合入仓库主分支 CryptoRank"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1WM2xaaUJnblMxN3c2R1dJUEJzTlVYbmh0V2FNTVN4bE1vWDd4dVo0alVtcVRxSWdsZVRXRnVkc09sZTl6SmhfWVUxcjJ3eWRvcHU3WGw4V0Y?oc=5",
+          "published_at": "2026-09-15T18:14:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI leaders clash over safety fears after Anthropic whistleblower says AI could 'kill us all' by 2030 - Tom's Hardware",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-15T17:19:36+00:00",
+      "summary": "AI leaders clash over safety fears after Anthropic whistleblower says AI could 'kill us all' by 2030 Tom's Hardware",
+      "claims": [
+        "AI leaders clash over safety fears after Anthropic whistleblower says AI could 'kill us all' by 2030 Tom's Hardware"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxNRVZyd1pqMjczUmtLcjdzb3g2bFJ1U0x6VE1rUkdCYURFTm9GWk1Qa0ZPU1FDY2hNX0I3N3Q5ZFRKelkxekRpQXhpcVpPcFcwdktSWWVOTnlnemhYLUZIVEk2dFhzdVBDd3RQa2FFZGlSSVZWUHdTQlBNVk9FX3pYUUJ5VXk0U1EzT09WeEJ6NWlJZlQ1WjdlTl9oSEdGT21ubFUzTjNsQzVYN2Jra0ctNG13VTI0NGVncW1XWUo0X3duWXBOMHlMQk41ZTRfWS1CN3NLb2E1cXdHOTFTb3BlN2tQSTVQSC12Zi1Ka0NQcDBxbEpJVzJWX093U2dMZnlBSnpDOHpxNW9MaV9jR0xSemp4OXV5c1VYejdkZFdMbnFzMUptX1pnbG84VzVYRU5ENXdsbVlnS2dCQjd2dUU1OVY1QnpYZmV6TTc3UFZzNFJKSGMtbWNyZWxDZUQzbC1VNzNoTjV0WTdKLUlEanUwOEFRcmc1TExFekNyYVpoSHlZekVmU0dyQVFtbw?oc=5",
+          "published_at": "2026-09-15T17:19:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli, a victory in minor key at the Madring - autohebdof1.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-15T17:10:08+00:00",
+      "summary": "Kimi Antonelli, a victory in minor key at the Madring autohebdof1.com",
+      "claims": [
+        "Kimi Antonelli, a victory in minor key at the Madring autohebdof1.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZzkwSTFFQ3o1N2NSS3pjTVZpZDV2TUsySDhDWm10cVdzNmgtbU9DOFZuY0I1Q0R0TGdCSlcyTXNmTmZMNVdNdlFlWUxWMy1JNFpObFVHM3lzUXpZS2dmVHZ2SEFBdEVLNTE5dnZmbVRNYkRzRVU1MHM2b3JzSlBRYUo4d05KalpOeFZhUEtnV255NXVJSEZVc0ZlRQ?oc=5",
+          "published_at": "2026-09-15T17:10:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
