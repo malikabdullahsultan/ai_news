@@ -1,0 +1,941 @@
+{
+  "report_date": "2026-09-17",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-16T22:14:07.744473+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 297
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 277
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 106
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 54
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 55
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 807,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-16T21:46:25+00:00",
+      "summary": "Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s...",
+      "claims": [
+        "Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-on-nvidia-gb300-nvl72-for-agentic-coding/",
+          "published_at": "2026-09-16T21:46:25+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Serve Qwen3.8-2.4T-A95B, a 2.4T-Parameter Model, with Configurable Reasoning on NVIDIA GB300 NVL72",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-16T21:39:25+00:00",
+      "summary": "Alibaba released the open weights for Qwen3.8-2.4T-A95B (Qwen3.8-Max), its largest open-weight model, bringing near-frontier capabilities to the open...",
+      "claims": [
+        "Alibaba released the open weights for Qwen3.8-2.4T-A95B (Qwen3.8-Max), its largest open-weight model, bringing near-frontier capabilities to the open..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
+          "published_at": "2026-09-16T21:39:25+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-16T20:37:15+00:00",
+      "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through...",
+      "claims": [
+        "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+          "published_at": "2026-09-16T20:37:15+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "claims": [
+        "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/model-misalignment-reporting-framework",
+          "published_at": "2026-09-16T17:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-16T16:29:07+00:00",
+      "summary": "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to...",
+      "claims": [
+        "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+          "published_at": "2026-09-16T16:29:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Helping older adults use AI in everyday life",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-16T16:00:00+00:00",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "claims": [
+        "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+          "published_at": "2026-09-16T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Reimagining advertising with AI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-16T13:00:00+00:00",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "claims": [
+        "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "published_at": "2026-09-16T13:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-16T12:00:00+00:00",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "claims": [
+        "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+          "published_at": "2026-09-16T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16129v1 Announce Type: new Abstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric distance in model space. Pruning a parameter sets its value to zero, representing a displacement of the model to the hypersurface on which that parameter vanishes. The minimal distance from the unpruned model to this hypersurface is naturally computed via the geodesic distance in the model space as determined by the Fisher information metric. This distance determines the true change in the model, and its performance, under pruning. By analysing progressively more faithful approximations of this geodesic distance a natural hierarchy of optimality for pruning methods is determined. This starts with the traditional magnitude pruning, then develops into new more sophisticated and effective pruning schemes. The method is demonstrated for both fully-connected networks and vision transformers, on MNIST and CIFAR-10, over the complete $0$-$100\\%$ pruning range and across five random seeds. It outperforms pruning by parameter magnitude and by the local Fisher information alone in every architecture and dataset combination considered, on both accuracy and the Matthews correlation coefficient. Additionally, analysis of different levels of geodesic approximation produces intermediate pruning schemes that are computationally efficient and maintain near-op",
+      "claims": [
+        "arXiv:2609.16129v1 Announce Type: new Abstract: A new scheme for parameter pruning is introduced, derived from the differential-geometric distance in model space. Pruning a parameter sets its value to zero, representing a displacement of the model to the hypersurface on which that parameter vanishes. The minimal distance from the unpruned model to this hypersurface is naturally computed via the geodesic distance in the model space as determined by the Fisher information metric. This distance determines the true change in the model, and its performance, under pruning. By analysing progressively more faithful approximations of this geodesic distance a natural hierarchy of optimality for pruning methods is determined. This starts with the traditional magnitude pruning, then develops into new more sophisticated and effective pruning schemes. The method is demonstrated for both fully-connected networks and vision transformers, on MNIST and CIFAR-10, over the complete $0$-$100\\%$ pruning range and across five random seeds. It outperforms pruning by parameter magnitude and by the local Fisher information alone in every architecture and dataset combination considered, on both accuracy and the Matthews correlation coefficient. Additionally, analysis of different levels of geodesic approximation produces intermediate pruning schemes that are computationally efficient and maintain near-op"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16129",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16145v1 Announce Type: new Abstract: We study a practical question: can a small correction module fix errors in a frozen language model's outputs without degrading its base capabilities? We propose CRN v2, a lightweight logit-level correction module (~34M trainable parameters, 0.73% of the 4.65B text module) that sits atop a fully frozen Gemma 4 E2B model. The base model is never updated; only the correction module learns, via supervised fine-tuning followed by reference-free DPO on 83,400 error-correction pairs. On a 60-question domain exam (CEHRI: Certified Human-Robot Intelligence, covering facts, arithmetic, and implicit-goal reasoning), CRN v2 corrects 53.3% of base-model errors (reworded variant: 43.3%) while showing no degradation on tested capability benchmarks (MMLU/BoolQ N=200; car-wash N=8). A LoRA baseline at the matched CRN v1 budget (6.6M params, rank 19) achieves 83.3% correction but suffers 30-75% capability loss on the same benchmarks -- the correction-capability tradeoff. An ablation shows that the KL preservation term (lambda=0.1) is critical: lowering it to 0.01 degrades correction to 35.0%. A hidden-state injection variant at earlier layers (1.6M params, SFT-only) reaches 50.0%/55.8% but does not exceed logit correction; shallower injection (layer 4) drops to 30.0%/28.3%; multi-depth logit correction (~35M) reaches only 40%; and longer training (",
+      "claims": [
+        "arXiv:2609.16145v1 Announce Type: new Abstract: We study a practical question: can a small correction module fix errors in a frozen language model's outputs without degrading its base capabilities? We propose CRN v2, a lightweight logit-level correction module (~34M trainable parameters, 0.73% of the 4.65B text module) that sits atop a fully frozen Gemma 4 E2B model. The base model is never updated; only the correction module learns, via supervised fine-tuning followed by reference-free DPO on 83,400 error-correction pairs. On a 60-question domain exam (CEHRI: Certified Human-Robot Intelligence, covering facts, arithmetic, and implicit-goal reasoning), CRN v2 corrects 53.3% of base-model errors (reworded variant: 43.3%) while showing no degradation on tested capability benchmarks (MMLU/BoolQ N=200; car-wash N=8). A LoRA baseline at the matched CRN v1 budget (6.6M params, rank 19) achieves 83.3% correction but suffers 30-75% capability loss on the same benchmarks -- the correction-capability tradeoff. An ablation shows that the KL preservation term (lambda=0.1) is critical: lowering it to 0.01 degrades correction to 35.0%. A hidden-state injection variant at earlier layers (1.6M params, SFT-only) reaches 50.0%/55.8% but does not exceed logit correction; shallower injection (layer 4) drops to 30.0%/28.3%; multi-depth logit correction (~35M) reaches only 40%; and longer training (",
+        "arXiv:2609.16145v1 Announce Type: cross Abstract: We study a practical question: can a small correction module fix errors in a frozen language model's outputs without degrading its base capabilities? We propose CRN v2, a lightweight logit-level correction module (~34M trainable parameters, 0.73% of the 4.65B text module) that sits atop a fully frozen Gemma 4 E2B model. The base model is never updated; only the correction module learns, via supervised fine-tuning followed by reference-free DPO on 83,400 error-correction pairs. On a 60-question domain exam (CEHRI: Certified Human-Robot Intelligence, covering facts, arithmetic, and implicit-goal reasoning), CRN v2 corrects 53.3% of base-model errors (reworded variant: 43.3%) while showing no degradation on tested capability benchmarks (MMLU/BoolQ N=200; car-wash N=8). A LoRA baseline at the matched CRN v1 budget (6.6M params, rank 19) achieves 83.3% correction but suffers 30-75% capability loss on the same benchmarks -- the correction-capability tradeoff. An ablation shows that the KL preservation term (lambda=0.1) is critical: lowering it to 0.01 degrades correction to 35.0%. A hidden-state injection variant at earlier layers (1.6M params, SFT-only) reaches 50.0%/55.8% but does not exceed logit correction; shallower injection (layer 4) drops to 30.0%/28.3%; multi-depth logit correction (~35M) reaches only 40%; and longer training"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16145",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "inference",
+        "models",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "GPEvac: GNN-Based PPO for Adaptive Evacuation Routing During Shooting Events",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16163v1 Announce Type: new Abstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victims to safety in real time. An effective evacuation system must minimize threat exposure while also accounting for adversarial uncertainty and crowding dynamics. Current methods in the literature are rigidly constrained to layout-specific policies and computationally intractable in large-scale layouts, while practical guidelines simply advise victims to \"run\", \"hide\", or \"fight\". We propose GPEvac: a GNN-based PPO framework that computes adaptive evacuation routes during shooting events. To capture both local and long-distance dependencies, we introduce an edge-first sequential message-passing scheme with a learnable virtual global node. The resulting graph embeddings are integrated into a permutation-invariant scoring mechanism that allows a single learned policy to operate across building layouts of diverse topologies and sizes. Through extensive simulation, we show that GPEvac outperforms intelligent baselines across distinct architectural layouts, significantly reducing total threat exposure. Crucially, the system computes global evacuation routes in just 14.73 ms on local CPU hardware, enabling seamless integration with live surveillance systems. In addition to saving lives during shooting events, the methodologies developed are transfe",
+      "claims": [
+        "arXiv:2609.16163v1 Announce Type: new Abstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victims to safety in real time. An effective evacuation system must minimize threat exposure while also accounting for adversarial uncertainty and crowding dynamics. Current methods in the literature are rigidly constrained to layout-specific policies and computationally intractable in large-scale layouts, while practical guidelines simply advise victims to \"run\", \"hide\", or \"fight\". We propose GPEvac: a GNN-based PPO framework that computes adaptive evacuation routes during shooting events. To capture both local and long-distance dependencies, we introduce an edge-first sequential message-passing scheme with a learnable virtual global node. The resulting graph embeddings are integrated into a permutation-invariant scoring mechanism that allows a single learned policy to operate across building layouts of diverse topologies and sizes. Through extensive simulation, we show that GPEvac outperforms intelligent baselines across distinct architectural layouts, significantly reducing total threat exposure. Crucially, the system computes global evacuation routes in just 14.73 ms on local CPU hardware, enabling seamless integration with live surveillance systems. In addition to saving lives during shooting events, the methodologies developed are transfe",
+        "arXiv:2609.16163v1 Announce Type: cross Abstract: The sharp increase in mass shootings underscores an urgent need for systems that guide victims to safety in real time. An effective evacuation system must minimize threat exposure while also accounting for adversarial uncertainty and crowding dynamics. Current methods in the literature are rigidly constrained to layout-specific policies and computationally intractable in large-scale layouts, while practical guidelines simply advise victims to \"run\", \"hide\", or \"fight\". We propose GPEvac: a GNN-based PPO framework that computes adaptive evacuation routes during shooting events. To capture both local and long-distance dependencies, we introduce an edge-first sequential message-passing scheme with a learnable virtual global node. The resulting graph embeddings are integrated into a permutation-invariant scoring mechanism that allows a single learned policy to operate across building layouts of diverse topologies and sizes. Through extensive simulation, we show that GPEvac outperforms intelligent baselines across distinct architectural layouts, significantly reducing total threat exposure. Crucially, the system computes global evacuation routes in just 14.73 ms on local CPU hardware, enabling seamless integration with live surveillance systems. In addition to saving lives during shooting events, the methodologies developed are trans"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16163",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "inference",
+        "models",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Position: AI Is Not Ready for Strategic Conflicts",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16189v1 Announce Type: new Abstract: Open-ended strategic wargames are high-stakes LM-based social simulations: they model adversaries, institutions, escalation, plan brittleness, doctrine, and crisis response. Language models (LMs) are attractive because they can play agents, generate scenario branches, adjudicate ambiguous actions, and summarize lessons, but the same affordances make open-ended roles dangerous: model language determines both what an actor attempts and what becomes simulated reality. This position paper argues that no LM-enabled wargame should inform planning, doctrine, policy, or crisis response without an auditable safety case, and that the proper use of open-ended wargames today is to stress-test decision-influencing LM agents. We identify five failure modes: decision laundering, adjudication opacity, role collapse, escalation-through-adjudication, and failure of strategic imagination. Ordinary benchmarks cannot establish safety for these settings. Wargames can expose failures as stress tests; they are not themselves safety cases for consequential use.",
+      "claims": [
+        "arXiv:2609.16189v1 Announce Type: new Abstract: Open-ended strategic wargames are high-stakes LM-based social simulations: they model adversaries, institutions, escalation, plan brittleness, doctrine, and crisis response. Language models (LMs) are attractive because they can play agents, generate scenario branches, adjudicate ambiguous actions, and summarize lessons, but the same affordances make open-ended roles dangerous: model language determines both what an actor attempts and what becomes simulated reality. This position paper argues that no LM-enabled wargame should inform planning, doctrine, policy, or crisis response without an auditable safety case, and that the proper use of open-ended wargames today is to stress-test decision-influencing LM agents. We identify five failure modes: decision laundering, adjudication opacity, role collapse, escalation-through-adjudication, and failure of strategic imagination. Ordinary benchmarks cannot establish safety for these settings. Wargames can expose failures as stress tests; they are not themselves safety cases for consequential use."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16189",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Calibrate, Then Route: A Measured Study of Learned Request Routing for Disaggregated LLM Serving",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16206v1 Announce Type: new Abstract: Disaggregated LLM serving places compute heavy prefill and memory heavy decode on separate GPU pools. Systems such as DistServe, Splitwise, and Mooncake make this separation fast, but routing still determines which instances handle each request. We study a router that estimates the additional completion time on each instance using exact prompt length, predicted output length, post admission KV cache pressure, and SLO class. We develop the policy in a discrete event simulator and validate it on eight NVIDIA A40 GPUs, each running a vLLM engine, with NIXL transferring KV caches between pools. All workloads run at measured saturation. Across three mixed, bursty arrival traces, the calibrated router achieves the highest mean goodput at 0.864, compared with 0.835 to 0.847 for round robin, least loaded, and a length heuristic. It also shows the lowest variance across traces. It beats round robin and the length heuristic on all three traces and least loaded on two. On the third, it trails by 0.003, within run to run noise. Hardware calibration matters: simulator derived constants cost 4.5 goodput points and roughly 40 percent of the tail latency advantage, reducing the scorer to little more than queue counting. Benefits grow with decode pool size and traffic heterogeneity but disappear in pools with three instances, where queue counts ar",
+      "claims": [
+        "arXiv:2609.16206v1 Announce Type: new Abstract: Disaggregated LLM serving places compute heavy prefill and memory heavy decode on separate GPU pools. Systems such as DistServe, Splitwise, and Mooncake make this separation fast, but routing still determines which instances handle each request. We study a router that estimates the additional completion time on each instance using exact prompt length, predicted output length, post admission KV cache pressure, and SLO class. We develop the policy in a discrete event simulator and validate it on eight NVIDIA A40 GPUs, each running a vLLM engine, with NIXL transferring KV caches between pools. All workloads run at measured saturation. Across three mixed, bursty arrival traces, the calibrated router achieves the highest mean goodput at 0.864, compared with 0.835 to 0.847 for round robin, least loaded, and a length heuristic. It also shows the lowest variance across traces. It beats round robin and the length heuristic on all three traces and least loaded on two. On the third, it trails by 0.003, within run to run noise. Hardware calibration matters: simulator derived constants cost 4.5 goodput points and roughly 40 percent of the tail latency advantage, reducing the scorer to little more than queue counting. Benefits grow with decode pool size and traffic heterogeneity but disappear in pools with three instances, where queue counts ar"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16206",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16213v1 Announce Type: new Abstract: Artificial intelligence is reshaping biological research across an increasingly connected digital-to-physical workflow. General-purpose large language models can retrieve and integrate scientific information, support experimental planning, and computational analysis; biological foundation models can predict, optimize, and generate proteins, genes, and genome-scale sequences; agentic systems can coordinate multistep research tasks; automated laboratories can partially close the design-build-test-learn cycle. These technologies could greatly benefit medicine, public health, and biotechnology. However, their biosecurity risk depends not only on what the AI can do, but also on who uses it, their expertise and intent, their access to laboratory tools and materials, and the safeguards in place. Current evidence shows that AI uplift exists but primarily affects digital rather than physical tasks. Frontier systems have exceeded expert baselines on in-silico, and screening-evasion benchmarks, whereas controlled wet-laboratory studies find that tacit knowledge and physical execution remain substantial barriers. This review describes the different biological threats from AI tool use, from information gathering and biological design to procurement, synthesis, testing, scale-up, and potential release. We further examine why alignment technique",
+      "claims": [
+        "arXiv:2609.16213v1 Announce Type: new Abstract: Artificial intelligence is reshaping biological research across an increasingly connected digital-to-physical workflow. General-purpose large language models can retrieve and integrate scientific information, support experimental planning, and computational analysis; biological foundation models can predict, optimize, and generate proteins, genes, and genome-scale sequences; agentic systems can coordinate multistep research tasks; automated laboratories can partially close the design-build-test-learn cycle. These technologies could greatly benefit medicine, public health, and biotechnology. However, their biosecurity risk depends not only on what the AI can do, but also on who uses it, their expertise and intent, their access to laboratory tools and materials, and the safeguards in place. Current evidence shows that AI uplift exists but primarily affects digital rather than physical tasks. Frontier systems have exceeded expert baselines on in-silico, and screening-evasion benchmarks, whereas controlled wet-laboratory studies find that tacit knowledge and physical execution remain substantial barriers. This review describes the different biological threats from AI tool use, from information gathering and biological design to procurement, synthesis, testing, scale-up, and potential release. We further examine why alignment technique"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16213",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16215v1 Announce Type: new Abstract: GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate state. Systems such as Mooncake, LMCache, FlexGen, InfiniGen, and AttentionStore extend GPU memory with CPU DRAM and SSD. The harder question is which blocks belong in each tier, when to move or evict them, and whether prefetching helps. We study these choices in a discrete event simulator spanning GPU HBM, CPU DRAM, and SSD, calibrated against a random forest execution time predictor. We compare recency, reuse frequency, predicted reuse, and an EWMA predictor with prefetch lookahead across chat, agent, and document question answering workloads. Tiering supports 73.02 times more concurrent sessions per GPU and lowers cost per session by 62.04 times. These gains come from tier capacities of 1 plus 8 plus 64, not placement policy. Decode is compute bound at batch size one in our setup, so placement barely affects throughput. It mainly changes PCIe migration traffic and time to first token. Recency produces 2.30 times less migration traffic than reuse frequency for chat. Reuse frequency performs best for agents and document question answering. The existing predicted reuse policy is byte identical to recency, making its agent recommendation effectively recency. A genuine EWMA predictor c",
+      "claims": [
+        "arXiv:2609.16215v1 Announce Type: new Abstract: GPU high bandwidth memory is scarce and expensive, and KV caches consume much of it as chats, agent loops, and document question answering accumulate state. Systems such as Mooncake, LMCache, FlexGen, InfiniGen, and AttentionStore extend GPU memory with CPU DRAM and SSD. The harder question is which blocks belong in each tier, when to move or evict them, and whether prefetching helps. We study these choices in a discrete event simulator spanning GPU HBM, CPU DRAM, and SSD, calibrated against a random forest execution time predictor. We compare recency, reuse frequency, predicted reuse, and an EWMA predictor with prefetch lookahead across chat, agent, and document question answering workloads. Tiering supports 73.02 times more concurrent sessions per GPU and lowers cost per session by 62.04 times. These gains come from tier capacities of 1 plus 8 plus 64, not placement policy. Decode is compute bound at batch size one in our setup, so placement barely affects throughput. It mainly changes PCIe migration traffic and time to first token. Recency produces 2.30 times less migration traffic than reuse frequency for chat. Reuse frequency performs best for agents and document question answering. The existing predicted reuse policy is byte identical to recency, making its agent recommendation effectively recency. A genuine EWMA predictor c"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16215",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-16T04:00:00+00:00",
+      "summary": "arXiv:2609.16232v1 Announce Type: new Abstract: Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial information through natural-language interfaces and agentic autonomous GIS workflows. This capability creates governance challenges that general AI ethics discussions do not fully capture, including passive location inference from mobility traces, spatially structured bias amplification driven by spatial autocorrelation and scale effects, hallucinated spatial facts, and uncertainty compounding across multimodal geospatial inputs. This narrative review identifies eight recurring issues in LLM-enabled GeoAI: data provenance and consent, spatial privacy and inference risk, algorithmic bias and spatial inequity, spatial mechanisms as structural risk (spatial autocorrelation, the modifiable areal unit problem, and scale effects), LLM-specific technical risks, explainability, policy and regulatory gaps, and public enablement and workforce development. For each issue, we characterize the underlying mechanism, ground it in an illustrative example from the literature, and assess the current state of technical or institutional responses, ranging from largely unaddressed to actively debated or subject to emerging policy. Building on this synthesis, we propose a governance-aware architecture fo",
+      "claims": [
+        "arXiv:2609.16232v1 Announce Type: new Abstract: Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial information through natural-language interfaces and agentic autonomous GIS workflows. This capability creates governance challenges that general AI ethics discussions do not fully capture, including passive location inference from mobility traces, spatially structured bias amplification driven by spatial autocorrelation and scale effects, hallucinated spatial facts, and uncertainty compounding across multimodal geospatial inputs. This narrative review identifies eight recurring issues in LLM-enabled GeoAI: data provenance and consent, spatial privacy and inference risk, algorithmic bias and spatial inequity, spatial mechanisms as structural risk (spatial autocorrelation, the modifiable areal unit problem, and scale effects), LLM-specific technical risks, explainability, policy and regulatory gaps, and public enablement and workforce development. For each issue, we characterize the underlying mechanism, ground it in an illustrative example from the literature, and assess the current state of technical or institutional responses, ranging from largely unaddressed to actively debated or subject to emerging policy. Building on this synthesis, we propose a governance-aware architecture fo"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.16232",
+          "published_at": "2026-09-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek engineer warns about Anthropic and AI - NeoTeo",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-16T21:13:23+00:00",
+      "summary": "DeepSeek engineer warns about Anthropic and AI NeoTeo",
+      "claims": [
+        "DeepSeek engineer warns about Anthropic and AI NeoTeo"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT1Z3V0VXZFFha1JXaC1TX0lVSXNQNDFub2FYZkFGXy1sM19HZkFlWVBhbmhEMlBqRWRYSzNOcElxNGlqT0I3R0VJZ016YXB6X0NHZVBoLWNpV1dRWUo4UHFWSGdqaDlNQkxUNkJRSnpkRlYzam1TQncwWUZCeGtVX0RnakxIU1lCRS13YzM2WHNhd1B3ZjVicEQxbmxfTE9hNFp3?oc=5",
+          "published_at": "2026-09-16T21:13:23+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Toto Wolff Reveals Kimi Antonelli Habit That Is Giving Mercedes ‘Grey Hair’ - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-16T19:45:47+00:00",
+      "summary": "Toto Wolff Reveals Kimi Antonelli Habit That Is Giving Mercedes ‘Grey Hair’ Yahoo Sports",
+      "claims": [
+        "Toto Wolff Reveals Kimi Antonelli Habit That Is Giving Mercedes ‘Grey Hair’ Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMnNTUWttem02TnJxY1JLcWsyT2lYazBwMnhhOGlYZ3FKMDg4Ykg3VkFRck8tUGhyR0RobHRVR1NMOS1BTnRhQXE2Z2x2SnI5eEYyQ0ZiRExCYVR1QmlnSkpDTmxOZE9FM21sblZ5OXpvRVJmLVVTNGdES1RhNmZMQ2dBTkRvNm8yN1E?oc=5",
+          "published_at": "2026-09-16T19:45:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Manuscripts-turned AI agents can now ‘talk’ to each other, make new discoveries - Stanford Medicine",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-16T18:50:31+00:00",
+      "summary": "Manuscripts-turned AI agents can now ‘talk’ to each other, make new discoveries Stanford Medicine",
+      "claims": [
+        "Manuscripts-turned AI agents can now ‘talk’ to each other, make new discoveries Stanford Medicine"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05OVB2U0hCLWF3YnA1eXNYcmxqYW11R3BDUXpQRE5YaGxXaWV1TksySVdkaC1vTEhPNWUyc0s2WS1tQTN6cE1heXNWV1Y4ZEdIMW1fVUhONVpJaWZFdFItUkx2d0oyWGxzc29GNjMxbFVuSzBF?oc=5",
+          "published_at": "2026-09-16T18:50:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "'Fears Of Losing Control Are Real': Microsoft AI Chief Mustafa Suleyman Warns Against AI Tools With Human-Like Traits - The Daily Jagran",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-16T18:26:00+00:00",
+      "summary": "'Fears Of Losing Control Are Real': Microsoft AI Chief Mustafa Suleyman Warns Against AI Tools With Human-Like Traits The Daily Jagran",
+      "claims": [
+        "'Fears Of Losing Control Are Real': Microsoft AI Chief Mustafa Suleyman Warns Against AI Tools With Human-Like Traits The Daily Jagran"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPb1JPOFc4Y0JTZDV4ekxGOGNCaXI5V2dwalctR01aUFBYSnp3Vnh5S1VBU3FET3E1WVFLZ0lXcU0zMkpnaFJGZ1YtQ2RrdmF0WEVZYV92RWlIb0tNSkJOZ05ybzNSX3ZJRjZkc2tQczhEdjB3YnpiY1FiUWVBaVVnUEhiNXZzQk50R3gzSjhCM0xoWmZUdVhOb0dIZ1dkaDVfRElGTjdrcklwR0s5aFhkYlNtckVTVDBzT2JFcTk3WjZBYjRUU3BiQkJHNGtvMjByVzN1dXdzdEJxejVqVE1GVEg1eVYxZko5aGxSU3FKUGx2QVE5VkR2Mko3TjVnUdIB_gFBVV95cUxPb1JPOFc4Y0JTZDV4ekxGOGNCaXI5V2dwalctR01aUFBYSnp3Vnh5S1VBU3FET3E1WVFLZ0lXcU0zMkpnaFJGZ1YtQ2RrdmF0WEVZYV92RWlIb0tNSkJOZ05ybzNSX3ZJRjZkc2tQczhEdjB3YnpiY1FiUWVBaVVnUEhiNXZzQk50R3gzSjhCM0xoWmZUdVhOb0dIZ1dkaDVfRElGTjdrcklwR0s5aFhkYlNtckVTVDBzT2JFcTk3WjZBYjRUU3BiQkJHNGtvMjByVzN1dXdzdEJxejVqVE1GVEg1eVYxZko5aGxSU3FKUGx2QVE5VkR2Mko3TjVnUQ?oc=5",
+          "published_at": "2026-09-16T18:26:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Novo Nordisk Partners With Anthropic to Accelerate Drug Discovery Using AI - TradingKey",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-16T18:02:02+00:00",
+      "summary": "Novo Nordisk Partners With Anthropic to Accelerate Drug Discovery Using AI TradingKey",
+      "claims": [
+        "Novo Nordisk Partners With Anthropic to Accelerate Drug Discovery Using AI TradingKey"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVW5SUnN5cjAzT09QSkhpdTN2WkFNc21SbGZRSXdHRGFGRllZUmxxSHhIYnlUbWRNbklZc0RTWksxdGtyUW5WdGpYQUxtVGZFLVNRZVdiQS13bTNGS2U0Y3hRSVpja1lKVl9LRFpEaktfeGFKbzBlS2hIN0pyUFVLZnA5YlJaWFNXelozNTgyUUJHb1ZsSHVlNG5LT3ZHRjVOUlhrQ3pFSldhZFBqcVl0NF85bURScElsUE1nWUF4Y3NEWDhvcXhGWTQyeVFFYnVncGJENmlvRQ?oc=5",
+          "published_at": "2026-09-16T18:02:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Toto Wolff on Kimi Antonelli (Mercedes): “He’s giving us grey hairs” - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-16T17:35:04+00:00",
+      "summary": "Toto Wolff on Kimi Antonelli (Mercedes): “He’s giving us grey hairs” SPEEDWEEK.com",
+      "claims": [
+        "Toto Wolff on Kimi Antonelli (Mercedes): “He’s giving us grey hairs” SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmZDOXZNYml0Uk00UlhLMmlXd1lmek5QN0pQakV4MEZSSUE1ZmhHeDQ5N2lTbVRTT0lBSjFLMUpjdnU2T2c1LXNqM1ZVdXdVNTA5UXhUZVFPWVhNd3hqN29td094VWF3Q2hJMTU0b05BRmNYSWtGX0wzOG8xSjRlRjBxTU9TS2laWWJYcFdleWozeFlad1ppcVk0T2E?oc=5",
+          "published_at": "2026-09-16T17:35:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell thought he was going to do a Michael Schumacher before Kimi Antonelli came along - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "summary": "George Russell thought he was going to do a Michael Schumacher before Kimi Antonelli came along F1 Oversteer",
+      "claims": [
+        "George Russell thought he was going to do a Michael Schumacher before Kimi Antonelli came along F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSXhjZzBhM3U0OUpxZkY4V3FlUzFhT1VoM1RNT2lfQm1kbjM0Mm9MV3VsQXdhTlctV2NkZVc2cFpZM09qSnRLSjNSQ3RTOWtGY0E3bmo4Q2ZockpIbzhFYWJScFFndlpXSEdDeEdRUVZFcHBWdUh2SmdhTmhzbWtqaVRQYUx1MDRJTDdFeHJvZFA0dGZkREVocDI4UFQzWGx2Mk5QZWs3V2dmRGdhaXJGYkJzVnJLLXBab1M1NGZFZkR0bkRTMnA4bQ?oc=5",
+          "published_at": "2026-09-16T17:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Microsoft publishes a code of conduct for artificial intelligence. - جريدة الأنباء الكويتية",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-16T16:41:16+00:00",
+      "summary": "Microsoft publishes a code of conduct for artificial intelligence. جريدة الأنباء الكويتية",
+      "claims": [
+        "Microsoft publishes a code of conduct for artificial intelligence. جريدة الأنباء الكويتية"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVVl1ZV9TLXcwZHhaMHNpR1p5bTlGekxmaDRVODNyeVBHUW93OWVCT2l5dU00WUZPb2xxME1YQUlMSUM1WUJVcjBwZzlLRjBhOHdzY3dDcHF6cFdlMzZ4QlJTYU9EMW1pWlVrdklBenR4MVM5LXZkN3c4TmM0T2p0RVJKR1NxVnhVZVhndXBTSjJScGVIZTh5YmJxTWoycl9GeXFjV2h3Rk1obU9HUTl0QnVSOHFFUGtLZXBodUZLSQ?oc=5",
+          "published_at": "2026-09-16T16:41:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    }
+  ]
+}
