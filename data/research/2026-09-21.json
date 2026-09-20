@@ -1,0 +1,919 @@
+{
+  "report_date": "2026-09-21",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-20T21:39:57.655189+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 47
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 48
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 95,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Sergio Perez offers hilarious response to Kimi Antonelli radio feud - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T19:21:38+00:00",
+      "summary": "Sergio Perez offers hilarious response to Kimi Antonelli radio feud Motorsport Week",
+      "claims": [
+        "Sergio Perez offers hilarious response to Kimi Antonelli radio feud Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd2xQQ2hYTEQ4dVh5a3gzdjJ2MzRUcGhRMkdlejQ3c0NwYXo0TENIWWM4dERkbjlVUTBsTmVHQ1hpZllkd1kwQlFMcHVlSFRRTUVrWGN6aTBUYUxHU0FKT0JDejFkTklZRkhEbnFaeVUycHprSUh1RVdrcldJRGZhRVZn?oc=5",
+          "published_at": "2026-09-20T19:21:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "David Coulthard Praises George Russell over Kimi Antonelli - readmotorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T18:00:00+00:00",
+      "summary": "David Coulthard Praises George Russell over Kimi Antonelli readmotorsport.com",
+      "claims": [
+        "David Coulthard Praises George Russell over Kimi Antonelli readmotorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMEUzalRYZnhtZVplT3dVX2tsVzQ2QWplM0wweUV0TUpVWDdlblZNM240S1lQY2daTlNiN3V4aDJ5bTZITHQ0Z2NnaWhlYjFKZ3lsZHlvSUJ5eXdHSXR1NGdfUS0xWFJLR1JRWGotXzVQbzZQcFRrTHcya1k3Ynl6eGhSejZ5VGkwbldvaU9TZ01fX0tnQWFzV3RVWnA?oc=5",
+          "published_at": "2026-09-20T18:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli says overtaking at Spanish GP will be \"very difficult\" - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T16:37:35+00:00",
+      "summary": "Kimi Antonelli says overtaking at Spanish GP will be \"very difficult\" Motorsport Week",
+      "claims": [
+        "Kimi Antonelli says overtaking at Spanish GP will be \"very difficult\" Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHlvbUVWM1h0MmVraGZuUW5qMzhQSndVV3pXVGdKRURYaTU3UmhWQ2xnMzE2aGhsZExwNVdRU3JCSHRnb2ppZnlxMDZLbklMdnpZNk9DY3luYlJ0bWFVaEk3TjF0VWNuLUZSNU53TmNrYXlrOEUyXzB6YkdwWGtTblN0cDdVRmJMQTRJRjJmLWdOaFY4TnB5RmppRTRXazNyYnNKel8zcUJ2WG9yUU5B?oc=5",
+          "published_at": "2026-09-20T16:37:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters - the-decoder.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T16:14:06+00:00",
+      "summary": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters the-decoder.com",
+      "claims": [
+        "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters the-decoder.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcW83SUN6S3dlZ19qVVgwZ3h0bmpwemJRRmZ0RFhsT3hkbEhUQ3JWOVFWSWpSU0NEYTNHTlp1RWZyVE00dFJSUjJ3UFMxTjhZWUU3RWRZOV9iSjZVUUVxc1ROd25UWkJqZmFOSDdwWlFLQ2gxV0UxeWNxbU8xRFY2NUZtYXc3NnVBU1NYcWJTcUVxdW8wYjk2aVMyc1k1QnQwUllPc0xTTkxQczdHeGNCSlNtOTRsSHR6VW81RWZXVXFaa3BrajRZdGp2ejR6VExKcTduRmRaTQ?oc=5",
+          "published_at": "2026-09-20T16:14:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli christens the Madring with maiden F1 Spanish GP win - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T15:33:11+00:00",
+      "summary": "Kimi Antonelli christens the Madring with maiden F1 Spanish GP win Motorsport Week",
+      "claims": [
+        "Kimi Antonelli christens the Madring with maiden F1 Spanish GP win Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOGpkcWhYaEdqRFMyVlRrTHhUSEtGdFBNUEFXTlZBOTlBZ1JTaXZianMwMVFRcnVJenU2TXJyWVNjaWlzSmRwMFpGRU55SWpOMXRkSVNsdWozRDlxMDZqZENJY2N1YnR6SWFQYW5qS3dMcnZZT3RkRzhZWGVCQ18xVHRBRTFfY2lJRWRHNnd5cG5WZXI1RzdpVUNvcFJ4VmJwRERTdm4wVmtHYmlrZUE?oc=5",
+          "published_at": "2026-09-20T15:33:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI Releases Voice Model That Can Think, Reason, Respond Like A Human - MediaPost",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T14:30:56+00:00",
+      "summary": "OpenAI Releases Voice Model That Can Think, Reason, Respond Like A Human MediaPost",
+      "claims": [
+        "OpenAI Releases Voice Model That Can Think, Reason, Respond Like A Human MediaPost"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc2pUbnBpeHgzOTRDNzJ0UGVfdFlwSnBmY1cxMC1PWnF3eHJXeFE4bV9FVjdrRGstWnAzQUhPZmtsX0NJMDNxRVhGRTNOSjBiam1KY2VkaXpVQ3BLakdQbGZ6VGNBMThIWFBnNVd6N1VsNE8tdmxYT1ZhRjdaQjN0QTlIUHJHR2ZaZlZSbGtGNFh1TndEcF9hZm11WGN0NUtWQ05BaVVyR3Jodw?oc=5",
+          "published_at": "2026-09-20T14:30:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Sebastian Vettel responds as Kimi Antonelli closes in on his F1 record - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T12:26:20+00:00",
+      "summary": "Sebastian Vettel responds as Kimi Antonelli closes in on his F1 record PlanetF1",
+      "claims": [
+        "Sebastian Vettel responds as Kimi Antonelli closes in on his F1 record PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQnExNHIzZmFwN0wwRWRrVjdacWtDcWlxaW5YRGFnM1I2UC1reFRNUjVoUlhycGxxd0tkdVJNaGd6VDk2dVBQVlZHdXR0dTJka1NLOHE3NElwVFA5MGRIN3hUYXQwSXhLNmtlc3dNV2ZFRzhJSjBjLVdjX1VVMzBBVlRTc3EyVVR3c3F3UnJLOXV5c00?oc=5",
+          "published_at": "2026-09-20T12:26:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell facing ‘painful’ Mercedes reality as Kimi Antonelli turns F1 2026 title battle - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T12:01:20+00:00",
+      "summary": "George Russell facing ‘painful’ Mercedes reality as Kimi Antonelli turns F1 2026 title battle PlanetF1",
+      "claims": [
+        "George Russell facing ‘painful’ Mercedes reality as Kimi Antonelli turns F1 2026 title battle PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYWFZV2xwaFpGdHFzMGdTNTdMXzVsaFFhczJDR2tQa3ZnWFhERElzRVpQRWJ0R2ZnbnlMa3REOWkxLVlnYnhBWTVWeG1HZkF3MEFZYUlVQkx6aDVlNmNYSjZ3UmJZSVRIV3kwbWlUZjFfSDF4Y1Y0UVdfSnZIREZfbzhfanZuUzF4?oc=5",
+          "published_at": "2026-09-20T12:01:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Rosberg Warns Antonelli About McLaren Pressure - roundtable.io",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T21:37:03+00:00",
+      "summary": "Rosberg Warns Antonelli About McLaren Pressure roundtable.io",
+      "claims": [
+        "Rosberg Warns Antonelli About McLaren Pressure roundtable.io"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUTJOQnR2WkU1RnpBem5JVGRubENOVmgxQjQtaklNRGdEQzR2bXk1NUhvaHNrTjVaSUdVZC15VUpONmRGdzAyMERvZ0EzUEhRQkdYYndnVmFsTmNWeXBSbUFxd1FLemNkZnM2SlhRc3Fud05LRzdqUXVaWmc5Rl8wU0VhTm1wbmljS09n?oc=5",
+          "published_at": "2026-09-20T21:37:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "ASD says prompt injection in AI cannot be fixed - iTnews",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T20:25:00+00:00",
+      "summary": "ASD says prompt injection in AI cannot be fixed iTnews",
+      "claims": [
+        "ASD says prompt injection in AI cannot be fixed iTnews"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdmx3bXZxOG51R2h2eFdVeVhvdWVKdzQtVkg4dER2WlNpcnlrMHk2QU9oTkIwSEJQTEZPbnZyM2N0WG1PUVVPd0JISEhaenhOemt2a0FJVWw2Z3JlSEJ3NmhWY2g3S29iLVBBLXZxMjhPTks2STBNQ2NNWTA1OVAwdGhZcUluZTROdy1mS0Vn?oc=5",
+          "published_at": "2026-09-20T20:25:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Beyond the model race, India targets the switchboard - financialexpress.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T19:18:11+00:00",
+      "summary": "Beyond the model race, India targets the switchboard financialexpress.com",
+      "claims": [
+        "Beyond the model race, India targets the switchboard financialexpress.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFlWN3lCaDc4Y0tuQnVuMEtRNm9NZkd5MTFNd1VPdFQ1SUhOWWpYbVgxRi1rZUpmT3Z0NUJaODlEN3paRlZJUjRULURXQmZGUXhneTdOcjlZbkJoREhSNlVoTk1pUkpVSkxfY1lrQ2hSQkpXLXF1M0FwRWpINkNTaVdGSzJHbGZ6TVBOYTJWZ1lkLWs0cUFBbk82YXlYMEt3NV9Ed2wzTjhVblXSAbIBQVVfeXFMTWhOVHRIWHN4RzRDRUNOZjdaeWo3U3B2MHVXdzFsY0tOSk40RUc3X1FfQ2N5dkIwbmVxbnl6dGJEX0VGWGhFNG5meGRHOUZ4UHdPUGVjQ3VmVVZPMXlWR2w1NkUzVlJraTJuck5YbVZpbENXajRKMFp3U0EzWEphazNDdWd2eXphX1Zad2JhdHlqNU1qR1FEaHZyU2toQTRpT21SRGtHRjFtcFN4cGt0N280dw?oc=5",
+          "published_at": "2026-09-20T19:18:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Google: AI Model Hacked Companies In Cybersecurity Tests 09/21/2026 - MediaPost",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T18:40:51+00:00",
+      "summary": "Google: AI Model Hacked Companies In Cybersecurity Tests 09/21/2026 MediaPost",
+      "claims": [
+        "Google: AI Model Hacked Companies In Cybersecurity Tests 09/21/2026 MediaPost"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVXVqSTJVWWxSaWhZN2tCUEZ0WGJ3N1VOMS1RWXNEOHJzOEhGUlhRaFVqSHItOS1nRXlEVG9CQ0FkRmlBdER1UXcweFFqTTJNVkNrOHZXa29JSUZRMGNtdmhQN2paa2tvWEZ2UWNzMDFzdERYbU91anBXbFVvRVBNWUw2MHMzUGNlUl9yZmhJazczWnVseXFIZVV5RE43QUF3WEJRU2pMVzRJcUE5VWlkbUJQSnRzT0o0WWVadW1jU0w?oc=5",
+          "published_at": "2026-09-20T18:40:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How China Is Stealing America’s AI - The Free Press",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T17:47:15+00:00",
+      "summary": "How China Is Stealing America’s AI The Free Press",
+      "claims": [
+        "How China Is Stealing America’s AI The Free Press"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94Z3VmQVZKSl9uSEw1ekpobW1wZnBEME1ma3ZyaHVreHdJN3diaDRyWXlhNTc4TE1Ec1IwWW1IUFBwaUJTX2trX2l5YkFtb0wxWXk3VzUwT0Y?oc=5",
+          "published_at": "2026-09-20T17:47:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Willie Mullins dominates on day one at Listowel - BreakingNews.ie",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T17:46:00+00:00",
+      "summary": "Willie Mullins dominates on day one at Listowel BreakingNews.ie",
+      "claims": [
+        "Willie Mullins dominates on day one at Listowel BreakingNews.ie"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORzNyOVp5d3pNUWkwVFNjSUlNSkwwVkpDZmlaQWFWTWN0RXhfRnhEUzAwTjViLXVLLTkwdTJFZmVsWXcwQkstTGhTTjB2SzVfODlsSnl5cVUtUVBUWENDNWdNUTZHUUdGTXdzZ0NzZzVGQWo0VnJOcmNhVmQ2MzRKaWNSd3VaODZVdHFXcGptM1JralRCbERwUTJRSQ?oc=5",
+          "published_at": "2026-09-20T17:46:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T17:34:38+00:00",
+      "summary": "The turbulent AI era is here. The choices we make now are critical. Gates Notes",
+      "claims": [
+        "The turbulent AI era is here. The choices we make now are critical. Gates Notes"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+          "published_at": "2026-09-20T17:34:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI Content Creator, Influencer and Speaker Scott Steinberg - futuristsspeakers.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T16:47:19+00:00",
+      "summary": "AI Content Creator, Influencer and Speaker Scott Steinberg futuristsspeakers.com",
+      "claims": [
+        "AI Content Creator, Influencer and Speaker Scott Steinberg futuristsspeakers.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU0g0OFdmUWx1Z3dGbHdnQXNoWWktemtlTUZLdmZ0TE1NYUlLcUtXNExiZmVTdm5HLUJiT3JkdDA4Ym5yanRmZENlZ0lvUmJFVnY2bjZLbUpuR0NLdWFRaHN5Qml5LVRETERrQUxNTmpaRk5tVE5qVEc2UFowbUJlQmlvbVlvV241dHc?oc=5",
+          "published_at": "2026-09-20T16:47:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "SpaceX Mulls Buying Data From Troubled Startups to Train Its AI Models - TechStory",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T16:21:19+00:00",
+      "summary": "SpaceX Mulls Buying Data From Troubled Startups to Train Its AI Models TechStory",
+      "claims": [
+        "SpaceX Mulls Buying Data From Troubled Startups to Train Its AI Models TechStory"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTUhDVkE4RGZueVN1aVliSk1FazBnc0o4MnpURk1OVGI3WGtnd2tlblpHQkVMSXFXVzc3cUxrX2lrY0t1MWwwd2s0RHJPcW5PRWdiNmtRc0xveGp0b0FDb2MwTVM0VURPX213aHN4VkVpd3hCZUNDZGt2SHRxbkxuN3lVYTRkdjQ2MDRQRi1keXd4VnV0Wmd3?oc=5",
+          "published_at": "2026-09-20T16:21:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Virtual cells built from 4D AI models and 'digital twins' could speed up drug discovery - Phys.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T16:00:05+00:00",
+      "summary": "Virtual cells built from 4D AI models and 'digital twins' could speed up drug discovery Phys.org",
+      "claims": [
+        "Virtual cells built from 4D AI models and 'digital twins' could speed up drug discovery Phys.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QYm0xaG5ra1J2UFVZRGR5UlpVakZ5VGY2OE1QMW9ST0hubzVjTmd0VDdnTFZfS0QyVEdYWmcwMndEdnZVMzI0Z2lvQ294eUJDSHdIOWUxRW5sSkVOY2FScFNoVWlubGhJM0xUUQ?oc=5",
+          "published_at": "2026-09-20T16:00:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Houston, We Have a Problem: Artificial Intelligence Is Becoming Harder to Control - hackernoon.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T15:51:06+00:00",
+      "summary": "Houston, We Have a Problem: Artificial Intelligence Is Becoming Harder to Control hackernoon.com",
+      "claims": [
+        "Houston, We Have a Problem: Artificial Intelligence Is Becoming Harder to Control hackernoon.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUUVfM241RUxKNE5FblVrN3BRaXN1a2JRS0VHcEpSOWMtRllNdGswcy15T3FjUzJDOE9nQUFuczNGOVhnQXNqYy1NVV9vUzFUVVdnRENIdVpoREpGbHFCbnlQMVhJa09PSFZfOFVrMzJ0R0JFdldmZDFHdFFVejZmelZrRGcxaVdQZ28yUEg0N0s0NjUxVmtCOENGNU1Gb2dkUUdXQQ?oc=5",
+          "published_at": "2026-09-20T15:51:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI infrastructure has arrived in the Caribbean - Trinidad Guardian",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T15:35:33+00:00",
+      "summary": "AI infrastructure has arrived in the Caribbean Trinidad Guardian",
+      "claims": [
+        "AI infrastructure has arrived in the Caribbean Trinidad Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVBSMVFiUWlac0QyN0x1ZUFGeVlQYS1hakNadkdYLTlFcy1NYTNBeFFvYlhOVGNueWJPRDE2dmFvZTFOdjd0UlpzZHpEXzZqeC1sVk5mSy1nZmRpRHFRUmRvUFFmNUpMM25Jb09vYjBiWDR0MTM2bnBmR0hlNkI3TWYwVTB4a0ltREFIM3ZHVkhxVnZuNEMwdl9nVlRjWnBSbTY5MWVIWQ?oc=5",
+          "published_at": "2026-09-20T15:35:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mercedes reveal secret F1 codes helping them outsmart their rivals - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T15:33:34+00:00",
+      "summary": "Mercedes reveal secret F1 codes helping them outsmart their rivals GPblog",
+      "claims": [
+        "Mercedes reveal secret F1 codes helping them outsmart their rivals GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWhPOTBoMXdCOWNYY0Q2M2tpb3NUQ1pfOWJyUGU1WmkxRWV5TTVTalRrQWRtWnh6SmpfdVJVZ1pPSDYxSWxHMHpPZnFlQzVjZnB6UTh3ZjBlMENoV0NDdkhGVXpTaDR0aVJfaDFQcmZPX1B4dk1UcjVEVmVENGtLQkswTnMwakU?oc=5",
+          "published_at": "2026-09-20T15:33:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Close Schumacher ally compares current star to F1 great: 'He reminds me of Michael' - gpfans.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-20T15:27:00+00:00",
+      "summary": "Close Schumacher ally compares current star to F1 great: 'He reminds me of Michael' gpfans.com",
+      "claims": [
+        "Close Schumacher ally compares current star to F1 great: 'He reminds me of Michael' gpfans.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSGI3dVhiVHJNWEZuNXlHQlRSd2JYcC1JQ0NsdUl1ZnJfa2VaRlR0RERXMEQ1cVZ1emlZSTZVOWM5dGRpMUFTRFVIZ2xPNkJWOHNjclNEM0dhTFVRbG1iZlJsbjRfbVpHYmdhcHk5X1lzb1hoeTJ1OTNsRWlNUzBzdnc3a2VybWs4RDVSdTJvc0tFRllkYjdySTRsakdPSkg2eWFQWXN4NGFjSXdrVFNWM0dsdw?oc=5",
+          "published_at": "2026-09-20T15:27:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI is now building its own successor. New reports show how much (and how little) control anyone has over it - Scripps News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T15:25:49+00:00",
+      "summary": "AI is now building its own successor. New reports show how much (and how little) control anyone has over it Scripps News",
+      "claims": [
+        "AI is now building its own successor. New reports show how much (and how little) control anyone has over it Scripps News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdldXV21UVWJGZGhQSWRvTDk0ZmFYcjUyR1dVbWlTLVpVQ19yejBfcnhFcE5JQjZqRFJuUmNQVi1NQXM1MXUxX1FQWWkxcmVFSTNWRk40NkN5Umd6R05pNWdwWUVLb3dDbVFNQUtua3F5RFJaLUV5eF9CamRyTGJnb2FoaGxqUDFXZUpsakNWX2dpLXM2Rm4wSk1qLWRGbHltR3JFUFY3UmVmYmZJTnpTeEJKajBXNkh2R3JOckR5cE8wNGNua1BmSmxpOXRyU3dEVENTWW5aYUgtMk44dzNacllfSjNudjRrcFNrX2NCeDg1RG15SlRBTXJEQkJpekZzNHNV?oc=5",
+          "published_at": "2026-09-20T15:25:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "US Federal Register Caught Using Chinese AI Model for Document Search - Futurism",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-20T14:03:00+00:00",
+      "summary": "US Federal Register Caught Using Chinese AI Model for Document Search Futurism",
+      "claims": [
+        "US Federal Register Caught Using Chinese AI Model for Document Search Futurism"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTldRSEotU1UtMFlHcnNZZ2ctREs0QlB3WFhaaW5fOWd5WWhXcDdnT3pxcVdwc3FBMXJiT1p4d3V2M1VfQzd2ZFZENVgzX2lpcXRKby0zVVhEVlRqM2ZDbjMwQ1RQUXJPTHkyNnp2WUY4dUpCZXBNNDd3cnhBVjhidU9uVHFHZTFlUUFSVnZEdzJpZjZfdksxYXU4ZDhmUQ?oc=5",
+          "published_at": "2026-09-20T14:03:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
