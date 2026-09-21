@@ -1,0 +1,954 @@
+{
+  "report_date": "2026-09-22",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-21T22:39:17.907461+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 214
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 237
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 165
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 52
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 61
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 739,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-21T21:51:14+00:00",
+      "summary": "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT multi-device inference is a new capability...",
+      "claims": [
+        "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT multi-device inference is a new capability..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
+          "published_at": "2026-09-21T21:51:14+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-21T21:05:37+00:00",
+      "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and...",
+      "claims": [
+        "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
+          "published_at": "2026-09-21T21:05:37+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Benchmarking LLM Inference at Scale with AIPerf",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-21T18:45:07+00:00",
+      "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...",
+      "claims": [
+        "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
+          "published_at": "2026-09-21T18:45:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence - OpenAI",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-21T17:32:19+00:00",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "claims": [
+        "Advisory Group on Mathematics and Artificial Intelligence OpenAI",
+        "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "published_at": "2026-09-21T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50TVpFbHFkWkJyVkNRV1l3T0VTb3V4YmFhOWZsd19nNEYwV0ZsVURHeElOMG8zYVNRc0NEYUxMYkNua3ozeXBGTTdoRlY5amo1b3dIU3o3TkxUQ0VHRnZ1STYta0FkM3NxZ0dob2Npdw?oc=5",
+          "published_at": "2026-09-21T17:32:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "discovery",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-09-21T13:44:34+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "published_at": "2026-09-21T13:44:34+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-21T12:00:00+00:00",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "claims": [
+        "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+          "published_at": "2026-09-21T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Building standards for the next phase of AI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-21T10:00:00+00:00",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "claims": [
+        "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/building-standards-next-phase-ai",
+          "published_at": "2026-09-21T10:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-21T07:00:00+00:00",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "claims": [
+        "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "published_at": "2026-09-21T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with two complementary selection branches. A centroid base branch captures average relevance, while a rescue branch uses the maximum key-block radius and its prompt-, layer-, and head-dependent distribution to identify blocks at risk of underestimation. Independently thresholding the two branches and combining their masks controls the contribution of rescue blocks while preserving regular block-sparse FlashAttention execution. On H100 GPUs, RBS-Attention achieves 20.65$\\times$ standalone prefill-attention speedup, 11.92$\\times$ vLLM prefill-attention speedup, and 5.97$\\times$ end-to-end time-to-first-token speedup at 128K on Qwen3-30B-A3B-Instruct-2507-FP8. On the dense Qwen3-32B model, it obtains 88.65 overall RULER accuracy versus 89.52 for dense attention; LongBench-v2, InfiniteBench, and Video-MME provide additional quality evaluation. Supporting experiments measure actual retention, compare selectors at matched density, and characterize blo",
+      "claims": [
+        "arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with two complementary selection branches. A centroid base branch captures average relevance, while a rescue branch uses the maximum key-block radius and its prompt-, layer-, and head-dependent distribution to identify blocks at risk of underestimation. Independently thresholding the two branches and combining their masks controls the contribution of rescue blocks while preserving regular block-sparse FlashAttention execution. On H100 GPUs, RBS-Attention achieves 20.65$\\times$ standalone prefill-attention speedup, 11.92$\\times$ vLLM prefill-attention speedup, and 5.97$\\times$ end-to-end time-to-first-token speedup at 128K on Qwen3-30B-A3B-Instruct-2507-FP8. On the dense Qwen3-32B model, it obtains 88.65 overall RULER accuracy versus 89.52 for dense attention; LongBench-v2, InfiniteBench, and Video-MME provide additional quality evaluation. Supporting experiments measure actual retention, compare selectors at matched density, and characterize blo"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.20971",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and spectral features extracted from a sliding window of attention weights that represent a summary of the model's contextual state, disentangled from the hidden state. Keeping the base transformer entirely frozen, we train only the routing parameters, isolating routing as the sole variable. AAR improves GSM8K by +3.37 pp over a routing-only SFT baseline on OLMoE. Beyond performance, we show that routing and attention form a coupled circuit: routing changes at layer l propagate through the residual stream to amplify attention sinks at layer l+1, reshaping attention without any direct update to the attention mechanism itself. Further, AAR reduces long diverging generation, with incorrect answers getting shorter, while correct answers remain unchanged in length. Finally, AAR is strongly depth-sensitive: applying it indiscriminately across layers can degrade factual retrieval, whereas mathematical reasoning gains persist when it is introduced deeper in the network. This sensitivity exposes a retrieval--reasoning tension across depth and makes layer-selective AAR a controlled probe of the rou",
+      "claims": [
+        "arXiv:2609.20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware Routing (AAR), which augments the router with temporal and spectral features extracted from a sliding window of attention weights that represent a summary of the model's contextual state, disentangled from the hidden state. Keeping the base transformer entirely frozen, we train only the routing parameters, isolating routing as the sole variable. AAR improves GSM8K by +3.37 pp over a routing-only SFT baseline on OLMoE. Beyond performance, we show that routing and attention form a coupled circuit: routing changes at layer l propagate through the residual stream to amplify attention sinks at layer l+1, reshaping attention without any direct update to the attention mechanism itself. Further, AAR reduces long diverging generation, with incorrect answers getting shorter, while correct answers remain unchanged in length. Finally, AAR is strongly depth-sensitive: applying it indiscriminately across layers can degrade factual retrieval, whereas mathematical reasoning gains persist when it is introduced deeper in the network. This sensitivity exposes a retrieval--reasoning tension across depth and makes layer-selective AAR a controlled probe of the rou"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.20974",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an expert model and implicit differentiation, CaLR performs gradient-guided ``thought revision\" to enforce logical consistency, enabling dynamic self-correction of intermediate steps during parallel generation. Empirically, CaLR achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and demonstrating superior robustness in constrained tasks like Sudoku.",
+      "claims": [
+        "arXiv:2609.20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome the drawbacks of the dual, we propose Causal Latent Revision (CaLR), a framework that reformulates reasoning as constrained latent optimization. By adopting a causal topology matrix (CTM) from an expert model and implicit differentiation, CaLR performs gradient-guided ``thought revision\" to enforce logical consistency, enabling dynamic self-correction of intermediate steps during parallel generation. Empirically, CaLR achieves SOTA DLM performance on complex benchmarks, surpassing strong AR baselines and demonstrating superior robustness in constrained tasks like Sudoku."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.20981",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all arms at 85 percent test recall, and repeat each comparison over three random seeds. LoRA accounts for the primary effect, increasing area under the precision-recall curve (AUPRC) from 0.300 to 0.679 +/- 0.027 using the same frozen backbone. Rank 4 achieves this result while training only 0.26 percent of weights. Neither refinement stage exceeds its matched control: hard-negative mining changes AUPRC by -0.0045 +/- 0.0119 versus an equal-size random curriculum, and SupCon changes AUPRC by +0.0002 +",
+      "claims": [
+        "arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all arms at 85 percent test recall, and repeat each comparison over three random seeds. LoRA accounts for the primary effect, increasing area under the precision-recall curve (AUPRC) from 0.300 to 0.679 +/- 0.027 using the same frozen backbone. Rank 4 achieves this result while training only 0.26 percent of weights. Neither refinement stage exceeds its matched control: hard-negative mining changes AUPRC by -0.0045 +/- 0.0119 versus an equal-size random curriculum, and SupCon changes AUPRC by +0.0002 +"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.21061",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21096v1 Announce Type: cross Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of attention heads associated with hallucinated responses. We evaluate our approach extensively across several LLMs and established benchmarks. Empirical results demonstrate that our proposed single-pass approach provides consistent improvements over existing attention-based and multi-response baselines across two hallucination-detection benchmarks, while achieving competitive performance across diverse LLM architectures. Further analysis reveals that impaired context sharing among tokens during causal generation is strongly associated with hallucination occurrences in LLMs. In particular, hallucinated responses are consistently characterized by an over-reliance on self-attention, diffused context retrieval from earlier tokens, or information over-squashing, especially in the final transformer layer.",
+      "claims": [
+        "arXiv:2609.21096v1 Announce Type: new Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of attention heads associated with hallucinated responses. We evaluate our approach extensively across several LLMs and established benchmarks. Empirical results demonstrate that our proposed single-pass approach provides consistent improvements over existing attention-based and multi-response baselines across two hallucination-detection benchmarks, while achieving competitive performance across diverse LLM architectures. Further analysis reveals that impaired context sharing among tokens during causal generation is strongly associated with hallucination occurrences in LLMs. In particular, hallucinated responses are consistently characterized by an over-reliance on self-attention, diffused context retrieval from earlier tokens, or information over-squashing, especially in the final transformer layer.",
+        "arXiv:2609.21096v1 Announce Type: cross Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci curvature to identify structural patterns indicating information bottlenecks in attention graphs. We then introduce a method that captures both semi-local and global information-flow characteristics of attention heads associated with hallucinated responses. We evaluate our approach extensively across several LLMs and established benchmarks. Empirical results demonstrate that our proposed single-pass approach provides consistent improvements over existing attention-based and multi-response baselines across two hallucination-detection benchmarks, while achieving competitive performance across diverse LLM architectures. Further analysis reveals that impaired context sharing among tokens during causal generation is strongly associated with hallucination occurrences in LLMs. In particular, hallucinated responses are consistently characterized by an over-reliance on self-attention, diffused context retrieval from earlier tokens, or information over-squashing, especially in the final transformer layer."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.21096",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "inference",
+        "models",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal representations in LLMs, including attention patterns and layer-wise activations, and examine whether these changes are linked to task-relevant components identified by EAP (e.g., attention heads and logit-level activations) that drive task performance. We find that EAP-identified components are concentrated within specific layers, indicating a degree of functional localisation in how models internalise task-specific behavior. Notably, the distribution of these components across layers is largely uncorrelated with the layers undergoing the most substantial representational changes during fine-tuning. Furthermore, we observe that overlap in EAP-identified components across tasks does not translate into cross-task performance transfer if the tasks are different in nature (e.g. classification vs. generative tasks). More specifically, fine-tuning on one task can lead to a degradation of performance on another when the two tasks exhibit a high degree of overlap in their EAP-identified components.",
+      "claims": [
+        "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address this, we investigate how fine-tuning alters internal representations in LLMs, including attention patterns and layer-wise activations, and examine whether these changes are linked to task-relevant components identified by EAP (e.g., attention heads and logit-level activations) that drive task performance. We find that EAP-identified components are concentrated within specific layers, indicating a degree of functional localisation in how models internalise task-specific behavior. Notably, the distribution of these components across layers is largely uncorrelated with the layers undergoing the most substantial representational changes during fine-tuning. Furthermore, we observe that overlap in EAP-identified components across tasks does not translate into cross-task performance transfer if the tasks are different in nature (e.g. classification vs. generative tasks). More specifically, fine-tuning on one task can lead to a degradation of performance on another when the two tasks exhibit a high degree of overlap in their EAP-identified components."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.21113",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framework using CeNN-inspired cellular-recurrent layers with bounded local processing, compact recurrent memory, routing, fusion, and accept-or-rollback validation. Three implementations are studied: Integrated Memory, MemoryFusion, and PDelta3-GDN2-CLVR+Local32. Strict PDelta3 conversion accepts a layer only when representation and NLL criteria pass fixed thresholds. On SmolLM2-135M, layers 0-2 are accepted with cumulative $\\Delta\\mathrm{NLL}=+0.01209$, while layer 3 is rejected despite acceptable NLL because representation fidelity fails. On Qwen3.5-0.8B, full-attention layers 3, 7, and 11 are accepted with final $\\Delta\\mathrm{NLL}=+0.02073$. Integrated Memory keeps perplexity within $-0.07\\%$ to $+0.93\\%$ while reducing total cache by up to $6.01\\%$. A sampled 200-item downstream sanity check gives $28.5\\%$--$32.0\\%$ overall accuracy for converted Qwen releases. The results support conservative, quality-gated structural conversion rather than universal attention replacement or speedup.",
+      "claims": [
+        "arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framework using CeNN-inspired cellular-recurrent layers with bounded local processing, compact recurrent memory, routing, fusion, and accept-or-rollback validation. Three implementations are studied: Integrated Memory, MemoryFusion, and PDelta3-GDN2-CLVR+Local32. Strict PDelta3 conversion accepts a layer only when representation and NLL criteria pass fixed thresholds. On SmolLM2-135M, layers 0-2 are accepted with cumulative $\\Delta\\mathrm{NLL}=+0.01209$, while layer 3 is rejected despite acceptable NLL because representation fidelity fails. On Qwen3.5-0.8B, full-attention layers 3, 7, and 11 are accepted with final $\\Delta\\mathrm{NLL}=+0.02073$. Integrated Memory keeps perplexity within $-0.07\\%$ to $+0.93\\%$ while reducing total cache by up to $6.01\\%$. A sampled 200-item downstream sanity check gives $28.5\\%$--$32.0\\%$ overall accuracy for converted Qwen releases. The results support conservative, quality-gated structural conversion rather than universal attention replacement or speedup."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.21139",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21149v1 Announce Type: new Abstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake styles, evaluation for this task must (1) support comparison across interviewing approaches, (2) minimize clinician burden, and (3) measure clinically relevant performance for health systems deploying these technologies. We present a clinician-grounded evaluation platform built around a memory-augmented patient simulator for open-ended AI interviewing, InterviewPlayground. We created interactive patients using InterviewPlayground with our expert-authored vignettes, constructed a simulated intake platform for the interviews, and designed evaluation modalities relevant to intake. In a pilot of 6 clinicians in a 25-minute assessment compared to a GPT-based LLM intake interviewer, the LLM recovered more of the clinically relevant items embedded in the patient vignettes (88.0% vs. 38.9%), but made more clinical inferences not based on the interview (56.8% vs. 27.8%), and characterized identified safety concerns less often (33.3% vs. 66.7%), setting the stage for deployed quality assurance for this task.",
+      "claims": [
+        "arXiv:2609.21149v1 Announce Type: new Abstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because clinicians may use different intake styles, evaluation for this task must (1) support comparison across interviewing approaches, (2) minimize clinician burden, and (3) measure clinically relevant performance for health systems deploying these technologies. We present a clinician-grounded evaluation platform built around a memory-augmented patient simulator for open-ended AI interviewing, InterviewPlayground. We created interactive patients using InterviewPlayground with our expert-authored vignettes, constructed a simulated intake platform for the interviews, and designed evaluation modalities relevant to intake. In a pilot of 6 clinicians in a 25-minute assessment compared to a GPT-based LLM intake interviewer, the LLM recovered more of the clinically relevant items embedded in the patient vignettes (88.0% vs. 38.9%), but made more clinical inferences not based on the interview (56.8% vs. 27.8%), and characterized identified safety concerns less often (33.3% vs. 66.7%), setting the stage for deployed quality assurance for this task."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.21149",
+          "published_at": "2026-09-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Lewis Hamilton makes F1 claim as Kimi Antonelli opens up on Seb Vettel messages - RacingNews365 Review - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-21T20:00:00+00:00",
+      "summary": "Lewis Hamilton makes F1 claim as Kimi Antonelli opens up on Seb Vettel messages - RacingNews365 Review racingnews365.com",
+      "claims": [
+        "Lewis Hamilton makes F1 claim as Kimi Antonelli opens up on Seb Vettel messages - RacingNews365 Review racingnews365.com",
+        "Kimi Antonelli opens up on Sebastian Vettel messages in F1 title charge racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeFhIcFBFdEF4MWEyYUl6a0lvNEplbk9ueGNsa2MxRXBreXp5U09qczdRa01Ka3BFUjVGd3AyYjd5cTlXZ0s3WmxRRlZUN1EtOHpENkliV0VrUWp2RDJuNjMxWlVVdUthaERWYTBpMUdsWUlUbXZiQUFVSWhScWp6cEZ4WTBxdllIM0RfaU5fZG1FZExaTDl4bHNaWUFuRl9Jdl95LV9ob0hNV2ppVnM5akFydFRpWkxMcjh1QTA1WVhqRkNE?oc=5",
+          "published_at": "2026-09-21T20:00:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHZvUnJlaHMwd3FvTkhwamZRYTR4NEpycU5uczU5bnFqbHN1ZHFxQ3lsNDB2ZkJjS1N5SnYyUGpyUWZzSlFvbUxNNG00R2ZaRk9RQjlmVzY5QVNxWWEySGU5ODBjajk0bXBDODdPanpTNnNZTmVGVnpRWmFpM090VTZQVzdrOWd4M3NBWmsteEhia0lVaTlaRnoxY2xtUQ?oc=5",
+          "published_at": "2026-09-21T08:10:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli leads F1 by 81 points and stays with Mercedes - Mix Vale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-21T19:38:47+00:00",
+      "summary": "Kimi Antonelli leads F1 by 81 points and stays with Mercedes Mix Vale",
+      "claims": [
+        "Kimi Antonelli leads F1 by 81 points and stays with Mercedes Mix Vale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSVd1T1M0c1VGajVzdFB3dlpzOTlESkFrekFGanJOQkZBaXM2NVQtZU5KQVpCanBuRjdDMUpVVVlCS3FZQVlDdXZqUDFIMC1qZGo4U0IwMkNIbUdEeE5CWXE2MzBXbkM0bmhGTTZFNmVpWkF6UURfVmYwWFpVQ01ibWlqNmhseXI4UUpIRVdKV3BXWFBKZUo3VnJVMmFGc1gt0gGgAUFVX3lxTFBJV3VPUzRzVUZqNXN0UHd2WnM5OURKQWt6QUZqck5CRkFpczY1VC1lTkpBWkJqcG5GN0MxSlVVWUJLcVlBWUN1dmpQMUgwLWpkajhTQjAyQ0htR0R4TkJZcTYzMFduQzRuaEZNNkU2ZWlaQXpRRF9WZjBYWlVDTWJtaWo2aGx5cjhRSkhFV0pXcFdYUEplSjdWclUyYUZzWC0?oc=5",
+          "published_at": "2026-09-21T19:38:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Rosberg Warns Kimi Antonelli of F1 Title Threat - Read Motorsport",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-21T19:20:00+00:00",
+      "summary": "Rosberg Warns Kimi Antonelli of F1 Title Threat Read Motorsport",
+      "claims": [
+        "Rosberg Warns Kimi Antonelli of F1 Title Threat Read Motorsport"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHBHY0FndEFYMFZuMXMwbk1ET0RKTVJtV0RSeU0tdTkwQm03VlE4Y1BYeGRJY19PeFVrV0ptSm1icDAzU2hobUx6aXZEWGNqUHlZdWR5YnpLUVA2aEQ2S2FhT0x4bXVCcm1NdUZIZlY3cW85aXhtLXlCb0t0ZDdBNlVkSEtaR0NmLUVVYngwMGc?oc=5",
+          "published_at": "2026-09-21T19:20:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "SpaceX’s Grok 4.7 Lands Like A Damp Squid Albeit With Some Improvements, As DeepSeek Teases 8 Trillion Parameters For An Upcoming Model - Wccftech",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-21T18:46:44+00:00",
+      "summary": "SpaceX’s Grok 4.7 Lands Like A Damp Squid Albeit With Some Improvements, As DeepSeek Teases 8 Trillion Parameters For An Upcoming Model Wccftech",
+      "claims": [
+        "SpaceX’s Grok 4.7 Lands Like A Damp Squid Albeit With Some Improvements, As DeepSeek Teases 8 Trillion Parameters For An Upcoming Model Wccftech"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSnJqcVFabEQzWjhPYnZacXFVTVM4Z1hjbjNNY0JBRk1pZDZTTUxxUmw0aVV4Nlo0VU5GaXZERVV0R3A3bTd5YkN6NmVtXzE0czJrY210c1F1TFVXTEZycm5Wak5FMDROSGhuQ3Q1WG02Skk3VjhhenhHMFZhTExDcW5Sd0Z5S2NsMVU5bER4UG1IOHR2STZta2hBZEtQcG93YVNpRFg4dGt0WU05S0k2dVFhRnZjeERRYmd3bHBYaFBrbmFVUVJ5NjF6RGpyeTY4TDVaZ2FLa3BnUUM1RDRrYW4ySVBJaTVUQWxj0gHwAUFVX3lxTE5jOVhxbklITGpDaG00LWdoZzdXZWFNVEdrY1dabWxSYTVIWjhPU3p1UEstTWxQaDNmOW5hU3ppb2pBWTR1b20yb2xneDhVWHh6X2l2Q0RRcTIyQTNKLXROdHNMVWV3NFRuNFIwc25uazdMT0kyZlFEajJISGNNNzcxemlLNDBtTXA0Zl91QVBQcnd3M0lxTW9Fdllja3hSaDAwV1dQVEdvYmR3TFRKMlN2UGNlRnQ5dThOVnFjUFRuSWpXQjR2VU5VaGpiRWU3RGpPbjVYaHBiZ2pIdlo3X196TFBjb1hpOW01d2gyWmJlZw?oc=5",
+          "published_at": "2026-09-21T18:46:44+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic weighs new AI model as OpenAI gains enterprise AI ground - BetaNews",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-21T18:41:53+00:00",
+      "summary": "Anthropic weighs new AI model as OpenAI gains enterprise AI ground BetaNews",
+      "claims": [
+        "Anthropic weighs new AI model as OpenAI gains enterprise AI ground BetaNews"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Rb1dvb3A2RU1IU1hxVE9kYy1mcHBpTHM2MjFHeUVZSFFpZVMxYThVbk9xUVo5RTJSNV8zNUlveFdlT0Zrb1NUeExWQ0dITzlXc3FwSU9hNFRmWE40bGRqaTdsUW4wSUZ3eE5oOEZ2ZEQtSVE?oc=5",
+          "published_at": "2026-09-21T18:41:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli issues Mercedes frank ‘undeserved’ Madring F1 victory verdict - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-21T18:15:24+00:00",
+      "summary": "Kimi Antonelli issues Mercedes frank ‘undeserved’ Madring F1 victory verdict Motorsport Week",
+      "claims": [
+        "Kimi Antonelli issues Mercedes frank ‘undeserved’ Madring F1 victory verdict Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaTBLaTJpb2J2VkdSRFJsSlc1SWxnaFpIX0txdUVEQ19HVERkUkh5ZWM4akc3ODdDWXp6NzktdXRWNmd5V3ZfQnVXS3k3c3FtUWJTazU5QzdqVjZCYUhFMmZsR0h4STB1T2JUOU8wTWhpT19PTkFTVnVmYzJyTW55dWJDaDFCbTVxUFVXQ25LOGRsQ1o4WFlBMlV2UzFQMVRS?oc=5",
+          "published_at": "2026-09-21T18:15:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mustafa Suleyman challenges Anthropic’s approach to AI model consciousness - iNews Zoombangla",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-21T18:03:03+00:00",
+      "summary": "Mustafa Suleyman challenges Anthropic’s approach to AI model consciousness iNews Zoombangla",
+      "claims": [
+        "Mustafa Suleyman challenges Anthropic’s approach to AI model consciousness iNews Zoombangla"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSlIyXzNULWFLX0hzSGFhTmM4alNCdmNJdTJSdnh4QU14NV9lMWtpdG1IX3ZYRXd3Si1oOEFyZTZsLXVVU2N0LVoyRGM4YzZQY2QtdUM3VTJ2Z280TWJQRzB3YVRRbzB2cDA2bUhoMXBza1NSOEt0QVFKTGtCTnJkZzE3TTlhUQ?oc=5",
+          "published_at": "2026-09-21T18:03:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Michael Schumacher's former boss explains how 'phenomenon' Kimi Antonelli reminds him of F1 icon - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-21T18:00:00+00:00",
+      "summary": "Michael Schumacher's former boss explains how 'phenomenon' Kimi Antonelli reminds him of F1 icon F1 Oversteer",
+      "claims": [
+        "Michael Schumacher's former boss explains how 'phenomenon' Kimi Antonelli reminds him of F1 icon F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdDlJUndmX2xGTGdBUXQ1dEQ0a0pPbnRrTXNmaWdxcENtS3FKbENSNWtfaGZXb0U1QU1FZHdTeGhaSjE3UXA4cjBkOVVyVjE1ZXp2eDg2bDIzZTJ4LWFIQnNoMXhNVU9uamFKT1BqWl8wWmpNOUNxWDRQNEx0VDZUbXNTVERjYlhZOUxnMlpxSVRrdWM5cGx1Tk91VnFMdVBXckFiWng0R2NybWJmSWpNdTBucnFGU1d5RmN1eGpIa3RvcjgwM2c?oc=5",
+          "published_at": "2026-09-21T18:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
