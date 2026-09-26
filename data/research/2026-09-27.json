@@ -1,0 +1,1032 @@
+{
+  "report_date": "2026-09-27",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-26T22:00:50.391560+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 25
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 80
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 107,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-26T15:25:12+00:00",
+      "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and...",
+      "claims": [
+        "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
+          "published_at": "2026-09-26T15:25:12+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-09-25T19:00:00+00:00",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "claims": [
+        "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/proaction",
+          "published_at": "2026-09-25T19:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli versus his mind will decide 2026 Formula 1 title race, says Nico Rosberg ahead of Azerbaijan Grand Prix - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T20:33:47+00:00",
+      "summary": "Kimi Antonelli versus his mind will decide 2026 Formula 1 title race, says Nico Rosberg ahead of Azerbaijan Grand Prix Sky Sports",
+      "claims": [
+        "Kimi Antonelli versus his mind will decide 2026 Formula 1 title race, says Nico Rosberg ahead of Azerbaijan Grand Prix Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZ3k4VHQxd0kteWdYZU9JVnozV2NWY0d3RzYzZ1pwNTBXUE04NGtaRVVBQ0p4SklwVHIzdjd1a2k4X2daUWhkMEZIYVRjSVQzNGd1NGVHaGlrTjhrQzRnb2FtbTBhTjRRUUQwZW1CZFhkM0IwQXp4V1lpSWNCMUFrYVlwdVh6M2FoRTlNRFZpSGxQeG1tbVFNZ3RQX3BtYUgxclhreC1IWW8yLVotaXNXMWpfbmprUzdvRGtKUElrQnNwb0JYSy1vUzJBaGpqZXVGWHN5RFFHdEhBZHNteU0tVXBJYXB6d3FKNjBKNm9qa212Zw?oc=5",
+          "published_at": "2026-09-26T20:33:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity - CBC",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-26T19:31:56+00:00",
+      "summary": "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity CBC",
+      "claims": [
+        "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity CBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hYkN5dGZBNWtMczBXaVNSdEZwVExRdWk3Qmt1a0oxaURzYUVxaDBIOUNZUVItaFZSNHc1d3dsN1lFM2REbTV0Q3NCUk84Sl9LQnUzd3NhaU91b1hWODhicHVLOC1XTmtJQzJ3a19veUlkaVR2UHdiNXJB?oc=5",
+          "published_at": "2026-09-26T19:31:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Arvid Lindblad, Carlos Sainz, Kimi Antonelli – Formula 1 Photo - Grandprix.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T19:27:41+00:00",
+      "summary": "Arvid Lindblad, Carlos Sainz, Kimi Antonelli – Formula 1 Photo Grandprix.com",
+      "claims": [
+        "Arvid Lindblad, Carlos Sainz, Kimi Antonelli – Formula 1 Photo Grandprix.com",
+        "Kimi Antonelli – Formula 1 Photo Grandprix.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOHV6OGhjenUxU3g3aGxPUFlYUEY3WWdmZmsteFhNWXp3dkFIeDY1My1zMFhFRG43SUdlUVpZNkpWZF9ycG1hN2tma0xCQzNkbVdNWFQ4QmNzOFE3TFhzTGI1RVJUQ0ZKcWhGbGlHVmk4a3FwaHUyZnc4U3UtR0tHZGZ3NXZ5ZC1kcERkUnF5RmRmSlRfOUh3T1ZFVW1XU2VWcE9pUWplYUNWaWstOE1HMWRB?oc=5",
+          "published_at": "2026-09-26T19:27:41+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZzJINWpzblJ3aFU1VnNRYmVCT01mNXJQZ0RwOXVnZkkyaGRPT0U0aXBtTDhGZjUtcEdWRExZNW5pcVBSaGdHRjhVOGtHRUl4c3c3eG5HWndHOWxVbEtYcG9ETEU3VGxuQ1JSNGJ2YXFzNl9LdlVQamM2ZmhwUHlFcEctc0MzTDZyVF9xZQ?oc=5",
+          "published_at": "2026-09-26T10:45:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli laments \"the worst weekend of his season\" in Azerbaijan - autohebdof1.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T19:03:45+00:00",
+      "summary": "Kimi Antonelli laments \"the worst weekend of his season\" in Azerbaijan autohebdof1.com",
+      "claims": [
+        "Kimi Antonelli laments \"the worst weekend of his season\" in Azerbaijan autohebdof1.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRHUyY19zNGE0bG4yMWFHMTdncF81Q3BzcFNMVEtiSUJoUTFuTTVEVEtjVDV2S04wXzR2TFBKOVlORW4zemNxSGxGb3poTVljeHFDRVo1djhKQ05JdU1tdjlJTjlpZVdfcXpaRzdlRTRLWWM1ckVhbWJQeXFHLUtCUDRXY2Izcjd1bllVRTBnbUVyTEU2ZUxtLWFDcFQ4bmdsVkh4eGZVc0liMThaYzZN?oc=5",
+          "published_at": "2026-09-26T19:03:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Azerbaijan Grand Prix: Mr. Perfect George Russell fends off late Max Verstappen attack, Kimi Antonelli P5 - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T18:50:45+00:00",
+      "summary": "Azerbaijan Grand Prix: Mr. Perfect George Russell fends off late Max Verstappen attack, Kimi Antonelli P5 grandprix247",
+      "claims": [
+        "Azerbaijan Grand Prix: Mr. Perfect George Russell fends off late Max Verstappen attack, Kimi Antonelli P5 grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVVlFS1AwMmNkN1JneXFNSTZMdmt6dEp4SG1USDR0Ylo2aE9qZGtGYWZLRUJ1Y2RfSGRucTl2bDl5WFB5ZG1SWVNRUVNHRTVDTkp6NDFLdDRFdVJXY05wamNLQXlaSGtVay0tWVhJVjA5ZjlXUi1rQ0w5SUZ0WmVxdzNfWkw5TEdIQ1lJcEdRb3prcWRraUxfRjl0VHVXYy0wMF9HRnBoWU9CTWNYSml4WlNGUlh2Wkk2eGJ6T3p1Vkk2RFdtRUlYSjJJWTdNMm43MHdoVlQtcUhMSFd5eWVB?oc=5",
+          "published_at": "2026-09-26T18:50:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Claude Opus 5.5 Released, Intensifying AI Rivalry with OpenAI - Aktualita.co",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-26T18:17:38+00:00",
+      "summary": "Claude Opus 5.5 Released, Intensifying AI Rivalry with OpenAI Aktualita.co",
+      "claims": [
+        "Claude Opus 5.5 Released, Intensifying AI Rivalry with OpenAI Aktualita.co"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMjRxcEZPR0pOeDFuVmZId0Y5OFI3WW9sLUV4ZHZaNEgxNjU1bTJ0Y25ZcFVjTTFCMVdhMTdkSlFIazI2bEl4SXI4Q0gwdlpWMUduNVBqendmVHVWMFZ4VThkanBQX2tMSXExLWIyQmkyTkQ5cURsU3Zxei1tS0FBVmRjUjlJUlFHS3RIUmN5Q192Q1dtRVFVYVNB?oc=5",
+          "published_at": "2026-09-26T18:17:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Alibaba Launches Qwen Intelligence As A Full-Stack Agentic AI Platform For Smartphones - Pokde.Net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T17:52:51+00:00",
+      "summary": "Alibaba Launches Qwen Intelligence As A Full-Stack Agentic AI Platform For Smartphones Pokde.Net",
+      "claims": [
+        "Alibaba Launches Qwen Intelligence As A Full-Stack Agentic AI Platform For Smartphones Pokde.Net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44SnVBeUR4RVhoVlpVa1FDRkhPeElhSlFmcFVTUHV5ZjJCR3JVM2VBVUxkQm54c3ZhMnVfS2VjSlJja3c5R3N6dkUyelFyd1ZUV3B3T3ZTSkdGX2ltUlRlRjdKcG81MlBFWnRyUUxzaw?oc=5",
+          "published_at": "2026-09-26T17:52:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell's Baku win proved his one trait that may yet deny Kimi Antonelli the title - Daily Express",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T17:48:00+00:00",
+      "summary": "George Russell's Baku win proved his one trait that may yet deny Kimi Antonelli the title Daily Express",
+      "claims": [
+        "George Russell's Baku win proved his one trait that may yet deny Kimi Antonelli the title Daily Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVkpieDNmcUIzRWVZdHhsVTFVcWNUbkJMaW5fbjU0N2piX1d5OGxxZUJHN1JNQzZnSFJzbTFGRDFxZHkwZ0ltLURxV1RsYWFxb1JfLXNGMDk1c2czS3NsUEZJVEZJTlo0a0lTVmZlblJsODE2TmRUWU1pN0E3dThTNmNZeEtFaTFoYWhEWHI1RHlmdzdEWEpweGp2TWTSAaIBQVVfeXFMUG12RW9CUjlac1l3QzNWV1FUYUJJMFcwX3YzVGhpbE5ZMHVDM0l0a3g5UTEwOWZReFhaZ3F5WUNwV3g2RTViS2lXZHFLQ2g4LVBrZjk1V3loeXp2SnlJU1hpT2gzdnFwd0R5bGJwZ3FxRk5feEhuZXI2ZWUzalhlN1p0Mnh0dDYwYmJjell1MENhd25wMjVTcUNpYXNCdXpobDZR?oc=5",
+          "published_at": "2026-09-26T17:48:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Azerbaijan Grand ​Prix — F1 leader Antonelli says Baku race worst of his season - Sportstar",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T18:49:22+00:00",
+      "summary": "Azerbaijan Grand ​Prix — F1 leader Antonelli says Baku race worst of his season Sportstar",
+      "claims": [
+        "Azerbaijan Grand ​Prix — F1 leader Antonelli says Baku race worst of his season Sportstar"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPenZsV1dDUTdjREhrSnE0Q01MTHFUbm9UUC1Pa2dsZ0pwOUREd3NDb3JUc2RqY1dYVTVDTkd5UXRtWnpTQVgyc2JTUXdsY2RrdXMyc090VUF1UW85eTA3MDNGVkt4d0M3ZTU2TUNrU2oxOXY5RWJhVUFERTZoVThDTDhiVllEVnM4WDFPV3BfcEREbC1PNnN3Ym1QWTZIM2JNMGFpSVlDaHlSTi1LWUNfa1JGUGUtY2Z2Vjl2d3Y1OTVYamF5RlRyTHRvLVVhZmhnSEhWN3JOVFlOMVM5QWpNNVNYV0JLcndoa0NvZtIB8wFBVV95cUxPODJHMm1TcHdEMnI5dnFLcHU1QXJXSGw4MV91SE1PVk1NcERDaTRBWXhJVzNjNm54cmVFcUlNTkFfWFdGQXU2U1h4Q0FTaFQtYXZTX0Jtd1ZWa3ByUEpZQXBJOUtwd3ZFRUZVdDhsblU5bmJkWFRkWHpvelRIZ0xjUnJBVWRNU0NLMl9RUG5TY0dwdzVzTGM2RE9SSEhxWExKMmg3ZHk2WURkS2JYTEtfRkkxRXpyOGxWcVVLbVZ6ZTQ1N24ycHg0TGZ0Y2pWUmVEdHZzR2hyWGJ1dDNEQThNNllPVm1ZSVcxalFVNkJiWHhPbjQ?oc=5",
+          "published_at": "2026-09-26T18:49:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Azerbaijan GP: George Russell fastest in second practice ahead of Kimi Antonelli in dominant start in Baku - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T17:42:50+00:00",
+      "summary": "Azerbaijan GP: George Russell fastest in second practice ahead of Kimi Antonelli in dominant start in Baku Sky Sports",
+      "claims": [
+        "Azerbaijan GP: George Russell fastest in second practice ahead of Kimi Antonelli in dominant start in Baku Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSFVVVGZSOThUd1NHcHpDR2ZQV2lDcmVmLWcxRUxsY09iUGZxRDVHdkhuR3FXUENkNzVVNVc0YTc0LUdQWDA1RmxXZXZjVEJCZmRmNGRUN2djSXlGNWpDdnF3dUF4T3JlTGNKc3NYbWZIY3VrT0VmaW13Q294SzFwcmNtNlVzZHZFQ0hCWFE5RFo1U2ZtQWFLYkQzRC11czdiX2RiYnNYSlJRbEs1ZVFrMWZaTWdpd2hCMDhMR19uTkpHSXR0LUxxOExNcmRDeG45TXdoMXpDVU5URmlsZy1CeFlB?oc=5",
+          "published_at": "2026-09-26T17:42:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Crash in Baku: “It Was a Very Stupid Mistake” - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T17:24:16+00:00",
+      "summary": "Kimi Antonelli Crash in Baku: “It Was a Very Stupid Mistake” Yahoo Sports",
+      "claims": [
+        "Kimi Antonelli Crash in Baku: “It Was a Very Stupid Mistake” Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzFMYS1meUtlbjg1MWVHdVk2U0pjOG1Gb25Vai1NeEczaVpVMldoZUtiTld4WWxzVGh2aWdsdlhlTzRKS3JfNWZrVHpTaHFBV0RaejVyRlJSYjZvWWt1N0liWGowZ0JVaGJJWWFDS3R0aDE0M1lHTnE2SDRaZTd2T0JzdjVLUQ?oc=5",
+          "published_at": "2026-09-26T17:24:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 2026 results: Winners, podium, final positions from every race - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T17:11:43+00:00",
+      "summary": "F1 2026 results: Winners, podium, final positions from every race ESPN",
+      "claims": [
+        "F1 2026 results: Winners, podium, final positions from every race ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSXJKWEdTc0hQNjdpYmR0VnNFYkIwSllRNmVJZkxFMUllVEt4STRFMDF4aFdZRllLUEhCLW9NWm9UX2NKam4wS2J2Ym5fTXBDbG9uRUF6QWVsbnFrOGtZaEtIOWdLelV4LWcwblFIaW9wZERyVk9fbVJvWFBvYXhla2Fjd29xZXJMUGVNNGUyQ1pMUlNDQVBVZnpCNE1ZLTNIVnpxT2RaTUY1bm1peXNVbU1sNno1dTIwQktXZDFtRjN2eS0wMkZwUThNMXJWeVd6dnJSajEtMjFwYk1oeDRQa0VUOFE1cTJrYl9aTg?oc=5",
+          "published_at": "2026-09-26T17:11:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure - KSDK",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-26T17:11:00+00:00",
+      "summary": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure KSDK",
+      "claims": [
+        "OpenAI says its models engaged with US government websites in new model misbehavior disclosure KSDK"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSXhSbEluQjdSVGRVMEFNOWxhWl83LVRYWjkxZElBZ21IUTlXbXpBSVVsWGJWUzNfYW1rbk0wNkk0b0wyY3g5VVNZSnRob3JFR0tkdnUyTUpKVUpxNFZfc2VGYnFjbll5a0w0RkpBUk8tYWpVeXdnYXF3OUpoNFBsbm9qWUJFMDduNzRDYlRTeGtXOWNVUkZxSHVOWWlOOHhEU05BNllGdHFtbnkyNW5oTnFoQVgtQlVSa0xHMGJRU0VoSVpNZnllX1l3LUp1SGxkSWl2NTZNRXA2bDE4S0pKNFA3VGhTVG82NVRVZV9jeW5qc1hJc2ZoTmxRQlBHUGhleDkxb2JiLXA3UU1GVmRONQ?oc=5",
+          "published_at": "2026-09-26T17:11:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "F1 standings after Azerbaijan GP as George Russell cuts deficit to Kimi Antonelli - Yahoo News New Zealand",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T17:06:31+00:00",
+      "summary": "F1 standings after Azerbaijan GP as George Russell cuts deficit to Kimi Antonelli Yahoo News New Zealand",
+      "claims": [
+        "F1 standings after Azerbaijan GP as George Russell cuts deficit to Kimi Antonelli Yahoo News New Zealand",
+        "F1 standings after Azerbaijan GP as George Russell cuts deficit to Kimi Antonelli Newswav"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSmkxcWRoQUdUaWVDSmRKd2xWZ3dnbUVOb2FyRVNFbm1DYjFDbkdaZGl6U3lVbmxZcHl2RXVDcTQ1Q3EzTmRuQVlsLWJtMF9jTFB5aVRBZlpvUkJrSmRXaDFhaXRyUGs4NzAyYzdGcXhWSExsYzJQX21laVNCYnpPRjd6WQ?oc=5",
+          "published_at": "2026-09-26T17:06:31+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOVNnYVRyajVxRXdfbkMwT0l4b0ZPNzczOGY0dkNick1ZYldVeTNoNFl0SGZtWkdEckdHeWxpR1hHR24taGY0TFRDTklZZGVfS3ZHbVIzVGx2UzZMZUxuSTBQeGpKX01acko4LVJlZFZWT0pGY0YyZEstWlFEZmhEbXF2U1FsSXZ2TUFwaXpGUFZidUkya1JWaC1lQ0dvWlNwdnc5YzZ2dm5WS1VtY2dONjl4QmJBd2c?oc=5",
+          "published_at": "2026-09-26T13:08:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: My Azerbaijan Grand Prix was all about damage limitation after Qualifying crash - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T16:57:35+00:00",
+      "summary": "Kimi Antonelli: My Azerbaijan Grand Prix was all about damage limitation after Qualifying crash grandprix247",
+      "claims": [
+        "Kimi Antonelli: My Azerbaijan Grand Prix was all about damage limitation after Qualifying crash grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUXFUOXVMYW9id1BWVGpvcVRydzNsblNIcW53aG9weGNHajQ0dFhKTFE0S1JRaDRmREJ4SjRJSEctcC0xZ29heERsUEtET19DQUtSSU15WE1BekdobDZMbEotc2NiVFdZT0t1QVBVRlU5MUQyNWR6U1ZJTW5peVhPVlMxWFE0eEdrcEwwQWNCajNZRXE0Zm8zSksyeGZtcFBRcHNwSVVoTGZYY1ZRT1lyODlONXJvSWhrUXoxLXBZMGVnY0tpT1dEMmhxSzFkaHYzcGloNXJwR1Z2Z2x2NDRZUFhXc2g0Tzg?oc=5",
+          "published_at": "2026-09-26T16:57:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell wins and says the heat is on championship leader Kimi Antonelli - Herts Advertiser",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T16:02:25+00:00",
+      "summary": "George Russell wins and says the heat is on championship leader Kimi Antonelli Lancashire Telegraph",
+      "claims": [
+        "George Russell wins and says the heat is on championship leader Kimi Antonelli Herts Advertiser",
+        "George Russell wins and says the heat is on championship leader Kimi Antonelli Lancashire Telegraph",
+        "George Russell wins and says the heat is on championship leader Kimi Antonelli yeovilexpress.co.uk"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3Bnam1iandwOTBXVU5tXzBqRUpFTzBOWmhwSUlTY0pGcF8zcmJCcVg5WkI1eVcyMXdMS0dMTGlmdUV6QnRLOVJsQ215ekNTTUF0dlFqbU5xUEl2Y3MzbFAxWGZ0SG5ObzRRTDZLSXZkbE1rWWtNb0JsVXBVNHlfb3F1eVVjSGpwMGZ2WUNETnhSaTJyNmllUXVPT0hOR0g0TDR3WVpRenRzVEF1ak9XSnFCQmlHamlKLVpwaEhn?oc=5",
+          "published_at": "2026-09-26T16:02:25+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmZFeTA0NVZJNTVTS2lpMUF6OFBZMy1RTUNldjg1cW5WeEFmVnFhT2ViU0ptUFJhVFQ0elhnblFqOHk1WG1BUjRISDRZblJBcUFoY09PVXprankwQTZlUHgwWktTZnhob1p0S3JSTEptN0l3TVNfQlpfSGJWVGFlV1A3cHhfbzB0NlNYTzlQSU11UEUzb2NTWjZuTmFsOF8zLTlxLW5fYTRfdTdiZ1pTR2U3N01iN01RRlNTVmNR?oc=5",
+          "published_at": "2026-09-26T16:02:25+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWXp5UFlLY19VUWtBMDlGdHZGSzZUS1QzUWJFb0JqalQweE9VcUxQVms2T0F5b29ia0lXQ3pKZHR3czY2aGJzcGdMZ2oydy1Hc3o2OWszaHQ1MnplNTdCN0hCNk1zQkc1SVlGVnBWaEZtcVpQZnU5eDVPX1Ezd0ZXT3RWNlRnNEdfRmo0TjNCQWFKVHFQaUg2UDVReEtvTUI5NE9jUlJWbEdHelB6VmItYWcxZWNOSnkyWEVsaw?oc=5",
+          "published_at": "2026-09-26T16:02:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Azerbaijan GP: George Russell holds off Max Verstappen for victory in thrilling Baku finale as Kimi Antonelli recovers to fifth - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T15:59:39+00:00",
+      "summary": "Azerbaijan GP: George Russell holds off Max Verstappen for victory in thrilling Baku finale as Kimi Antonelli recovers to fifth Sky Sports",
+      "claims": [
+        "Azerbaijan GP: George Russell holds off Max Verstappen for victory in thrilling Baku finale as Kimi Antonelli recovers to fifth Sky Sports",
+        "Azerbaijan GP: George Russell holds off Max Verstappen for victory in thrilling Baku finale as Kimi Antonelli recovers to fifth Fosse 107",
+        "Azerbaijan GP: George Russell holds off Max Verstappen for victory in thrilling Baku finale as Kimi Antonelli recovers to fifth V2 Radio"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbHJ2d0JwclVDYVNxSGJDbGxRMFdPNVgzeE0xTnlkUkhWTERHOTk1bTNQcm9CakRtZUdnM3VobmgxMnUtT0VneldSQnBRUzVGdXZScTR3a2lfTHpZTV8wUUQwUm1RM0lXOXM0SXUzd1VGcmMxN2hOTG5rbmJrNXVoU0dTRnBsMm9vM3NwUVpOeENCUmpURzg0Wnh2V0JaLXQwRVFDUnFzUmlDZ3E2cWNzYVhHVThMY0FUOVZoeTgybGtsRWtVUHJVeUprVTk2MjJpY1IwaGVhRmxNNUQ1ckdVX2xFRG9TTmZ4MUh1ZlEtVjE5ME1kdDZyVEJka3dyQQ?oc=5",
+          "published_at": "2026-09-26T15:59:39+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPS0dhSGpSZzRzQUtsTVJ1SE5vbzhmQXR4Q3FWbXhSSE5fUk51MTFwR0w3NTJvZXlpREptckxCWWtiREE1Wi0zNm5zUWRXTlhJZlI0NG9EdDhvYVdENXlzREp4dDV6MzRmRFRYMWlCMzlmNHZrb0swSzM2X0tfS2dBT3Qzd2tQY3U3UUowYXVsbFVvd0drYkRKWEpnV2JCNjdqX3hFc0JDOUhieFZzdGI2N3N0XzlnN212UHpHcUFiMnVfWEpoeVdGcGtkQllwR0cxQzVIZXE0b3lHOU1ISzBVR0IyQWZwd0pFNlhkbWFIbWtxMkkwdWxCdzBCaXBnN2tvXy1mbA?oc=5",
+          "published_at": "2026-09-26T13:41:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZjRsUUk4Yjk0UzItMXJ0bEdpdHRlOGU3alg2TWpVOEtiVmtPaXFOTHNZdjlvaXM1NXBoZXJJLUNrMlVsRTRfZDkzN0U5MGV0amZpVFByckd5eDBQQjh2TTB0YldWY2p6aEFnXzUwU0JDMXFIUnNYQWVTeDVaeTVrZFFIcE9vTlNlQ3B3dHJTMDZpOEdZcU8wT09CaFZwRE12VjZ0b0NhNFJ1cmJxRExOVzFMd19QaXhlNkgtU3BXVm1YM1BKaTJrb25IdGRlOEl3YXlvb0t6WU1Zb1RuNnhiV2VjdEZCZkJUZVZ0am4xdzYxV3pnMGpxak5jc2hyUWE4cHlLZjJwUHJRYVU?oc=5",
+          "published_at": "2026-09-26T13:04:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: “Drove like my grandmother”, a challenge to Russell - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T15:59:05+00:00",
+      "summary": "Kimi Antonelli: “Drove like my grandmother”, a challenge to Russell SPEEDWEEK.com",
+      "claims": [
+        "Kimi Antonelli: “Drove like my grandmother”, a challenge to Russell SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONDJkMkZfY190M1gyN2VhWDRiX013Z2E2T29zRkZhQmlpVWl5M3hGRW02RDJ5YkhWS2NoSmJSYTZEZmV6cDdqZ0tyY3kwVl9KUGZuaEI0TDNNYllMcXIxUjBnYlN3cXNZZV96RW9lby1TcUpYclZZc3dxcVkxSG1tbFROSWsyNW1BYXR6YmJ2WE1nYmVuX3ZEeHFCbXB4WV9NVG1UTA?oc=5",
+          "published_at": "2026-09-26T15:59:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: I was \"driving like my grandmother\" in Baku F1 race - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T15:54:11+00:00",
+      "summary": "Kimi Antonelli: I was \"driving like my grandmother\" in Baku F1 race Motorsport.com",
+      "claims": [
+        "Kimi Antonelli: I was \"driving like my grandmother\" in Baku F1 race Motorsport.com",
+        "Kimi Antonelli \"driving like my grandmother\" in Baku F1 race Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQkdHU2wtQ2JzVFJBdHBydFpiR0t0WDhmb2xyU05OMVRGUFlLd0duUXZSRExHTDlwSGhibG1VZHAwaThNZ3JIX2xFdU15azBnS0k3MUxUUnFDZHREVGNQOGY4NXJDcWFMbmliSXdqSmh3cjFPSkhTZU1aMWE0Q2RTTXUxWFJPU2VkeW92WXU4NDFSQVZVYlRXcTJRbGhrYVBCZlc4Y1dR?oc=5",
+          "published_at": "2026-09-26T15:54:11+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOelZpTVpKdWEwbFVRbnd1YjAzSlI2N0xGS0NidjU5VUNaUWI0VV9sR0k5b0pGa0lUdlpxSm9SOEFybzRLd1h3UWFxazFMdXZ5RFBhUnVYOXdCbWY2VDdRMmpHZnhsdlhCMy1BUzhjeGZaQnZtWm9GeFJGODBVRmduak9YdEE5VDljUUJ5eDN0bmRyaU1UcDJRcmlmakFBWUcxLVQwWQ?oc=5",
+          "published_at": "2026-09-26T15:04:11+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc3dVQ0ZyUm5RMmVZeUZjTmpZUzNMTHdmZVVwWV9DcXJmVGhUR09qSkk0ckpUcWh5VkRDR1JyMnVqNEFJbm9QSTlSaXVsM3RDTm5yWUZTcUN1TWVQUVhZcXFZYzNhUy16RkNFeTNMQldJWmRtZTlULUNOd2pEaUdzbWZ6S3NDZ0tJWDEzMUxxX2xYbXQyS2VvZDJKTGlzbGdkZ3VSNQ?oc=5",
+          "published_at": "2026-09-26T15:04:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Azerbaijan GP: Kimi Antonelli dawns on worst race weekend of the season despite gaining 11 places - LiveonScore.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T15:51:15+00:00",
+      "summary": "Azerbaijan GP: Kimi Antonelli dawns on worst race weekend of the season despite gaining 11 places LiveonScore.com",
+      "claims": [
+        "Azerbaijan GP: Kimi Antonelli dawns on worst race weekend of the season despite gaining 11 places LiveonScore.com",
+        "Azerbaijan GP: Kimi Antonelli dawns on 'worst' race weekend of the season despite gaining 11 places ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR0t1eTlEa0V4Rmw0dHh6bDdIMFFWbHNBSGJyWVh6LWFzVno0LWM5aXp3NTg4NC1JVDVmQnNZTHJFM1Fualk1M1J6Qmp5MWl6WVI1V2JtVlFac0xWcm15YlVyT3J2dzI3cmhqQkhkTXRydXljWFFWS3MxZkpuVDZidGZ3REhzaEZPV1RoTW9aRDBQSkN1ay1uekcxc2kxZHhJUHR3LXNPdEw3WWdpNVBsUnlpNkxLWGJmUVhsWFhVcGFTS2M?oc=5",
+          "published_at": "2026-09-26T15:51:15+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaWJGMThiWGlIeHZQcUFZOGdfc2tlVFRidldnUlIwSEo5Z0d0QUk0X0F6WDNpc1RXeVN6c2E2Z3VnY2FaU0tMM1dFM0FsMzd6QXBxWGU2Y3M3S01TTUZoNDFHRjJtV0tlY0dfNUlKd3Z6bkFYbnRUMzRDbHBmdWtRWXZZZHVvTVB3X05YdVdCbjV2bE1xM3ZtbEVrNU1XQWM4bGptTzM3RlY3VXFjUHFMOEJUdnl5VDN4NktMR0NOWmc?oc=5",
+          "published_at": "2026-09-26T14:43:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: F1 championship leader says he was 'driving like his grandma' due to lack of confidence at Azerbaijan GP - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T15:47:46+00:00",
+      "summary": "Kimi Antonelli: F1 championship leader says he was 'driving like his grandma' due to lack of confidence at Azerbaijan GP Sky Sports",
+      "claims": [
+        "Kimi Antonelli: F1 championship leader says he was 'driving like his grandma' due to lack of confidence at Azerbaijan GP Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdFZnSHF3ZVQ0bUZLanNjYTJJVm5WaGRfRExYUW9ZbnROYnJXRU1wNjFnaml2VDZ3YTNYTE5DUHFRdlI0U0xHamx6YmJpZXI0WXFMSzFVZkd6YUUtQ084ODFqeDF2MHptSENsTVRVOXB4OHo3UHNRR3N1ZjMzR19uYmNVY1lNclZJV2xuMFBGQXhtaENWMDJQejVyeVlNVzY2bFBLTjhxNWRSMU9OLWMxcUdSZ2ZXaXlNdmVHZFlIWHowWXFQRVZKc2VGOFNub1IzWVNkaGliVVJDQUt4cnkyeW04Si05UU9JUWlaUWloVHBEQQ?oc=5",
+          "published_at": "2026-09-26T15:47:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli drops hilarious ‘drove like my grandmother’ assessment of Baku F1 fightback - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-26T15:30:00+00:00",
+      "summary": "Kimi Antonelli drops hilarious ‘drove like my grandmother’ assessment of Baku F1 fightback Motorsport Week",
+      "claims": [
+        "Kimi Antonelli drops hilarious ‘drove like my grandmother’ assessment of Baku F1 fightback Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWVFPMzZrMHVWR2xKVnVBS3VfWHJsbHNhOHRnUWk3ZXFvYWJjVWlsSi1FZEloR3J6R0NjS2VyekR1d2c0dG9hQ3A5Vk96TjJOUm54REpNSlZYalBWUHNvLWNMa25LQVlkTWdwblRGU3ZqVjd6TkFNenJPcUpYRXlvTElQTjNNNGJ6Q2NreElOU096UQ?oc=5",
+          "published_at": "2026-09-26T15:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
