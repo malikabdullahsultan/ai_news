@@ -1,0 +1,933 @@
+{
+  "report_date": "2026-09-28",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-09-27T22:23:08.997177+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 39
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 48
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 88,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-09-26T15:25:12+00:00",
+      "summary": "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and...",
+      "claims": [
+        "Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/",
+          "published_at": "2026-09-26T15:25:12+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Fireworks introduces Ember-1 to reduce Kimi K3 token costs - news.lavx.hu",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T20:12:14+00:00",
+      "summary": "Fireworks introduces Ember-1 to reduce Kimi K3 token costs news.lavx.hu",
+      "claims": [
+        "Fireworks introduces Ember-1 to reduce Kimi K3 token costs news.lavx.hu"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSVYwTUtVZng1ajJET2E5U05McnQwZUFSclRoTjBqOGNyNV9CS25QSUlpU1hQS1d1NUZscjN5Z0g2ZXd3ZW9IUUl0UUVaeUZ1bXpZMDB5T210S201WnJ4dS0yYnZRcUxnN01SZWF5YTJ6S09ydnJleUE0dF9HZGRZbWhhSUxmc0pBY0tqWTVTdk8?oc=5",
+          "published_at": "2026-09-27T20:12:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "zues¹² in sepang²⁶ (@Kimi_Theory) on X - t.co",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T18:20:04+00:00",
+      "summary": "zues¹² in sepang²⁶ (@Kimi_Theory) on X t.co",
+      "claims": [
+        "zues¹² in sepang²⁶ (@Kimi_Theory) on X t.co"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5sM3h3VTVKbTA2ZE9waUJ4cTB5Tk0wMGZsMlF2T2ZGUk5qSGE1RTJrX1E0QmNEbS1CUm1F?oc=5",
+          "published_at": "2026-09-27T18:20:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "FILE PHOTO: Illustration shows Qwen and Alibaba logos - The Daily News | Texas' Oldest Newspaper",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T16:03:44+00:00",
+      "summary": "FILE PHOTO: Illustration shows Qwen and Alibaba logos The Daily News | Texas' Oldest Newspaper",
+      "claims": [
+        "FILE PHOTO: Illustration shows Qwen and Alibaba logos The Daily News | Texas' Oldest Newspaper"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSjZlUXdyWDhjMkJIWXpFQXpLODg4dEJSMFhob3B2OEpPeGgteTRiNjZ0ZlFYTW44Q2hwSGJOMHRsZU1ZVzhIZ3F5YjlXeFRKa2hJZS0xX3diQkdqUHh5c05VaGpaZzVZMFBaSlRzS1B6Q2RNRk9wQmFYQkdUeTBJZHVOUk1yUkJ2bFBrb09tOEZxN2NHZU5zWmFXUXJGZ3E5MmlzNE55OVJyOHNJbDlFZlZLb2Z2STZmWWk3Q1B1dE85b1hrUmFrVWRpbmxibDAwbUZzaG0takFaSjZEQ0I0RA?oc=5",
+          "published_at": "2026-09-27T16:03:44+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell proves he can be more than second fiddle to Kimi Antonelli - thetimes.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T16:00:00+00:00",
+      "summary": "George Russell proves he can be more than second fiddle to Kimi Antonelli thetimes.com",
+      "claims": [
+        "George Russell proves he can be more than second fiddle to Kimi Antonelli thetimes.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWnpzd2xaUV82ZlE4M2tfaHBxWEIwbzF2OTExcHN3cWw3T2Rqb2xDUG5XTUgwVW5MVXl3VldWN0tmZklBTXhEUzBzOUlEemZ4d2hQc0xMeURteXJ4WDBQRW02N2loc0d0UnhILURwR1BoZWhFMlY1TFhTRVZycDNqcENjUG1KTUpZZUg5TWRPc1hZQzR4UU5aSGZzYjVTTC1DQnBOd2RaUnExM2hXRjhydUUzZlBXN2dsVjYw?oc=5",
+          "published_at": "2026-09-27T16:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI pauses AI training, launches ‘extensive’ review after multiple rogue agent incidents - Livemint",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-27T15:02:10+00:00",
+      "summary": "OpenAI pauses AI training, launches ‘extensive’ review after multiple rogue agent incidents Livemint",
+      "claims": [
+        "OpenAI pauses AI training, launches ‘extensive’ review after multiple rogue agent incidents Livemint"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS2RMbkd3YnAyWnlqZVE1bXowX0hZOUp0WldkdHpjcmg4R29HT1V5WS1nWnl1OVMyVF9velJsZ3NkR0pZaENTLUFHaGhSNThnWjBSU29xS092WlpwZlFqT0RBRUVYWWZtTDIzYnlRdElRX1hXUVF6ZWE0NXMtaUVxS09nVTQ2NHhrOUEtMzE5WmZ5UV92V3F4M3ZUeXRtVUJzTUlud19YLW5XejJZMnJnc0RDNVdxLXYwLWRhbExQaFlZOGFOWktraERwOFdRTEpURHfSAdcBQVVfeXFMTU9XcGxJNHphQWNSNmg2UXh1MUFLYm1PMUlWWWdMY1RtT0lIX2FuS1NiUWlBWURIeVJBMFpuVWUyOVl1ZnZzOERfa2VKUG8zUU5jNHJPTzgyMzhIRTRrZFA1enhQOXRqNkFyVWpLNzBrbU8ybzdwUWgyeHA4eTV4Ym9oYkRyZ1RGN3FEMDl3TkhuSkFBN2Q3VlNkenpYdm5xU2NYOFNKNld5U3lJUFlmSG9zY2ZIMElvNnlxMnZkMFF5S1Y0OWpfUkZIQVg1Yzd1eFB2cFY5R2s?oc=5",
+          "published_at": "2026-09-27T15:02:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "OpenAI pauses training, evaluation of top AI models after agent bypasses internet restrictions - lokmattimes.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-27T13:33:19+00:00",
+      "summary": "OpenAI pauses training, evaluation of top AI models after agent bypasses internet restrictions lokmattimes.com",
+      "claims": [
+        "OpenAI pauses training, evaluation of top AI models after agent bypasses internet restrictions lokmattimes.com",
+        "OpenAI pauses training of top AI models after agent bypasses internet curbs Business Standard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWk1tcktHS0xtVmVoUVRWTzNranJESGxUVWVvUnlKcUNTYlhVOGxPcVVibW95RUtUdlB2T0dXc3MyT3FzUDRXbVplN09vSnNUTElBN0NJajJmU3AzbDZxTDBlaFpwNmpCX0doN3Q3UklLTWtmS3BRT3gzOFRuRmY3RHljdmtUV0p5NEMya0JqOTRpXzBHZkFCU0xhOWhLekx4eXdzY2twQW9HNDZTY1NRM2tOVmJCWXBfeGJDQVl1cDcyeEpDenFOeFh0WQ?oc=5",
+          "published_at": "2026-09-27T13:33:19+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTERlY3RDM0IwSTFpdEp1cTRRb0pIQ0VtVl9IU1dnZU56RmlocmU0M2dsSnhtd253cTM0MTFsdVpUazNWeS1DcE84a1hncGdETFg1a1lNUGhISGV0NWZwVUZ1QVVKdHg1SXMwYlN0MlNHeVFKdmRIREpfU3FyNFpESEFldXNMSnZreE9LeTNWbVhMbk9BT3RJcFBEdVRBTnh3dkdOVHZVejdmTnJCUDJIZmRuOWoyUS01Sjh0Q29TUFVlTnJVbUhxRDVqTFcyMjFIZm9ZT0Z3bVQ1M0hZVHdNT1h5ekRGeDNuU0ZMTnU5N084Sjk1NENuNVIyTmzSAfwBQVVfeXFMUExEZWN0QzNCMEkxaXRKdXE0UW9KSENFbVZfSFNXZ2VOekZpaHJlNDNnbEp4bXdud3EzNDExbHVaVGszVnktQ3BPOGtYZ3BnRExYNWtZTVBoSEhldDVmcFVGdUFVSnR4NUlzMGJTdDJTR3lRSnZkSERKX1NxcjRaREhBZXVzTEp2a3hPS3kzVm1YTG5PQU90SXBQRHVUQU54d3ZHTlR2VXo3Zk5yQlAySGZkbjlqMlEtNUo4dENvU1BVZU5yVW1IcUQ1akxXMjIxSGZvWU9Gd21UNTNIWVR3TU9YeXpERngzblNGTE51OTdPOEo5NTRDbjVSMk5s?oc=5",
+          "published_at": "2026-09-27T09:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Alibaba open-sources Damo Radar to detect cancers and other abdominal conditions - Milliyet",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-27T13:19:28+00:00",
+      "summary": "Alibaba open-sources Damo Radar to detect cancers and other abdominal conditions Milliyet",
+      "claims": [
+        "Alibaba open-sources Damo Radar to detect cancers and other abdominal conditions Milliyet"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTWpvZWVJR1FoTTRHVS14Yjdzbl9CREt2b2w0MFBkZW1LT2J1T3NNdFhDOHRHTHpUVUxGZ3VSUU03bG0taEZiY3BFcWJnS1JtTjhVSnduQ1loVzFpUF9fbGNwbUpUeTlPVTIxemNQQkQyakhYU1h4dHZUZGZaZ052M25meFZ6TkZuQ1VsUWpTR1B2a3VtaXNjdmw5ZmdGM0hXbWxfS04wNkpGT09QY3NyUUFGWVlGZkJqTThxampB?oc=5",
+          "published_at": "2026-09-27T13:19:28+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Seihantai na Kimi to Boku (You and I Are Polar Opposites) – 24 - Lost in Anime",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T13:13:08+00:00",
+      "summary": "Seihantai na Kimi to Boku (You and I Are Polar Opposites) – 24 Lost in Anime",
+      "claims": [
+        "Seihantai na Kimi to Boku (You and I Are Polar Opposites) – 24 Lost in Anime"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVTE1RkNleUJwUnB6eEp0RmM0SGhQcGxQdnBJSFoyWmUtc3ZOcjRuQ2cyMXZQMi0wZlQ1WU9idEpoSmRUTnhyV090Q2NJVWE5a2s3aUJxRXU3VFpRRE9MaXVaY1MxRHF2b24yLU9rd3ZpOC1jNndGV2ZmVGtEQThXVlA5T2I5cUlCZ1NlWl9qRDgyUHVINGc?oc=5",
+          "published_at": "2026-09-27T13:13:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "BET host Angela Stribling dies after brain cancer battle - USA Today",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T21:56:00+00:00",
+      "summary": "BET host Angela Stribling dies after brain cancer battle USA Today",
+      "claims": [
+        "BET host Angela Stribling dies after brain cancer battle USA Today"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMGlSTkR4RzZMY1FlcDlZMzlSdVZKNWNzMFZVX0JBLWotQ2VMM2ZSMnpBZUNPWTFnemZPdzFpZjUyLUVoeUZYbWY2djJRNlhoUWM0SFpLLUVZLXRnejVtbFl0X0hpdVI0bUFwc05RcU81ZzJ4Q0VQX0NLdERCOFZkNmdqeVBYUjZ4QmNfeWNSWWcxOERiTFdIakRqRm1xdDBFSl9zRXVUMUdGWXJUZjFNN0NB?oc=5",
+          "published_at": "2026-09-27T21:56:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Cheap tokens fuel AI usage surge, pushing task costs higher - CHOSUNBIZ - Chosunbiz",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-27T21:00:00+00:00",
+      "summary": "Cheap tokens fuel AI usage surge, pushing task costs higher - CHOSUNBIZ Chosunbiz",
+      "claims": [
+        "Cheap tokens fuel AI usage surge, pushing task costs higher - CHOSUNBIZ Chosunbiz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZUndRRnRUd1JWVmxNZllkb2l5QUl5N19TWTIxSTRLWjNQc2luWWtOdTA0UWUtZ0NyZUxjbHM1b3NCOWFqLVA2andJelRRWTBLV1RIMFJiWUo0Skd5dExJNTlvWWJJRVc0dHdjaDRxdm5kQVhvR2FJRG530gGOAUFVX3lxTE1NTHM2LWFIa0tYdWRlOHhVQ0NNMTl2VHA3djFuM295b1ZFeWZvU0h0clBWVmYtZ1ZZdVNGYzdNWnlVbkVhYlN4MHlPWi1fWWlCVjFaTFgzZHA1ZE13U0EzT3k0VlVPSzFKa3V4OW1NeWIxT29oUjNDMDB5eDRZVzU3a3h5WVhpU1N6QUZaY3c?oc=5",
+          "published_at": "2026-09-27T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "'American Idol' reveals which judges are returning in 2027 - USA Today",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T20:10:00+00:00",
+      "summary": "'American Idol' reveals which judges are returning in 2027 USA Today",
+      "claims": [
+        "'American Idol' reveals which judges are returning in 2027 USA Today"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN0E2OEFoS1pjYVdsc29rTVFodkcwekhxQndiUUdMU0tqVXZMRnh2dmNNWjkxRFgtbUVWazZ2U2QyNXFuTEQyay01bnk2aDVaRWlBTWNiaklfVmFubGpzdHdvTDlHVkFNQTJwbEVyNXpjTzZCbHZmUUlUZmN6VWFYRkJuZFMwQVlUUF9rLVlzTVBaM0JFTmdpUnhKbWdReUFoUnpyeURCTzVjYVdHQ2d2R01NS1pvZDhBNTR3OE56QQ?oc=5",
+          "published_at": "2026-09-27T20:10:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "F1 star reveals massive damage after Azerbaijan Grand Prix moment - 'I was driving like my grandmother' - gpfans.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T19:45:00+00:00",
+      "summary": "F1 star reveals massive damage after Azerbaijan Grand Prix moment - 'I was driving like my grandmother' gpfans.com",
+      "claims": [
+        "F1 star reveals massive damage after Azerbaijan Grand Prix moment - 'I was driving like my grandmother' gpfans.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYkE4TXpFTjlUQUNqS0FnWmhmenU4WXdoUThUd05BS0pWeTZFWk1GS0Joc0JqaS1SOHBkeF9nQmZ3NDlVanZLa0V3Rk5RMVZzQ3pNU1Q3eEsxeHlCX0pSZEFLNFZXQzI0SXBDWG1VRFpWeWdMMEJzcW5Va2N3NTk1UnJBSGo1UmlYRDNFXzZQM2Ffeklqd240Q1drakU4TktVaTdYcUpYU0FKSXdfdFZ5NVhoWQ?oc=5",
+          "published_at": "2026-09-27T19:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "F1 2026 results: Winners, podium, final positions from every race - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T19:07:01+00:00",
+      "summary": "F1 2026 results: Winners, podium, final positions from every race ESPN",
+      "claims": [
+        "F1 2026 results: Winners, podium, final positions from every race ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTHhBR0JXS05tYVpkWjlxTkgyd0hFM2NvTWRVbzF5SV85cjZmVjlrRnRyLXdKVzJDYzMwX2NKTWZhQlhxMlJLX3R5bXBoek9VVWZtVE1veENIY255d3EwQndHVzJVdHlWVXBOd01YQ1JrMGY3UkdETUNZcnA0S2g0ZmtOcmZaaGdqQ1pHNWlIM3hzY0JMajBjb3ZTSThFSnFwMl8xSW9LSHRzaS1Ja1VKWjJyNG05VmpVanpiVDljRFhROFRZdGk0ZU4wdjE4emNoLTNrQjNvZWpza0JJLVpCTFpNQzZ3NV8tV2dqZg?oc=5",
+          "published_at": "2026-09-27T19:07:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "French President calls for AI safeguards to protect children - AzerNews",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-27T18:38:00+00:00",
+      "summary": "French President calls for AI safeguards to protect children AzerNews",
+      "claims": [
+        "French President calls for AI safeguards to protect children AzerNews"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WeXNwMXFRaS1BNXBBUlhTOS1wTmZhMk41OGZJVkdpT2c2WDRDRDI1a1NCcVFyWVNJQ0gtakp2UU14TE1yZm1PSDFlcWpPdWJoWXFXNA?oc=5",
+          "published_at": "2026-09-27T18:38:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli admits 'grandmother' approach in Baku - grandprix.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T16:30:00+00:00",
+      "summary": "Antonelli admits 'grandmother' approach in Baku grandprix.com",
+      "claims": [
+        "Antonelli admits 'grandmother' approach in Baku grandprix.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNemFRbS0xR1NSWVA4UWp2U19BZlBCejFXT3ZZRTV3NXJMUEhfZkMzTnk3cUZkanJjeml1UWZ1Y1BkNlRIWFlTbDJ6TEVZVGdmVnF3MGg3NTdSU0F5QU5TSzlrYi1QbENMZTlqUUV2TzVnZFFYcmdCV25KVmtIdm10TEM5ckhoa1Zj?oc=5",
+          "published_at": "2026-09-27T16:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "George Russell's world championship hopes given major boost with Azerbaijan pole position - MSN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T16:01:11+00:00",
+      "summary": "George Russell's world championship hopes given major boost with Azerbaijan pole position MSN",
+      "claims": [
+        "George Russell's world championship hopes given major boost with Azerbaijan pole position MSN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQWwyTGxHc0wyVmpsdkJ6SWV3b2Zad0pHR2o4UEQ5TlVGTXZHQjVkLWtiUGFSUzZ4ODdUOTVmNk9PdXd3eXJNYU9RZzNocW1Wdk9EdGFyVWZkeTlzNUl1aU9ZNk5oTS1IY3h1Ymp3MjQ2WFY2dy1QeTFNTE9JbkRnZWxXbFJ6c0F2WG45XzBkbjFJQ2hwYXJoV0NubnpfQkZTa2ZIVTZlVGNZRXU3ZE13bTRXVFFaX3E3X3lzRnlCT0tOeUZDWS1TLWUtdkhTTWsxVWxVd1E3WlgxYVdCcC04?oc=5",
+          "published_at": "2026-09-27T16:01:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "F1 star accused of putting water bottles through expenses despite £38m net worth - Daily Express",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T16:00:00+00:00",
+      "summary": "F1 star accused of putting water bottles through expenses despite £38m net worth Daily Express",
+      "claims": [
+        "F1 star accused of putting water bottles through expenses despite £38m net worth Daily Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGI2cktnMGtlUDRmZ0w2LXJCbUMtREd6X3NCMENyNXozREpPSGJ5UXMtNFNQanVwSk9ta01jSzQyNHgwTjFkM0JrdmJJcFpOZl9nX0dZYUZUVGdVeFkxV1JxZTZTNjR2YmhBdmZRODlCWmdFUGRBTlhLM0RMb1RxMjZ5bGJqOUU0QlVn0gGQAUFVX3lxTE5SeGtzclZIRTVyaTFQQWZSQUh6LWVvV0NBeC1sa1NFZ2tGS19fNURBMzBnSTlIanY1WlBMT052Wl9ob1hqZTJtaDk5ZU5UdEJyYnZtc011VXFEcHI0ZVFhVU5LRldTVzJZdHY1TklobWhBTXpJblVEUURHWjl2T2I5bUNvZEI4QWlzRTkzMFd0aA?oc=5",
+          "published_at": "2026-09-27T16:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli says he drove “like my grandmother” to protect damaged Mercedes in Baku - grandepremio.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T15:45:00+00:00",
+      "summary": "Antonelli says he drove “like my grandmother” to protect damaged Mercedes in Baku grandepremio.com",
+      "claims": [
+        "Antonelli says he drove “like my grandmother” to protect damaged Mercedes in Baku grandepremio.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQamt5ZlNxZVZ1ck1aRTJYT3RNMG1QbmVhMzdac1dyWVo2TFMtMTRwblRoNS1kbllVeWVzdjZ5VjA5MWJVMXhEbjlPOHVkRlMwRzVLd3VzWlJiZ3E1TFd2ZElEQmJTaFhjQk90NkdlNVNnQXNYa2tCWG55TnUxcnozS3V0LU5JRVJrSVV2Z2xOZGRfY1dSY1QxVjJGWDBHbUdueHVCckY2NzBhUmVzZDFvbg?oc=5",
+          "published_at": "2026-09-27T15:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Four out of five Indians to use AI assistants for festival shopping - Business Standard",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-27T15:08:04+00:00",
+      "summary": "Four out of five Indians to use AI assistants for festival shopping Business Standard",
+      "claims": [
+        "Four out of five Indians to use AI assistants for festival shopping Business Standard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPY2U0YjN2Qk1hckJ6eVNXRUdObXg4RDQ4Tk5QaGJjSDI1TzRFbWlQd0h5RElIMnQtbWN0dkN6NThramJmMkY0OWZsMUhmQ0pUcjRQWXdneU55bDZ6dWtNUVJCNmpqNXVxWDFVMTFzMnVWQWtQMnBfc3hpWnJIZlFaWUhRN2ZVUnVEZzdvRDJwb0tkQmVUbkYydG10elFMbmIxN1U3Z056REdjcjdRdlBuVDB4STE4TGlGa25tS190czlJMjVzVWVNR29xQS1pWU5qanZmc0ZCcEk1My10MndPZUkzU18tY3RKV2c1a9IB8gFBVV95cUxPVURSbTRFSWdiQkU2VmVMRWlrMGdGeEVDSEgyLUVqaHA0ZFBuVHl3Mk1KdUl0ZklMNHZ6SkxZMGNsQmJOeHhiX2ZMZHdKVmxrWnk1Y0t0cWN1b1BJdndYOTViSTFhSjM3QnlTbGt6Y0Njci1uQ2Jkdk1qWVFta2sxa2FUQ1ZlY3o5ZFNCTTk1eE1DQkRQejYybXJOTE02R21GU3d5b3lpRGxrMHhENHBSMEhqbmlTZVVFWHF5UjYySFZTaUQweFBYOXNqODcxYXJDZktwZ0NTR0RnRDZScEtkVHBESTZlZHV3cnF4bW5mUTFIQQ?oc=5",
+          "published_at": "2026-09-27T15:08:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Legal-Tech-Revolution? C.H.Beck und Noxtua: Die Entwicklung in der juristischen Künstlichen Intelligenz - Xpert.Digital - Konrad Wolfenstein",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-09-27T14:12:05+00:00",
+      "summary": "Legal-Tech-Revolution? C.H.Beck und Noxtua: Die Entwicklung in der juristischen Künstlichen Intelligenz Xpert.Digital - Konrad Wolfenstein",
+      "claims": [
+        "Legal-Tech-Revolution? C.H.Beck und Noxtua: Die Entwicklung in der juristischen Künstlichen Intelligenz Xpert.Digital - Konrad Wolfenstein"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JOFN6ZDdiVHR2NlBNbk9lT1JRVnlSN2RpUWdjWTFlbEl1bGR5b3M5cktvdDd6M2kydnJZa1ZmcTlDTDFtUWZJT0N1cGN5U2FTYW5BdjhvRGQyMWQ5T3ljbmYzUVRhMjEyNlc4VGR6VVZ6OHRfZDY0ajZEMmxubWvSAYcBQVVfeXFMT2tQVnZRVG43MlJzOThxaWxrWFFTdGRDRlktR3l0THE4RWpNZUpYN05taHBZSE1CVzRBVHJCSUY4ZDI5Rm5YR29hYlVGeWhQZ1haODA0SFg3WWNOd1RTTzQ1V2p2djlSdDRUWDkwdDZOdEloUnRHVGlvWG1pSzdxNVZfWlZ4d0lB?oc=5",
+          "published_at": "2026-09-27T14:12:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sparkian Launches an AI Workspace, Giving Users Access to 70+ Leading Models in One Subscription - bignewsnetwork.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T13:20:00+00:00",
+      "summary": "Sparkian Launches an AI Workspace, Giving Users Access to 70+ Leading Models in One Subscription bignewsnetwork.com",
+      "claims": [
+        "Sparkian Launches an AI Workspace, Giving Users Access to 70+ Leading Models in One Subscription bignewsnetwork.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZjQ1dk1zRTRWY1lPVndlcEJVWjM4Z1VUVjE2bHpRcU1xU0hyMlpVQTZEVFBMcnlqWEdkZnZnX0JjVkZaSHZmVUxMU1BlbkJrQ005TUhYRS1QZDY5eFhUekxXQXZLeThhVFFWTkE2dFlPM2lmLTlucnNpdEl1UjI1UFZpdktyY2RHN2Q5Q3M1d1IxcklZVmo3NUMyUFJaWlN1QVJxUVk5WkVta0FwdUhMcGhiZE90NmxwSEwzZU95UjhQbTZkSXVvYUkyaXZobk9LanFFUXRyMA?oc=5",
+          "published_at": "2026-09-27T13:20:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Lewis Hamilton left in the dark as alarm bells ring at Ferrari after Azerbaijan GP flop - Daily Express",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T13:05:00+00:00",
+      "summary": "Lewis Hamilton left in the dark as alarm bells ring at Ferrari after Azerbaijan GP flop Daily Express",
+      "claims": [
+        "Lewis Hamilton left in the dark as alarm bells ring at Ferrari after Azerbaijan GP flop Daily Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamNLRGpGcENTaC1Hd1RxdDloUWllbHZEU01ZWURSbXhQVXRfOXRiWnpWMWNqUkd1SU53UnUzM1o1WWg0bDNVdnVKbTVZeDk2c0pBT1pjZTFDR2FHZlIyZDZuZFBrTmprejVkYkktV3ctSXVnblBjVjFMT2JaMVMxQkJTamlibXFveE5TcFE5N3NpNGVkbGNJ0gGcAUFVX3lxTE1INGJEU3JOWFM5dDAtdzQzQk9FQkJmSXpEWUxqbGFSblU1RWFOcWUydlE2ZHJSc3dqUUtLeWVpQThyZE5kSy10N0RhUXRKTTlFaW81OEJmLXhsZ0ktZkcwb3IwUF96M0RQb1NZTkxpNnd2VjZaSDNORlAyb1pPM253bm5iRnhTN0VXVUEyekNNdVZrR3RYV1VzOUVLTQ?oc=5",
+          "published_at": "2026-09-27T13:05:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Juan Pablo Montoya tells Kimi Antonelli to ‘stop thinking’ after spotting a problem in Baku - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-09-27T13:00:00+00:00",
+      "summary": "Juan Pablo Montoya tells Kimi Antonelli to ‘stop thinking’ after spotting a problem in Baku F1 Oversteer",
+      "claims": [
+        "Juan Pablo Montoya tells Kimi Antonelli to ‘stop thinking’ after spotting a problem in Baku F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSjB1QmlGNWF5Y0syNGo4cm5LUWdLcnB4LWxIcHFlTG9NbFZDcEV1Yjl2SHZ4Z19EYWlXQm5vQVlVSGhzcHBaV0JMdk9kZUNJcWdvdkprdHFrY3lJLUw5TlVyN1hlamZscVg2VDNydVlpVzlNMWdyT1ZXcWVxanVNOVNhbzVONGpaYlZQemRqWmZ0clVKMlVjU1F3bFVQcXZFSElVUzhXNWNKVW9zek42RnhRR0RreWZ3YUp4RFlIVWU?oc=5",
+          "published_at": "2026-09-27T13:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
