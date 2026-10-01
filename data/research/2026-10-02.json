@@ -1,0 +1,927 @@
+{
+  "report_date": "2026-10-02",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-01T23:15:58.748340+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 30
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5511, column 519"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "no element found: line 5576, column 1343"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 203
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 52
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 63
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 352,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:30+00:00",
+      "summary": "Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize...",
+      "claims": [
+        "Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
+          "published_at": "2026-10-01T18:31:30+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Dense vs. MoE Models: Active Parameters, Throughput, and When to Choose Each",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:29+00:00",
+      "summary": "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the larger model? Nemotron 3.5 Lightning illustrates the...",
+      "claims": [
+        "How can a 30B-parameter model activate only 3B parameters per token, and still use the capacity of the larger model? Nemotron 3.5 Lightning illustrates the..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each/",
+          "published_at": "2026-10-01T18:31:29+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How NVIDIA NVLink 6 Delivers Multi-Layer Resiliency for AI Factories",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:29+00:00",
+      "summary": "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster...",
+      "claims": [
+        "For operators of large-scale AI factories, maximizing continuous output is essential for productivity. In massive-scale AI training, every GPU in the cluster..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories/",
+          "published_at": "2026-10-01T18:31:29+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:28+00:00",
+      "summary": "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to...",
+      "claims": [
+        "cuTile Rust (cutile-rs) is a tile-based system for safe, idiomatic GPU kernel authoring in the Rust programming language. Extending the Rust ownership model to..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+          "published_at": "2026-10-01T18:31:28+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:27+00:00",
+      "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in...",
+      "claims": [
+        "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+          "published_at": "2026-10-01T18:31:27+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:27+00:00",
+      "summary": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through...",
+      "claims": [
+        "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+          "published_at": "2026-10-01T18:31:27+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Benchmarking LLM Inference at Scale with AIPerf",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:26+00:00",
+      "summary": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...",
+      "claims": [
+        "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
+          "published_at": "2026-10-01T18:31:26+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-01T18:31:25+00:00",
+      "summary": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and...",
+      "claims": [
+        "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
+          "published_at": "2026-10-01T18:31:25+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Optimize, Learn, Refine: Whole-Body Grasping and Pick-and-Throw with a Spiral Soft Robot",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38202v1 Announce Type: new Abstract: Soft continuum robots can exploit distributed compliance for whole-body manipulation, but synthesizing behavior through changing contacts remains difficult. We address whole-body grasping and pick-and-throw from an initially ungrasped state through outcome-based actuation-space optimization. Grasping is quantified by tip angular sweep and body-object enclosure, while throwing further incorporates release-direction alignment and minimum release speed. These objectives allow grasping, acceleration, and release to emerge from compliant interaction without prescribing contact forces, contact locations, or body configurations. Because the resulting actuation-to-outcome mapping is nonsmooth, we utilize derivative-free CMA-ES within an optimize-learn-refine framework. CMA-ES generates solutions for sampled conditions, a task-conditioned predictor learns warm starts, and CMA-ES refines them for unseen conditions. In simulation, the method achieves 492/500 successful grasps (98.4%) and success rates of 98%, 97%, and 94% across three directional throwing trials. Learned initialization increases grasping success from 78.6% to 98.4% while reducing the median rollout count from 1184 to 816 in CMA-ES. Hardware experiments achieve a 100% grasping success rate across 50 executions and a 100% pick-and-throw success rate across 30 executions, with ",
+      "claims": [
+        "arXiv:2609.38202v1 Announce Type: new Abstract: Soft continuum robots can exploit distributed compliance for whole-body manipulation, but synthesizing behavior through changing contacts remains difficult. We address whole-body grasping and pick-and-throw from an initially ungrasped state through outcome-based actuation-space optimization. Grasping is quantified by tip angular sweep and body-object enclosure, while throwing further incorporates release-direction alignment and minimum release speed. These objectives allow grasping, acceleration, and release to emerge from compliant interaction without prescribing contact forces, contact locations, or body configurations. Because the resulting actuation-to-outcome mapping is nonsmooth, we utilize derivative-free CMA-ES within an optimize-learn-refine framework. CMA-ES generates solutions for sampled conditions, a task-conditioned predictor learns warm starts, and CMA-ES refines them for unseen conditions. In simulation, the method achieves 492/500 successful grasps (98.4%) and success rates of 98%, 97%, and 94% across three directional throwing trials. Learned initialization increases grasping success from 78.6% to 98.4% while reducing the median rollout count from 1184 to 816 in CMA-ES. Hardware experiments achieve a 100% grasping success rate across 50 executions and a 100% pick-and-throw success rate across 30 executions, with "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38202",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38216v1 Announce Type: new Abstract: Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab. In one episode, a Unitree G1 humanoid positions a step ladder under a ceiling or wall fixture, climbs it, exchanges a spent bulb in a socket for a fresh one, and leaves the spent one in a disposal crate. We decompose the episode into twelve subtask environments scored on difficulty-weighted gates. The goal is a successful replacement, with the fresh bulb seated, the spent one disposed of, neither dropped, and a fragility bound not crossed. Runs that fall short can earn partial credit. Observations are split into a standard mode (signals a physical robot could sense or estimate) and a privileged mode (exact simulator state). We specify the evaluation protocol and provide reference baseline implementations spanning RSL-RL PPO, zero-shot NVIDIA GR00T N1.7 Vision-Language-Action (VLA) models, and whole-body controllers. Additionally, we provide the teleoperated recordings used to specify and check the success gates. The benchmark code and the teleoperated recordings are available at fiatlux-bench.github.io.",
+      "claims": [
+        "arXiv:2609.38216v1 Announce Type: new Abstract: Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab. In one episode, a Unitree G1 humanoid positions a step ladder under a ceiling or wall fixture, climbs it, exchanges a spent bulb in a socket for a fresh one, and leaves the spent one in a disposal crate. We decompose the episode into twelve subtask environments scored on difficulty-weighted gates. The goal is a successful replacement, with the fresh bulb seated, the spent one disposed of, neither dropped, and a fragility bound not crossed. Runs that fall short can earn partial credit. Observations are split into a standard mode (signals a physical robot could sense or estimate) and a privileged mode (exact simulator state). We specify the evaluation protocol and provide reference baseline implementations spanning RSL-RL PPO, zero-shot NVIDIA GR00T N1.7 Vision-Language-Action (VLA) models, and whole-body controllers. Additionally, we provide the teleoperated recordings used to specify and check the success gates. The benchmark code and the teleoperated recordings are available at fiatlux-bench.github.io."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38216",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "SynIL: Leveraging Synergy for Offline Imitation Learning from Imperfect Demonstration Datasets",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38225v1 Announce Type: new Abstract: Imitation learning enables robots to acquire complex skills directly from massive demonstration datasets, but its performance degrades severely when datasets are contaminated with suboptimal or noisy demonstrations. While prior quality-assessment methods attempt to filter or reweight data, they typically rely on manual pre-selection of expert reference data or task-specific heuristics, limiting scalability. To address this challenge, we introduce SynIL (Synergy-based Imitation Learning), a novel framework for automated, label-free demonstration quality assessment in offline reinforcement learning. Grounded in neuroscientific evidence that motor synergy, a low-dimensional coordinated structure in movement, correlates directly with motor proficiency, SynIL algorithmically quantifies synergy manifestation to generate dense, transition-level reward signals via self-supervised reward regression. Comprehensive evaluations on D4RL locomotion benchmarks and multi-human Robomimic manipulation datasets demonstrate that synergy-derived rewards correlate strongly with ground-truth rewards. Furthermore, SynIL substantially outperforms Behavior Cloning (BC) and achieves performance comparable to, and in sparse-reward human teleoperation scenarios, superior to, offline reinforcement learning trained on true environment rewards.",
+      "claims": [
+        "arXiv:2609.38225v1 Announce Type: new Abstract: Imitation learning enables robots to acquire complex skills directly from massive demonstration datasets, but its performance degrades severely when datasets are contaminated with suboptimal or noisy demonstrations. While prior quality-assessment methods attempt to filter or reweight data, they typically rely on manual pre-selection of expert reference data or task-specific heuristics, limiting scalability. To address this challenge, we introduce SynIL (Synergy-based Imitation Learning), a novel framework for automated, label-free demonstration quality assessment in offline reinforcement learning. Grounded in neuroscientific evidence that motor synergy, a low-dimensional coordinated structure in movement, correlates directly with motor proficiency, SynIL algorithmically quantifies synergy manifestation to generate dense, transition-level reward signals via self-supervised reward regression. Comprehensive evaluations on D4RL locomotion benchmarks and multi-human Robomimic manipulation datasets demonstrate that synergy-derived rewards correlate strongly with ground-truth rewards. Furthermore, SynIL substantially outperforms Behavior Cloning (BC) and achieves performance comparable to, and in sparse-reward human teleoperation scenarios, superior to, offline reinforcement learning trained on true environment rewards."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38225",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "A Two-Echelon Covering Tour Vehicle Routing Problem with Drones for Post-Disaster Relief",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38227v1 Announce Type: new Abstract: We introduce the two-echelon covering tour vehicle routing problem (2E-CTVRP) for the distribution of relief supplies after a disaster. In the first echelon, a fleet of trucks transports supplies and drones from a central depot to satellites at the periphery of the affected area. In the second echelon, drones launched in parallel from the satellites deliver the supplies to the centroids of victim clusters, which are obtained by clustering the victim locations, and each truck waits at a satellite until its drones have returned. The problem combines the assignment of satellites to trucks, the sequencing of the truck routes, and the assignment of clusters to satellites, and minimizes the sum of the arrival times of the trucks at the satellites and at the depot. We formulate the 2E-CTVRP as a mixed integer linear program and propose a hybrid metaheuristic, GRASP-ILS-PR, which combines greedy randomized construction, a single-trajectory search, and periodic path relinking on the assignment of clusters to satellites. On a new benchmark set of 110 instances, GRASP-ILS-PR finds all known optimal solutions within 30 seconds, matches or improves on the one-hour solutions of a commercial solver on most larger instances, and improves on them by up to 11% for instances with 50 satellites. It clearly outperforms a conventional GRASP with evolut",
+      "claims": [
+        "arXiv:2609.38227v1 Announce Type: new Abstract: We introduce the two-echelon covering tour vehicle routing problem (2E-CTVRP) for the distribution of relief supplies after a disaster. In the first echelon, a fleet of trucks transports supplies and drones from a central depot to satellites at the periphery of the affected area. In the second echelon, drones launched in parallel from the satellites deliver the supplies to the centroids of victim clusters, which are obtained by clustering the victim locations, and each truck waits at a satellite until its drones have returned. The problem combines the assignment of satellites to trucks, the sequencing of the truck routes, and the assignment of clusters to satellites, and minimizes the sum of the arrival times of the trucks at the satellites and at the depot. We formulate the 2E-CTVRP as a mixed integer linear program and propose a hybrid metaheuristic, GRASP-ILS-PR, which combines greedy randomized construction, a single-trajectory search, and periodic path relinking on the assignment of clusters to satellites. On a new benchmark set of 110 instances, GRASP-ILS-PR finds all known optimal solutions within 30 seconds, matches or improves on the one-hour solutions of a commercial solver on most larger instances, and improves on them by up to 11% for instances with 50 satellites. It clearly outperforms a conventional GRASP with evolut"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38227",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "TALK-Dem: Benchmarking Embodied Task Planning under Dementia-Associated Communication Patterns",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38371v1 Announce Type: new Abstract: Existing LLM-driven robot task planners rely on a taken-for-granted assumption of an ideal user whose instructions are clear, complete, and task-focused. However, when interacting with real-world users, especially those experiencing cognitive impairments, such as people living with dementia (PLWD), the planners often make mistakes and even pose physical safety risks. We proposed TALK-Dem (Talking Attributes and Linguistic Knowledge in Dementia), the first benchmark for evaluating LLM-driven robot task planning under dementia-associated verbal communication. TALK-Dem contains 4,800 instructions and covers five typical communication patterns, including Referential Imprecision, Object Substitution, Empty Speech, Topic Drift, and Intrusion, at three intensity levels. Experiments across six open-weight LLMs reveal a substantial robustness gap. Across communication patterns, open-weight models exhibited performance drops of up to 22.3 percentage points compared to ideal instructions. This revealed a critical gap and even danger for real-world applications, especially in assistive robotics, where locally deployable models are necessary due to privacy concerns and connectivity constraints. To mitigate this issue, we proposed the Context-Aware Retrieval from Experience (CARE) method, which retrieves relevant previously resolved tasks to pr",
+      "claims": [
+        "arXiv:2609.38371v1 Announce Type: new Abstract: Existing LLM-driven robot task planners rely on a taken-for-granted assumption of an ideal user whose instructions are clear, complete, and task-focused. However, when interacting with real-world users, especially those experiencing cognitive impairments, such as people living with dementia (PLWD), the planners often make mistakes and even pose physical safety risks. We proposed TALK-Dem (Talking Attributes and Linguistic Knowledge in Dementia), the first benchmark for evaluating LLM-driven robot task planning under dementia-associated verbal communication. TALK-Dem contains 4,800 instructions and covers five typical communication patterns, including Referential Imprecision, Object Substitution, Empty Speech, Topic Drift, and Intrusion, at three intensity levels. Experiments across six open-weight LLMs reveal a substantial robustness gap. Across communication patterns, open-weight models exhibited performance drops of up to 22.3 percentage points compared to ideal instructions. This revealed a critical gap and even danger for real-world applications, especially in assistive robotics, where locally deployable models are necessary due to privacy concerns and connectivity constraints. To mitigate this issue, we proposed the Context-Aware Retrieval from Experience (CARE) method, which retrieves relevant previously resolved tasks to pr"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38371",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38400v1 Announce Type: new Abstract: Co-speech gestures for robots must adapt not only to speech and embodiment, but also to the workspace available for performing the motion. Since the same speech can be accompanied by different gestures, a robot can respond to workspace constraints, e.g., gestures for speech next to a wall. In these scenarios, the robot should gesture in a suitable motion rather than simply correcting an unconstrained one. To achieve this goal, we present GestAdapt, a workspace-conditioned framework that conditions co-speech gesture generation on a prescribed wrist workspace. The GestAdapt framework learns from six complementary co-speech corpora through a shared motion representation and supports retargeting to different robot embodiments. Quantitative evaluation shows that generated motions remain close to the real-motion distribution while respecting the workspace. In a user study, gestures generated under modified workspace constraints receive a mean quality score of 3.24/5, above our no-workspace variant (2.43/5) and below the reference motions (3.68/5). In a real robot evaluation, all compared motions are retargeted to the Reachy2 humanoid robot under identical workspace constraints. Motions generated with our framework rank first in 69.7\\% of comparisons, higher than our no-workspace variant baseline and retargeted ground-truth motions const",
+      "claims": [
+        "arXiv:2609.38400v1 Announce Type: new Abstract: Co-speech gestures for robots must adapt not only to speech and embodiment, but also to the workspace available for performing the motion. Since the same speech can be accompanied by different gestures, a robot can respond to workspace constraints, e.g., gestures for speech next to a wall. In these scenarios, the robot should gesture in a suitable motion rather than simply correcting an unconstrained one. To achieve this goal, we present GestAdapt, a workspace-conditioned framework that conditions co-speech gesture generation on a prescribed wrist workspace. The GestAdapt framework learns from six complementary co-speech corpora through a shared motion representation and supports retargeting to different robot embodiments. Quantitative evaluation shows that generated motions remain close to the real-motion distribution while respecting the workspace. In a user study, gestures generated under modified workspace constraints receive a mean quality score of 3.24/5, above our no-workspace variant (2.43/5) and below the reference motions (3.68/5). In a real robot evaluation, all compared motions are retargeted to the Reachy2 humanoid robot under identical workspace constraints. Motions generated with our framework rank first in 69.7\\% of comparisons, higher than our no-workspace variant baseline and retargeted ground-truth motions const"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38400",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Memorize, Adapt, Ignore: Diagnosing Robot Learning Mechanisms under Training Data Variation",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38401v1 Announce Type: new Abstract: Training data variation, whether through designing a domain randomization (DR) scheme in simulation or curating demonstrations for imitation learning, is a primary lever for improving the robustness of robotic manipulation policies. Yet its underlying mechanisms remain poorly understood, and practitioners typically select randomization parameters through expensive trial and error. We investigate these mechanisms through a series of case studies, randomizing object size, color, and type as well as scene lighting and linguistic prompts across settings including pick-and-place RL in ManiSkill and fine-tuning of vision-language-action (VLA) models on LIBERO and RoboTwin. We examine both model behavior and internal representations, using the empirical neural tangent kernel (NTK) as our primary diagnostic tool. We show that the NTK distinguishes a shift in the internal learning mechanism from \\textit{memorizing} different situations with insufficient variation (e.g.\\ learning what to do for a large cube, and what to do for a small cube) to \\textit{adapting} to the situation at hand with sufficient variation. An NTK-based signal-to-noise ratio also helps distinguish when policies have learned to \\emph{ignore} task-irrelevant factors (e.g.\\ treating blue and red cubes identically, instead of learning a blue sub-policy and a red sub-policy",
+      "claims": [
+        "arXiv:2609.38401v1 Announce Type: new Abstract: Training data variation, whether through designing a domain randomization (DR) scheme in simulation or curating demonstrations for imitation learning, is a primary lever for improving the robustness of robotic manipulation policies. Yet its underlying mechanisms remain poorly understood, and practitioners typically select randomization parameters through expensive trial and error. We investigate these mechanisms through a series of case studies, randomizing object size, color, and type as well as scene lighting and linguistic prompts across settings including pick-and-place RL in ManiSkill and fine-tuning of vision-language-action (VLA) models on LIBERO and RoboTwin. We examine both model behavior and internal representations, using the empirical neural tangent kernel (NTK) as our primary diagnostic tool. We show that the NTK distinguishes a shift in the internal learning mechanism from \\textit{memorizing} different situations with insufficient variation (e.g.\\ learning what to do for a large cube, and what to do for a small cube) to \\textit{adapting} to the situation at hand with sufficient variation. An NTK-based signal-to-noise ratio also helps distinguish when policies have learned to \\emph{ignore} task-irrelevant factors (e.g.\\ treating blue and red cubes identically, instead of learning a blue sub-policy and a red sub-policy"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38401",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Draft: A Parametric Tool for Robot Design Exploration",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-01T04:00:00+00:00",
+      "summary": "arXiv:2609.38405v1 Announce Type: new Abstract: Robot performance is often limited by the cost of iterating on morphology and control together, since every computer-aided design (CAD) change has to be carried into a simulation-ready model before control work begins. Co-design methods attempt to close this gap, but each uses a model generator written for a single platform or lack the use of real-world data to suggest that designs are plausible. We present Draft, a parametric generation tool whose generalized engine compiles any parametric tree of serial chains into a simulation-ready MJCF model, without CAD. It allows engineers to explore design tradeoffs through easily adjustable models and evaluate how changes influence controller performance. Draft grounds the free parameters of each design using trends fitted to a survey of $114$ actuators and $49$ published robot descriptions, so that a generated robot is anchored to real-world hardware. We validate those trends wholistically by building twins of four off-the-shelf robots, whose masses agree to $1.10\\times$ geometric mean fold error. Finally, we demonstrate how Draft exposes design tradeoffs by evaluating three quadrupeds through a two-stage reinforcement learning curriculum.",
+      "claims": [
+        "arXiv:2609.38405v1 Announce Type: new Abstract: Robot performance is often limited by the cost of iterating on morphology and control together, since every computer-aided design (CAD) change has to be carried into a simulation-ready model before control work begins. Co-design methods attempt to close this gap, but each uses a model generator written for a single platform or lack the use of real-world data to suggest that designs are plausible. We present Draft, a parametric generation tool whose generalized engine compiles any parametric tree of serial chains into a simulation-ready MJCF model, without CAD. It allows engineers to explore design tradeoffs through easily adjustable models and evaluate how changes influence controller performance. Draft grounds the free parameters of each design using trends fitted to a survey of $114$ actuators and $49$ published robot descriptions, so that a generated robot is anchored to real-world hardware. We validate those trends wholistically by building twins of four off-the-shelf robots, whose masses agree to $1.10\\times$ geometric mean fold error. Finally, we demonstrate how Draft exposes design tradeoffs by evaluating three quadrupeds through a two-stage reinforcement learning curriculum."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2609.38405",
+          "published_at": "2026-10-01T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli makes eye-catching Mercedes F1 admission after 'conscious decision' - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-01T17:40:00+00:00",
+      "summary": "Kimi Antonelli makes eye-catching Mercedes F1 admission after 'conscious decision' racingnews365.com",
+      "claims": [
+        "Kimi Antonelli makes eye-catching Mercedes F1 admission after 'conscious decision' racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNnM5aF8zOG14TUNCVXI1ODlNLUd3MjZVR0pvZjZRcDFlSDhuN21OMFQ5NTZzLXBOUVJFMWt4NFV6eFN5UFA0bXZFQk5qaDRLWkcwSzU1ZDJFclI4ZzFVUy1SZ1VMSVFENEVGQ0dFdFN5cFprd0N5ZWhlYnB1WUJoaDF0UzdDdVBzaWFlVTgtQXlEOHVidnF3WGYtd3dWQjN4QXYyYW5GV0pZZw?oc=5",
+          "published_at": "2026-10-01T17:40:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Google Launches ‘Gemini 4 Argon’ A.I. Model - Baystreet.ca",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-01T17:34:26+00:00",
+      "summary": "Google Launches ‘Gemini 4 Argon’ A.I. Model Baystreet.ca",
+      "claims": [
+        "Google Launches ‘Gemini 4 Argon’ A.I. Model Baystreet.ca"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPSUdCcjJsVzhFXzM5amd2RWRkQ05kaWRLRUVwNzdJaVhnNFBUR3VLS3g1YlAtdzVydkhfemsyUTVZakZReG1OQ241Y3Zqb1hpTkMwSHBGWmtxd0U5NllyU0JNbzBrcWpJbGhQa2syel9aUmV4YzBFbDVySdIBe0FVX3lxTFBPSUdCcjJsVzhFXzM5amd2RWRkQ05kaWRLRUVwNzdJaVhnNFBUR3VLS3g1YlAtdzVydkhfemsyUTVZakZReG1OQ241Y3Zqb1hpTkMwSHBGWmtxd0U5NllyU0JNbzBrcWpJbGhQa2syel9aUmV4YzBFbDVySQ?oc=5",
+          "published_at": "2026-10-01T17:34:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Bradley Lord outlines Mercedes' 'biggest fear' in title race as George Russell chases Kimi Antonelli - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-01T17:30:00+00:00",
+      "summary": "Bradley Lord outlines Mercedes' 'biggest fear' in title race as George Russell chases Kimi Antonelli F1 Oversteer",
+      "claims": [
+        "Bradley Lord outlines Mercedes' 'biggest fear' in title race as George Russell chases Kimi Antonelli F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVUhLMmdlTGR5Nm5vUWpIS1ZEcjZnM1J1MGllX2RlVTVpd0RiWU9TZmdpVXRZTjlISFVOWXhaRGotWDFZbDZESGVZeElKMTZ0WW1LdUxiMjFnN2JyLUlETzZiZUo4ZzRFdjkyd0p0eVFBSllaSTlDYWdjMWFrVUQ4d1VZUEJIYWxEeloyYXNmVzRsaThUUnNWelVkdGVJdWtHTG92U0dVWmJrMS1uOEpjUVN5SDhuU1FmODBfVWJHLWJ5bUI5bXFLUVB0UQ?oc=5",
+          "published_at": "2026-10-01T17:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Antonelli reflects on his handling of the race in Baku: \"The Kimi of twelve months ago wouldn't have been capable of it.\" - autohebdof1.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-01T17:21:40+00:00",
+      "summary": "Antonelli reflects on his handling of the race in Baku: \"The Kimi of twelve months ago wouldn't have been capable of it.\" autohebdof1.com",
+      "claims": [
+        "Antonelli reflects on his handling of the race in Baku: \"The Kimi of twelve months ago wouldn't have been capable of it.\" autohebdof1.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMm52VHV5WVllRU9CcllQcmsyckY3YWxBbE85YnJoTTBCQ1lCcE5TMUdFRHlyalVUQXlxeXFXZnRVRUN0TjFIOVRhakswUXQxdlM2UTNLdjFRSHRtSDR0Z096Q0hjZExSNmdiN19PUVF3SFZxaFBzY3dXaTJBYldJVFBfaFd1OVZ5UHExSFpxS1JCcENjZzQ3eDNxQnNpQmtua0N4akFKNVdPN09CZWtQWVI5cjFkVVFxTmkxdDVKX2dWd3hIMUZmckVHS18tMjdheTVqTFRrQ1o2VE5vZEU5Rm03bl9DRk5DQzNiTkpB?oc=5",
+          "published_at": "2026-10-01T17:21:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell closes in as F1 leader Kimi Antonelli seeks response in Malaysia - rnz.co.nz",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-01T17:17:19+00:00",
+      "summary": "George Russell closes in as F1 leader Kimi Antonelli seeks response in Malaysia rnz.co.nz",
+      "claims": [
+        "George Russell closes in as F1 leader Kimi Antonelli seeks response in Malaysia rnz.co.nz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa2Q0X2dQWktNeFh1U1FRNm9zUWV5cG1UN3RTRjVPNFhOTEFmSTZiZjllVkJVMVhiREszVE9KQzZ4X205ZlpxWVZZcVVjRnhac21kaUw5Q2phQnJGbkxITkItTW9ObkdkOUVLVS1iSHE1R0pKUks3Mkk0b2tWVC1XVml6TUtJejlYVUE2Wi1oYTJqeXVYM2R0OFRQTHlQajhiRklCWkdJc3JEUkItSzRWZlAtWDNZYWVaWWlqMw?oc=5",
+          "published_at": "2026-10-01T17:17:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mindgard Says Kimi Jailbreak Produced Sarin Recipe and Harmful Content - tokenpost.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-01T16:59:39+00:00",
+      "summary": "Mindgard Says Kimi Jailbreak Produced Sarin Recipe and Harmful Content tokenpost.com",
+      "claims": [
+        "Mindgard Says Kimi Jailbreak Produced Sarin Recipe and Harmful Content tokenpost.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zeGRiOUM2WHdzZFhZSmY2cW1DSkkzakpaVldZazZjdnNkRmZnZDc0Uzhzal9iR01TMFI3Nzl4V21KNlhLU240a0hCaUJGM2JLMTEycFV6clNfakk?oc=5",
+          "published_at": "2026-10-01T16:59:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Google rolls out new Gemini AI model but restricts access over safety concerns - The Guardian",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-01T16:57:00+00:00",
+      "summary": "Google rolls out new Gemini AI model but restricts access over safety concerns The Guardian",
+      "claims": [
+        "Google rolls out new Gemini AI model but restricts access over safety concerns The Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGxacWxBMjBHTEdEel95dW1GOVVOX09PR3laaEVXQXZvNDBRalVNMFNDTmstQUZ2YU1fX19SaHAwZnp1UVdvS2dVeHBPbTBGU1pfYmllWmJoVFozUUZXcDdHQm9kal92dWpCaEtyVndfWFhuVkVQcEk0djRROS1VUEJFa09VOS15M0U1YVZPSHZIWDVqZVZB?oc=5",
+          "published_at": "2026-10-01T16:57:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Mindgard says it jailbroke Moonshot AI's Kimi models into giving sarin and terror attack instructions - Crypto Briefing",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-01T16:53:18+00:00",
+      "summary": "Mindgard says it jailbroke Moonshot AI's Kimi models into giving sarin and terror attack instructions Crypto Briefing",
+      "claims": [
+        "Mindgard says it jailbroke Moonshot AI's Kimi models into giving sarin and terror attack instructions Crypto Briefing"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53QUtwMTBZYUJUZ3p5OTdacEU0UmhCalA4bW5Qcjd6RnBvaHlzbTNBNXhIdmVUVC02Q00wSC1ZSWQxdHdOYmllS0lJT21DS0M1cFpqVlVwR1cxN0twLUNUQmZFbFd2QWhyNXNPcGZvNGdGVlAyLVE?oc=5",
+          "published_at": "2026-10-01T16:53:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
