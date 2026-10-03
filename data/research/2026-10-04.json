@@ -1,0 +1,911 @@
+{
+  "report_date": "2026-10-04",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-03T22:14:48.693737+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "no element found: line 5606, column 84"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 49
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 62
+    }
+  ],
+  "successful_source_count": 11,
+  "raw_item_count": 115,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "A model guide for the GPT-6 family",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-02T16:15:00+00:00",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "claims": [
+        "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "published_at": "2026-10-02T16:15:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-02T15:19:50+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "published_at": "2026-10-02T15:19:50+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-10-02T15:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+          "published_at": "2026-10-02T15:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Toward provably private learning from federated data",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-02T14:57:41+00:00",
+      "summary": "Mobile Systems",
+      "claims": [
+        "Mobile Systems"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+          "published_at": "2026-10-02T14:57:41+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli rues costly error after added F1 qualifying stress - racingnews365.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-03T20:35:46+00:00",
+      "summary": "Kimi Antonelli rues costly error after added F1 qualifying stress racingnews365.com",
+      "claims": [
+        "Kimi Antonelli rues costly error after added F1 qualifying stress racingnews365.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUjFJTHhMOXlsckFFa2dsRTNwVnNid1NBcEQtZ1Vja3c3QlJSdlRydXUzX3ExeUplalFSZG9zWnJEaXB3Q2JBQUhFSFJMUWY1UTM4UWpMZ2tqbnVzSUFCeGR5eEJOWHR5NFZvb2NLc0N0S0lNbDJTNk13Ni02b3VKZzNJbV9vYUNHYkFseEt4QUJrbF9yWFE?oc=5",
+          "published_at": "2026-10-03T20:35:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Superficial And Reductive “Effective Altruism” Philosophy Behind Anthropic Leaders’ Fear That Their Machines May Be “Suffering” - public.news",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T20:15:29+00:00",
+      "summary": "Superficial And Reductive “Effective Altruism” Philosophy Behind Anthropic Leaders’ Fear That Their Machines May Be “Suffering” public.news",
+      "claims": [
+        "Superficial And Reductive “Effective Altruism” Philosophy Behind Anthropic Leaders’ Fear That Their Machines May Be “Suffering” public.news"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zbnUyZ1ZLcUdiQWp3SHE3WlY0Rm1jeXVnWXB0QVJNS1NJZk9HLTRLNjFvYVVzOFBpN3JIUEIyTkV3WjR1c09Edk1WX29oY08waUdNUVpMRmhRRFVXYXJ2TDBmVjg5NV9zT240cGJR?oc=5",
+          "published_at": "2026-10-03T20:15:29+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "F1 star Kimi Antonelli stunned after being told his real Bahrain Grand Prix grid position - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-03T18:02:00+00:00",
+      "summary": "F1 star Kimi Antonelli stunned after being told his real Bahrain Grand Prix grid position GPFans",
+      "claims": [
+        "F1 star Kimi Antonelli stunned after being told his real Bahrain Grand Prix grid position GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbmhlTENkYWJnSmZLODNXUm1YNGdZOGhvVUd0LVdXUHVUNlJnM3VqT3k5Zk5ISkFVODFfSW4xQUh2WjlKRUQ5Q0pjanlOMWJaTnZaZ04wZy1sbkYwd2RGdlVRRkZxQmgwOC1zaWthd2F6cUx5QkNVeHVNNEVKQ3FlQVBud1p2OXl0NTQ0bmZLMjZ5ejdGOVFEdTlOT1dGa0xYU1djRmliWDFPS3hR?oc=5",
+          "published_at": "2026-10-03T18:02:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Eyes Verstappen and Hamilton in Bahrain GP Showdown: \"If We Can Win We'll Go for It\" - MotorBiscuit",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-03T17:26:45+00:00",
+      "summary": "Kimi Antonelli Eyes Verstappen and Hamilton in Bahrain GP Showdown: \"If We Can Win We'll Go for It\" MotorBiscuit",
+      "claims": [
+        "Kimi Antonelli Eyes Verstappen and Hamilton in Bahrain GP Showdown: \"If We Can Win We'll Go for It\" MotorBiscuit"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOTZNQlNCVGgyWGpIeFNGX3dEck9nalIwV3llcU1aVzVyU19CRHZCS1QwUGxGQm9ZbEU3ZjI4UmpWMW12OVlXWV82ekphUHdPOW5HOUZhSHFKXzBQZFRXUUV3WmNmZTVYRmREcUJYMWZzZ19RMFlWNGhOM3dwamxKaG13UE12YVVYQWFMc3dNQ1JGeVlPTTZOR3cwbkNCeEN3eldIaXB6VzJoU1hwMGpNaHk1M05hRTVZdC1VWF8taHVROU0?oc=5",
+          "published_at": "2026-10-03T17:26:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli pleasantly surprised in Sepang: \"Much better than I expected\" - autohebdof1.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-03T17:03:45+00:00",
+      "summary": "Kimi Antonelli pleasantly surprised in Sepang: \"Much better than I expected\" autohebdof1.com",
+      "claims": [
+        "Kimi Antonelli pleasantly surprised in Sepang: \"Much better than I expected\" autohebdof1.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX2h4d1RvVGExckE4UHFVMVNuQlhwTDZicTI2SENnMGdZWVZ0cmtVY3dRM1JiZ1d4WG5oV2J2V1FXdm5ETWc3bDQ3TTk5Sno1a3VPWWFkU0Foc3FfWGk3eFBPX25hbnRJRUxJT1FwZ2NlWU44NTh6N3NrU3d5ZjVSWmZDU1NGc1ZRQk1Td2N1cjlHS0ZwNG94Y1Y4bVFlVmo5TVdwNVl0RXQwcU5hbEhmb1dtQWc5ZUE?oc=5",
+          "published_at": "2026-10-03T17:03:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Synopsys and OpenAI Partner on AI Model Designed for Chip Development - NewsAffinity",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T14:20:04+00:00",
+      "summary": "Synopsys and OpenAI Partner on AI Model Designed for Chip Development NewsAffinity",
+      "claims": [
+        "Synopsys and OpenAI Partner on AI Model Designed for Chip Development NewsAffinity"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnVoV0FvOXB5bldkaXB3ak5rRTR4LVpLZEpyMG9nZXJhcmV6NHJXXzM2cE1DRXA2OEhWVXdxZmpvNEZCb2RzcktCLWJqNXF5eHJkZTBQTjdrNWpBLXVReEE0ZzAwSUJqSGxYT1VSQ1lHLVVkNHFmckJZbnZIamNtb0N1ai01eFhubml2QjJJR2lQbVFtenlDRnc1WQ?oc=5",
+          "published_at": "2026-10-03T14:20:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "This week on Tom's Hardware Premium: October 3, 2026 — AI Chip Design week, OpenAI Interview, and AI agent safety - Tom's Hardware",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T14:00:00+00:00",
+      "summary": "This week on Tom's Hardware Premium: October 3, 2026 — AI Chip Design week, OpenAI Interview, and AI agent safety Tom's Hardware",
+      "claims": [
+        "This week on Tom's Hardware Premium: October 3, 2026 — AI Chip Design week, OpenAI Interview, and AI agent safety Tom's Hardware"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbnFud3ZkaFRSOERYZ1pDM0dMZ05tbjhkY3VyZ3VBSndURHVkVDk0dkhrSDFFWmpxeEw4N291eXVLaFJDT28wb2RNY1JlczhhZTJvTHBuYktJYUc1U2lPTGJna2JBUTV0em54M0dBRHNjaDZuckxwTjFKX09lNDJ2ZjN3UkllbUd0bGdKbmh3a2NpcWlIYUo5VWs3S3kyZVl6VWNneERLOXR3MW9YbjJpWFZhUlFEYkNhbzdVMGlXekJkX2U1bUVkQnpzM3dydUFyM1RfSVFxS1c0QXRnckpJc3E5VE9CSjlOSGVJUGcyb2JZM1ZWa0l6dVVxMGVGOGdKTG1V?oc=5",
+          "published_at": "2026-10-03T14:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli’s priceless reaction after learning he will start Bahrain GP P3 - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-03T12:58:52+00:00",
+      "summary": "Kimi Antonelli’s priceless reaction after learning he will start Bahrain GP P3 Motorsport.com",
+      "claims": [
+        "Kimi Antonelli’s priceless reaction after learning he will start Bahrain GP P3 Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVlhhZzRQS0E0dV9ubU5pMzJubG0tWWVhY3dXLUZHZjVwckFVazZvb0VkQ2NKRmZQZlVlc3hqUkVfTFZBcnE1dXEtal91YkFRSTVzMzdmeG9uVXJMMThTZXIxR2NCeW1GNU1GSENtVnRpYXM5SUotUldDVDNFTlFwMEtrZHV1aGdCVFE5UTU4bkRVdVFVbUhXZHJyTkE2SHp5M2xkdnFKVUF5NndCamJnSHZSRUQzUWRSVU9zVUtCaw?oc=5",
+          "published_at": "2026-10-03T12:58:52+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Compare 20+ AI Models Side by Side and Optimize Automated Work For $55 - entrepreneur.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T20:55:06+00:00",
+      "summary": "Compare 20+ AI Models Side by Side and Optimize Automated Work For $55 entrepreneur.com",
+      "claims": [
+        "Compare 20+ AI Models Side by Side and Optimize Automated Work For $55 entrepreneur.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORmZ6bXJqM09DaUhTejFYMVo1UnREeEVJOWNJbFplMEdLdFdmMzYzcU9MTEh1a0xwc2JyWUxkUW8tUzFjd2VOdi1NSjJrQlpMN1U3NjNRZUluSUNLRGNCbXVfcUhBWGptc2xydnpfQzgyRl9ldS1BOFZFZXJCZDVBQXpxZmdvZGhXSWhCbTl2ZGZ0MnhnMGdwWFhrUzktZjluZ010R0liOGpNWEZ6dmt0RWVxMVo1dE0?oc=5",
+          "published_at": "2026-10-03T20:55:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "NAIC AI Model Bulletin Explained: Governance Expectations for Insurers Using AI - sigortahaber.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T20:20:18+00:00",
+      "summary": "NAIC AI Model Bulletin Explained: Governance Expectations for Insurers Using AI sigortahaber.com",
+      "claims": [
+        "NAIC AI Model Bulletin Explained: Governance Expectations for Insurers Using AI sigortahaber.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU2lzaGVnQk1heDJyc2J0Mkk3dFpLajcyeTVrYl9jcmNmYURpMlJRaFlXOEdhcEtlUFFUNUFqbU80cTVkR0FwXzJFUXZhN3BSXzN2SmNBVjN5cWhySG9uZG9uTHpNMVdVaWczVDA2TVF3NTNmcE9yYlhYQUpsWmtTNXZxenhrbU1uUW5WcnlFRnNremlRMXREV2VqZS1LQkZVZGpPN0IyNUdkbjV1YXZEZFBWQmo?oc=5",
+          "published_at": "2026-10-03T20:20:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Google Sends AI Chips to Space, Testing Orbital Data Centers - Aktualita.co",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T20:11:53+00:00",
+      "summary": "Google Sends AI Chips to Space, Testing Orbital Data Centers Aktualita.co",
+      "claims": [
+        "Google Sends AI Chips to Space, Testing Orbital Data Centers Aktualita.co"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeU4tbm9DMk5sbU8xU0JLX0ZpY2F5Y3JfV0l5UHRwaGczSHFQZTVKbHBsc1UyU1BIVW1Gd3dVMTJKT2hnajFmbXpWbkJYQ2NfamE1MTlnS0Vyc2JxeE1Gc2pqX2FNX1RzRHlrbHE5ei1BYWh4bVJ6RW1UcG5PVWJKeTBCbUEyR1djQW42WTdFNGJvdEY3VENBckpn?oc=5",
+          "published_at": "2026-10-03T20:11:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How AI model combining ultrasound and 3D breast scans may reduce false alarms - eastleighvoice.co.ke",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T19:50:45+00:00",
+      "summary": "How AI model combining ultrasound and 3D breast scans may reduce false alarms eastleighvoice.co.ke",
+      "claims": [
+        "How AI model combining ultrasound and 3D breast scans may reduce false alarms eastleighvoice.co.ke"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUlJHU3F3bXJaUExYRVlwQVBOYkx2Q2tVR3U2UWtOanFnNW5QeTVvS0hHRmU4ZjJ5Y0ZlUUNxc0hNbDlzUmN5dmlNVVBzUFhsLW1wWnQ3dG1JWjdna21iUHVvdkN0eWZVTFItSnhSQXdGLXhIOTNUNm52SkJ3YjFUTlJEcVEtUlI4X3VEblM4c2ktNGdfUzRIUHc0bEV5LVplMmhvbldSUVZaeUN0UGxSako1OFladFdJOUI1aQ?oc=5",
+          "published_at": "2026-10-03T19:50:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mercedes launches W17 investigation after Bahrain GP setback - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-03T17:50:55+00:00",
+      "summary": "Mercedes launches W17 investigation after Bahrain GP setback PlanetF1",
+      "claims": [
+        "Mercedes launches W17 investigation after Bahrain GP setback PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLURwdjlwUGNlUmVQa0lSQlBrbEdPM3dFeDJlbTdnMUc2QXNqb3ZnYWE3TmpYNGRkTEZEdjNHVWlVNHdWNWRyMHVaMTJrdnp3eGJ2YnM4X2RyT2liUTlvRUcxS0NDTm5JcnVoUTdRY2laMlFKSDJlbHl2VUVYTDR3MVJocUZ2cWxjOXpz?oc=5",
+          "published_at": "2026-10-03T17:50:55+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Why a16z Says Specialized AI Beats One God Model - StartupHub.ai",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T16:33:52+00:00",
+      "summary": "Why a16z Says Specialized AI Beats One God Model StartupHub.ai",
+      "claims": [
+        "Why a16z Says Specialized AI Beats One God Model StartupHub.ai"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN2dnOTM0MGppR3hrNXc4X2M5WGhmXzYzekQxZHFUUFBNeW9SVml2NFltSEtkaWxDNFNtbkEyQ3Z4d2RfLUU3TVhwcmhxN2wyaG5oY0N4QWxyY2ZKNjJMWFFaMkc3cWlrVjVtR1ZoNXpmZThqbF9BTmVIVDVFbGZrNVY4ekk2bkJqZ1RYUFJvUWhnZGdMNldsc240V1Y4aU1qR1BzaFNPZzJjbTN0RmlLVw?oc=5",
+          "published_at": "2026-10-03T16:33:52+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "2026 F1 Bahrain Grand Prix Qualifying: Max Verstappen takes pole position at Sepang - Indulge Express",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-03T16:32:05+00:00",
+      "summary": "2026 F1 Bahrain Grand Prix Qualifying: Max Verstappen takes pole position at Sepang Indulge Express",
+      "claims": [
+        "2026 F1 Bahrain Grand Prix Qualifying: Max Verstappen takes pole position at Sepang Indulge Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeUtrUktlZGFUQkxrTk13QkFEcVRJUHItSWh5OGNpNHJRWUNtenRWZWhPSjlPWmdtQ19SRXZTMlJWaFhKNFJ1MTlCMXFqVVZBSXNoWEhPOWNPaU41bG4tS19SbDVPdzRXRW9mdk5ER1V0RGxmcWJaLWpBalh1VHh4SF9BdnZKZUJHRVJicWZUZHdBVjhjNzZmNG43a3JXZ291ZWFmRDhwa29hdnp4TGdEb3VFNVZKWTh5aU5xNTA4a0lOcmFwU2lISHJrQdIB2AFBVV95cUxQWm1IaFlwVmxwTnRTX2ZnSm45NFhKUlJfVnI4YTdjeGx3Ui1iQkJvejc4X1dXbWU4aTl2T2JOVEpUdWFlSmlRS3F5S3d0eVRwaXFXakVJX3ptbTZRRGt3SlMyWmF6THVzdmlkcGhqcEpjYTl6azVFdll5VGJwd3VDN1dGR0NsQzZFTHlya1Q3NVBzVGdRNDRsZ01iZGtfWjZTSFNESXc3QjA4VmFsSUVxOUEzZHJoS1lXODNXSFhUbF9mamdxYnBrUTlIT01INzhvalI0Nk9naUk?oc=5",
+          "published_at": "2026-10-03T16:32:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI expert quits firm and sounds the alarm - 'I don't want that for my kids' - aol.co.uk",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T16:02:29+00:00",
+      "summary": "AI expert quits firm and sounds the alarm - 'I don't want that for my kids' aol.co.uk",
+      "claims": [
+        "AI expert quits firm and sounds the alarm - 'I don't want that for my kids' aol.co.uk"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBocHB2VGdhVElSalJzMmdpeEFjSnU2Qzh6Z2ZxRGVRS2d4YXJFMkI3cVQ1WVJDZmFWMkNFa28wYm9ZV1dIbEx2NWw1ZDI5TmVIWXFQakJqVjZPd0xfNkpsUTdJYjZaOUZQYkN3UWJjV0VUYVF3VlJia0hRanRXUQ?oc=5",
+          "published_at": "2026-10-03T16:02:29+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI model may predict pancreatic cancer risk up to 5 years before diagnosis - MedicalNewsToday",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T15:22:30+00:00",
+      "summary": "AI model may predict pancreatic cancer risk up to 5 years before diagnosis MedicalNewsToday",
+      "claims": [
+        "AI model may predict pancreatic cancer risk up to 5 years before diagnosis MedicalNewsToday"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM1pacHlqNWVpZDdDY1A2cUFyczZJYzJtYl9sNVFWVzJieklQakJjZVcwUy1wTXEtckhwV2FFSGZxOE1BWjhkcjZYcW9GY3lMLVRiOUt3Q3d6NV9mMFRjLVBuRHhmREpxUWVwSWV6MjVSd29Wb3lmaTliMWxNS1BoaW5rZ2czWmFoMTVKR0RPVnNBTk1IdUpIbmZBZ3lPbGFxSkQ1bGwyX3A4eFhDSE5uSGs0MHRqbmM?oc=5",
+          "published_at": "2026-10-03T15:22:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "A.I. Is Going Rogue. Who Should Be Held Responsible? - The New York Times",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T14:51:00+00:00",
+      "summary": "A.I. Is Going Rogue. Who Should Be Held Responsible? The New York Times",
+      "claims": [
+        "A.I. Is Going Rogue. Who Should Be Held Responsible? The New York Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTUhrakN2TGFTTmdhM0VtY2s5UjBjOVB5cnRRM1NHOWxPV1FGYTdfYjRrQkNZeFFBeHVkSXI1Q29DOE96WmNnSndCb1hwU1c4UGpxanNmMlJsNkJkYVRZNEpBSzdLdG55cXN5Z3hBYWVZSVVkQ1B2OV81Q1hEbExJUUJR?oc=5",
+          "published_at": "2026-10-03T14:51:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Top 50 Most Influential European AI Leaders Revealed - n24.com.tr",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T14:18:50+00:00",
+      "summary": "Top 50 Most Influential European AI Leaders Revealed n24.com.tr",
+      "claims": [
+        "Top 50 Most Influential European AI Leaders Revealed n24.com.tr"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd0lOX2F3SHMtY0dZcjctenlIV3hwZW5VaG5PLV9DZGVCY0l2TDFJMTExbC1faTMzX0p4aFNVTTJJMzg1UTdmMFFOdTQzUFpOb3MzLWhybzJkRlQ5c2UzWGFTQV9zalpORlRvVVdiSnNLRi1FbjZabkMtaTFpN01UY0VyenBGTlZ6dHRMZ3BUYm9FNHc?oc=5",
+          "published_at": "2026-10-03T14:18:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "KI skaliert nicht von selbst: Wer nur Modelle einkauft, automatisiert vor allem seine Enttäuschung - Xpert.Digital - Konrad Wolfenstein",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-03T13:49:56+00:00",
+      "summary": "KI skaliert nicht von selbst: Wer nur Modelle einkauft, automatisiert vor allem seine Enttäuschung Xpert.Digital - Konrad Wolfenstein",
+      "claims": [
+        "KI skaliert nicht von selbst: Wer nur Modelle einkauft, automatisiert vor allem seine Enttäuschung Xpert.Digital - Konrad Wolfenstein"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NOHBWNmlOXy03cF9DUEN4OE9BZEdUcURPbnhSN1cwSnZMNTNPM0VVa0FMamc1S2I0ZlRyLUtISFR0NDRWM2FLTzV3bWVQME01ckFNRmdUVUlNQXZqeU84VVF30gFqQVVfeXFMUHo2cGJQc2VDQmJkSmF6QzhYMzRITWZRSk1oUS03MDBETTJkWUQwQmZaYTk1X3FIcGN6b1RWOFlPT28zVHhwRHQtckwyZmpLTDZKUUx3MUhhNlROaXpmVU9nTFZYYUdvZkJUUQ?oc=5",
+          "published_at": "2026-10-03T13:49:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
