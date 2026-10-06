@@ -1,0 +1,951 @@
+{
+  "report_date": "2026-10-07",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-06T23:07:41.832201+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 50
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 161,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-06T19:07:06+00:00",
+      "summary": "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the...",
+      "claims": [
+        "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+          "published_at": "2026-10-06T19:07:06+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-06T16:13:50+00:00",
+      "summary": "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,...",
+      "claims": [
+        "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
+          "published_at": "2026-10-06T16:13:50+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-06T16:00:00+00:00",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "claims": [
+        "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/atlassian-partnership",
+          "published_at": "2026-10-06T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-06T15:05:11+00:00",
+      "summary": "Earth AI",
+      "claims": [
+        "Earth AI"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+          "published_at": "2026-10-06T15:05:11+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-06T12:00:00+00:00",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "claims": [
+        "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "published_at": "2026-10-06T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Advancing computer use with Ironclad",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-06T10:00:00+00:00",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "claims": [
+        "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+          "published_at": "2026-10-06T10:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-06T06:44:39+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+          "published_at": "2026-10-06T06:44:39+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Control How Your GPU Shares Work with Green Contexts",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-05T21:44:07+00:00",
+      "summary": "GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator...",
+      "claims": [
+        "GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+          "published_at": "2026-10-05T21:44:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek Nears $12 Bn Funding As Investor Demand Surges - BW Businessworld",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T21:28:45+00:00",
+      "summary": "DeepSeek Nears $12 Bn Funding As Investor Demand Surges BW Businessworld",
+      "claims": [
+        "DeepSeek Nears $12 Bn Funding As Investor Demand Surges BW Businessworld"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdGRPRDFCYVl4clRTaXYwQW82SXBwUGJ0ejhaZTJZNjNlTUJpVWM3cms1VGNtZjlVbE53bEVSZ0pnRVNpR1dCZUVaVjhoV0t6eEtVWEtkS2NHaUdCSWlIczFDaGk3TUVxMXFuTmM5RHNJS2IyLTF2R0RxOFlXYW5RSWtQLS1LWW9wWFA1d2tXSG5CZGx5NVVmRUN0d19KeUU?oc=5",
+          "published_at": "2026-10-06T21:28:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek set to net over $12 billion in new fundraising - The Manila Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T21:15:13+00:00",
+      "summary": "DeepSeek set to net over $12 billion in new fundraising, source says TradingView",
+      "claims": [
+        "DeepSeek set to net over $12 billion in new fundraising The Manila Times",
+        "DeepSeek set to net over $12 billion in new fundraising, source says TradingView",
+        "DeepSeek set to net over $12 billion in new fundraising, source says Reuters"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOThtYzlDTlhBeVpBUGsxOFVNVGU1NHZuYTVTNEwyNU8yeFdQRV9YemVHQ3lmbkJrNzloMUNtc1BpREpYU2Uza1R1Z19FUGt2NGEwaXlWS0w0NWQ3M3JzWnFVUTNNV01aZ2xBTjFwTXdUYVlVNE11MjhXa2l1SmItVmM2ampSdGkzUTRRbkZXVFIyanVteVhsM0EwOVRwb3hyRTJFSURhbkY0LU50MVB2U1QydDNrb3FsdFp1bjhiS05wS1lYS0N3bVQ4UdIBywFBVV95cUxPOThtYzlDTlhBeVpBUGsxOFVNVGU1NHZuYTVTNEwyNU8yeFdQRV9YemVHQ3lmbkJrNzloMUNtc1BpREpYU2Uza1R1Z19FUGt2NGEwaXlWS0w0NWQ3M3JzWnFVUTNNV01aZ2xBTjFwTXdUYVlVNE11MjhXa2l1SmItVmM2ampSdGkzUTRRbkZXVFIyanVteVhsM0EwOVRwb3hyRTJFSURhbkY0LU50MVB2U1QydDNrb3FsdFp1bjhiS05wS1lYS0N3bVQ4UQ?oc=5",
+          "published_at": "2026-10-06T21:15:13+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUEhBNWVvSHZfel9HSVVqazA3dEk2cmdqY1R1M1RlRmlHRTQ2clZXUUs0V2p1eXd2S1lZWWtqd3JEQXdjaTdtYnRUaFRCT0t0REl6UG5zZHJ5OVk5REV3TWdCZGhhTHY2LUVnT0lhTHBkMldmWWsyT2U0dHYySUx1OS0zZVA0d0xWbFE2bkZFRTB2R0l6bG8wU2NPTVg1VkYxT2hXbkhXczlWT1N4Vk1LaXg3RjE3UkpsWklSMVZIcDF1bnJEZ0J3ZkstdjhxZzAxT1E?oc=5",
+          "published_at": "2026-10-06T06:04:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5",
+          "published_at": "2026-10-06T05:25:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek set to net over $12b in new fundraising, source says - The Express Tribune",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T19:38:04+00:00",
+      "summary": "DeepSeek set to net over $12b in new fundraising, source says The Express Tribune",
+      "claims": [
+        "DeepSeek set to net over $12b in new fundraising, source says The Express Tribune"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejBJQVhmd0M4dXFtaG1NcEhYY19GVGN1OWNxcmhESjYyTzhiNHBiUXdiVmtobHdqR2pCdXYxRlBkaGhRWXRyWWVwUGRtMVZJY1pnQk9TZ2kxRXMwMzRsWDJXdDNieDUzYjVfSUk2ajNyWGVRSGpFRTM1QVNwRV9PcGllNHpxQkp6LVdHZ2kzSUtvMXdwdmNqLVRUX3Z5LVRWNXMyS9IBpAFBVV95cUxQejBJQVhmd0M4dXFtaG1NcEhYY19GVGN1OWNxcmhESjYyTzhiNHBiUXdiVmtobHdqR2pCdXYxRlBkaGhRWXRyWWVwUGRtMVZJY1pnQk9TZ2kxRXMwMzRsWDJXdDNieDUzYjVfSUk2ajNyWGVRSGpFRTM1QVNwRV9PcGllNHpxQkp6LVdHZ2kzSUtvMXdwdmNqLVRUX3Z5LVRWNXMySw?oc=5",
+          "published_at": "2026-10-06T19:38:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek's pre-IPO raise, NBA rebuffed, Tennessee powers up - Axios",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T19:34:12+00:00",
+      "summary": "DeepSeek's pre-IPO raise, NBA rebuffed, Tennessee powers up Axios",
+      "claims": [
+        "DeepSeek's pre-IPO raise, NBA rebuffed, Tennessee powers up Axios"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92NlZsYnNadTF0Qmt4djRrX2JOcEE3WlNDeHgwTGVwUkNSdU04WGVnc2dMSmEzNTQzR2N4Ql8tMm5JM3pyOWNETXpzRXFaUnM3eXNwdGJjZ09pc05CR3BvQzV3Tkc2bXFFQUUwbXIzMzhsaWhPcEw0Q2MxSnlCRFk?oc=5",
+          "published_at": "2026-10-06T19:34:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Watch Billions Pour Into OpenAI, DeepSeek Ahead of IPOs - Bloomberg.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T19:08:45+00:00",
+      "summary": "Watch Billions Pour Into OpenAI, DeepSeek Ahead of IPOs Bloomberg.com",
+      "claims": [
+        "Watch Billions Pour Into OpenAI, DeepSeek Ahead of IPOs Bloomberg.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ1NidmU5MWtwRDl5YWk4Tm1jMi1ucXVZRlVobUhFZjZKcjM1RThYekhoY1AyaHRjc1ZUUGFqa1dSVFpUX3NSSDh0ZlBhMWoyVk1XSEViTFRMVTlEbHJpTkk5eWVhMEtEbnNtd2RwQV9EbTY2RkhWTXpNSGc1bTNDVFRKZjBjQQ?oc=5",
+          "published_at": "2026-10-06T19:08:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic’s advanced AI model significantly increases cybersecurity risks, warns JPMorgan CEO Jamie Dimon - Livemint",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T18:22:58+00:00",
+      "summary": "Anthropic’s advanced AI model significantly increases cybersecurity risks, warns JPMorgan CEO Jamie Dimon Livemint",
+      "claims": [
+        "Anthropic’s advanced AI model significantly increases cybersecurity risks, warns JPMorgan CEO Jamie Dimon Livemint"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdnZrbG9KN2cyRmhLbHYxc2hzUFVPampUOEE0cmFXOUlCbDQ2UWoyb2pwM3RfR3VZY2VqRHQwZzlYbDdFVm9wV044dGJETVRpUDlma3RMZV8wZHlRbnY1TUVmc1o0NnZMOXBzUDZLaDRENXAzOHkzTGZXLWltOTZvWEpoMFNSczBsVzEyUC1JRTZQTkxIc1Jscy1YYTJkazlGUkRkU0dwa24takRkNVI5djdQVl9yeUNpQ3lTY3BlUnNRWmg0RzBLcm5PVHBCMUQ4TkVPY2pqLVd3bzRyVzdOYUhLY1FIUdIB6wFBVV95cUxNSEZ6Ujk3cVpPbWNaN1NVdGF4ZlBPdFhqaVVUMzJTdXNPcXZfN0lZNEo0ZTYyWWg4bWFLQXNnZFVBVTc0UG9qcFFKbXNjdzctVGdwYXNQZDJXa19hb3FIaldHVkNqeFZ0Q3pJdTJ3RmIzdmxMdFctcG5TTEJJZEg4ei1HNDQ1Zk5FTnJxZWN5MDlMeXRYQVdWSGpZYnVUZ29ST1h5Zkt0R214NE1ZX3JyWmZKbE1pR1hyNkVFVmR5TlRMcXVmaXVwa19sZEJISVBUcTBVU3BNOVFwMTZIM2FUOHJOVmlOa0ZVZVBF?oc=5",
+          "published_at": "2026-10-06T18:22:58+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek Secures 80 Billion Yuan in Funding Ahead of 2027 IPO - Retail News Asia",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T18:09:53+00:00",
+      "summary": "DeepSeek Secures 80 Billion Yuan in Funding Ahead of 2027 IPO Retail News Asia",
+      "claims": [
+        "DeepSeek Secures 80 Billion Yuan in Funding Ahead of 2027 IPO Retail News Asia"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYjdCYWxQdXByeUpHUUdOVl8waGNja25fZng5bFlra3l5eUdtV0dlR0hUWHZIWmpKMmN4SnFrSm5SeUpnQ2FNWTB0WkxSWkNCbXNRWkFucXFCaWRTSEJhbW1YdXUtVmRXcVMtckVLT1FpN0NMSmM1RFFrTEQzRU8xRU9SdE1wY3B1VVlYYlQ5SkdWcTQ?oc=5",
+          "published_at": "2026-10-06T18:09:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Jacques Villeneuve highlights the 'big difference' between Max Verstappen and Kimi Antonelli - motors-addict",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T18:01:04+00:00",
+      "summary": "Jacques Villeneuve highlights the 'big difference' between Max Verstappen and Kimi Antonelli motors-addict",
+      "claims": [
+        "Jacques Villeneuve highlights the 'big difference' between Max Verstappen and Kimi Antonelli motors-addict",
+        "Jacques Villeneuve highlights the ‘big difference’ between Max Verstappen and Kimi Antonelli Crash.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQT2wwRmFRSHRNby1pMXFCbnlqNVlKS2ZBcnhBRnMzWkQ0SHl2WUoyMjFjQmE2VFUxQkxZY1ZleVBlOG1Nb3NRSVcwVGE3YW15bnlsdm9CY3ZFcllpSjc2LVppSzRXclZpUW8yX1RQVW5ZQ19nTG41ZWxnbXlOalo1WXBuXzlKNi16WC1OYTZvWVBYdFFQVkF6S3Q2OWpvRXZwT0h0TVFHN1lEYVBaRW9Rd2U3MWRVQkxaUnNpUC1MOEg1MHg1cnpCWWJXVDRCb0EzVVpUemppQUl5eU1pck1jSFJ6eFVwNUdwWjFGSm5aUXgyVms?oc=5",
+          "published_at": "2026-10-06T18:01:04+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcnlYdU55SXhGZjlKM3lqeVBCYnRQLThHSTRPbkV2Mm1VanotME1TdGlsR3FTNDFqbEhIeEJKY0xyMElfTHJCRzY0eXNxbGw4NWJlMk1pOWlWN3ZTRVFZN2J4NXB0cXZWcUtSMDhDQUZqQWRuV0lmWGZiVGZEc3A1VDNJdW90YWlDVDdSOXdGcVV3T3o2bG0xbUxWeWJNbUhPYjV6VzQxcEpJeThVY1VQMXAta24tR00?oc=5",
+          "published_at": "2026-10-06T15:55:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Monash Joins Global Alliance to Advance Trusted AI - Mirage News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T23:05:00+00:00",
+      "summary": "Monash Joins Global Alliance to Advance Trusted AI Mirage News",
+      "claims": [
+        "Monash Joins Global Alliance to Advance Trusted AI Mirage News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSVhPOVNieDB2N2xVVTl6eEE2bkw5Zng4aHR6MnNiQ1JHQkpScGVTdjVxQzUzUDRjRk5PUnlENlQzZGQ1eXpuVXVTbjAzSjgybGZhbE1WX3ZBZ1dRc20zYTZyc2oydWhSbzRvWlJLQkpOQloteWRnSk9BY3IxZFNGekFtNVRRMk94NURj?oc=5",
+          "published_at": "2026-10-06T23:05:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI techniques behind image creation improve flash flood forecasts across U.S. river basins - Phys.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T21:30:01+00:00",
+      "summary": "AI techniques behind image creation improve flash flood forecasts across U.S. river basins Phys.org",
+      "claims": [
+        "AI techniques behind image creation improve flash flood forecasts across U.S. river basins Phys.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85VWRZZG5wVXc1RWJvdV80aEo5UkZLZi1NRW1SNUtaVTFDWXRHQ2YwVmNUdGY5MUxNNjZ1WjJnQ3NJeEoza0Z5MjNZN00xUUptLWNOdHBLdktqZFFzNFBvbExLUzA2bjVaRnVOZFJ6aEdPQ2FJNnJKVw?oc=5",
+          "published_at": "2026-10-06T21:30:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "ARTEX AI, which was detected to be used to hack Korean financial companies, appeared as an open cybe.. - 매일경제",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T21:29:30+00:00",
+      "summary": "ARTEX AI, which was detected to be used to hack Korean financial companies, appeared as an open cybe.. 매일경제",
+      "claims": [
+        "ARTEX AI, which was detected to be used to hack Korean financial companies, appeared as an open cybe.. 매일경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qVEtxUmlDNlFGT2h5d0xCTTNURVFIVkV2STBObVBwdUY1Qmxoc3R5VGdUblp0VU91b24talUyYWhTWjlDOXlub0VvQm94RTg?oc=5",
+          "published_at": "2026-10-06T21:29:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Inside the AI businesses being built on Bittensor - www.thestreet.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T21:05:00+00:00",
+      "summary": "Inside the AI businesses being built on Bittensor www.thestreet.com",
+      "claims": [
+        "Inside the AI businesses being built on Bittensor www.thestreet.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVUViVFdQZEQyLUFRb0htZzZETWRvd2FYQ3VjN3lZMndzMkZaQnY5QmUyZDh3cllfd25TTjczelBzaWp5WEZMLXY4VjI3WVNUeHRZM2d2ZGwyN2ZrZEZDcjJINy1iN2x6QXhJNWs0UTYwNmluX3oxR0hyNHFWekJjNWVkTFQwZmgxNW5wM3BsNUg0UER3UmZ0dVc3NDNadzVwdmlJaEotWS13U0lsZWVqemFkSXVCWjNRZlU0VVViWlpsSUFyamlqVzNyamozZy1HN3M1enN3?oc=5",
+          "published_at": "2026-10-06T21:05:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Artificial Intelligence Terms: A Practical AI Glossary for 2026 - Analytics Insight",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T20:14:07+00:00",
+      "summary": "Artificial Intelligence Terms: A Practical AI Glossary for 2026 Analytics Insight",
+      "claims": [
+        "Artificial Intelligence Terms: A Practical AI Glossary for 2026 Analytics Insight"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEVlSWhQVXpLT01WeW9XY0xjYUxEb3JCMWxvV0FJZlhaaFljSlJ3ZWZJWWtRMzA3WnhmalpIRTlqdExucWxCX2FjRFhwSW1tVmU2V1RTUlhsSG5qRWhqaThYa0RCZGxwWG5pNktYQVZIdVZ2blNULUtHWWl5eFFjejBhV1Ywb2tPdUh0UmFHNkVGelo1SGUxWG0yX1NXVVEzZVdBWS1jdjVmdUlWMlZfTHk1X1dlRkxTQjN4N04wSFlLSnVqX19nX9IByAFBVV95cUxQSEVlSWhQVXpLT01WeW9XY0xjYUxEb3JCMWxvV0FJZlhaaFljSlJ3ZWZJWWtRMzA3WnhmalpIRTlqdExucWxCX2FjRFhwSW1tVmU2V1RTUlhsSG5qRWhqaThYa0RCZGxwWG5pNktYQVZIdVZ2blNULUtHWWl5eFFjejBhV1Ywb2tPdUh0UmFHNkVGelo1SGUxWG0yX1NXVVEzZVdBWS1jdjVmdUlWMlZfTHk1X1dlRkxTQjN4N04wSFlLSnVqX19nXw?oc=5",
+          "published_at": "2026-10-06T20:14:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "France's Mistral Unveils Open-Weight AI Model, Claiming It Outperforms Chinese Competitors - news.sbs.co.kr",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T20:01:45+00:00",
+      "summary": "France's Mistral Unveils Open-Weight AI Model, Claiming It Outperforms Chinese Competitors news.sbs.co.kr",
+      "claims": [
+        "France's Mistral Unveils Open-Weight AI Model, Claiming It Outperforms Chinese Competitors news.sbs.co.kr"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrYXY0VU4xVWVxRzVZX0E3XzY0Z1ZYbHR1Mm10WnJMclNrSHJ5enI3TG5ZU2ctWlZoN0NaTjBVbU9XVFVHVVpkbmM5STFkZGYwRUNta3Q2ZjE3Q3NFa3FrV3ZRMHNxb3luQzZ0cFV3?oc=5",
+          "published_at": "2026-10-06T20:01:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mistral: French AI firm announces Le Chonk, a new, private model - DW.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-06T19:57:35+00:00",
+      "summary": "Mistral: French AI firm announces Le Chonk, a new, private model DW.com",
+      "claims": [
+        "Mistral: French AI firm announces Le Chonk, a new, private model DW.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUTY3bnhWaWNETlRoS1psQkU4Qlp3c2tFWWwtZ1hPUmpNN2ZONkNwYTUzLXpsVTRrRnBQeEpFQnVWVUNydElHdVBQV3BiZ1NLR2diWncya0d4T0VFUzJDUWVZd1Z0Njl0LUhxUzM1OXM2OFh1TGZzOU4yRnc0VDNxazFjSDLSAYQBQVVfeXFMUDRLOUZyR0hsWHdiRFQxZXMxVGVRQkY1ZU1sV0ptRm9kZkRWMUlYQXE5R3Zja205ODlYRzlpTldYUjZPTTNRbEY2azRBbS1TTnBScEYxd29kLUhFekh0WlhKVHRzZllfYmlvOVdxWHRFa3RxSk1XU00xZ1JSWk5wZEstMXZE?oc=5",
+          "published_at": "2026-10-06T19:57:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mistral unveils 1 trillion parameter Le Chonk model to rival Chinese AI - Startup Fortune",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-06T19:26:01+00:00",
+      "summary": "Mistral unveils 1 trillion parameter Le Chonk model to rival Chinese AI Startup Fortune",
+      "claims": [
+        "Mistral unveils 1 trillion parameter Le Chonk model to rival Chinese AI Startup Fortune"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSHphM3lkNENYYzVMNm8xQ3JPcXJocXpKSEtQREk2Q0ptVVJiWmxDTGlVRE15aEVTU0lCU1B1eHA3bU82X3QxQ0d3V3UwS091UHlVTWtZMmNKTUhKUFg2T3VnZmhlUGNOdmNFeDduOHkxX2YtWnpVRUl2eHJBVzhXcThJNmtDQWg5Z3NveFRDekkzc1JkWEM2VTFZT2Z3QnNT?oc=5",
+          "published_at": "2026-10-06T19:26:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
