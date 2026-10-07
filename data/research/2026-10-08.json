@@ -1,0 +1,929 @@
+{
+  "report_date": "2026-10-08",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-07T23:38:00.082520+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5525, column 283"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "no element found: line 5651, column 122"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 181
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 49
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 60
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 307,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Does better work always mean better workers?",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-07T20:19:57+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+          "published_at": "2026-10-07T20:19:57+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The Machines that Make the Machines",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-07T18:21:08+00:00",
+      "summary": "How we taught robots to assemble GB300 tester trays and what it taught us about robot learning, mechanical intelligence, and good old-fashioned engineering The...",
+      "claims": [
+        "How we taught robots to assemble GB300 tester trays and what it taught us about robot learning, mechanical intelligence, and good old-fashioned engineering The..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+          "published_at": "2026-10-07T18:21:08+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Multimodal open d1 decision models for the edge",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-07T16:54:33+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "published_at": "2026-10-07T16:54:33+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-07T15:42:42+00:00",
+      "summary": "Supply chain problems are expanding across more SKUs, lanes, and constraints than ever before, while energy grids are balancing more distributed sources in real...",
+      "claims": [
+        "Supply chain problems are expanding across more SKUs, lanes, and constraints than ever before, while energy grids are balancing more distributed sources in real..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
+          "published_at": "2026-10-07T15:42:42+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-07T15:30:20+00:00",
+      "summary": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while...",
+      "claims": [
+        "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
+          "published_at": "2026-10-07T15:30:20+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-07T12:45:31+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+          "published_at": "2026-10-07T12:45:31+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-07T12:00:00+00:00",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "claims": [
+        "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/teens-learn-and-plan",
+          "published_at": "2026-10-07T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-10-07T12:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+          "published_at": "2026-10-07T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Generalizable Robustness Testing of DNN-Based Robotic Navigation Systems via XAI-Guided Search",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06862v1 Announce Type: new Abstract: **Context:** Deep Neural Networks (DNNs) increasingly control Cyber-Physical Systems (CPSs), yet small input perturbations can cause unsafe system-level behavior. Existing approaches often optimize perturbations for individual images and evaluate them only in simulation, limiting their generalizability and practical validity. **Objectives:** This work aims to generate robustness tests that remain effective across operational observations and to evaluate whether the resulting failures transfer from simulation to a physical robot. **Methods:** We propose an explainability-guided multi-objective evolutionary approach that generates sparse perturbations over representative images selected through visual and behavioral clustering. Aggregated Integrated Gradients guide mutations toward influential image regions. We evaluate the approach on a DNN-controlled LeoRover in Gazebo, conduct an ablation study, and validate a stratified subset of perturbations on the physical robot. **Results:** The approach achieved a median success rate of 70.0%, compared with 53.85% for unguided search, and increased median hypervolume from 0.65 to 0.73. Multi-image optimization improved the success rate from 50.0% to 57.5%, while XAI guidance further increased it to 70.0%. In the sim-to-real evaluation, simulation achieved 0.95 precision and 0.67 recall, and",
+      "claims": [
+        "arXiv:2610.06862v1 Announce Type: new Abstract: **Context:** Deep Neural Networks (DNNs) increasingly control Cyber-Physical Systems (CPSs), yet small input perturbations can cause unsafe system-level behavior. Existing approaches often optimize perturbations for individual images and evaluate them only in simulation, limiting their generalizability and practical validity. **Objectives:** This work aims to generate robustness tests that remain effective across operational observations and to evaluate whether the resulting failures transfer from simulation to a physical robot. **Methods:** We propose an explainability-guided multi-objective evolutionary approach that generates sparse perturbations over representative images selected through visual and behavioral clustering. Aggregated Integrated Gradients guide mutations toward influential image regions. We evaluate the approach on a DNN-controlled LeoRover in Gazebo, conduct an ablation study, and validate a stratified subset of perturbations on the physical robot. **Results:** The approach achieved a median success rate of 70.0%, compared with 53.85% for unguided search, and increased median hypervolume from 0.65 to 0.73. Multi-image optimization improved the success rate from 50.0% to 57.5%, while XAI guidance further increased it to 70.0%. In the sim-to-real evaluation, simulation achieved 0.95 precision and 0.67 recall, and"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06862",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "RMRRT: Riemannian Barrier Metric RRT for Inequality-Aware Steering on Equality Manifolds",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06863v1 Announce Type: new Abstract: This paper presents a motion planning framework that unifies equality and inequality constraints within a single geometric formulation for sampling-based planning in high-dimensional robotic systems. In conventional sampling-based planners, equality constraints are typically enforced through projection, whereas inequality constraints are handled separately through binary validity checks such as collision testing, often leading to inefficient exploration. To address this limitation, we propose Riemannian Barrier Metric RRT (RMRRT), which constructs a unified local geometry for planning on equality-constrained manifolds. RMRRT first builds an ambient barrier metric from inequality-sensitive barrier terms and then induces a tangent-space metric via a (G)-orthogonal projection associated with the equality constraints. The resulting tangent-space metric is used consistently in both steering and nearest-neighbor selection, biasing exploration away from nearby inequality boundaries while preserving first-order equality consistency. In this work, the metric is instantiated from signed-distance-based geometric proxy inequalities to provide collision-informative tangent-space directions; hard feasibility is enforced separately through standard validity checks. Experimental results show that RMRRT achieves a 100% success rate across diverse ",
+      "claims": [
+        "arXiv:2610.06863v1 Announce Type: new Abstract: This paper presents a motion planning framework that unifies equality and inequality constraints within a single geometric formulation for sampling-based planning in high-dimensional robotic systems. In conventional sampling-based planners, equality constraints are typically enforced through projection, whereas inequality constraints are handled separately through binary validity checks such as collision testing, often leading to inefficient exploration. To address this limitation, we propose Riemannian Barrier Metric RRT (RMRRT), which constructs a unified local geometry for planning on equality-constrained manifolds. RMRRT first builds an ambient barrier metric from inequality-sensitive barrier terms and then induces a tangent-space metric via a (G)-orthogonal projection associated with the equality constraints. The resulting tangent-space metric is used consistently in both steering and nearest-neighbor selection, biasing exploration away from nearby inequality boundaries while preserving first-order equality consistency. In this work, the metric is instantiated from signed-distance-based geometric proxy inequalities to provide collision-informative tangent-space directions; hard feasibility is enforced separately through standard validity checks. Experimental results show that RMRRT achieves a 100% success rate across diverse "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06863",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Geometric Coherence via Weighted Matching for 3D Heterogeneous Multi-Agent Reach-Avoid Games",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06882v1 Announce Type: new Abstract: We study assignment quality in 3D heterogeneous multi-agent reach-avoid games and identify a recurring failure mode of cardinality-only matching in geometrically structured scenarios, which we term \\emph{Geometric Sprawl}. In these cases, multiple maximum-cardinality assignments are available, but some induce spatially incoherent pairings and inefficient pursuit trajectories. Building on the evasion-space framework of Yan et al.~\\cite{yan2022}, we introduce a cardinality-first weighted sequential matching method in which the Hamilton--Jacobi--Isaacs interception value $z_I(s,j)$ is used as a secondary assignment weight. Each sequential stage is solved with a min-cost max-flow backend, while the unweighted baseline uses the same solver with the weight term removed. We evaluate both methods on a deterministic 35-scenario benchmark (7 families & 5 initialization variants) under two regimes: a diagnostic stationary-unmatched setting and a hybrid saddle-point setting with goal-directed unmatched evaders. On this benchmark, the weighted method resolves 13 of 15 geometric stress-test instances that cause repeated timeouts for the unweighted baseline in the diagnostic regime, and under the hybrid regime improves mean captures from $3.20$ to $3.91$ (22\\% increase) and mean interception height from $3.87$ to $5.36$ (40\\% increase). We also ",
+      "claims": [
+        "arXiv:2610.06882v1 Announce Type: new Abstract: We study assignment quality in 3D heterogeneous multi-agent reach-avoid games and identify a recurring failure mode of cardinality-only matching in geometrically structured scenarios, which we term \\emph{Geometric Sprawl}. In these cases, multiple maximum-cardinality assignments are available, but some induce spatially incoherent pairings and inefficient pursuit trajectories. Building on the evasion-space framework of Yan et al.~\\cite{yan2022}, we introduce a cardinality-first weighted sequential matching method in which the Hamilton--Jacobi--Isaacs interception value $z_I(s,j)$ is used as a secondary assignment weight. Each sequential stage is solved with a min-cost max-flow backend, while the unweighted baseline uses the same solver with the weight term removed. We evaluate both methods on a deterministic 35-scenario benchmark (7 families & 5 initialization variants) under two regimes: a diagnostic stationary-unmatched setting and a hybrid saddle-point setting with goal-directed unmatched evaders. On this benchmark, the weighted method resolves 13 of 15 geometric stress-test instances that cause repeated timeouts for the unweighted baseline in the diagnostic regime, and under the hybrid regime improves mean captures from $3.20$ to $3.91$ (22\\% increase) and mean interception height from $3.87$ to $5.36$ (40\\% increase). We also "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06882",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Does a Learned Corrector Beat a Simple Retreat? Evidence from a Frozen VLA",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06921v1 Announce Type: new Abstract: Before deploying runtime recovery for a frozen vision-language-action (VLA) policy, one must establish that an intervention improves success beyond ordinary run-to-run variation and that its complexity adds value over a simple action. We evaluate these questions on frozen $\\pi_{0.5}$ across four RoboTwin tasks. For each test seed, we pair rollouts with and without correction and include a same-seed base-policy re-run as a placebo. Seed-cluster intervals and prespecified comparison rules assess net gains against stochastic outcome changes. Across 3,888 paired episodes, the full pipeline raises success on beat_allowbreak block_allowbreak hammer by $+13.5$\\,pp (95\\% interval $[+9.4,+17.7]$), with no detectable gain on the other three tasks at the deployed weight. Among failed base episodes on the responsive task, $43.2\\%$ succeed on a plain re-run, compared with $63.5\\%$ after correction; many nominal rescues therefore reflect the base policy's own variability. A fixed-time trigger and scripted return to an earlier joint configuration produce a net gain with no detected difference from the learned pipeline across two rounds, although our prespecified equivalence criterion is not met consistently. Pausing and a constant-action control do not yield comparable gains. On this benchmark, the decision to intervene depends strongly on the t",
+      "claims": [
+        "arXiv:2610.06921v1 Announce Type: new Abstract: Before deploying runtime recovery for a frozen vision-language-action (VLA) policy, one must establish that an intervention improves success beyond ordinary run-to-run variation and that its complexity adds value over a simple action. We evaluate these questions on frozen $\\pi_{0.5}$ across four RoboTwin tasks. For each test seed, we pair rollouts with and without correction and include a same-seed base-policy re-run as a placebo. Seed-cluster intervals and prespecified comparison rules assess net gains against stochastic outcome changes. Across 3,888 paired episodes, the full pipeline raises success on beat_allowbreak block_allowbreak hammer by $+13.5$\\,pp (95\\% interval $[+9.4,+17.7]$), with no detectable gain on the other three tasks at the deployed weight. Among failed base episodes on the responsive task, $43.2\\%$ succeed on a plain re-run, compared with $63.5\\%$ after correction; many nominal rescues therefore reflect the base policy's own variability. A fixed-time trigger and scripted return to an earlier joint configuration produce a net gain with no detected difference from the learned pipeline across two rounds, although our prespecified equivalence criterion is not met consistently. Pausing and a constant-action control do not yield comparable gains. On this benchmark, the decision to intervene depends strongly on the t"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06921",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "SWAP: Stepwise Action Policy Routing for Vision-Language-Action Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06926v1 Announce Type: new Abstract: Robot manipulation systems using Vision-Language-Action (VLA) model backbones typically use just one VLA for task execution. However, individual VLAs do not perform well across different task states and environments. We introduce a framework for dynamically composing multiple VLA policies during execution: StepWise Action Policy Routing (SWAP). SWAP formulates policy routing as an offline reinforcement learning problem, learning a routing critic that selects the most appropriate policy at each decision step given the current observation. SWAP enables robots to select new policies to execute online rather than committing to a single policy for the duration of an episode. We evaluate SWAP on both real-world DROID manipulation tasks and LIBERO simulation experiments. SWAP improves over fixed-policy execution and routing baselines, giving absolute improvements in real-world task success up to 33% while reducing successful trajectory robot action step length by 28.3%.",
+      "claims": [
+        "arXiv:2610.06926v1 Announce Type: new Abstract: Robot manipulation systems using Vision-Language-Action (VLA) model backbones typically use just one VLA for task execution. However, individual VLAs do not perform well across different task states and environments. We introduce a framework for dynamically composing multiple VLA policies during execution: StepWise Action Policy Routing (SWAP). SWAP formulates policy routing as an offline reinforcement learning problem, learning a routing critic that selects the most appropriate policy at each decision step given the current observation. SWAP enables robots to select new policies to execute online rather than committing to a single policy for the duration of an episode. We evaluate SWAP on both real-world DROID manipulation tasks and LIBERO simulation experiments. SWAP improves over fixed-policy execution and routing baselines, giving absolute improvements in real-world task success up to 33% while reducing successful trajectory robot action step length by 28.3%."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06926",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Physical Twins: Accelerating and Enabling Robot Learning with Phantom Platforms",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06929v1 Announce Type: new Abstract: Improvements in human-robot physical interaction (pHRI) can have major implications for physical therapy, search and rescue, and telemedicine. However, a major challenge concerns human constraints and safety in human-robot physical experiments. Concerns about human studies also include repeatability, scalability, and participant diversity. To conduct such experiments, an IRB and willing human participants are required. In this work, we present an improved phantom device, a physical twin, that enables real-world RL-type testing for physically interactive algorithms. The new device not only replicates the ball-and-socket motion of the shoulder but also renders scapular and protraction/retraction motions. The experiments showcase the device's ability to render multiple 3D joint limits and demonstrate a Franka Panda arm sensing limits and interacting with the device as an arm for ADLs (activities of daily living) and pHRI tasks.",
+      "claims": [
+        "arXiv:2610.06929v1 Announce Type: new Abstract: Improvements in human-robot physical interaction (pHRI) can have major implications for physical therapy, search and rescue, and telemedicine. However, a major challenge concerns human constraints and safety in human-robot physical experiments. Concerns about human studies also include repeatability, scalability, and participant diversity. To conduct such experiments, an IRB and willing human participants are required. In this work, we present an improved phantom device, a physical twin, that enables real-world RL-type testing for physically interactive algorithms. The new device not only replicates the ball-and-socket motion of the shoulder but also renders scapular and protraction/retraction motions. The experiments showcase the device's ability to render multiple 3D joint limits and demonstrate a Franka Panda arm sensing limits and interacting with the device as an arm for ADLs (activities of daily living) and pHRI tasks."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06929",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "ROMA: LLM System for Real-World Object-Centric Multi-Sensory Active Perception",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06955v1 Announce Type: new Abstract: Humans inherently understand the physical world through an active process. When sensory evidence is insufficient to infer physical properties, we naturally interact with the environment by deciding what information is missing, how to acquire it, and when sufficient evidence has been obtained. In stark contrast, existing multi-sensory robot systems mainly integrate sensory inputs rather than actively acquiring missing evidence through interactions. In this work, we introduce ROMA, an LLM-based system for Real-World Object-Centric Multi-Sensory Active Perception. ROMA integrates vision, audio, tactile, and force sensing into a reasoning-interaction-feedback loop. The model identifies missing evidence and determines the target objects, interactions, and modalities, while a physical interface executes the selected interactions and collects the multi-sensory feedback. To support this capability, we construct ROMI-2K, a large-scale real-world multi-sensory object interaction dataset covering nearly 2,000 objects and 6 atomic interactions with synchronized sensory feedback. Building on these data, we develop a two-stage training framework that aligns sensory modalities and equips the LLM to assess evidence sufficiency, select informative interactions, and reason over the multi-sensory feedback. We further characterize active perception a",
+      "claims": [
+        "arXiv:2610.06955v1 Announce Type: new Abstract: Humans inherently understand the physical world through an active process. When sensory evidence is insufficient to infer physical properties, we naturally interact with the environment by deciding what information is missing, how to acquire it, and when sufficient evidence has been obtained. In stark contrast, existing multi-sensory robot systems mainly integrate sensory inputs rather than actively acquiring missing evidence through interactions. In this work, we introduce ROMA, an LLM-based system for Real-World Object-Centric Multi-Sensory Active Perception. ROMA integrates vision, audio, tactile, and force sensing into a reasoning-interaction-feedback loop. The model identifies missing evidence and determines the target objects, interactions, and modalities, while a physical interface executes the selected interactions and collects the multi-sensory feedback. To support this capability, we construct ROMI-2K, a large-scale real-world multi-sensory object interaction dataset covering nearly 2,000 objects and 6 atomic interactions with synchronized sensory feedback. Building on these data, we develop a two-stage training framework that aligns sensory modalities and equips the LLM to assess evidence sufficiency, select informative interactions, and reason over the multi-sensory feedback. We further characterize active perception a"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06955",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Learning Modular Policy for Multi-Floor Object Navigation:A Factorized Framework for Diagnostic Study",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-07T04:00:00+00:00",
+      "summary": "arXiv:2610.06958v1 Announce Type: new Abstract: Object-goal navigation (ObjectNav) in multi-floor scenarios presents a challenge due to sparse rewards caused by long-horizon decision-making. In this paper, we propose a diagnostic study based on a modular framework with an effective learnable policy to analyze failure factors in multi-floor scenarios. To achieve an effective policy for diagnosis, we design the hierarchical factorization policy that deconstructs a single global policy into an intra-floor exploration policy and an inter-floor switching policy. To providing an effective initialization for Reinforcement Learning (RL), the lightweight intra-floor policy is learned by distilling the exploration logic of Visual Language Models (VLMs). Under idealized assumptions, we show that the factorized policy is theoretically equivalent to a single global policy at the policy-representation level. Experiment results indicate that perception performance and stair climbing stability are the primary bottlenecks in multi-floor navigation.",
+      "claims": [
+        "arXiv:2610.06958v1 Announce Type: new Abstract: Object-goal navigation (ObjectNav) in multi-floor scenarios presents a challenge due to sparse rewards caused by long-horizon decision-making. In this paper, we propose a diagnostic study based on a modular framework with an effective learnable policy to analyze failure factors in multi-floor scenarios. To achieve an effective policy for diagnosis, we design the hierarchical factorization policy that deconstructs a single global policy into an intra-floor exploration policy and an inter-floor switching policy. To providing an effective initialization for Reinforcement Learning (RL), the lightweight intra-floor policy is learned by distilling the exploration logic of Visual Language Models (VLMs). Under idealized assumptions, we show that the factorized policy is theoretically equivalent to a single global policy at the policy-representation level. Experiment results indicate that perception performance and stair climbing stability are the primary bottlenecks in multi-floor navigation."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.06958",
+          "published_at": "2026-10-07T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek Reportedly Nears $11B+ Raise as Efficiency Gains Meet Heavy Infrastructure Demands - XenoSpectrum",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-07T22:16:12+00:00",
+      "summary": "DeepSeek Reportedly Nears $11B+ Raise as Efficiency Gains Meet Heavy Infrastructure Demands XenoSpectrum",
+      "claims": [
+        "DeepSeek Reportedly Nears $11B+ Raise as Efficiency Gains Meet Heavy Infrastructure Demands XenoSpectrum"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fc2NFQXdaaGtLNU1jNG0wam1TUk0yNlRHNFM0TVBuTEZCSHpsanZ4NUZYdmRuemtaQXBsM0s2cFM4QUpYSVl5ZEZuMnNLUnBwNGJYNVluTEFFSzFMY1cxc0tQdlA3UVhWVnIwb3hVX1J5TTFEZzdRYUZ5T2k?oc=5",
+          "published_at": "2026-10-07T22:16:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Windows Gets Open-Weight A.I. Like China’s DeepSeek and Nvidia’s Nemotron - www.trendingtopics.eu",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-07T20:19:11+00:00",
+      "summary": "Windows Gets Open-Weight A.I. Like China’s DeepSeek and Nvidia’s Nemotron www.trendingtopics.eu",
+      "claims": [
+        "Windows Gets Open-Weight A.I. Like China’s DeepSeek and Nvidia’s Nemotron www.trendingtopics.eu"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWUtLa1FwOHVYeVNIOS11Z1VnV2lNazkzdmVaQ2EyTUZPcFJEaE9EUThpcThlcUNZVG81WjNFZkpaN241MUh5X29NaWQ4TFU0bmxtX1FveEZPNjdsWlR1aEZNTy1iSWMyQzZ5elRPdW9tcENkM3RDQkFKbk51NGlnYkl3?oc=5",
+          "published_at": "2026-10-07T20:19:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Could Clinch F1 Title at United States Grand Prix - roundtable.io",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-07T20:13:54+00:00",
+      "summary": "Kimi Antonelli Could Clinch F1 Title at United States Grand Prix roundtable.io",
+      "claims": [
+        "Kimi Antonelli Could Clinch F1 Title at United States Grand Prix roundtable.io",
+        "Kimi Antonelli Could Clinch F1 Title at United States Grand Prix Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaFpKSzlSQjVQUVBJTDc3OXpaakRsdXhNUmZqM1VGSWF6cXJaYmd5am1sUUowQ25hemhFLWpsSWFYZUYtODNmWHM1SzZZbVdERkVJdlB5SnJ0M3pYZ29PUHQ2a3JoRXh2S0N5Umx5ZEYzbklqUi1pQ1BmRkI4bGxQWVZlLVBxZTJjbjl0RTlySDJqUXhMVF9hNWVJelFIZEJNNXBr?oc=5",
+          "published_at": "2026-10-07T20:13:54+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNXdzX2ZqbmRYeWpJY3BFZVllRENOeUJpSFdDZi1IX3dxT253dWJla2hsSkJXVGZRWEJ6bFU5bmloRkxDdHl2cVJ3Rm03Y1JOSThBY0l3WFhOZUtwemtIYjNUelNYLUdjc2dybFdPaWdtb09mb0Q4M0ZIXzlIS0p4ZllxRVdpQQ?oc=5",
+          "published_at": "2026-10-07T20:00:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Claude Haiku 5.5 Scores 43 On Artificial Analysis Index, Just Behind Kimi K3 While Ahead Of GPT-6 Luna - OfficeChai",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-07T19:43:38+00:00",
+      "summary": "Claude Haiku 5.5 Scores 43 On Artificial Analysis Index, Just Behind Kimi K3 While Ahead Of GPT-6 Luna OfficeChai",
+      "claims": [
+        "Claude Haiku 5.5 Scores 43 On Artificial Analysis Index, Just Behind Kimi K3 While Ahead Of GPT-6 Luna OfficeChai"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSDFMcTkwUFNQUnpSaFBjVWNuM0QtdXFTdDVseXU2bERaQUJLOUowaS1pYWJhcXB2S05HaEJlQVdSS3I5Ql9BR243MnFVanVKWXoxVkhoVkw2MW1xT3JvOExFT3VlUGIwMEw3SWtmWmdZTnNQZmdWOGI3UEdqWnNsVzV3WVkyWVNwbENPZXFHWkVkOEJGbElHMkdmeVhpZnJWTElvLVM1RTNJUWl0WDNvUFZGalZ1SmVvTElUeVpvdFUwTUJ1a3k0?oc=5",
+          "published_at": "2026-10-07T19:43:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switch? - TechRadar",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-07T19:20:00+00:00",
+      "summary": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switch? TechRadar",
+      "claims": [
+        "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switch? TechRadar"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUVIwQzljRERIZDhxSGVxdzNNQ2p3ckxhalpLdWFaRndwakZQclhmekhUNTJ0cll2ajNtR1NDT0NmenoyTDBkY0t6MWVTbG9ydzR4VmRKeWtZc0JybHhZSzRmd01XWVpGbzMyWHRUc1loZUp5czhpM1pGNUpDUEthUnNpeVdLRzc2MzRqTGF4al9MV2NIVlI0VkgwV1lNc1BuTnJHNlhKX0lra3J4VUxPQzNPa2hOT0x6UHZ3SUQzU1NTUDJWcmx1T1dVVzRoY09WaVNCYXYwRjV2NFo0YVphTlRvSQ?oc=5",
+          "published_at": "2026-10-07T19:20:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - The Economic Times",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-07T19:03:00+00:00",
+      "summary": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO The Economic Times",
+      "claims": [
+        "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO The Economic Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNcmxrWVV4WnI1dlEwTWxZZzZyQlF0N3ZPUlFiaUptWS1ha2lpV0l2dXZLQ1VZS0tjeW9pYXRPZjRteFIzZktadldOejUzOXo1MHExWF81NG5rS1NqR25pVVJScUNpV0U5MU4yMk1zN1YwVG9hQ1d5RFp6U1R0RjM0NW9udFRCbGZqMzZ2OEJWS2Y1VzdLZ2pfWFo5WUVtMHBUTEtMWmxSTzhMaXNWaHZacS1mR1pTekYwSkMwTFhjbE1zS0ZDU3ZWWWFBdWljNFVvSVJjSVkwSWdNdGYweU54aWZkOXk0SGNVOC12T0hoNURQSjRKSVRuTFRqSdIB-wFBVV95cUxNcmxrWVV4WnI1dlEwTWxZZzZyQlF0N3ZPUlFiaUptWS1ha2lpV0l2dXZLQ1VZS0tjeW9pYXRPZjRteFIzZktadldOejUzOXo1MHExWF81NG5rS1NqR25pVVJScUNpV0U5MU4yMk1zN1YwVG9hQ1d5RFp6U1R0RjM0NW9udFRCbGZqMzZ2OEJWS2Y1VzdLZ2pfWFo5WUVtMHBUTEtMWmxSTzhMaXNWaHZacS1mR1pTekYwSkMwTFhjbE1zS0ZDU3ZWWWFBdWljNFVvSVJjSVkwSWdNdGYweU54aWZkOXk0SGNVOC12T0hoNURQSjRKSVRuTFRqSQ?oc=5",
+          "published_at": "2026-10-07T19:03:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Ferrari Bahrain GP race pace: Lewis Hamilton closes to 0.10s of Kimi Antonelli at Sepang - Scuderia Ferrari Fans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-07T18:32:27+00:00",
+      "summary": "Ferrari Bahrain GP race pace: Lewis Hamilton closes to 0.10s of Kimi Antonelli at Sepang Scuderia Ferrari Fans",
+      "claims": [
+        "Ferrari Bahrain GP race pace: Lewis Hamilton closes to 0.10s of Kimi Antonelli at Sepang Scuderia Ferrari Fans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ3g4YzcxXzJxSTNFaVZYenVTeENsaXIwUzBPNThtYndxc1laUFkzZG1iRVRidlVLTjg5ZWhiNXh5SWE5SFZtTzZ5bDdYN1I5NWFWel93TVZUMWIzT3M1ZWEzTnUxQ0I1VEk5b01vYm5NTTFuUUpNdGV4OGtSZ0hBT1RQMWw4eUJLTFF3WGgtNkFUVEhyWDlNNjNWZ3pmdVpnNVZXT3RObnJsSWZVYVVBVkxMbw?oc=5",
+          "published_at": "2026-10-07T18:32:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli closes in on historic F1 title - SportyTV",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-07T18:18:00+00:00",
+      "summary": "Kimi Antonelli closes in on historic F1 title SportyTV",
+      "claims": [
+        "Kimi Antonelli closes in on historic F1 title SportyTV"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTGYxUlctbEVBdW5DckMtSnI0cDI4MHI5MGpVOUxtUmw2UE5fVlBtbjBlMHZzNmMzVnJBNndHa3pTdXY3NzhDMG94UzkxRERMVm1EMlVPd1RGMTI5NGJrTUJCa2xBYzhCNlpwMld5M21jRlkxU2ZxVmVjb21rQTZza0d6eFcxUmw4WUdXcU9VVkJyX2xGVTR1TjRUU3VZV1hlQ1lR?oc=5",
+          "published_at": "2026-10-07T18:18:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
