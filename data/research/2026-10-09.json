@@ -1,0 +1,939 @@
+{
+  "report_date": "2026-10-09",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-08T23:48:21.685704+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5521, column 162"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "no element found: line 5751, column 397"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 170
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 50
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 55
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 293,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-08T22:44:01+00:00",
+      "summary": "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training...",
+      "claims": [
+        "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
+          "published_at": "2026-10-08T22:44:01+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-08T20:57:59+00:00",
+      "summary": "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision...",
+      "claims": [
+        "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
+          "published_at": "2026-10-08T20:57:59+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-08T18:30:07+00:00",
+      "summary": "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
+      "claims": [
+        "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+          "published_at": "2026-10-08T18:30:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-08T16:00:00+00:00",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "claims": [
+        "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/oracle",
+          "published_at": "2026-10-08T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-08T14:51:05+00:00",
+      "summary": "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the...",
+      "claims": [
+        "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+          "published_at": "2026-10-08T14:51:05+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "claims": [
+        "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/pollo-ai",
+          "published_at": "2026-10-08T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "claims": [
+        "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/legalon-halves-codex-costs",
+          "published_at": "2026-10-08T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Disrupting AI-enabled “false front” operations",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "claims": [
+        "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+          "published_at": "2026-10-08T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "A Review Of Robotic World Models For Dynamic Environments Based On Factor And Scene Graphs",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08800v1 Announce Type: new Abstract: Models based on graphs have emerged in robotics as a powerful foundation for internal world representations, where factor and scene graphs are among the most prominent model types found in the related literature and in successful robotic solutions. Initially, many of these models were assuming static environments as a simplification. Herein, factor graphs mainly provide uncertainty-aware geometric estimations while scene graphs enable a structured semantic abstraction. However, real-world robotic environments are often dynamic, posing severe challenges for purely static world representations. Therefore, this review presents a comprehensive view on how dynamic aspects of real-world environments can be addressed in such graph-based world models. We organize our assessments around three main aspects: (I) suitable representations, (II) pipelines to construct and update the representations, and (III) their exploitation for downstream tasks. We review approaches that are either based on factor or scene graphs, but put special emphasis on novel approaches that combine both types to form hybrid models. We mainly analyze how different types of dynamics can be modeled herein, and categorize common architectural patterns. Finally, emerging trends and open challenges are identified, including uncertainty propagation from learned perception th",
+      "claims": [
+        "arXiv:2610.08800v1 Announce Type: new Abstract: Models based on graphs have emerged in robotics as a powerful foundation for internal world representations, where factor and scene graphs are among the most prominent model types found in the related literature and in successful robotic solutions. Initially, many of these models were assuming static environments as a simplification. Herein, factor graphs mainly provide uncertainty-aware geometric estimations while scene graphs enable a structured semantic abstraction. However, real-world robotic environments are often dynamic, posing severe challenges for purely static world representations. Therefore, this review presents a comprehensive view on how dynamic aspects of real-world environments can be addressed in such graph-based world models. We organize our assessments around three main aspects: (I) suitable representations, (II) pipelines to construct and update the representations, and (III) their exploitation for downstream tasks. We review approaches that are either based on factor or scene graphs, but put special emphasis on novel approaches that combine both types to form hybrid models. We mainly analyze how different types of dynamics can be modeled herein, and categorize common architectural patterns. Finally, emerging trends and open challenges are identified, including uncertainty propagation from learned perception th"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08800",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "SAFE: Unified Slip and Fracture Detection with Low-Cost Acoustic Sensing in Robotic Grasping",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08802v1 Announce Type: new Abstract: Manipulating fragile objects remains challenging as robots must understand the state of what they grasp, such as slip or fracture, to respond appropriately, especially when material properties are unknown. In this paper, we present SAFE: a low-cost, general-purpose sensing approach that detects both slip and fracture in real time using two passive polyvinylidene fluoride (PVDF) acoustic sensors and motor proprioception, without relying on vision or prior material knowledge. The sensors are mounted on a compliant Fin Ray gripper, and a unified HistGradientBoosting classifier reports the state (normal, slip, or fracture) from a 79-dimensional feature vector. Under leave-one-grasp-out cross-validation, SAFE achieves an Alert-F1 of 0.884 with near-zero slip-fracture confusion, and ablations confirm that acoustic sensing is indispensable. An adaptive grasp controller built on this detection layer runs at 104 Hz on a Jetson Orin Nano, achieving 91.3% success across 46 closed-loop robot trials spanning diverse object categories, while each fixed-force strategy drops to 0% on object conditions that mismatch its preset. It further reaches 82.4% success on novel objects unseen during training, demonstrating robust, failure-aware grasp control without object-specific calibration.",
+      "claims": [
+        "arXiv:2610.08802v1 Announce Type: new Abstract: Manipulating fragile objects remains challenging as robots must understand the state of what they grasp, such as slip or fracture, to respond appropriately, especially when material properties are unknown. In this paper, we present SAFE: a low-cost, general-purpose sensing approach that detects both slip and fracture in real time using two passive polyvinylidene fluoride (PVDF) acoustic sensors and motor proprioception, without relying on vision or prior material knowledge. The sensors are mounted on a compliant Fin Ray gripper, and a unified HistGradientBoosting classifier reports the state (normal, slip, or fracture) from a 79-dimensional feature vector. Under leave-one-grasp-out cross-validation, SAFE achieves an Alert-F1 of 0.884 with near-zero slip-fracture confusion, and ablations confirm that acoustic sensing is indispensable. An adaptive grasp controller built on this detection layer runs at 104 Hz on a Jetson Orin Nano, achieving 91.3% success across 46 closed-loop robot trials spanning diverse object categories, while each fixed-force strategy drops to 0% on object conditions that mismatch its preset. It further reaches 82.4% success on novel objects unseen during training, demonstrating robust, failure-aware grasp control without object-specific calibration."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08802",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Context-Aware Adaptive Pesticide Spraying for Agricultural Robots under Changing Weather and Terrain Using Vision-Language Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08807v1 Announce Type: new Abstract: Precision pesticide spraying is essential for optimizing application efficiency and ensuring uniform chemical distribution. Spraying performance is influenced by multiple factors, including environmental conditions such as temperature and wind speed, pesticide type, and the robot's capability to accurately perceive crops and target spray locations. Existing approaches predominantly emphasize crop detection and rely on predefined spraying parameters, whereas human operators dynamically adjust their spraying strategies by considering environmental conditions, region-specific crop characteristics, and the type of pesticide being applied. In this study, we propose a context-aware adaptive spraying framework based on Vision-Language Models (VLMs), which enables robots to leverage spatial reasoning and integrate information from multiple sources, including crop type, pesticide type, and weather data, to make adaptive and optimized spraying decisions. Subsequently, a trajectory-tracking controller based on Model Predictive Path Integral (MPPI) control is employed to ensure precise navigation and accurate spraying at crop locations. The comparative results demonstrate that the proposed method improves accuracy by at least 30% in detecting crop rows. In addition, the experimental evaluations conducted in two environments further demonstrat",
+      "claims": [
+        "arXiv:2610.08807v1 Announce Type: new Abstract: Precision pesticide spraying is essential for optimizing application efficiency and ensuring uniform chemical distribution. Spraying performance is influenced by multiple factors, including environmental conditions such as temperature and wind speed, pesticide type, and the robot's capability to accurately perceive crops and target spray locations. Existing approaches predominantly emphasize crop detection and rely on predefined spraying parameters, whereas human operators dynamically adjust their spraying strategies by considering environmental conditions, region-specific crop characteristics, and the type of pesticide being applied. In this study, we propose a context-aware adaptive spraying framework based on Vision-Language Models (VLMs), which enables robots to leverage spatial reasoning and integrate information from multiple sources, including crop type, pesticide type, and weather data, to make adaptive and optimized spraying decisions. Subsequently, a trajectory-tracking controller based on Model Predictive Path Integral (MPPI) control is employed to ensure precise navigation and accurate spraying at crop locations. The comparative results demonstrate that the proposed method improves accuracy by at least 30% in detecting crop rows. In addition, the experimental evaluations conducted in two environments further demonstrat"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08807",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Taming an End-to-End Autonomous Driving Policy for Urban Navigation of Quadruped Robots",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08812v1 Announce Type: new Abstract: We present Go2-DrivoR, a goal-conditioned adaptation of the end-to-end autonomous driving trajectory planning framework DrivoR for urban navigation with quadrupedal robots. By conditioning trajectory generation on a local-frame subgoal through a goal token and adapting the vehicle-centric scoring formulation, the method extends DrivoR to short-horizon goal-conditioned local planning without redesigning its core decoders. Specifically, we redefine drivable-area compliance for sidewalk-oriented navigation and reformulate the original ego progress term as goal-conditioned ego progress. Trained exclusively on TartanGround simulation data, Go2-DrivoR improves waypoint-conditioned planning performance on unseen simulation environments and transfers zero-shot to open-loop real-world trajectory prediction.",
+      "claims": [
+        "arXiv:2610.08812v1 Announce Type: new Abstract: We present Go2-DrivoR, a goal-conditioned adaptation of the end-to-end autonomous driving trajectory planning framework DrivoR for urban navigation with quadrupedal robots. By conditioning trajectory generation on a local-frame subgoal through a goal token and adapting the vehicle-centric scoring formulation, the method extends DrivoR to short-horizon goal-conditioned local planning without redesigning its core decoders. Specifically, we redefine drivable-area compliance for sidewalk-oriented navigation and reformulate the original ego progress term as goal-conditioned ego progress. Trained exclusively on TartanGround simulation data, Go2-DrivoR improves waypoint-conditioned planning performance on unseen simulation environments and transfers zero-shot to open-loop real-world trajectory prediction."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08812",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Autonomous Droplet Navigation via Model-Based Reinforcement Learning: Zero-Shot Transfer and Emergent Dynamics",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08852v1 Announce Type: new Abstract: Self-driving laboratories (SDLs) are transforming chemical and materials discovery through closed-loop automation, yet automated infrastructure for physical manipulation of soft, deformable matter remains beyond current robotic platforms. A critical instance is autonomous droplet transport on an open surface, where contact-angle hysteresis, capillary pinning, and surface heterogeneity produce partially observable dynamics that pose significant challenges for classical model-based controllers. We introduce the first robotic platform for closed-loop autonomous liquid droplet navigation on an open, unconfined surface using model-based reinforcement learning. A two-axis tilting board coated with a thin silicone oil film drives the droplet, while an overhead camera provides real-time feedback. A learned policy was trained on just 50 to 150 physical episodes depending on geometric complexity, without simulation or analytical models. Beyond performance alone, the platform demonstrates three capabilities of interest to the SDL community: it robustly transfers zero-shot to unseen geometries; it autonomously discovers an oscillatory depinning strategy to free the droplet when it sticks; and it completes its full training pipeline in under 90 minutes. These results extend reinforcement-learning manipulation from rigid microrobots to deformab",
+      "claims": [
+        "arXiv:2610.08852v1 Announce Type: new Abstract: Self-driving laboratories (SDLs) are transforming chemical and materials discovery through closed-loop automation, yet automated infrastructure for physical manipulation of soft, deformable matter remains beyond current robotic platforms. A critical instance is autonomous droplet transport on an open surface, where contact-angle hysteresis, capillary pinning, and surface heterogeneity produce partially observable dynamics that pose significant challenges for classical model-based controllers. We introduce the first robotic platform for closed-loop autonomous liquid droplet navigation on an open, unconfined surface using model-based reinforcement learning. A two-axis tilting board coated with a thin silicone oil film drives the droplet, while an overhead camera provides real-time feedback. A learned policy was trained on just 50 to 150 physical episodes depending on geometric complexity, without simulation or analytical models. Beyond performance alone, the platform demonstrates three capabilities of interest to the SDL community: it robustly transfers zero-shot to unseen geometries; it autonomously discovers an oscillatory depinning strategy to free the droplet when it sticks; and it completes its full training pipeline in under 90 minutes. These results extend reinforcement-learning manipulation from rigid microrobots to deformab"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08852",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08862v1 Announce Type: new Abstract: Household robots must accommodate new user instructions while executing ongoing tasks. Existing agents often regenerate or extensively revise the remaining task sequence, introducing plan ambiguity, logical inconsistency, and redundant execution. We formulate continual instruction reconciliation and propose CIRRA (Continual Instruction Reconciliation for Robot Agents), a dual-level framework combining LLM-based semantic reasoning with rule-constrained structural integration. CIRRA first grounds incoming instructions to unique executable skills and resolves underspecified actions and execution locations. It then preserves the ongoing subtask sequence as an execution backbone and generates integration candidates by inserting incoming subtasks into location-matched segments. The semantic reasoner evaluates only modified segments to identify dependencies and conflicts and select the most logically coherent local integration. This structure-preserving process maintains alignment with ongoing execution, mitigates ambiguity and inconsistency, and reuses shared subtasks to reduce redundant execution. We also introduce CHIRP (Continual Household Instruction Reconciliation and Planning), a text-based benchmark of 120 episodes across eight household environments and six categories of everyday activities. On CHIRP, CIRRA achieves 74.2% decisi",
+      "claims": [
+        "arXiv:2610.08862v1 Announce Type: new Abstract: Household robots must accommodate new user instructions while executing ongoing tasks. Existing agents often regenerate or extensively revise the remaining task sequence, introducing plan ambiguity, logical inconsistency, and redundant execution. We formulate continual instruction reconciliation and propose CIRRA (Continual Instruction Reconciliation for Robot Agents), a dual-level framework combining LLM-based semantic reasoning with rule-constrained structural integration. CIRRA first grounds incoming instructions to unique executable skills and resolves underspecified actions and execution locations. It then preserves the ongoing subtask sequence as an execution backbone and generates integration candidates by inserting incoming subtasks into location-matched segments. The semantic reasoner evaluates only modified segments to identify dependencies and conflicts and select the most logically coherent local integration. This structure-preserving process maintains alignment with ongoing execution, mitigates ambiguity and inconsistency, and reuses shared subtasks to reduce redundant execution. We also introduce CHIRP (Continual Household Instruction Reconciliation and Planning), a text-based benchmark of 120 episodes across eight household environments and six categories of everyday activities. On CHIRP, CIRRA achieves 74.2% decisi"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08862",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Trajectory Planning without Trajectory Data: A Manifold-Guided Approach",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08863v1 Announce Type: new Abstract: A common way for trajectory planning is to leverage generative models trained on large collections of expert trajectories. At inference time, the model generates executable trajectories by conditioning on task goal constraints. However, trajectory-based methods rely on costly supervision, scale poorly with sequence length, and often generalize poorly to unseen constraints such as novel start-goal pairs. We propose an alternative to learn the underlying state-space manifold and use the geometry of the manifold for trajectory planning. This approach requires only state observations and enables generalization to unseen constraints by con- structing trajectories on the learned manifold of the state space. Experiments on Maze2D and robotic motion-planning benchmarks show that Ariadne constructs feasible paths from state-only supervision and generalizes to unseen start-goal combinations. On high-dimensional dual-arm planning, it remains competitive with trajectory-supervised and classical planners, while requiring no trajectory data for training.",
+      "claims": [
+        "arXiv:2610.08863v1 Announce Type: new Abstract: A common way for trajectory planning is to leverage generative models trained on large collections of expert trajectories. At inference time, the model generates executable trajectories by conditioning on task goal constraints. However, trajectory-based methods rely on costly supervision, scale poorly with sequence length, and often generalize poorly to unseen constraints such as novel start-goal pairs. We propose an alternative to learn the underlying state-space manifold and use the geometry of the manifold for trajectory planning. This approach requires only state observations and enables generalization to unseen constraints by con- structing trajectories on the learned manifold of the state space. Experiments on Maze2D and robotic motion-planning benchmarks show that Ariadne constructs feasible paths from state-only supervision and generalizes to unseen start-goal combinations. On high-dimensional dual-arm planning, it remains competitive with trajectory-supervised and classical planners, while requiring no trajectory data for training."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08863",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "From Wearable Interfaces to Dexterous Policies: Contact Shifts and Tactile Representations",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-08T04:00:00+00:00",
+      "summary": "arXiv:2610.08870v1 Announce Type: new Abstract: Unlike conventional teleoperation, wearable interfaces allow operators to collect dexterous demonstrations through their own hand motions while directly interacting with task objects. This direct interaction reduces dependence on the target robot during collection, but it also makes the collection hardware part of the physical process that generates each demonstration. Interface geometry can influence both how a task is performed and what tactile observations are recorded for learning. We study two versions of a DexUMI-family exoskeleton that share the same robot command definition, mapping procedure, and tactile module type but differ in hand-side geometry. The revised interface reduces reported physical demand, improves selected device ratings, enables tactile access in a precision grasp that is mechanically blocked by the baseline, and produces task-dependent changes in recorded contact. Lid twisting primarily exhibits a change in contact location, whereas egg carton opening primarily exhibits a change in contact occurrence. We then train matched policies using either a binary aggregate input or a spatial-plus-force input. On lid twisting and egg carton opening, policies trained on revised-interface demonstrations achieve higher success than those trained on baseline demonstrations, with a significant pooled interface effect. A",
+      "claims": [
+        "arXiv:2610.08870v1 Announce Type: new Abstract: Unlike conventional teleoperation, wearable interfaces allow operators to collect dexterous demonstrations through their own hand motions while directly interacting with task objects. This direct interaction reduces dependence on the target robot during collection, but it also makes the collection hardware part of the physical process that generates each demonstration. Interface geometry can influence both how a task is performed and what tactile observations are recorded for learning. We study two versions of a DexUMI-family exoskeleton that share the same robot command definition, mapping procedure, and tactile module type but differ in hand-side geometry. The revised interface reduces reported physical demand, improves selected device ratings, enables tactile access in a precision grasp that is mechanically blocked by the baseline, and produces task-dependent changes in recorded contact. Lid twisting primarily exhibits a change in contact location, whereas egg carton opening primarily exhibits a change in contact occurrence. We then train matched policies using either a binary aggregate input or a spatial-plus-force input. On lid twisting and egg carton opening, policies trained on revised-interface demonstrations achieve higher success than those trained on baseline demonstrations, with a significant pooled interface effect. A"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.08870",
+          "published_at": "2026-10-08T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek Nears $12 Bn Funding As Investor Demand Surges - BW Businessworld",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T22:55:50+00:00",
+      "summary": "DeepSeek Nears $12 Bn Funding As Investor Demand Surges BW Businessworld",
+      "claims": [
+        "DeepSeek Nears $12 Bn Funding As Investor Demand Surges BW Businessworld"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdGRPRDFCYVl4clRTaXYwQW82SXBwUGJ0ejhaZTJZNjNlTUJpVWM3cms1VGNtZjlVbE53bEVSZ0pnRVNpR1dCZUVaVjhoV0t6eEtVWEtkS2NHaUdCSWlIczFDaGk3TUVxMXFuTmM5RHNJS2IyLTF2R0RxOFlXYW5RSWtQLS1LWW9wWFA1d2tXSG5CZGx5NVVmRUN0d19KeUU?oc=5",
+          "published_at": "2026-10-08T22:55:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli details ‘incredible’ Max Verstappen trait after Baku comeback - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T20:23:15+00:00",
+      "summary": "Kimi Antonelli details ‘incredible’ Max Verstappen trait after Baku comeback Motorsport Week",
+      "claims": [
+        "Kimi Antonelli details ‘incredible’ Max Verstappen trait after Baku comeback Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcXJHRXR0LXlReEhYaFk5dndXenc3ZERuTms4WDVrRlpjV3czdnRKa0liczhnVVk1RUgwdjJpWTRmdlFhWXpDbWJfZFBib1piWHc3RGxaYnVEdndOckRVOEVES3RsWm05WmlCYmpQck1vV3Nzbi10V2QxXzdNUFc2QWg0YmlJazRmQzBJ?oc=5",
+          "published_at": "2026-10-08T20:23:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli eyes aggressive undercut attack in F1 Malaysia - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T18:41:18+00:00",
+      "summary": "Kimi Antonelli eyes aggressive undercut attack in F1 Malaysia Motorsport.com",
+      "claims": [
+        "Kimi Antonelli eyes aggressive undercut attack in F1 Malaysia Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLUxSamtDTTBXZF9qNjY3N0M3bGgyNHZlSWo5LVFfMEhfekdybE8wQUZKZ1FSS29jM241Ym1QQVQ0cERMQTk0Z0xjY2R4NDZOdEZkWGt5WEowN015elZpWEFzcXN0Tk9wWGVCT1NpRGFxYXUtUnZsMjFRY1dEdWVYY29KWEduT2VuUW1FSlVCWnh3T3UwbnluYUR3OEl0dG1MMEZOeVpKV0JFZw?oc=5",
+          "published_at": "2026-10-08T18:41:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "SpaceX, DeepSeek And Anthropic Top Week's Deal Rumors - Law360",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T18:26:00+00:00",
+      "summary": "SpaceX, DeepSeek And Anthropic Top Week's Deal Rumors Law360",
+      "claims": [
+        "SpaceX, DeepSeek And Anthropic Top Week's Deal Rumors Law360"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2c2pwdUZEOWtFeVhZT2lMNnBnZnZ0c1VMVVZRcTlwRVh2YlEtenB3R3E0dUtpNE94OWZFaUVMd0I4eENpU09tZkVxellfeUJHTkVPcTNB0gFWQVVfeXFMUHZzanB1RkQ5a0V5WFlPaUw2cGdmdnRzVUxVVlFxOXBFWHZiUS16cHdHcTR1S2k0T3g5ZkVpRUx3Qjh4Q2lTT21mRXF6WV95QkdORU9xM0E?oc=5",
+          "published_at": "2026-10-08T18:26:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Lifetime access to GPT, DeepSeek, Gemini, and more is only $60 today ($619 value) - 9to5Toys",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T18:15:00+00:00",
+      "summary": "Lifetime access to GPT, DeepSeek, Gemini, and more is only $60 today ($619 value) 9to5Toys",
+      "claims": [
+        "Lifetime access to GPT, DeepSeek, Gemini, and more is only $60 today ($619 value) 9to5Toys"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd21FUXZSYXQzX1ExYVRXRDZBeVhnVWpMeS1fejVnLVA3VXFZc2ZJT3RIVDVoRFdseXFsR0xaMUZ2NUt6LWZ1QkxuZURPNjg5TlJQWWVOazUwU1hzZmFYeG45b0xicUJJUXpUUjZ5VDJMM1d0b05rSXR6eWlQXzNQZHZhSHRmRTlxU2taNktTWUdaSjRjV0QwXzVHMmR3OWEtZ2prS182ejJpZUE?oc=5",
+          "published_at": "2026-10-08T18:15:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Mercedes' Singapore 'science test' for Kimi Antonelli and George Russell slammed - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T17:00:00+00:00",
+      "summary": "Mercedes' Singapore 'science test' for Kimi Antonelli and George Russell slammed F1 Oversteer",
+      "claims": [
+        "Mercedes' Singapore 'science test' for Kimi Antonelli and George Russell slammed F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLXdCVUo5VHRFeUhPN0VqOHhwQlhwdzk0WHJHZmlkU0FHWjZhM1VxR0lhTUI4RW9hbWdDOXRZVWk5c3VKczJYNEgyS29VcDBveG5sNzZ5NFczUVZnM3lSemJ4dlV4dWZVOURmNzhrLVYyTGNzaHVnamxNZFZ6TGtQUmhBQWdOZF9HV0ZSUkNNeERoc1pnQ183SHg3dHRIWi1kMnV5dmZIQ05Pb3RKUTNpUmNoa2tDbG5rTndtZTM0SC1Fc1NBakZqamlhdw?oc=5",
+          "published_at": "2026-10-08T17:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Did Claude Haiku 5.5 Just DESTROY GPT-6.1 Luna & DeepSeek V4.1 Flash? (The 90% Price Cut Shockwave) - YouTube",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T16:45:09+00:00",
+      "summary": "Did Claude Haiku 5.5 Just DESTROY GPT-6.1 Luna & DeepSeek V4.1 Flash? (The 90% Price Cut Shockwave) YouTube",
+      "claims": [
+        "Did Claude Haiku 5.5 Just DESTROY GPT-6.1 Luna & DeepSeek V4.1 Flash? (The 90% Price Cut Shockwave) YouTube"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEMlhKaExnOVU0QzE5cmwwVkdhYldfUThLWFdGck9DOEhVVHRDa0I0UjR3NzFVaEJhZmQ4S2Z5c09kRHB2RjJlUHAyZktVa1ptdVZiNVdCR3dZR1Vf?oc=5",
+          "published_at": "2026-10-08T16:45:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Goodfire Deploys Probe-Based Cyber Monitors for Kimi K3 and GLM 5.3 - Unite.AI",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-08T16:28:04+00:00",
+      "summary": "Goodfire Deploys Probe-Based Cyber Monitors for Kimi K3 and GLM 5.3 Unite.AI",
+      "claims": [
+        "Goodfire Deploys Probe-Based Cyber Monitors for Kimi K3 and GLM 5.3 Unite.AI"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSF90Wmx4V3JXeTF2cTQ0c1ZVMzRWRGRfN1JQbFM3YWZ3YUFZV2REVmJZSGZYYlN3Wm0xLUszRHg4dEZrY3NLYUNlUjBLNFlTb0FwcmpDSWZiVHlDdURNbjMxckxqbHV6VmEzZW1hSzRWYUpSTWlId1hvaC1YRHVOc1QtTjZxTWNzdXVvbEtmOVhRSjQ?oc=5",
+          "published_at": "2026-10-08T16:28:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
