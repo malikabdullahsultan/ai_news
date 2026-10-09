@@ -1,0 +1,949 @@
+{
+  "report_date": "2026-10-10",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-09T23:21:15.027287+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "unclosed token: line 5459, column 1664"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "no element found: line 5658, column 37"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 154
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 50
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 67
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 281,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Impactful scheduling for GPU clusters",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-09T15:20:29+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+          "published_at": "2026-10-09T15:20:29+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-09T07:00:00+00:00",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "claims": [
+        "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/sophos",
+          "published_at": "2026-10-09T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-09T07:00:00+00:00",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "claims": [
+        "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/asana-browser-agent",
+          "published_at": "2026-10-09T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-09T00:09:07+00:00",
+      "summary": "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training...",
+      "claims": [
+        "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
+          "published_at": "2026-10-09T00:09:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-08T20:57:59+00:00",
+      "summary": "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision...",
+      "claims": [
+        "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
+          "published_at": "2026-10-08T20:57:59+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-08T18:30:07+00:00",
+      "summary": "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
+      "claims": [
+        "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+          "published_at": "2026-10-08T18:30:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-08T16:00:00+00:00",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "claims": [
+        "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/oracle",
+          "published_at": "2026-10-08T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-08T14:51:05+00:00",
+      "summary": "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the...",
+      "claims": [
+        "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+          "published_at": "2026-10-08T14:51:05+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Does Dynamic-Point Filtering Help When Texture Is Scarce? A Controlled Study of ORB-SLAM2 Front-Ends in Synthetic Indoor Scenes",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10564v1 Announce Type: new Abstract: Dynamic-point filters are routinely added to feature-based visual SLAM, and several recent systems argue that removing dynamic features can leave too few static features in low-texture regions. So far, these systems have been evaluated only on texture-rich benchmark sequences. We present a controlled study that isolates this interaction. We render synthetic indoor sequences in which surface texture (four levels, quantified by FAST-corner density and image-gradient entropy) and scene dynamics (three levels) are varied factorially along identical camera trajectories, with stereo, RGB-D, ground-truth poses and dynamic masks. On this grid we compare ORB-SLAM2 without filtering, with an optical-flow and epipolar-residual filter (FLOW), and with a multi-view depth-consistency filter (GEOM), and report trajectory error, tracking completeness and surviving static features over five runs. Because the masks give per-keypoint ground truth, we also measure each filter's dynamic-point precision and recall and its static-feature false-removal rate, so that mechanistic explanations can be tested directly. We do not propose a new filter. On 720 runs over 24 sequences, filtering helped mainly in the most dynamic cells; the benefit did not decline monotonically with texture, but at the lowest level filtering reduced tracking completeness, and ORB-S",
+      "claims": [
+        "arXiv:2610.10564v1 Announce Type: new Abstract: Dynamic-point filters are routinely added to feature-based visual SLAM, and several recent systems argue that removing dynamic features can leave too few static features in low-texture regions. So far, these systems have been evaluated only on texture-rich benchmark sequences. We present a controlled study that isolates this interaction. We render synthetic indoor sequences in which surface texture (four levels, quantified by FAST-corner density and image-gradient entropy) and scene dynamics (three levels) are varied factorially along identical camera trajectories, with stereo, RGB-D, ground-truth poses and dynamic masks. On this grid we compare ORB-SLAM2 without filtering, with an optical-flow and epipolar-residual filter (FLOW), and with a multi-view depth-consistency filter (GEOM), and report trajectory error, tracking completeness and surviving static features over five runs. Because the masks give per-keypoint ground truth, we also measure each filter's dynamic-point precision and recall and its static-feature false-removal rate, so that mechanistic explanations can be tested directly. We do not propose a new filter. On 720 runs over 24 sequences, filtering helped mainly in the most dynamic cells; the benefit did not decline monotonically with texture, but at the lowest level filtering reduced tracking completeness, and ORB-S"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10564",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Teaching a Robot Dog New Tricks: Diverse Quadruped Skills via Combined Reinforcement and Imitation Learning with Adversarial Task Selection",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10601v1 Announce Type: new Abstract: Reinforcement Learning (RL) has enabled legged robots to perform a range of skills in single-task settings. However, applications such as farm robotics or space exploration require diverse skills such as locomotion, digging, or close-range surveying. Training an end-to-end policy to address this problem remains difficult due to challenges such as sample inefficiency and gradient conflict between tasks in multi-task learning. We propose a three-stage method that trains a single policy to perform distinct tasks such as walking, digging, and hopping, and compose them into novel behaviors such as crawling. First, multiple teacher policies are trained using RL on narrowly defined tasks. Then, two additional stages train a student policy with a multi-teacher distillation setup that uses a combined RL and Imitation Learning (IL) objective under an adversarial task selection process that focuses training on the worst-performing task. With this method, we train a student policy that performs 22 tasks using 8 teachers. Evaluations show our method preserves motion quality and tracks commands more accurately than PPO and distill-then-finetune baselines, and in some cases generalizes to new tasks without explicit training. Finally, we demonstrate real-world robustness by deploying the resulting policy on a Unitree B1 quadruped. Video: https://",
+      "claims": [
+        "arXiv:2610.10601v1 Announce Type: new Abstract: Reinforcement Learning (RL) has enabled legged robots to perform a range of skills in single-task settings. However, applications such as farm robotics or space exploration require diverse skills such as locomotion, digging, or close-range surveying. Training an end-to-end policy to address this problem remains difficult due to challenges such as sample inefficiency and gradient conflict between tasks in multi-task learning. We propose a three-stage method that trains a single policy to perform distinct tasks such as walking, digging, and hopping, and compose them into novel behaviors such as crawling. First, multiple teacher policies are trained using RL on narrowly defined tasks. Then, two additional stages train a student policy with a multi-teacher distillation setup that uses a combined RL and Imitation Learning (IL) objective under an adversarial task selection process that focuses training on the worst-performing task. With this method, we train a student policy that performs 22 tasks using 8 teachers. Evaluations show our method preserves motion quality and tracks commands more accurately than PPO and distill-then-finetune baselines, and in some cases generalizes to new tasks without explicit training. Finally, we demonstrate real-world robustness by deploying the resulting policy on a Unitree B1 quadruped. Video: https://"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10601",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "TacHair: Tactile Contact-Distribution Guided Online Correction for Robotic Hair Stroking and Perception",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10637v1 Announce Type: new Abstract: Hair stroking is common in daily grooming and personal care, and is also widely used in hair-product evaluation, motivating robots with similar physical interaction capabilities. Existing robotic hair-care and surface-following methods mainly rely on trajectory planning, compliance, force regulation, or tactile-conditioned policies, but deformable hair can remain in contact while gradually drifting across the end-effector, making local interaction difficult to regulate. We propose TacHair, a tactile contact-distribution guided online correction framework that represents high-resolution tactile observations as a spatial hair-contact distribution. A visuotactile imitation policy generates the nominal stroking motion, while a separately trained residual module corrects local contact deviations, separating task progression from contact recovery. We evaluate TacHair in 525 real-robot trials across five head geometries and three hair conditions. A successful stroke requires both sufficient task progression and contact maintenance; our method improves success from 42.9% to 62.3% and contact maintenance from 59.4% to 88.0% over the same visuotactile policy without correction. These results demonstrate spatial tactile contact distributions as an effective feedback representation for contact-preserving interaction with deformable and visual",
+      "claims": [
+        "arXiv:2610.10637v1 Announce Type: new Abstract: Hair stroking is common in daily grooming and personal care, and is also widely used in hair-product evaluation, motivating robots with similar physical interaction capabilities. Existing robotic hair-care and surface-following methods mainly rely on trajectory planning, compliance, force regulation, or tactile-conditioned policies, but deformable hair can remain in contact while gradually drifting across the end-effector, making local interaction difficult to regulate. We propose TacHair, a tactile contact-distribution guided online correction framework that represents high-resolution tactile observations as a spatial hair-contact distribution. A visuotactile imitation policy generates the nominal stroking motion, while a separately trained residual module corrects local contact deviations, separating task progression from contact recovery. We evaluate TacHair in 525 real-robot trials across five head geometries and three hair conditions. A successful stroke requires both sufficient task progression and contact maintenance; our method improves success from 42.9% to 62.3% and contact maintenance from 59.4% to 88.0% over the same visuotactile policy without correction. These results demonstrate spatial tactile contact distributions as an effective feedback representation for contact-preserving interaction with deformable and visual"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10637",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Masked Generative Motion Planning with Geometry-Guided Token Search",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10646v1 Announce Type: new Abstract: Generative motion planners typically use learned trajectory priors for initial generation, while leaving test-time repair to local continuous refinement. We introduce Masked Generative Motion Planning (MGMP), which extends the learned prior from efficient parallel generation to structural repair. A masked generative transformer generates discrete trajectory candidates in parallel, and Geometry-Guided Token Search (GGTS) uses scene geometry to target where to edit and which prior-supported alternatives to evaluate. This turns refinement into an efficient search over discrete motion alternatives, enabling route-level restructuring beyond local trajectory deformation. MGMP achieves 96% success on Ring Maze and 82% repair success on Controlled Route Invalidation on Kuka, exceeding the strongest external baselines by 23 and 25 percentage points, respectively. It further generalizes to unseen layouts, additional obstacles, unseen geometries, single- and dual-arm planning, and real-world Baxter tasks.",
+      "claims": [
+        "arXiv:2610.10646v1 Announce Type: new Abstract: Generative motion planners typically use learned trajectory priors for initial generation, while leaving test-time repair to local continuous refinement. We introduce Masked Generative Motion Planning (MGMP), which extends the learned prior from efficient parallel generation to structural repair. A masked generative transformer generates discrete trajectory candidates in parallel, and Geometry-Guided Token Search (GGTS) uses scene geometry to target where to edit and which prior-supported alternatives to evaluate. This turns refinement into an efficient search over discrete motion alternatives, enabling route-level restructuring beyond local trajectory deformation. MGMP achieves 96% success on Ring Maze and 82% repair success on Controlled Route Invalidation on Kuka, exceeding the strongest external baselines by 23 and 25 percentage points, respectively. It further generalizes to unseen layouts, additional obstacles, unseen geometries, single- and dual-arm planning, and real-world Baxter tasks."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10646",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "TAPNAV: Humanoid Navigation through Tactile Active Perception",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10748v1 Announce Type: new Abstract: Navigation in vision-denied environments is challenging for humanoid robots because proprioceptive odometry drifts and localization uncertainty accumulates rapidly. We present TAPNAV, a tactile active-perception framework that enables humanoid navigation toward a goal by actively probing surrounding structures without relying on vision. TAPNAV maintains a pose belief from odometry, IMU, and tactile contact observations, and couples uncertainty-aware global route planning with information-gain-driven local probing. The global planner searches for routes that keep predicted localization uncertainty bounded by exploiting opportunities for tactile correction, while the local planner selects probe actions that maximize expected information gain. A whole-body controller coordinates the humanoid's locomotion and end-effector contact to execute the planned navigation and probe motions. We evaluate TAPNAV in simulation and on a Unitree G1 across different floor plans and obstacle geometries. TAPNAV achieves lower state estimation error and a higher task completion rate than baselines. These results demonstrate that actively planning physical interactions with the environment can provide localization cues for reliable humanoid navigation without vision.",
+      "claims": [
+        "arXiv:2610.10748v1 Announce Type: new Abstract: Navigation in vision-denied environments is challenging for humanoid robots because proprioceptive odometry drifts and localization uncertainty accumulates rapidly. We present TAPNAV, a tactile active-perception framework that enables humanoid navigation toward a goal by actively probing surrounding structures without relying on vision. TAPNAV maintains a pose belief from odometry, IMU, and tactile contact observations, and couples uncertainty-aware global route planning with information-gain-driven local probing. The global planner searches for routes that keep predicted localization uncertainty bounded by exploiting opportunities for tactile correction, while the local planner selects probe actions that maximize expected information gain. A whole-body controller coordinates the humanoid's locomotion and end-effector contact to execute the planned navigation and probe motions. We evaluate TAPNAV in simulation and on a Unitree G1 across different floor plans and obstacle geometries. TAPNAV achieves lower state estimation error and a higher task completion rate than baselines. These results demonstrate that actively planning physical interactions with the environment can provide localization cues for reliable humanoid navigation without vision."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10748",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10787v1 Announce Type: new Abstract: Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3, a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run as threads with their own context, tools, and permissions, while the runtime schedules them and decides which thread controls the robot's motion, so that the robot can react to sudden real-world events through interruption and thread switching. Beneath it, our action policy NavGPT VLA, trained on 19.28M examples, allocates visual tokens using codec allocation, in proportion to scene change; its 8B model alone reaches 74.51 SR on R2R-CE and leads RxR-CE with 78.19 SR. With the complete harness, NavGPT-3 sets the state of the art on R2R-CE (81.51 SR) and, for the first time, brings an autonomous agent to human level: on RxR-CE it matches human followers in success (90.43 vs. 90.4 SR) and path fidelity (78.47 vs. 77.7 nDTW) at 1 min 22 s per episode, versus roughly 3 min for a human. We comprehensively ablate the harness design and the interac",
+      "claims": [
+        "arXiv:2610.10787v1 Announce Type: new Abstract: Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3, a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run as threads with their own context, tools, and permissions, while the runtime schedules them and decides which thread controls the robot's motion, so that the robot can react to sudden real-world events through interruption and thread switching. Beneath it, our action policy NavGPT VLA, trained on 19.28M examples, allocates visual tokens using codec allocation, in proportion to scene change; its 8B model alone reaches 74.51 SR on R2R-CE and leads RxR-CE with 78.19 SR. With the complete harness, NavGPT-3 sets the state of the art on R2R-CE (81.51 SR) and, for the first time, brings an autonomous agent to human level: on RxR-CE it matches human followers in success (90.43 vs. 90.4 SR) and path fidelity (78.47 vs. 77.7 nDTW) at 1 min 22 s per episode, versus roughly 3 min for a human. We comprehensively ablate the harness design and the interac"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10787",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Same Action, Different Outcome: Variability in Dynamic Cloth Manipulation",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10801v1 Announce Type: new Abstract: Although cloth is known to exhibit different outcomes under repeated fast dynamic motions, even when the same trajectory is applied, this variability has not yet been systematically characterized. Quantifying it is essential to assess the reliability of learned manipulation policies and the extent to which simulation can reproduce real-world behavior. To study this, we execute the same trajectory ten times across four dynamic tasks, two of which are novel, each tested with three cloths of very different properties and at up to three execution speeds, with a total of 269 recorded rollouts. For all of them, we record small marker positions on the cloth and synchronized stereo camera. We then formalize different metrics to quantify variability, and our results show how it is significant in every test condition, in most cases one to three orders of magnitude above the repeatability inherent to the robot and sensing noise. Our results also show variability is driven mainly by the cloth physical properties but also grows with speed. By replaying all the rollouts in four calibrated modern cloth simulators, we show that none of them can reproduce the variability magnitude we observed in real cloth, nor its ordering. Together with our analysis, we publish the dataset with synchronized OptiTrack, vision and robot logs and their correspondin",
+      "claims": [
+        "arXiv:2610.10801v1 Announce Type: new Abstract: Although cloth is known to exhibit different outcomes under repeated fast dynamic motions, even when the same trajectory is applied, this variability has not yet been systematically characterized. Quantifying it is essential to assess the reliability of learned manipulation policies and the extent to which simulation can reproduce real-world behavior. To study this, we execute the same trajectory ten times across four dynamic tasks, two of which are novel, each tested with three cloths of very different properties and at up to three execution speeds, with a total of 269 recorded rollouts. For all of them, we record small marker positions on the cloth and synchronized stereo camera. We then formalize different metrics to quantify variability, and our results show how it is significant in every test condition, in most cases one to three orders of magnitude above the repeatability inherent to the robot and sensing noise. Our results also show variability is driven mainly by the cloth physical properties but also grows with speed. By replaying all the rollouts in four calibrated modern cloth simulators, we show that none of them can reproduce the variability magnitude we observed in real cloth, nor its ordering. Together with our analysis, we publish the dataset with synchronized OptiTrack, vision and robot logs and their correspondin"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10801",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Diagnosing and Recovering from Observation-Space Shift at Long-Horizon Skill Seams",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-09T04:00:00+00:00",
+      "summary": "arXiv:2610.10810v1 Announce Type: new Abstract: Long-horizon robotic manipulation is often built by chaining independently trained skills. Although each skill can be reliable in isolation, performance degrades sharply when skills are chained: each downstream skill must start from the state its predecessor leaves behind rather than from its training distribution. We study this failure mode, Observation-Space Shift (OSS), and ask what causes these skill-seam failures. Using privileged simulator resets, we find that the dominant shift comes from displaced scene state (e.g., an open drawer or secondary objects left behind by earlier skills), not from the robot's joint configuration or the object the downstream skill manipulates. To test this diagnosis, we build a fully learned detect-restore-resume system: a task-progress monitor detects the stall, a learned policy restores the displaced scene components, and seam-robust fine-tuning lets the skill resume. It recovers the seam where every tested alternative fails, which we treat as evidence for the diagnosis rather than as a general-purpose method. On the BOSS-44 benchmark, the system improves full-chain success from 7.6% to 26.5%, a 3.5x improvement over the base policy and 51% of a privileged restoration oracle, whereas best-of-K resampling, a Diffusion Policy, and world-model baselines fail to recover from the evaluated seam stat",
+      "claims": [
+        "arXiv:2610.10810v1 Announce Type: new Abstract: Long-horizon robotic manipulation is often built by chaining independently trained skills. Although each skill can be reliable in isolation, performance degrades sharply when skills are chained: each downstream skill must start from the state its predecessor leaves behind rather than from its training distribution. We study this failure mode, Observation-Space Shift (OSS), and ask what causes these skill-seam failures. Using privileged simulator resets, we find that the dominant shift comes from displaced scene state (e.g., an open drawer or secondary objects left behind by earlier skills), not from the robot's joint configuration or the object the downstream skill manipulates. To test this diagnosis, we build a fully learned detect-restore-resume system: a task-progress monitor detects the stall, a learned policy restores the displaced scene components, and seam-robust fine-tuning lets the skill resume. It recovers the seam where every tested alternative fails, which we treat as evidence for the diagnosis rather than as a general-purpose method. On the BOSS-44 benchmark, the system improves full-chain success from 7.6% to 26.5%, a 3.5x improvement over the base policy and 51% of a privileged restoration oracle, whereas best-of-K resampling, a Diffusion Policy, and world-model baselines fail to recover from the evaluated seam stat"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.10810",
+          "published_at": "2026-10-09T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Gatherum: Meet your Corvallis mayoral candidates - Albany Democrat-Herald",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-09T23:06:00+00:00",
+      "summary": "Kimi Gatherum: Meet your Corvallis mayoral candidates Albany Democrat-Herald",
+      "claims": [
+        "Kimi Gatherum: Meet your Corvallis mayoral candidates Albany Democrat-Herald"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS3NfQkhGTW0zN2Q1S1JfeGF0YVhlTW93YkxfLVZoNUpYZzd0bGNQdmplMGRkRWJyd3JYaEJpU3VPRkRIVVBCV0JBTDEyVnA1X3Fjc2hZYnVfQ05pM0RxN2Z6cFZ1c3lrSzZrMGRuMjhEbzFtMWg2TUNkZXJvazNVZlcyRDNibDhyVW80YlJkLWFXS182d3VCWVppS051QQ?oc=5",
+          "published_at": "2026-10-09T23:06:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic AI model sent fake murder tip to Philadelphia police - Yahoo",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-09T22:13:43+00:00",
+      "summary": "An AI model sent a fake murder tip to Philadelphia police and it took 2 months to notify the city MassLive.com",
+      "claims": [
+        "Anthropic AI model sent fake murder tip to Philadelphia police Yahoo",
+        "An AI model sent a fake murder tip to Philadelphia police and it took 2 months to notify the city MassLive.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc3FPRjZmdDJVZGo5bkRDVE5KMjBNejV4RjFDRnN1b3dMcjZwZHktUlR5b2RzOWJZcVpNUUVPdmdxZ3FtYzlNakUyalRMaWZTSGUwV2IzMWJ0cHVfT3M3dUFNejJDM1UzbUVKdmoyTktMcl84UXlIZlB2b1J5WG5tR0FoN2F1b19Wdnc?oc=5",
+          "published_at": "2026-10-09T22:13:43+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQnp6RkFsWHFTWS15MlFzaTVhd1NkVnJXRnBaOW11NVJKMjkxZlRCb2JiZC13UUxjLVhYMjJmdTAxcHctSHhEUmNaaWZpWmlVd0JWWjhIZWZIQlJUQmxvZ0I1Y2pvd2FaaE9TMWZGUWMyTVJTb2lvdmZWYm9ENXpQTTRCay1GT1NBWmhxZndnLUZ1NjVOVVFjVUNvQ0E1MUpZbmlyUXpnbjR3S05mRnJMOENVZVhSUGVLR3ctOTB5UlVESjBQY2FEV1FaX0llWFlFN2NIU2JKc9IB6wFBVV95cUxPRy1SMVVkUkNGOG5qMHp4WFZBSnVuZjhVVnF2X3ZDdjlVblhQVDdqZjIzeVZNdWt1aE91RUNzZDIyQzM4UldHaV9vWFhCekdrZk9Ob3h6UUdzS1J3T2dkMkVLa2ROUG85aHVwT1BzTEZZV0tOXzVOY3d2bGFpeVlMWVlwSDlxV2FXUHRhajhyWjRaOFhUN3NadWV0cEtDM3FfX0Y0UTFwS0pKMi1KaENlSmZmV3hvT09KNHdrYWpUZG41VXE2Mmc0bGZqal9tX0JILWFXMHB5dGlUdUFqY0ZQQWhBall1RG9Scm9z?oc=5",
+          "published_at": "2026-10-09T17:56:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli suffered heatstroke after F1 cooling vest pumped 50°C water - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-09T20:45:00+00:00",
+      "summary": "Kimi Antonelli suffered heatstroke after F1 cooling vest pumped 50°C water GPFans",
+      "claims": [
+        "Kimi Antonelli suffered heatstroke after F1 cooling vest pumped 50°C water GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQS10ZUU3dWV2RTg1QUIxdGU5UHdDVjNBZ25KM1lQN0VuZi0zdFJQbEVKZjMxeFl6YTdVbEZYOWlaM2c0UW9IM1E0aEVEX19kMzlOeElBdHNEalZmcEMyTGNCQjZjNHpXUUk0Szd3TEMxUzBUSTJSYzZxMzliWW05YldqTjM3QmhpaHRyUjVlZ2p4T1RwV2U3YlBGZEtjNWtuMDlmMTB3?oc=5",
+          "published_at": "2026-10-09T20:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi chatbot sarin jailbreak: only 2% of NZ boards ready - B2B News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-09T20:39:01+00:00",
+      "summary": "Kimi chatbot sarin jailbreak: only 2% of NZ boards ready B2B News",
+      "claims": [
+        "Kimi chatbot sarin jailbreak: only 2% of NZ boards ready B2B News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWFZWXFZYW94NjdXVjRvcll2MGNrbU1jZGxPMzZlVTB4MWhoejhjUGxFMWNWekdKTVQ1VEtFSldITGpCSDc5S1BDMGl6TkpoMk5oOGR3SEptZlVpclFOSnJKbFhhVDg1aks0M1MwVXF4VzJaVlBoQkVONkphU2o4RVRSZkpCMjlGYzVPM1ZLbzdqMEdX?oc=5",
+          "published_at": "2026-10-09T20:39:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model - MarkTechPost",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-09T20:33:17+00:00",
+      "summary": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model MarkTechPost",
+      "claims": [
+        "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model MarkTechPost"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5",
+          "published_at": "2026-10-09T20:33:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Struggles with Mercedes’ Upgraded W17 in Singapore Sprint Qualifying - SSBCrack",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-09T20:22:37+00:00",
+      "summary": "Kimi Antonelli Struggles with Mercedes’ Upgraded W17 in Singapore Sprint Qualifying SSBCrack",
+      "claims": [
+        "Kimi Antonelli Struggles with Mercedes’ Upgraded W17 in Singapore Sprint Qualifying SSBCrack"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ1d5Zzg1U0VVT1Z6ZDlnbDNiTkNVMVJseGRjM1N0VG4tUWtvUlFHR1NhRHZ2MHRLY3BGMlJNVjFsR1B4cTFZb2VDOVBsbjlQVmc0OVlmUUFKLXRYOGhXN0QwZ1J2c1BLdE9BY05odEtwOXpiNEx4NFdIcFNUVGZHOWRBa1BWeHJheGUwLVYxNmRpSFJpTk5TT3JIR2JSVVlUNEhYWFZNOFRqdmFLbWc?oc=5",
+          "published_at": "2026-10-09T20:22:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Meet Diogo Almeida, former OpenAI researcher behind Jev, an AI model designed to deliver structured answer - The Economic Times",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-09T20:21:00+00:00",
+      "summary": "Meet Diogo Almeida, former OpenAI researcher behind Jev, an AI model designed to deliver structured answer The Economic Times",
+      "claims": [
+        "Meet Diogo Almeida, former OpenAI researcher behind Jev, an AI model designed to deliver structured answer The Economic Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQQWlFYjJKOXVXdk1VVHlrc2R4UVdCN0dLZE1HY2MxWFA4WVZKQlZGQ2FuVHl1d2s2VDB0ZUh4Ymd5bWRwSDd5UnJUckFwNWtwNHBXa25NVVFmdTBuSGNoTjlVQUg0LW9ZaFhKd0tiRklxUnNYeEZOaXpKYzYxWlBLd3hfLUUtT3BkZXdHUVRxdGtLMVFMeXZJLXUwY3N2YzE0UXJ6MmZCak5lQWVNVFMxUXF4ZlRtVDNGel9BdHdsQWRxYVNleHByU0g4TV9KcGNUUElpX2NtVGo0NC1melpJOFZJNGNCUWpaSFpCcWNsdUpsUGNIV0R0TEVNc3h1MG5QY0NyMnlrMzAtTmltRWNsUXl4RlU2SThidl9MLUJpUGNWLU4zTldzOGVwLTg4THVzVXo40gGzAkFVX3lxTFBBaUViMko5dVd2TVVUeWtzZHhRV0I3R0tkTUdjYzFYUDhZVkpCVkZDYW5UeXV3azZUMHRlSHhiZ3ltZHBIN3lSclRyQXA1a3A0cFdrbk1VUWZ1MG5IY2hOOVVBSDQtb1loWEp3S2JGSXFSc1h4Rk5pekpjNjFaUEt3eF8tRS1PcGRld0dRVHF0a0sxUUx5dkktdTBjc3ZjMTRRcnoyZkJqTmVBZU1UUzFRcXhmVG1UM0Z6X0F0d2xBZHFhU2V4cHJTSDhNX0pwY1RQSWlfY21UajQ0LWZ6Wkk4Vkk0Y0JRalpIWkJxY2x1SmxQY0hXRHRMRU1zeHUwblBjQ3IyeWszMC1OaW1FY2xReXhGVTZJOGJ2X0wtQmlQY1YtTjNOV3M4ZXAtODhMdXNVejg?oc=5",
+          "published_at": "2026-10-09T20:21:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Anthropic AI model submits false homicide tip to police website - BNN Bloomberg",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-09T20:09:25+00:00",
+      "summary": "Anthropic AI model submits false homicide tip to police website BNN Bloomberg",
+      "claims": [
+        "Anthropic AI model submits false homicide tip to police website BNN Bloomberg",
+        "Anthropic AI model submits false homicide tip to police website Yahoo"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSTlaOXJ4Vy13MlgtcmtGTG5hY0pjQ1hKTHI5NV9GdHBEYzhyd0ZGdVZjd3pkZEE3R0EtVG93b2pxZ2tWUUNJaVlQVjVVWlQzT2tUQjhSeGZ5b1pYOWpJWld4LVVtNmFORTc5MUpEU0Y4NWstUmR5ZHFaY3FyVFdlS3lvR0RlaWFUei1Zbm50Z2tvSTlhalZpeVlpaW44X3JNTEdGbzV5cDhDbzZJcUFRT2JrQXNOQnBJTXk2cS1jamJFNncxbVNDZUYyWC1qWVJWc1E?oc=5",
+          "published_at": "2026-10-09T20:09:25+00:00"
+        },
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQejZqc1JwMXk5Qlprd010Q2xZWl9XQUF0MmUtQnd0QXpJaUFJYUwyUzU0SS1obi1abjNrVmQwTnk0YVJaX2hUWWhPV3Fsb3ZiS2JXclJjc0t0b3hVa2JWVmI1bVhzVzJjQndKUTc1UUZ0MDBYSmxzYjNNbWo2TVVqRFdNOEJUUQ?oc=5",
+          "published_at": "2026-10-09T19:21:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    }
+  ]
+}
