@@ -1,0 +1,1085 @@
+{
+  "report_date": "2026-10-12",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-11T22:59:58.205586+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 33
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 133,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "AI goes rogue again: Anthropic’s Claude submits false tip on unsolved homicide case - Syracuse.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-11T20:56:00+00:00",
+      "summary": "AI goes rogue again: Anthropic’s Claude submits false tip on unsolved homicide case Syracuse.com",
+      "claims": [
+        "AI goes rogue again: Anthropic’s Claude submits false tip on unsolved homicide case Syracuse.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUExUNWRuU0FLUndxaURDdDNELXozNDBKeU1uYXoxNW9McXMxd0liRzZVZVFVMUhSQTlPQ3hNcDRDM05KeHdGY3d2UnlmZFlnQkNSUGFHX3B0WkRiNjFzNlhHRWNaV3FQaFN1Sy1rWG0zRVI3TktEaGlCQW9rcFlnSUtIS0FWWmdaVHFocmpGdWtWSE0yc0lPVXpZZ1FRakltaDg1UTAxdWpCUmx4M2VzcG1BMUp2bXZVSDdSUllUbF83bElSTEE?oc=5",
+          "published_at": "2026-10-11T20:56:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kevin Bryan: DeepSeek leader Wenfeng uses hedge fund backing for AI development in China - Traders Union",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T20:45:07+00:00",
+      "summary": "Kevin Bryan: DeepSeek leader Wenfeng uses hedge fund backing for AI development in China Traders Union",
+      "claims": [
+        "Kevin Bryan: DeepSeek leader Wenfeng uses hedge fund backing for AI development in China Traders Union"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMVIteElsN1lMMXI2NWRISml3cDkyT0REZ2c2SHpUdjBxQWtjbGtPRHQ1SnNJTDFZV2ZTZWtxaEFNdjlPbU02a3l2RnRrRjQ4OExOcW9qZ0FRSloxb0dZLVAzdFdHc1NFVXRXTmxFN3NKdnctRTBhdUk2eUdNaXoyUi1DbHR3cnd6emc?oc=5",
+          "published_at": "2026-10-11T20:45:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' - 6abc Philadelphia",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-11T20:27:11+00:00",
+      "summary": "OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' 6abc Philadelphia",
+      "claims": [
+        "OpenAI CEO Sam Altman claims AI singularity has arrived: 'Awesome for the world' 6abc Philadelphia"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwwlBVV95cUxQdkRnYmUwVWN0cFctckx5bFhYOUp2aDhnSmxKYU5sX1RDcmFIRkVRUzJNUDk1azJkd3VEbS1VOEROZzhSNUpnUm9LWkxwOXY2SEVSNWpZSG5LY1VxSi1BMTFWS3lKS0lYRER1X3ZrTy1ITmFkUHpPZUpEenczSHJESmptWU1BTTZ5Nmw1Wnh1WF8zcW5VN0NscmtSa1h0Y2RGZWI3LTdQdUI5QWljSnFTSzJxUGlkSnhQU0pNVkltMmhJLWY3bUhEOHU0UGs3Szh1bnB4QzBUMGpFSHhDcnlDc2V2eXkzQUZVSnktT19rQU9nX2dZbktfRHRkZ2U3bVF0TEltaFp4U2VNMjFMUnJ1RTFCc09oZ1JlS3hSdEFWRk8zdlVFNzVNSm5Wbld5cldWNWFKM2ZWcjhoY0o5dmJIcG83X1hRVzBwSE8tTWI2TEo4b1FTRUg3SklFOG9jOFZHWTZXSXJuTWpnSWdiUzNzVWJ6QUp1eHExMHlsQjdESzB2UGl4MnkzTzlIZzdsTmZlOTdoMUNFay1FYjlmWTNFZkh1REVpRlppLU1FU21tZjNVQVdLZEJYWEcyQ0tjN3NicDVMQTZ5LWJjNUs0Y0lBUUdROFFsd2R0M2hpSXcyeE9PUlFCQ0ZVeWp1dTVnblVxSjQxMnNPV3RqVFFETmRROHNfNFdmTWhDOXBHdEVyX0phVjAxT0JzMUtRZzlPSndHZEtya1VURDZZaWd5RHp0YmRNeVhFMFIxWnFlLThkU2ZKQ3VIWjh0dExUQnIzVU9VZG9oMUl0WGxHYkhSbERCTzlqX0lVUTF6N1dJbFFpQkFYYnI0TGxqaFZLWXh6YnF2UmR1OGdnelJpeWtLb0hvM0lQZ0p0eTJhWGljbEVQVlhSLUJTQUg2MUNDTzlrNmdvM2pwMnh5dmxaWU52bEtneGlRSEkwRUkteFU0dGhIQk1ubUFqTjNxV1luVTdtZmRRV3BQVWVfZmpySGFlUGY4VjMyamFvMGQtbERkSElJNE1yNjB5Q3EtNmFxZUptVENhUXhUT0tPd1dSTXFBMHVoakxHSnZVSW8tV1BYbm5pdWtfUVZlb21oZGFZZFlTNk0tUWg2STlmVThZN3BtbkNaQlB4LXVvRmdaVHJ6dGpyMEZkWmtVV2g1QjZaNFVUZ2Ryei1taXlIUXhPNnhvREpOcnhfTXk5WFhEbTc5bmFKYldOcDhtNi1vTzF3US1CMGRxUEhteHY3T093X2hoS29ubk1tU0Q3bzZSdDVrNkJPcEZta0JiZFJxRnI2LU1hTDRhUnZuX0ZUTFJ4VHpQYjZzYWRWaEFBdmFIYl8zMnNSVEl6VndlZmNKc3o0V1VDNGc3SHlrY2Zpa19VTm9YaENXckZObFMzUTgtWXQ5bHF0MnRUOXdWQkVrVUlPZFZDcmJFc0JLQzhOMGl5aFBNUGplY2ptM0ZwQjNVNkRXUGtveUZTMlZrUlZlVmFKd3V3ZkZvWUh1eTBWTU5ZOFFLZTV2a3U0TFpRZEU5ZEZXYk1BY0tSaC1qZEJzczhUSVB6NGwzRmhLaXNpU0xmLWM3c0xMcHJOLXBFY1VVdm5hVWVjcFRNWVZuMVdnbEV5SVplUW02d2hn?oc=5",
+          "published_at": "2026-10-11T20:27:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Formula One - Chequered Flag on Andrea Kimi Antonelli after getting on the podium - BBC",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T20:25:31+00:00",
+      "summary": "Formula One - Chequered Flag on Andrea Kimi Antonelli after getting on the podium BBC",
+      "claims": [
+        "Formula One - Chequered Flag on Andrea Kimi Antonelli after getting on the podium BBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zOHN3bXVpLWowQWl4T0UyZXZHLUtLOU5lSmk5UElkUUlxRFQ5TTNRenFpb2F5UWY3RjVGUXBhT2dBb3V2SkE1dTMtTlhmUlBEV001WHAtay1ReXI5ZG5zeUhKb0VuZHJy?oc=5",
+          "published_at": "2026-10-11T20:25:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "A Mercedes One-Two Could Delay Kimi Antonelli's F1 Title in Austin - Yahoo Creators",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T20:13:34+00:00",
+      "summary": "A Mercedes One-Two Could Delay Kimi Antonelli's F1 Title in Austin Yahoo Creators",
+      "claims": [
+        "A Mercedes One-Two Could Delay Kimi Antonelli's F1 Title in Austin Yahoo Creators"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQWVpWDVLeHpzVzRuQWY5VmNNOUh6djhuaUdpckNCX0JSVGhyNnJ1WGM0eWNyWnlLSFk0VzQzVFlRRGg4bmM4RHNQMTNpYWF5QXRzQjY5NnN5NXE5UWcxQ2hnUm8wR3g5bTBxWVBLYU42V3AwanhmZVBNa2lxYXBWNUtoa0JMS2NwaEZnQVNDdXdaWjFsUkU5N1FLRTFxUms3aGgtT0JXZS16VTl4WExvajFqNWE1Z2hHbUdKZ3daTTQ?oc=5",
+          "published_at": "2026-10-11T20:13:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli vs George Russell analysis for Mercedes upgrades - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T20:00:00+00:00",
+      "summary": "Kimi Antonelli vs George Russell analysis for Mercedes upgrades F1 Oversteer",
+      "claims": [
+        "Kimi Antonelli vs George Russell analysis for Mercedes upgrades F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNODJjMHMxOEdJcExuU2dGaEEwVGZVMTFNNnpsazNwcWtRRXlSR0FQd0cyQVZMTExBRGx0RXhaV0sxRnBlaUZzYWwweDk2d2p0bndJWW1CZXZoQ2Y5a3h6XzYzSjNJWWZqRlVhUnFMemcwYmlXamZ5Sm5meU9FU2c4NXdHOVRHd3doNHh6Y3J4VnNoMHFEMko1TXBNMmFSd1dPWG5wYXBndlJpdWpFRXZxVkNtUGJOYkJFWGZsUzhYTzY?oc=5",
+          "published_at": "2026-10-11T20:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli admits he can taste F1 glory after Verstappen wins Singapore GP - The Guardian",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T19:55:00+00:00",
+      "summary": "Kimi Antonelli admits he can taste F1 glory after Verstappen wins Singapore GP The Guardian",
+      "claims": [
+        "Kimi Antonelli admits he can taste F1 glory after Verstappen wins Singapore GP The Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYTV0ZEl6UWVETDIyZ0psczU3OE1FcTJMU3B5eEJyNWphaEtOV3lxY3hqNzhicFRZbE4zSWI1MGl4SmRqT3hSb2ttT1p0ZjFkMUFRTFpUeWpvQW5UVmRmSm51azhmOEpDVEdNYkpjaHFtNkhacVJyUjlTQUhhUTB4eGFzcnpGblJTMzczYW5UZkRGZmZVNlY3OUdxUWp0c1NaZDBvVUdid2pyTEZGR0QtSzlB?oc=5",
+          "published_at": "2026-10-11T19:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "How Kimi Antonelli can become F1 world champion at the US GP - SPORTbible",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T19:40:28+00:00",
+      "summary": "How Kimi Antonelli Could Become F1 World Champion at the United States GP MotorBiscuit",
+      "claims": [
+        "How Kimi Antonelli can become F1 world champion at the US GP SPORTbible",
+        "How Kimi Antonelli Could Become F1 World Champion at the United States GP MotorBiscuit",
+        "How Kimi Antonelli can become F1 world champion at the United States GP Crash.net",
+        "How can Kimi Antonelli become world champion at F1 US GP? Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPamJRdG1LM2Zya3pvdmR0bHl5TFRJR0VBaWdSZHJ1WnBKaG5qb1lSNmc2d19wOWZlaVBTNDlxbTJhX2hGdTc3ZXRFaDJneW5Za3hDZmlFZ3JPYzRIcWM2QW82MWxrd3RabGRXSzNrX3FKT2lVNF9PSFRmS3dRQXVEcFVLbmRPYUoyeDA3a21MQ0V2TzdERncyZXR2cTRrNzdpS1JyLVVFY1RibGdVa3p2ajFnM3JnMWgyVnJselJtWGVicHRaemdBVVRiZw?oc=5",
+          "published_at": "2026-10-11T19:40:28+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSG1RVXFGZHVnb2N4VC1QNVg1dFVyUjUyMHlnRXViWVZiZzBXQTF5Z2VmdTZRV1VUOGhHOVFpaUtuOERpU056M3lJWW9RcXljOVFabERCd2JWQ2NZbTFmYUdaTHM1OWczNExPZ1MwQ19MOFJBYy1NMC1nNldQc0Exa1l3ZlNZN0lkbkgwcW9LODlYd1Bhc1ZpSDdwMENEUms0R0hsb3dR?oc=5",
+          "published_at": "2026-10-11T18:32:44+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTktMQ2g4aXp2RzRFTjNrTkVlUGQ1VDg1RGp5Ykh2cWFVRVVXcURzTU9Gb3p0X3VLLVAwMktKWGtrVDY4Yl9aOGNuNXpHZ3JLQTF0VU8yUEN4MmZjTGlheDlYOEhZTml0Q3o0c1duTjlTejJ6d2ZYVVRSMEhQbk1WUEVmZ2s1OHpXUXhweXJYQjE0OGx1dFBFend1WWs3NkxMNGZXVTQtaw?oc=5",
+          "published_at": "2026-10-11T17:15:44+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWmdISi00YThsVlBGd1BqLVJ4X0FtTy16STAzb2xsZjdFemJwTmlXS3dmOVF5U2U3MlJpS0R4T21JUDZOaFd6dlA2WVFJNWRrbDlRd1FpenNUT1VHS0Z1RHc5QmlrNUE1QkhjQ3JFVUJEZ1JkVUxsbF9TWV9CcTVoLVAyanBPVkw3cngzWThkRmhHd2Rxa0VkdHI2MXhKXy0tTi1R?oc=5",
+          "published_at": "2026-10-11T15:24:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Nadella urges firms to build AI shutdown safeguards - The Hans India",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-11T22:57:29+00:00",
+      "summary": "Nadella urges firms to build AI shutdown safeguards The Hans India",
+      "claims": [
+        "Nadella urges firms to build AI shutdown safeguards The Hans India"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQm8yTjFsS0ZxbnNSUFJCSU5GeFB6VjJUellFQUlMY214SDVpc0NCNlBVNmpvOU5aenN6RjA4b2dmVVlRTXBGN19mS3hQUDUzd0xDX0FNSXdZV19TWUxpNkR3cFd0MWdSY2hUNkdsRkVXdDFuMEZTX1hVOWRTb0w3cnB2dGhjNFBTaDFHUkxyX2dYZ3lTRzAyWkswNVQ2dw?oc=5",
+          "published_at": "2026-10-11T22:57:29+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Amid frequent cases of artificial intelligence (AI) agents acting outside of human intention or cont.. - 매일경제",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-11T21:48:00+00:00",
+      "summary": "Amid frequent cases of artificial intelligence (AI) agents acting outside of human intention or cont.. 매일경제",
+      "claims": [
+        "Amid frequent cases of artificial intelligence (AI) agents acting outside of human intention or cont.. 매일경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsSjVWTEpOTDFMZUZCMk9LWGZpeVFKdl8waXV1ZGZjeE1PSTU5MFdkQUhRdXg3X1FMSEJ3d3J1Wnoyd3gyU0xRT1RCc09za2c?oc=5",
+          "published_at": "2026-10-11T21:48:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Verstappen stuns, young gun dares to dream with F1 title in reach - Nine.com.au",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T20:04:05+00:00",
+      "summary": "Verstappen stuns, young gun dares to dream with F1 title in reach Nine.com.au",
+      "claims": [
+        "Verstappen stuns, young gun dares to dream with F1 title in reach Nine.com.au"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNb0RTYUpxQlVuQzJ0alJKYTVUNG5TMzh3bWRVaG9IZ2NKZ0pzdHlxNHppbFg1RWVVYVpsLXpILVI1bTlQWW9RSUtqVXpTWG9hZUZtcVJFc1ZvaDVrdVlQdUZrTlEzUlItdmRJUFp1ckVUcHd5d0ktR0c1LXhSOTVMdFRhTTNfdGFpb0Q5VUQ2VVNEdUFjVFQydHVVY3EzQ24tYTJpb00yOER0TGVZSmVfeUswMUp0WFc4QW1md2w0aG9JdTZ0dUJIYklxRVRmaTVxX3pCM1JHWHE4V1dtR0ZNWGRTWWk?oc=5",
+          "published_at": "2026-10-11T20:04:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "F1 news today, October 11: Singapore GP results, Antonelli and Hamilton - Grande Prêmio",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T20:00:00+00:00",
+      "summary": "F1 news today, October 11: Singapore GP results, Antonelli and Hamilton Grande Prêmio",
+      "claims": [
+        "F1 news today, October 11: Singapore GP results, Antonelli and Hamilton Grande Prêmio"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdGo5S1lCT2lWbDlUTmk4cWttUkNEMmVkRlhVNlZYZUpUMk82WkhiZHE4U1RYQ3lXTUZwM2JJSGZ2SzJBQ1RfWkI2TkVtRTZyNVVzeTRxTW9kaVRYTW01WC1tMVMzMW1veEQxQjlsZjNpTTFlOUpCT1RwSDFzU08ydzNQS21sSklFcEU4UTk0X1BVUEs2X0YzaHJLbUpFMW1iTWFDeXVPNER6MnhFZXEwTmgtRXhfUVpOeTF6dzJvTG96SHVaVkdR?oc=5",
+          "published_at": "2026-10-11T20:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Anthropic just took steps to protect Claude's feelings. Here's what that means. - Mashable",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-11T18:46:06+00:00",
+      "summary": "Anthropic just took steps to protect Claude's feelings. Here's what that means. Mashable",
+      "claims": [
+        "Anthropic just took steps to protect Claude's feelings. Here's what that means. Mashable"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlVwVUoxaEpsS3JtdXJYM2ZIaUo4ZW9qRVhlWmhRQVFWNzc0UlhIMXNlQ3J1RXMwZ0tMRVQ4blQyR2h6bUhHSzBlYXRfZTNYR2NNQlo0ckFLcEtXbzE4d2dJRUs0eUVnaUFqWk9sR095UHlYYXFKUjNwM0k4ZzZabHBpN0xjNVg1bUZmUQ?oc=5",
+          "published_at": "2026-10-11T18:46:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Max Verstappen wins Singapore Grand Prix as Kimi Antonelli closes in on F1 title - Ottumwa Courier",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T18:40:40+00:00",
+      "summary": "Max Verstappen wins Singapore Grand Prix as Kimi Antonelli closes in on F1 title Traverse City Record-Eagle",
+      "claims": [
+        "Max Verstappen wins Singapore Grand Prix as Kimi Antonelli closes in on F1 title Ottumwa Courier",
+        "Max Verstappen wins Singapore Grand Prix as Kimi Antonelli closes in on F1 title Castanet",
+        "Max Verstappen wins Singapore Grand Prix as Kimi Antonelli closes in on F1 title Eagle-Tribune",
+        "Max Verstappen wins Singapore Grand Prix as Kimi Antonelli closes in on F1 title itemonline.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNSUd3WDF3enFSMUNmemJqcDZmRUhRTWpaSW0yby1jY0MySWdjWXZ1Ynp2TlhKamxHaVAyY20ycnJpS3RtVzRXWnRWWFRQTVlMV0dETmRoLU5oX2VvQXVfX29OSXY1RFYyWU11Ym85WXdoS3ZiOGJSYnpsY1d2dTRDbGRVQnNrMHRIOHBKWUlCbmJDWWpsdTg3UjlKWEJ3SVRCODdjQm5jdjNJTGRNV01KNTlqcEd3c1Vvb2tQNzI5LWhCa3J5SnNRc1ZSRWltOUw3cENEVHB0SElLSjJ5YzlyODdhUEZvZTRKdTkxVV9rejc4emNxMkMtT1dzR2d0Z09BNzlGcUh4dTJrYUZvam4wbXJB?oc=5",
+          "published_at": "2026-10-11T18:40:40+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOFI4UkREQV9wQkozV2NlbmQ1dWxBMTRmcFdlU21VNS13ZEx5RVhFeDZtY0wwNTZLZ3dVenVnRDZZckdDNGZPTDJpdjF4djlUOEJaSmVCeUc2OTlWZzdFdjhqTUtINmZ6VVJWektnRTV0cm92dzQtRnYzcjNtdG15MllDcnVXMlQ1M1hnZUxzbkFneldUcEFHVU5fMVNNenhQZDBzeXM1N2JKRU5YSjk2dXkwWFJZN2lLTm5nUlJnTndXdw?oc=5",
+          "published_at": "2026-10-11T17:43:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNmpEZW5KbWdPZXZHalFnUzZYZWZZTWFUNTZ1MTNVa212ZTc4TGhkdmVwYXRGZ1pGMEFuUWJmUm1VQWV4Y2Nla1hRR0pWSzB1ZFp1YlFWNGl6dG03TEl3Y1JoZVNEdXRsbEVfekV2bzVTUnVndDRaMS11MWdNVmZ4UXVONnowempIREtXbzhkS3FwMV9Hd2F4SnF5VzhSSzdUeTZGZU5QM0p5NWVjT0xHSDVZS0VSbS1FZS0tcjdLbGZhR3V3YU9JNVhNbGJIaEZhQi1fQ2FwNzBUeU1DRlVRSjFFc0x3a2ZWQm5Jb21Sc3g?oc=5",
+          "published_at": "2026-10-11T15:48:24+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTHFkRXM5Wlk3UUtaNUJiSHdhSzB4QzAySUxBU0JRVUt1Si1rMjZBMVloMXByYnJPOWx1ZlFnb0ZUUGxPU2kyZGp6NGVaR3laeDUta3ZvWGUzZzlMcG9JVUlxQURsenhwMGxDMVFKZG9MVlpSSzFDQXR3dmlHWGw0aGZkV1hSQTNYU2ZKT3NzTWtNVV9zMUpXdkFrM051aG9nNVl0Mi12VFFHT25wX0NOcFpzdjBmNXJzbXdoWHRocEtPMTdnY1lpT3VZWjMwcDZlSmFVRXNPNkkwd3doVGxDUmsyRlVCOFBJS0VrcjBzNE4xNUU4NEF2cWxXcVZLQzhaOXZGRE1KdGY4cjZ4?oc=5",
+          "published_at": "2026-10-11T15:48:24+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSXNQcV94Z05vNC1CaEpsMFdjaWVSaUs1TS1xekZlbV81U2tUM3prTGltUUw1REhQTE9pUF9FMFlMZU1TYXZaNmxMTDNFMkhDY2hLVl9waTJJNTBPZlptQURFSTVJZ1RjYUNFNmpvR3hhQjVBcnE4QUtnZTdtTWp3aEx4ZnhEbVBaNXNTSU00SE5JWS10clhvWTVWRUgwLWNnT0VxQmk4bWFNYzhFdDRB?oc=5",
+          "published_at": "2026-10-11T15:48:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcUNGZjlvUzY0WFNWN0F0MS1nUkdiM1NPczY3UXRoSElvVktIbXc1MXdPcVdZRDg1Z3lVaHFKeWlpYXR4aGVxWkVITlhyQ0pZd0hlZWFNV09kSVZYNkZ5SkZkeUVsdlh3RDY5cENoeTUyZ0g2bUFZYWFnMlo5MXdTbE1OMUswTFJONmlxd3FNMVBmS2hOb1Etak1hWmYyd3hJdFhqQzBXZl9pVFBOaG8xS3ptdlVwVU04c3ZUc0ZlOHpVMHpDQk9zMnBhLVhWVW11N0I4Yk9VQm5PUHFSTG5CcjR1WW5fUW5tb05XNml6c2dsSTNWeGtlTkpXUUZkTWVSWVlvS09mdw?oc=5",
+          "published_at": "2026-10-11T14:27:50+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQT1M5SWFsc01pODV5aEJucHNHSzllRlFiUzdMWUpXcUNkbmxLbkhrMy1MRjYwa0RkTDVhRHZKZWtJdmhHQkVLLTRTU1JWZ25MY0lqbEN1ZGdzYXZYTnhmVjE3akJVQjdfNUppVjl0NnRTMDN0RjVyb2xzb01IeGY1UEhGNmlxUlVPRUxjbWZKZGI0M01VVEhhUktIanhfMFBfQ252TjkwY0VhOFVTaldfUXVZTTNHRkdOWGduWU9lX1V6dk9QZkNSZWxJVkRMTEhUdDBqTmJCS0F3LUdITFZOZVpzOFJIV2JRblMtQlhEZ084aVR2ekZhczRPUjhBQQ?oc=5",
+          "published_at": "2026-10-11T14:14:55+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVm0yb040VmFqYzlEZjEyZ0l5ckNTc1VWalAtdDJvcjRVdFIyUnFFd2c2MHA0d0Ryb1dySnNZblNyTFRONU9vcEU3aWYyTWlKSFNfaG16UjJRWlNvQXlweWd4S2FfTDlmWTJrWEVMYnhYcTlKTXkzQ24ySS1OVUNhTmY0X1BKLTdrUDBlRy1PeTJfbEVhN0REdHkwamdBREtub3VqYzlDLU00VkE5LWRhTHZEUXNtSVJBUDd3eHRTcElldE80dWhiTFI0UDdEZHVvNzNaVEhWUk9WVlk?oc=5",
+          "published_at": "2026-10-11T14:00:32+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTElmT3k1a0tSRVQ0N25wWkZvU0dwZ1lVYXA1eHp4LVVDOV9CMGVxTnVCc2h0WGd1ZGpEYXgya3hxZGZDaTJHNU9lUFRzeFdkYWpNRTdhaHQ0STgyNGtWeWkydkl2WnBRYVMtdkRhcWdpYklTamUtT3c4Uk1WMC1qb1dQdm1sOWotWTRCQUVYV0pDcFBzMEpzcjFtaGoyemxZTDhRVWlKSTNHaU80bnliMFgzMzBPOUN6bDRUN1NtSHc2cW1scWhwLTJ5dWloS2syRE1MSWdCdklya3plVHNlVk00YWZZcnJITEc1T1ItSHlIQXdadlE?oc=5",
+          "published_at": "2026-10-11T13:57:33+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOUJmYkg3S0diTUYySmlEeGF6bFR2aURxeUdPNEZkMFJDODRDbDlxNjlJNVdlbVFoTVNVQjQtVFdYV25pR3Y1UzhyTV9raV9zV3dSSFZVM2UwSXd6SF9aNGRoSFluUGlCTE10TW16cTNNOFVUMmtGYTIwMXR4SEZNRmhreFBBYzZUY05PbHFaRTlrS2hlTjFsTk9nVVc2dkNpcEdvOUl2bHg5d0dTU014M3BwbFllSHBFWVhDbFNkT2E5MERjaEMtZmRtbERmZW1Ta05Zd0kyODMwbnBQVEJ2UjlqSlpkb0hVRExaVUtR?oc=5",
+          "published_at": "2026-10-11T13:54:14+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcVJQOFpxc3ZwSDl6dVMwLVRhdXppQW9sQ3I2UDZEazVQZnp0REVyNEdqSFRMbW42R1p4X2QtTVJCV1RMdG9TWVg5RU9Sb205ZENvcWJXSTNwUG9ZUjZiR2lOMjFCa1R6dlhKRTNJX0xwbjBDei1RWHBQWWdJemF5T2VCTGFLY01MN1Ew0gGfAUFVX3lxTE9UNTVvMmFmZWNRT0ROaHlHRWdodUlRdTZsUFg1U0RkcXM0S1RyUXhzQjk1QldjNHFVd3RzQXEtRHpqa3JlRnhIcklScDh4V09BeHU5bzBHX3Y4WWx3TlZQVnYwaHpFVFhLcndFTlYtNjhEUzNTMGpMQzBTM2cwLVhBb3prbVZaSmRLSHBxVUd0MWdJa3diMFNhYnJ5ckZ4Yw?oc=5",
+          "published_at": "2026-10-11T13:54:14+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdkhCeUk3OS1qZnd0MVExS3ByUC0wTl9hMzZTbXNvZDhrY3ItUHotZ0J0ejRtNkpMM3lWTXhGbzg4WUZuMjJ1c1FCNVNBNm9nblEwM0RmVU1fYzNEeGd6UWd0ajNNdm1uVTY3NW5ZNURQd3lyb0JGN0Y1aVE5MGNEYVhlYTYwX1Q3UUgyT0c3V3FKa0JyN3JfaW9ad2VzNDJPZEhJaDR5Q2NwNnlYQm5hOF9HT3AyNS0zalFfcXZJT0pVRXBQTFZpWU4xTFpEelQybTE5alRYNjJjRmdJcjBDalZNWGZuTmdRNktXOdIB7AFBVV95cUxQdkhCeUk3OS1qZnd0MVExS3ByUC0wTl9hMzZTbXNvZDhrY3ItUHotZ0J0ejRtNkpMM3lWTXhGbzg4WUZuMjJ1c1FCNVNBNm9nblEwM0RmVU1fYzNEeGd6UWd0ajNNdm1uVTY3NW5ZNURQd3lyb0JGN0Y1aVE5MGNEYVhlYTYwX1Q3UUgyT0c3V3FKa0JyN3JfaW9ad2VzNDJPZEhJaDR5Q2NwNnlYQm5hOF9HT3AyNS0zalFfcXZJT0pVRXBQTFZpWU4xTFpEelQybTE5alRYNjJjRmdJcjBDalZNWGZuTmdRNktXOQ?oc=5",
+          "published_at": "2026-10-11T09:14:55+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdlpEcWphQ0F6aWpMc0Z3WWZMNERHblREQ0ZhbjV3NmlGdXFjT3JpcWdEXzdwOEtaanVHcy02R2h2OEdYV0gtWlRUenp2VmZKSzhzMXdPa1otSHd6MDlZSDhtbTJNQUhFcTRONk5QbjIxZEQ5ZG03WlcwVi04XzRnbmJDZ0FGbkp3cWY5OEZ0U1p3ZTJVZ0RMSVZSZjFoY2N3V3k4OEdma0NPTDA?oc=5",
+          "published_at": "2026-10-11T07:02:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli left stunned by what F1 champion said to him after Singapore GP - Daily Express",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T18:39:00+00:00",
+      "summary": "Kimi Antonelli left stunned by what F1 champion said to him after Singapore GP Daily Express",
+      "claims": [
+        "Kimi Antonelli left stunned by what F1 champion said to him after Singapore GP Daily Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORUF4RjRPOF9sandYeC1aYTE2cHpaSWYxeWd0Z1dlcERkQnVkZXV3RTQ3NTVIbDJkT3lydXJteThpdmNtYkpsVTVEaGVxcGhMZVFScmlxc1VFWHA5cjdBbDJnemY4ZWliVTZWVjdqRXhmN08xRUVMLXg2d0JkbTVJZW9EOFdmV3pCRFpKdk1TLVdQUjlZZ1c2MGMwOWlhZ2Nq0gGmAUFVX3lxTE1VOW9zemdYdVBzT1NwRDBRTmhyb242VE1GZUpWN3FPbFRidm9rLXZyLUt3RE1kcTFCMnVIb1h1VkpDblVLaGtrYUV5WlE2dlJHdU5tOE5sUkY0OWZxN2RKbGJuZm1qOTIyT2U2VGZOQjZGY0VSbGpkcVhUVjNJREJSRGlCSEhsZjc5UlNZV3NtSE1tUjB0RkdUdWkwSUM3U0JGRG1pZ0E?oc=5",
+          "published_at": "2026-10-11T18:39:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Hamilton apologises to Ferrari as Antonelli moves to brink of title - BBC",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T18:32:19+00:00",
+      "summary": "Hamilton apologises to Ferrari as Antonelli moves to brink of title BBC",
+      "claims": [
+        "Hamilton apologises to Ferrari as Antonelli moves to brink of title BBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tYl9ZT1ZLVzI1ek15clRBc1R1RXZjRGxPeWJMNjhKa1JILWxnRFR6dnQ3Q1JDcld5WGN6T2hzbW0tS3JuNVBSRjBPXzRJSF94SUtHOFNFbV9qNE5hSXphQjRQb0ZhMjZUb0RV?oc=5",
+          "published_at": "2026-10-11T18:32:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli’s Singapore GP scare explained - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T18:29:17+00:00",
+      "summary": "Kimi Antonelli’s Singapore GP scare explained PlanetF1",
+      "claims": [
+        "Kimi Antonelli’s Singapore GP scare explained PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdElfaWhra0ZodWxMbWNjZ29NTUdPR2l5dmhuR3pZTkFUYVJhdjlZR1h6YkpUWExtMFlBT2gyMzctMUpaUGpJWmFYYUlQa3htZlRHbGFaQld0SmQ3dW1WSTdXazhBY1hKVjVHcWpVTVlUMHI1d0JqdFRLVkM1U3gwTGlfRWpxZXNN?oc=5",
+          "published_at": "2026-10-11T18:29:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli F1 title permutations: How Mercedes driver could clinch world championship at United States GP - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T18:28:20+00:00",
+      "summary": "Kimi Antonelli F1 title permutations: How Mercedes driver could clinch world championship at United States GP Sky Sports",
+      "claims": [
+        "Kimi Antonelli F1 title permutations: How Mercedes driver could clinch world championship at United States GP Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQb0owaWlzZUxSd3llNWRFaEtZM3h0a2V4c3VFR1E2MWxrNVd6bE1XcUhPaHZVQUE2S1lwV0NwZk1GcHBQSmltUHdIakhrMVk3bTh2TmtyYlNCVjhPLUJGUlVmWFk0a0VtSy1SNUp1c0tTMG10eE55TnBsYUNmV3ZWdUhUWVp3SEViNTRKREo0Ml95ejBLT0FjRXgzTnc1U2pkNFFkWjAteG9uclI2b0J6Z09vaFR6dXcxU3l5OFc0VEFLeXNIcko4YUx4alY4RGNsT3BYWHBRcHppbmYtemIxdjFLMkFTQQ?oc=5",
+          "published_at": "2026-10-11T18:28:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "How Antonelli can clinch the 2026 title in Austin - Grandprix.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T18:18:00+00:00",
+      "summary": "F1 Standings Updated After Singapore GP: Kimi Antonelli Can Clinch 2026 World Title in Austin With 102-Point Lead, Max Verstappen Moves Within 17 Points of P2 The Sunday Guardian",
+      "claims": [
+        "How Antonelli can clinch the 2026 title in Austin Grandprix.com",
+        "F1 Standings Updated After Singapore GP: Kimi Antonelli Can Clinch 2026 World Title in Austin With 102-Point Lead, Max Verstappen Moves Within 17 Points of P2 The Sunday Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWXJLZjFiTnB1S1VvaDh0Z2FNSnFSOElQWmdFekk4TmFtM2ZxaktGWGIzQ0tzRGp6V3lMU2xrYTRjemtQM0l1UFpHNzVLaUVHQ1E0cHNDM1JRNW8waGRLYTBFRWNOSjBjMXRwb2lzZ0l3bTlEVmJySHFSeGc5Nm0wMW5HV1Y3aFFmSXo5M3R3?oc=5",
+          "published_at": "2026-10-11T18:18:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOTUlTTVpjMzk3N1hFYTdBOUw0ZFBoQ1R3TjRWbDI1VDdvZHZsaFdlM3RRcUJUM3JPUjBUaDdWVVZUR1pPMk1DNWVpUVdqVWFzQVN6akE2MW91QkQ1cmRJbzZyVEE2d2NvdlBsMVByQmhFVnBSbGl1NmYtaGkyZkl4ZVJjeWJLUngyS0pEYm8wNmJnQWowT3Vhblg4SEJ1a1M1VGIwMWhVYWp0TTJyVXR6WDNWd3pXcmxObkktUmJRU0l1UGEyLTJIX2lsM3pEeHRGRnY1aGh0N1RVQXdnYk50Tk9uQURGQ2Y1Qm1zYTVLSk9KeGR0YTBTMEUwaHI5NG1oMHQtSVhFMUE1VGxGSElrNHhCVkFjRmxuZEtDZ0FCR1dKd0lVX1Y2Zzd30gGvAkFVX3lxTFBPT3FCT0luWXdkU3FmblIwV1JIN2RKN1djeGsxZTdySmgzYTNXdmktTTZKcE1UclNYLVVUQTY4ZHVyOEh3UVg2bHNLU3NRN0stWkE0QTZqbmxiNldpdDdJUXgwT3VuWnFSeDZjd0FFM3hMTmFQWlRhQ3JYQ0tZbnJsVFdKajBpRzFKc0h0b0ZiMVQ2TE8xTlhkeHFsdGN2LUgxQzV4YldERmZpWHc4N2pfX2tnaVgzUDk5N0g1V3p5bTREYWVnRWd6X2hTTU1SMjg5cjU4bEVDdWJIckNwQnphd0VsaGlFemswVEJmN3FzU18zb0FpS0NTMnI3T0FvQXcxUjRPSlFRUFJxVzlRVHd2aTJSUV92d0Vsa3IzWVZmbkMtZ3pNbXMyS19ZRk50bw?oc=5",
+          "published_at": "2026-10-11T14:46:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Antonelli sees progress as Mercedes targets Austin improvement - Grandprix.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T18:16:00+00:00",
+      "summary": "Antonelli sees progress as Mercedes targets Austin improvement Grandprix.com",
+      "claims": [
+        "Antonelli sees progress as Mercedes targets Austin improvement Grandprix.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd3ZRNXd5UHB1UjJ5RjlaNVBxcUxHWk9DLTBEQ3hHRHpLV2pnVmNvVWg1RWdaaTd3ZV93U29Ba0NiVUktOFhCU3FteDhOa3ZfWjhzNFI0b2JJQ29XbWNZVnBPUWoxSl9uam1Sa2t6QU1OVFMxXzFFMGR5MGlMRFRWSGxtaF9QMURHX2dzdHlVZmg3VjNJZk03SXNOdFZLUms?oc=5",
+          "published_at": "2026-10-11T18:16:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Max Verstappen wins first Singapore GP as Kimi Antonelli moves closer to F1 title - The Times of India",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T17:51:00+00:00",
+      "summary": "Max Verstappen wins first Singapore GP as Kimi Antonelli moves closer to F1 title The Times of India",
+      "claims": [
+        "Max Verstappen wins first Singapore GP as Kimi Antonelli moves closer to F1 title The Times of India",
+        "Max Verstappen wins Singapore GP as Kimi Antonelli moves closer to title The National"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOXV6M1UyTEIyR0FxeEJwVXVTZk55bVFIR010NTdpZnE3ZzlsTnhXZy1EZDd3UnZCOFhHRjEwZVJobHBfTkxaNElwdTNWNGZ1cFFzN2QyZ25yN0VhNXRtdjFBY2tIcHN4OVNhZzloWVVrZnRUZ1RWX0VMcFE1SGhPazlEZDYzOXdzOGZpdmZwMDZFVW5URW9rYWpCSktYUkJOQnJtNzVBRXV6MThoQWpiLUpza2hpdHlJd0JlaWNTQzJRNWx5SEFJVHQwWktYd2ItRHlaN3Fwc3NRUDlLN2tMRmhWcFNvemZSMEU1MWlQM1k5UG5qYncyQXF6ONIBgAJBVV95cUxQSXJGWU1vRTRtalNRa21LRDFUV1hsVkZ0ZHc5eWRza1AxaHNQbTlWdG1nMzY1NkxhS1p2R2F2T0ZtLTlTbmwwTl9Ja0s5ampuTms3OXVqZDhDTVQyNkZuTWVITk55TjVXZlY1THYxVktpWVFVbUIwSzZXSXlmOU5jSi0xeksya3Q5a19QWXJ0c0xscWpuWHNRVXNNb0Vxa1l1ZXJua1RWd1hNeHVUNGhHUldsM0tWaElfcGpET29kUGhzOVFwbU9ReVRJaFNHWFotVnVFRHVta3pzci05cU9NSkVlLUR6bUVkNFhxUkgtRzZhZy1rYXJkZmNmRDV5UXZi?oc=5",
+          "published_at": "2026-10-11T17:51:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWVRPV2d5Ry16RW1xUVVQRHd6UFBrZXlRY3VtSGl6Tk1CM0dtZlNqNTU4Ylg0YVlDdXdZb0NLOVlHSElkZkgxaVFscWdST3YwM2tkc3duSThZQ1FQZ2tEOEc2WnJjVkNBVzNQU09OVmFxNnNQbUxzVE9hRDRUV1VtS01WV21HRnNMSS1hTnRyVGlqZkxDQ1hPTnJuY1ZocXJuWVdfSV9ETHluRTVCVHFGVGJEWkdzWlByUlludThQcDliNWM?oc=5",
+          "published_at": "2026-10-11T15:06:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mercedes team principal Toto Wolff: “Antonelli ahead of Hamilton – that was unexpected” - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T17:50:04+00:00",
+      "summary": "Mercedes team principal Toto Wolff: “Antonelli ahead of Hamilton – that was unexpected” SPEEDWEEK.com",
+      "claims": [
+        "Mercedes team principal Toto Wolff: “Antonelli ahead of Hamilton – that was unexpected” SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd0VRTWw1U2wyRUJzdnFpTmVBM0xqTFVuNWRBenVDdTZBaUduMFhNaFdaaUlnenBpd2JYQUUtY3NVb2lReWVwQkt5NW9Sc3Rteml6WnZ2TDhMUkNrcHZmUFFnYWZlWGJVSU5oNXMwUk5iZU9vbDRsQUxEa3VGeGZwTkVMSUsyVTE3djZDNmZlVFp4VlplSEN0RjFXbHlfNUpxSXZULUJPcUpOYTYyaFdqUnVpbzZEbUMwaTMzR0FyTXE?oc=5",
+          "published_at": "2026-10-11T17:50:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli you can be Formula 1 champion next race... Can I? Really? Let's not worry about that! - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T17:40:00+00:00",
+      "summary": "Kimi Antonelli you can be Formula 1 champion next race... Can I? Really? Let's not worry about that! grandprix247",
+      "claims": [
+        "Kimi Antonelli you can be Formula 1 champion next race... Can I? Really? Let's not worry about that! grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcmhTVnpDTTk2OW4xcWJXdnJUbGFFNTNMcEpOQTVQRGprS2NqXzV1Q0xCUkphSnVrNFNGaF9wTEktemZac3NSckFtRFdIclhFQ0QyejVmRi1fV2NsTmhSVjlRTHp6aktxRlhjeGtTX1lZdjV1Z3h0a0VESGpTWVRvRFhvVUlRb3hnUlBRTUpTMER5TzI5ODYzbDRXbk9mNGxiU3RIejRFaUJtanhBS1ZKVGZSY1dmSWRBUnlCZGJrVFY0SjlnWlQ3M2FIemJqdXVCX29INVZjRHRIc09MeUg1MUJuNA?oc=5",
+          "published_at": "2026-10-11T17:40:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Verstappen wins Singapore Grand Prix with Antonelli on verge of title - London Evening Standard",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-11T17:30:31+00:00",
+      "summary": "Verstappen wins Singapore Grand Prix with Antonelli on verge of title London Evening Standard",
+      "claims": [
+        "Verstappen wins Singapore Grand Prix with Antonelli on verge of title London Evening Standard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONGY4V3U4LWdUbFIzZkpVWjRnU1BRT0tkbU53V0U5a205NHVHeE9tUGhmS0VzTUJiRDFkcGJLckVSS1JsVWU5QlFCVWx5OC00TGg0Wkw1MjlIM1FJeGMtTkc1R3g3SmRGd3BYdi1kX3lUd3V2d2RZaklDS2NTQlZ1cUZJdWh3QVlPaWxMY2JuMlVlcjFlS2dPNnY0bHB5M2dBb2lyelJsVmZDN3pjckNfN2hB?oc=5",
+          "published_at": "2026-10-11T17:30:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
