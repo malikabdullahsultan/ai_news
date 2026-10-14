@@ -1,0 +1,927 @@
+{
+  "report_date": "2026-10-15",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-14T22:24:55.225695+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 54
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 66
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 134,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-14T16:14:34+00:00",
+      "summary": "General Science",
+      "claims": [
+        "General Science"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+          "published_at": "2026-10-14T16:14:34+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "summary": "Earth AI",
+      "claims": [
+        "Earth AI"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+          "published_at": "2026-10-14T16:14:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Analyzing technical documents with Deep Review",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "summary": "General Science",
+      "claims": [
+        "General Science"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+          "published_at": "2026-10-14T16:14:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-14T16:12:42+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "published_at": "2026-10-14T16:12:42+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-14T16:10:48+00:00",
+      "summary": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...",
+      "claims": [
+        "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/",
+          "published_at": "2026-10-14T16:10:48+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "claims": [
+        "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "published_at": "2026-10-14T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "claims": [
+        "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/sentinelone",
+          "published_at": "2026-10-14T12:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-14T07:00:00+00:00",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "claims": [
+        "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/third-moment-research",
+          "published_at": "2026-10-14T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Ultramarine 1 Flash vs DeepSeek V4 Flash: Cost per Task - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-14T20:19:18+00:00",
+      "summary": "Ultramarine 1 Flash vs DeepSeek V4 Flash: Cost per Task OrcaRouter",
+      "claims": [
+        "Ultramarine 1 Flash vs DeepSeek V4 Flash: Cost per Task OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByRW5rLVJERWRodkFSS2dhdnNuQ2cyT2prYm01Qng0VFV5V3IwSTh5cTMwT0k1VlZ0ZmdDUFJnX1VNX081QzU2RmxScWZhNnA1QUhrZkE4Xy1RZjhCZE1fRThFRGVmMjBvU0lYLTlQYkdLNHNPSlpCS2duRQ?oc=5",
+          "published_at": "2026-10-14T20:19:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1: Max Verstappen Wins Singapore GP Ahead of Charles Leclerc and Kimi Antonelli - autoX",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-14T20:06:48+00:00",
+      "summary": "F1: Max Verstappen Wins Singapore GP Ahead of Charles Leclerc and Kimi Antonelli autoX",
+      "claims": [
+        "F1: Max Verstappen Wins Singapore GP Ahead of Charles Leclerc and Kimi Antonelli autoX"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNjJRWllSVkZiVnloR0poaDFzUGJIVWtVMUV1NFRRSnI0VUM2NkNpVU9LS2NpNkd6TTd6QUNNVWgybGxEUWxCdXBVVXcyVHZ4c1loT0VsUjNjdTNFYkhSUXR1Y0psSE9Sd0dBcUFsSDg3d1hwYW44aTB5blVkaF9rOTFWcmpVQzlIZFFWa1BOWFVjNFk3V0ZPZDBCcnZoWTJlNkZzbU5fRE9HLUZfTF95NmRGSzZzVzlHaXdqaU1hdWdFWmxkaWlv?oc=5",
+          "published_at": "2026-10-14T20:06:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Gabriel Bortoleto issues warning to Kimi Antonelli and Isack Hadjar after seeing them score podiums - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-14T20:00:00+00:00",
+      "summary": "Gabriel Bortoleto issues warning to Kimi Antonelli and Isack Hadjar after seeing them score podiums F1 Oversteer",
+      "claims": [
+        "Gabriel Bortoleto issues warning to Kimi Antonelli and Isack Hadjar after seeing them score podiums F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcmVNajVCWElRYTR1ZFF2RGxfcVdlM0NCNjI4clJKc2Rha1RFX01femIwSEhDaV91N3BvR25hajQ3Zmk5MmZpLVFIU2ZKdHQ5RnlWS1hQTWZ6b0xBWkNHcHVyY04tSFhETHNvN0ZVRlBQZUxxUUVFTHlDd2lsdV80SDg0NTJKd0xSYkR1eTVMOHI3VVJ4MERHSDBBemRlOFg0RFlzQUt5dTk0ejNNX1Y1SEtRWUdvYVllaWlrNmJnVHg2Q2NHQmJBSnBySmFxQQ?oc=5",
+          "published_at": "2026-10-14T20:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI CFO Sarah Friar warns companies face cyber risks with budget Chinese AI models - The Times of India",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T18:11:00+00:00",
+      "summary": "OpenAI CFO Sarah Friar warns companies face cyber risks with budget Chinese AI models The Times of India",
+      "claims": [
+        "OpenAI CFO Sarah Friar warns companies face cyber risks with budget Chinese AI models The Times of India"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPdlpQb1NfOU4wSXJjSkhmalRxWF8wVFItelh2eEI4T3RsSUJFM05CQkhIU3c4c3NSZlNERUdMWWJSX1VWbXZXeXdkYjlqZURkb1hpLVZTM1FqX19aV25CTE1JeTlvUG1yRXkwcGdCYzZYSFV0c013d1UxbkhyTGwtbG0zc05UeGtJakVHNlFkR19UWWdYSWYxcmxJUEs2QlZNUDFORXdITmdaa2NiRExGRU1nNzhRaU5zdy03eTFNRTZxdENrTXk3RE9wUWdTWXV2eF9aMmlKTklkOHU5bUJqTHJ5ak1fNmpwS0J3TGQwR2NUdnByNTcxci1obW_SAYICQVVfeXFMTllsTXNoVnpYeGxVdVdlc2JsTUJDbFhYMDA2X3pYRThlNTktb0dUaVh5X016LXlkMmRtSVJ2bWNEV1FxZU9aQXl3OVJQeURTYzBMRFN1Y0NWWUUtaGc2Qm9SSmk2SGdoSXR2MzJ5MnhUWU1HOHo4YktzUjYwa2dfbVRZSG9sWFJja1N2ZExnVUlKaGcxelJOUXdQMG9uREdsM0lJdzFibFpya29za0pJZXJUR0JJdmJ4T3FyRktxUndWeVJuMjFTXy1PNVNHUVl6MGhOQ3RBazlsd0RRREE2QjJoLTNpMnhXSjVJWnh3aEtUa0U5Rll4QUJCTTJScnN5OWlR?oc=5",
+          "published_at": "2026-10-14T18:11:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Small artificial intelligence models may be only months away from being able to behave like a computer worm, copying themselves from one internet-connected gadget to the next without human help, AI giant Anthropic said. | via ANC 24/7 Link to full story in th - Facebook",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T18:00:28+00:00",
+      "summary": "Small artificial intelligence models may be only months away from being able to behave like a computer worm, copying themselves from one internet-connected gadget to the next without human help, AI giant Anthropic said. | via ANC 24/7 Link to full story in th Facebook",
+      "claims": [
+        "Small artificial intelligence models may be only months away from being able to behave like a computer worm, copying themselves from one internet-connected gadget to the next without human help, AI giant Anthropic said. | via ANC 24/7 Link to full story in th Facebook"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWk9WMGduS0xFV1NTbllNWlNBY2hrS3hvQko5aTMtWnNNNjBmQnlJVF9tTjlqc0Jaa25CTUxEV0hRUGt4dTg4bGF5TUd1WHFuZ1ZXRUhxb0xqT1B2eFVlVHgzTUJzbTI2WGZXZVRlR2ZvUWk4QXlnUHV3WW1YSFdVRzZtSUxXa29UdXRDc3JhekVzenlkNHJxYzF0V0Z4VEk0NTRNSVYtWE90VUxTNUlvcFMwWVVYZUhlWkpoRGZEN0haVFIxTkY5QW9QOWFQSUtCTVJTSzBSYw?oc=5",
+          "published_at": "2026-10-14T18:00:28+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Alibaba's New Qwen N1 Glasses Let Wearers Pay by Gaze With Swappable Temple Batteries - TechEBlog -",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-14T17:52:34+00:00",
+      "summary": "Alibaba's New Qwen N1 Glasses Let Wearers Pay by Gaze With Swappable Temple Batteries TechEBlog -",
+      "claims": [
+        "Alibaba's New Qwen N1 Glasses Let Wearers Pay by Gaze With Swappable Temple Batteries TechEBlog -"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYlktU0JpcWpJa2JyR2gwRm9PTU9oVmlPNGtJcGU3cWotc01kQ25uVUZLLWNPaHd4LWI4T1JKZGE4dDJwdE1ZSmVfX3lLY1NhbWZVSnNvcUlhRFpmZU44dnE3a0tFQWZCYlhRdVQzTXo2N3Fvb2daQ29NZFcxTEUtNw?oc=5",
+          "published_at": "2026-10-14T17:52:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Alibaba Launches Qwen N1 and N1 Pro AI Glasses in China - eWeek",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-14T17:39:21+00:00",
+      "summary": "Alibaba Launches Qwen N1 and N1 Pro AI Glasses in China eWeek",
+      "claims": [
+        "Alibaba Launches Qwen N1 and N1 Pro AI Glasses in China eWeek"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkejNYbVM3WFNBWWxfQURoRlJOZmpOcExsazluOWcwNHBPWEdLYTFhaGF3YS1NeVlEaUh1Y0N6bTh5YkVfQkFTdUx5Ny1VUUJrZ1dQd0l6ZkxRbnNSSUZJalpaNFdwUU0wRmExTzVn?oc=5",
+          "published_at": "2026-10-14T17:39:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Claude Submits a False Tip - God's World News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T17:30:00+00:00",
+      "summary": "Claude Submits a False Tip God's World News",
+      "claims": [
+        "Claude Submits a False Tip God's World News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PcmpOS0VpN1ZZV0lRSjhFdW94cV9kSG9JeXZvUlM1dmdqUTYxZnBEY0Z2bTZkR2d3UnV4Uk1qS3kyam1qMDhXeThqbkdZa2lrXzU3NWhmdWpkQnVpN2RzWGVic1dkRmFUaDQ0ekRB?oc=5",
+          "published_at": "2026-10-14T17:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "New project receives $2.3 million to develop a database and AI model to identify therapeutic peptides - News-Medical",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T19:43:00+00:00",
+      "summary": "New project receives $2.3 million to develop a database and AI model to identify therapeutic peptides News-Medical",
+      "claims": [
+        "New project receives $2.3 million to develop a database and AI model to identify therapeutic peptides News-Medical"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWFrbXBTTE9EcGpubGpRbW5vdlRqZ2JlVE9ZWUFWQUxuQUNETTJDd0J1LXk2NnB0Ulg5U21kbElCdDc5MWJJZnpwaDI4aEgxX20xNE1zWWhrM3dZU1QzRkYtc1JVdTM3UkZKUUFBaTFFQS1yOHBCdlNQTUxEZm12ZTZYWDNObjFvcTQ2ME16LXA5SDdPanRGaWN4M08zVWZkZWdtVHNPdnVzUE55RVJTTEpjcHcwbDAzc1g4Z3FVeXZRMXNoejlFVThsTDZfamtkbTdxNG5VaXlJZVpnSzV2Q1hDNA?oc=5",
+          "published_at": "2026-10-14T19:43:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Opinion | An A.I. Manifesto to End All A.I. Manifestoes - The New York Times",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T19:00:19+00:00",
+      "summary": "Opinion | An A.I. Manifesto to End All A.I. Manifestoes The New York Times",
+      "claims": [
+        "Opinion | An A.I. Manifesto to End All A.I. Manifestoes The New York Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGJaY0FxbGpVbnBkaDQtRmVKNVNMVXFEVGNPdlhBbW80cVctYjRiVjQtdFdwWXZHaDBoWE1LR0xrRHJWamZHdmlqSF96bk5xdEJWQ0hiVHFaTVNUcURkdnFiNF9vZEduZmdsTmdKbHZ4c0h5MFFObHJvdktpWFJCNGlrTXViNy1Wcy1Jcg?oc=5",
+          "published_at": "2026-10-14T19:00:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AMD MI355X joins AA-AgentPerf with DeepSeek V4.1 Flash results - Crypto Briefing",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-14T17:24:40+00:00",
+      "summary": "AMD MI355X joins AA-AgentPerf with DeepSeek V4.1 Flash results Crypto Briefing",
+      "claims": [
+        "AMD MI355X joins AA-AgentPerf with DeepSeek V4.1 Flash results Crypto Briefing"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPYmFLcFNqS0FGb0M4TDEtb0FmNGpLQjlkajFqTGswTHFNWUZqeHBGYlpkSVp0S21mLTRTc3J6SU1WNE9Ddm5kZEhtMDE0cFgzZ1pISEFMdHBHQ1g4NzV2UEgwZzhJVXNKYV9RcEVFSzRmREpEaXg0?oc=5",
+          "published_at": "2026-10-14T17:24:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Pioneers Call for International Body to Oversee Cybersecurity Standards - teleSUR English",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T17:07:08+00:00",
+      "summary": "Artificial Intelligence Pioneers Call for International Body to Oversee Cybersecurity Standards teleSUR English",
+      "claims": [
+        "Artificial Intelligence Pioneers Call for International Body to Oversee Cybersecurity Standards teleSUR English"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQmRUWmlidmttQkpYckdIdnNDemZmaXA3SEtQczVXeldjSzhzSE0wRWJPQm9WS0hmd0VvM1NvWlJzelhxYV9xbTM0SUQ4eExmbUMzbmdWQk9pWC1sUGhSZ2x5Mjc5ZTR2RHRlZGxCYW1fS2FXOVlkQWE3UThsdjR5UkMxdm1TX2NNNGh4aVpkM24yX19WUWx1ZkhDeFVoSW92QVJKV3ZzbjU3alNWdGk3X0JSZzVtNjA0WXFIUEhrV1lxQ28zcUE?oc=5",
+          "published_at": "2026-10-14T17:07:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Midjourney: Report Claims AI Model Is Worst Offender For Flouting Hollywood Copyright - Yahoo",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T16:48:59+00:00",
+      "summary": "Midjourney: Report Claims AI Model Is Worst Offender For Flouting Hollywood Copyright Yahoo",
+      "claims": [
+        "Midjourney: Report Claims AI Model Is Worst Offender For Flouting Hollywood Copyright Yahoo"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRU1GbzlrZGpCZUhLcXZjM0RudnZUMjVpV1p2LTEzWE1Bb29UU0JGUzNfbk1EdFJOMEhJRnJOdlZUX2VKT0JtWkJEdUlaVGlTWGt5RkVFRWZVdVJqc3RVNHR0a29DT1k3MnZsbjdBWlZHc2p0TFJPbS0zc3U5RGxQNkd6QVJUZmZPTEU3NXNVRUdVLXVXNEZDMWc2Y2p4c09WSFE?oc=5",
+          "published_at": "2026-10-14T16:48:59+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sam Altman Warns Against Treating AI Chatbots as Religious Authorities in Safety Alert - International Business Times UK",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T16:46:26+00:00",
+      "summary": "Sam Altman Warns Against Treating AI Chatbots as Religious Authorities in Safety Alert International Business Times UK",
+      "claims": [
+        "Sam Altman Warns Against Treating AI Chatbots as Religious Authorities in Safety Alert International Business Times UK"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPX0JROXZGY08xbUp3SVFua3ZsTTYxekZvYzBrVlJ2dHFXYjVBUGdjTG1lLTdPUDVqWmt2SFFxaDJJNkI0OGdaOHBCTzFYMEJfWDZQbFE5QlhwZVlmYVpNT2puYnNwNEwzcjNuX09hTnVVN3JFYV9NUXl4Y2QweGdPWUE2WldaY3k3WlE?oc=5",
+          "published_at": "2026-10-14T16:46:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI and PS5, Qwen 27B arrives on a jailbroken PlayStation 5 - Pasquale Pillitteri",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-14T16:30:45+00:00",
+      "summary": "AI and PS5, Qwen 27B arrives on a jailbroken PlayStation 5 Pasquale Pillitteri",
+      "claims": [
+        "AI and PS5, Qwen 27B arrives on a jailbroken PlayStation 5 Pasquale Pillitteri"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUmVfZ3l5XzhCYURydXh0TXRlcDVYb3ExZWpOSDRaRGxCbmN2b25xZnhtY1lrOW80NDdFa1RyT08yZENKMFNod0YybjVodl9sRFBtc19ZdXhtY0dTR2N0dEQ4aVAyWEFzZm10dUdaX2J6amxsVWxoSFVCMzFTN3YyRm5iNmdsMjRjYTN5TERVaFFhdXB2VVNZ?oc=5",
+          "published_at": "2026-10-14T16:30:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "What is AI Infrastructure and Why Does it Matter for Generative AI? - TechBullion",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-14T15:56:37+00:00",
+      "summary": "What is AI Infrastructure and Why Does it Matter for Generative AI? TechBullion",
+      "claims": [
+        "What is AI Infrastructure and Why Does it Matter for Generative AI? TechBullion"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNclpyX2FvRFQ4QmZXZDl2czRzRGlCVmNpMlozdHJ1SG5laUFFRUREZ0d6X3dEbGphZlFLQjROeHFlNlJDS2pOSGdBMUFEZnVhekJ0TG9XUnEtY1p4YnhQNk53bnE4Sl94TVZ3RTNSWDJkOWJ5djMwMHVESFloZ3BWSnFjcU4wSERxMFVjN3lFaFd5dnBjaXc?oc=5",
+          "published_at": "2026-10-14T15:56:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
