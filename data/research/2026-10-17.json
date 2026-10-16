@@ -1,0 +1,922 @@
+{
+  "report_date": "2026-10-17",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-16T22:08:38.769458+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 33
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5581, column 635"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "error",
+      "error": "no element found: line 5651, column 188"
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 149
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 51
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 76
+    }
+  ],
+  "successful_source_count": 10,
+  "raw_item_count": 316,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-16T21:30:50+00:00",
+      "summary": "GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between...",
+      "claims": [
+        "GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+          "published_at": "2026-10-16T21:30:50+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-16T18:43:33+00:00",
+      "summary": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+      "claims": [
+        "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "published_at": "2026-10-16T18:43:33+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "summary": "General Science",
+      "claims": [
+        "General Science"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+          "published_at": "2026-10-16T18:11:34+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-16T16:46:50+00:00",
+      "summary": "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...",
+      "claims": [
+        "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
+          "published_at": "2026-10-16T16:46:50+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-16T01:44:47+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+          "published_at": "2026-10-16T01:44:47+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "claims": [
+        "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+          "published_at": "2026-10-16T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/reflection-beam",
+          "published_at": "2026-10-16T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-15T20:34:01+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+          "published_at": "2026-10-15T20:34:01+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Causal Analysis of Robot Foundation Models Enables Efficiency Gains",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20750v1 Announce Type: new Abstract: Vision-language-action (VLA) models are a promising approach to general purpose robot manipulation. While the internal computation of vision-language models, which compose the backbone of VLAs, has been studied extensively, less is known about how their perceptual and semantic representations are transformed into action in VLA models. We study this question mechanistically in three frontier VLA models ($\\pi_{0.5}$, MolmoAct2, and MolmoBot) by analyzing the causal pathways through which the input image and the instruction shape actions. Across the three models, activation patching shows that causally relevant information influences the action expert (AE) through a narrow band of mid-to-late cross-attention layers, which we term the action-conditioning interface. The content of this information changes with token and layer within the model. Early-to-mid layer representations of the target noun token determine which object is selected, whereas mid-to-late layers carry the spatial information in text tokens that redirects the movement when patched. Where spatial information is stored in prompt tokens various based on the architecture. In MolmoAct2 the model forms task-conditioned representations at the text positions that follow the instruction, whereas $\\pi_{0.5}$ additionally stores this information at image token positions. We show",
+      "claims": [
+        "arXiv:2610.20750v1 Announce Type: new Abstract: Vision-language-action (VLA) models are a promising approach to general purpose robot manipulation. While the internal computation of vision-language models, which compose the backbone of VLAs, has been studied extensively, less is known about how their perceptual and semantic representations are transformed into action in VLA models. We study this question mechanistically in three frontier VLA models ($\\pi_{0.5}$, MolmoAct2, and MolmoBot) by analyzing the causal pathways through which the input image and the instruction shape actions. Across the three models, activation patching shows that causally relevant information influences the action expert (AE) through a narrow band of mid-to-late cross-attention layers, which we term the action-conditioning interface. The content of this information changes with token and layer within the model. Early-to-mid layer representations of the target noun token determine which object is selected, whereas mid-to-late layers carry the spatial information in text tokens that redirects the movement when patched. Where spatial information is stored in prompt tokens various based on the architecture. In MolmoAct2 the model forms task-conditioned representations at the text positions that follow the instruction, whereas $\\pi_{0.5}$ additionally stores this information at image token positions. We show"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20750",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Multi-Dimensional Featurizers Yield Fine-Grained Steering and Data Shaping in Robot Foundation Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20767v1 Announce Type: new Abstract: Can better feature discovery improve control over robot behavior through internal interventions and training data? Recent work in vision and language models reveals multidimensional features, motivating block-sparse featurizers (BSFs), which represent each feature in a low-dimensional subspace. We investigate whether recovering this structure provides an interpretable interface for steering vision-language-action models and shaping the data from which they learn. We show that BSFs recover several multi-dimensional task-relevant features underlying the model's computation (e.g., perception, language, proprioceptive state, episode phase, and control variables). We causally validate these features through fine-grained steering: targeted changes in visual perception, semantic representation, and spatial localization produce predictable changes in downstream action prediction. Finally, we use feature-based data attribution to isolate where a specific behavior (failure recovery) arises in the training dataset, identifying fewer than $1.4\\%$ of training tokens whose masking is sufficient to remove the targeted behavior. Overall, our results show how matching featurizers to representation geometry can provide more effective tools for understanding and changing robot behavior.",
+      "claims": [
+        "arXiv:2610.20767v1 Announce Type: new Abstract: Can better feature discovery improve control over robot behavior through internal interventions and training data? Recent work in vision and language models reveals multidimensional features, motivating block-sparse featurizers (BSFs), which represent each feature in a low-dimensional subspace. We investigate whether recovering this structure provides an interpretable interface for steering vision-language-action models and shaping the data from which they learn. We show that BSFs recover several multi-dimensional task-relevant features underlying the model's computation (e.g., perception, language, proprioceptive state, episode phase, and control variables). We causally validate these features through fine-grained steering: targeted changes in visual perception, semantic representation, and spatial localization produce predictable changes in downstream action prediction. Finally, we use feature-based data attribution to isolate where a specific behavior (failure recovery) arises in the training dataset, identifying fewer than $1.4\\%$ of training tokens whose masking is sufficient to remove the targeted behavior. Overall, our results show how matching featurizers to representation geometry can provide more effective tools for understanding and changing robot behavior."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20767",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Navigation by Skylight Polarization via Rayleigh Model Optimization on a Road Vehicle",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20797v1 Announce Type: new Abstract: Reliable absolute heading estimation is critical for road-vehicle navigation, particularly when magnetic, inertial, or GNSS-based references are degraded. This paper presents a skylight polarization navigation method that estimates vehicle heading by globally optimizing a Rayleigh sky model against measurements from a division-of-focal-plane polarimetric camera. The proposed framework combines a pinhole camera model, a single-scattering Rayleigh polarization model, and a solar position algorithm to synthesize the expected full image angle of polarization distribution for candidate vehicle states. A degree of polarization weighted root mean square error objective function compares measured and simulated polarization patterns, allowing the estimator to use all available sky information while attenuating low confidence pixels caused by clouds, buildings, foliage, and other depolarizing occlusions. Experimental evaluation is performed using three urban road vehicle trajectories collected with a roof mounted polarimetric camera and a high precision dual-antenna GNSS/INS reference system. Results show sub-degree RMS yaw error across all trajectories, ranging from $0.718^{\\circ}$ to $0.889^{\\circ}$. Compared with representative feature-based and model-based polarization navigation methods, the proposed approach reduces RMS heading error ",
+      "claims": [
+        "arXiv:2610.20797v1 Announce Type: new Abstract: Reliable absolute heading estimation is critical for road-vehicle navigation, particularly when magnetic, inertial, or GNSS-based references are degraded. This paper presents a skylight polarization navigation method that estimates vehicle heading by globally optimizing a Rayleigh sky model against measurements from a division-of-focal-plane polarimetric camera. The proposed framework combines a pinhole camera model, a single-scattering Rayleigh polarization model, and a solar position algorithm to synthesize the expected full image angle of polarization distribution for candidate vehicle states. A degree of polarization weighted root mean square error objective function compares measured and simulated polarization patterns, allowing the estimator to use all available sky information while attenuating low confidence pixels caused by clouds, buildings, foliage, and other depolarizing occlusions. Experimental evaluation is performed using three urban road vehicle trajectories collected with a roof mounted polarimetric camera and a high precision dual-antenna GNSS/INS reference system. Results show sub-degree RMS yaw error across all trajectories, ranging from $0.718^{\\circ}$ to $0.889^{\\circ}$. Compared with representative feature-based and model-based polarization navigation methods, the proposed approach reduces RMS heading error "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20797",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Feasibility Ceilings Before Learning: Sizing and Timing Bounds for Drone-Mesh Interception",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20823v1 Announce Type: new Abstract: A mesh of interceptors defending a fixed site must spread over the predicted arrival point of an approaching object. This is a recurring task in multi-agent robotics: N agents, each covering a disc of radius r, spread over a probability density so that a point drawn from it falls within some agent's disc. We give closed forms for the quantities that bound performance before any policy is chosen, and validate each by Monte Carlo. The uncertainty of a point predicted by extrapolating a noisy linear track follows from least-squares variance propagation plus a delta-method term for the uncertain arrival time, agreeing with simulation to within 1.8%. The coverage probability of a packed mesh admits a closed form accurate to 0.007 absolute, with a volumetric analogue. A naive area ratio misses a ceiling: while agents stay at least 2r apart, no mesh exceeds 90.69% coverage in the plane or 74.05% in a volume. This ceiling belongs to the separation constraint, not to the problem - permitting overlap substitutes Kershner's thinnest-covering density and removes it, the better regime above a crossover at p=0.80. Hexagonal packing is optimal among five arrangements; the centroidal-Voronoi configuration coverage control supplies reaches only half its coverage at small budgets. The Gaussian assumption is conservative under heavy tails and anisot",
+      "claims": [
+        "arXiv:2610.20823v1 Announce Type: new Abstract: A mesh of interceptors defending a fixed site must spread over the predicted arrival point of an approaching object. This is a recurring task in multi-agent robotics: N agents, each covering a disc of radius r, spread over a probability density so that a point drawn from it falls within some agent's disc. We give closed forms for the quantities that bound performance before any policy is chosen, and validate each by Monte Carlo. The uncertainty of a point predicted by extrapolating a noisy linear track follows from least-squares variance propagation plus a delta-method term for the uncertain arrival time, agreeing with simulation to within 1.8%. The coverage probability of a packed mesh admits a closed form accurate to 0.007 absolute, with a volumetric analogue. A naive area ratio misses a ceiling: while agents stay at least 2r apart, no mesh exceeds 90.69% coverage in the plane or 74.05% in a volume. This ceiling belongs to the separation constraint, not to the problem - permitting overlap substitutes Kershner's thinnest-covering density and removes it, the better regime above a crossover at p=0.80. Hexagonal packing is optimal among five arrangements; the centroidal-Voronoi configuration coverage control supplies reaches only half its coverage at small budgets. The Gaussian assumption is conservative under heavy tails and anisot"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20823",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Persistent Profile-Guided Reset-Free Recovery Improves Final Gait Selection after Irreversible Leg Damage",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20838v1 Announce Type: new Abstract: Damage-recovery algorithms often rank gaits from short trials, yet a gait that performs well briefly may not remain effective during continued execution. In reset-free recovery, each trial also changes the physical state inherited by the next. We introduce persistent profile-guided reset-free recovery (PGRR), which predicts multiple outcomes over repeated gait execution and uses conservative uncertainty-aware estimates to guide short online probes without resetting the robot. Across 108 matched MuJoCo tasks spanning leg amputation, distal fracture, and joint lock, PGRR improves final quality by 0.106 and slot-averaged recovery quality (SRQ) by 0.044 relative to an IT&E-inspired Gaussian-process baseline, while reducing low-quality failures by 27.8 percentage points. Final-quality gains occur in all three damage classes. Against no adaptation, PGRR also improves final quality and reduces low-quality failures, whereas the aggregate SRQ difference is inconclusive. Development ablations identify conservative uncertainty handling as the clearest supported contributor to the observed gains. These results show that PGRR can identify stronger post-damage gaits under continuous physical state and that final-gait quality and recovery-summary performance provide complementary evidence for evaluating reset-free recovery.",
+      "claims": [
+        "arXiv:2610.20838v1 Announce Type: new Abstract: Damage-recovery algorithms often rank gaits from short trials, yet a gait that performs well briefly may not remain effective during continued execution. In reset-free recovery, each trial also changes the physical state inherited by the next. We introduce persistent profile-guided reset-free recovery (PGRR), which predicts multiple outcomes over repeated gait execution and uses conservative uncertainty-aware estimates to guide short online probes without resetting the robot. Across 108 matched MuJoCo tasks spanning leg amputation, distal fracture, and joint lock, PGRR improves final quality by 0.106 and slot-averaged recovery quality (SRQ) by 0.044 relative to an IT&E-inspired Gaussian-process baseline, while reducing low-quality failures by 27.8 percentage points. Final-quality gains occur in all three damage classes. Against no adaptation, PGRR also improves final quality and reduces low-quality failures, whereas the aggregate SRQ difference is inconclusive. Development ablations identify conservative uncertainty handling as the clearest supported contributor to the observed gains. These results show that PGRR can identify stronger post-damage gaits under continuous physical state and that final-gait quality and recovery-summary performance provide complementary evidence for evaluating reset-free recovery."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20838",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "A Phenomenology of Neural Geometry in Vision-Language-Action Models",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20840v1 Announce Type: new Abstract: Robotic manipulation is inherently geometric, but what shape does the world take inside the policy that performs it? Prior work on vision-language-action (VLA) policies establishes that task-relevant variables are linearly readable from activations, yet readability certifies only that a variable is present and says nothing about the shape its values trace, which may be curved and multi-dimensional. Using controlled sweeps, natural rollouts, linear probes, and activation interventions, we build a taxonomy of seven task-relevant concepts in VLA models. We find that realized geometry is predominantly multi-dimensional and is shaped by the constraints under which the policy acts. Physical joint limits, for example, leave wrist orientation an open arc rather than a circle, and distance to the target, a single scalar, is realized in two orthogonal subspaces, a coarse ruler for the approach and a fine ruler for the grasp. The same geometries reappear in two further VLA models on real-world robot data, indicating that they are neither model-specific nor artifacts of simulation. We demonstrate how the findings are actionable by steering along the geometry a concept realizes. Overall, this work lays out an initial phenomenology of realized geometry in VLA policies and demonstrates that a concept's shape carries as much importance as its rea",
+      "claims": [
+        "arXiv:2610.20840v1 Announce Type: new Abstract: Robotic manipulation is inherently geometric, but what shape does the world take inside the policy that performs it? Prior work on vision-language-action (VLA) policies establishes that task-relevant variables are linearly readable from activations, yet readability certifies only that a variable is present and says nothing about the shape its values trace, which may be curved and multi-dimensional. Using controlled sweeps, natural rollouts, linear probes, and activation interventions, we build a taxonomy of seven task-relevant concepts in VLA models. We find that realized geometry is predominantly multi-dimensional and is shaped by the constraints under which the policy acts. Physical joint limits, for example, leave wrist orientation an open arc rather than a circle, and distance to the target, a single scalar, is realized in two orthogonal subspaces, a coarse ruler for the approach and a fine ruler for the grasp. The same geometries reappear in two further VLA models on real-world robot data, indicating that they are neither model-specific nor artifacts of simulation. We demonstrate how the findings are actionable by steering along the geometry a concept realizes. Overall, this work lays out an initial phenomenology of realized geometry in VLA policies and demonstrates that a concept's shape carries as much importance as its rea"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20840",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Clarity-Driven Adaptive Mission Planning for a Solar-Powered Autonomous Surface Vessel",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20871v1 Announce Type: new Abstract: This paper presents a comprehensive methodology, backed by simulation and experimental results, for an adaptive mission planning strategy that is mathematically grounded in the maximization of the information-driven quantity of clarity. In particular, the methodology introduced in this work addresses the use of sustainably powered autonomous surface vessels (ASVs) to perform scientific missions that prioritize locations of maximum interest. Because these locations of maximum interest are not known a priori but are rather identified based on in-situ measurements, online adaptation is essential for mission planning. Furthermore, the reliance on a limited-power renewable resource requires an adaptation strategy that maximizes information gathering subject to mobility restrictions imposed by the renewable resource. Our approach addresses these challenges through a clarity-driven ergodic search, where clarity represents a mathematical quantity that has been rigorously linked to differential (information) entropy. In our approach, a target clarity map is adapted online to reflect the prioritization of certain areas based on in-situ measurements, and an ergodic path planner continually re-plans based on the target clarity map and ASV speed limitations (driven by the renewable propulsion source). Focusing on a solar-powered ASV, we presen",
+      "claims": [
+        "arXiv:2610.20871v1 Announce Type: new Abstract: This paper presents a comprehensive methodology, backed by simulation and experimental results, for an adaptive mission planning strategy that is mathematically grounded in the maximization of the information-driven quantity of clarity. In particular, the methodology introduced in this work addresses the use of sustainably powered autonomous surface vessels (ASVs) to perform scientific missions that prioritize locations of maximum interest. Because these locations of maximum interest are not known a priori but are rather identified based on in-situ measurements, online adaptation is essential for mission planning. Furthermore, the reliance on a limited-power renewable resource requires an adaptation strategy that maximizes information gathering subject to mobility restrictions imposed by the renewable resource. Our approach addresses these challenges through a clarity-driven ergodic search, where clarity represents a mathematical quantity that has been rigorously linked to differential (information) entropy. In our approach, a target clarity map is adapted online to reflect the prioritization of certain areas based on in-situ measurements, and an ergodic path planner continually re-plans based on the target clarity map and ASV speed limitations (driven by the renewable propulsion source). Focusing on a solar-powered ASV, we presen"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20871",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Race to Recovery: Designing Advanced Safety Systems for Autonomous Driving via Learning Autonomous Racing",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-16T04:00:00+00:00",
+      "summary": "arXiv:2610.20873v1 Announce Type: new Abstract: Vehicles that lose control at the handling limit through icing, hydroplaning, or an abrupt evasive maneuver fall outside the operating envelope of production safety systems such as electronic stability control, which focus on preventing instability rather than recovering from it. Expert drivers regain authority in these conditions by drifting. Existing autonomous recovery approaches are validated on idealized scenarios, define \"recovered\" states empirically and inconsistently, or rely on offline-planned trajectories rather than acting online. We address these gaps by first training a racing policy with reinforcement learning that learns drifting as a time-optimal maneuver, then adapting it to recovery through continued training with a minimum-time reward. We define recovery relative to a phase-plane-grounded stable equilibrium and introduce Gym-Khana for controller training and evaluation. Across 294 initial loss-of-control states, the transferred policy improves recovery by 186.8% over a Stanley path tracker and outperforms both a nonlinear model predictive controller and a recovery-only policy trained from scratch, while also recovering faster on states the baseline can already handle. An ablation shows that racing pretraining, rather than broader initial-state exposure alone, drives this gain. Deployed on a physical 1:10-scale ",
+      "claims": [
+        "arXiv:2610.20873v1 Announce Type: new Abstract: Vehicles that lose control at the handling limit through icing, hydroplaning, or an abrupt evasive maneuver fall outside the operating envelope of production safety systems such as electronic stability control, which focus on preventing instability rather than recovering from it. Expert drivers regain authority in these conditions by drifting. Existing autonomous recovery approaches are validated on idealized scenarios, define \"recovered\" states empirically and inconsistently, or rely on offline-planned trajectories rather than acting online. We address these gaps by first training a racing policy with reinforcement learning that learns drifting as a time-optimal maneuver, then adapting it to recovery through continued training with a minimum-time reward. We define recovery relative to a phase-plane-grounded stable equilibrium and introduce Gym-Khana for controller training and evaluation. Across 294 initial loss-of-control states, the transferred policy improves recovery by 186.8% over a Stanley path tracker and outperforms both a nonlinear model predictive controller and a recovery-only policy trained from scratch, while also recovering faster on states the baseline can already handle. An ablation shows that racing pretraining, rather than broader initial-state exposure alone, drives this gain. Deployed on a physical 1:10-scale "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Robotics",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.20873",
+          "published_at": "2026-10-16T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Glimpse vs Qwen 3.8: A Million-Token Window and a Number Nobody Has Published - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-16T21:47:24+00:00",
+      "summary": "Glimpse vs Qwen 3.8: A Million-Token Window and a Number Nobody Has Published OrcaRouter",
+      "claims": [
+        "Glimpse vs Qwen 3.8: A Million-Token Window and a Number Nobody Has Published OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rdlE1OXNmRElDUXNzS1NQWXJuaF9UWHRTY09fZjh6RzNMaElEZ3ZiQ0QyZkNZRi1wS1ZWazlwWnVxMTRVdmFnZ0Z3X1daOVp4clpLdGR6YlN4SmI2Ry1N?oc=5",
+          "published_at": "2026-10-16T21:47:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Claude Mythos 5 vs Kimi K3: Due fallimenti di contenimento, due risposte completamente diverse - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-16T21:40:15+00:00",
+      "summary": "Claude Mythos 5 vs Kimi K3: Due fallimenti di contenimento, due risposte completamente diverse OrcaRouter",
+      "claims": [
+        "Claude Mythos 5 vs Kimi K3: Due fallimenti di contenimento, due risposte completamente diverse OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1b2E3LUMxSlQ5V3JacXkwd0dJaVRGdEJGSnZtRFIxYWVwTE5KYlJremxtcEZFYWRPLU1rZUZ3eFNZeFlqanlpNVZnOWdDbGZtd2IyN1lzdmNVLThGc2xseG1wRndvWndXZDlVYg?oc=5",
+          "published_at": "2026-10-16T21:40:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Claude Mythos 5 vs DeepSeek V4 Pro: A 15× Price Gap, and Only One of Them Is Cheap at What It Is Good At - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-16T20:49:18+00:00",
+      "summary": "Claude Mythos 5 vs DeepSeek V4 Pro: A 15× Price Gap, and Only One of Them Is Cheap at What It Is Good At OrcaRouter",
+      "claims": [
+        "Claude Mythos 5 vs DeepSeek V4 Pro: A 15× Price Gap, and Only One of Them Is Cheap at What It Is Good At OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93bzlUX25uTTdNZjJOZHo2NWtKRVZfV0RtR19UQkJ6bUFjdXFEVlA4VXBTekhHbEo2czllalJ2cFFfN0FwbllMSHNISHV2N0NkQTB0NUZMeEh3Wkp0NE1RRkE2UFFmaUt4Ykh3d2hyVnVUaHc?oc=5",
+          "published_at": "2026-10-16T20:49:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "GPT-Live-1 vs Qwen-Audio-3.1: The Full-Duplex Fight Is the One Worth Having - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-16T20:36:27+00:00",
+      "summary": "GPT-Live-1 vs Qwen-Audio-3.1: The Full-Duplex Fight Is the One Worth Having OrcaRouter",
+      "claims": [
+        "GPT-Live-1 vs Qwen-Audio-3.1: The Full-Duplex Fight Is the One Worth Having OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9yd1VWUVBId1dxWnIzLW95ZWRPUVdkWDBjUUJTX2VNMFpjNnZadTdKZTgxTW9xVVl0NW1PTGh5b0FFTkF2bG5sNkVsZzVkc2xTN2c4aV9kV0thRkZ6dGhuV1FVQllWT2dZRnBJ?oc=5",
+          "published_at": "2026-10-16T20:36:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Xing 4.0 29B-A4B vs Qwen 3.8 27B: Vision Versus Tool Calling - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-16T20:15:19+00:00",
+      "summary": "Xing 4.0 29B-A4B vs Qwen 3.8 27B: Vision Versus Tool Calling OrcaRouter",
+      "claims": [
+        "Xing 4.0 29B-A4B vs Qwen 3.8 27B: Vision Versus Tool Calling OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CWUJqTjAxX3R5TUN4ejZXT2I3Smhzd0gwNkJ1bll1MV9jMlllWlc1NHBDbWtnYVVmdWJaWHNpSjhWQ3NRbjRJTWV3WmQ3bTE2WVdDTnBlVWd5U05WLXJDNFZ1SU1FZw?oc=5",
+          "published_at": "2026-10-16T20:15:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "FLock.io Launches Qwen-powered, Open-Source Decision Model for Local Edge Deployment - Macau Business",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-16T18:01:09+00:00",
+      "summary": "FLock.io Launches Qwen-powered, Open-Source Decision Model for Local Edge Deployment Macau Business",
+      "claims": [
+        "FLock.io Launches Qwen-powered, Open-Source Decision Model for Local Edge Deployment Macau Business"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY3cxOEhaQ0lVb3F2TXZBbTB6RUNUNTdudk91OUp5TjdYU251SDRKQWl6WDRDbTNtYXQ4NU5wMVJ2c2tkT1lpcXpDenBfREU3MXN0OEdMaEJ6SWlGMy1EWWh1eFZBcGxUU09WUmR6N1Y4ek04MGs3Z2hQQkpNay1HYWV6QUFsanZQa0prdTQ4TDRCMXEwdE14VmxWSU5nX1Y4U24wVFhJSzhUdFBNbllz?oc=5",
+          "published_at": "2026-10-16T18:01:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "'Cert-In alert on AI agents an early warning, no major financial loss' - Business Standard",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-16T17:36:13+00:00",
+      "summary": "'Cert-In alert on AI agents an early warning, no major financial loss' Business Standard",
+      "claims": [
+        "'Cert-In alert on AI agents an early warning, no major financial loss' Business Standard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZ1JaU3Yyd3BsVXVCQmhWSmdpX1E2d09pWFJIb1FFdk1XUlg5Vi1Udkt0WmdRYkF6UTdLalEtMTYyVVRNNC16S3JicEc2enpsVDVvOXg3MWUzdmlJanBrNDFvSTNyb0tFdENFcWhQQmhKWWRzQmtkallaVjFBZXFuOFBUZG54NWNRUm5rMlMtaWY1LTBQSjZaVW9rMzVGSERMOHRPQlRaME1wWDRLMi0waW9NeS1YR2dYYUlOOV96QWZyWV92Rm1vR1YxN1BJRnlZdUFVOUQwRlphcjJPTlhvOURudjF3QnFzYS10VWlzZHdSd9IB8gFBVV95cUxNZ1JaU3Yyd3BsVXVCQmhWSmdpX1E2d09pWFJIb1FFdk1XUlg5Vi1Udkt0WmdRYkF6UTdLalEtMTYyVVRNNC16S3JicEc2enpsVDVvOXg3MWUzdmlJanBrNDFvSTNyb0tFdENFcWhQQmhKWWRzQmtkallaVjFBZXFuOFBUZG54NWNRUm5rMlMtaWY1LTBQSjZaVW9rMzVGSERMOHRPQlRaME1wWDRLMi0waW9NeS1YR2dYYUlOOV96QWZyWV92Rm1vR1YxN1BJRnlZdUFVOUQwRlphcjJPTlhvOURudjF3QnFzYS10VWlzZHdSdw?oc=5",
+          "published_at": "2026-10-16T17:36:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Meta Muse Spark Open is trending on social media – A comparison with DeepSeek reveals why - The Financial Express",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-16T16:20:05+00:00",
+      "summary": "Meta Muse Spark Open is trending on social media – A comparison with DeepSeek reveals why The Financial Express",
+      "claims": [
+        "Meta Muse Spark Open is trending on social media – A comparison with DeepSeek reveals why The Financial Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM1kyZ1FEZ3BFLWpxLVc4RG5aVTM1ci1XdGZaNjZWUnhMcHZ1cm5EU21TN2praVpBTk5Mc2VUWk9yMl9SVUY2YURMNTVIRThtb0pod1h3YTd1VWdrcGU4WjJlX3VwQjJFUFN4SlFqR1d2S1dkekFtem8xRC1YSG9ZUm5feGhPUlY0YlZsTmZJeXJ3TFZvVEtFSFZqUGxPSUdfSlJ6cGxhUlloS3NmZE1sZGtWWjVobll5UEFDUUVyZE54Q3FSMEY4ZF9LTTAwOFVmVEVUSWpqdl9RZHBtVnfSAeQBQVVfeXFMT0hacVVaSUM4em9Ldk5pTi1UNnlrY3VubjRpY1dKdV91bExOb2tqcm1XQzRXeUpsazhQaWRIM3RUaElSaXlQSG1LaDZZX2hPT3A5RVV6bi1oOGppTDFrMGdfQUJVTnZQcVBqVk5Xa3BIdkFGanJjcjMteGI5RnFmTE9TVktNQnd4UDVrRzdCbTJJT1R3OUthUHhoM0pGcEFWNDZ5TDUzM0hIdDJuakxYelZvdzJQQ3VWWHkyX0hQSXJVRll5cE02cUsxTk15b1B0X3J2MjJUWEFmVUdpRjczaFBLR3FQ?oc=5",
+          "published_at": "2026-10-16T16:20:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
