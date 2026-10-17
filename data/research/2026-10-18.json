@@ -1,0 +1,972 @@
+{
+  "report_date": "2026-10-18",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-17T21:32:50.640073+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 53
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 64
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 122,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-16T21:30:50+00:00",
+      "summary": "GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between...",
+      "claims": [
+        "GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+          "published_at": "2026-10-16T21:30:50+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "claims": [
+        "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/itau-generative-ai",
+          "published_at": "2026-10-16T19:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-16T18:43:33+00:00",
+      "summary": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+      "claims": [
+        "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "published_at": "2026-10-16T18:43:33+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "summary": "General Science",
+      "claims": [
+        "General Science"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+          "published_at": "2026-10-16T18:11:34+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-16T16:46:50+00:00",
+      "summary": "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...",
+      "claims": [
+        "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
+          "published_at": "2026-10-16T16:46:50+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek releases AI model update, opens search APIs to all users - Investing.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T21:00:00+00:00",
+      "summary": "DeepSeek releases AI model update, opens search APIs to all users Investing.com",
+      "claims": [
+        "DeepSeek releases AI model update, opens search APIs to all users Investing.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGdtMm0zTGN2ZDByNFhUUExKanVmSGhiOWgxVG8tdW1fWS1pUGlGTWUyTkZUbkR3R3Vha1VIUXNsUDlRNXU0a2lsdHJsaXJMUXRFX180ZjE5S0ttUDVKdlRMUlFxZ1EwVlM5cmN2d1JBU2V0b3Q4NGFfMjdqTTJ4c1h1OTN3c0pld3ViZF9wSkFxdFdpV3dNZU9kY0tOLWFpQXNJSVBEWVR1R1QyZFhBVDE2NWxVa1V6TTRRR3R3?oc=5",
+          "published_at": "2026-10-17T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls - Startup Fortune",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T20:45:10+00:00",
+      "summary": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls Startup Fortune",
+      "claims": [
+        "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls Startup Fortune",
+        "DeepSeek Opens Its Search API at $0.75 per 1,000 Calls FourWeekMBA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdzJ3R3lub3I0cERXWXZENnI1ME8tQjBXbjB2WkRVbEdUTEhOczFNWk5LZXRLd0w3RlhVS0djS0VrUEFQUVpkQnAyR0h2TVhQbHQ2ZEdyanhtUWJnRk9wQnI2emhLVFB6c1dtbjJyN0Qwdnk2WUFma2stdjlHam9GaTZmREJzcDh5U0c1LUh3RlZ6bUJK?oc=5",
+          "published_at": "2026-10-17T20:45:10+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSVpFYzBYckFnWjFDRzFWYXRxQlZsSk53T3FyLWJvbDA5R1VUUGRmVU1VZFFsNFJ3TXR1bkVpc1FDZThLZGJheHBtUDF3Z1I4ejhJUExHNzRLdEhTak5Nbm9qa3huelFldDVKSXIwbmhNQTUxeTlhek9pSzRMVnlhNHpocUJiUUU?oc=5",
+          "published_at": "2026-10-17T13:08:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek prices web search for AI agents at $0.75 per 1,000 calls - PPC Land",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T20:30:24+00:00",
+      "summary": "DeepSeek prices web search for AI agents at $0.75 per 1,000 calls PPC Land",
+      "claims": [
+        "DeepSeek prices web search for AI agents at $0.75 per 1,000 calls PPC Land"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1poTVZpWnR5dFNydER0dTFQVmZmZnBDTFhrYl8xWEpiWmNnRzBYZWFMdjAwNjR4SEljQzUzZFN5aVRZbW05eHE2bDN4amJ0c2s3TkI4dFl6R2QzbmtOQWFxM2pWTmZzd1BtM1lhd2gzWXVTRHNJT0JHR21GSVZ2WHl2bG02UFIwMHc?oc=5",
+          "published_at": "2026-10-17T20:30:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol - Wccftech",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T19:01:00+00:00",
+      "summary": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol Wccftech",
+      "claims": [
+        "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol Wccftech"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWGl2Z05pc2NyUm5mNzFIMGNsTTFIRE5tejBmQjduLS1xeXNBZzF6LUMtWFoxZ1FNeE9yUEUwWFBUYjhXVWY5UHo3dVhZcVA3QVhQM0o2LWJnVVBGdUUtWE51aWlwRks2a3d1NGc2RE5zN1VFNjhtbEJucV9pc3JsRzBhaThyY3ZscjhsUHJLdnpHMk9wdGxkMFMxT0ZSTERSb3p3VkJnR0JHNTk5X2wtNDNQMHFJcFhLUFJNRERxUDJIZ1I2d0t1QWdYdTFiYk9FMFYteHNITnJnbW5pN2txTHdUS1JkLU0tZFhVb3YxOEVUQmZvT2V6X19CTdIB-wFBVV95cUxOWGl2Z05pc2NyUm5mNzFIMGNsTTFIRE5tejBmQjduLS1xeXNBZzF6LUMtWFoxZ1FNeE9yUEUwWFBUYjhXVWY5UHo3dVhZcVA3QVhQM0o2LWJnVVBGdUUtWE51aWlwRks2a3d1NGc2RE5zN1VFNjhtbEJucV9pc3JsRzBhaThyY3ZscjhsUHJLdnpHMk9wdGxkMFMxT0ZSTERSb3p3VkJnR0JHNTk5X2wtNDNQMHFJcFhLUFJNRERxUDJIZ1I2d0t1QWdYdTFiYk9FMFYteHNITnJnbW5pN2txTHdUS1JkLU0tZFhVb3YxOEVUQmZvT2V6X19CTQ?oc=5",
+          "published_at": "2026-10-17T19:01:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "New AI framework bridges a critical gap in mid-range weather forecasts - Microsoft",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-17T17:30:04+00:00",
+      "summary": "New AI framework bridges a critical gap in mid-range weather forecasts Microsoft",
+      "claims": [
+        "New AI framework bridges a critical gap in mid-range weather forecasts Microsoft"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVENVYkFuNV9XZWh5dTRjZG5EaXM3WktvMGg5dEItdkNaRjhFUmhvSXhtWVdsWGJ2VXhVbTlha0dsWkRwbGxjWUhoOFdDakR5Z094X0tnVEU0bHNYcVpuRnJxa3phaWZvVDdpZzRORk9vTUt2ZjF2eDdWLWI0b3lqNEZNUHBINXg1WFBPeHMzcTBYbkQ2LWFjZGE1Sk4xRG1zUGJQb1ZUVUhORnpYclJvMlMycjNJTHgwRHc?oc=5",
+          "published_at": "2026-10-17T17:30:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Chinese startup DeepSeek releases V4.1-Flash-1017 AI model live on platforms - NewsBytes",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T16:41:17+00:00",
+      "summary": "Chinese startup DeepSeek releases V4.1-Flash-1017 AI model live on platforms NewsBytes",
+      "claims": [
+        "Chinese startup DeepSeek releases V4.1-Flash-1017 AI model live on platforms NewsBytes"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0dHNmxMaGdsNy1oNDRYZUR3VE5SV2xfZGhxeXZtYTFmRV9Jbkp1b3V4cGVoUDBkZDUxYmpUVGRXUHlTbFJqSWVEQ0hLTS1zMWYxeUtPSXctZUJEM00tU0hXUEg5YzBhS2Nibnc2cWdnTVdPcHlIdXBkZTNsZS1SZEZkdC1HeUJKLU9FSTZtLTRiNDlPemphbzhKNFlyRlBzaVZwVUxTUVZZTmVrLWRwcGlFanAzREo5YUZrd0NDWQ?oc=5",
+          "published_at": "2026-10-17T16:41:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Raikkonen Net Worth: Why the F1 Legend’s Legacy Goes Beyond Money - Sports Tiger",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T16:37:46+00:00",
+      "summary": "Kimi Raikkonen Net Worth: Why the F1 Legend’s Legacy Goes Beyond Money Sports Tiger",
+      "claims": [
+        "Kimi Raikkonen Net Worth: Why the F1 Legend’s Legacy Goes Beyond Money Sports Tiger"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSE9CWlRicjdaeXpnbFdoV0xacEtmR2t6ZmRIVzYxTXpaQXdfVk9zclMxYlI0M09TVjBCaU5ZYWVnc1NRdkNsTklkdzJTZkZSNkVhTnFxQmY0RkFpUVNsckZ0c3hFSVFwVWNKNzdRRXhFMGN3S2FBejNCdnlhYnNVV21GWkxTNEd0NGM5aTdoYWpCRHYzMWRoTzJvbjFFYXROWlN1ODRkRjd2bnc?oc=5",
+          "published_at": "2026-10-17T16:37:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Rogue AI Agents Breach Indian Companies Without Detection - TechJuice",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-17T16:27:35+00:00",
+      "summary": "Rogue AI Agents Breach Indian Companies Without Detection TechJuice",
+      "claims": [
+        "Rogue AI Agents Breach Indian Companies Without Detection TechJuice"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYzhUSlQ2WVAteFRraGZCenh3clhJZ3padTBTT1FtRkpUZ3lIVGZUVHAzeWt6X0hlZDBhaWtVeFFDUU1pV3cyLU8weDZtakJXQ2EyRy00VTNqaEJOVllHMG1WUGRWVXhLQXJfaUVrekZacWN0emFfMWRtaU5kVXNrMTVJWi1vMTE4YTRn?oc=5",
+          "published_at": "2026-10-17T16:27:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Hubtel deployed AI to help ECG identify suspected electricity theft – CEO - MyJoyOnline",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-17T20:30:59+00:00",
+      "summary": "Hubtel deployed AI to help ECG identify suspected electricity theft – CEO MyJoyOnline",
+      "claims": [
+        "Hubtel deployed AI to help ECG identify suspected electricity theft – CEO MyJoyOnline"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVHZqRXpfTkNHeXQ0MV9SdXJRajJjOUFGeEZYVDNrZ1NneThuTEJYSzJ3ZGhUYVhBVlhRWHdhU3IyOVItQnlpSUJYRFZRM09ydmJCQ19nR2JpbmVrWXVMMW13c3ZsdWVZcHJ4Q0dNZnEzV0VYNlJoVEJDY1NjZU9YU1FzQjRnaEFoWFV4Zlp5UWFuRTN3Y2hzNnhneFh1RHY1ZWc?oc=5",
+          "published_at": "2026-10-17T20:30:59+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek pushes out updated AI model it says is faster, leaner - The Economic Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T16:23:21+00:00",
+      "summary": "DeepSeek pushes out updated AI model it says is faster, leaner The Economic Times",
+      "claims": [
+        "DeepSeek pushes out updated AI model it says is faster, leaner The Economic Times",
+        "DeepSeek pushes out ‘faster, leaner’ updated AI model The Straits Times",
+        "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner Bloomberg.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPN3c1eFAtVGhUa3NXbVpLMjJZaFBDVEEwdGpoTkd6S2pRbWNrdkNMOFp2VGs3bXN3WFZEUV9SQzZkZkozVzB4dHFzSlFReERUbERINzhlM05Eb05LWTIzVUdCWG5xRnZPcTZsOWhhZjU3RnpWRlYzNUFESWJrZ0tyUVBqTjFBUG41R0lzZ0RqU2VSYTBjQ2cyZS1lcWNoMnhBUElUdnROTlhsZnpqUnV4VjhUTzBRX3dFTVphMzNIUmdQM2JER1JkRzllTTRiZnpGVTNCa3VuNnZBRUhtT1NpQzZ2UkNTT29I?oc=5",
+          "published_at": "2026-10-17T16:23:21+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjJJNGtEbm5FOVg2WjBNc2JDX051YTB1aEEzcjBQdlRRbHBnU2pfRnBYaGNSVjRsTWctWFVsVmpLd0hTS1JiNjJWd2RXQ3JQb0dSRkctN2xPZ0MwdTYwcWpxdEVlQ0RaYm5MTzJ4UmFmM3lFWWNFblNTWmQwM1pCcFNfekc4R0lXT0VQZjRJYTNsMFlNb2lJX1A5RnE?oc=5",
+          "published_at": "2026-10-17T14:37:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd0JqQlRDd3JxZG9sWmUyLU03cFkwSDJLbkhOc0tpa2NUS24zby1jU0JQX242dEdFYWtRSXNNbUJOM2hwdDFJX3VKc1E4UFN1VVVsYi1ncl9qNkg4ZnhhcERDMkc1ZkhXUlRxUy1BdW9JTC1wYmV5YVlTZmYtUWlLRnNJQ2ZUWEw3UHNXMkdNMUdVLXJGR2M1YXRYcFFacFNmSWJCLVNxNkZ4bTZ4UXVpOXNR?oc=5",
+          "published_at": "2026-10-17T13:47:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Meta’s New AI Terms Could Let It Use News Content for Free, Raising Publisher Concerns - LatestLY",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-17T16:15:48+00:00",
+      "summary": "Meta’s New AI Terms Could Let It Use News Content for Free, Raising Publisher Concerns LatestLY",
+      "claims": [
+        "Meta’s New AI Terms Could Let It Use News Content for Free, Raising Publisher Concerns LatestLY"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQnlmcGVWSE8yLW5FV09zSWVVNTk2VFNOa3RXaTA1YzhGV3owdF9UYnlZaW1wLTlJTVdlZi1raFBPdTJYWmFma3N5Tk1oblBmSjFyZC1NdEQzNmpqNjdIVWhGRHRIUEZ2Skl2SldYOFpBcFZoWHRrbVZNTnRYdjRlRGF1ZldjVnAzYXZfVEJ2WWNSeDhVV05EMW9qTWZ4T2d1NXBMVEItVGJBekpEdXRERXUySG5VMTdFOGRBVUlOZWhfSXVyckR4dWRGeDVlZ9IB0wFBVV95cUxNQ3U3dXUyUTlDZUhtV0t3REliVWpWN2tDTVh3MXJlUEdZejBIb21ObHl2U3V1aEZzVnZzVVdoQmM4SlkwZzVsSVVjbEU4dkFuWEVRYU12OWZORDdxQ3NrT2U0STZLbVZDaURyWW1CRU00MGhfMGpTcnBod1FKSk15TmFVcjd6VzVHbklQQ3AxRW5nOExhR24xUHpKUl90YWNSRnVOZ0VXTmR5WTlpWkJqRXMwenpmbmg4RFN4NWJESmtPU2pSSzJCZjJ6RlZlckl3M0c0?oc=5",
+          "published_at": "2026-10-17T16:15:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained - shattered.io",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T16:04:51+00:00",
+      "summary": "Microsoft Decision-1: 9B Qwen Model Launch Explained shattered.io",
+      "claims": [
+        "Microsoft Decision-1: 9B Qwen Model Launch Explained shattered.io"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJWVVOOHQ2RU1aenVfeHYxZ05LcVVMM0Q4dTA1OW51dkRjajJrTzdmNllEMHVxNFdNOGdaZ193T2hxZmJURUNSZWtsZHFoc3NTc1JTMTNIcF9uemlEQk85M3JyaEEwUW8zQnBLRmJOVS1SZw?oc=5",
+          "published_at": "2026-10-17T16:04:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek updates AI model, intensifying competition with Anthropic and OpenAI - Crypto Briefing",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T16:03:20+00:00",
+      "summary": "DeepSeek updates AI model, intensifying competition with Anthropic and OpenAI Crypto Briefing",
+      "claims": [
+        "DeepSeek updates AI model, intensifying competition with Anthropic and OpenAI Crypto Briefing"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYbzZkRHRBalN1cUpOaWpCXy1jS2dreERsalRFeE5lOXRHSktZY1ZnXzFXTnBuU0JGSmtkcmVtSTFRaFBCY053U01PbnNUcU5DbFZvZU9kcm43bkwwaHhoN1RSS3BDR2d4bUhvN2piYXd6VXh5Mi1uZ1huMA?oc=5",
+          "published_at": "2026-10-17T16:03:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "IMF head flags ‘optimism,’ ‘worry’ at meetings in Bangkok - Taipei Times",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-17T16:00:00+00:00",
+      "summary": "IMF head flags ‘optimism,’ ‘worry’ at meetings in Bangkok Taipei Times",
+      "claims": [
+        "IMF head flags ‘optimism,’ ‘worry’ at meetings in Bangkok Taipei Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EWm4xaEEzeXRZWW10dlRLV1RKTzJyWmtRV1JMSTVUek10TUh4aDd1Ni1pNzJPbG81X3dNWHZwMzBCdGl3Szhqd09CdzJjRFNCd2lNb0tFYVNVWUNKZS0zTmh3ZlVRM2dEUGo2U1FIbE90c1U2b0E?oc=5",
+          "published_at": "2026-10-17T16:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek V4.1 Flash Gets New Model With Big Coding Gains, Cheaper Agent Tasks - ProPakistani",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T15:45:24+00:00",
+      "summary": "DeepSeek V4.1 Flash Gets New Model With Big Coding Gains, Cheaper Agent Tasks ProPakistani",
+      "claims": [
+        "DeepSeek V4.1 Flash Gets New Model With Big Coding Gains, Cheaper Agent Tasks ProPakistani"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXQtdlpyQTN6NVAwUkhTY0xjRDdzRWNvTEV2Q05sWDlrOGNRT19OUXZiN3U4bGp0MlpSblFzbVpxSU1aRDRLRTljZDhWeUM0dk1YeDk1c1NiM3FfOHBFZFpzam9aQ2JXcF9lQ3lpSUpmb3pVdHZzUkZoSFo5YXU3R21wcUJpSmxjR0V5VnRWXzh5UGo2OC1yZ1JBc2lJVlNxRmlMQTlzNU9hbzlMRGhRNWNR0gGPAkFVX3lxTE9qd0ZpVWI4N2o0ZUVzR0dvYXhseVZPUDd0OUREYmdjZEFPMzZ3Um5PcTRDQUhqNDBRMDlIYUlxWkduRVVJSzVaVHl2X014Q1p6NTI3YXBoRnQtY24tQVNaa2xKVnVoT0RWQm5PMDhFS2NDRWUzbVpEWEJpOVAwd05pRkptdmNlWUxad0NHOXh0eHVsbndEXzl0MXBQZTIxOG5wenl4NjVhMl9TSHdGTGt0STJOOUwxblZZYmp6MHdEaWZSQUVpTUlodG1TQV9GVlZxanVYZjRtV1ZoemQ5ZEdBUjI1bWRmVGRRQ1ZCX2RjUnY1MngtUFh4Nnc1elEtTUVOYjc3VkEzT1d0YmVHcWs?oc=5",
+          "published_at": "2026-10-17T15:45:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Releases Lightweight New Model With Per-Task Costs One-Tenth of US Rivals - BigGo Finance",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T15:25:00+00:00",
+      "summary": "DeepSeek Releases Lightweight New Model With Per-Task Costs One-Tenth of US Rivals BigGo Finance",
+      "claims": [
+        "DeepSeek Releases Lightweight New Model With Per-Task Costs One-Tenth of US Rivals BigGo Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqZmhvU2N4S1hPUEgzd0lpbVRKYTFWYk1rUkFvYnpmc3ZqZkR4aGYxcU1Hbi13eFAxT09GdFBlVnItNV9ZdUFKV2RmWEE3VVY5WXF4dkp0MGVqbERhUnFIT082THpPUlhobzJRS0JuUDFqVjBHc3c?oc=5",
+          "published_at": "2026-10-17T15:25:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI Model From WPI Takes Third Place in Global Race to Spot Melanoma Early - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-17T15:15:26+00:00",
+      "summary": "AI Model From WPI Takes Third Place in Global Race to Spot Melanoma Early Bioengineer.org",
+      "claims": [
+        "AI Model From WPI Takes Third Place in Global Race to Spot Melanoma Early Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZUo1S3VjMXFLWi13a0xSd2dveHVidjd1amRxakIxV0h1TGhkOFpTUnc3bkhhZTFlV2xIOXdVRDI4TUpEZmxWdVpYQmtSbVJjUi03U05qNWhHY3kwaFpQVGRQOXhsanRzeUNUX1AzVWowSm9URUhsSjFicWRrT0hjb2pLb0lpbnFzMVFJMFNlQ3hVUE1haFdWbTVmYnowQ2c?oc=5",
+          "published_at": "2026-10-17T15:15:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "2026 Singapore Grand Prix - Race Report: Fighting Sunday in Singapore Nets Podium for Kimi and Points with George - Mercedes-AMG PETRONAS F1 Team",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-17T15:03:47+00:00",
+      "summary": "2026 Singapore Grand Prix - Race Report: Fighting Sunday in Singapore Nets Podium for Kimi and Points with George Mercedes-AMG PETRONAS F1 Team",
+      "claims": [
+        "2026 Singapore Grand Prix - Race Report: Fighting Sunday in Singapore Nets Podium for Kimi and Points with George Mercedes-AMG PETRONAS F1 Team"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObFpUOTRsVDdBa0gwNjhscDlDMVpQaUlfeGpVeDUzVk9LTWdvbVBOc3lYVkhtd1VxVWtRMTBzbXNYcDFaSk5tT0Q4NF9rTzk0Yk5TYUV2NXNFVnlHNkxmTWgxOVplMTE0UkNiRHN3U2xhc2h0dDJ0YW5MdW42UGpTWGpCaTNRWWhPU3JxY1ZrWmY3N0k5a2tYMVp6MlVzQUxSbTNFRlZ1a0JpR1Bva0ZhSUthSTk4MGFRMVJJYjljaw?oc=5",
+          "published_at": "2026-10-17T15:03:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic draft bill would limit US power to block AI models - Minute Mirror",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-17T14:52:31+00:00",
+      "summary": "Anthropic draft bill would limit US power to block AI models Minute Mirror",
+      "claims": [
+        "Anthropic draft bill would limit US power to block AI models Minute Mirror"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMldGY2tIRjlOUkJRZF9aclNEbkRIX1BibGg4RkpnOTc4a2o1aUd2Q1NsSXhCSDlCb2l3bkRQQVV6UHRUVTc0SW1aamRiVmZDRjIwTFpxNGJ2dUhCWDBmTUFOSlN1TmJhS0owR0syTjNMTVVLeVBwRTZ5WmFQWklRLTdScjYwZGFDN1hfMGpqOUdWNTBiX1NNV3E5Sk4?oc=5",
+          "published_at": "2026-10-17T14:52:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    }
+  ]
+}
