@@ -1,0 +1,926 @@
+{
+  "report_date": "2026-10-19",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-18T21:37:05.571043+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 60
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 48
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 108,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Copilot vs Gemini vs Meta AI: Gemini Wins 9.1M Users [2026] - tech-insider.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T19:48:41+00:00",
+      "summary": "Copilot vs Gemini vs Meta AI: Gemini Wins 9.1M Users [2026] tech-insider.org",
+      "claims": [
+        "Copilot vs Gemini vs Meta AI: Gemini Wins 9.1M Users [2026] tech-insider.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1adFN6VW9BX0pxNGk1d0NJdXhpSWV4NldmaHNzUWN3WGlNX3Vyc3FEc2VZUDBTZ0RBQWFWXzFXbkV5ZXhCV2lzTjhwTXNaWDZpZl80aDVYSHlhVXlqV1EzX2pQU01jX2lsSXR3RnVaU1kzdnFzb2tyX29CbmU?oc=5",
+          "published_at": "2026-10-18T19:48:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek V4.1-Flash-1017: HLE Score Hits 42.6 [2026] - shattered.io",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T19:42:44+00:00",
+      "summary": "DeepSeek V4.1-Flash-1017: HLE Score Hits 42.6 [2026] shattered.io",
+      "claims": [
+        "DeepSeek V4.1-Flash-1017: HLE Score Hits 42.6 [2026] shattered.io"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OMk5tMXZ1NV9xcXBCdm9pVUJ6YjNnZnM5bVBRT0F1VTlReXpubk5DUi1zYUFKYWVpaDBNWW54TW1KSC02Z3hrbk9xM1M3Ykk5OFNhQndPVGxpVGRKWlpZM29xal90c05PaENmTDhvUE1sOTFS?oc=5",
+          "published_at": "2026-10-18T19:42:44+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash takes the top open model spot in Code Arena - Crypto Briefing",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T19:32:50+00:00",
+      "summary": "DeepSeek-V4.1-Flash takes the top open model spot in Code Arena Crypto Briefing",
+      "claims": [
+        "DeepSeek-V4.1-Flash takes the top open model spot in Code Arena Crypto Briefing"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EclZRb0ZFM0V2RGhEY295WTVqWjBaeVI4THRFeGtJN1hPSVhrUzA2cEY3QVBGZGMtdzlRNFRKSWoxanhUWTVvTC1YZm45emNhY19fNHhJQkYyVm1ZOENQS3U3UHFEa25xdHhlcVg4OHk?oc=5",
+          "published_at": "2026-10-18T19:32:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Model Ranks No. 12 on Web Development Coding Board - TOKENPOST",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T19:09:36+00:00",
+      "summary": "DeepSeek Model Ranks No. 12 on Web Development Coding Board TOKENPOST",
+      "claims": [
+        "DeepSeek Model Ranks No. 12 on Web Development Coding Board TOKENPOST"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EWkg3S1ZtcnJ4ZGlNTDNiSWU0WGN5UzhKRmMzdlNMZzRvSDJRd1ZjWXpTZU55NnhHNE5xZVhGdU8xdWFxbDdmYU85dkxMeDVlRXlIcmt6MTJXdmM?oc=5",
+          "published_at": "2026-10-18T19:09:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Monetizes the Agent Retrieval Layer at $0.75 per 1,000 Calls. Every Competitor Charges at Least $5. - Yahoo Finance",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T18:52:36+00:00",
+      "summary": "DeepSeek Monetizes the Agent Retrieval Layer at $0.75 per 1,000 Calls. Every Competitor Charges at Least $5. Yahoo Finance",
+      "claims": [
+        "DeepSeek Monetizes the Agent Retrieval Layer at $0.75 per 1,000 Calls. Every Competitor Charges at Least $5. Yahoo Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObm1DaWF5UGdxQjVGUTJuYlFQUk81NE5ibDR2enFrS3BEbE1TSkJobnZqaldFVHl0WXNUQnBCR0tMaDFNMENsMG9tdHZrNHFKNTJZd3Zwb04zeVVpU0Q0c0tUTHdaMlN5aW12cUxPTjVZODlGMDFXdk1pYXNqc2MzdG9MMFJ6aW4wM19QMV94UHFzOXBLVENnaFVDSWc2bzVQMlRjWWhpQQ?oc=5",
+          "published_at": "2026-10-18T18:52:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic Warns Small AI Models Could Learn to Self-Replicate by the End of 2026 - eGamers.io",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T18:31:40+00:00",
+      "summary": "Anthropic Warns Small AI Models Could Learn to Self-Replicate by the End of 2026 eGamers.io",
+      "claims": [
+        "Anthropic Warns Small AI Models Could Learn to Self-Replicate by the End of 2026 eGamers.io"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHhYQ0lBSXBwSHN6XzZKcnJPdERJOFQ0R1QzMHNTYlN5X2Q1RWQ5d3c0cVdiSGNQU1pXZmh6c1A1bjdQb3lJSTk3VXItSWJNRVc4ZVkzelQ3SklCeWJiVEdBUTFSc0NWSnF3ZWtIM2ZvdjZ2alZ3eUg3cHQ0Q3lScl9KZEhlSTZjU3dHX0c5cFJvZTJ3SjV6NVBNdUR1d2FWMEE?oc=5",
+          "published_at": "2026-10-18T18:31:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Anthropic Proposes AI Safety Bill Giving US Government Power to Block High-Risk Models - PYMNTS.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T17:13:57+00:00",
+      "summary": "Anthropic Proposes AI Safety Bill Giving US Government Power to Block High-Risk Models PYMNTS.com",
+      "claims": [
+        "Anthropic Proposes AI Safety Bill Giving US Government Power to Block High-Risk Models PYMNTS.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGR1Q09aVFd3bDNOMjNHVGc3RW43c1UxQVppX0F3NTVsMjZVbGFXVnhfN1BsVnNTazlGUHg1b1ZtdVFQcVhHTVFMc1hJMnpBWXpLWTRmeUZJSFVjU2xjXzBfaDZNVVhOQTlPdjF6NXVnVVJrQ0NER09jem8ybmU0YTNXS29fN2doaXZnbnRILXV3NG5mREdRckFQbE1iRk9hay15Q01BeDZwY2ZtdWdBcHlvcEdjbGQzMV9VMg?oc=5",
+          "published_at": "2026-10-18T17:13:57+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Alibaba Launches Qwen Glasses N1 for 2,218 Yuan - Retail News Asia",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T17:09:25+00:00",
+      "summary": "Alibaba Launches Qwen Glasses N1 for 2,218 Yuan Retail News Asia",
+      "claims": [
+        "Alibaba Launches Qwen Glasses N1 for 2,218 Yuan Retail News Asia"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wZ0Z2NUZSUkhtei1yMEVEZ3J3TWxtTThRNk1kaUFnR240X2c5Q0JuZWlraTMyMm56V2NyaUE4YkRqOWM1NFQtb1dORlJhUXJXRUxXT3RsdU8tSDEyY3BTenNWTktMZmhySDJDTS02elhqYm12ZWQ5ZWhR?oc=5",
+          "published_at": "2026-10-18T17:09:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Korea’s AI project stirs stocks as selection hopes rise but value doubts grow - CHOSUNBIZ - Chosunbiz",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T21:00:00+00:00",
+      "summary": "Korea’s AI project stirs stocks as selection hopes rise but value doubts grow - CHOSUNBIZ Chosunbiz",
+      "claims": [
+        "Korea’s AI project stirs stocks as selection hopes rise but value doubts grow - CHOSUNBIZ Chosunbiz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NN2VpTml1M0dNLTJzckNVYkgwVUJTLWoyS3pZQ05jbm9PMGc5T2NicVdaR25GQUNKZ3oycjZuX2RNRnVNMWRGQ2VoUGJPY1Z2bDhNUmswTFp0QkFJb3JuaWprUU5FVGVCY2wyV29VZk40cUdvSHdURmR30gGOAUFVX3lxTE1qTlkxODNxWkJpMGNUNHJ6UElkQjdiT1k3Y0MwUU5rdE5KamxQUkpxeU93U1pKbnBmSEdCOUl6UU90alpUeklSNHZyaHJjdGZXbHg2Q083a2tIUlMteHJ5RGczZ2doWnVQSFRYQmp2OVRyc0Vic011djEzbEVUTW5iYzdJSXpWTk5sSDBNYlE?oc=5",
+          "published_at": "2026-10-18T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Apple 和 Meta 合作在 Mac Studio 上运行 Muse Spark Open AI 模型 - VOI.ID",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T20:35:03+00:00",
+      "summary": "Apple 和 Meta 合作在 Mac Studio 上运行 Muse Spark Open AI 模型 VOI.ID",
+      "claims": [
+        "Apple 和 Meta 合作在 Mac Studio 上运行 Muse Spark Open AI 模型 VOI.ID"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90UFI4YVZNengzblZpU01DMWJvWWpuY3VnRkhpVENxUmd3ZTBrNW5WM1NZUHR0OWpBMllmWl96U0NiRW5EbXo1ZzRxd1VlcWPSAUJBVV95cUxPMVl3NzlQc3hLWnhVM0RrMkFPYWNISnlET3Y4WXlxU055bDRBa0g4QW5ZN2NMZ1lYSENpUERKa3lkT0E?oc=5",
+          "published_at": "2026-10-18T20:35:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Is AI coming for your money—or all money? - The Star Democrat",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T19:47:00+00:00",
+      "summary": "Is AI coming for your money—or all money? The Star Democrat",
+      "claims": [
+        "Is AI coming for your money—or all money? The Star Democrat"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQUxwVGctOWFDbGxuWHBNS0xDcnZKWHpYNjl2QnVVeXNObDRELXhlRFB0ZWtBZERPejFXU3NDSEpDc0ZrV3RLVC1YQTFlQ2p6RGk1clgyb2k3TmRwOVBtM1RENmFCRTZmckU3Q1N6b2ZIS1JOLWRPZDVlVkpqclN4TEI0bXR6TDBtY1JLWDJNX2NpQTZ5MFZ4MUxhNGctUWZjS1BEYkYwUXQ5aW5kMnVXakJmNFhJeGJXWjhWZWRlSy05dUdZUG9z?oc=5",
+          "published_at": "2026-10-18T19:47:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web - MarkTechPost",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T18:20:28+00:00",
+      "summary": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web MarkTechPost",
+      "claims": [
+        "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web MarkTechPost"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOHozdng4eFUwVzFzZmRpMXZQMlhaSkdneXQxUHNxbGZOOTR3MVUzMjVlSjV1bmowblZZcUc4a24waHdETnB1NFJZRjZYMnQ5VnZDZFdzN2FfSW5nSWJTazdHR2pvWDZqS2dVZjlpSWoxYU5Xb0FyR1FjdEU1cDJDYlNSV0tGeEV1MWlQbGFKYVXSAZABQVVfeXFMTTh6M3Z4OHhVMFcxc2ZkaTF2UDJYWkpHZ3l0MVBzcWxmTjk0dzFVMzI1ZUo1dW5qMG5WWXFHOGtuMGh3RE5wdTRSWUY2WDJ0OVZ2Q2RXczdhX0luZ0liU2s3R0dqb1g2aktnVWY5aUlqMWFOV29BckdRY3RFNXAyQ2JTUldLRnhFdTFpUGxhSmFV?oc=5",
+          "published_at": "2026-10-18T18:20:28+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Marxian Ecology and the Critique of AI Capital - Monthly Review",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T17:43:51+00:00",
+      "summary": "Marxian Ecology and the Critique of AI Capital Monthly Review",
+      "claims": [
+        "Marxian Ecology and the Critique of AI Capital Monthly Review"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbzRTTUNZUjREYWg3VjRMTUJSOHJ3YW9tM1AtNmpnQ3BwUWhNVTg3X0xfLVJGVnVFUTkzWXBfTC1MZk9iQkJzQ0F0cm5CZGtDYkpIcXp1N3pfb0xRdVMxSkZVU2VqQk52NTBISzR2TjBlQnVHeDd5NmNBNzNUM2JiN053OFdvNXZjOEE?oc=5",
+          "published_at": "2026-10-18T17:43:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI Governance: From Ethical Principles to Evidence-Based Practice - Vietnam.vn",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T17:27:16+00:00",
+      "summary": "AI Governance: From Ethical Principles to Evidence-Based Practice Vietnam.vn",
+      "claims": [
+        "AI Governance: From Ethical Principles to Evidence-Based Practice Vietnam.vn"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONkl2b056OEdsanBMcmhDY1ZyV1NyS1dleEVrbGxSTmtLNC1ydGRoUEpjRlpXeEhQa1h0b3dmM183SUZWcVM0YzVZbnk3TjlySk1iYWJIRDRCTWhWVHdDWDdOWjZjNHFrTENLdEMyNjZZSXdIVlAtNXU3NGF0NnFiNE9aWDJ3TzFiV1ByUw?oc=5",
+          "published_at": "2026-10-18T17:27:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Jailbroken PS5 Runs Qwen 3.8 27B Model at 20 tok/s via ‘PS5LM Plus’ llama.cpp port - Gadget Pilipinas",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T17:06:09+00:00",
+      "summary": "Jailbroken PS5 Runs Qwen 3.8 27B Model at 20 tok/s via ‘PS5LM Plus’ llama.cpp port Gadget Pilipinas",
+      "claims": [
+        "Jailbroken PS5 Runs Qwen 3.8 27B Model at 20 tok/s via ‘PS5LM Plus’ llama.cpp port Gadget Pilipinas"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzBNWks1NGt1Y2RWMnBvQXhnNDdIdkFoMTN3cUVRY29DclBNQXJENzBRWkJXeXlOcHpiWUpjeGtRS2ZpUkhIU3FfUG1xUDVnRWNsc2tlSzF1STU1QWFFYUZiZ1A2RVl3eGhVTVh5YzZ2T2FhSE81RVJMVU0zdjF4b05Odk9KQQ?oc=5",
+          "published_at": "2026-10-18T17:06:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Researchers in Australia develop AI tool to assess stroke risk - myRepublica",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T16:31:20+00:00",
+      "summary": "Researchers in Australia develop AI tool to assess stroke risk myRepublica",
+      "claims": [
+        "Researchers in Australia develop AI tool to assess stroke risk myRepublica"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMnJDYmR4SDhyaDFma0ozbnJjb3h5Mkdxcm5SdFdSTXJXOWFMc095MHlzZDNNTzd5VkkxUkhfRG1RczBLMkwtbGxSUEI4dzZONmpldjdwVm1EZk9jTWtEZXA2RXNyZkJMcDdVV1BEWWVtbGFXbTdFS2JIY2RhZmNlY1lJVTJDTUFjZDhDOXZSMWZqWmYxZjItelkxTnkxaTludDMyY0dUcXoxVUozM2x3eXoxeThjMkJYS2Y2b0pn?oc=5",
+          "published_at": "2026-10-18T16:31:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "INC urges FG to integrate AI into technical education to prepare youths for future jobs - Tribune Online",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T16:08:41+00:00",
+      "summary": "INC urges FG to integrate AI into technical education to prepare youths for future jobs Tribune Online",
+      "claims": [
+        "INC urges FG to integrate AI into technical education to prepare youths for future jobs Tribune Online"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSEY1djRHbVRDRTR4TTI3NTJkNUpzRXd0S2M3M2tXQVBlQjNJMnRKNFFfNGRLS2p5T0ZEVTVBWmdVOWdzQ1lGSHlxTWZ0S0ppbXpCNzIzdkJQdExzWkRZNXVBcGlLUXN0bHBDT0VUV2Ywa0lFNHFIZ19qbzFCN3VKTmpBNS1XcUtER0w1UVZrZDhmZnp5bU9fQmJaMDRrZlZEdVFRRklBOExQbWRkNklLejdaOEFLTWdVMFlseNIBvAFBVV95cUxPSEY1djRHbVRDRTR4TTI3NTJkNUpzRXd0S2M3M2tXQVBlQjNJMnRKNFFfNGRLS2p5T0ZEVTVBWmdVOWdzQ1lGSHlxTWZ0S0ppbXpCNzIzdkJQdExzWkRZNXVBcGlLUXN0bHBDT0VUV2Ywa0lFNHFIZ19qbzFCN3VKTmpBNS1XcUtER0w1UVZrZDhmZnp5bU9fQmJaMDRrZlZEdVFRRklBOExQbWRkNklLejdaOEFLTWdVMFlseA?oc=5",
+          "published_at": "2026-10-18T16:08:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "China Tightens Controls on Advanced AI Exports Amid US Rivalry - 조선일보",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T15:37:33+00:00",
+      "summary": "China Tightens Controls on Advanced AI Exports Amid US Rivalry 조선일보",
+      "claims": [
+        "China Tightens Controls on Advanced AI Exports Amid US Rivalry 조선일보"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZjBITDh1cDk5Y3E4UklVdTVEX3dYSlN5ZFRJYXdvbDdWNko3TGNYNW5NU1EtNk43WFVjWUJzWW9zdGJ5QzdVc3NUVEZVWFRWZVo2aEVsWDd2d1ByWE1yTHRfaTNjV0RsN3B3bGdTcGd4Z2ZDMW9XeVl5YlhUY09EYkg0cVI5WXV1?oc=5",
+          "published_at": "2026-10-18T15:37:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Unheard Kimi Antonelli radio with Peter Bonnington reveals Mercedes found key upgrade fix - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T15:30:00+00:00",
+      "summary": "Unheard Kimi Antonelli radio with Peter Bonnington reveals Mercedes found key upgrade fix F1 Oversteer",
+      "claims": [
+        "Unheard Kimi Antonelli radio with Peter Bonnington reveals Mercedes found key upgrade fix F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUhtUTdjdkdQdk5udWVpQmktd0RmcGZ2WkJubUVKZF84U2FXNUJRYlRHQ2dUWm5XOXRUUE1ubWRwR3RGaTJuNEpCendvdkhYcVJUYVFpREJwZTZjSHI1bnRIcFdxdnpkWFlpa0lKRzA2djFOSHJnQ2FRM1I2UkZoaGJIMmJlQWVHYWhZZ2F1UENEOWk2YUMta3FMVjdxYTZTRFIza3J0LTJDNkFkcWJlX0lCQ1BVRWNlMVpxSDFSQUU?oc=5",
+          "published_at": "2026-10-18T15:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "What I learnt building a career at the intersection of compliance, AI, and research - The Daily Star",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T15:28:10+00:00",
+      "summary": "What I learnt building a career at the intersection of compliance, AI, and research The Daily Star",
+      "claims": [
+        "What I learnt building a career at the intersection of compliance, AI, and research The Daily Star"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMVRHWVdRVkY1MWlEdHc0WmlYcmE5UmJjTzAtMi1HNDVkUGlLR01DM3VjdzFsci1wT3h5bVNScGVTQnAyd3NXVF81eFNKSFh2NFZkR1doZXowMldHdHd0WWxyYmRyOEFCdDlrRVpvRzQ3Y0xaOER3TjVETFpQYkV2Z215cjhpSlVjSjR6RmZRc28wTC1pUUNwQUN4Ui0zTC1JSF9pQWo3M295bDZtaTlYeHB2VXJKc3J4MnNySTR2aw?oc=5",
+          "published_at": "2026-10-18T15:28:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Firms eye SMEs with smaller, locally hosted AI systems - Business Daily",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T15:15:00+00:00",
+      "summary": "Firms eye SMEs with smaller, locally hosted AI systems Business Daily",
+      "claims": [
+        "Firms eye SMEs with smaller, locally hosted AI systems Business Daily"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmx6UWdyNW1Ea1Z4U3dTaDNwYmdHWHhUMWRtbGN0S2pFM1V6cWNIbE9JMUhwd0x3clRHamJTcC12TmNzZ0lTZWdVX2dqUWNDZGliRFRpTm1lR1BUUEpDRFJBQnZfUGRROVVzaU56ektqUl9jYXQzaGJTazkwRDY5UUlQZkEzcVFVRHl1eHhHMF9IM0hFcnREckxJUVBGbXhYYVlpZ2xXSmZiUkhwOC01S1NVUEQ1TzFzSkUxaGN3?oc=5",
+          "published_at": "2026-10-18T15:15:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek has been disrupted 10 times this year, now preparing compensation for users - VOI.ID",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T14:38:48+00:00",
+      "summary": "DeepSeek has been disrupted 10 times this year, now preparing compensation for users VOI.ID",
+      "claims": [
+        "DeepSeek has been disrupted 10 times this year, now preparing compensation for users VOI.ID"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZaGhIZy0xRWk0bDVtckI2dFk1YW9pLXVBMkNqalBXNDNDeWhUSmJacGFkTFpNU2pMLVhzdVV2akNQTk0tTl9sMmJTMNIBQkFVX3lxTE1RWWcxVXBLZ0FmNEdaZWtDWDFsOEZ5Tzk3Rk5UQzdLaWVyZVBFajZRYWpfelBHQlYwMzZZYlNzaFowZw?oc=5",
+          "published_at": "2026-10-18T14:38:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "When can Kimi Antonelli win the F1 title? Earliest date, points needed and remaining races - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-18T13:51:00+00:00",
+      "summary": "When can Kimi Antonelli win the F1 title? Earliest date, points needed and remaining races ESPN",
+      "claims": [
+        "When can Kimi Antonelli win the F1 title? Earliest date, points needed and remaining races ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVkFhQmxMMkYtQXNBZV9uLS1qcm4weXFEeXQyX25yWjdvb1dBeXdCQXJnc2QyMTV1MzBVMkxLWnRyMjNlMEtxS19WX2xTX0NHWHFJc3NMNWoyWTFzRVVkSU1qX25MY3IyZUlZWjJhWWVmdlUwWWdBLTZwc0l5eW5CUGU2Ylo4Vi13cDYycmZWSTZnemlxdEtPdWxOMXRYUC13dWdZZ0dCRVNrR1YwcDJQVU5R?oc=5",
+          "published_at": "2026-10-18T13:51:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Israeli AI firms train NVIDIA models to resist hackers and dangerous chatbot behavior - Ynetnews",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-18T13:48:20+00:00",
+      "summary": "Israeli AI firms train NVIDIA models to resist hackers and dangerous chatbot behavior Ynetnews",
+      "claims": [
+        "Israeli AI firms train NVIDIA models to resist hackers and dangerous chatbot behavior Ynetnews"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aMGM5WWNtaU9GQnVxbkJjS3BZMFdyS2VIVl9MNWtqQXhIVXZuUDJJeFY3bDhyNE96THBJZ0hLUnUtN1Q2MjVZbmhSaDFaM0VtLW9FeDNPU1hRNWJmUmFTRW5R?oc=5",
+          "published_at": "2026-10-18T13:48:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    }
+  ]
+}
