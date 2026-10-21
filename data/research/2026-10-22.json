@@ -1,0 +1,929 @@
+{
+  "report_date": "2026-10-22",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-21T22:31:44.187074+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5484, column 20"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 408
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 126
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 45
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 11,
+  "raw_item_count": 704,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-21T21:32:19+00:00",
+      "summary": "The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs,...",
+      "claims": [
+        "The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules/",
+          "published_at": "2026-10-21T21:32:19+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Broad access through consistent standards",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-21T21:00:00+00:00",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "claims": [
+        "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
+          "published_at": "2026-10-21T21:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-21T19:51:28+00:00",
+      "summary": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+      "claims": [
+        "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "published_at": "2026-10-21T19:51:28+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-21T19:49:30+00:00",
+      "summary": "Building an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into a consistent model that teams...",
+      "claims": [
+        "Building an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into a consistent model that teams..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/",
+          "published_at": "2026-10-21T19:49:30+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-21T18:26:30+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+          "published_at": "2026-10-21T18:26:30+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-21T17:35:36+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+          "published_at": "2026-10-21T17:35:36+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-21T17:00:00+00:00",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "claims": [
+        "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/att-legal",
+          "published_at": "2026-10-21T17:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-21T16:23:53+00:00",
+      "summary": "Health & Bioscience",
+      "claims": [
+        "Health & Bioscience"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+          "published_at": "2026-10-21T16:23:53+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26866v1 Announce Type: new Abstract: Mechanistic studies of large language models localize function in parameters, attention heads or neurons, but those parts do not specify how one inference unfolds. We treat the ordered layer-state trajectory as the empirical process and test whether layer order defines a measurable computation. Across representative Qwen, Llama and Gemma checkpoints, realized order produced paths 1.60--2.24 times as aligned with their endpoint chord as endpoint-preserving shuffles. The order effect transferred to a lexical task, but was stronger in three random initializations of the same Qwen architecture, identifying an architecture-compatible scaffold rather than a training-specific law. Direct hidden states provided stronger mechanism coordinates than vocabulary readbacks, and a task-defined coordinate made candidate competition computable. After additive interventions failed, local transition actuators selectively controlled internal trajectories across checkpoints. A confidence gate then drove 17 of 87 held-out Qwen closure trajectories across the full-vocabulary top-1 candidate boundary while leaving all 203 non-closure top-1 outputs unchanged. Safety-matched action reassignment performed similarly, locating the gain in selective gating and the bounded actuator family rather than fine-grained dose assignment. Layer order exposes an observab",
+      "claims": [
+        "arXiv:2610.26866v1 Announce Type: new Abstract: Mechanistic studies of large language models localize function in parameters, attention heads or neurons, but those parts do not specify how one inference unfolds. We treat the ordered layer-state trajectory as the empirical process and test whether layer order defines a measurable computation. Across representative Qwen, Llama and Gemma checkpoints, realized order produced paths 1.60--2.24 times as aligned with their endpoint chord as endpoint-preserving shuffles. The order effect transferred to a lexical task, but was stronger in three random initializations of the same Qwen architecture, identifying an architecture-compatible scaffold rather than a training-specific law. Direct hidden states provided stronger mechanism coordinates than vocabulary readbacks, and a task-defined coordinate made candidate competition computable. After additive interventions failed, local transition actuators selectively controlled internal trajectories across checkpoints. A confidence gate then drove 17 of 87 held-out Qwen closure trajectories across the full-vocabulary top-1 candidate boundary while leaving all 203 non-closure top-1 outputs unchanged. Safety-matched action reassignment performed similarly, locating the gain in selective gating and the bounded actuator family rather than fine-grained dose assignment. Layer order exposes an observab"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26866",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26914v1 Announce Type: cross Abstract: Pluralistic alignment requires AI systems to learn from diverse populations whose preferences may reflect heterogeneous or even conflicting objectives, and to personalize their behavior to individual users. Existing approaches in pluralistic alignment often assume access to annotator identities and rely on powerful pretrained representations to model individual preference variations. We propose Preference-PCA Pluralistic Learning (P3L), a novel framework for pluralistic alignment that jointly learns trajectory embeddings and the shared basis of preference directions via PCA decomposition from heterogeneous crowd feedback without requiring annotator identities. At test time, our approach enables rapid and accurate personalized reward learning and downstream policy optimization. Experiments across multiple embodied control tasks demonstrate that P3L enables steerable personal alignment that generalizes beyond the offline dataset to out-of-distribution new users and attains competitive RL and test performance, while substantially reducing computational cost and supporting variable adaptation query budgets.",
+      "claims": [
+        "arXiv:2610.26914v1 Announce Type: new Abstract: Pluralistic alignment requires AI systems to learn from diverse populations whose preferences may reflect heterogeneous or even conflicting objectives, and to personalize their behavior to individual users. Existing approaches in pluralistic alignment often assume access to annotator identities and rely on powerful pretrained representations to model individual preference variations. We propose Preference-PCA Pluralistic Learning (P3L), a novel framework for pluralistic alignment that jointly learns trajectory embeddings and the shared basis of preference directions via PCA decomposition from heterogeneous crowd feedback without requiring annotator identities. At test time, our approach enables rapid and accurate personalized reward learning and downstream policy optimization. Experiments across multiple embodied control tasks demonstrate that P3L enables steerable personal alignment that generalizes beyond the offline dataset to out-of-distribution new users and attains competitive RL and test performance, while substantially reducing computational cost and supporting variable adaptation query budgets.",
+        "arXiv:2610.26914v1 Announce Type: cross Abstract: Pluralistic alignment requires AI systems to learn from diverse populations whose preferences may reflect heterogeneous or even conflicting objectives, and to personalize their behavior to individual users. Existing approaches in pluralistic alignment often assume access to annotator identities and rely on powerful pretrained representations to model individual preference variations. We propose Preference-PCA Pluralistic Learning (P3L), a novel framework for pluralistic alignment that jointly learns trajectory embeddings and the shared basis of preference directions via PCA decomposition from heterogeneous crowd feedback without requiring annotator identities. At test time, our approach enables rapid and accurate personalized reward learning and downstream policy optimization. Experiments across multiple embodied control tasks demonstrate that P3L enables steerable personal alignment that generalizes beyond the offline dataset to out-of-distribution new users and attains competitive RL and test performance, while substantially reducing computational cost and supporting variable adaptation query budgets."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26914",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "inference",
+        "models",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Expert-Guided Rubrics as Dense Reward Signals for Reinforcement Learning in Non-Verifiable Domains",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26932v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as autonomous agents in non-verifiable domains such as financial services, where they must interpret user intent, rewrite queries, and retrieve information under domain-specific constraints. Although reinforcement learning (RL) can train such agents from the consequences of their actions, recent successes largely rely on verifiable tasks with automatically computed binary rewards. In non-verifiable retrieval tasks, assessing query quality requires scarce subject-matter expert (SME) judgment that is inherently graded rather than binary. With Group Relative Policy Optimization (GRPO), sparse rewards yield no useful learning signal when all sampled outputs within a group receive the same outcome, causing optimization to stall. We introduce a method that converts a small, fixed investment of SME judgment into a dense reward and combines it with retrieval-based metrics to form a hybrid, GRPO-compatible training signal. Experiments show improvements of up to 6\\% in Recall@3 and 6.7\\% in MRR@3 compared with sparse-reward baselines.",
+      "claims": [
+        "arXiv:2610.26932v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as autonomous agents in non-verifiable domains such as financial services, where they must interpret user intent, rewrite queries, and retrieve information under domain-specific constraints. Although reinforcement learning (RL) can train such agents from the consequences of their actions, recent successes largely rely on verifiable tasks with automatically computed binary rewards. In non-verifiable retrieval tasks, assessing query quality requires scarce subject-matter expert (SME) judgment that is inherently graded rather than binary. With Group Relative Policy Optimization (GRPO), sparse rewards yield no useful learning signal when all sampled outputs within a group receive the same outcome, causing optimization to stall. We introduce a method that converts a small, fixed investment of SME judgment into a dense reward and combines it with retrieval-based metrics to form a hybrid, GRPO-compatible training signal. Experiments show improvements of up to 6\\% in Recall@3 and 6.7\\% in MRR@3 compared with sparse-reward baselines."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26932",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Beyond Policy Discrepancy: Capability-Aware Multi-Teacher On-Policy Distillation",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26950v1 Announce Type: new Abstract: Multi-teacher on-policy distillation (MOPD) integrates domain specialists into a shared student, but determining how strongly each teacher should supervise remains challenging. Existing discrepancy-based allocation can assign strong supervision even when the student already matches or exceeds the teacher's task performance, since behavioral mismatch does not necessarily imply a remaining capability deficit. We propose Capability-Aware Multi-Teacher On-Policy Distillation (CA-MOPD), which combines specialist merging with capability-guided allocation to account for what the student has already learned. CA-MOPD first merges reinforcement-learning specialists into a strong student initialization, then uses verifier-estimated teacher--student capability gaps to adjust domain-level distillation strength. Supervision decreases as capability gaps close and increases when estimated student capability regresses, while dense token-level guidance remains provided by the teachers. Across six benchmarks spanning mathematics, code generation, and instruction following, CA-MOPD achieves an average score of 32.22, outperforming naive MOPD, Open-MOPD, and the merged initialization by 0.86, 0.83, and 0.74 points, respectively. Controlled comparisons further support the benefits of merged initialization and capability-gap guidance under matched train",
+      "claims": [
+        "arXiv:2610.26950v1 Announce Type: new Abstract: Multi-teacher on-policy distillation (MOPD) integrates domain specialists into a shared student, but determining how strongly each teacher should supervise remains challenging. Existing discrepancy-based allocation can assign strong supervision even when the student already matches or exceeds the teacher's task performance, since behavioral mismatch does not necessarily imply a remaining capability deficit. We propose Capability-Aware Multi-Teacher On-Policy Distillation (CA-MOPD), which combines specialist merging with capability-guided allocation to account for what the student has already learned. CA-MOPD first merges reinforcement-learning specialists into a strong student initialization, then uses verifier-estimated teacher--student capability gaps to adjust domain-level distillation strength. Supervision decreases as capability gaps close and increases when estimated student capability regresses, while dense token-level guidance remains provided by the teachers. Across six benchmarks spanning mathematics, code generation, and instruction following, CA-MOPD achieves an average score of 32.22, outperforming naive MOPD, Open-MOPD, and the merged initialization by 0.86, 0.83, and 0.74 points, respectively. Controlled comparisons further support the benefits of merged initialization and capability-gap guidance under matched train"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26950",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Dynamic System Inspired Continuous Large Language Model for AI4Science Tasks",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26959v1 Announce Type: new Abstract: Scientific foundation models increasingly operate on continuous phenomena, yet still use discrete residual computation. We ask whether pretrained residual transformations can support additional latent computation without expanding the backbone. To test this possibility, we introduce Continuum-LM, which reuses these transformations as dynamical operators in a continuous-depth language model. Its hidden states evolve through an ordinary differential equation evaluated by higher-order numerical integration, with solver order and step size controlling computation. Across eight scientific tasks, Continuum-LM trains stably and improves mean exact-match accuracy by 7.77 and 10.96 percentage points over discrete counterparts at the 0.6B and 1.7B scales, respectively. At 0.6B, it also outperforms an Ouro-style recurrent control under matched parameter and residual-function evaluation budgets. Together, these results support extensible computational depth through parameter reuse, identifying continuous hidden-state evolution as a practical design dimension for scientific language models beyond parameter scaling.",
+      "claims": [
+        "arXiv:2610.26959v1 Announce Type: new Abstract: Scientific foundation models increasingly operate on continuous phenomena, yet still use discrete residual computation. We ask whether pretrained residual transformations can support additional latent computation without expanding the backbone. To test this possibility, we introduce Continuum-LM, which reuses these transformations as dynamical operators in a continuous-depth language model. Its hidden states evolve through an ordinary differential equation evaluated by higher-order numerical integration, with solver order and step size controlling computation. Across eight scientific tasks, Continuum-LM trains stably and improves mean exact-match accuracy by 7.77 and 10.96 percentage points over discrete counterparts at the 0.6B and 1.7B scales, respectively. At 0.6B, it also outperforms an Ouro-style recurrent control under matched parameter and residual-function evaluation budgets. Together, these results support extensible computational depth through parameter reuse, identifying continuous hidden-state evolution as a practical design dimension for scientific language models beyond parameter scaling."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26959",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Transformers Learn Two Competing Sorting Algorithms, and Only One Length-Generalizes",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26974v1 Announce Type: new Abstract: We show that two-layer transformers trained to near-zero loss on a sorting task converge to one of two mechanistically distinct solution classes depending on their initialization. One solution class consists of solutions that do not use the second attention layer to sort, but also fail to length-generalize. The other, which uses both attention layers, length-generalizes perfectly, despite only being trained to sort sequences of a fixed length. By carefully choosing the weight initialization, we demonstrate that we can steer the model toward learning one solution or the other. We identify input types that are rare at the training length but increasingly common at longer sequence lengths as a source of this disparity in length-generalization, and find that layer-wise specialization of the second class of solutions allows them to handle these rare sequences more accurately. In the second class, we discover a mechanism by which the second layer attention can use the contextual information gathered by the first layer attention to reduce its search space. On the related task of finding the minimum of a sequence, we find a similar two solution-type phenomenon, but with the opposite generalization pattern, where a different form of layer-wise specialization causes the two-layer solution to length-generalize worse than the single-attention",
+      "claims": [
+        "arXiv:2610.26974v1 Announce Type: new Abstract: We show that two-layer transformers trained to near-zero loss on a sorting task converge to one of two mechanistically distinct solution classes depending on their initialization. One solution class consists of solutions that do not use the second attention layer to sort, but also fail to length-generalize. The other, which uses both attention layers, length-generalizes perfectly, despite only being trained to sort sequences of a fixed length. By carefully choosing the weight initialization, we demonstrate that we can steer the model toward learning one solution or the other. We identify input types that are rare at the training length but increasingly common at longer sequence lengths as a source of this disparity in length-generalization, and find that layer-wise specialization of the second class of solutions allows them to handle these rare sequences more accurately. In the second class, we discover a mechanism by which the second layer attention can use the contextual information gathered by the first layer attention to reduce its search space. On the related task of finding the minimum of a sequence, we find a similar two solution-type phenomenon, but with the opposite generalization pattern, where a different form of layer-wise specialization causes the two-layer solution to length-generalize worse than the single-attention"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26974",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Latent Projection for Latent Planning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26979v1 Announce Type: new Abstract: Latent world models let an agent plan in latent space. The planner searches for an action sequence that minimizes a cost, and that cost is often the $\\ell_2$ distance between the predicted terminal latent and the goal latent. The latent, however, is partly noise: the regularizer that prevents collapse during world model training promotes variance in the directions carrying no signal. We show that the same regularizer also supplies the structure to prune that noise in the latent. SIGReg drives the latent marginal to a standard Gaussian at every step, and assuming further that the latent sequence is a Gauss-Markov process, the transition is linear with its covariance pinned by the map itself, $z' \\mid z \\sim \\mathcal{N}(Az,\\, I - AA^\\top)$. Fitting the state dynamics $A$ therefore yields the covariance at no additional cost, and in its eigenbasis each latent direction carries its own uncertainty. Furthermore, constraining $A$ to be a normal matrix fixes that basis across timesteps, so one eigenbasis measures the uncertainty over an arbitrary number of steps and serves as a stable basis to compute the planning cost on. We then restrict the $\\ell_2$ cost to the $k$-dimensional subspace the state dynamics carry forward with the least uncertainty. The correction is post hoc: the encoder, the predictor, the rollout, and the planner are a",
+      "claims": [
+        "arXiv:2610.26979v1 Announce Type: new Abstract: Latent world models let an agent plan in latent space. The planner searches for an action sequence that minimizes a cost, and that cost is often the $\\ell_2$ distance between the predicted terminal latent and the goal latent. The latent, however, is partly noise: the regularizer that prevents collapse during world model training promotes variance in the directions carrying no signal. We show that the same regularizer also supplies the structure to prune that noise in the latent. SIGReg drives the latent marginal to a standard Gaussian at every step, and assuming further that the latent sequence is a Gauss-Markov process, the transition is linear with its covariance pinned by the map itself, $z' \\mid z \\sim \\mathcal{N}(Az,\\, I - AA^\\top)$. Fitting the state dynamics $A$ therefore yields the covariance at no additional cost, and in its eigenbasis each latent direction carries its own uncertainty. Furthermore, constraining $A$ to be a normal matrix fixes that basis across timesteps, so one eigenbasis measures the uncertainty over an arbitrary number of steps and serves as a stable basis to compute the planning cost on. We then restrict the $\\ell_2$ cost to the $k$-dimensional subspace the state dynamics carry forward with the least uncertainty. The correction is post hoc: the encoder, the predictor, the rollout, and the planner are a",
+        "arXiv:2610.26979v1 Announce Type: cross Abstract: Latent world models let an agent plan in latent space. The planner searches for an action sequence that minimizes a cost, and that cost is often the $\\ell_2$ distance between the predicted terminal latent and the goal latent. The latent, however, is partly noise: the regularizer that prevents collapse during world model training promotes variance in the directions carrying no signal. We show that the same regularizer also supplies the structure to prune that noise in the latent. SIGReg drives the latent marginal to a standard Gaussian at every step, and assuming further that the latent sequence is a Gauss-Markov process, the transition is linear with its covariance pinned by the map itself, $z' \\mid z \\sim \\mathcal{N}(Az,\\, I - AA^\\top)$. Fitting the state dynamics $A$ therefore yields the covariance at no additional cost, and in its eigenbasis each latent direction carries its own uncertainty. Furthermore, constraining $A$ to be a normal matrix fixes that basis across timesteps, so one eigenbasis measures the uncertainty over an arbitrary number of steps and serves as a stable basis to compute the planning cost on. We then restrict the $\\ell_2$ cost to the $k$-dimensional subspace the state dynamics carry forward with the least uncertainty. The correction is post hoc: the encoder, the predictor, the rollout, and the planner are"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26979",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "embodied AI",
+        "inference",
+        "models",
+        "research",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "CoASFL: Coupled Consistency Optimization for Asynchronous Split Federated Learning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26992v1 Announce Type: new Abstract: Split Federated Learning (SFL) has emerged as a promising paradigm for training large-scale deep models on resource-constrained edge devices. Although asynchronous SFL alleviates the straggler bottleneck caused by system heterogeneity, it inevitably introduces two coupled dimensions of inconsistency: horizontal inconsistency across clients and vertical inconsistency between clients and the server. These inconsistencies, further exacerbated by statistical heterogeneity, result in biased activation representations, model divergence, and severe client drift. To address these challenges, we propose CoASFL, an inconsistency-aware asynchronous SFL framework that incorporates a dynamic activation merging mechanism and a consistency-aware model aggregation mechanism. Specifically, CoASFL constructs more consistent activation sequences from heterogeneous clients to alleviate horizontal inconsistency, and dynamically adjusts aggregation weights according to client participation frequencies and progress gaps to mitigate vertical inconsistency. By jointly coordinating activation-level and model-level consistency, CoASFL effectively suppresses inconsistency propagation during asynchronous training. Extensive experiments on an 80-device heterogeneous edge testbed demonstrate that CoASFL consistently outperforms state-of-the-art SFL approaches, ",
+      "claims": [
+        "arXiv:2610.26992v1 Announce Type: new Abstract: Split Federated Learning (SFL) has emerged as a promising paradigm for training large-scale deep models on resource-constrained edge devices. Although asynchronous SFL alleviates the straggler bottleneck caused by system heterogeneity, it inevitably introduces two coupled dimensions of inconsistency: horizontal inconsistency across clients and vertical inconsistency between clients and the server. These inconsistencies, further exacerbated by statistical heterogeneity, result in biased activation representations, model divergence, and severe client drift. To address these challenges, we propose CoASFL, an inconsistency-aware asynchronous SFL framework that incorporates a dynamic activation merging mechanism and a consistency-aware model aggregation mechanism. Specifically, CoASFL constructs more consistent activation sequences from heterogeneous clients to alleviate horizontal inconsistency, and dynamically adjusts aggregation weights according to client participation frequencies and progress gaps to mitigate vertical inconsistency. By jointly coordinating activation-level and model-level consistency, CoASFL effectively suppresses inconsistency propagation during asynchronous training. Extensive experiments on an 80-device heterogeneous edge testbed demonstrate that CoASFL consistently outperforms state-of-the-art SFL approaches, "
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2610.26992",
+          "published_at": "2026-10-21T04:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli reveals down-to-earth habit ahead of potential F1 title win - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T20:59:49+00:00",
+      "summary": "Kimi Antonelli reveals down-to-earth habit ahead of potential F1 title win Motorsport.com",
+      "claims": [
+        "Kimi Antonelli reveals down-to-earth habit ahead of potential F1 title win Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX2F1ekJYaFpZQklkYVJfVmZmMmVSbFFEWmpOaHB0Z3Q2Q3RHeWtzQ1lFVjlfd3VpNEdieTQ1eE1lSkZLRjRWYlpGcVYtNGhHcW1BNUJTOUxQb29LLUtoTUlibEFQaG5WS1hYUV9yN1UzS2lldUlFUElyT1NTNG5Cc3BhNl9kbVN6RktHS2YxWE11Um9RNko0d1pzUUJqaVBhbllHODlzLXBqMk4tQTI2OWk4UENlLVJLeUtR?oc=5",
+          "published_at": "2026-10-21T20:59:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Open-Source AI Inference Frameworks: DeepSeek’s ‘DeepInfer’ Runs ‘V4.1-Flash’ at Lower… - Trend Hunter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T20:57:45+00:00",
+      "summary": "Open-Source AI Inference Frameworks: DeepSeek’s ‘DeepInfer’ Runs ‘V4.1-Flash’ at Lower… Trend Hunter",
+      "claims": [
+        "Open-Source AI Inference Frameworks: DeepSeek’s ‘DeepInfer’ Runs ‘V4.1-Flash’ at Lower… Trend Hunter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qT2RzZy1FOUxNb3c3RWxVRnczbDBJVURMejhaeDdjWFhwa3JzSm56dWtxVHpmd0RHeG5nTFRZSS1MWFlNa2lVTUIwbHlReHEtekNEeFc2WkR6c1NFZ1FibHdmdEFJb3JINlJVelA3YU0yMzg5Y0d3V0JR?oc=5",
+          "published_at": "2026-10-21T20:57:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Flock.io Launches AI Decision Model Built on Qwen for Edge Deployment - The Globe and Mail",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T20:29:21+00:00",
+      "summary": "Flock.io Launches AI Decision Model Built on Qwen for Edge Deployment The Globe and Mail",
+      "claims": [
+        "Flock.io Launches AI Decision Model Built on Qwen for Edge Deployment The Globe and Mail"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZl9NWUNpZG04SEtlUE1URUFUd2hhemNtOUVVVXZNT2ZDOGhDWWNOb1VPTUhQQVp0M0lxSnQySVEtQ2I3bFhBSDQ0OW1LaDNjcHMwNzQ1MXVWNzVRNUJZbEc5TDFYNUFqZUR6ajd6T0xRa19jSTZLNm1uUEx1djRnN3VmMUVrUnNySmt0U3FmV2I2V1ZKazRGbXEtZ2c3Z3pTQXJ0aXpYVmRCM3kzOGFocWp3emJ6NlNuVnRvOF9WT282TnBUWE1yUjdTVHRhR2YwcjAyWjB1OTdCTTdBQTFZcHZHY04?oc=5",
+          "published_at": "2026-10-21T20:29:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli meets NBA superstar nearly two feet taller than him before US Grand Prix - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T20:29:00+00:00",
+      "summary": "Kimi Antonelli meets NBA superstar nearly two feet taller than him before US Grand Prix GPFans",
+      "claims": [
+        "Kimi Antonelli meets NBA superstar nearly two feet taller than him before US Grand Prix GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaEpzNU9KVTZVWXQyeUEyX3VHTXF0WnZXNjVNSXpENFp6TloxbjFIYmFob01SM2xMU0w0NTZqYS05cDBUMXFoanVZcnRRQXlHd3Q5NGNSalBaVUpNTDIxSE9oQjhCbXdfQW91V1MyNExnbDFXbE1VRGdLcmNJYkZ0MnBlejRKVEpkRU95TjBacUJHZ0w3LXRZWGh0X2hSMXVvQXFjU1JuQk5NYVZmaU1TY0Q0RUstbE8xVTJZcWZ3?oc=5",
+          "published_at": "2026-10-21T20:29:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Theta Network: EdgeCloud partners with Alibaba Cloud to offer Qwen AI models - 21 Oct 2026 - TradingView",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T20:00:35+00:00",
+      "summary": "Theta Network: EdgeCloud partners with Alibaba Cloud to offer Qwen AI models - 21 Oct 2026 TradingView",
+      "claims": [
+        "Theta Network: EdgeCloud partners with Alibaba Cloud to offer Qwen AI models - 21 Oct 2026 TradingView"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSGtiMklMZXl3aUVINUY5aDdnQ3VvYlJON19oa1k5aGlpQ2JSSmw5cURNVXpQV3JGdmRjcGpvT2ZJbVRzYnFzdzMxUDMtS3kwSjhJMERoVmxQOUVWb1k5TXNNTldNZl85S0dkWG5laEQyMHhEeDlNNUF0ZS1QU3Vvamd4aC1FSG94XzFSNjlPTi1CM1VLREc1NEZRZzlycXE0RWV4ZzlTcWRqNC10ZmlHel93d3R0X3ZjNXA3b2MxWThPSno4cnRxYUhjLVNqa2ZNZGxBR01QMUVhWlRoWjREWEVWMXdWUQ?oc=5",
+          "published_at": "2026-10-21T20:00:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Just the Docs: DHS Discloses July Order Stripping DeepSeek AI from Federal Civilian IT Systems - Just Security",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T19:34:33+00:00",
+      "summary": "Just the Docs: DHS Discloses July Order Stripping DeepSeek AI from Federal Civilian IT Systems Just Security",
+      "claims": [
+        "Just the Docs: DHS Discloses July Order Stripping DeepSeek AI from Federal Civilian IT Systems Just Security"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GRFRJTEl4VUhJMW1EbVR1Nzk0YVZ3SjJlbS1ib3JIQzJhaWJ0a21ORlBUMFBlVk1hLUwzczY3QXZFWlB5TTAtc0YwaVhCRzlLbGNqSTJ5Z0JPcVRXb3c1OUxON0VTSmlVWEJoekVuS3JSSExnbmM5RlRiU0dpZw?oc=5",
+          "published_at": "2026-10-21T19:34:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli F1 title permutations: How Mercedes driver could clinch world championship at United States GP - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T19:26:24+00:00",
+      "summary": "Kimi Antonelli F1 title permutations: How Mercedes driver could clinch world championship at United States GP Sky Sports",
+      "claims": [
+        "Kimi Antonelli F1 title permutations: How Mercedes driver could clinch world championship at United States GP Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQb0owaWlzZUxSd3llNWRFaEtZM3h0a2V4c3VFR1E2MWxrNVd6bE1XcUhPaHZVQUE2S1lwV0NwZk1GcHBQSmltUHdIakhrMVk3bTh2TmtyYlNCVjhPLUJGUlVmWFk0a0VtSy1SNUp1c0tTMG10eE55TnBsYUNmV3ZWdUhUWVp3SEViNTRKREo0Ml95ejBLT0FjRXgzTnc1U2pkNFFkWjAteG9uclI2b0J6Z09vaFR6dXcxU3l5OFc0VEFLeXNIcko4YUx4alY4RGNsT3BYWHBRcHppbmYtemIxdjFLMkFTQQ?oc=5",
+          "published_at": "2026-10-21T19:26:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek open-sources its serving engine and reveals $38 of revenue per GPU-hour, an anchor for cheap Chinese tokens - Dealroom",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-21T19:13:30+00:00",
+      "summary": "DeepSeek open-sources its serving engine and reveals $38 of revenue per GPU-hour, an anchor for cheap Chinese tokens Dealroom",
+      "claims": [
+        "DeepSeek open-sources its serving engine and reveals $38 of revenue per GPU-hour, an anchor for cheap Chinese tokens Dealroom"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcHRJNnVTSUJYTUlPRVNYTkdQTEkxek9xcjU1blZuSk9HX3JFaS1qSkVxSnFqLUpTS1BaYXVHeklPc01Nb2h0bU9FWEhnclRyTUYxeHlOSFk4N011ZXN5VWFzaDFIWnJZdDNQRmhfQmxrMmM1YVRiNmJUYjF4X3FWc0NBVlpZeEQ4UWlrUWVZdjBhNVA1V2lPY0tCZGV3TFYyWlktRExYSEJJMDdqMnU4VmF0eUlXTExOTl80X3RweThEV3FaX1FHb09Yd2lpMGdBNVB4WDFZRXB3M0hITVp1aThn?oc=5",
+          "published_at": "2026-10-21T19:13:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
