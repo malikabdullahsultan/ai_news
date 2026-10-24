@@ -1,0 +1,989 @@
+{
+  "report_date": "2026-10-25",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-24T21:41:46.363114+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 32
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 139,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-10-23T18:51:33+00:00",
+      "summary": "Generative AI",
+      "claims": [
+        "Generative AI"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+          "published_at": "2026-10-23T18:51:33+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-23T17:27:55+00:00",
+      "summary": "Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For...",
+      "claims": [
+        "The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and...",
+        "Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
+          "published_at": "2026-10-23T17:27:55+00:00"
+        },
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
+          "published_at": "2026-10-23T17:27:38+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "claims": [
+        "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "published_at": "2026-10-23T17:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-23T16:15:50+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/allenai/litpivot",
+          "published_at": "2026-10-23T16:15:50+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-23T14:58:36+00:00",
+      "summary": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...",
+      "claims": [
+        "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+          "published_at": "2026-10-23T14:58:36+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-23T10:00:00+00:00",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "claims": [
+        "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "published_at": "2026-10-23T10:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "George Russell's tongue-in-cheek Kimi Antonelli F1 title threat: \"Get you arrested\" - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T20:59:56+00:00",
+      "summary": "George Russell's tongue-in-cheek Kimi Antonelli F1 title threat: \"Get you arrested\" Motorsport.com",
+      "claims": [
+        "George Russell's tongue-in-cheek Kimi Antonelli F1 title threat: \"Get you arrested\" Motorsport.com",
+        "George Russell's tongue-in-cheek Kimi Antonelli F1 title threat: \"Get you arrested\" Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVktsMnZ3RlhjR3BBWE9VOG16ajFmd1RlTkprOHZMeUpUOVdJSlprak8yakN4bHJzcDlKNTVNS0xSSkFURHVOa0dfY1J4M09qZnlLQXBJdWJFdk1WTWZxRVJuWjlNbDZ1R1JxWUdDMVFjaG1KdmRYaUZiRldFbDhLMmlIbklNQm1ZY081LS1sU3BQV1ByWGZWZVp2MjFBMUhpLWg2OWQwaE1PcmVHbGtXUnhMU2tJc1QxX1pBM0x5Y0I?oc=5",
+          "published_at": "2026-10-24T20:59:56+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRTNTVTJxZkFLTUJUX1p1eVFWX2FudHVoN0lwbnRkWjVFSG5FWTgxWXF4NFBOakxRQ2puSlY0RmFYRjBuMk8tN0xxbU1xS3NGZDRSbXRzdW5lckxWSVFlWUdqNXIzQi1nYW5MbDFUTEhjNldEYTliS3c2dUxXM1ZjSEhQMnVRUEdIZlE?oc=5",
+          "published_at": "2026-10-24T20:59:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli caught on camera hitting fence in Mercedes road car at US GP - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T20:38:53+00:00",
+      "summary": "Kimi Antonelli caught on camera hitting fence in Mercedes road car at US GP Yahoo Sports",
+      "claims": [
+        "Kimi Antonelli caught on camera hitting fence in Mercedes road car at US GP Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcmQtVFFQLUNDVkIxVmUxSWpWbUh0Q2FyV2FOR0xQT0pXanZ3QnY2UFF6THQ3T2NiMU1PZWNlVmt5RXM5clJFcGNkd2Z5Y01RcGRzeE43UTVLTzdLOFZWY0NnaUVNVGpRbFRCam9vOFFRa0s2S25CQ0JWYW13am9KWE5uQUtNbjZpQnVXMURR?oc=5",
+          "published_at": "2026-10-24T20:38:53+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Shanghai IPO: reported plans for early 2027 - NeoTeo",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T20:22:40+00:00",
+      "summary": "DeepSeek Shanghai IPO: reported plans for early 2027 NeoTeo",
+      "claims": [
+        "DeepSeek Shanghai IPO: reported plans for early 2027 NeoTeo"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbUYtc3JSeXRyaVc4R0tlc1NZU0RuOXFkSTU3eERIQUNucVlpck9STjJiWDRUd2pIaFFKN2dUcVlrZk5WTDhIYk8zY1lUX3Y3enU3SjZOQW9QdG53NENDRXRod2tpWjgwcTZnRnk0RXc1VDRlejJxY3FJMEFkQVhjNHdtVFlmNkR5TktV?oc=5",
+          "published_at": "2026-10-24T20:22:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli after 207 track infringements: “We have to be incredibly careful” - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T20:10:02+00:00",
+      "summary": "Kimi Antonelli after 207 track infringements: “We have to be incredibly careful” SPEEDWEEK.com",
+      "claims": [
+        "Kimi Antonelli after 207 track infringements: “We have to be incredibly careful” SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYkhWYzBRVFZsQWlpTlQ2NG9hZ3F5dW1Sd0FSSjFTRGhPMFo3MVJFWTIycUl2SFZjcHgyZWRfQnJkZkxMS1NqSVkwMkhTVmNoNlFqXzV5UEkzdlM4R1piNGFUdmx5aHk0TDQtZFQxMFhqMG1iQ2w1dUtvUzdFbVc2cUxmLWVaWUEwLVVKZFZvdjBkU243eXRUZl9NRmt3RDY0d0VrdDNCUnBnbFhiamdad2g1VzVsVDc2enV4RlcwckFjOGZfWGp2OWFHTDk?oc=5",
+          "published_at": "2026-10-24T20:10:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Pricing 2026: Plans, API Costs & Free Tier - Fello AI",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T19:03:46+00:00",
+      "summary": "Kimi Pricing 2026: Plans, API Costs & Free Tier Fello AI",
+      "claims": [
+        "Kimi Pricing 2026: Plans, API Costs & Free Tier Fello AI"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZUWVuVmFDM3VaOVdtNFItYkczaVZST2ZiOXYySzBWQVhCaWlGa2pidzVreUdEbGxYeVF2MERuZkdWcV85Qk4tbA?oc=5",
+          "published_at": "2026-10-24T19:03:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli faces Ferrari-shaped threat to his title hopes - Herts Advertiser",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T18:42:12+00:00",
+      "summary": "Kimi Antonelli faces Ferrari-shaped threat to his title hopes www.birmingham-now.co.uk",
+      "claims": [
+        "Kimi Antonelli faces Ferrari-shaped threat to his title hopes Herts Advertiser",
+        "Kimi Antonelli faces Ferrari-shaped threat to his title hopes www.birmingham-now.co.uk",
+        "Kimi Antonelli faces Ferrari-shaped threat to his title hopes The Bury Times",
+        "Kimi Antonelli faces Ferrari-shaped threat to his title hopes Oxford Mail"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMUc1eDZLX0NlY1JORXlvaTZtZFlQMzlldVFhc3RYc0NhS3RmUWxNaHNwZUhLZkVRQk1wMnkxMmtKcEVucEViNjFrTXY1QVBNa01JRGhqYnhkQ1dkaUh4cmwyZVA4cmdVbFNheVQwU3oyc3JPU0V4VEx4Z2lIQ09pajhYR2JORDdONnNPbEFKYWYycnBqYThOUDdySkRqODFpRkd6c2UxTXQ0RlRoNmdlNA?oc=5",
+          "published_at": "2026-10-24T18:42:12+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZlgza2haS21WdmtWSUhTN25iNF9CWXkzdC1nTnZCdS1ObFNrNWpmMjVQZUVKTFNMcHNzVmdOTHR5ckt5S0t6RmE1VU8ycC1NN2I5cXNqZ2pQQ0JMMDdoZzMyaE5JUW1rcHhmOFpIc3lzNjM1ZWdSelFsbG9PdUdlM1RqSUhGd1FIRXhWanoxQUZzX1ctZldmTEhhclg5aDdzV1FvemRzNEt4c0cyUFA1XzZB?oc=5",
+          "published_at": "2026-10-24T18:42:12+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZllzWXMtQ0RBazM2d1QzWHNLOFRKX2FGM00xUmwzX1FiUlo0akIydVMwT0lrWFM1OW9acTc5Qm5WWG5hSUlHQXgzVjBNaWtwYVVjZmxlRl9FaklCTFhCbFg2WmtHaU9fY1k3RlVvWm04NkZseExkWEl6bVJnNkFhb3BxYTJYX2hDMXUyNFAwZi1mSHZEUllWZzNQcV9zcVQtNGw0MUVMLTVHeGNETmE4T0FBMlNETktiNzJvWGF0UEZQdw?oc=5",
+          "published_at": "2026-10-24T18:42:12+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQjRkamlxNWlROHJsOXlpMlVzaHUxYUVvUEFYYjN3Q0ZXSTY0elh2MEZ4MURVRlJ1SWtWZzdhdXFBVVRGRFpFOFNHM1lxTE0yY21MbEJDOGJNTGkya2Y3a20wTGsxcmw2MEt0S1VkN281U2pwREJrREgtWTE4V0JncFdoTGtqN1drVkNXbmcwYlZnbjV6OVhvaHhJTEFYcjNkR1NsU0czN1BwcG9l?oc=5",
+          "published_at": "2026-10-24T18:42:12+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPclktaFBhQTU4aFdoT2VMMTJxS3czWWFaa3A3VlJvQVpROWV5S25KTUVKa1phSG0xNEVMS1RrOEgycFNNWU1EejhUMk1fR3BkR0Q0Q2ZLYXBuOXNFTTM5LUdZMlE5RjBlZmJ3eVVDVDI5MnRtSm5KcUVwaWd1cjBVUEZfWW5LQmZVV0xxYmZtdlNuU2NlNGtuX19Tak11QlRQWjRuNEE4U2VpN3phWHNUaA?oc=5",
+          "published_at": "2026-10-24T18:42:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Moonshot Deliberately Curbs Kimi AI Hacking Ability Before Open Release - The420.in",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T18:13:12+00:00",
+      "summary": "Moonshot Deliberately Curbs Kimi AI Hacking Ability Before Open Release The420.in",
+      "claims": [
+        "Moonshot Deliberately Curbs Kimi AI Hacking Ability Before Open Release The420.in"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04TGgzWFJwNEkwYWZwLWZVNE5uZVFhdS01a1ktTWdPbXFPR1hhM2phLTZucVNiR3JSaUp6SlZjRHlxdHVnREJ0S3BMMzJiVlpMZUs1UU10WnNieTVmZUJjeFVCZGN3a0xHN3Z1ck43OGN3VHM?oc=5",
+          "published_at": "2026-10-24T18:13:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Altman Warns of Escalating Cyber Crisis as OpenAI Grapples with Internal Breaches - Security Boulevard",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-24T17:40:17+00:00",
+      "summary": "Altman Warns of Escalating Cyber Crisis as OpenAI Grapples with Internal Breaches Security Boulevard",
+      "claims": [
+        "Altman Warns of Escalating Cyber Crisis as OpenAI Grapples with Internal Breaches Security Boulevard"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSlVHOFphc191LVZBMVN3ZnZwNHJSTUtmMnpSWDhfN2xUUGNqZGxkVUVibmpEYUZteUgyeENDX2tjM2pSRlhpd1NwRHNsM3lVazhlazVXYl9vaGl4VjhpRm1uWDl3LWFpUEIwMmM1cmpUUlgyTHQyUjhWQ0pwVk5feXh4Y2hxQkZEV2VDTXg1S0ZmbUZOaXlhcXQ4OXc0MTRTYjBTWkpZWUYtLWNsdmZ5MGszUXhQRGRMWThKcA?oc=5",
+          "published_at": "2026-10-24T17:40:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Alex Volkov (@thursdai) - Substack",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T20:15:01+00:00",
+      "summary": "Alex Volkov (@thursdai) Substack",
+      "claims": [
+        "Alex Volkov (@thursdai) Substack"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Za1U0OEZrNXhRbFZPOVU3V2czZ0Z1YUpLSnU3cl92TFZXZ0toY0E4ZXVWWmJlenlfY1lNN1ZRQzFnQWNEcUh4UXRCdWVoemcxOVBuNDM0amp1Njg?oc=5",
+          "published_at": "2026-10-24T20:15:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "More Than DeepInfer: What SGLang Delivers - LMSYS Org",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T19:05:18+00:00",
+      "summary": "More Than DeepInfer: What SGLang Delivers LMSYS Org",
+      "claims": [
+        "More Than DeepInfer: What SGLang Delivers LMSYS Org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iTzZhU1gxZUtmbVowSFFUeXczSmZ2S1VSdW05WGlPdGdWSDhOSFRUOEtENEpIMFFYNUh6NGtVVEhZYnNPcnU2WVU2ek9EbzctS2RPcXNaSl9WdGgtd2tGakljbw?oc=5",
+          "published_at": "2026-10-24T19:05:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Artificial Intelligence for the Verification of Nasogastric Tube Position in Chest Radiographs: A Systematic Review - Cureus",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-24T17:43:26+00:00",
+      "summary": "Artificial Intelligence for the Verification of Nasogastric Tube Position in Chest Radiographs: A Systematic Review Cureus",
+      "claims": [
+        "Artificial Intelligence for the Verification of Nasogastric Tube Position in Chest Radiographs: A Systematic Review Cureus"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdDgwdmJDZU81bDhySDlpNERRakZWN2tLNFd5cjdRbWxxc1lIcE40V2J1aTV0TXB0eFhmM19XNWNpalNYNExldk54UC03dHFhUDdzUWFNOXhPdm9HS1dkRzVxRXpKRi04WkZGanNta3JUOTNMbmhleEpYa2tSeS16LUQ1OExxaTN6bWpkSU5vM0gtSVdoWWw3amhDOExua0FOMXZFR2VDbF9uQWVkRXBNR0M0QjdyNzFkcUxkelpwQ0Q1cUhsc2ZQb0pMV2txN0lKaUNwNzAzWHQta3J4T2pVWXlGR3Blc0lk?oc=5",
+          "published_at": "2026-10-24T17:43:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "United States GP - Saturday, in photos Formula 1 - Autosport",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T17:42:26+00:00",
+      "summary": "United States GP - Saturday, in photos Formula 1 Autosport",
+      "claims": [
+        "United States GP - Saturday, in photos Formula 1 Autosport"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT0V3MmJ3QmNtRnhac2pOX0VWelFBV081RnBSTkZFcFRHaHNtdC1kSGR2TXhnTFh5eXNFZHNZME5KSzVRUjNSdUxPT19xc3FNd3pLN0ZQSXhpSTFiNzF6OGZxR3FvOTZmWU5HZnktTDhjYjRsUndpQVJKSE5jU2JYUDB0SjBYdUJk?oc=5",
+          "published_at": "2026-10-24T17:42:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mario Andretti: His verdict on Kimi Antonelli, his hopes for Ferrari - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T17:30:00+00:00",
+      "summary": "Mario Andretti: His verdict on Kimi Antonelli, his hopes for Ferrari SPEEDWEEK.com",
+      "claims": [
+        "Mario Andretti: His verdict on Kimi Antonelli, his hopes for Ferrari SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNmU4Q0NiclJPU0kwMmhSOTlmRHpUZ3dEbnFrRjJQVkt2NDBOdldpSlludWd2QklmcXBiU0pwLWtDeWpVZzJDS3NBZ09leXQ1RnpKZW5TbUFRUzRjX3FnOVdmOHltQklLcHRMT3FOckhHQm56U3k2dDFPTjdTS1JaNGs2MEg2bFFnUXlaU1pGZW41QkNjVmI4dkxaMEZkQmRnYWs0ZThxME9EWGs?oc=5",
+          "published_at": "2026-10-24T17:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "When the sandbox breaks: Why AI model containment is the next enterprise security discipline - Express Computer",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-24T17:24:21+00:00",
+      "summary": "When the sandbox breaks: Why AI model containment is the next enterprise security discipline Express Computer",
+      "claims": [
+        "When the sandbox breaks: Why AI model containment is the next enterprise security discipline Express Computer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQmpfN1owaDh4RUZwRGtkeHYxUTI3Q3BZbXFuWEo1c2pZcGZRVTNvdlhJTTljeUtqWFJPX2JzTWRpdlVDajNUZHNMSDdxUTZpWUxuVmlnekJ6blAxMk5PRV8zdDFtbzdBYjNuZHFyTkhFZi1YTGNvc1BEenB2RE5KdXl6b2x6MkFjdERoaVdNLW1uTUt3U2ZHOUQ0dVBzV1lMVDl5c0hrVXozZDlwSWxrR3UxaFBjbzNSX093d0FWVGhuVnVuNlJ6Uk5rN05WelEzbUVnZmNQOWVjaGZJQXc1VkUxN0FQNENJMHNKSGZ3?oc=5",
+          "published_at": "2026-10-24T17:24:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "George Russell reveals hilarious last-resort tactic in Kimi Antonelli title fight - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T17:15:00+00:00",
+      "summary": "George Russell reveals hilarious last-resort tactic in Kimi Antonelli title fight RacingNews365",
+      "claims": [
+        "George Russell reveals hilarious last-resort tactic in Kimi Antonelli title fight RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEFJWmlPM2x5bUtiRnhMeFBIS3F2SjVwTXNZekh5MjJmUHBuMWdqVnlVS1JUQ2U5S0pUSUE4NS1hZlJ6RXNCc0dwc3kyMy1yNjZWeXVPSkxZaDJCcThnZHV0a2psdFdoUVhDdjlZOWNOUXRWanFiNTY4QjJ1djJGNklDRVVEWWw1emd5dWZNZkZmcmxZSzdja3VGNERvYUxwUl8xM3Rka2c5LVE?oc=5",
+          "published_at": "2026-10-24T17:15:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Recursive launches Flint, an AI coding model built with self-improvement - TechGig",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-24T16:57:30+00:00",
+      "summary": "Recursive launches Flint, an AI coding model built with self-improvement TechGig",
+      "claims": [
+        "Recursive launches Flint, an AI coding model built with self-improvement TechGig"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORFFUM3lUdWRNQWpuRjRmV1djMU5ObV9ySHJ5TUF3M3RWSWJ4cnVwdERaSE9zakR6X0hucXZPdFhFNUtWLTZNSlFZT2hKWEhPSk9WQWdWenZTbV9hN0VrODNOTUxHSXJ5cXZWaDZOU3V3bmc3aXhDSWwwWlFJV3Q1YkhTaXgxNUlMNGdNOGJPaG53Z2VJMTRTVmFwYU04VU5OQ0ZJbkE4S0NNWmxFUHfSAbMBQVVfeXFMT3AyZnZ3SHhRNEU4R3ZRQnZHaTdiY1BMak52UXY5ZXdZWkx3Qzk5a20zTVp4ODJmOXN1cVFpSkd2VjNUS2ZnWGd2RUdoSTd3YjdNVUMtS01mREFsc3lCTEdjOHBadDJpZWQ2WGFxcWNLTEtxSUs2Rk92ZktaYmxyS3JMNkUtaEk0Y01XY2JacXcwV0lPWjlYTzdHQzZDUGhlMnhmRkFabUd4QmdxYWpSSU9aTkk?oc=5",
+          "published_at": "2026-10-24T16:57:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Chinese AI startup DeepSeek raises $15 billion ahead of potential IPO - The Daily Star",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T16:28:39+00:00",
+      "summary": "Chinese AI startup DeepSeek raises $15 billion ahead of potential IPO The Daily Star",
+      "claims": [
+        "Chinese AI startup DeepSeek raises $15 billion ahead of potential IPO The Daily Star"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZXZzblRac211RElKalkxTVo3bDNHMGFtMU5Hc3BXVmRzN3k5NjBkbXpua3B4ZFN6bFVnRHJHakxKRnZSTWF5VTJHS2s3MV8yZXlGRkh2LXk4aDZXWTlkWUI1SDZrOW9oMEpoaFZqNklVaWp4U3JDblJTaDJUNG1hLXVPMkNjbWY1WkRoUTRBeTJJN3RFVXRJemtyd1hvZVdmcExHeHNtbksxNzZ5OG9JdE5scWtHVjZEN0h4M1dFTUs?oc=5",
+          "published_at": "2026-10-24T16:28:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Together AI's Dan Fu: Inference Now Burns 12x More Compute Than Training, and DeepSeek's 80% Margins Prove It - BigGo Finance",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-24T16:08:00+00:00",
+      "summary": "Together AI's Dan Fu: Inference Now Burns 12x More Compute Than Training, and DeepSeek's 80% Margins Prove It BigGo Finance",
+      "claims": [
+        "Together AI's Dan Fu: Inference Now Burns 12x More Compute Than Training, and DeepSeek's 80% Margins Prove It BigGo Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lMGNTX204dUNFS1FZY01IZ3Vlb25HRFNBQTZqQnZOczlOV3p3dS1fYTVGQUxvX190QUJLaC0zdFR2X2lsRUdJelN3OUxrcDRKQjhjOFNxWG5oTjg?oc=5",
+          "published_at": "2026-10-24T16:08:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
