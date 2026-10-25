@@ -1,0 +1,989 @@
+{
+  "report_date": "2026-10-26",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-25T21:55:58.374337+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 47
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 147,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Kimi Antonelli wins dominant US Grand Prix and tightens his grip on Formula 1 title chase - WBAL News Radio",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:53:07+00:00",
+      "summary": "Kimi Antonelli wins dominant US Grand Prix and tightens his grip on Formula 1 title chase WBAL News Radio",
+      "claims": [
+        "Kimi Antonelli wins dominant US Grand Prix and tightens his grip on Formula 1 title chase WBAL News Radio",
+        "Kimi Antonelli wins dominant US Grand Prix and tightens his grip on historic F1 title chase WTOP News",
+        "Kimi Antonelli wins dominant US Grand Prix and tightens his grip on Formula 1 title chase News-Press NOW"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNEtBV0JYMVJpZmU5RlBueVJGTXJxZjNQYVhKS05VTjc4dzd0Zm5OdERTdEdiTFBIX1Vfd1pBR0FnV1gxX3pFQlpmR1JGUzRIN0htTHpuelkwbUVqM2NMZ2FFVkpKbmg4RllXUUhYTW9LUVgtQVA1WTY4aVlVMEVGSERNNl9Sa2ZvY25QRlNVNUdjaEthM0V5R3QtZlpibXRsR3JjQ3FtZzc0VVdiVmY0?oc=5",
+          "published_at": "2026-10-25T21:53:07+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbV9sV3NVdTRYaFJxT3JZWXFmZEl0Y19lcEJGRldIMFJXT1Y1UHJXRG1oQXNzZmJhQzJ1cjhLZUxNWlhDVC1mU0E2ZDVUT3BuWlBmZHE3ZUxaRXdJNjdDd0V2UUxRZVZ1dWIzc2E5WVotNGpvWG8yRjVFcUt4cWt2czhCcVJ5bzAxY2UxdmFnNmZMTFd4SU9fQy1YMEhMRTFmem9CSFNJRTNmQ0lGeWVKQWtoMEV5S0dWaF9TNHJBbw?oc=5",
+          "published_at": "2026-10-25T21:51:04+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQQWZtSk9GM1FCaDY5bzdzVF9PYTNuOFVtaGk1elN4bnpCeTRsMzdwQmgzUVlXUXNzSGVWbHo2RzREZnhra2RXTnFuVE1hRVdXV2libTI1R2dDTnUwX2d6R1Nmd3NOc2VEVU82YXZ0REFvNnlfWkdOZUZKX0ZmdHdHOUNJWGlyckRFLVdubHBxeDZoM3RCa2V2RnpBeV91WGVHUGl3TEl1bTdqN1BwZ0NtQTNpNndaMnQ5enFyTVRnUEozSXR2bWFsS3F4SkhNYjlwMTF5TWJzRHVUNDJKZWdPYkJwRDctZ1YyR1MycFNVaE1JcEZaMkswRnQ2TjY0TURldUNUaDRoLTFMV1cyS3JoOW50N3BTSlF4eUE?oc=5",
+          "published_at": "2026-10-25T21:49:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "US Grand Prix result: Kimi Antonelli wins in Austin but has to wait to seal title - BBC",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:50:34+00:00",
+      "summary": "US Grand Prix result: Kimi Antonelli wins in Austin but has to wait to seal title BBC",
+      "claims": [
+        "US Grand Prix result: Kimi Antonelli wins in Austin but has to wait to seal title BBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WUVU5aTh1N0htX21lbUhVNVJqdWl2XzFTeGhaeTB0V09IemM0UFFmSEdmX0hXOElzMG5Ddl9hR0daaXRBdjFWeVFHVGd1TjMwQlQ4ZTBkSlEzX050eUpOU2NRNkZmbm5Td1J3?oc=5",
+          "published_at": "2026-10-25T21:50:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wins United States GP but made to wait for first F1 title - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:48:12+00:00",
+      "summary": "Kimi Antonelli wins United States GP but made to wait for first F1 title ESPN",
+      "claims": [
+        "Kimi Antonelli wins United States GP but made to wait for first F1 title ESPN",
+        "Kimi Antonelli wins United States GP but title celebrations on hold PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamxWWEdmWmU3Y3F5YmE4Rk10dkRiQ29lS1ZLNXI5TmpKZGd5UmJHb3d3d3Ffc1N6QXRNOEZLVVduRmNndmxoNGdmWkNsUzR4QnhtQ2xmbUd0ZHN4TTU0QTBEX3doQl85TVhHVnVIa1VHejRzTWwwdG85bXFsYmxVc3Q0NG9BeG5RaS1jdWY0QUJKWGszR1diNG82blg3VmY4?oc=5",
+          "published_at": "2026-10-25T21:48:12+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94aUlUN2pUczVUdEliOFlZRk54bVRqeVU4Yjk2dlowbEFGR3luLVoxRXl5d1JFakhJaGx6OFgtalBuRUc0c2IzRjBreDRCWGlBeTctNTdKWXJ2SlUwUHUwTjlvOW1jWGkwdUVTQWUwU2g5N3BLNVAyUXVvTQ?oc=5",
+          "published_at": "2026-10-25T21:44:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "United States Grand Prix: Kimi Antonelli wins US GP - BUT championship is still alive! - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:48:07+00:00",
+      "summary": "United States Grand Prix: Kimi Antonelli wins US GP - BUT championship is still alive! Sky Sports",
+      "claims": [
+        "United States Grand Prix: Kimi Antonelli wins US GP - BUT championship is still alive! Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONENhcVJ0dW9xQjRiU0Jtc010N1hwWmprNUVnQ3p6bWNSRER1SV9jdXg3RGs3cFNQVGdWcmtQRUt1Y0ZPZUF1R2g1X1ZwaWtEa0dUX0otdVpBT0pHYldaMjVSd3hGR2hGbFczWXc1czhWTEVobk9sX3B3N184SW02d1U4c2NwaW5icEg2YU5zemJtRWFhQnhKdGplYzdwSG9UeW5HVkY3MjN2dVN6VTNvOV9NOXRnTTN4WXI0REF1Q1lFYlVZ?oc=5",
+          "published_at": "2026-10-25T21:48:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 United States GP: Kimi Antonelli takes dominant victory - but no title - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:48:01+00:00",
+      "summary": "F1 United States GP: Kimi Antonelli takes dominant victory - but no title Motorsport.com",
+      "claims": [
+        "F1 United States GP: Kimi Antonelli takes dominant victory - but no title Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM1V4Sl9yS3JSUE15cWU3NkZST0ZzTEhHSFdwWTl1VkV1dHZna0hrNHd6LWdOMUZFM1RkT0ZvS3daeDQ2aE5mTWFFRVNjcGJjUkRTRUIxU0VFMlJNNkxuUkF1REM0R1BFaUhDSUh6YkxQYWRMS25kendFaWhkUTFWMUE2aU9rVXJZemhKRQ?oc=5",
+          "published_at": "2026-10-25T21:48:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wins U.S. Grand Prix in Texas, putting him on the brink of F1 championship - NBC News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:45:45+00:00",
+      "summary": "Kimi Antonelli wins U.S. Grand Prix in Texas, putting him on the brink of F1 championship NBC News",
+      "claims": [
+        "Kimi Antonelli wins U.S. Grand Prix in Texas, putting him on the brink of F1 championship NBC News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUVJ3TlFsYThSWDBSZEtndXlvR2J6TDZmb3J6ZDlMVVBFclN1SVVnYW1rRnZqRV85VHk4cHlhSXdlOU96dDhHM2lITnlsUmJTNmxCU3FldnVOSWNMekdmZzNuUDF6UXVIVGZ1STFOdTRPZjc2bEtUUUh1bjNtMUlFRkRiRVZLcGh6WkthOTg4dXBnaGJVQlg0VHVqSllTb3RBTHZJMkNha1pZZkE1U2loOE4ycGRuUWpXbGlFQ1Jn?oc=5",
+          "published_at": "2026-10-25T21:45:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "How Kimi Antonelli can win the F1 title in Mexican Grand Prix - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:45:00+00:00",
+      "summary": "US Grand Prix: Kimi Antonelli takes Austin pole on weekend he can win F1 title BBC",
+      "claims": [
+        "How Kimi Antonelli can win the F1 title in Mexican Grand Prix RacingNews365",
+        "US Grand Prix: Kimi Antonelli takes Austin pole on weekend he can win F1 title BBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNanBqNGlDMzVNNEtjQ0c3R0FCWXo1QXJPUzZYcF9wWmhWTDFFVm5TWUE2LU9DaDJWWjB2dmxsR2NNOXFuSHRaSmJwdU5oQ2FabUpNaXB3Q1l0VzdveFJHUTZsVlp5dHdvanl5SGFwV3V5TTBLbXRLZmc3bnJkSF9WQzZWT3dIbi1MdTRIcHJtUWE?oc=5",
+          "published_at": "2026-10-25T21:45:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WSk1DdWdSazg1ckxrSVY2NDZnUzFUdlZ4S2tiTF9QQ1JQUEFhZFdBNU9VV29qaW81OW04Q3lFbmFTUmtZT0JPSzYxTG1oNE1McWFEVW1SUnpRS0lCa0lXR254VXI0UzFTTGI0?oc=5",
+          "published_at": "2026-10-24T22:15:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wins but must wait till Mexico next week to clinch title - The Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:45:00+00:00",
+      "summary": "Kimi Antonelli wins but must wait till Mexico next week to clinch title The Times",
+      "claims": [
+        "Kimi Antonelli wins but must wait till Mexico next week to clinch title The Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUmFVdEZvaXpzcmxKM0ZRODBERGNrc2pfZzVRVWQwR29yMWV5Ny1GWTQ1TDhwTzdIcjVDRExhaWhRd0F3cmI2SWJVYkgzT3pDejN3NXUwbE13czRVQmpSdGVISDZDTV9EbjNsNXZudTJPTko2VDI2WFpCYWtZXzk1TFd5WV9ZaFlSTTR1RWlncFlaZUNXWE9TSHJpdk1YTWNYWEpGTF9kZ01vRU4wRVFBcW42VHBVeVJXUkdjdklYRWdBblU2eUlEdUtDZDk?oc=5",
+          "published_at": "2026-10-25T21:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "United States Grand Prix: Kimi Antonelli wins but an F1 title has to wait - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:44:35+00:00",
+      "summary": "United States Grand Prix: Kimi Antonelli wins but an F1 title has to wait Yahoo Sports",
+      "claims": [
+        "United States Grand Prix: Kimi Antonelli wins but an F1 title has to wait Yahoo Sports",
+        "Kimi Antonelli Takes Pole for United States Grand Prix in Austin Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTFlfQW9YbTZLV1d5V3FfWTdBWUVUWW9tWnVHTjdGZ0c5MDRoWnRXSlVuVHZvU0xtbk1VNU8yaHZ1TDRNV18yVE5QYm13OXlLLVdQNkZYUGtlNjFFVERtLS02dVRSYnJ6alhHRnVGUDhSYVlGcDBHamV6enlkSzFJTERsSTE?oc=5",
+          "published_at": "2026-10-25T21:44:35+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWF5S0lLbUM3NXlJcUdDbEI3aFZsdFlDR1ZZMUVwTllvaURmWWdIbnU2ZXRUSjdlTHM0Z1RwVW53Q1BlbmtJVFp2S01zNTN4MHJhcUxmdXFGNEJJWlZuSUt1WGlqQXdCQ2NuMWJDQjF2NVhQRWlWM1dZRmJoVTdFeFZTdmdaWWhB?oc=5",
+          "published_at": "2026-10-24T23:34:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Is Kimi Antonelli Single or Dating? What We Know About the F1 Driver’s Relationship Status - IMDb",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:43:26+00:00",
+      "summary": "Is Kimi Antonelli Single or Dating? What We Know About the F1 Driver’s Relationship Status IMDb",
+      "claims": [
+        "Is Kimi Antonelli Single or Dating? What We Know About the F1 Driver’s Relationship Status IMDb"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96WXA2WjBnaDNiZEIwdTVBanBiaS1zOW5tTmtpNTR6QTVLV25NNnVnZkstUS0yZktaMVBLQVRTczBkN3V0RjMybkkxVnc1N0ROY0dHR0hPdm1OaHluN1FpbUNvTHVYcEFuN2c?oc=5",
+          "published_at": "2026-10-25T21:43:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli takes US Grand Prix win but made to wait for F1 title - Crash.net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:41:56+00:00",
+      "summary": "Kimi Antonelli takes US Grand Prix win but made to wait for F1 title Crash.net",
+      "claims": [
+        "Kimi Antonelli takes US Grand Prix win but made to wait for F1 title Crash.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa1E4bE1TMll6aGZnd241SzVJY1RGb0dpckZzOFlPSjNDWDhvLUtkdnZWS3ZGR0kxY2NjeTU3NGl2cXRSZGx1SS01NXV0eDRpZHRIRlcxV0VfVEV0WVQ3X3dFcFdROVBlQ2U0cHk0aVFiRlhaMy1RSFMyYnFyNWNhT3ZuckRkZm5yZWtRVnhrM2lkZW1TTENFMWJtVDM4OXdlckQ0N0UtSQ?oc=5",
+          "published_at": "2026-10-25T21:41:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli on verge of smashing F1 record book after sublime US GP victory - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T21:39:00+00:00",
+      "summary": "Kimi Antonelli on verge of smashing F1 record book after sublime US GP victory RacingNews365",
+      "claims": [
+        "Kimi Antonelli on verge of smashing F1 record book after sublime US GP victory RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcHZvRjZzeDJPRFRDWmpEMkdMUGExRTZMTG5zbWF6eXREY2VINkZMVTlKLXhNem1aY0ZCUmhBX1daTUp6cEg2WDdkYlRFR2k0Z0pNWXNFUnBtYzdxYTl1OEJsZ014U2p4cnZXMmdGTHlmOEFyd004bG1CeDJHemlWZXVxV3BwcGFIcjlqZlFjUzFUekJPZkRJd3BGY293a3N3dm9YOG5NRQ?oc=5",
+          "published_at": "2026-10-25T21:39:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Telecom Companies Shift to Selling AI Usage Tokens - 조선일보",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-25T21:06:58+00:00",
+      "summary": "Telecom Companies Shift to Selling AI Usage Tokens 조선일보",
+      "claims": [
+        "Telecom Companies Shift to Selling AI Usage Tokens 조선일보"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM2NUVzVOMDlpdF9uYnl0M0E4RkszNEpPNUktUk53VjVJTC1XM1lBN3U2aXMzWXhZTTNJNjdXUHFGQjhJU2tBMEY1cnMwaW5EZkdWWTdQeGFLSS1KanVzT0NJZ1JXVl9CaVN3bDZMclU0Qmd6dW1yMUd6eUN5ZmZDaTgtWWZwMWww?oc=5",
+          "published_at": "2026-10-25T21:06:58+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Drone AI Cuts False Detections by 39%, Improves Accuracy Without Retraining [Unboxing Lab] - 파이낸셜뉴스",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-25T20:56:00+00:00",
+      "summary": "Drone AI Cuts False Detections by 39%, Improves Accuracy Without Retraining [Unboxing Lab] 파이낸셜뉴스",
+      "claims": [
+        "Drone AI Cuts False Detections by 39%, Improves Accuracy Without Retraining [Unboxing Lab] 파이낸셜뉴스"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2RjBwRWRoSG0zYlpPNHRnZEM2bFoyOWN0d1ZUVzZXZ2ZzTkNhSkRZWWRwZjgyWmMyWkxhNTdobkhtMGFtSXc3QVRKTUdCOElKNk1pQ21yMEo?oc=5",
+          "published_at": "2026-10-25T20:56:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli moves to brink of F1 title with United States Grand Prix win - The 42",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T20:50:00+00:00",
+      "summary": "Kimi Antonelli moves to brink of F1 title with United States Grand Prix win The 42",
+      "claims": [
+        "Kimi Antonelli moves to brink of F1 title with United States Grand Prix win The 42"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZlh6YlE0TGxlZlQyZ29TS2lXZU5MU0pWeDRpWm5KR2JNUXZuVXdWdVpDYS1TYVV1VkV4TmVTMEpFRnNHV0xCUndJcmhtdm5iUlZvV1hB?oc=5",
+          "published_at": "2026-10-25T20:50:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Apply Now: Developing a Data Lab for Science with EOSC and RAISE - fundsforNGOs",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-25T20:21:54+00:00",
+      "summary": "Apply Now: Developing a Data Lab for Science with EOSC and RAISE fundsforNGOs",
+      "claims": [
+        "Apply Now: Developing a Data Lab for Science with EOSC and RAISE fundsforNGOs"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeUstTDN5VWRobFdEdTBBRkhuOHlUX2Nfb1VHMS1tQWN6b18tZUN4Nzg0OWxVQ0stQWlwNi1fTlFMMkJ5S1c3NmtEUDVPTVNtclFhdmhtTktPYVZXV0xMb3pXRzdnUTlpTkRiLXd4M3BKZ1Jva2NVYjh0dmF5VHFoYW8wTEdnRFBUR2JycGZQTnpaTnJHSjNFeW53M2NvQ2Z3UURwVTJsRVJvNzVFVnRPdHln0gG3AUFVX3lxTE9iQnh2empfa0FRcVpJY1RfTEF3a3VFSWtqMTNjOUhzdFdYZ2pVMWdvXzlReVNjTWhtQkx0Rkpaa3dXR3FlUEtWNDJnd05xaXhDam96RkRsNzRkMzhyR0loVkNtbmxqbVltaEdiT0RJYWh6alpKLXRnUnE0Mm1tcV9UNFd3Tk5LVjlJR3YwcXJTcDN6ZExYMTA4eEFkX3FzQ0VZSEJOOHJOTGJoZURacFFlVFh6dFF3NA?oc=5",
+          "published_at": "2026-10-25T20:21:54+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Who Is Kimi Antonelli's Race Engineer Peter 'Bono' Bonnington? Lewis Hamilton Background, Mercedes Career, & Net Worth - Athlon Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T20:15:00+00:00",
+      "summary": "Who Is Kimi Antonelli's Race Engineer Peter 'Bono' Bonnington? Lewis Hamilton Background, Mercedes Career, & Net Worth Athlon Sports",
+      "claims": [
+        "Who Is Kimi Antonelli's Race Engineer Peter 'Bono' Bonnington? Lewis Hamilton Background, Mercedes Career, & Net Worth Athlon Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYUNLSldELTdtdTdYamg2bkpRaHo0LXF6TmozM182VFFXa2dzc2FaOGkwdFRINHpSSkNtamVtcVRBV2xpUUt1bXNmdVpCRGJXUE1JVEd3eWhQazhUZ2RidmVvdzV1eUl2QllueXJuQ2pPT2s4dTA0bUhNQ3YtcExIaTN2UGtfc3dWQnZONHQxRm43ZDIxT2JGVVRNNTVkRjFabzhpa0d1TTE1WlA0NEJCZkUzWHNfQ2lkeVN5QU1qSkZQRDhvRUhCQjFzdVd3QQ?oc=5",
+          "published_at": "2026-10-25T20:15:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "United States GP: Kimi Antonelli gets FLYING start as George Russell gets five-second penalty! - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T20:13:11+00:00",
+      "summary": "United States GP: Kimi Antonelli gets FLYING start as George Russell gets five-second penalty! Sky Sports",
+      "claims": [
+        "United States GP: Kimi Antonelli gets FLYING start as George Russell gets five-second penalty! Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV3Q1NzRzVWh3VTZmM2pNU3pUZGVQZmlhaVFkeEUwWmpUaGdVUzAxaGxKcHRLaG03UWZQdTV3dE16TDUycnR4UERBdFdWRFI2WlZBMTdPME9QWWVRYktxUkl3N1FvSFRrVkVDcVJ4M0dTRW03dUpDWmt0QW9iYzFXeFJMMTdYMnJBSDR5V3M1ejZUUURQVjBaQnc4ejkyZHRKR0o1Wlk2Q19Remd2MERYLWlMVzBvd0JZ?oc=5",
+          "published_at": "2026-10-25T20:13:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lightweight AI model spots tiny grape leaf diseases on mobile devices - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-25T20:02:04+00:00",
+      "summary": "Lightweight AI model spots tiny grape leaf diseases on mobile devices Bioengineer.org",
+      "claims": [
+        "Lightweight AI model spots tiny grape leaf diseases on mobile devices Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRVJDV1dyU01PR1JnVFZXRFJSS2luR3haSlNfazh5SkVKZ0RxMmFmLXBFMmlVRXYyZkRKWk01bHZQcFBfNk9PcGFhOG5mT0h1ZmZBV2wxMjhwbHBLWWNwaFgxYl82alg3alE3OEt0VVBtX2tzQTlvU0k5MDd0VGw1Q2l5MHB3TkVVRjVqNU9BM0NtVVFZZUFWY2ZR?oc=5",
+          "published_at": "2026-10-25T20:02:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How can Kimi Antonelli win the F1 world title this weekend at United States GP? - The Sun",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T20:00:00+00:00",
+      "summary": "How can Kimi Antonelli win the F1 world title this weekend at United States GP? The Sun",
+      "claims": [
+        "How can Kimi Antonelli win the F1 world title this weekend at United States GP? The Sun"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX2VzaEhLRmkzMTBoU19PbkFvZWpJSG9RWjE1OHlPak9WSFAxMTU2MEVjd0VnVUw5Xy1lUzJrb2hCanh3VVluV1pQQVNOUjBGMC1ZekZGMkVoalBoQkE1MEIxQ2VFeHMzbUE5XzM5cEJWajItenBfMmZ3M1QyQVlZYlBIUHQyYTA2YWd1RmltY0FtSEpjdW9SOTdvZ00ya0lWbEdFUg?oc=5",
+          "published_at": "2026-10-25T20:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "What Happens if Kimi Antonelli Wins/Loses at the United States Grand Prix? All Scenarios Explained - Athlon Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T19:55:00+00:00",
+      "summary": "What Happens if Kimi Antonelli Wins/Loses at the United States Grand Prix? All Scenarios Explained Athlon Sports",
+      "claims": [
+        "What Happens if Kimi Antonelli Wins/Loses at the United States Grand Prix? All Scenarios Explained Athlon Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZjRaalRac3E3Y0NESWVuRHp6dW1NQ2l1T3NtOXExSkEwLVVtaVpGcjBicVR6OU8yT1FHUDc1cW5BeDdYdUNDdWMxWF9Ed1hDd3RKcl80QzVMVk9PbWFiR0d5SlNJRjB3djNLNGxxa2tYRXg5bVRFajg2MXF6TndUVTNiOTZtQ0NtcDZqMVRfODlMdVhoT3ZjT1hGbGtvVE0?oc=5",
+          "published_at": "2026-10-25T19:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Geely unveils AI-powered charging - Daily Tribune",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-25T19:52:48+00:00",
+      "summary": "Geely unveils AI-powered charging Daily Tribune",
+      "claims": [
+        "Geely unveils AI-powered charging Daily Tribune"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzbHZiQXVRVWZhT1FpV1phbENYYkFHaXNxaWhhWTd2QWVBQzg5Z0hGWUlWM0FzTWV2ZVVTaWx2RkFSR2M0ZDVVN0NLLWVaZFY5bTdXeFdEQVBLMUZpbVoxTUtWRjBYNjZ2Rm1XVzU1VVBkbW5WZUE?oc=5",
+          "published_at": "2026-10-25T19:52:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Nicaragua and Models of Artificial Intelligence - El 19 Digital",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-10-25T19:42:06+00:00",
+      "summary": "Nicaragua and Models of Artificial Intelligence El 19 Digital",
+      "claims": [
+        "Nicaragua and Models of Artificial Intelligence El 19 Digital"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUXBXQzZuaTF3SFgyUHpvTTctVGNmMGRKcUVkdnFuOHozdFIwUzg5dFotQktmNUE1N2JIRXAxbjhUelBEU1ZyZTIwRUV5bzgtMTl2WVZmZGVfSWRJN2FqdFp2UVpGVlRFTU1hMkdCTjRKaDdwd0xtVEh4QUJWek1EUjNYQWF5WjRIUkJwS1hCallrdEJ2TVZsQVhkS0I?oc=5",
+          "published_at": "2026-10-25T19:42:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Exploring Kimi Antonelli's Father, Marco Antonelli: Racing Team, Career, Relationship, and Net Worth - Athlon Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-25T19:40:00+00:00",
+      "summary": "Exploring Kimi Antonelli's Father, Marco Antonelli: Racing Team, Career, Relationship, and Net Worth Athlon Sports",
+      "claims": [
+        "Exploring Kimi Antonelli's Father, Marco Antonelli: Racing Team, Career, Relationship, and Net Worth Athlon Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS2dodm8zSjRYbmhPRmJxdTRiYkJlQTJkYXM3SFBxNGVDX0hFRmFlMjAxRmJ5M2UyNmx4S25MU015RFdqcGVMRUlXM3E4b0ZmenpSSEd2RFJGa1dLNlh5VExuOFJPV1BEejZsajhQVkRGZEpLcng0SkRodXpPUUtzemFwbHVZX3FaTTNTS1hSaEhzRnd6ZEYzUDdKRDVySFNYVXZhV0pBV3d0NVIwYUlXbnpjY0FabDdVQXVqckNOdGlEZDZqQVpDeA?oc=5",
+          "published_at": "2026-10-25T19:40:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
