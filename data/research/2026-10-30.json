@@ -1,0 +1,959 @@
+{
+  "report_date": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-29T23:25:02.514568+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 31
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 145,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-29T19:58:59+00:00",
+      "summary": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing...",
+      "claims": [
+        "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/",
+          "published_at": "2026-10-29T19:58:59+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-29T17:00:00+00:00",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "claims": [
+        "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/updated-model-spec",
+          "published_at": "2026-10-29T17:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-29T13:37:07+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "published_at": "2026-10-29T13:37:07+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "claims": [
+        "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "published_at": "2026-10-29T09:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "claims": [
+        "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/ropes-gray-ai-diligence",
+          "published_at": "2026-10-29T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-29T00:07:21+00:00",
+      "summary": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These...",
+      "claims": [
+        "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+          "published_at": "2026-10-29T00:07:21+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/announcing-project-protostar",
+          "published_at": "2026-10-29T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/mistral-large4",
+          "published_at": "2026-10-29T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli declared ill ahead of the Mexico City GP where he can win the F1 title - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T23:11:04+00:00",
+      "summary": "Kimi Antonelli declared ill ahead of the Mexico City GP where he can win the F1 title GPblog",
+      "claims": [
+        "Kimi Antonelli declared ill ahead of the Mexico City GP where he can win the F1 title GPblog",
+        "How Kimi Antonelli can win F1 2026 title at the Mexico City GP PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdHViUnF0UXhHelI2bnpMOVhwb3dxc1FHTG1Tc1FpRy1MMUZLSWtTckhGTmR1SEVwRlRnQ0xCLU1YQnFEMDUzR25MOHBtVVBCZWRqLUE4MHl5Y1lrNktrNGNqUHR1VEV3YU5ubjgyS1FYLWpVOGV1YXp2MDhhbmNRM3dORlAycnI5NHFIYlFrQ09hRmo5X3g3X3JrV3RsOE1sa2lHZGQ4ZktFNWFHV01NMEFmSmdaT3pGTnFVMHNEZWJzeHZGYS1ZbVBpdFlsSVRO?oc=5",
+          "published_at": "2026-10-29T23:11:04+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YYkhyZDBOTkdOd0ZZZHh5amx2dFMweHBOZ2lrVGdOWG5UQWVtSUNsMTRXRUpmSWo1ZDMxa3IwcGs2UVZIejN3SmdVUVN4OGdkMHk1MHI0aFdXYzJTX05mcVlKWlJwdllVYWczZkp3bmFSOVJCQ1haN0o4UDNUUQ?oc=5",
+          "published_at": "2026-10-29T11:09:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AssemblyAI-TTS-1 vs Qwen-Audio-3.0-TTS: The Model in the Title Is Not the One to Buy - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T22:59:08+00:00",
+      "summary": "AssemblyAI-TTS-1 vs Qwen-Audio-3.0-TTS: The Model in the Title Is Not the One to Buy OrcaRouter",
+      "claims": [
+        "AssemblyAI-TTS-1 vs Qwen-Audio-3.0-TTS: The Model in the Title Is Not the One to Buy OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzR2xwcmV1S3VWckgySUEzOHhqZ3d4ZGhGNXFSSzhRajdONzF2dEVVeXhKU0JsT0YtS0JHSEx5SFY5Q3FFVzN1Q1l1MjRBOWlBSV9VSzdtMmxfTVpha0xZQlBwZFotQ3JlODl4WDVzV1RoYlhNVlU5Sg?oc=5",
+          "published_at": "2026-10-29T22:59:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "China-Linked Hackers Ran DeepSeek AI Agents at 200+ Targets - FourWeekMBA",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T22:53:31+00:00",
+      "summary": "China-Linked Hackers Ran DeepSeek AI Agents at 200+ Targets FourWeekMBA",
+      "claims": [
+        "China-Linked Hackers Ran DeepSeek AI Agents at 200+ Targets FourWeekMBA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMS1wVkFlbGtJY0x2QTZ3WldyY04zZ3VOTmJ2ZG9aY0xRNFNxOTJBVkNSazR1b3Npa1doRnk3VTdBY1pPMDJSaExJVG80SmRheUQ1QXAyZ0RLZmMyNzhrUzkyblduSzNnM2VmVHdfWmFGaHV1QW9BS24yaDZaQW5jMHpmcjlFdldUWVNqUzgzVQ?oc=5",
+          "published_at": "2026-10-29T22:53:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli struck by illness ahead of potential Formula 1 title coronation in Mexico City - grandprix247",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T22:45:00+00:00",
+      "summary": "Kimi Antonelli struck by illness ahead of potential Formula 1 title coronation in Mexico City grandprix247",
+      "claims": [
+        "Kimi Antonelli struck by illness ahead of potential Formula 1 title coronation in Mexico City grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeWtiNlBRZGdHTjR3LXJXZHhfZV9PZ1B1ejF4LVZnQ0JrTkMtcVdmU2RiWDdqT3ZOREFzTnBDWjBvcjJzZENwOGZBSnBrdGxrMWZqMXBDdE9DWHV0OUJ1QWUxb05qUWViMGpPdmRyWWw0R2M2MGd0Ym42dENlVDBrSmwxdDg3QzE5bWxGTlpOc0F2VFg1a25oUmxoc1dWbXZYd3Q1TFBKTzdhNVVsbEdwSm5sRnFrZTVNREZyMTJEY1hMekxYMko0TkxB?oc=5",
+          "published_at": "2026-10-29T22:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell: Mercedes driver insists 2026 Formula 1 season 'won't break me' as he looks set to lose title to Kimi Antonelli - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T22:25:27+00:00",
+      "summary": "George Russell: Mercedes driver insists 2026 Formula 1 season 'won't break me' as he looks set to lose title to Kimi Antonelli Sky Sports",
+      "claims": [
+        "George Russell: Mercedes driver insists 2026 Formula 1 season 'won't break me' as he looks set to lose title to Kimi Antonelli Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSVZSTjNOVHloSThqSGFwMTNQUE4wQnB4UkNYUTBRVFZ1UUtGRXdpQnp3eUEyX2FBSW81MUI1cGdVV25RR3JnZ0NQLUhYeXFoaVQxM3pJbWU2U1oxY3dPWDN5cklyYlBVZjBRTW5EZ3JMbzEyajc0MENhSVE5a3BOR182Q2RrOXlRN1ZYbTRNcDUzdjhzM3VmVzEyWFF5MVpQRTRieGo1LVBEUlY5engxanl2b0RHVUFSVG9mcEs0ZHI4NmVnQXhuNVk5V1hDWktqa3BXb3RIODZQcU5uQjlocXhxdE1fOU1CbUxNLVpFdkIzMEd6VkxudQ?oc=5",
+          "published_at": "2026-10-29T22:25:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds - NBC News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T22:00:00+00:00",
+      "summary": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds NBC News",
+      "claims": [
+        "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks, report finds NBC News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2tBajRGcFVPX2VqQ282N2Z5bWNzZXlvaFlkNkw1djJST1FyNDNhWDAyVHRacU5WckRKaDNSTWJZNVRKZ3pSWi1NR0JUeGM0RlRCTlRncS1uME1lUDNOVExMdE51ODN1TEpLLUFFdUcxN19CRnNwOW9JVnpHQW9EZ0tFb2wtMkMzZTlJTEVpTF8tVUxGZENlUzdfUlk0UDdpYkRxQkh6d1RHRVZ5QUVHSlJsanRNQVZKNlNZ?oc=5",
+          "published_at": "2026-10-29T22:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "George Russell makes defiant Mercedes statement as Kimi Antonelli nears world title - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T21:10:51+00:00",
+      "summary": "George Russell makes defiant Mercedes statement as Kimi Antonelli nears world title Motorsport.com",
+      "claims": [
+        "George Russell makes defiant Mercedes statement as Kimi Antonelli nears world title Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdnk2dXZHM3d4bmRwcTNMWWswa193TUJGSUw0eXk4bkhmV0hhQlJrOUs2a1E5MFhWQ3RaeV83OHVjQ0txNVNEUmFmMVp1dXNNaF8wdnVtdmd3ZWtiN3pIM2tYaGJoTno2emhkTFd5MENFQ2RGQ0hXc2tpclA1enhtZGxhdlVHcTdOcV9DZkdsR0tJbVdEWDFwaGxGWS1aRFpyT2Z4OUx2ME9oYmoxdVo1UC13?oc=5",
+          "published_at": "2026-10-29T21:10:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Chinese AI labs DeepSeek and Moonshot AI Heavily Trained Models on GPT-6 Astra Outputs - WinBuzzer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T21:05:34+00:00",
+      "summary": "Chinese AI labs DeepSeek and Moonshot AI Heavily Trained Models on GPT-6 Astra Outputs WinBuzzer",
+      "claims": [
+        "Chinese AI labs DeepSeek and Moonshot AI Heavily Trained Models on GPT-6 Astra Outputs WinBuzzer",
+        "Moonshot AI and DeepSeek Trained Models Using GPT-6 Astra Times Of AI"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSG9aTy1fRFNCYkVmdWM2NXkwY25yS1NJVkxRajlKeDBBLWdfM1hXOWVsMnhjSUNuZHhGbEVoRnlPMzlMVy1jbzRWblJXS2VlS1FrRzhVZl94QkU1SjY5VlR2dGZzOGE2bWNvaWhBNlZ6eGVVSy1FdDNTMll6dFd6YlhyWVRJU254eG14ZlNBeHBqekFId28xQ0RXT2NQT01maDZ6Q0pB?oc=5",
+          "published_at": "2026-10-29T21:05:34+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qR0czX2xqNTlQd2R3SjZtN2tvMTV6ZUZzZnFxa0VYVWRSUmtwWFl5Q2JycHN4TFFTbjIyVERIdXJORHhyRTE5YVBmdFBQcG9PZDRxemwydUotbFlVSTRNdHpPMjNlSjF4eVVmTUVqcHBReFNCTThyWnNOTQ?oc=5",
+          "published_at": "2026-10-29T08:21:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Russell admits absence of rivalry because he cannot match Antonelli - France 24",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T21:25:47+00:00",
+      "summary": "Russell admits absence of rivalry because he cannot match Antonelli France 24",
+      "claims": [
+        "Russell admits absence of rivalry because he cannot match Antonelli France 24"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRTdRUFRQSXp0MkZVaGxBelJ6d3JxaURlZXlYY1JBX0JadVJWdkhRa2N2WTZ4R0I3Z1U1YkJ6eHdCTFNuM29YN3Y1ZmFETlZOMDlWdUQyS3R3RmtYYmdLZ0RxbWpKVnZpYUdVTXhOaHV6NFMtbTNhdkJsUTdTbDViUE91ZFdyVk5QQ2RiYl9tNWdOY0xuQkJmWS05RlZLZ2Y0VWdRTThaOGxZTm8xNXQ0amhteG4?oc=5",
+          "published_at": "2026-10-29T21:25:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek, Moonshot Target OpenAI's GPT-6 Astra After Claude Tightens Defenses - Seoul Economic Daily",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T21:00:05+00:00",
+      "summary": "DeepSeek, Moonshot Target OpenAI's GPT-6 Astra After Claude Tightens Defenses Seoul Economic Daily",
+      "claims": [
+        "DeepSeek, Moonshot Target OpenAI's GPT-6 Astra After Claude Tightens Defenses Seoul Economic Daily"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV3lmTmVaLWloUThsb2RWTDUzV0NOX0IySmo5RjR4elo4Z0FWSllvZmpPT2xnQURhbFdmLTQ3ZVF1c0NmbDB0MGFJU3RGY0M2UWZud0p5MlZuQzExZVJSem1xbTZoZ25GemRQSWNELS03VXlSVnMzdE0tSUU1bXRHeDVUeV9ZSnZoaDNmNzNqMk15MEtTNG4wWkYtLUlxdTJWdzFqYTEyMng?oc=5",
+          "published_at": "2026-10-29T21:00:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Luca Montezemolo (former Ferrari boss): That’s absolutely mad when it comes to Kimi Antonelli - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T21:00:01+00:00",
+      "summary": "Luca Montezemolo (former Ferrari boss): That’s absolutely mad when it comes to Kimi Antonelli SPEEDWEEK.com",
+      "claims": [
+        "Luca Montezemolo (former Ferrari boss): That’s absolutely mad when it comes to Kimi Antonelli SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSmlCTzVOY3ljRDRFRUJ5Mm9XdkxZc1IwZHpfRWUwdFNuNFJsUGlFWnljSUZEdjlNNGZ2dWtZbnE5S2ZCVkJhaHJkWUN6dG0wb3ljOHJfaVB4Q3UtZXBYNHVSYkc2S2hNMEQ4a2FCNHF4VHhPeHhrQ3ZFTFpHdHV3WVdGWjVwajVBd3VkR3ZDNDJxcWhqem5rcE1Od09ONXZjbVRoS0tmV1h6bTNveFRF?oc=5",
+          "published_at": "2026-10-29T21:00:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Daniel Ricciardo offers blunt warning for Kimi Antonelli's F1 future - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T21:00:00+00:00",
+      "summary": "Daniel Ricciardo offers blunt warning for Kimi Antonelli's F1 future GPblog",
+      "claims": [
+        "Daniel Ricciardo offers blunt warning for Kimi Antonelli's F1 future GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ21TTkl3N2YzRjZNbzFzejZGZ0xJSm5IdFZZWEVQZ3FKWWZMa2JWLVpDV2swbTZ4dE8xOVJkNXd3V1htdVM3MUxWQjhyaVpJczhrU1AySjNCaFBWRXVxdGk3Uk82azh2OWlyNGRiRmNzeXVjRHhkU0pSTi1WUmxLbTIxSHVBbDg5WTRXRGV1Zjk1Z040ckxIWjNYZFRPaVBQb0E?oc=5",
+          "published_at": "2026-10-29T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "‘We keep ourselves to ourselves’ – Russell opens up on relationship with Antonelli this season - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T20:58:00+00:00",
+      "summary": "‘We keep ourselves to ourselves’ – Russell opens up on relationship with Antonelli this season Formula 1",
+      "claims": [
+        "‘We keep ourselves to ourselves’ – Russell opens up on relationship with Antonelli this season Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRVVtZFlNNDVYNkxXX2RZblI5bjNoTEZDQWFZMWdyRm1mUkRXYjNIa0RHVlNNN0hJTkYwb0N4WG9jQWl5S21BYjBqcGx5UUxqMUtubVljU2lPLVRXeS0tek9DeG9rMGprQWVTTUJ3bXdrdkViMmZvSDVTaEJNNldJb18wWnJYM0kxU1JrY3dRQVVTRVdlVkh6WVBNWEczekZRak5VTHNUQ1ZKeldhSUFRVGYzQVE2N0IxdlVJbmI2RUVROEFXamN0QWowaXUyTUxGNXZUN0dHRTF3WWg4dEY2NU5XRFlLWFZ0SVA2MQ?oc=5",
+          "published_at": "2026-10-29T20:58:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows - USA Today",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T20:57:42+00:00",
+      "summary": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows USA Today",
+      "claims": [
+        "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows USA Today"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0dlcjNYbjZzSmlhNDhqbUw1MWtueWplT0dUOEV1bDlwZFdpbDV3eFAxS2lRSnM0cWxiOUNtMnFsbVhZYmtuWHZ1ZG9tXzRDYnpNNDI4WVhjUDVrU0JzZ28yNnpYVEFEQ19SRzhkNXNvWlF3cmU4a2Jib1FEOG1INDcxZWEzSlhFT1hZWE40d0E1ejFvQ2xfMXZiRXEtSWhaZGYtQkRJTEZodEdabmR3NkFSWQ?oc=5",
+          "published_at": "2026-10-29T20:57:42+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lewis Hamilton lifts the lid on what he saw in Kimi Antonelli as the Italian is set to win the title - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T20:49:49+00:00",
+      "summary": "Lewis Hamilton lifts the lid on what he saw in Kimi Antonelli as the Italian is set to win the title GPblog",
+      "claims": [
+        "Lewis Hamilton lifts the lid on what he saw in Kimi Antonelli as the Italian is set to win the title GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX1loY19DUUlVelBoclltUTJLczVXa25nOENIUmFVVzZqQ1E0bXAzWXVPYzgwTkZxLWpzckxFNG5Pb0U5V2hwT1RIbERJQjZ6M2hHNnZQWklCSFZET24tSHRlN3FNS2JBTVBvMkVzZ1JZU0JWc0kyaDNidmlIYVhZaTJ4MTZCVXlzYTR1YjJ5VFltTnJHQjh1NDh3eXR6VzRaODUtZk50VVdCQUNodjN0Y19QckNXT0k?oc=5",
+          "published_at": "2026-10-29T20:49:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Antonelli struck with illness ahead of Mexico GP - RFI",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-29T20:45:59+00:00",
+      "summary": "Antonelli struck with illness ahead of Mexico GP RFI",
+      "claims": [
+        "Antonelli struck with illness ahead of Mexico GP RFI"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZXNyOHg5bGp0SFFfNHBZX0p0SFZqZng2Y1FKektIRllhMzRaN0JzR05UTTRabDVrU2xSUFVpMUh5R3hhcDRWSzBSSkU3eFhPcVJIUXc3Szg5QlNKWmlaUS1Xd3BIa1dMSEtjbGxDS2hMQzdXSnNUWEVEUlNCM21pNGRCV3FSS3ZJVUk3NE1TSQ?oc=5",
+          "published_at": "2026-10-29T20:45:59+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
