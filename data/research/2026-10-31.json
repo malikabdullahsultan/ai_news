@@ -1,0 +1,1002 @@
+{
+  "report_date": "2026-10-31",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-30T23:03:20.192509+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 46
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 157,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T22:52:36+00:00",
+      "summary": "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference...",
+      "claims": [
+        "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/",
+          "published_at": "2026-10-30T22:52:36+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Run AI Models for Edge Application Development with Just a Few Commands",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T20:33:21+00:00",
+      "summary": "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,...",
+      "claims": [
+        "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
+          "published_at": "2026-10-30T20:33:21+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "nemotron-halloween",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "published_at": "2026-10-30T17:57:24+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T15:11:46+00:00",
+      "summary": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces...",
+      "claims": [
+        "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
+          "published_at": "2026-10-30T15:11:46+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T15:09:18+00:00",
+      "summary": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path...",
+      "claims": [
+        "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
+          "published_at": "2026-10-30T15:09:18+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-30T09:30:00+00:00",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "claims": [
+        "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "published_at": "2026-10-30T09:30:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-30T09:00:00+00:00",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "claims": [
+        "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "published_at": "2026-10-30T09:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "claims": [
+        "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/fair-use-benefits-everyone",
+          "published_at": "2026-10-30T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Mexico City GP: Charles Leclerc dominates first practice from Kimi Antonelli as Ferrari show strong pace - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T22:37:04+00:00",
+      "summary": "Mexico City GP: Charles Leclerc dominates first practice from Kimi Antonelli as Ferrari show strong pace Sky Sports",
+      "claims": [
+        "Mexico City GP: Charles Leclerc dominates first practice from Kimi Antonelli as Ferrari show strong pace Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMmNzTExMTzQyZkl1d3V2clNUeW1jZEtyUGpQRTd2NmljX29kcUxydGpESjVBNVBDTl9FQW5PMzN1OUFwakVwSFZranpzdXVheUxwLVJneVA1NmRzTEk0eVB4Z1RxT2pBU1FPVHExMEEzSUtVQ1VBU0FHTVZQaUVld2x4RXFlYk83WTV6Vl9GZjhRTndraGhLcHpuZ08xVDFrbTVvc25CbGxxeWg2TElLQ092bTVnWFlWUHFXVU81MWJVN0JFc0w5TGo5LUJTbnpZTXAwNzBzbTZieV9CWlFB?oc=5",
+          "published_at": "2026-10-30T22:37:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli and Valtteri Bottas medical update after being hit with illness - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T22:17:12+00:00",
+      "summary": "Kimi Antonelli and Valtteri Bottas medical update after being hit with illness RacingNews365",
+      "claims": [
+        "Kimi Antonelli and Valtteri Bottas medical update after being hit with illness RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY1g0VDRIdERRRC1XQUI0TzZYdlZBV2Z6WW0wQjhDYy1HcnhXdXBVU1dyTzRwRWtxM0pQNGRQZWlydzk4ek1IV1pVQkN5MEg5cFZOajJOWWZYeHR4Vlk5bVZHVnV1anhneF9iRXpDXzF5bkJwSFZ6ODFUN2k4UUd4blZDaFFVNGdlVnQ5bnRiLXNBekFUckZiTmJIWEtoN3F2MmNzUXdlYlV3dw?oc=5",
+          "published_at": "2026-10-30T22:17:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 rising star Kimi Antonelli's embarrassing moment - 7NEWS",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T22:16:30+00:00",
+      "summary": "F1 rising star Kimi Antonelli's embarrassing moment 7NEWS",
+      "claims": [
+        "F1 rising star Kimi Antonelli's embarrassing moment 7NEWS"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa2VKcUx6SUI5NVFXTDJXWW5wMFhVQ0NJeWFxazYxczVRMFNyalBhejVnVHZLYkQtREU3WXZPRmQ4ZGdGeTBmS2d5eHBxTEE4c3hkb0ZVMmhYNzRSSkpNYmZIUWppWTY4ZTJHcUdueFpyTkNGQmxrVzlnZWxuWjlUMVFkVEFlTzZqemhOc2k0aktlT19FUHhsdlQ0Wml0bmJy?oc=5",
+          "published_at": "2026-10-30T22:16:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Apple Intelligence Is Coming to iPhone in China, With Help From Alibaba’s Qwen - Appleosophy",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T22:09:50+00:00",
+      "summary": "Apple Intelligence Is Coming to iPhone in China, With Help From Alibaba’s Qwen Appleosophy",
+      "claims": [
+        "Apple Intelligence Is Coming to iPhone in China, With Help From Alibaba’s Qwen Appleosophy"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oR0JNcWFWNGFwVVRlWmdlbnlmazhPVDZyanBGUHQ0ZjBBNk5RcERnN09RZEtfU0ZBQUp6RFQ4UEJmNVl4RFlLYkVOWTkwZw?oc=5",
+          "published_at": "2026-10-30T22:09:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Here’s how Kimi Antonelli could make history as the youngest F1 champion ever - The Globe and Mail",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T22:04:45+00:00",
+      "summary": "Here’s how Kimi Antonelli could make history as the youngest F1 champion ever The Globe and Mail",
+      "claims": [
+        "Here’s how Kimi Antonelli could make history as the youngest F1 champion ever The Globe and Mail"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNclFNRUFJU2dwLWk2RTBoQ3lvZ2tHZDJ3STFkRU9fUkltRlVBeW1JRXBqVWJnYjVpX0hvOWNsbGNZemFLY0lJM29DX0dvVVM2MVdQNGNCdVE2RW5vX29weXZLbXFDLVNveXkwQlgtUkpXSHFHTlZsbmFWVi0zTjRQcTNsYmFUNjQwY01ITkxGdExzbzRrOFJPanZR?oc=5",
+          "published_at": "2026-10-30T22:04:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Ailing Kimi Antonelli nears F1 title in Mexico as he aims to become youngest champion - The Globe and Mail",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T20:31:02+00:00",
+      "summary": "Ailing Kimi Antonelli nears F1 title in Mexico as he aims to become youngest champion The Killeen Daily Herald",
+      "claims": [
+        "Ailing Kimi Antonelli nears F1 title in Mexico as he aims to become youngest champion The Globe and Mail",
+        "Ailing Kimi Antonelli nears F1 title in Mexico as he aims to become youngest champion Oskaloosa Herald",
+        "Ailing Kimi Antonelli nears F1 title in Mexico as he aims to become youngest champion The Killeen Daily Herald",
+        "Ailing Kimi Antonelli nears F1 title in Mexico as he aims to become youngest champion Bryan Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWlBvdk1JVGp5UUwtUzhaSDc2NFAtTDFyZ0xZZUZzaVFxOHVIRVpKaHhuNkdNc0JmTXZ6bzFEU1RVdkdJT2RfeFhPVVJvek15VmJTYVVrY2M4QUR1T0NseEhPcFNVcVVjYWQ0YnF3Qmtwc1N6c3NVdzlKWlp5RENPaGR0c2xVMEN2UHRrc0pVSkZWYTIxaXY3dDNfV3dnT2dXTjZRMFFiNG9BT2pFUVpBUTJHQkJnUQ?oc=5",
+          "published_at": "2026-10-30T20:31:02+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQczlYUHlPTU9lRFRrQkQ2V1RzSG9lcDd0WVdBZEwwN0k1eWNUOUJyajhwWnJKdWhxZklobXBaVUVqaU4xMUVjZ01UYkZJdV9BeUtTbjNBUm5UNnRzZ0VFZDljTWtZaEZhc0hlQmh2OGpJSjBwZUxFbFh1eUZLRXc5emtxWmZpMmxXU21NU0VoWW9xdDMwZ0ptNW93X3BFc21mdldiY210OV9XQkliaGUyNnpEbzUwbEh5WnBaODZONWdFaGFPU3JzYzZFZDRoR0FOLWhWN0JuNXpSQVBvSXN2QURSU1NITDY4czZMYk9fWW80aHQwTmE2UVpEMVA0Ylc5SGhtZWZjMFYwa0dhOUNaSHN3?oc=5",
+          "published_at": "2026-10-30T20:05:48+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPZ0l0dHZPRkxYaGprYmF1ZzNLOEQtTEJSNHZyRTI5Sm5Wa0FGMzd4aEdnRnI3MWNKR1FJZkYxeTFLN2pTbmxwV1BsUmY2aUZBcFNlZS03WjhrRzNSa0tPZnlGUFF4RVdNZUVya0FObk1IR0k4OV8tbTVhbjdQbC1iMTZkRkJiQ2FBR3NlSmNybk5NTGEwZmk4TENXNVU2SmtrWTFmbGN1dzZhdWtFUmozOHFFdkFlbUF1NDlBUE1sNzNuZEdnMi1RSkZzMXRhREZtU0gyUG45ZkJWX2d1eHFqVTRobkJ1dkltS0h4Vks3Y3Z2ZTJzR1FBdmN2d0t1Z0pXMm5nZnJfZ3N4a0lB?oc=5",
+          "published_at": "2026-10-30T20:05:48+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQlhfTko1V1BDVzV5bXJoSHo3bG9Xc1FUd3NORzlZR0szLTVJbUVjVXlaczV2azl4UnVONWxscGNhQ0dQeFBVSzlqdHFUV1MzYUNhdVYtVF82SlVZbmxqdEtSTGFtZGgtV2tjdlZLb2p5LTFPOFQzTVY0Zm5HX18waEJ1VGN2UzlRSVJUVDFyaFpHRDhzQTI3OGdvTkM5ekdlMGYwUk54LTNtUEN0clZUYjlBTHIwTHNQenNGU0ZrSlEwcXpwRE5xWmR2d19fN1lhLWxFenJjeUtOUWxPU2RIdUxmZnpnM1U4VVk1OGFNX2ZjWEw2Ni1lbzhkZU1VZkp2WndTaGp5cXlZNzg?oc=5",
+          "published_at": "2026-10-30T20:05:48+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQLWd1MVdMVDYtdE1vYzNrYlo1a0VTNjJ5M001T01DZmcteGtMN3l1ZHZXRWFrQUVxUEZWdnhSTlU3dXNmT2k5dk9LSlZxUWxKdmRha1VWLU9SSmNMaVBzd2VlcDZrcXhuY1BaT1pFMWpfaHA5OWhVcUgxSktrRDhLa0x2VWdSMlVScUlDTXltcWo0Q203WERzVXZDU09SVW9rTlRCS205U2lvMnUzQVc1eUMxMXBnWXNwZTdBaFprZUdsdGltT2lQNjBHdkU0blJHbURPRVNiWG1oTUFUbUNMTWhTdFRiVXhEWmkxV19mLVF1aVBpdHdvSnNJZ0hVc2VMdWxBQW14dFpoN1JXbGJV?oc=5",
+          "published_at": "2026-10-30T09:04:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "How 20-year-old Kimi Antonelli is making F1 history - Al Jazeera",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T20:19:49+00:00",
+      "summary": "How 20-year-old Kimi Antonelli is making F1 history | #ajshorts Modern Ghana",
+      "claims": [
+        "How 20-year-old Kimi Antonelli is making F1 history Al Jazeera",
+        "How 20-year-old Kimi Antonelli is making F1 history | #ajshorts Modern Ghana"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbGFNZmdna0FXdlVQYmZXRzc4TEtDU0dEOW5fYVIxNHlZckFtMlhXNmd5cnhqRHdJeU1lZXItWFB6SHR5bjEtam5OZ0ZIVnE3d2w1eGU2UFpobzYyTUJ6WUo2TWk4NnRHYU4tSk1sX1ZfNDN1NVl6TzM5NTlIT0s5My00WnNUS0tBVDBLWXFkQ1NocGxwbUIzZF9TeWU1bGtBa3lCM2hn0gGrAUFVX3lxTFBZdHNoRjlBT1RPTGJiT3RnYzh3VnRlMmFUcVJKRHlCaFRXZXhvWHg5WmhkbEZIR0VWeEZPblJuWEU0cVd6MVI3WkdrUDNZeGh1ZEJRem85TDd0OVFxNmVkSDFWME9pLTMxb1JaVGdaZXpTUkdOd2h4WHpGN29aQV8tMWo5LTFaUlNEaWw5OEZJOG5GYnVyblJSTm11UUpJeVlSRHhMZDJXdl82TQ?oc=5",
+          "published_at": "2026-10-30T20:19:49+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BMzJrbGRtcy1sajZxXzZfV0FZTlVMU05uVGlmekhfY0tScUVTN0ZZV3RHU0RYVjRBZVJmSkVpb2E0V2l3UWRVSkJLRHowaFRwSURRNlZaTkVRRTIzWGhMUmFUNHVrZ2vSAVxBVV95cUxPS25WRHkzZWlRZTloc2lmOUZPVWlLN0Fjd09LMXZUV19qdEFiSlZaREdLNGN0a2ptbWMzNXVvZ3RxMjJIMDlLN3h5S3VLVG9QeU5CMVVHc1B3Q092Tw?oc=5",
+          "published_at": "2026-10-30T16:30:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LblZEeTNlaVFlOWhzaWY5Rk9VaUs3QWN3T0sxdlRXX2p0QWJKVlpER0s0Y3Rram1tYzM1dW9ndHEyMkgwOUs3eHlLdUtUb1B5TkIxVUdzUHdDT3ZP0gFcQVVfeXFMT0tuVkR5M2VpUWU5aHNpZjlGT1VpSzdBY3dPSzF2VFdfanRBYkpWWkRHSzRjdGtqbW1jMzV1b2d0cTIySDA5Szd4eUt1S1RvUHlOQjFVR3NQd0NPdk8?oc=5",
+          "published_at": "2026-10-30T16:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Max Verstappen Flags Health Risks With Triple Headers as Kimi Antonelli, Valtteri Bottas Fall Sick - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T20:19:08+00:00",
+      "summary": "Max Verstappen Flags Health Risks With Triple Headers as Kimi Antonelli, Valtteri Bottas Fall Sick Yahoo Sports",
+      "claims": [
+        "Max Verstappen Flags Health Risks With Triple Headers as Kimi Antonelli, Valtteri Bottas Fall Sick Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc0dYOE1nTGY3SEF0MmZCQmo2YndDQjVTQzdCcVNBUFJwZG5kUGlyMnBVSmp1TlhsSWNUSk82NV94Yk03YkVUbkF0MTBCbUpqNmhleFoxeEJ6N1VwNTI1enBoZ1F0ajM5SUNBNGFrbTdEaEpVdW9Eb1VlMzZFTzZuVkxxMjFBcjl5emc?oc=5",
+          "published_at": "2026-10-30T20:19:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Chinese AI Firms Make Surprisingly Little Money... Why Keep Pouring in Capital? [Tech Talk] - 아시아경제",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T22:24:00+00:00",
+      "summary": "Chinese AI Firms Make Surprisingly Little Money... Why Keep Pouring in Capital? [Tech Talk] 아시아경제",
+      "claims": [
+        "Chinese AI Firms Make Surprisingly Little Money... Why Keep Pouring in Capital? [Tech Talk] 아시아경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzdnlpQ1pDbUNxWlBBZFdrOEpmYzk1c1VKbmFkVldlcGVMOUEzMmJuWGpNbWMxcjhmdnZFbkNhRnJCc2tIMS1fbV9nWmFKRzZ4TGRUZVdsZVRTUGJXMVZmZEFSRDZrdkV1TW5hS0FBYw?oc=5",
+          "published_at": "2026-10-30T22:24:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "One for the ages: Antonelli set to break F1’s youngest champion record - Daily Tribune",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T21:20:02+00:00",
+      "summary": "One for the ages: Antonelli set to break F1’s youngest champion record Daily Tribune",
+      "claims": [
+        "One for the ages: Antonelli set to break F1’s youngest champion record Daily Tribune"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ01oMUVtaU42cXN4b3ZBTXBMQ0pwUnNUYmVyZHB2QndmZnVac2lVVXBoTjVYZkV2dzJtYWhJWWFieFNvZkhyQkFiMmxRVGxRR0JMNVo5b3JoTlZjQlZLLUVYSGV6UXZRUTRXTkgzeHFkV3pzRFV5N0ZGblB5S0g0WGQ1M2VyeXJyeG42dXotYTlBX1Y4VnpMQndZdHgzY3VKcnJSNQ?oc=5",
+          "published_at": "2026-10-30T21:20:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "F1 faces fresh health warning after Antonelli and Bottas illness scare - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T20:35:47+00:00",
+      "summary": "F1 faces fresh health warning after Antonelli and Bottas illness scare GPblog",
+      "claims": [
+        "F1 faces fresh health warning after Antonelli and Bottas illness scare GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORlhKQ19kcjV5aXVUQnNMMlJtb0liaGRxTElkM1RfUUJFV0tYYWxkYWNzcG9oNzdaQ2E3N19hQ0tBWnJ6MUR5WjJBSlg5WGlBY3VCZVNWQjRpOXk2a1kyR0g4NGV1QkEzT2U4TWpMN2FHWURkZVNRbTlYc1YtSXRhY1lIN2tPbHpUWHVUclRtLTlxX0wtbUIwS2RqNDVGY1IzdVhPaHVraWVuS3h4VVpZX0JWVEYyczIxb3hUZ1BuamtEaGRvRTM3SQ?oc=5",
+          "published_at": "2026-10-30T20:35:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Bipartisan U.S. Lawmakers Push To Ban DeepSeek From Government Devices: 5 outlets compared - NewsCord",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T20:01:18+00:00",
+      "summary": "Bipartisan U.S. Lawmakers Push To Ban DeepSeek From Government Devices: 5 outlets compared NewsCord",
+      "claims": [
+        "Bipartisan U.S. Lawmakers Push To Ban DeepSeek From Government Devices: 5 outlets compared NewsCord"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaHlzVEpsNmNoRVZLRExRWXpGTElBdkJ3QWRsbEFiYkZTR0JzRU1IQ2QzU0xGVnpKam1DWU1veTdMbGM2U21MMEJTY1M0bnR3dXFNWG9HUXc4cmRKOUxLRmpoY0NzMGRjdXZjM2RHeWUyTV9admpjNnNxWmdCSlQxZF9Dd2lzRlBwellKNFVqeGw4TmNvSnZSeFFXQWswVkxZQlZxRmFtU2R5MGlOSUN1UVpaeXRRcXFNRjl2SS1yelVLaE4ydHpmNE1VX0xXbEItWHFlRElBc2ZLQQ?oc=5",
+          "published_at": "2026-10-30T20:01:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Hikaru Kimi e (TV Series 2024) - Ratings - IMDb",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T20:01:14+00:00",
+      "summary": "Hikaru Kimi e (TV Series 2024) - Ratings IMDb",
+      "claims": [
+        "Hikaru Kimi e (TV Series 2024) - Ratings IMDb"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HUnVFMk42Q1U1S19wWGF1OWVpNnBMSmVrTDFLR2xndjZ0VzNlSEJvLTJVRW5VVGpZSTgxckpkRmpaMlIzckhXb0tiN0ZmZjl1R0dEX2k5T1lVMTJHT2VUWU5DdWR5NTFiTnh5bm13?oc=5",
+          "published_at": "2026-10-30T20:01:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Fiesta awaits in Mexico City as Kimi Antonelli speeds towards F1 history - inkl",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T20:00:22+00:00",
+      "summary": "Fiesta awaits in Mexico City as Kimi Antonelli speeds towards F1 history The Guardian",
+      "claims": [
+        "Fiesta awaits in Mexico City as Kimi Antonelli speeds towards F1 history inkl",
+        "Fiesta awaits in Mexico City as Kimi Antonelli speeds towards F1 history The Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEwxd2lzWmlpbkplejZoaHF0WWZhaU45Tkg1Q0E1TVRvVjZzNUVaSDF2T1NxWUR6bEZyRm9pUnBreFdLR1NYVU1ZVE1KVDkwOURLanhUaVY2eXcyVnhhRlJIUU5WU0ZFUTUxLS1oYkZiUmlaaS1lNXV3YUFEMkU2MmRxY3JaSEt4X2NRdGgzaWd5TWx1amlwcVVMMmVEMFE?oc=5",
+          "published_at": "2026-10-30T20:00:22+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzlsY0ZYR0tncTUtX1loanNNNWNYT3JVOUtfOXE3eTlPTGZHRkt4NUJLcVZhUGl4OFVtem5CVzU5TEhUN1VuQWN6TDdPOVkzemhNYnh1QmdteEk5RW1XODlkR3NyQzdNQjEyUFVlUkZYeldXdTVyY3NnV0ltQlp6NFZqM1p4OUpHUkhucW1OYS1vZkE?oc=5",
+          "published_at": "2026-10-30T20:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Leclerc fastest in Mexico FP1 as new faces make F1 debuts - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T19:47:00+00:00",
+      "summary": "Leclerc fastest in Mexico FP1 as new faces make F1 debuts Formula 1",
+      "claims": [
+        "Leclerc fastest in Mexico FP1 as new faces make F1 debuts Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNGVYeDl2ck84OGNrdjE0andwemlxZWpfbXp5S2xSTC11eE5hVXd4VmVlSnN5WDZ5eFBRNEx2bU13SHEwanRDWTdYdFBHOFNiTDRjemtHVTRzSDVVSVBadS04dVdFbXN3Mi1ZWEFFTGZqX2t1aXNXSGd4MHB1Ym5GLW9qbFZQcHkxanBmeDJkVTNWenJfTDhkZ2lXeFlWRnI1MV9TcnFITVFkS0N4TnRLcjhQbW14TWZ1bks2czFMa3hmdFZLZUdjRkRVUEtXc0JFX19OS3FHUjVFaTg?oc=5",
+          "published_at": "2026-10-30T19:47:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "F1 Mexico Grand Prix: Full Friday practice results - Crash.net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-30T19:40:00+00:00",
+      "summary": "F1 Mexico Grand Prix: Full Friday practice results Crash.net",
+      "claims": [
+        "F1 Mexico Grand Prix: Full Friday practice results Crash.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTlI3M1JBemFyWFg4TnUyMktWYmM3blh6bGxWX2MxOXU0cko0cFljd0gweThWc1huaDVMYkQzQkM2emhHbHNWbml6SFRrY0p2NENCM3VlWmNvWWNITF92Z0huS2ZCQzY0aS0xcWl1SDE3R3lFVjFzNGtwNGNTekF1S09YUldKd2Q2YjdRQ3BhV2ZYVm1ZRmNV?oc=5",
+          "published_at": "2026-10-30T19:40:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
