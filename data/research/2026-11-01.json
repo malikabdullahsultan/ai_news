@@ -1,0 +1,957 @@
+{
+  "report_date": "2026-11-01",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-10-31T22:37:21.043672+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5409, column 916"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 16
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 11,
+  "raw_item_count": 121,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T22:52:36+00:00",
+      "summary": "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference...",
+      "claims": [
+        "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/",
+          "published_at": "2026-10-30T22:52:36+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Run AI Models for Edge Application Development with Just a Few Commands",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T20:33:21+00:00",
+      "summary": "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,...",
+      "claims": [
+        "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
+          "published_at": "2026-10-30T20:33:21+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "nemotron-halloween",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "published_at": "2026-10-30T17:57:24+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T15:11:46+00:00",
+      "summary": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces...",
+      "claims": [
+        "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
+          "published_at": "2026-10-30T15:11:46+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-10-30T15:09:18+00:00",
+      "summary": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path...",
+      "claims": [
+        "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
+          "published_at": "2026-10-30T15:09:18+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Mexico City GP: Kimi Antonelli admits he felt 'a bit tense' after qualifying fifth - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T22:36:06+00:00",
+      "summary": "Mexico City GP: Kimi Antonelli admits he felt 'a bit tense' after qualifying fifth Sky Sports",
+      "claims": [
+        "Mexico City GP: Kimi Antonelli admits he felt 'a bit tense' after qualifying fifth Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ1hnMEVOSWdaOGJrUzhPd1hsVlhrX1lDeTlLUmxhZWVpVWNaYkZoUVhhcG9keGpHUVZoaFRsa21DWkJFNnRyazFFTFVNWXZUVW51WmdmLTZvQVdrVGZKVFd5SXZXdFB4V0JPQk9SSTJPdExxWXBFU19XLVlUNlExYUtqTzdRQTFhcmVzcTlNaXNQLUdyTFJmeFl2T1hFb0VIa0FmSDB5ZldCd3lOSmxtMUthdkRKelVjR0N6enNzaEQ?oc=5",
+          "published_at": "2026-10-31T22:36:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Releases Agent That Works GitHub Issues in Parallel - FourWeekMBA",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T22:29:29+00:00",
+      "summary": "DeepSeek Releases Agent That Works GitHub Issues in Parallel FourWeekMBA",
+      "claims": [
+        "DeepSeek Releases Agent That Works GitHub Issues in Parallel FourWeekMBA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPekJnNE5IT1BWMkoxQlRxbmZFYWRJOWRqM0xGa1VQdEI2d3dJbDR2azZlY05xcElOd25EZk83WHhjMzRiZkxmT0xZWUFQNUt3QmhBdjh5U04yYnVoQVh5R19BLXdVTGJyc3hOY3MwR3lQMU1VS01MVDhFT3lLOGVyVlR6NE5xR1piekRnQUdHWHRLdw?oc=5",
+          "published_at": "2026-10-31T22:29:29+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mexico City Grand Prix: Lewis Hamilton takes first Ferrari pole, Kimi Antonelli in fifth - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T22:25:17+00:00",
+      "summary": "Mexico City Grand Prix: Lewis Hamilton takes first Ferrari pole, Kimi Antonelli in fifth ESPN",
+      "claims": [
+        "Mexico City Grand Prix: Lewis Hamilton takes first Ferrari pole, Kimi Antonelli in fifth ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTTVIeFF1LWZOTVMxcXN4aEJSZ2sydTA1VVBiUGUxb1J1Qm9WX2RBNUpOTmJBamVvb1Ztd2hqcU9EMXc5Z2dkZGlqcU5XMk9RRDZrQUNGQU5xLWNlMng1RlAyZ1paeWx6UDFFUHBVYkV6bmJQZ25Fa0NBS2dYRlNGRG9Bd1dvMlFQVTVNcjNzb2hfNjhkcVQxTFdtSkR5ODloSjJrZ3hlbFlEQXFnY2RkTWhHdkxNSnp2allUVW43Wk1meHNjSHdwNHBZb051cWJ4elplNC1DOWNSVE5GVERLS1gydVh5VHRaY01GSlQ0TkNRTjZua0FKUzdR?oc=5",
+          "published_at": "2026-10-31T22:25:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 driver Kimi Antonelli set to smash record this weekend - The Gauntlet",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T22:13:02+00:00",
+      "summary": "F1 driver Kimi Antonelli set to smash record this weekend The Gauntlet",
+      "claims": [
+        "F1 driver Kimi Antonelli set to smash record this weekend The Gauntlet"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOGtRUkhkRHV5bHZmYzBFUHpzajYzUUZScXd2THpvZnpDYmtHNmNqdVR5WnNBb0FYeWVLU0hlWEw4YlctdW9aMV9kdnUzazVzdURjR042RVA2Tzl0Ym1DTzhQeExPUjF1cVBvOXNpd1J5MTdONlRjQ3hlME1KODh6aEh0c3lFb2Ji?oc=5",
+          "published_at": "2026-10-31T22:13:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi’s golden opportunity - TimesLIVE",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T22:03:13+00:00",
+      "summary": "Kimi’s golden opportunity TimesLIVE",
+      "claims": [
+        "Kimi’s golden opportunity TimesLIVE"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTktLVFQ2M2lRQkN2S0h0TU5vSnA0RThCTXl0TXZYdzlmRGczTENTUmoyamhmaHhPSWhodWVIbG8wSGJOeTZLT0x1dWVHLXNDWnBPSW9NSXpGSkZZY1VZODVTbHBuTWkyeXU4WWtfTWV5dThTTVJNZGNrYlZsVmw1OHNQWnAyTVpFR1E?oc=5",
+          "published_at": "2026-10-31T22:03:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Mexico GP: Lando Norris tops final practice by 0.001s from Kimi Antonelli - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T21:43:00+00:00",
+      "summary": "F1 Mexico GP: Lando Norris tops final practice by 0.001s from Kimi Antonelli Motorsport.com",
+      "claims": [
+        "F1 Mexico GP: Lando Norris tops final practice by 0.001s from Kimi Antonelli Motorsport.com",
+        "Lando Norris pips Kimi Antonelli by 0.001s in final Mexico GP practice Crash.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zdklXZkxIZHJYMEdQQkFuRngzbXlZZmE4dGpLLWs4YXNkWDQ2b1g3dUFuZjlrcjI0TGVlMkdBZVQ5elJHR2hJLXJ5RklrRVdBWjhYU0xLYkpJc2N5M08tMHZFcFVMUGFuZmlnNU9rbEJzcGlRS1BV?oc=5",
+          "published_at": "2026-10-31T21:43:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeVVQeGxWb3B0RlNpT3NRc0QyclRCd3pvVnZVQWY4OE40TVZpdkNJWS1CVDB3T0dEY0ItVWRxcFRBU21xT2xWclpkQ2RqM2hmZVhyWWs0N1Z6T1dha3loYlRLZElUWkFCUWthcUtTVGVsWk11aW42MTBTYTlmWkxCVk1UV0FLaUNXTWdxbmRsVGxyTDdyRXhfdVc3NU5BcUR0ajgxZGpn?oc=5",
+          "published_at": "2026-10-31T18:45:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mexico City GP: How Kimi Antonelli can eclipse the greats to become F1's youngest world champion! - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T20:37:45+00:00",
+      "summary": "Mexico City GP: How Kimi Antonelli can eclipse the greats to become F1's youngest world champion! Sky Sports",
+      "claims": [
+        "Mexico City GP: How Kimi Antonelli can eclipse the greats to become F1's youngest world champion! Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVVhyNThITjFnME96SVIxczlnaUVsT1NLWHI3eVFWcXpTQjhhNjd6c0REaGFwUUt0bWlnOHNDWXlkSmdobzBLZXZZZ1M2QlI4MUM0bjYzRFRiZlRPOGFXeDVoM09mcHRtS2RjcDBSRFloUExlRzJWX1NXejZIOXM4ZGVxMjhEbHVOT25VVnRWblhrTnhHam9CNlNuV0ZMTXVjbHdLaUhqZHZBaFk2UGI1Q2psUTBsWGZzd3o1RkcxVUtONWU5djhBMXRJNEd3NjN3TTZ1Rg?oc=5",
+          "published_at": "2026-10-31T20:37:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "'Close to perfection,' 'A very big heart' - what F1 rivals think of boy-king Kimi Antonelli - ESPN",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T20:34:00+00:00",
+      "summary": "'Close to perfection,' 'A very big heart' - what F1 rivals think of boy-king Kimi Antonelli ESPN",
+      "claims": [
+        "'Close to perfection,' 'A very big heart' - what F1 rivals think of boy-king Kimi Antonelli ESPN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWFKUGZ0eXpLdDUtMzBZRUROUnZRbmJNSjlOcVl6b1lRUmZEb0RlVk1wRTZfOWZPOGVBenAwOUEtcEdqMVpULTlFWC1nS2l6V2dHZlhDSnF2SUtZbGxGUzZfZmdMb3Z5N1VNM1Uta0JuMWdZOTRKakhPZlhCZEJYZzlUdlhHckJ1WWJGN2UyQ3I0V3hOa25LQTJhbm4yVzB3aUNpV0pXTFVfY19QQTRaN0NR?oc=5",
+          "published_at": "2026-10-31T20:34:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Mexico City grid 2026: The full starting order at the Autodromo Hermanos Rodriguez - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T22:27:10+00:00",
+      "summary": "F1 Mexico City grid 2026: The full starting order at the Autodromo Hermanos Rodriguez PlanetF1",
+      "claims": [
+        "F1 Mexico City grid 2026: The full starting order at the Autodromo Hermanos Rodriguez PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kbEZueXdsMjZETGQxSkdFNm55azc2LWZ3eHFhSUp4cDg1NjlRT3lqOUJPWG5Ndk5YUzEybHo3WmRJZlM5T1JUWV84S0U0QjJKQXRPNWhrRVBvbjlxT2NHWldrMDJYVXUxM1p1TTg3dXJyRjdmb2RjU1hrSV9HbTA?oc=5",
+          "published_at": "2026-10-31T22:27:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mexico City GP: Lando Norris pips Kimi Antonelli in final practice to set up thrilling Mexico qualifying - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T20:20:13+00:00",
+      "summary": "Mexico City GP: Lando Norris pips Kimi Antonelli in final practice to set up thrilling Mexico qualifying Sky Sports",
+      "claims": [
+        "Mexico City GP: Lando Norris pips Kimi Antonelli in final practice to set up thrilling Mexico qualifying Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOC1yY2xHcmF5S2JjOWRUdzlSRzltTGNONkQ1ZnV2QVhlaXdrYkY5M3FGOXRhRjFqSVE5a0FiOVFNVlgwVl94SGJTLW1qaTJ6M3FKQWoxbWUwcXFsOTNGdG5TWnNWYV9GQUxINmVmdjQzdnJEMW9JRFlyYnEyenRMZXJpNEhFM3FXUG1LcFZOTlh4ZEJDTFpVdVhLQnRiWkI1MV9RT0JHanNFdzJLaDRhSG9CY0pIRjlIaVl5ZDBxa3VCNllKLThQbkJURkR4QjVRV05DRjN6RWdGNkUzWHdF?oc=5",
+          "published_at": "2026-10-31T20:20:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Mexican Grand Prix LIVE: Qualifying start time as Kimi Antonelli eyes pole with title in touching distance - Newswav",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T20:06:38+00:00",
+      "summary": "F1 Mexican Grand Prix LIVE: Qualifying start time as Kimi Antonelli eyes pole with title in touching distance Newswav",
+      "claims": [
+        "F1 Mexican Grand Prix LIVE: Qualifying start time as Kimi Antonelli eyes pole with title in touching distance Newswav"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUWFhc1pxZ0ljY00ydk5SRmt3MWVpZF80Ql9mdGNCQmpsSmRUb180R3dlUXNXcGt5V1JwRWdyYm9PbnM3WVNhSk5oUE9LWVpHR3l2WW9uaU9MbTczTnFYSzdqWDBrZDdEbXFDX25SYTVwTlNScWdKRGFFT2VhNVBRcXUwd19LalgxalFpZExtSkt2Vlk0TnVlbUJKUmY5UFpUYVZoUEcyT0FQXzFRZndmeEwtb3BhakU?oc=5",
+          "published_at": "2026-10-31T20:06:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Nvidia B200 Costs Up to 2.3x AMD MI355X per Kimi K3 Token - FourWeekMBA",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T20:05:05+00:00",
+      "summary": "Nvidia B200 Costs Up to 2.3x AMD MI355X per Kimi K3 Token FourWeekMBA",
+      "claims": [
+        "Nvidia B200 Costs Up to 2.3x AMD MI355X per Kimi K3 Token FourWeekMBA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ3F3WldrY083RGpjYTlpRXlSVHZCZy1QcUppZ2N2UmpwbXlJUjJwcWx1NUF5TV9ZT1VDRWxmbU1qSWFsbEtTZGlSSEI1OXNaNEtISTlXaUpKVDlBal84ZEw0UE1QeGxGOTdNN2ZYem5sLWpvcHRnS1JURUdMaXlnUkhJQmhhdmc4YU43X1VB?oc=5",
+          "published_at": "2026-10-31T20:05:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli needs just ninth place to break record that has stood since 2010 - Lente Desportiva",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T19:45:00+00:00",
+      "summary": "Kimi Antonelli needs just ninth place to break record that has stood since 2010 Lente Desportiva",
+      "claims": [
+        "Kimi Antonelli needs just ninth place to break record that has stood since 2010 Lente Desportiva"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdElMcTdyaDlwVEUxR0N1R09fR2p2d1BHNkxpMVFiUGQ4LUUyOV9xLWQybk5kWHduYVI2M3ZBOTYyTU5HUVF0YTQyMFA0N3gwbUtibm92V2hZckUwTGdxNzkyX3I2SEZtSHYzTjVINTVBdThlWUZUclJRTkpiVnFUeHVvd051NE5oX2gybkw1QmRlV21ySzdsS3FOZ2FCMWZCb3RHYlZQOXcwR3NY?oc=5",
+          "published_at": "2026-10-31T19:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "‘Little More Worried About My Race Than Kimi's': Marco Antonelli on Brink of Winning His Own Title Before Son - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T19:08:00+00:00",
+      "summary": "‘Little More Worried About My Race Than Kimi's': Marco Antonelli on Brink of Winning His Own Title Before Son Yahoo Sports",
+      "claims": [
+        "‘Little More Worried About My Race Than Kimi's': Marco Antonelli on Brink of Winning His Own Title Before Son Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVk04Z0lhTXVTNHBfemFCSkdScjFZMkJGTzV6bjN5dW5GSDFFM2RjT1NVRkExUFNjWW5KWmRFQVZFQ0d1SmNvaE13T2J3REYxejdKYUtBcHdMSm8zWWZkd1N4Wm03MmdCWF8tN0RpX3Y2VkMxVlRRWmxXeXZYUjloWjNpTE40Zw?oc=5",
+          "published_at": "2026-10-31T19:08:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Mexico City Grand Prix live updates: Lando Norris fastest in FP 3 ahead of Kimi Antonelli, Charles Leclerc; Haas sacks Esteban Ocon - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T18:56:41+00:00",
+      "summary": "F1 Mexico City Grand Prix live updates: Lando Norris fastest in FP 3 ahead of Kimi Antonelli, Charles Leclerc; Haas sacks Esteban Ocon Yahoo Sports",
+      "claims": [
+        "F1 Mexico City Grand Prix live updates: Lando Norris fastest in FP 3 ahead of Kimi Antonelli, Charles Leclerc; Haas sacks Esteban Ocon Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOC00N3I2cjZfc1Y5aGQteU5VOGc2b2xjWEdXOXNhdFFPNGttUGVac0w1NGJodnJtZEJYLXZTY3dGTWZJbFlxcHFfVDBiQkRQc2ZWa0l4YTJPMTVBbnVXSGxUNU84OWlUYmNfaVppT2FtSGJMbEhFRE40aWpodlBGZk1WZ0t3NmE3THhwWjduWWVqVFRqUWt4TkN5cXRfWHc0NTUzTGFscEZzMDhGbjZWTktzaDRqYWlUUGpyUHRCVTB2dVc0RXNtZ1FnUkNLNXRpVlR2MVpYYUxUdWlpM0pHUFBtY2hVN2c?oc=5",
+          "published_at": "2026-10-31T18:56:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Norris pips Antonelli to top spot in Mexico City FP3 - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T18:45:00+00:00",
+      "summary": "Norris pips Antonelli to top spot in Mexico City FP3 Formula 1",
+      "claims": [
+        "Norris pips Antonelli to top spot in Mexico City FP3 Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMEFhZUw4VUV0cy1tTFRDQUlHcElsSWRRSUlxaFFFT2dTT1BMMFk2QUw3T1c0OHlkNVhPYWttd0dfYk9YbEkydlVCVmJYbUtIUGV3NTNtSE9Lc0ZkRlByVll3d0N3dHUyM29QVVplOXBNLW1MWWRYOERaZW4tQXlKd1VLdkQ4NW5Demd0VXhOSHh6ZTV0WktDb2NEbGptdS1TaHpLSU9yNFZOejg4UEFYU2ZiNEJXQ2o2TnozR3ZzZEdfMUZhTDdUX3pXUERfRjRZelJVenlIdE9GLVhXSUY0b1VuZ0tSbUk?oc=5",
+          "published_at": "2026-10-31T18:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Lando Norris pips Kimi Antonelli in final practice at Mexico City Grand Prix - Ireland Live News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T18:44:00+00:00",
+      "summary": "Lando Norris pips Kimi Antonelli in final practice at Mexico City Grand Prix Ireland Live News",
+      "claims": [
+        "Lando Norris pips Kimi Antonelli in final practice at Mexico City Grand Prix Ireland Live News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZEhDRjJTbXR1R1RfT2NVdXo2Y0t4V0Z3SU42S2hZV3hkSzc1Z19jQnhaUmhYRDR2c0JzYTUxZVprYzJTeW03YmtMWG1pV1ZhT0JlbEZva1hIQlhTRmZXSWJPeWt0NXhLZDNRc1I0TGp3SzlUSkluOWt6ckZ2bWNRYmF6M25kU0hGZUM3eTZUUEhSTEFmWWpTSDVybS1ybjdEdnI2cEYxSWtROVp6QkdsaU93dU10bEJiaUdxbA?oc=5",
+          "published_at": "2026-10-31T18:44:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lando Norris pips Kimi Antonelli as Mexico FP3 serves up an unexpected curveball - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T18:36:00+00:00",
+      "summary": "Lando Norris pips Kimi Antonelli as Mexico FP3 serves up an unexpected curveball RacingNews365",
+      "claims": [
+        "Lando Norris pips Kimi Antonelli as Mexico FP3 serves up an unexpected curveball RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZTREbFNnOWU0d05ka1RJd2NDeFdicFpsVE15OHpUSUxhUGhJeVVJd2JmN3R1R2txaGphakhxRjdOdF9xRzFBakxmMUdpWVJ5X0tVTWVMZmVSekFYNFJfR1NXLXhFZEprVS10bzNyQWYxNHBhVlU0QkRVSFpEdTBDZkhFLVdzMVp1WTdiNUxaT3dqd09fSjFhQVlWQXYxOU9TaG8xRW9wZm5YUQ?oc=5",
+          "published_at": "2026-10-31T18:36:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lando Norris pips Kimi Antonelli to top Mexico City GP FP3 after Haas benched Esteban Ocon - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-10-31T18:32:12+00:00",
+      "summary": "Lando Norris pips Kimi Antonelli to top Mexico City GP FP3 after Haas benched Esteban Ocon F1 Oversteer",
+      "claims": [
+        "Lando Norris pips Kimi Antonelli to top Mexico City GP FP3 after Haas benched Esteban Ocon F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMHY5UWQ0Sy1MUXl3OHZYRm9JM1drc1RRRVJnMlJHWjZxeU96SUVqeTlZTjdjSC02M0hpc1d1cGkzdW15NFJ1eVdKWFFwNHpBcW4xVS1BS0FGcHJ2TnFldXYxR3d1eENRX3dXSlVNcENid2FhcE41b29EczBMVVcxWWVUWXNjYzgyV2x4b2Z0eFJ2V3k3NmU3MnhMYVoyV2RETlk2N1c1X0djTkFteTFndGtrdWd1TGVKVzRnd2R1cGpwY00?oc=5",
+          "published_at": "2026-10-31T18:32:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
