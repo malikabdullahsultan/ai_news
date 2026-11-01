@@ -1,0 +1,1060 @@
+{
+  "report_date": "2026-11-02",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-01T22:55:25.006725+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 26
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 126,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Kimi Antonelli: How Formula 1's newest world champion has rewritten the record books at barely 20 years of age - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:54:26+00:00",
+      "summary": "Kimi Antonelli: How Formula 1's newest world champion has rewritten the record books at barely 20 years of age Sky Sports",
+      "claims": [
+        "Kimi Antonelli: How Formula 1's newest world champion has rewritten the record books at barely 20 years of age Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZU5hcXljejBkbjhEYWZrd3ZnU280bzNFNUFjdWQtbjk3TlVwVHpuRURyU0FtcHJ2eHZnRk5WX21EM0N4NkZTSUwzeUsyZjIzNWZOOTBDandmM1RjM25UX3BLS29MT281cHZDOUpDTHluV3lVYUg5eHJBTWJIekFsTm9SRTZ4TnNlejNSMkVWbWNsNkxsM1g3MVBsYmVGbzRrVzE0RW95TFF4OWxEZGZHNEJ4Q2N2VUdqQmpndU8yQ2FfeThOSG9iVzlGX2lnUEdscnNpRkdoZXhISGJEY3RzSFUtY2M5Zw?oc=5",
+          "published_at": "2026-11-01T22:54:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Youngest F1 world champions: How Kimi Antonelli's record-breaking title compares to Sebastian Vettel, Lewis Hamilton, other drivers - www.sportingnews.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:53:15+00:00",
+      "summary": "Youngest F1 world champions: How Kimi Antonelli's record-breaking title compares to Sebastian Vettel, Lewis Hamilton, other drivers www.sportingnews.com",
+      "claims": [
+        "Youngest F1 world champions: How Kimi Antonelli's record-breaking title compares to Sebastian Vettel, Lewis Hamilton, other drivers www.sportingnews.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT1ZNWWMyNDdITkF5YVRaZVJ2Ym9BcGlpcW8xYUFYSksyd2NVTmhFSFJRRWs0SG41NzBTQkFmc3JBT3RrX3p2bmpjY1gtcENmemtpUnpoODFnTTZ5WGpwTlRUYVRQdUl6OUhoREd1Sk0yMGF2dzNhbGN1TVlRME85WWc2R2J5dk4tNGJMcDNJQzhrRHJRbTdXZjY1MndVZWYxVlhCRzZ3Zml6d2JRRUxHRS1md3o?oc=5",
+          "published_at": "2026-11-01T22:53:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli becomes youngest Formula 1 champion in history - WAPT",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:53:08+00:00",
+      "summary": "Kimi Antonelli becomes youngest Formula 1 champion ever at 20 years old NBC News",
+      "claims": [
+        "Kimi Antonelli becomes youngest Formula 1 champion in history WAPT",
+        "Kimi Antonelli becomes youngest Formula 1 champion ever at 20 years old NBC News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaVFiZGNxLU1TSHJIRm12MU9xQ1kyYVpVZk91U296Si1xaWZ3cTZyTnpCX2tOUllqT0ZBcU0yMFhKWnZvSFowWUZIR3BHTGx1YnJSdDFoMFd6aHZqSlVyRDYwa0JPRTNqYkhteWVFVktnMWdxTm5sNjdkMmJFczM5SVhGS0J4NzNKYnNBZ1pVT2Y5b1FhT2c?oc=5",
+          "published_at": "2026-11-01T22:53:08+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQWhXOGNVbHNkZkhIdDd3MVFpaTZtVTV1WF9SbGRURFpIekVnV2l2SGdQSkpBX1BXNXF6YWQtaG10U2tQQ01EeFF2UE9wa0NZQlBOWkNPNThVZW5GUDNFa1Vnd0RhM0FpdVpoVjFuTzBWZ2tTelRib0M2VEtpVzU5NlpnQU1xc24yOUpMRnE4OVR0SmpiS3cwUWY4RFhyUVR6WENWMVRpUmkwb1BtQnFFbFd6bTJXaEtPUVIxaw?oc=5",
+          "published_at": "2026-11-01T22:29:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli becomes youngest F1 world champion with 3rd-place finish in Mexico - Anadolu Ajansı",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:52:19+00:00",
+      "summary": "Kimi Antonelli becomes youngest F1 world champion with 3rd-place finish in Mexico Anadolu Ajansı",
+      "claims": [
+        "Kimi Antonelli becomes youngest F1 world champion with 3rd-place finish in Mexico Anadolu Ajansı"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM2FuN0hDRFpMdGJZaE9XM0RsMjhieEtsdEl5RDU1N0YySW9pdFk4TW9Zbm5vaWNtcmxBd0h5QnRiNHFjTS1IYWl6dTJSSDF6aTN4LUVBMUJ1bGtZU1VIUVRRYk1zT0V4OG5CbzRnYWNvRXZxMXRBM19jV1pUNE14RnRxUlpxWXl5SFBuSE81RFhsTlBhREg1U0c2Q2tXdGNTTEdaZ2Y4NGVlSVM0N1NKRTVBTGUyelNuNHAxWXVn?oc=5",
+          "published_at": "2026-11-01T22:52:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli, a hidden Ferrari logo and the making of F1’s youngest champion - The New York Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:51:51+00:00",
+      "summary": "Kimi Antonelli, a hidden Ferrari logo and the making of F1’s youngest champion The New York Times",
+      "claims": [
+        "Kimi Antonelli, a hidden Ferrari logo and the making of F1’s youngest champion The New York Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSGl3NFFBOW9TT1JCdWFZbDZwQk1TbHJGbHlGdS1ZVGlsVldRVW5mYUVYWmR6Z1BmLVRtbFVjMUhFRVpKZnN5YjJqZGNnZHA0Slh2cTJnT0dubGppaVNsa1dndkw2cnl4bzdsMDNXTm9VWFJGWjB1U0hMWkJwM05JVXlQWkViMHVOLThSbHBISjQ2ZDNJWnlaeUxPUU11N0lfWVpB?oc=5",
+          "published_at": "2026-11-01T22:51:51+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Standings and Results as Kimi Antonelli Crowned Champion at Mexican Grand Prix - Sports Illustrated",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:48:47+00:00",
+      "summary": "F1 Standings and Results as Kimi Antonelli Crowned Champion at Mexican Grand Prix Sports Illustrated",
+      "claims": [
+        "F1 Standings and Results as Kimi Antonelli Crowned Champion at Mexican Grand Prix Sports Illustrated"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0tfdXBqSkYwek53UmE0SUttWjB3V1F1Q3BuM1dMQjBXa0dENkJWRkJsOFFmVzFpOGdOdEJZeUhjdHYwVEhVTThYaTdrNWZyQTc2MGRydjgyM1pWZ1NzdDM0ak9ocTRYYnY0MGlSNE9Gc2U2dXNZQUdQZjBYaEFrdzd2S1dSdDlHaUJTQlp3SFBOQUplNzNxd0JGRjBVMmNOcEQyVVhzWk5DU3EwSlRPTXl6dw?oc=5",
+          "published_at": "2026-11-01T22:48:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli, World Champion after P3 in Mexico: “What’s just happened here?” - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:48:39+00:00",
+      "summary": "Kimi Antonelli, World Champion after P3 in Mexico: “What’s just happened here?” SPEEDWEEK.com",
+      "claims": [
+        "Kimi Antonelli, World Champion after P3 in Mexico: “What’s just happened here?” SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLW5LSU5UeUNyQWx0c0toV0xEbzVkbDdRUW5CS01sc1NEMXRYSW80SGRNaDk0WXk2NlVxUjFxckhxQ0VTYzBTRzdoa2hERFhHMDJsd3FhdGZ4Q19odTdZdWQ0SXQzWFFmQXZfSVZvQzFKSWdSM0UwX1k3T3BlSUVxWlNzZlJnVTE1XzNZYWFKM1V2R3oxa1JHTHNaXzJHdWgzN19YeTJlT1VObWFaY2xaSW1hVEk?oc=5",
+          "published_at": "2026-11-01T22:48:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli’s road from rookie crash in Monza to F1 glory in Mexico - East Renfrewshire News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:47:34+00:00",
+      "summary": "Kimi Antonelli’s road from rookie crash in Monza to F1 glory in Mexico East Renfrewshire News",
+      "claims": [
+        "Kimi Antonelli’s road from rookie crash in Monza to F1 glory in Mexico East Renfrewshire News",
+        "Kimi Antonelli’s road from rookie crash in Monza to F1 glory in Mexico Herts Advertiser"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVjd2ZjJpMlpYaDctZHdVMC1LU2VvWmFvN3VRQmNuUnR3bjMyQzlvcjJLQUllaVBZNFI0YU5vMTF0NlU2X0hiOVBGcVNfWWFkVGNkNThXbDkzdmpKMXRpa01sMW13RHptWEs5MF9MRE5BNHQ4OFV5YkNEY010RDFKSkdyQ29scDZ0bGplcGpZWTBLLW12OXRiYnBpQ0xqbTcxdVhRcS0zUDhERFhmY1E?oc=5",
+          "published_at": "2026-11-01T22:47:34+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ3E5dmRKM0U4T2NCLXdwRkxwYlhNbUdpNFUwV1BQSm1xaHJFRFB6Wm0tY1psNzF1dWI5LVRibkFrU0cyUkpsUFZBakpDX1VjQkdJTXVYYk8td3lEbWJOYTk1dE1JOGxqZ3dyMk1fSWpjbXh1U0haOVFpeGJHY3lVZlR5NVRqMTZBVkZMdlRzeUZ4UVM3OXVQSWFoWkNVSkNiUGdIT1cyVnltRU1EVm82cjRn?oc=5",
+          "published_at": "2026-11-01T22:32:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Fearless and ahead of schedule, Kimi Antonelli is Formula 1’s youngest world champion - The New York Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:47:00+00:00",
+      "summary": "Fearless and ahead of schedule, Kimi Antonelli is Formula 1’s youngest world champion The New York Times",
+      "claims": [
+        "Fearless and ahead of schedule, Kimi Antonelli is Formula 1’s youngest world champion The New York Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeXlDSHl0NWhYb3NTT2l5ZDh1X0dHaDRtOFFrVzN3MVU5N2twZ2JHaE9sMTN2dGMzeEpzXzJ0UXREWXo0Y0lnY3R3V0UyY3V6WS1XTHZ1dThXb3JFRlpEODNmcWtPbU5yYTBNekFTY2twWUpSWnJxR0RiQnBYM0kxUGVDcjNMZENhWjhFYw?oc=5",
+          "published_at": "2026-11-01T22:47:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli savours 'live forever' moment after making F1 history - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:47:00+00:00",
+      "summary": "Kimi Antonelli savours 'live forever' moment after making F1 history RacingNews365",
+      "claims": [
+        "Kimi Antonelli savours 'live forever' moment after making F1 history RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQXFSVHRlamxSa2xaVm1xTlN2U3dnN3VNNkdrRjZETW9UcWVXS1dzWXdqQzM1anpDSl9oTzIwVkdmNkRaN0p6TnNXRk13OFh6SlhFUVM5U0c2N3VnYWFEWWoxQkZORmt3TEhOb3ZLdDYyTFFlNmhZbXZrV1Y2aGdZYWZoWGNSWi1nSVVHWE9oMmdlUDgwRGpV?oc=5",
+          "published_at": "2026-11-01T22:47:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli crowned F1 world champion after third-place finish in Mexico - ITVX",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:47:00+00:00",
+      "summary": "Kimi Antonelli crowned F1 world champion after third-place finish in Mexico ITVX",
+      "claims": [
+        "Kimi Antonelli crowned F1 world champion after third-place finish in Mexico ITVX"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjhRQTBzU1Y0RW1xMWh0Yl9OWTNUcGlNbnc0eFU3R2UzWlBYcDlCZWdhT3gwZUhWYlRXMExxTG9SLXE4NTdRbTlpNDNNTlZPd3BzdEEwRVNqMHNBSlJuYml5SkJNSnRFNzhWYWhDYkpZQTFrUHAwSDVkcm44UEtzWUNDNk1fNThyTGszV3RSUVo2ZF9VRjlIbDNmdU9mWVJrMWg3cUcwU2UyLWg1TGxKMQ?oc=5",
+          "published_at": "2026-11-01T22:47:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Why Kimi Antonelli is F1’s most surprising champion in 17 years - The Independent",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:46:00+00:00",
+      "summary": "Why Kimi Antonelli is F1’s most surprising champion in 17 years The Independent",
+      "claims": [
+        "Why Kimi Antonelli is F1’s most surprising champion in 17 years The Independent"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdWVGNzlKaW1JYkxWZE1uQVZyX1UxNUE5NDhiNDdMdFZnakpzUXAzeTJMTjRGVVdZWi11aHBidnVIQ2NjLWV0Rnk2SGNiWFp1WW51Z1c1NlZfX1MtSGJwX2ZJd3oyay1RTUxDYUFLTlZsdTlvVGlWWDdRZ2lhbTVneWxHQkdzMVBENHNzZDI2bnI5Mzg?oc=5",
+          "published_at": "2026-11-01T22:46:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "How Kimi Antonelli went from a kid hiding in a stack of tires to F1's youngest champion - WSLS",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:45:47+00:00",
+      "summary": "How Kimi Antonelli went from a kid hiding in a stack of tires to F1's youngest champion WSLS",
+      "claims": [
+        "How Kimi Antonelli went from a kid hiding in a stack of tires to F1's youngest champion WSLS"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONk1PWEhPc3VOYU5ENkg3cVA3bzVuZVViN1A1N3dVOHBKMGI1ckdST2NleVdZd3lORFpHbDRXdFN0TDZ5LUJyRmJKNU14c2hUd184NGplMExyUXFzd2JMNUhPaFNhb0hjcmxSM21jUUZWbEVSREtzV282ck91eDV6MmlSQlpTR2JCalRneTcyQkpseFpZNTVWZ3Q1WktLRlVSOXBzRDNLcTFYdDYtYlh6Qk9OLS1fNkFYMGRsNGRxTm9iTUZp?oc=5",
+          "published_at": "2026-11-01T22:45:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli makes F1 history - where he ranks among youngest world champions - Crash.net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:44:48+00:00",
+      "summary": "Kimi Antonelli makes F1 history - where he ranks among youngest world champions Crash.net",
+      "claims": [
+        "Kimi Antonelli makes F1 history - where he ranks among youngest world champions Crash.net",
+        "Where Kimi Antonelli ranks among F1’s 10 youngest world champions The Telegraph"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMVE2VFZxbnFmUnBFVk1sT3lMcF9hN21nQjlhdkFNenlLVzJjdHVpdFZkS0pEeFktUVEzcXJ2Q1JQVVVxczduUHpmeVhqdy05dmY2WHIxY2RrcklUal9FVFgzMlpNWElvODYtMHQ4R3hPR2lRV0RVRW41THRIc2pUOTFEREkwZHpLZHl5V3VsNFR1TENYUmlGQWhHNldocTV4alhNNndtT1VZUUNOTGFGVnMyR1BVVVdtMXk1MQ?oc=5",
+          "published_at": "2026-11-01T22:44:48+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVXBETTd3c256RHNSVWZiQVlncWF6b2l5YkpMRGJLek5LN1BYQk5mN2w4QUNOenRPUl9jQVZQY1RfUlJPa3NiWkZiYUkxQ1VWUkdtTmh4MkQwelAwdFFtSGJlTFZqTnpOWlZlUUlEWEl1ZUFBTnFIUWRYdXJJa2daYkdmUHhBMHp1WTRaMDVpdnhSZkM5ME15NlFvYUlrSEN5X1NhX3E4dmlTQWs?oc=5",
+          "published_at": "2026-11-01T22:34:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mexican GP: Max Verstappen wins, Kimi Antonelli is world champion! - https://www.autohebdof1.com/",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:44:27+00:00",
+      "summary": "Mexican GP: Max Verstappen wins, Kimi Antonelli is world champion! https://www.autohebdof1.com/",
+      "claims": [
+        "Mexican GP: Max Verstappen wins, Kimi Antonelli is world champion! https://www.autohebdof1.com/"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGM0ckVMa3Z5R2x0ZjVPT3NWVUc5dU5XQ3hWa2JhWW5LTGprblprOVV4a0h3LXEzejhxQVh0NFM4T2t1Y1ItVEZnTVdKVU1GQlFocHpLV1VNSUgyX0NJbWE0TlJwcVRqei1PTnM1SUdsTmRXR05rUzBCYU9QVTVUN2ExaUliUjRHenFtaTR3TzVxSHBtcjZsTXBrZVMwdFRGTFdSYlVsZWFZYVdGZU1tUmFqaw?oc=5",
+          "published_at": "2026-11-01T22:44:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Grande Kimi! Antonelli is Formula 1’s youngest EVER champion - Top Gear",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:43:52+00:00",
+      "summary": "Grande Kimi! Antonelli is Formula 1’s youngest EVER champion Top Gear",
+      "claims": [
+        "Grande Kimi! Antonelli is Formula 1’s youngest EVER champion Top Gear"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYmlyeDdsUEdQNHpvZWlQdEpzYnAwVXBkOXRRTElxUW1lUjNlLXJfSTRTRE5wbmFsRHBuUldBMVJyMnctUVJ2aHFueFpOaDk3aGlvZDNJLTRoR0pJNHY3cGhTT0dFb3lub2FHb3pBSVFSVnMwYkF3THlqNXpDTXJtUndkR0tUNDNSUXVocWNQcFJrbGZ6Z1BINjFuR0p0VjJZWXc?oc=5",
+          "published_at": "2026-11-01T22:43:52+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli is the 2026 F1 world champion - AutoNext.co",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:43:14+00:00",
+      "summary": "Kimi Antonelli is the 2026 F1 world champion AutoNext.co",
+      "claims": [
+        "Kimi Antonelli is the 2026 F1 world champion AutoNext.co"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5oa01mZkFMMTc2dmkwYmlaODVZM0RfZGVURzZlOHJGUkppNTBMVkxRbVRwenBWc05qX3ItQ1JUb3ltY0FVWEZHOTM2ZWFPYkpEcThnd3RQMWk5al9KZm9mR1RfWTk0dWVid2RmTWM5X2dTUGRTTjlmN054Y2hVdw?oc=5",
+          "published_at": "2026-11-01T22:43:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli claims the Formula One crown – his season in pictures - The Guardian",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:43:00+00:00",
+      "summary": "Kimi Antonelli claims the Formula One crown – his season in pictures The Guardian",
+      "claims": [
+        "Kimi Antonelli claims the Formula One crown – his season in pictures The Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjdfLVdYVWxuMjhqeDNmcm5mYTNtS0pSaXVEeUh0OS1PSDhZcDRkNEFCZ1ZCWkllaGRFUE92SExxd3NJSzBjVDZ1Qlp3QWFXTHVaLUlldnZDOWU1TVBlVXVBS216eXhoQVc1WmxVQXhUS25RSmVob3dubmV6RjRhd3o4dXUyRkltcjM5YzU4RDNwVGRlWnh3U1YwMHY2SFlsQTYtbU9LWU5Kc2Z2bG5xcUxR?oc=5",
+          "published_at": "2026-11-01T22:43:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Jubilation as Kimi Antonelli reacts to F1 2026 title win - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:42:15+00:00",
+      "summary": "Jubilation as Kimi Antonelli reacts to F1 2026 title win PlanetF1",
+      "claims": [
+        "Jubilation as Kimi Antonelli reacts to F1 2026 title win PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXZsODM1R2tGZFRCb1Z5TkxZVHI1eGJHR0FwSXJTdU9nRlU1emNnVzYwTGJadFJkRFl4R2RGMHM1VkVncks5RGhRTjhwWHdVSExoWEZ3alJsU1hjSHAxb05XV01FeGpWMGhhczAwRE13Rk9MZWlTZHhGeV9QempyZzFUc3kyN2c?oc=5",
+          "published_at": "2026-11-01T22:42:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wins F1 world title: The six races that proved pivotal - Herts Advertiser",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:42:13+00:00",
+      "summary": "Kimi Antonelli wins F1 world title: The six races that proved pivotal Herts Advertiser",
+      "claims": [
+        "Kimi Antonelli wins F1 world title: The six races that proved pivotal Herts Advertiser",
+        "Kimi Antonelli wins F1 world title: The six races that proved pivotal The Irish News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTEVFajdyZnFWUWxFYVNHUW45b1JVRzlDdGdWNEs0d0dBUXpQRkFXcVRna21aa0hJbVFuUFM3cmlUNnp3NUZ2NkJCcmduTEZGXzFDa2U0azlhcFN5UlRTQWJScXA5alN0Y2VERV8yZ3I4MWlMUllkeE9jdklxcTU4cUdVeE1Pc2NnWDAtbjhmYm1Bb3JzaHpEcHpLSXp0MWpzU0hMYS1UVm9GWC1qNE1fa1hsNEQ2VWM?oc=5",
+          "published_at": "2026-11-01T22:42:13+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRDNEQ1JKMW91NnpyWkREc2RrdVFabGttUzVOQ2d0b0xrVThNcXFTTGxNRlNNR1dVaFlKZFh2cHBoTlBYOVdxcVlGZ3NiVWJ5eUJ1NGhKSEVldTJ6cFJZNlVQMTdFN2JrdDZqQWNsUDFiV29qLU9HbG9UYUtyTU5MV1dMdWdmdUFuem16Y21Qc2FEMTNVQ0RLaFhvamNpTDMyY2E2Y1ZIOEtOZFloRldSdkk0OG8taG5kYkEyMGlEYTdUclV0VGM5TVRvTjNvVndQakJFRkV3?oc=5",
+          "published_at": "2026-11-01T22:34:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mercedes driver Kimi Antonelli becomes youngest champion in F1 history at age 20 - The Killeen Daily Herald",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:42:09+00:00",
+      "summary": "Mercedes driver Kimi Antonelli becomes youngest champion in F1 history at age 20 | Sports | 2news.com KTVN",
+      "claims": [
+        "Mercedes driver Kimi Antonelli becomes youngest champion in F1 history at age 20 The Killeen Daily Herald",
+        "F1 | Kimi Antonelli becomes youngest champion at 20 years old Deccan Herald",
+        "Mercedes driver Kimi Antonelli becomes youngest champion in F1 history at age 20 KOB 4",
+        "Mercedes driver Kimi Antonelli becomes youngest champion in F1 history at age 20 | Sports | 2news.com KTVN"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQX1NVdFFaTFJaMmpGYXgwNFlua0RRZEhEZlBteGxnQWpRYUQ4VEI1VWlBU1V1TFJjMlRaSE9MeTdIQlpZaThhYWRxc21admd6Y2VYc2w4LXVNQVEwdzhPa2NoaVRhUnRsajNPaWNLeHFTOGFKOG80RExVdVVscll3clZWOHYtY0x0Y1VFMms4UjRnZEp4TVdpTGhobWpQdG9WQlVQOGw0cFFxNXZqVnAzVWswaXZ1RUwyVDBJQ2pxNEZhcUk0dmozYzRmNzA2NDVDajlQUXlBenFkQjNLLU1lbFhRVzNyN3ptM1d1amRQSlNSMHNDRjFacDQyU2liR3BRYThGUlpn?oc=5",
+          "published_at": "2026-11-01T22:42:09+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb05oN3E2NUltcERJOEtibnpDRzJWYk0zcFNFTmROeFllTkVoTElMZFRMMGdvZkF0S0ZwejQ1YklJaG0xTHZUVDRudHk0alFkb1B4WEd5OTBsRERKdWpxQW1rZlJUVURUM24za0Rnblp1YUE3T0Zad3phQXBLTUxmRUotTjcwcE1HX0lBa2pyNndhR2RmdWtvald1eE9mdDIwN2o0T2VwalZ2TWw1Y0xCMkVmWFNVZw?oc=5",
+          "published_at": "2026-11-01T22:41:14+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQU14ZF8wb29odnhtd1dsQ0g2ZXJid3VnX210TVpIZzJnRktyVzk4bGw3YzU3RnF1RllJb2JURm1JeG5XNmhFSWdDVGNsM251dkxmZGNIMHpuWElYU2Q1TTNuc1ZZZF9ISElrRWtvbWJEbzNETlFlTVBWT0lpZlRMVFZYaldfelQ1clVESk5RMDNvRVZJZGtYZk9iU3NiSTNhZm5NXzhKNDJoY1pEUUdWX0JzQQ?oc=5",
+          "published_at": "2026-11-01T22:30:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbFFuUS15VHRCT2hOaC1xTVJ1MVdEbXRQbm9DVVRGdFVya0YtZEVIOVdZUGprMDZnTXgta0xtTE9QRDRxZDdpakxXaWFySFdCN2syOU9GN1l2VFBVcTNQbTkwZnlBTWxVbXRPZm9ZNnVLRTVHSWtPdzNvc0JhUGtHbTFYendYMnNmM1NVN1M4dFEyVURrY3dkU0FBV2VET0kwZWdndTJJbkJQQ3hDNDU0Q1R0QjZaTHpoNHdQZldaUkdJQUlzWjFXQ3pGN2sxODJ6TjZjRW42eDNsSTNzQ2pIUWJlY2JXcUdmTWdpTnp3?oc=5",
+          "published_at": "2026-11-01T22:27:57+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPQjhsYmdiN2EyY0R3QnkydkpVWHVUUzhvV0xyOXV4aFNZeWNUZlgxWnhmWXlIMjB3WF9ObUF1SHUzSTJJVTRuNG9mRzZGX1djNmQwTDR0dW9zelBsTFA3b0NRZFNaeWIwVWZxaVg4bTJNQkhIa3MtaHBYb19jcW5RUExRWVFycFJHMEp2eE1RUjVaS2QwMllNdld2N1JpbnlobnZlVjhqcmt6Y2NudEo5MWNBOF9LcUtqRXQtaUtLZFB3T1M1RlVrbTRieHloMTB1R2tIc0g4Ny1udWpwMmJ5ZlhEclc4THJGMTFpaGZkNmJrTWFWUU9lcHRLZmVWWmFpSkFSZnhzMWNvaUc0amN0SV8zZzdaQQ?oc=5",
+          "published_at": "2026-11-01T22:27:57+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Max Verstappen wins Mexican GP after starting fifth; Kimi Antonelli crowned champion - NL Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:41:12+00:00",
+      "summary": "Max Verstappen wins Mexican GP after starting fifth; Kimi Antonelli crowned champion NL Times",
+      "claims": [
+        "Max Verstappen wins Mexican GP after starting fifth; Kimi Antonelli crowned champion NL Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ3VTcG5OdnFyaHhOajBncTdIZXVISmlELWxWNF9NVm5lYVFBRDdGZW10aExNYk50R0huQXZuM3FxaTJ0RllvYzJVYkNCTFBYV19tNTlmQ3c2NHVSQjRDZ0g3Z05ObWttSGpXLVpRYjI2WFpSbEF2S01yLUlnVmFVTm9MMjNQMWVDMFZTT1d1Uzhab1hGSkcxZk1DRXF0Zzh1N1NBNHdGNFhrd2c?oc=5",
+          "published_at": "2026-11-01T22:41:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli crowned 2026 F1 world champion as Max Verstappen wins wild Mexico City Grand Prix from Lewis Hamilton - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:39:24+00:00",
+      "summary": "Kimi Antonelli crowned 2026 F1 world champion as Max Verstappen wins wild Mexico City Grand Prix from Lewis Hamilton Sky Sports",
+      "claims": [
+        "Kimi Antonelli crowned 2026 F1 world champion as Max Verstappen wins wild Mexico City Grand Prix from Lewis Hamilton Sky Sports",
+        "Kimi Antonelli becomes F1 world champion as Max Verstappen wins Mexico City Grand Prix BBC",
+        "Mexico City Grand Prix: Max Verstappen wins, Ferrari implodes, Kimi Antonelli World Champion grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUGltSHRqejdWa1NRR1ExNEZVRDRPTTJFZXZHNlIyN2pqajY2MXVVM0t0TUVFUFJ1MDlNNmViMVpiaVMyVVpHaURXVWtnVS1hX2locDlwRWFybzdHdjJOMU9OZUt0bUNGanppcmE2dFo1a0RUY2ttU0pmZ3VINUx2V2tvRVV5NmtXNmNLakZRNm1STXhhUXZmOFVvaEM5TFJ1ZGRtclpCQXJUeUowd2kxLVNpQk9wTHFKT0ZPcnkxTWY4TkkzNjRZbm1ZbzYtZEdYaktqMFNMRE15b3BIV05sLTJueWZVd0J5MzdfdUc5V0Q?oc=5",
+          "published_at": "2026-11-01T22:39:24+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91SHh0QUpYbFp0cE1XaVVkdy1zVkJGVVZidTc1aklWMmNFMFZKVmhIOVFPYUp3dWFuelZhdHY5OGVtRlg3dUctWGxfMXUtb1FKdk5sRjk2YjNCY1pGRmhac3FzYjlxenpNSGpN?oc=5",
+          "published_at": "2026-11-01T22:27:42+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWlZHWGItUi1MOGoxaXZMUGxfSUNLclZ4TGtMREtPMFpJX2FVTk1ldEJfZ2FzSWNEOGQ5QWlYY2RqZXo0ejBOV1ByZjNJeTR4RW5adFpsckFXV01LLUNrYk5SbW5SblUtUk9LXzR5WUF6Q182RW9DU3gyWFF5Zlg0UnZIWmZSa21vQm1hdTdBWHBQcmhsVjJXdVFUX2xDOEJDdGJ2MjNMSl8xTW1uUkw0VlQ5ellrZkFZamJQcllVU01XQU1PNDN2VDg1OW0wdw?oc=5",
+          "published_at": "2026-11-01T22:25:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli becomes youngest Formula One champion with third place in Mexican GP - The Irish Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-01T22:38:45+00:00",
+      "summary": "Kimi Antonelli becomes youngest Formula One champion with third place in Mexican GP The Irish Times",
+      "claims": [
+        "Kimi Antonelli becomes youngest Formula One champion with third place in Mexican GP The Irish Times",
+        "Kimi Antonelli becomes youngest F1 champion with third place in Mexican GP The Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZmc1R3RoWWhaejRWaVo0X3ltOGtMMWg1QnRmWndjQnNEVkpGZGhmNW9ER2NrZkdGdGk0a043cnFGOVRLWnBvbU5KbUcwSW1MYWtKSGkxbDVEeUhJMmwtaTBGLVY2M1VsRDZBcmpiVUtRTnJyRWR4OGFqazlveWQwV1hOaGpMVXEybG1TekViU1B2M3BVQTFWU0VJTV90VDA2dklwUXMxWk5vaWFxMVZZZ0J4X2RJSTBHVUhkYS1HS3o3dTdfUWZwbENKa2c5d0tPNUZodkRn?oc=5",
+          "published_at": "2026-11-01T22:38:45+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFhsbDVwLWVoT2pfbDMzOHUzT3Z4N3pIMGxZM2hoeDcxYXZ2WExWWGRWX0pqZG1PaXh3OGpBRmxxM3NoWER0YTFDOU9TeWRjeTl0UmdCN1B2cG45eWNubnVyaDVDQ1M4V1daWjBsenM2QlhaMlN6OHczTG5fUC13ZDJncWtFZXc2LXV2MFJaLVROMWNkV1NF?oc=5",
+          "published_at": "2026-11-01T22:32:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
