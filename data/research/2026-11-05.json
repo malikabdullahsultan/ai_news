@@ -1,0 +1,938 @@
+{
+  "report_date": "2026-11-05",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-05T00:26:33.549931+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 26
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 100
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 142,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-04T22:13:03+00:00",
+      "summary": "As GPU clusters scale, operations span compute, network, hardware, and scheduling. Site reliability engineers (SREs) often have to examine multiple dashboards...",
+      "claims": [
+        "As GPU clusters scale, operations span compute, network, hardware, and scheduling. Site reliability engineers (SREs) often have to examine multiple dashboards..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
+          "published_at": "2026-11-04T22:13:03+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-04T20:26:19+00:00",
+      "summary": "Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills, and harness code. When you...",
+      "claims": [
+        "Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills, and harness code. When you..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
+          "published_at": "2026-11-04T20:26:19+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-04T18:46:28+00:00",
+      "summary": "As artificial intelligence and accelerated computing continue to push the boundaries of what's possible, the latest NVIDIA CUDA release arrives to unlock...",
+      "claims": [
+        "As artificial intelligence and accelerated computing continue to push the boundaries of what's possible, the latest NVIDIA CUDA release arrives to unlock..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/",
+          "published_at": "2026-11-04T18:46:28+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Agile Deliberation: How AI helps humans define the gray areas",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-11-04T18:07:05+00:00",
+      "summary": "Data Mining & Modeling",
+      "claims": [
+        "Data Mining & Modeling"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+          "published_at": "2026-11-04T18:07:05+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-11-04T17:50:10+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "published_at": "2026-11-04T17:50:10+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-04T14:30:00+00:00",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "claims": [
+        "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "published_at": "2026-11-04T14:30:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "A thousand fewer paths to root",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "claims": [
+        "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "published_at": "2026-11-04T08:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-04T07:00:00+00:00",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "claims": [
+        "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "published_at": "2026-11-04T07:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-04T05:00:00+00:00",
+      "summary": "arXiv:2303.12212v3 Announce Type: replace-cross Abstract: Community detection is a significant challenge in analysing real graphs, including social, citation, biological, and many other networks. This article proposes three new, general, hierarchical frameworks to deal with this task. The introduced approach supports various linkage-based clustering algorithms, vertex proximity matrices, and graph representation learning models. We compare 364 module combinations on Stochastic Block Model graphs and real-life datasets. We observe that our best pipelines (Wasserman-Faust and the mutual information-based PPMI proximity, as well as the deep learning-based DNGR representations) perform competitively with the state-of-the-art Leiden and Louvain algorithms. At the same time, unlike the latter, they remain hierarchical. Thus, they output a series of nested partitions of all possible cardinalities which are compatible with each other. This feature is crucial when the number of correct partitions is unknown in advance, and we show that it is obtained at near-zero practical cost in terms of partition quality. On graphs composed of many small communities, our pipelines are more accurate than the reference solutions. Nevertheless, the downside of our approach is its time complexity, which confines the framework to networks of some 10000 vertices on personal machines.",
+      "claims": [
+        "arXiv:2303.12212v3 Announce Type: replace-cross Abstract: Community detection is a significant challenge in analysing real graphs, including social, citation, biological, and many other networks. This article proposes three new, general, hierarchical frameworks to deal with this task. The introduced approach supports various linkage-based clustering algorithms, vertex proximity matrices, and graph representation learning models. We compare 364 module combinations on Stochastic Block Model graphs and real-life datasets. We observe that our best pipelines (Wasserman-Faust and the mutual information-based PPMI proximity, as well as the deep learning-based DNGR representations) perform competitively with the state-of-the-art Leiden and Louvain algorithms. At the same time, unlike the latter, they remain hierarchical. Thus, they output a series of nested partitions of all possible cardinalities which are compatible with each other. This feature is crucial when the number of correct partitions is unknown in advance, and we show that it is obtained at near-zero practical cost in terms of partition quality. On graphs composed of many small communities, our pipelines are more accurate than the reference solutions. Nevertheless, the downside of our approach is its time complexity, which confines the framework to networks of some 10000 vertices on personal machines."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Machine Learning",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2303.12212",
+          "published_at": "2026-11-04T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "inference",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli to honour Ayrton Senna with special helmet at Brazilian GP - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-05T00:21:49+00:00",
+      "summary": "Kimi Antonelli to honour Ayrton Senna with special helmet at Brazilian GP Motorsport.com",
+      "claims": [
+        "Kimi Antonelli to honour Ayrton Senna with special helmet at Brazilian GP Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0xhcG1jV1Zud0hsbEp2SmFudm9VSWJBaV85ZzlDZE42MmQ5bXRsdjRxS0lVY1l0OUpsM25PLWU2cGgzVldCX2tHLUhfY1dSRjlVcXFJQUVFWGh0OTJjazJVc3l0QV9la1RPeGdseHUtSnM1ZzluS05pa1Y4VC04XzhKeGQ1cmd1Sk5va09LSUtiS05KZWdjczI4NjV3ajc0NUU3aXlyVUl2RTk0MndlTnpRQThvUlpQWkE?oc=5",
+          "published_at": "2026-11-05T00:21:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "How Mercedes can win 2026 F1 Constructors' Championship at Sao Paulo Grand Prix this Sunday with Kimi Antonelli and George Russell - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-05T00:17:33+00:00",
+      "summary": "How Mercedes can win 2026 F1 Constructors' Championship at Sao Paulo Grand Prix this Sunday with Kimi Antonelli and George Russell Sky Sports",
+      "claims": [
+        "How Mercedes can win 2026 F1 Constructors' Championship at Sao Paulo Grand Prix this Sunday with Kimi Antonelli and George Russell Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNYVJFcThVRFRWd0VrWEdlY3ZXZGVuT2Zob3JVbXJHWEZmY0hwT1F6SG96NHd3eV90SmxDTUNKUnItV01DWVUtcXNtUjZpbzhBZ0FSYTBETW5Gc2VCVGRNUEd2MHMtUy1NT3VTbzVMRGtQZ1JqSW5pXzVJcHRiVm5yalc4TUpIZUo5ZllXQ2lOZXRsdFRhZm9Ba3VXejdTQjE4RFhhbDJUX25IWlF4cmlPTS1BVE1qUkM4ZDRUQ2ZSY3hjOFR1NTNCRl95TlV5allZSVJyY0F4cGN4ckpjenVTc0NPY0dvcUt0bGZXckJVa2dPdlJQcUlqZkYySzQ0TGhLQ1E?oc=5",
+          "published_at": "2026-11-05T00:17:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli shares \"unforgettable\" Ayrton Senna moment after F1 title win - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T23:59:18+00:00",
+      "summary": "Kimi Antonelli shares \"unforgettable\" Ayrton Senna moment after F1 title win Yahoo Sports",
+      "claims": [
+        "Kimi Antonelli shares \"unforgettable\" Ayrton Senna moment after F1 title win Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0ZNeFhlNWlaMEt1Sy1VanVJcEtpaklwRGtqNVhXSlZwMHZqc1ZvZFMxQW5GenZZSDNzYTM4VGduVHlIdGpIdFg3dFJhTHBCRWlmclZKbUdPSmxUMndIZHlabEgyM0daa3hxUTA0WkpZRXpwWW5wT3k4U1RmVTY3Ql9CYlM4Snk2ZThWaEVpTXpPQUxXMGc?oc=5",
+          "published_at": "2026-11-04T23:59:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi’s title repays Toto’s faith in star - NT News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T23:53:22+00:00",
+      "summary": "Kimi’s title repays Toto’s faith in star NT News",
+      "claims": [
+        "Kimi’s title repays Toto’s faith in star NT News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLTZnVlNxMGhSZDRzRFZxMjJVeUFLSV9Rdm9MSEthYnY5bG9oVjFrX204MUZSc3ZIc19aT0J4WHhVOXpWUXhMbUttNmVlOWQtTFJVZHhJaDdiZTBiS2FJdDdHMWhGZjhtaXViM3BDTC1IUWRXejRGSmVGOGJ1Tlk4b0FhWGxpV0sycWwyZ3MxRjYzV3FSaE5LQnJOV0lBekJ4YTJjS0xyVDQxcmVmWTNXV2k1YTNvd0R2Yi1LZw?oc=5",
+          "published_at": "2026-11-04T23:53:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "SWE-2 Flash vs DeepSeek V4 Flash: Two Units, One Gap - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T22:47:48+00:00",
+      "summary": "SWE-2 Flash vs DeepSeek V4 Flash: Two Units, One Gap OrcaRouter",
+      "claims": [
+        "SWE-2 Flash vs DeepSeek V4 Flash: Two Units, One Gap OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5akl1NC1SRFRONkhLLTBwQnBRMHQzZWNCeWxqZzdERkdMWEcxVFQ4c2pnaVhLeEd6RWJzbEN2NThNY2VZbTl0dkpyODQ3cGFvTjVBeGd2M21SVS15dkNFMEtJRzN0NTFLRGRlQUtoZ1M?oc=5",
+          "published_at": "2026-11-04T22:47:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "GPT-6.1 Sol vs Kimi K4: The Model That Never Existed - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T22:38:42+00:00",
+      "summary": "GPT-6.1 Sol vs Kimi K4: The Model That Never Existed OrcaRouter",
+      "claims": [
+        "GPT-6.1 Sol vs Kimi K4: The Model That Never Existed OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUWHZCZURqUWZEbHNMNVJtUWN2aWpIcVdiLXVFU1VmejdMVFlMZ2hxX2dzd3FYM0MxNnBLRl82RTVRZUpVVU5rblRtTW9yMmZtSjZFRTRVeXRWLWhSZzRlLTJxaw?oc=5",
+          "published_at": "2026-11-04T22:38:42+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Becomes F1's Youngest Champion Ever at Age 20 - SportsGrid",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T22:22:40+00:00",
+      "summary": "Kimi Antonelli Becomes F1's Youngest Champion Ever at Age 20 SportsGrid",
+      "claims": [
+        "Kimi Antonelli Becomes F1's Youngest Champion Ever at Age 20 SportsGrid"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNckdrM2s4SXpZZUNwNjNCM3hjTGhORFd6cEs3Vml6cDgtdjRPME1MYXVKRTZERHAyOENycVdfQmdWb0VTcV8tR005U2ZCNVdqdDAzZXlpcWFETFFta3gyam5lVnFLM2FGZHBER3VQc0dQNlFFVnBLYnkxck5kUzVhTEx5Z1pubERFNXFlTXl5SGNwMFV4b1hsZEdGbWZpQk5nWnc?oc=5",
+          "published_at": "2026-11-04T22:22:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "‘If I could choose one race’: Kimi Antonelli reveals his Brazil dream - Grande Prêmio",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T22:00:00+00:00",
+      "summary": "‘If I could choose one race’: Kimi Antonelli reveals his Brazil dream Grande Prêmio",
+      "claims": [
+        "‘If I could choose one race’: Kimi Antonelli reveals his Brazil dream Grande Prêmio"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb0xCOXFlTm96UlBHdzZOLTFibDkxZDFmUWlGY1lES3VRX1d3RVk0TGpISFhBQUhsS2UzOEwzekt2NXp2aFM4dzlfTTVHTWtrbTFBSWl2SU41Q19mNm5MeVpPS2QyUlRkZHFfYVNmYlFzTllzWW81LTZqdGZvMXFxNDVHS1NLRTB5ay1hNm42bWlnejg5?oc=5",
+          "published_at": "2026-11-04T22:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Youngest F1 champion Antonelli reflects on Senna’s influence - Reuters",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T23:18:36+00:00",
+      "summary": "Youngest F1 champion Antonelli reflects on Senna’s influence Reuters",
+      "claims": [
+        "Youngest F1 champion Antonelli reflects on Senna’s influence Reuters"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPekRPaUZJYUpJV21IXzlTZFhmUldYckMyZWNvS0J4NTZnSXBhWUdVTUNwSXg5U0tLcE43VFk3anVGb0dsbHZ2RXRBZFNlNEVwX1BTSkhUeVlkN2twT3lzdjJzRE05Y1BJVUVOVXRXS1EwckFvSlZxUTRORHRwVGY0blotZGJfc2hFVHFuVGQyblB5dUtTZURKM1R4dmhUQTF2dUd5U0E0NURlWTVk?oc=5",
+          "published_at": "2026-11-04T23:18:36+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Generative AI fills gaps in brain wiring maps where MRI scans lose signal - Medical Xpress",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-04T21:20:07+00:00",
+      "summary": "Generative AI fills gaps in brain wiring maps where MRI scans lose signal Medical Xpress",
+      "claims": [
+        "Generative AI fills gaps in brain wiring maps where MRI scans lose signal Medical Xpress"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORW5kalB4V2RNVDd5SUxobzlvZFQtYkRUZzJoaUViZmx3VmFQSDVJUzRkVHh4dUNzZjJhVVUwZkpDMHRLckZTM3M1V3dhcWVhdEN2SUpwd05TaUtMbUhQLU1lU2ZnOUJDeEJxUS1MWVFyS3VMQllGTDE5Tmh0eGRqeg?oc=5",
+          "published_at": "2026-11-04T21:20:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli explains rejection of F1 champion tradition as Charles Leclerc defends Lewis Hamilton attack - RacingNews365 Review - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T21:00:00+00:00",
+      "summary": "Kimi Antonelli explains rejection of F1 champion tradition as Charles Leclerc defends Lewis Hamilton attack - RacingNews365 Review RacingNews365",
+      "claims": [
+        "Kimi Antonelli explains rejection of F1 champion tradition as Charles Leclerc defends Lewis Hamilton attack - RacingNews365 Review RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWGU1STJjdjVoZkJBdlV0ZEF4SGZsaFJKSXNYMGpRLVh1bEEtVkJOMlN6MUtmekxicWx5NEd2dC1mUWkzUGI1aVJhcEYwaXBXSEZnbUhZV0M2WC1Ldm5ZUkszRndid21kN2JnWmZsTVB5alM0dm54R2hXbFFyMC1acGZvM2VjbDhnMnpTb2tRN2wzSmpwQnMteERPT05sY0VTekhGQk5HSG1BT2tobDZ1YzNhR2lfc3U3aGZQT0FvUEtOMnZlRWFqX3FBYTcxSGdiX1VIaEI2TEVaSktBbnY2cFpydjRJdUd1Q1E?oc=5",
+          "published_at": "2026-11-04T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Bernie Ecclestone makes Kimi Antonelli to Ferrari claim - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T21:00:00+00:00",
+      "summary": "Bernie Ecclestone makes Kimi Antonelli to Ferrari claim F1 Oversteer",
+      "claims": [
+        "Bernie Ecclestone makes Kimi Antonelli to Ferrari claim F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS1BfSXNvcHpNUi1RZXRuVm1LcGhkcHRscDFQZ1U3R3oxa1NIYTBZZE1fZFBmUEZybmhKRk5oTzhaMHdwUDVZMjZXOFM2bHpMbWpubV93akttLVV4ZDhaZGhEV05iVFZHazNEOFFoeVRGZmJNOG9uWENoRzRURzNzRmJSTnlrMURjcjN0eGp3YzhKaWJUZWdJTERDZFdWMmJ3OW9VbFpENnpXVkVjRlZ4V0Rvd2cwX2JadURr?oc=5",
+          "published_at": "2026-11-04T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli snubbed by Ferrari? CEO delivers blunt response after stunning world title win - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T20:55:00+00:00",
+      "summary": "Kimi Antonelli snubbed by Ferrari? CEO delivers blunt response after stunning world title win GPFans",
+      "claims": [
+        "Kimi Antonelli snubbed by Ferrari? CEO delivers blunt response after stunning world title win GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWU9BZHhRaWpycVhTYXhldDJuaGlOSm9rbHJxMGRLdE1sOFBJYXFhX19XNElPNG5yQWI3bkwyRmlDYXVHTnFkUFhUNERCWVhTdy1MRHFuREtfQ095dXFPU3JfOHd2bndteEh1SHJuUGUzMko2RVhEQXdteHMySzVITVd6R3lqYzJpelcwbks1aDRmUFlhMS03UGVwTUNUbTlxeDJEMmV1SHhrV3BEVG5QWQ?oc=5",
+          "published_at": "2026-11-04T20:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic Develops Tools to Confirm AI Models’ Identities - PYMNTS.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-04T20:34:50+00:00",
+      "summary": "Anthropic Develops Tools to Confirm AI Models’ Identities PYMNTS.com",
+      "claims": [
+        "Anthropic Develops Tools to Confirm AI Models’ Identities PYMNTS.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaHhWLVF6WmpYalZHbnpFM1NMU1FDbUI1M084cGNIS3M1WHg1RkI5TjN4WmVMZEVFS1NJSXZQR19EcTRVTU5idDNRM3RXYlJYMDZGWE1rNzZ2Z3dNYUNrc0Z3Rl9lSVFJaUdjaGNVOEVqZU04UGJ0SXU4bDNQaWFXekwtX2U0dENsTmVMUHFRQjJ5T2loc3YtREZNRHBWR3ZTdWtRS0lXZGw0cjFYTXFSZ0xqMXI?oc=5",
+          "published_at": "2026-11-04T20:34:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Haas' Rafael Camara decision may have a hidden consequence for Liam Lawson's Racing Bulls future - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-04T20:30:00+00:00",
+      "summary": "Haas' Rafael Camara decision may have a hidden consequence for Liam Lawson's Racing Bulls future F1 Oversteer",
+      "claims": [
+        "Haas' Rafael Camara decision may have a hidden consequence for Liam Lawson's Racing Bulls future F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQalhrVDRaZU9IYmtsRExIcml2bEl2TW1zdGlPU2FlNG9teXROYk1YRHVYa3RKb3JRNmNOOU9zRVAxWm0zVE1KdHFxU29MRmdOa1EzZ1JWRUN1TnhxdWxtVkpvNFdwdU1XLXRrMWNxTnV1V2JkWjNyTUtlXzNRZzA4RXdsTG1kYXMxQlJiTHlqWVhQY09kYmE0VUVDYkY5ekJnd2JIcENsZk9veFpTYXVpOHk2c1VybzlWZkxOWENNdUFwZHJjeVBN?oc=5",
+          "published_at": "2026-11-04T20:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
