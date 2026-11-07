@@ -1,0 +1,944 @@
+{
+  "report_date": "2026-11-08",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-07T22:50:10.059958+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 25
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 80
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 110,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-06T22:20:31+00:00",
+      "summary": "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an...",
+      "claims": [
+        "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+          "published_at": "2026-11-06T22:20:31+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput and Efficiency",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-06T18:40:31+00:00",
+      "summary": "Every unused watt is capacity left on the table. AI factories are typically provisioned for the unlikely moment when every GPU reaches peak power, creating a...",
+      "claims": [
+        "Every unused watt is capacity left on the table. AI factories are typically provisioned for the unlikely moment when every GPU reaches peak power, creating a..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/",
+          "published_at": "2026-11-06T18:40:31+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-06T18:22:43+00:00",
+      "summary": "During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For...",
+      "claims": [
+        "During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
+          "published_at": "2026-11-06T18:22:43+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Run AI Models for Edge Application Development with Just a Few Commands",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-06T17:47:24+00:00",
+      "summary": "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,...",
+      "claims": [
+        "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
+          "published_at": "2026-11-06T17:47:24+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-11-06T14:00:48+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "published_at": "2026-11-06T14:00:48+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Who are the new F1 world champion Kimi Antonelli’s parents? - South China Morning Post",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T22:00:09+00:00",
+      "summary": "Who are the new F1 world champion Kimi Antonelli’s parents? South China Morning Post",
+      "claims": [
+        "Who are the new F1 world champion Kimi Antonelli’s parents? South China Morning Post"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONDFSNmtPMWUwNllvc2pSS0w2Rm5fcjJveVAxSFlHNXk4QkJpYU56bkN3aVY1bDdzUnZOWkZzZFNvYXhPWk9Lem1OTzVfaFR5aTRWMFI5SVR3bFNLdGE3TTd6YVJnT2tnR3dvYjhRT1hzeThfZmI0UjYxU0wzS2dSbHpuaFVlSnhjaE1xanhfLTl3VDdNcXEwZ3RqYTNHSFFCWjBLMVo3cTVFMGMyY0t0ZktScjVZdmFsdHB6MC13ckVtdl9VVjk0UnBxM3d6V0pFMG9tcGtTTXJCU3dNdjE5enVXZFNLUThBbnfSAeoBQVVfeXFMTXZvSUlfakZkVXZZZFgwZ0FBRHk0VG82b09uTzhrWEZOSXJvU1JKamJyRlFTSmpqMWRoUzBhaVpNUTltNENwN2NTTUswclpMVkJzV0xENnAyZjNMM3dqMl81ZGNJMXpyTnF1Y2c1YWJGNmpJY2k4Y0pwNEF0NFF5TGtuOFVUQ19ab2ZjZk1lTzlwcFhYc3VwSW90d25DdEE0dU9VWV9fTWZwVHM4elRxekMycGw4Rkd2bVlhX3VBalUxMS02UkpmNFAtNk9aQUNyN0RDTVQtOFZsZU9vcW1WR1RRczJiWlJaX2tR?oc=5",
+          "published_at": "2026-11-07T22:00:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli receives Flamengo shirt as influencer reacts in despair during São Paulo GP weekend - OneFootball",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T21:59:04+00:00",
+      "summary": "Kimi Antonelli receives Flamengo shirt as influencer reacts in despair during São Paulo GP weekend OneFootball",
+      "claims": [
+        "Kimi Antonelli receives Flamengo shirt as influencer reacts in despair during São Paulo GP weekend OneFootball"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZG5XTWN3aFFOU1NndUxqYjc4QXNBYkFRNnlwOC1idFBJVFVPYUJZeldYMGlYS2I5VDNGTmxmMDRNU2xBSDF1U1BUeUFmaUhzdlIwZmM5OWh1VWQ2ZS1RZS1xLXF0U0Y1UFZncTlnV2hobEszNUJ0QUNRdnVJdjdtUlhVa3BnaTFMd0xLelRFWjdwVld4Um5ldHozYVhUUlFPYk10c3lVeUhaLXJrTlZiNFdYdldfUmt0WlBTMzVZRVctUUh3b2xxcUEwWC1zMk5hTFdZVHRn?oc=5",
+          "published_at": "2026-11-07T21:59:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Sao Paulo: 'I expect a battle with Kimi Antonelli' - Elated Lano Norris ready for a clash with Mercedes! - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T21:31:31+00:00",
+      "summary": "Sao Paulo: 'I expect a battle with Kimi Antonelli' - Elated Lano Norris ready for a clash with Mercedes! Sky Sports",
+      "claims": [
+        "Sao Paulo: 'I expect a battle with Kimi Antonelli' - Elated Lano Norris ready for a clash with Mercedes! Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcldqcERhZ2NJaWQ1NFU2bGNNVmtaejllWU1RVkQ4T2hzMnNGZkhRdWZCOEFJMlZQSm9Fb3ZoNjZfVkYyY1NmaE04QjU4V0JLLVZoekRzVHhBandGYXVMQ0o0N3M5Q0xzcVl0S0x2eC1nNGtQQ0ZoTklwa01BTE93cjRiS2RQbjhXN1FzdVVjOGpPaUpsNXVHRmhBLVdDRXBTQWpVQUpqN05kWjhmQk5EcW9UdEc5MnAyd2x0Qlo1SUVpcHFPcXBPeVhRR0k5N2w3Mk1zTUtZeHl5QQ?oc=5",
+          "published_at": "2026-11-07T21:31:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Formula 1 champion Kimi Antonelli: “I nearly went off the track at Turn 5!” - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T21:29:09+00:00",
+      "summary": "Formula 1 champion Kimi Antonelli: “I nearly went off the track at Turn 5!” SPEEDWEEK.com",
+      "claims": [
+        "Formula 1 champion Kimi Antonelli: “I nearly went off the track at Turn 5!” SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSWVFeXNIS0RUUWZuc2lFb1pnX2lwYTlFZ3V6M0JmbXJXX01aWFRrMTRSWGdTa3VGUkFsazlBYS1Zb2ZJa3h5aGhMcGZIMVBWOUUxT1dCOVU3cUJ6MDVCNEgyMV90UW5yZE1BLWNxb1BiTmRpOThoSmRCazZqQ29ueGh6Unc5VUh6UXYySHhudXI1aVdoQTlHWnlmb2lqZw?oc=5",
+          "published_at": "2026-11-07T21:29:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "China stalls Nvidia H200 imports to boost domestic AI chips - Chosunbiz",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-07T21:00:00+00:00",
+      "summary": "China stalls Nvidia H200 imports to boost domestic AI chips Chosunbiz",
+      "claims": [
+        "China stalls Nvidia H200 imports to boost domestic AI chips Chosunbiz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWXVUNFliWUE2Q2NZcFBaNDVJWkRpNzhnT1Z6X1dqUm1UQzlaV1Ytc3Q5clZfVzl3Yk83aENKeDM3c3JLMlRyUVR1QVBoQ0FPMFRQZUktVklnV1hIV1FPT2JiRXRkTFUxVV9QVE91cm0xUUdLT2ZNSTUxU2N6OEdmZm9zaXVmcy1J0gGcAUFVX3lxTE1CaE9OdjlhZW5GN000OC04OGZPMzczeTUwZ3FwaWdKeTFZZE56UThjZWFETG8tYWhaa3hZcVFNYjQ3UmxiZHY4M2hQTEVENGNEV3Q0Tl9VLVpDcDZZMXhVcTJCdHZOR0NDeHRTa0hmZ29GX0JJTUVkWnpIaVFKQVFIc0pYajI0eFJkZ2dDeEMxTlFzTWRHZU9iSlk0Zg?oc=5",
+          "published_at": "2026-11-07T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Lando Norris claims third straight Brazilian Grand Prix pole ahead of Kimi Antonelli - VAVEL.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T20:53:25+00:00",
+      "summary": "Lando Norris claims third straight Brazilian Grand Prix pole ahead of Kimi Antonelli VAVEL.com",
+      "claims": [
+        "Lando Norris claims third straight Brazilian Grand Prix pole ahead of Kimi Antonelli VAVEL.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcGwxSkZXbjJjUnBDSTJySmRWTmlkY2tSd0tpWUF2T0ZRY244bWQ4VWFEVUJidlB0TE5TdWY3SkdkZFFfTlE5ZWZxZ1dCT0lRS1JoYUYwelNUUTF0eUVVWXJhRThWdDhXd0R6YjFwRkRCRE16NUdrWFU5NlFiOG9IUW5ndjYteFh6ZU1NeWRTQklwR2RCc3NGRHZxNnE5YTgxVWZYcmNManlBR1d1QnJUZW1qYzN4TTZsMGQxNA?oc=5",
+          "published_at": "2026-11-07T20:53:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "In shift, OpenAI calls for US rules on powerful AI - VnExpress International",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-07T19:10:32+00:00",
+      "summary": "In shift, OpenAI calls for US rules on powerful AI VnExpress International",
+      "claims": [
+        "In shift, OpenAI calls for US rules on powerful AI VnExpress International"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMnlMdUtPNC1fempfZm5td192MV9YdzFkNkxIRklQelB5NWpyVVA5eERRMFJjbWZmT3A2bVNwN1Z4OHMxMGZRUHNfMHFjQ0VleEgwYXoyV3V1WnNhRVVxcmdoNXdvbU90NTVJWTd3OFU3V3RyQk1iTExFVzdDdmN3Q0RWa1RvR1FvZEk2RUcxQTV1REc4SlExR0dIVkFsdw?oc=5",
+          "published_at": "2026-11-07T19:10:32+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Martin Brundle tips Mercedes ‘love-in’ to end when Kimi Antonelli asks Toto Wolff for a pay rise - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T19:00:39+00:00",
+      "summary": "Martin Brundle tips Mercedes ‘love-in’ to end when Kimi Antonelli asks Toto Wolff for a pay rise F1 Oversteer",
+      "claims": [
+        "Martin Brundle tips Mercedes ‘love-in’ to end when Kimi Antonelli asks Toto Wolff for a pay rise F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdklPNUlfWnMzUlpVS1B4UXNudjRrc2xZQUNraXMtV0xjN2UtSkFNOFRvS2pPQm9SZG9ZdU9Ea2tqc3oycUpjbzMwanp2bjJvakZDZWRfS1gzZUVTX1dxMmZtN1ZMSWxwZ2o4M2Fhcy13bGRycVhHRkUxNy1aWlpfb2JUTHlUaExPVnFoOEZ0Q05BY2U3cVU0d0NIZzItaWVLMnMwek1HbWhQQ3BJZlVMMzBWUjdlX0s3RHhqSlowbldPTm42UjVB?oc=5",
+          "published_at": "2026-11-07T19:00:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Brazilian GP 2026 – Saturday Photos – Formula 1 Photos - Grandprix.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T22:33:16+00:00",
+      "summary": "Brazilian GP 2026 – Saturday Photos – Formula 1 Photos Grandprix.com",
+      "claims": [
+        "Brazilian GP 2026 – Saturday Photos – Formula 1 Photos Grandprix.com",
+        "Brazilian GP 2026 – Friday Photos – Formula 1 Photos Grandprix.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iMFVOcEUydjQ0cWk3aERsWVNKUlNSMFpQOVpvYjVzQWFBRE9mVzM5UEZjM3U0amFSX1JCdFE5dzdycEU1ZVk2V09LTXFUbWNFQko5cTB0RTNndUItQmxRMjdSQkZEQ3dnX2c?oc=5",
+          "published_at": "2026-11-07T22:33:16+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wUDEwQVNiTUx0MEtkT2dLMDNCNnFfb0hKelJOMmlXYzE2bGxlZFMwLVAxMzFPamthdGU2MEF4b3pZVWlsQ0g3c0ZpcXJLczBnQjFtUzRzZnA2aVhkbnRuRElnR204eUVVRnc?oc=5",
+          "published_at": "2026-11-07T02:26:17+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli survives Turn 5 scare to secure São Paulo GP front-row start - Grande Prêmio",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T22:00:00+00:00",
+      "summary": "Antonelli survives Turn 5 scare to secure São Paulo GP front-row start Grande Prêmio",
+      "claims": [
+        "Antonelli survives Turn 5 scare to secure São Paulo GP front-row start Grande Prêmio"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZUdXTGVwU0FmdW4xV0FpOUxfVXJLSktBU1E2aWRTMkpzMFZEMG9BeGRjZTFCdWJBbXhZT2lrbHFla3ZpUnhBdTI5R3JFZHY0TG1EV2RfaV9vZmRnQWFZMUFrVHVOTTUweEItb3l6SHRoRTFZYUVwMDFnZmQ1NFBra1pmbFNXeEQwRTgzajA3RUlhcG0wbVItb01OQk1hYjBvU2s2X2dNdmJMdndmTzhGdmRHMW16LVpZdnhfQm1WRFduSkMtWldkUDlFdw?oc=5",
+          "published_at": "2026-11-07T22:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Norris earns pole for Sao Paulo GP as grid shaken up by penalties for engine changes - Seattle Post-Intelligencer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T21:06:52+00:00",
+      "summary": "Norris earns pole for Sao Paulo GP as grid shaken up by penalties for engine changes Seattle Post-Intelligencer",
+      "claims": [
+        "Norris earns pole for Sao Paulo GP as grid shaken up by penalties for engine changes Seattle Post-Intelligencer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX1E3TXlVYlZhb2hHTXZJYXJzd1EtSGgxcURfb0dQbVB6UFoxZmNfMzVFZEFYTlpESXRDZWNKQm1xUmMxVXhXdm11WXdEN3BCbXpaRzZRLWlfYjlUN2pBVkVyNGJkYVAyWklJNW55amFhVi1kT0FSbFhYSzFiUmJvNEs4NEtnaW1iXzY1RHBncE5zeG1QeDY4?oc=5",
+          "published_at": "2026-11-07T21:06:52+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AWS leader urges task-fit AI as Korea adoption lags but opportunity grows - Chosunbiz",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-07T21:00:00+00:00",
+      "summary": "AWS leader urges task-fit AI as Korea adoption lags but opportunity grows Chosunbiz",
+      "claims": [
+        "AWS leader urges task-fit AI as Korea adoption lags but opportunity grows Chosunbiz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96UHJ0YzhwNmdLR3BxRjNUQ1hYaFlFSzdHOXd0aTh6WGZ5ZlBMVkE1WTJwM0tfaktGTXNaTkxOQjU0UWM0cUkxbndPSHBqWjhZdVdudWtxdlZLWmV3SHRFQWo2QlR5S2ZDNVBEVnZvQVVScXlfMjBvR2RB0gGOAUFVX3lxTE04SjFYZkN6WG56TjBvS2ZvOGR6NnNUQmc0U2xxdndTMEJoVENJQU5jRUpRYzdXaUl2UnRhYnM0SUtrNkpUVkNZenNlN0xEM1dTYVNzUk9FcW9oVGxyQ3oxamdkcnZjUzJ6NVJlRXhhZkF1R2t1RUttSU1WbXNIdkNfcUY4SEh6enh1R05tZ1E?oc=5",
+          "published_at": "2026-11-07T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "What To Look Forward to in the Remaining 2026 F1 Races After Kimi Antonelli's Championship Win - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T18:41:12+00:00",
+      "summary": "What To Look Forward to in the Remaining 2026 F1 Races After Kimi Antonelli's Championship Win Yahoo Sports",
+      "claims": [
+        "What To Look Forward to in the Remaining 2026 F1 Races After Kimi Antonelli's Championship Win Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaUZxcHB4T055UFpQc0s4WGxaZVlDVzhjOFRTeVdFLUZ3ZjAtSkwwYlNKcHpnOWxwUlpMdXBPZzdqU2lRcVFGXzAtaWtuR2lHa0d2cFo3ZnZEclFfUHpZVjY3NGJqU3ZYdU93c3NEeTBYSmNuaEtKUURWZnlmeXZpdnI3S0MwQQ?oc=5",
+          "published_at": "2026-11-07T18:41:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Piero Ferrari Wants Kimi Antonelli in Ferrari Red - SSBCrack",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T18:40:19+00:00",
+      "summary": "Piero Ferrari Wants Kimi Antonelli in Ferrari Red SSBCrack",
+      "claims": [
+        "Piero Ferrari Wants Kimi Antonelli in Ferrari Red SSBCrack"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdXpJZHF4SWtQeElWeDNTNDFsTkQ1SUlyUlQwTGZISXFGVlBGaTZsUkplNm1PRURTV3h2ZDJJZ1c0VVZOVG1fOUpWVXB1VGlzQ1kxNjFPbkc1eW1RMDlBZTJ5Z3hVOHNfNWg5aUFPS2t3ZllKN0xIUjhSZ2t6VDVjRm5B?oc=5",
+          "published_at": "2026-11-07T18:40:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Toto Wolff doesn’t think Kimi Antonelli “would have lasted in other teams” - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T18:35:37+00:00",
+      "summary": "Toto Wolff doesn’t think Kimi Antonelli “would have lasted in other teams” Motorsport.com",
+      "claims": [
+        "Toto Wolff doesn’t think Kimi Antonelli “would have lasted in other teams” Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVGM0R3FjTncwNmFuUHFHd0d2N045SjJHUlNfRG5sbHl0NWpmbUdpWU8xVm9mNUdlWXptZlZUYTVlUTVrbXFOaFRrazJ3Ukd4NXVWWlRnbk81QVdmazNlTG1RYzNlT2pvUTZoU21MZWxVSV9uWjNjTTJmeHYxUTJYd0huQkUyUUR2Nl9zQU40OXROOENRVDlPQ01tODFDc3hlT2U4S2x4N0pScVhWSW5odDdxTTFhWDlGUWsxWXJFVXpxVC0xM2Vz?oc=5",
+          "published_at": "2026-11-07T18:35:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli sets the tone at the Brazil GP of Formula 1 as Ferrari faces a challenging Friday - FormulaRapida.net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T18:27:19+00:00",
+      "summary": "Kimi Antonelli sets the tone at the Brazil GP of Formula 1 as Ferrari faces a challenging Friday FormulaRapida.net",
+      "claims": [
+        "Kimi Antonelli sets the tone at the Brazil GP of Formula 1 as Ferrari faces a challenging Friday FormulaRapida.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VbU5nelhqTlpSaTB5aC1PcC1HbE84WEc3Slc0LUx2alJfeFhPemV5WGYwNFozN3k4QUlUTi1aWjNoejZ1c3lEVDRydzQxR2VQYXd0czd4NjhyNFViSklwRnp1S01FMGd3cWMw0gFwQVVfeXFMTUVhcUZkbFpUYzBZSGVLaWpBcnZlY0lqTTNvVF9YQ18yNk9KeUR2a0NFb012NzZrOHJOQzRZY3RHUF90WXI1c3BXSTRSdnMtZkhZbUlacDltbmxlWlFlQUF2RWdDT3ZOVXVUOUVPNzhJaA?oc=5",
+          "published_at": "2026-11-07T18:27:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "The Artificial Intelligence (AI) Boom Is Far From Over. Here Are 4 Potential Long-Term Winners - The Globe and Mail",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-07T17:29:37+00:00",
+      "summary": "The Artificial Intelligence (AI) Boom Is Far From Over. Here Are 4 Potential Long-Term Winners The Globe and Mail",
+      "claims": [
+        "The Artificial Intelligence (AI) Boom Is Far From Over. Here Are 4 Potential Long-Term Winners The Globe and Mail"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNNWxYZmFQUHVWZ3ZJZVJDTkRFa0JlWFA2MEpiS3dsWVdDOHRQMTlIOHVGQ2U2NDZFUVVxdlUxSjNCeGVha0c3cGhPY3JWQ1dPYU05R2xTWERzTlFtWmhXY0pYMW1CalFUUkpwTEQ0MFdyYlNTdUJqM0dvTTFfN2M2eGV5NlZDMjdJWTJtbXZrZUJFTDdLY0ZHa0hPOWI1SDJaUlVQUkh6VTZ6ZjFlTExrTlVXVS1Xb1MwTUk4Vlo1Wll6T1B4eHVCQjlVTkdZcm5xR2k5c2swOTBSZENkeERfeG5BM3JnNU9ZS1NkYThVLThrdDZyUXQ4LTZyOUllZmlVQU8xSEZMQQ?oc=5",
+          "published_at": "2026-11-07T17:29:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli told the ‘naivety of it all’ gave him a ‘free hit’ to win the 2026 F1 title - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T17:15:00+00:00",
+      "summary": "Kimi Antonelli told the ‘naivety of it all’ gave him a ‘free hit’ to win the 2026 F1 title F1 Oversteer",
+      "claims": [
+        "Kimi Antonelli told the ‘naivety of it all’ gave him a ‘free hit’ to win the 2026 F1 title F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOFVuLVEtd1RpV2VyZEZxUG83OGpMMXhGVWhYdVR6VmxVclRNdTJNa2NUV2taR2xZVTR3Qk9Ga0VLQUFRQ3lwZVFWQXktNWhRRFRHRDJ1dkpzTGpjSm1EdUZNY05ma3dKTlYxZGJzc1VsdGlLMWtxdy1hdFc0SDBDcGMtSU5oM1RTZjFLQjZDNHcyeHRhVDNJWUhpaE5mUlBYX2RxWFpjc0daMkVPZHhhdE1oeFBwbVVncGN4Rg?oc=5",
+          "published_at": "2026-11-07T17:15:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Mercedes boss explains why 'no other team' would have taken a chance on Kimi Antonelli - SPORTbible",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-07T16:48:32+00:00",
+      "summary": "Mercedes boss explains why 'no other team' would have taken a chance on Kimi Antonelli SPORTbible",
+      "claims": [
+        "Mercedes boss explains why 'no other team' would have taken a chance on Kimi Antonelli SPORTbible"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUVSVG8ta2kxZzRoSFhjMzRtSHhEeVdUc2wyd01jNHZielZTWUtzNkFDS3FRWDlSSGJYSm43M2tnWk9mY3VrNWpJM3psUXNLRTYzSXQteWZSZFZTVExxNFpMWEwwbVlralZOTTB0dzJQblQ3YklSZ3I0TzRmYlJIS1RJZ0ZiN0VsRk0wNjFoOFU?oc=5",
+          "published_at": "2026-11-07T16:48:32+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
