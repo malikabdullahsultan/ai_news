@@ -1,0 +1,951 @@
+{
+  "report_date": "2026-11-09",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-08T22:58:16.275455+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 25
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 68
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 93,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Charles Leclerc penalised for Liam Lawson clash; Kimi Antonelli and Oliver Bearman also punished after F1 Brazilian GP - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:54:53+00:00",
+      "summary": "Charles Leclerc penalised for Liam Lawson clash; Kimi Antonelli and Oliver Bearman also punished after F1 Brazilian GP Motorsport.com",
+      "claims": [
+        "Charles Leclerc penalised for Liam Lawson clash; Kimi Antonelli and Oliver Bearman also punished after F1 Brazilian GP Motorsport.com",
+        "Kimi Antonelli and Charles Leclerc summoned to stewards after F1 Brazilian GP Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdklFbk53RlRsbXlCT3ZVRHVDSWY1cHFScXBRenI4WDEyNkstYTJkT0VKS0VZbm5KbUdWZFRSTzlSRUVYRVQ4VmlHblpLbmdjcUxvQkxLY1JRa052OU5jaGdJUHlNMFExaHJkMV9qZk40Rm55dWlTaFlqMGR0QkRQcGNweVRSdHdGWEo3MFdZRUtRdV8yNUNvOU1YVEM0THRnTEU4YTBYV1ZQMGp3TmZMaHJRc0lfeVpjdEZxQ1VIM3g3eFZ3LXA2eWhERVZTMTlUd2c2Ym1KbWo5bThW?oc=5",
+          "published_at": "2026-11-08T21:54:53+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMmVDNzZkN09zTEM3dUk5aWgtNjVpMDZFaGhuUU1ZLXJ4SzI5cnJZc0FNdnJjZGxrbGhwblFUODRIcENlMTk1TGVUWEE4YmFlYVFycS1IX3VILW5iREVwVWtSQ0xXczhhUWhzTnZXUFY4cmhyVlNma2ttUkF4U19qQUJlQmFqS2dZaG5rU2JFM0I2UFRQamIydUlmRm9hdDJFNEpqdTRLVVN0aV84YWJhejFLLUVXT1Y0STk4emU1WQ?oc=5",
+          "published_at": "2026-11-08T19:52:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli receives post-race F1 penalty after stewards’ Mercedes investigation - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:50:00+00:00",
+      "summary": "Kimi Antonelli receives post-race F1 penalty after stewards’ Mercedes investigation RacingNews365",
+      "claims": [
+        "Kimi Antonelli receives post-race F1 penalty after stewards’ Mercedes investigation RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbU4wWE5DX3RlUGlEemlwLTFlUk5rbW54R0o4LWhpcFY1dWFCOGk3NExMMzM4Z0RuUVpNOWk4RE5iVGg0dUZveDY3MkE4dFlaTjZ1NHJMX2pfaWRtVEZCQ1dEcDV2NHl1NnAyaG12OUxrRVdzOTFUazU2M3JVREVnTkdabGNlNVV6RHZmZng1c0VzaW5faUpwWjhrQnhfZ25oNDlLeTFpNnJFYTBy?oc=5",
+          "published_at": "2026-11-08T21:50:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli and Mercedes punished for unsafe release in messy Brazil GP - Crash.net",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:43:19+00:00",
+      "summary": "Kimi Antonelli and Mercedes punished for unsafe release in messy Brazil GP Crash.net",
+      "claims": [
+        "Kimi Antonelli and Mercedes punished for unsafe release in messy Brazil GP Crash.net"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZXN4U2dzU0htVXF3NmlUVkpBc1kzcmFkUHFablZSdEFVYVBDMEprYmtEYW9LSVVVQU5FaGNLSl9ZWkRUQnZmRVZnNkpQcXowYXB5elJrNTltTUwtOEU2RUdRTGNlUUgzUmxoaG83N3BtM1BhRFhoc21PZlY5LUs2X0hVbTB4blhvZkMtMGpPSWlNeW5rc2hyN2plZ3ZVb2djdGw2MzM5b2pGU0U?oc=5",
+          "published_at": "2026-11-08T21:43:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Formula 1 champion Kimi Antonelli: joy and frustration after the São Paulo Grand Prix - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:41:48+00:00",
+      "summary": "Formula 1 champion Kimi Antonelli: joy and frustration after the São Paulo Grand Prix SPEEDWEEK.com",
+      "claims": [
+        "Formula 1 champion Kimi Antonelli: joy and frustration after the São Paulo Grand Prix SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPazZiWGdRQWZMX3VvS1dBbkdVLWw4aTBuYlpLYmJEMzZIUHNuaTBIUzB6V0hkS3h5UnBUenV6dWJEQzd4RW1fY3IyTzBweUNhUm94YmhPS1RiY0ZXYUw5SnppNXNLVEM3a2RfcGJCUThRRXZUTG5HMWtsWEJSa2ZPekJXNmRfZ1hORnJoMA?oc=5",
+          "published_at": "2026-11-08T21:41:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Hana-Kimi Returns: New Drama & Stage Play for Manga's 30th Anniversary - MyDramaList News",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:33:45+00:00",
+      "summary": "Hana-Kimi Returns: New Drama & Stage Play for Manga's 30th Anniversary MyDramaList News",
+      "claims": [
+        "Hana-Kimi Returns: New Drama & Stage Play for Manga's 30th Anniversary MyDramaList News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTlNLenhlaHQ3NFNZZ0VER1d4NmNkSXlDMWt5dmZTc2VuYmZJNTV4dmZnUFJLb0hzbDRyQ1FfU0EtUTlJdzZvOEQyOGFrYjh0ZFYwanpDejFJdDZRUTNkb3YzaHhPQlJETi10X1ZqTVRDeXdQYTRWWEhrbjFKdURBSlhIRmxYbkNRQXhTTFlaVER5bmZx?oc=5",
+          "published_at": "2026-11-08T21:33:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "This one moment at 2026 Sao Paulo GP showed why Kimi Antonelli is champion - SPORTbible",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:04:46+00:00",
+      "summary": "This one moment at 2026 Sao Paulo GP showed why Kimi Antonelli is champion SPORTbible",
+      "claims": [
+        "This one moment at 2026 Sao Paulo GP showed why Kimi Antonelli is champion SPORTbible"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOE9XTGptU0lpMXlNc0hnNG9yNEdfSXQ5S0pnYmlBaDI0MURsVWhpZksycV81WW5qck1kQ2o0UjE3T2VTM2ZDMkJ3bzFYX2lyWm1LTEJjVkVLMWs1NTNabzRHVGM4aVhvTEh4bERJZ3RydVp5bUMxdmhwSnNIUzdHa2Znaml5N1ZyeEFfT2tsaVdiYURqX1ZSaVQ3SVdzejMyVkc5dUZfa1c4eG9FLVow?oc=5",
+          "published_at": "2026-11-08T21:04:46+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: \"Weird\" spin and car instability cost F1 Brazilian GP win - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T20:56:10+00:00",
+      "summary": "Kimi Antonelli: \"Weird\" spin and car instability cost F1 Brazilian GP win Motorsport.com",
+      "claims": [
+        "Kimi Antonelli: \"Weird\" spin and car instability cost F1 Brazilian GP win Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPek1kOUx6cHd5dDB1Mm5WWnhoRG92LXNYSDZDdFdHLU42UC1ZUEpLakRjVEZqZ2hxTjEyRmlHOXRZUFVUam5MNGtGeEp1SkFsZ2lfWFo0djgzdEdwdWZMTEZEOHBkeFIyV2ZhVXV5OFRydnJYeFB2UEFoeXdVeDJ4R3NHcVB5VFdRcHZKUjlTbUVKMGx6N0tuRnlQVFhrNzVpOTMxSmNIanl3M0thNjZBd085ZHRSUQ?oc=5",
+          "published_at": "2026-11-08T20:56:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "FIA confirms Kimi Antonelli punishment after Brazilian GP incident - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T20:47:22+00:00",
+      "summary": "FIA confirms Kimi Antonelli punishment after Brazilian GP incident PlanetF1",
+      "claims": [
+        "FIA confirms Kimi Antonelli punishment after Brazilian GP incident PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeWRicHZkNWN3UVZnU3BUTDJJN1EwcGNVV1llWnFJUjlYUkJDUkdIR1Q2WEdpNkFTZk56djBOYXFwT0doTHpncEVUZ0tjTmc1dXZLUTVrMU0wNFltTWU5TEVUaWxIRW85RkFpSlU3RmtwMzctRm5PeFpUWjQ2bEt0cng0VWhoNGZVdWdTREVsTQ?oc=5",
+          "published_at": "2026-11-08T20:47:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "‘They helped me achieve this dream’ – Antonelli ‘grateful’ for Mercedes glory amid Brazil frustration - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T22:53:00+00:00",
+      "summary": "‘They helped me achieve this dream’ – Antonelli ‘grateful’ for Mercedes glory amid Brazil frustration Formula 1",
+      "claims": [
+        "‘They helped me achieve this dream’ – Antonelli ‘grateful’ for Mercedes glory amid Brazil frustration Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNeVJmMHhxSEpZdjFrSUIwdGo2QTU1VDZYR1ZSZU5NMHRZX1ZCTHZVekpWcE9GNlZLZmEtRnVCZi15ampId0ViQkNfZVBfb1kzTnhEbmhURlAtN1BGOXdoYm5xZWZtTXZJR3JPR1J1c0h2SDctUnVVRFpJWlhWVENoR3VzSFdEczJ1Z2V3X2hsWWJYZUNUd1p0N1NjcDlzbE0zb0R0cWVCMDJkVjEtY2xMYzMwTzlPZEdKNmVQal9aVnBZN0tYVlBwRmFKWXUxNUhTalpyTDBWeWY3OXo0ZzBfbEoyN21xcUdsMDRlRFEzX3d0RzA?oc=5",
+          "published_at": "2026-11-08T22:53:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Hybrid AI Model Predicts Postoperative Lung Function from Preoperative CT Scans - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-08T22:25:35+00:00",
+      "summary": "Hybrid AI Model Predicts Postoperative Lung Function from Preoperative CT Scans Bioengineer.org",
+      "claims": [
+        "Hybrid AI Model Predicts Postoperative Lung Function from Preoperative CT Scans Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOckdZS2xrU0FDVnRPYjdsbmdBVml1dmVjZFVUcW16bEE2Y1E5UV9WZjhhMzRCa1lqZ3R0Uk50b1hyRmZQbGRDRVdJSHdnY3h4OTRBa05LeW5odmNNMFdDRjJrSVAxaTVCN1ZvM0w3N0dmVHpDVFl1bHdYdEVWRjdHNXFlQ1JsODZuaHNQSlFBMThESlhGd2hmY1dFUHY4eHdkUzlrS1dLUQ?oc=5",
+          "published_at": "2026-11-08T22:25:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "New F1 result in Brazil! 3 penalties after the chequered flag - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T22:08:06+00:00",
+      "summary": "New F1 result in Brazil! 3 penalties after the chequered flag SPEEDWEEK.com",
+      "claims": [
+        "New F1 result in Brazil! 3 penalties after the chequered flag SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbWpCZ0kyblltdHIzOVdJOE5leWp1V1oxR2pQS3ZvUFRIa0pLUnY2ZzdiWUd4QlN5SkdwSy1wTHdjR3JVM3JMTlpob0dDVXdEZXNVcElFSmd4T1dXZ3BSa2QtekxUNF9BS2hEUmhUWXgzeFhrOFFqQy1ybEJQV1pndFMxOVdadkp0Ny1qamVUQVdpdG1NMlhwbHpR?oc=5",
+          "published_at": "2026-11-08T22:08:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI Model Distinguishes SLE Immune Profiles from Healthy Controls - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-08T21:55:03+00:00",
+      "summary": "AI Model Distinguishes SLE Immune Profiles from Healthy Controls Bioengineer.org",
+      "claims": [
+        "AI Model Distinguishes SLE Immune Profiles from Healthy Controls Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONmUwSEFUNXdFOUN4N29iTVI2ejN0ZmVWamQ0STFwcFV6c0pZclBhdmMxd1Nna2RNTHpwc2U1REpXcnhHMXJlUmxHY0VLb0Yxalg2OFJzejBUOUdoZ29hYkpLSGZFWmRxSC1BdXlZbjZUUEdpLWJwblIyS3RoY25yRWR3d2VrZVlKSXNEelZNdi1sd2M?oc=5",
+          "published_at": "2026-11-08T21:55:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli lost control leaving his pit box and was given a five-second penalty at Interlagos - Grande Prêmio",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:45:00+00:00",
+      "summary": "Antonelli lost control leaving his pit box and was given a five-second penalty at Interlagos Grande Prêmio",
+      "claims": [
+        "Antonelli lost control leaving his pit box and was given a five-second penalty at Interlagos Grande Prêmio"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREp2b0JOOG9HWmpaVXU4TWhVa1djUm9rUGItN2kyQmpna0w4aDdxcEZaUE0wVDFCSnlCeWhlUHgyVzhvQ2Q4bE5PYkJWdVhhY29OOFkzLVZmbnQ5N3lMQW5fWUFSc2V2NXhhYl9iU1B5ZHlENV9EUGtmQnRGM1JrUl9qT3hNVDU0SmFnX0tlOEJCRHFyMl9TckYzY3hNbVd4QjFkbmdSUF9rRGw0WndF?oc=5",
+          "published_at": "2026-11-08T21:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Leclerc and Antonelli hit with post-race penalties in Brazil - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T21:38:00+00:00",
+      "summary": "Leclerc and Antonelli hit with post-race penalties in Brazil Formula 1",
+      "claims": [
+        "Leclerc and Antonelli hit with post-race penalties in Brazil Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRk9jRHd5anhSMHd3d3RhRkZvdmQ4N3VERzhNM1hBTFgtemhacUlEbzFrYWtGckxLUHlCZGI2UDJxLWliVnI1WWp0SXdsVnh6ZWpqVkRkOTV5Zm4xa2xKWXoxNmFkdGNOcmRhX1VsS1A4ZWkwdkRCQW9uYVc1YUI0Q2xKUEJvcU1XSUlGS0RKdl9NVV9VQjQ0VkxESkU0cVhkRVhsanZCd2hVNjBqQXZJRWtvN0dBV0pNMGs0eHhKQ2IweWRnYldHZ0M3QzBkZWdv?oc=5",
+          "published_at": "2026-11-08T21:38:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli under threat as FIA launches Brazilian GP investigation - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T20:31:05+00:00",
+      "summary": "Kimi Antonelli under threat as FIA launches Brazilian GP investigation PlanetF1",
+      "claims": [
+        "Kimi Antonelli under threat as FIA launches Brazilian GP investigation PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNjNiRmlmRWVRYmpQcEJoU1Z1UmtTZDE2elRfaVZkUG5VbVBmWkZrV2RYNGtFck1mVWp5Q1N1czBnTksyc1oyempxc0pxZF9YUWZVNjJFUW0tUmQ5Q1Zzbl9zOGxUa0JjYUtsUGpvOWZ4ME95RXJBWWU4ZTlVSGpROHlpTlR5c0Z6YlBlVHlUanNnMDJoU2c?oc=5",
+          "published_at": "2026-11-08T20:31:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek says its Harness agent app has 1.54 million daily users and plans a plugin marketplace - MLQ.ai",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T20:26:07+00:00",
+      "summary": "DeepSeek says its Harness agent app has 1.54 million daily users and plans a plugin marketplace MLQ.ai",
+      "claims": [
+        "DeepSeek says its Harness agent app has 1.54 million daily users and plans a plugin marketplace MLQ.ai"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ2FqemdXTDc2bUdVOVZnQ1VKWGJQS0daTHlyaWFBOUxtcEV6Vkx1TUxTZm1ZSTQ0QmoteWNsTWJZRzY5Vk40LTJzV0kzNjJQZlRDWi1hQUNKTDJiR0VJN0JVZlVlRlBkTTZXOEdtZE9SdmlZY2I4eDVvUlE3T1dxcGxQUmp3a2tHRHhjdWhhQXZaTWtyaGtiNENEOEphWHFjaDlHZ1paY0ltSnp6V0tnb1lTamwwZw?oc=5",
+          "published_at": "2026-11-08T20:26:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "How Mercedes can win 2026 F1 Constructors' Championship at Sao Paulo Grand Prix this Sunday with Kimi Antonelli and George Russell - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T20:17:13+00:00",
+      "summary": "How Mercedes can win 2026 F1 Constructors' Championship at Sao Paulo Grand Prix this Sunday with Kimi Antonelli and George Russell Sky Sports",
+      "claims": [
+        "How Mercedes can win 2026 F1 Constructors' Championship at Sao Paulo Grand Prix this Sunday with Kimi Antonelli and George Russell Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNYVJFcThVRFRWd0VrWEdlY3ZXZGVuT2Zob3JVbXJHWEZmY0hwT1F6SG96NHd3eV90SmxDTUNKUnItV01DWVUtcXNtUjZpbzhBZ0FSYTBETW5Gc2VCVGRNUEd2MHMtUy1NT3VTbzVMRGtQZ1JqSW5pXzVJcHRiVm5yalc4TUpIZUo5ZllXQ2lOZXRsdFRhZm9Ba3VXejdTQjE4RFhhbDJUX25IWlF4cmlPTS1BVE1qUkM4ZDRUQ2ZSY3hjOFR1NTNCRl95TlV5allZSVJyY0F4cGN4ckpjenVTc0NPY0dvcUt0bGZXckJVa2dPdlJQcUlqZkYySzQ0TGhLQ1E?oc=5",
+          "published_at": "2026-11-08T20:17:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "UK Watchdog: Chinese AI Denies Tiananmen Crackdown - Newsmax",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-08T20:11:00+00:00",
+      "summary": "UK Watchdog: Chinese AI Denies Tiananmen Crackdown Newsmax",
+      "claims": [
+        "UK Watchdog: Chinese AI Denies Tiananmen Crackdown Newsmax"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN2psOUs5VXVXa2htaTNCbHo2b0xuaGlsSXNocTRCMVcyVzIyU240RWFteHpRNUFZN0RETFd1QndFMlp1cVJKTHdDdHNoY1E2ZVU1Mk9lUm51RUtUa3dsak5VVTNoR09jSWpmcnMtTklYbGl1WXp0MkgxN3dsODdHM0o5cUlWX0MzcVpXUHl6cXRBbVdzSXp3c01haw?oc=5",
+          "published_at": "2026-11-08T20:11:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli faces FIA investigation after unsafe release at Brazilian GP - Dailyhunt",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T20:06:29+00:00",
+      "summary": "Kimi Antonelli faces FIA investigation after unsafe release at Brazilian GP Dailyhunt",
+      "claims": [
+        "Kimi Antonelli faces FIA investigation after unsafe release at Brazilian GP Dailyhunt"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRXg0RDVRRlVYblpmcFRsVkgzajVYVWJBakZnRFY2VjJza0gwdGtxSjJqVHVTX2RXcG5KSUpIUXNubE16cXE1SFhfbE42c1JuT0lxeVVmWDlxOHkxYW9qMzBrZVplU1l2SGNGcU16VHRuamJnX2w0NGlrQkYzbUk5UDNQQ1F5VHYxLUJsaUo4VWRNeS1McFotS1dxZnB2d1l6bk96RHVmMWc4Zms3QXhEcE9hS21EUTRUZWdyUmNOU0ZIQkgzVjhQOVU0WFBLbHhxamFNdHRCNXJBNDNLdkxfZ0dacVFVMnNkdmxrZFdCblVNWXlfQXNKWG03aUF3dw?oc=5",
+          "published_at": "2026-11-08T20:06:29+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek says agent app tops 1.5M daily users, plans plugin marketplace - Seeking Alpha",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T19:59:00+00:00",
+      "summary": "DeepSeek says agent app tops 1.5M daily users, plans plugin marketplace Seeking Alpha",
+      "claims": [
+        "DeepSeek says agent app tops 1.5M daily users, plans plugin marketplace Seeking Alpha"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbHZGa1dHcGFHX0FlUi1ndWtpMDRtazlrbU5kdDc0UnZZYXhPa3R3T0VQU3RCX19jdUFTSm9fVzBxRV9EanFaU1M5RHpsZ3ZPOUxkeDl1cGVDTzBzV0tUTVFoYnRQNU5XaVFNbHM4VGVwUVlhQzJoR1pkWGxXR193YTJNOS1nd1pwdTlmUjZkZ0EtMGFhTXdITUR1Yk5tU2g0UDlRcHI2NWhYSmM?oc=5",
+          "published_at": "2026-11-08T19:59:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli among F1 drivers summoned to stewards after Sao Paulo GP - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T19:36:00+00:00",
+      "summary": "Kimi Antonelli among F1 drivers summoned to stewards after Sao Paulo GP RacingNews365",
+      "claims": [
+        "Kimi Antonelli among F1 drivers summoned to stewards after Sao Paulo GP RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeF9HZVRhUlhaTXZsMW0ydDdVWDlnSmZKbW01c1Z3OVlTZDlsRURNYTdwVTJhaklGUEgtSkN4UFVTdk5haG8zS1h1TEs1dnhDZUhubV9wZU1aUU1US3E0WVZGc01PdXlMNlJabm5LTVdHRTF3Qk1famNkYzI1MUhWTjVqaURqVmtscW1EVW1sOERKUU9RRTRjaHhaRXNYZw?oc=5",
+          "published_at": "2026-11-08T19:36:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Tencent, DeepSeek, Qwen Staff Flag Risks of Open Weights - FourWeekMBA",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T19:33:50+00:00",
+      "summary": "Tencent, DeepSeek, Qwen Staff Flag Risks of Open Weights FourWeekMBA",
+      "claims": [
+        "Tencent, DeepSeek, Qwen Staff Flag Risks of Open Weights FourWeekMBA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORGNBbUZDRHlQUURTcmJPZW9PR2MtWEhRSWplUkRGUy01RG4tMGFHSGJ6MzhsSXlwY2FtcnhYVjJXazBEWWp0UlVjNnNjazlUaGpfY0d6TUtoMlRZbVlDVlBHUElrdmdNdUJEY3o2UU5qaWt1Q1Z6YWxPRkl1S1kwZ0ZRQVByZzdnNnc?oc=5",
+          "published_at": "2026-11-08T19:33:50+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli reacts to Mercedes winning the world constructors championship - Sky Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-08T19:31:21+00:00",
+      "summary": "Kimi Antonelli reacts to Mercedes winning the world constructors championship Sky Sports",
+      "claims": [
+        "Kimi Antonelli reacts to Mercedes winning the world constructors championship Sky Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSlBJMW5WRmRuUWs0eEI3ejBfdnVybDl5aktJU0QyeTZZVFBNTGRrUDlVOXljdHNwNUtEQkllVFVKc1BiNGRjemJXdXR4c3EwUjJ0UlQyOVYwWWo1UlBWaDUyeGlkcGswVms3STJ6Z0xvZFdjR3lGRFR3eFJ1anFnUXlrT1pwOWhtLUlSaWJkcUNuTVRRTUVCbXcxb3dtUQ?oc=5",
+          "published_at": "2026-11-08T19:31:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI Models Show Mixed Results in Pediatric Pectus Excavatum Education - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-08T19:23:40+00:00",
+      "summary": "AI Models Show Mixed Results in Pediatric Pectus Excavatum Education Bioengineer.org",
+      "claims": [
+        "AI Models Show Mixed Results in Pediatric Pectus Excavatum Education Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQlRoYWJnM3RjUE9Wejh3YlBET3pBajFkb3gwc1lXbERGRlFqeW5yUDJHUms4ZFRsYklXOHNIZDdfdWxHWjNDa0xuLWt1a3ktdUdxbWJlVmtoMjlHcTFZbGRhc1ZKMUdUanptaGZ1QUJ5dnFyWHJVTG9wcjNENFcwYTBLRldyV2FyRjdiMnR5cmRGUkxjQnBhaA?oc=5",
+          "published_at": "2026-11-08T19:23:40+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
