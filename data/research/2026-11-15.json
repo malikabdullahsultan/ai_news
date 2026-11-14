@@ -1,0 +1,938 @@
+{
+  "report_date": "2026-11-15",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-14T23:11:06.645370+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "error",
+      "error": "no element found: line 5446, column 3"
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 29
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 46
+    }
+  ],
+  "successful_source_count": 11,
+  "raw_item_count": 85,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-14T16:38:36+00:00",
+      "summary": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)...",
+      "claims": [
+        "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
+          "published_at": "2026-11-14T16:38:36+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-14T01:07:04+00:00",
+      "summary": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...",
+      "claims": [
+        "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+          "published_at": "2026-11-14T01:07:04+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-13T22:14:10+00:00",
+      "summary": "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general...",
+      "claims": [
+        "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/",
+          "published_at": "2026-11-13T22:14:10+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-13T21:17:30+00:00",
+      "summary": "Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The...",
+      "claims": [
+        "Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
+          "published_at": "2026-11-13T21:17:30+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Advancing science & engineering with Antigravity’s /teamwork",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-11-13T20:47:18+00:00",
+      "summary": "Education Innovation",
+      "claims": [
+        "Education Innovation"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "published_at": "2026-11-13T20:47:18+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-11-13T18:00:39+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "published_at": "2026-11-13T18:00:39+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-13T17:17:23+00:00",
+      "summary": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide...",
+      "claims": [
+        "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/",
+          "published_at": "2026-11-13T17:17:23+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "XYBench: Helping with the problem behind the question",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-11-13T17:02:35+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "published_at": "2026-11-13T17:02:35+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli Hints at a Day on Track with Jannik Sinner - Il Messaggero",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T22:16:19+00:00",
+      "summary": "Kimi Antonelli Hints at a Day on Track with Jannik Sinner Il Messaggero",
+      "claims": [
+        "Kimi Antonelli Hints at a Day on Track with Jannik Sinner Il Messaggero"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcmJ3YW84S3FKTnBVUnRTVU5aLVJkZlFKamhUblhkcGhEMW9QbTJmdVFYdlJZNzRWUVM0dHhpMU5aVjg1M1VBN2JIMnJiU01YZzhmY0VuUVRBeWlvMC1Fa2kxUnhvTUlKd2UzQWMtV2pkeWNfbk1QNnV2N1B1WkpmQUNNVlRQcjJlMklyLVg5X3RNaHRwSW05a1BwbVJxMC14cVlF0gGoAUFVX3lxTE1oMWFxQS1LendsTWQ4ZVNZTTBmOUJJVEpsTWVMY3ZhOEJ4eDllQTVBdG1wYmpRVmVsaVMxQ2hVVDJpRy1RUGJ1c0RUZmQtT2tVYUFHSmh2am5HTmxnUnRKQ0h3Unc5bUFwYzFhazQ0R19QRWJJbVFMOERTNVFNaktOZTRYWnBDNzhsTlFveWxldERCRk41X0hZdVVGN2tzM2xReFd3TnRpQQ?oc=5",
+          "published_at": "2026-11-14T22:16:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli: The Hunger Beyond Victory - Il Messaggero",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T22:16:16+00:00",
+      "summary": "Kimi Antonelli: The Hunger Beyond Victory Il Messaggero",
+      "claims": [
+        "Kimi Antonelli: The Hunger Beyond Victory Il Messaggero"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaDZBWThCb0pTMFJjUDFqYkRNc0l0R2JiN080YjR5QTlLWmptMXprUnd1UlI2Q0E2cFBmVXpkQ2FyZUlWWEx2YTFVWWFSeW1SekdENHp0SmRwWW5VLTVTVDRNUmN1Y2o0MG5kUmFvOE9kWW1rdVhocS0wZXlJelJNU1hid0QxSHlzOTNtUdIBkgFBVV95cUxOQUVBVUtScXpzU1lQX1lzRkcxZ0sta0dpbGF0MmRvODV3RXZHQmxvVFBQVF9JSzBtLXpwZXNjQ0FhcnVsVi1Cc28yMUREaU5mXzBjUDdyVC1iRy0yMGFwTnkzRENQQXBwbll2bnM5bXdFOExjQTlSYlJxWTV4dzA0OXNSYXVZMmV2dE5ONDlNQW1vUQ?oc=5",
+          "published_at": "2026-11-14T22:16:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-14T21:27:20+00:00",
+      "summary": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence Britannica",
+      "claims": [
+        "NVIDIA Corporation | History, GPUs, & Artificial Intelligence Britannica"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+          "published_at": "2026-11-14T21:27:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Does Ferrari still attract F1’s best drivers? Kimi Antonelli raises a difficult question - Scuderia Fans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T21:07:21+00:00",
+      "summary": "Does Ferrari still attract F1’s best drivers? Kimi Antonelli raises a difficult question Scuderia Fans",
+      "claims": [
+        "Does Ferrari still attract F1’s best drivers? Kimi Antonelli raises a difficult question Scuderia Fans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMlZWS2tDUXdINlZxV0VHR3hGbjQ0Y2hJNDFxMU9OZmU5Y3ltdUhSbVl1RzZnSDNUekdINGdnOHJiYXdMZlBiWmlwWXZ5Q2lDNmRSeTZ6d3hVRjJTM2FHeXU4UjdRVHRQcFhtZlhkY2EyRDFOdmc4b1Vya2djUVE5bzlBV3RQRkJmU0ZBbVlMMVhKVDg3MnpJeTBlSEZuVklKR0l0NldqMHlLYWNmaE9TZVRB?oc=5",
+          "published_at": "2026-11-14T21:07:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "John Langford Quits Microsoft as AI Frontiers Disbands in Clash Over Brute-Force Scaling - PaidFreeDroid",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-14T20:28:10+00:00",
+      "summary": "John Langford Quits Microsoft as AI Frontiers Disbands in Clash Over Brute-Force Scaling PaidFreeDroid",
+      "claims": [
+        "John Langford Quits Microsoft as AI Frontiers Disbands in Clash Over Brute-Force Scaling PaidFreeDroid"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeG5IWUpUUkV5MmtqcWsxcnpnS0dBbmo1MjVPOFpnamg0MGxCcHVqVXNJU2F1WnhlZ1ZGQ0JqS0R4eHJ1cGt2WHdBSW5FcVhOelB4N0VEb2NsRkc1ZnNYNmlrSTJtekFvd1BPTWhZTUVyeF9oOVZTVWprekdqTFM3cERUT296T3R6R0V5bjJjdnN2WXQ0U1NsSG9TeDBCYnhLaG53eFkxRdIBrAFBVV95cUxOTkNkTEVjR3AwZmhIMEJoZHVKU3JyamV6SklaN2t5SGw0Sk54Yk5HNk5VU3NDcEZ0bUJIWWE4VmgxbjJUajFVVWxCakVFMFJYeFlXTXJLX2hySHBKcHppbUJzRXY2MDhJcXlZbU92ZmI0SmtCNmlwRElwaXZQTnVQMUFqXzFfdGNzbDlFc2RvVXZ4dGFjU0RlZTdBMVRVWnBrZXJRWGxVUHNBeU1a?oc=5",
+          "published_at": "2026-11-14T20:28:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek Opens Its App Tools to API Developers - Howl.Link",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T20:04:41+00:00",
+      "summary": "DeepSeek Opens Its App Tools to API Developers Howl.Link",
+      "claims": [
+        "DeepSeek Opens Its App Tools to API Developers Howl.Link"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1WS1haYTZKRElsQlZrWjFwWUhacTBrMC15ekhabDlmQURxd3hQTFZseUdrcF9Wb3ozME5Z?oc=5",
+          "published_at": "2026-11-14T20:04:41+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "US Lab: China's DeepSeek and Kimi Trained on Nvidia's Most Advanced Chips - news.sbs.co.kr",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-14T19:57:24+00:00",
+      "summary": "US Lab: China's DeepSeek and Kimi Trained on Nvidia's Most Advanced Chips news.sbs.co.kr",
+      "claims": [
+        "US Lab: China's DeepSeek and Kimi Trained on Nvidia's Most Advanced Chips news.sbs.co.kr"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zN3FGczBKT21zRXluekJtN0ZhbmV0aXd2aTNUUGlxaThPZ3JNRks1azZrM3M3S2U3a0RmRko2SVNUaElOUGdrODBSM1FEVFBLczJRa0h5cFVDbGtuV2dWOVNXTXQ3WUZVaFV3RFV3?oc=5",
+          "published_at": "2026-11-14T19:57:24+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xLXZpM05xUG9WaUZpamNJTE01WmkzeUJ4TUZxWjV5S2tSeFFMYWZkNWJMS2s5RDZSYVYwM1pRV0hLLURpaGFyZEtQUWpCMWZfbE03U3laN2ZRT1BwQWV0REdtSVRwUQ?oc=5",
+          "published_at": "2026-11-14T19:57:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek opens chatbot search, file and voice features to developers - Business Upturn",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T18:38:24+00:00",
+      "summary": "DeepSeek opens chatbot search, file and voice features to developers Business Upturn",
+      "claims": [
+        "DeepSeek opens chatbot search, file and voice features to developers Business Upturn"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1JoTkJ6dHJja3NqY0VObVlHQTJ5aVZscGxnNENydHkwemM0U3NxaTlaUm1QR016cl9sVHBXRmFibklHbXUwVUdjelNjY3JZR3RpZThhWkVRR2w5X19EbDZKR1IyRkluWm42YVlHZlhPZGx5TF8xQUtab3JmaFhhRlB2RnZ6ZE0zQ1ZYZGZpOXZoVDZXSkFyVFdaYndtdGY3WG9aOUZUY0I2dw?oc=5",
+          "published_at": "2026-11-14T18:38:24+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "2026 São Paulo Grand Prix - Race Report: Team Crowned World Champions in Brazil - Mercedes-AMG PETRONAS F1 Team",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T21:44:08+00:00",
+      "summary": "2026 São Paulo Grand Prix - Race Report: Team Crowned World Champions in Brazil Mercedes-AMG PETRONAS F1 Team",
+      "claims": [
+        "2026 São Paulo Grand Prix - Race Report: Team Crowned World Champions in Brazil Mercedes-AMG PETRONAS F1 Team"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNWFGelhGazVhZnk3YnFsRTlXc1k3cDhXS0NwTlRjUUllMGdJbjVOenpkNDBuLVlzSFRKMTJHTHlYay11VlJqenZlb0QwUVZrTjJwM3RhT3JDTjZiMzNQQTkzZkhnUXRiRWxaWTFPZVRMUzBqcWFzSGRpUHo5Q2llbHVhX1FhZEttU3NkYWJkcGZBQQ?oc=5",
+          "published_at": "2026-11-14T21:44:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Badminton Tactical AI Models Overlook Player Fatigue and Real Match Adoption - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-14T21:10:13+00:00",
+      "summary": "Badminton Tactical AI Models Overlook Player Fatigue and Real Match Adoption Bioengineer.org",
+      "claims": [
+        "Badminton Tactical AI Models Overlook Player Fatigue and Real Match Adoption Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTURYNTI1Rk04eGxmTUJtNWwyZkNwN0txdnVVT3dqaDBlNXNnOFlWSlBPczI0Y1BQNzVsNnNpQ3RyMDhSakRidVZVWGhZODdtUG1XN1RnTHphZWtKVWJXVHgtdV92RlNrVXkwQ0psaGtNYllPV3BhN3FSbXVnNEF6LXBzM2pTeFFsRGluMjlrYVg2MWpLZE9QRWs0cTJTSUZxT0RF?oc=5",
+          "published_at": "2026-11-14T21:10:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Saudi Arabia ranks third globally in AI model development - Arab News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-14T19:57:16+00:00",
+      "summary": "Saudi Arabia ranks third globally in AI model development Arab News",
+      "claims": [
+        "Saudi Arabia ranks third globally in AI model development Arab News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVmlEWExFbFNnTDFQR0ZUODJCeUMtQmNnV205bkFvaGlkd1MzOUx1b1BfMVdILVUxYTA4akFVSDNSOEl4MGJZbUJhbTVjZ2Z2YnFBWDJkVnplOGZISEdXS0NRTVpIQ2FCNUhsN3VjUk9EMm1jVUFYZ3E5dEluamNPdlQ1X1ROdXNfeDdpWXJvNnBrMXZja2FTY2U0czdBUlBUT21TN0RR?oc=5",
+          "published_at": "2026-11-14T19:57:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AWS Trainium Gets SGLang: 17 Models, Kimi-K3 on 3 Nodes - FourWeekMBA",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T18:35:49+00:00",
+      "summary": "AWS Trainium Gets SGLang: 17 Models, Kimi-K3 on 3 Nodes FourWeekMBA",
+      "claims": [
+        "AWS Trainium Gets SGLang: 17 Models, Kimi-K3 on 3 Nodes FourWeekMBA"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2cxbm1oTW5EclR6Y2k4Y1RMeTREQTM2ZHRNaTVjMF9rRW5HdHo1bEFLUFc4VXJVTGlWdldWcEtTUW9VemVTRkJXZl91N01jd1JhNnNLcW5HaFoybHdNc2VabE9FbThOaklHZTdmemRGb3NsVVdJMDZaQ3ljSFYzbHYzM1dUYm5O?oc=5",
+          "published_at": "2026-11-14T18:35:49+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek V3 Architecture Rebuilt in 190 Lines of Pure JAX - news.lavx.hu",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T18:02:57+00:00",
+      "summary": "DeepSeek V3 Architecture Rebuilt in 190 Lines of Pure JAX news.lavx.hu",
+      "claims": [
+        "DeepSeek V3 Architecture Rebuilt in 190 Lines of Pure JAX news.lavx.hu"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY1NoZUNUeGl1UWtheFVUTl9XVDYxeWpUN0RtTVJPbFdJSE10NVBTVTFZNXFFdXdTaTRHbWVMYUY3UnNueER5emJzRVFOR0JQYVVYUUdaZFJBNWt1T1BaTkozYjktaklhSGFhLXVscmcycTF4dklXYm0tX3lJUGlRekpZaExfcmJRXzFoV1BYRQ?oc=5",
+          "published_at": "2026-11-14T18:02:57+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Inside F1's youth revolution: Kimi Antonelli becomes youngest-ever world champion - Deccan Herald",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T17:54:27+00:00",
+      "summary": "Inside F1's youth revolution: Kimi Antonelli becomes youngest-ever world champion Deccan Herald",
+      "claims": [
+        "Inside F1's youth revolution: Kimi Antonelli becomes youngest-ever world champion Deccan Herald"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVjFDN181OGxiUk9xRFFSTHhtU3JZWTZiTVVjNmxPVm1zajhVa1JrOVItTGEwZFNPcUdzSVd4ZExXSHl0aDdPcG82UUIwVnZzR0Z4S1NiM0lvOGR1NlF1eVRVUDRnZ1p6NGRHTjRoQm9LUzFIUmptY04wVGdzdV9DcDZmdWl3dmRtVW9hQmR2NU1tUzBzREppUjlnUFlFaUhpR2dmMjJhak5KRDFOY0hHbzNzTTZnTzM2TTdmTGJjZjJRZ1l3dFkwOHJWa1dlYzRN?oc=5",
+          "published_at": "2026-11-14T17:54:27+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Model schools turn to premium AI models to teach students better - The Times of India",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-14T17:34:00+00:00",
+      "summary": "Model schools turn to premium AI models to teach students better The Times of India",
+      "claims": [
+        "Model schools turn to premium AI models to teach students better The Times of India"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTUVSX01uVFVQaG9ZbW9oYjlNYjJFenpWUzd3TVJXT2xYaFZKLTVBcGktWEVYa3c2ZXNYMEU5aFZaUGMzZEdSSTdvYnZENVpEQ3BpUE9YcV9PMVJYT0RKbnVNSk0zTDVFMHhZZ05EcmhMSkFEak5YQlh4ckFObmhlWndFT01MWTVZNmIxa0Q0NTJFZWxaNldoQ0RhdVQ5TVFsNFU1U2NGb2R4ZGFFTWhHbjdEMUtJbUZzVHpabVFvU2VBOFJBTGhoRmpmNUNpZzR4b2NwRFdB0gHbAUFVX3lxTE5jRTl6MEowUktoaG15aW5vOGdRM1JnNS1MNEFzek5vRkxXNjYwSTVkbzZSalhuVDY2Tmx5OU53RVFGcXlTdWRtZU5Sc1QxZm42d1BHbFhoT0V6MDN6NFFiWkVSb011MVFwX05NZkpTazFGN3RwWXNTTy1wVmlmeGp4eEZhTWdCQkh2X3V2UDlYRkJxQjVXV2ktVmdOV1BBRjJBY1BUa2ZSUkEzV3d0WkMxWDBwWS1PYTRYNzBmR3JOOEpiUXlscFFZbklkYWtoTkM5T3ZqdFd1aGVaTQ?oc=5",
+          "published_at": "2026-11-14T17:34:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli Ups the Ante by Inviting Jannik Sinner for a GT3 Day Out Instead of Go-Kart - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-14T17:30:00+00:00",
+      "summary": "Kimi Antonelli Ups the Ante by Inviting Jannik Sinner for a GT3 Day Out Instead of Go-Kart Yahoo Sports",
+      "claims": [
+        "Kimi Antonelli Ups the Ante by Inviting Jannik Sinner for a GT3 Day Out Instead of Go-Kart Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaGJuQUdFdERoMmE4RkJXSHlVSFNhbmo0U1dFcmk4REtZRWUxMzNHdEh3WnlHUVlOdlJBNl80aW5MMnRUUndQTkFaUFdvUHctemQ5LVFnMm9QdnAxU1E1bllqTkw0dmo2YWtoeUFSN1d3NndJMk8tSWlyZndDZVIzTV90b3VHYmY2?oc=5",
+          "published_at": "2026-11-14T17:30:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
