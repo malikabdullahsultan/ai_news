@@ -1,0 +1,932 @@
+{
+  "report_date": "2026-11-16",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-15T23:25:49.845844+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 26
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 37
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 66,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-15T22:00:01+00:00",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "claims": [
+        "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "published_at": "2026-11-15T22:00:01+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Our new blog for science",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-15T22:00:00+00:00",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "claims": [
+        "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/our-new-blog-for-science",
+          "published_at": "2026-11-15T22:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-14T16:38:36+00:00",
+      "summary": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)...",
+      "claims": [
+        "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
+          "published_at": "2026-11-14T16:38:36+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli names biggest threat to 2027 title defence as he warns Mercedes advantage may fade - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T22:26:14+00:00",
+      "summary": "Kimi Antonelli names biggest threat to 2027 title defence as he warns Mercedes advantage may fade Motorsport.com",
+      "claims": [
+        "Kimi Antonelli names biggest threat to 2027 title defence as he warns Mercedes advantage may fade Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSXBFTG1HVzd5YVRNV3ZWWVNrX0RfMmJVWmdSdjJWSWozeVd3cUVWZWpXZ3V2V1hCcDd4OE5reWJKVGFpQmpuWl9lYzE3dVJ2TEtNejRuWllfM0dIZ1Qzd29TNFRZdDhUS0VnTGFVS2hnZVNFQnBSc0hlM1dZSEgtTnROMzZHaUlQVHVtWHlUTnZ6X0pIRFptMTVLTzNkWXIzSmRpQzhWXzN3Nkk5dHoydWYtV2doZ0g5ZE1rWEd3Y0xMdDRYbGxKQkRQalV3eUJ1dzF3MS1PLUJ2UQ?oc=5",
+          "published_at": "2026-11-15T22:26:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Identifies Max Verstappen as Biggest Rival for 2027 F1 Season - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T21:00:39+00:00",
+      "summary": "Kimi Antonelli Identifies Max Verstappen as Biggest Rival for 2027 F1 Season Yahoo Sports",
+      "claims": [
+        "Kimi Antonelli Identifies Max Verstappen as Biggest Rival for 2027 F1 Season Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaHFVcVBCRy1teU4xXzJFM3VnS05OR1R2XzM2bEhJQUtUQTdTUXBueHNIam54aHc5UlZtdjAxYVdnMjVhcVk4NDF5TmxESTRwNGZzUHlGYWM2YWJQQWxyT2I0bUZ0WGJiZ1lockZaRVN5eDRoNnl2WTZDdmZUcS16WUtTSVJHUkdBMDQ2V1VkLTRia1k?oc=5",
+          "published_at": "2026-11-15T21:00:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Wolff rules out Antonelli joining Ferrari, why Kimi is staying with Mercedes - F1ingenerale",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T18:30:32+00:00",
+      "summary": "Wolff rules out Antonelli joining Ferrari, why Kimi is staying with Mercedes F1ingenerale",
+      "claims": [
+        "Wolff rules out Antonelli joining Ferrari, why Kimi is staying with Mercedes F1ingenerale"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX3gyaUNaX3pjcTJwRzB4RHM1SjgwcFFDR3BMTkRPVXZ4MS1rSkE5UmV4aEZEYkwwbkRCWF92Tzh4T0hJM2ZNMnVUT1VSaDZtT0NVeUJybi1NcmlUcjl6V01oOVF1Yjk5WWFsQlFxU1h5TzdQeEUwQlFfMDlRWG1sYUFJU25yaVZsTnBfYzZyd3FYbGg3NGRqQjBucEtCMlU1UUxma2piV2JxUmM?oc=5",
+          "published_at": "2026-11-15T18:30:32+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli | Formula One, Mercedes, 2026 Drivers’ Championship, Grand Prix, Karting, & Facts - Britannica",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T18:29:43+00:00",
+      "summary": "Kimi Antonelli | Formula One, Mercedes, 2026 Drivers’ Championship, Grand Prix, Karting, & Facts Britannica",
+      "claims": [
+        "Kimi Antonelli | Formula One, Mercedes, 2026 Drivers’ Championship, Grand Prix, Karting, & Facts Britannica"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TVDVhU0E0X25MM1d0THJXc0ZONDQ1ZnJEVmZPaW5ySjB6OGQ5YmFuWTlvZ2FKU1JyWkZsVU5KNTlaOFhVaFZNaGZKUFBnZVpZVmRWcXdYMDN5SHZOX0VaWA?oc=5",
+          "published_at": "2026-11-15T18:29:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Anthropic is reportedly rapidly accelerating AI development amid slowdown calls - Scripps News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-15T18:13:00+00:00",
+      "summary": "Anthropic is reportedly rapidly accelerating AI development amid slowdown calls Scripps News",
+      "claims": [
+        "Anthropic is reportedly rapidly accelerating AI development amid slowdown calls Scripps News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVjlRTHp6M3RIS2pfRGx4SDRxcE9WVE12SExpMkhqNnVnMTVJcmo3UEpIZDlncTIyYUN2TzFoNTVSOGE4djJNVkVXYmZMcnhsNEpRZVlHd2lWYXNCZ1k1Nm15VXhCU2JzRFFRME8tamZQeVl1emt6UzhuVzRPc3pYUFVJY1g3LV9yS1FaNUk5R0RlSlBBV0lzNmQ5YWdkMVNsVEdBRzNDOWFXUHhtQlRLbmM1emVzQ2VPQzN1VG55TGVZYU56a2ZOcmhKQnBjM0VOYVY0b09IT0NoTU1yT3ktZzVR?oc=5",
+          "published_at": "2026-11-15T18:13:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek opens its search, voice and OCR APIs for modular workflows - Foro3D",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T17:29:18+00:00",
+      "summary": "DeepSeek opens its search, voice and OCR APIs for modular workflows Foro3D",
+      "claims": [
+        "DeepSeek opens its search, voice and OCR APIs for modular workflows Foro3D"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTmJyRHF1SEZ4eHRJdjV5WXlHWmhxeVVkdEdlTzgxNzN2X0dzYjZMd0oxSUtxQ1J1dzJBR29oTEM0aUF4YXJpNFFXWUhDNkIwdTRUOFVETEVHNWd5Z1RZUXlfU2xXeE5ad2N3OElfY2x2MUxnSG5kSnF5R1cxVEdWLTc1OC1mS3JsQk1vRVBiM2dKaFI5M3QtanZRVVlYcUhhS1VBTlNJc2l6eUdG?oc=5",
+          "published_at": "2026-11-15T17:29:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 News: Toto Wolff makes stunning Kimi Antonelli claim that will shock Ferrari - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T16:59:00+00:00",
+      "summary": "F1 News: Toto Wolff makes stunning Kimi Antonelli claim that will shock Ferrari GPFans",
+      "claims": [
+        "F1 News: Toto Wolff makes stunning Kimi Antonelli claim that will shock Ferrari GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaUZXcW1nUmdjdTRKUEVPWTVmaUpYTDdGbEFGQ2YwcHVJZmxuVGhZNGk4Y0IwQWJjU2l1NU1GcmdEbjZUek9QUEhFckRaNVFnemFsYmFFOWVRRzNSOTFkMXpmT19ZUGJMM2lVSERrY2xGempsZndVSm1TRVN6a05SbUZIZWhaejZpN05Zd1prUXI5TlNUajBDcGFUbmh3dm1zbWFhY0ZCZ0VYT2c?oc=5",
+          "published_at": "2026-11-15T16:59:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli breaks records as signed F1 card sells for nearly $900,000 - GPblog",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T16:45:30+00:00",
+      "summary": "Kimi Antonelli breaks records as signed F1 card sells for nearly $900,000 GPblog",
+      "claims": [
+        "Kimi Antonelli breaks records as signed F1 card sells for nearly $900,000 GPblog"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcUlXaDJRc0Y3SkIzNG0xcXFZb2Z6SmFwMGJpNFlUU2xCVnV5TDdoUlFvOWVaRVpMZmJiVkkxdG0yUGloTU1DNXdrOE5wbUwyWFFLejdEMHhCOUFwYjJpYU9Lb05fSkdMY0ZiV1REZ2JtLW9iRThMOWtBclBwcmJMclBuZ1VNRnJyTU8tbFZjN2tRTFZOTnN6cmprOA?oc=5",
+          "published_at": "2026-11-15T16:45:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "5 storylines to watch at F1 Las Vegas Grand Prix: Antonelli looks for 10th win - Las Vegas Review-Journal",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T22:31:22+00:00",
+      "summary": "5 storylines to watch at F1 Las Vegas Grand Prix: Antonelli looks for 10th win Las Vegas Review-Journal",
+      "claims": [
+        "5 storylines to watch at F1 Las Vegas Grand Prix: Antonelli looks for 10th win Las Vegas Review-Journal"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxNa3U4dVdNUFJVQU83YjRiYW5TZ1BxY2E5MVdIZGF6UU84U3F0UFpreUpKaEozdzh6bkdrZU9yTUdQZlZrd3FsLTVqeU5jZHJKZ1h4U0hSR1BtQWV0Wk50a2hPUngxM09lTVVBbS1uSmFQZVJBV1pTeGFzZUxZZEZUZkVoXzVyampfMEhUMU1NMks0dlR3VVBRR0xzQ295RWlheWdhVkJhZ0RDbzdiTmd2SkM2LXhPcUltSEhRMVI3UXQ3aHd0RnBaRUUtNF8tOWpBakxwYVFhUnE2ZVlUbUpRTFM3S0lPcVVYRnZTMVZFelo5cHZJa0hyVnRhT3l6NXVwZmVqWnQ2eE4weW1JdDRnZlZ3NmpTZGQ5bjB1THM0WEx4bDdLbGt5MjlBS3R1T1hFSUpiT1hNM09xbTdueWlFTXdJMm1sZGlKbjVRMk9yWlJ5ZHhGYTUwTDgycTlFaXRvRmJrOVplVDRrVVA2MUVDbDdleEQ3NHhTNmZ4QS1IcUZ1U1Y4RE9DQjZ0aWFXQU9FNHl6bm1XYVhRZThvQTJiejh5MkNvSXVXM20wZzdORTY0d2lwN3RVTWxNX0NuSVVZZEhUTzF6UlRWRmNWU2lwag?oc=5",
+          "published_at": "2026-11-15T22:31:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "‘Lewis is leaving, it could be you’: How Antonelli found out about Mercedes F1 promotion - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T19:45:00+00:00",
+      "summary": "‘Lewis is leaving, it could be you’: How Antonelli found out about Mercedes F1 promotion GPFans",
+      "claims": [
+        "‘Lewis is leaving, it could be you’: How Antonelli found out about Mercedes F1 promotion GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZnp1ODFiSWR0ODVLX1hkMGpWc3BZaWRxb0hReE5qWVNoN2lTWVBwMVpack9vSzQtWC12eWh4Q0tqNE1uaGQ5MHJFc0UtbkpLN2JRZ1N5ZkM1N0pldG14UWFZTXh3NEc3MjFVRHVudTV0eTNDQlFkZDBzY2JFdUltR3FyZTJUcXc3Z1hkRGdkZ3hCblR4dWpNRWx4ajBNeEtWd3l3N2ZjR2JGNXJvSFNHYmhB?oc=5",
+          "published_at": "2026-11-15T19:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Deep learning-based prediction of mechanical stress in 3D-printed conductive PLA composites - Springer Nature Link",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-15T18:54:38+00:00",
+      "summary": "Deep learning-based prediction of mechanical stress in 3D-printed conductive PLA composites Springer Nature Link",
+      "claims": [
+        "Deep learning-based prediction of mechanical stress in 3D-printed conductive PLA composites Springer Nature Link"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40czRHc0ViS2FUdGJwNGVnRzM0Q2hvSlBxMU1DWGRmUGtRVno5U3ViNlBxWEUySHNJU2dqeGNteHJlNi1BdE05Rk42WlFQSTR0ZU9jUkZkZmhpb1BjUWtVSWpNWDQ3NTh4TmtjTA?oc=5",
+          "published_at": "2026-11-15T18:54:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "George Russell has 15 months to avoid following Daniel Ricciardo's fate - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T18:45:31+00:00",
+      "summary": "George Russell has 15 months to avoid following Daniel Ricciardo's fate PlanetF1",
+      "claims": [
+        "George Russell has 15 months to avoid following Daniel Ricciardo's fate PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORjBPbWxqbm9ITEtndkt5NWhtM3RDZ0R4UmxNYlVtX1pjU19YcExKLWhIdjgxYVhCUl8weTBrYU9UUk9SM0RhQ1NLS1JVUW5Ic3lkd09faDJEdUZQYVFfRnJBam5OY3ZnTVhfdTJWeGo4b2NJM0ZBOF9vMjk4b05OLUdrTkM3aEYtX2dYZDN5cnhydw?oc=5",
+          "published_at": "2026-11-15T18:45:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Researcher builds Odisha’s homegrown AI model suite from scratch - The Times of India",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-15T17:55:00+00:00",
+      "summary": "Researcher builds Odisha’s homegrown AI model suite from scratch The Times of India",
+      "claims": [
+        "Researcher builds Odisha’s homegrown AI model suite from scratch The Times of India"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbElQMlZTSWpGZW1TS1Bzb2hNYXA1bTJtdUE3VWFTSDJyanFhRV8tZ3dncXlpb1JmZENHMzE3NjVxWTJBemZISWdVYnF5Nzh1X2R3STYxZWpuc2RzSGFsVWVlbzZoXzVIRmxlbkowbEFFaXBEaVZWdGxFbGZDandaQ2ZUc1NYTXdrdGVsdnR1Y1JicHBGbE12Q09tWVMtRkFLSV84SDlVMHRrQUNuc0ZmMi05M2duODJmRlhGeFBEd2NaZ0FycUplSWJiZmYweDZycHBlSllnR2NGd9IB3wFBVV95cUxPUDJrT19vNS1NTkZJc2haQWVONVVQUktsOEtOSW1PWVFtazhRS0prRnFuSTgtTWd3Q2NNRWtSTHpQN1otTFZ3ZFAwR1VwZTNhOWdpNXFrRWtCT0xPRzdpd1R4cEw0V19mWEpLMVYtYTdBZmxqRzdHWjhYMWpyR2J3X2Z2b0RrdFRTVGU1dXlWdS1lZ0ZLU053b1d3eXRyMGtabU8tOVhHM3ZXWHpOQVBUeWRMUExXOEdJZHZwRjdyMUdTTkNCUDRQbGFob3VySk9DNHdjRzh3aGg5LTVrR3NJ?oc=5",
+          "published_at": "2026-11-15T17:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI is set to change the graduate job market. Here’s how unis can respond - The Conversation",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-15T17:25:31+00:00",
+      "summary": "AI is set to change the graduate job market. Here’s how unis can respond The Conversation",
+      "claims": [
+        "AI is set to change the graduate job market. Here’s how unis can respond The Conversation"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWkw0S3hGM1laTlJlSHlpTmVGSDVObFFidFBfaDBYSzVkWS16dnZzNlROdDRzV2RLZlBldE85NEtVVU9rbG02TDQtZU9sWTY0WXIyRVRCT2ZIazhCOVhyUFVwRjc1YWlrSW1EeS0tQTVFWjFYczk3dXNzbWpkR0loaGVuU3lBbDJMeTc0Uk9xUGt3ME92XzU3UkVtYUVRNjVEZFdSeU5rb3U?oc=5",
+          "published_at": "2026-11-15T17:25:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "'One of the best experiences of my life' – Mark Sutton on photographing Antonelli's F1 title - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T17:06:00+00:00",
+      "summary": "'One of the best experiences of my life' – Mark Sutton on photographing Antonelli's F1 title Formula 1",
+      "claims": [
+        "'One of the best experiences of my life' – Mark Sutton on photographing Antonelli's F1 title Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNM1RYd3hJSE4xVWg3LUtjby1XbTlTTmliUnJ5RFZwR29GLU92TEVCMjgtWEVEaGZnT0xmbEEySE9ENzV2V2lpZWo0UlNuQkg2bnhhd0IzQ2taTGJ5b2k2UzdlSUlBbndRMHprQk9rVVV6ZGExTTRkVDB0N2pjZlhCWjhXcXY3d2x0aHA3ZXRlUFZheHpDUmVzLUZtV3BVb2pmV3Axc0h4RUowSHVBM3gyTkdFM1Ywek01MmhOVUZHdm8xZEF6MUZfUHFVTm1zTWdEX2hHbF9PRTBuTnZKVU1tRkhMdklLbzNM?oc=5",
+          "published_at": "2026-11-15T17:06:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "With new Democratic Congress incoming, Pritzker calls for federal AI regulations - Chronicle Media",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-15T16:41:52+00:00",
+      "summary": "With new Democratic Congress incoming, Pritzker calls for federal AI regulations Chronicle Media",
+      "claims": [
+        "With new Democratic Congress incoming, Pritzker calls for federal AI regulations Chronicle Media"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQnJnS3o0SUVvTW9GdzY0bzhudEE0eGVaeVh4ZzczcnFZRi1nTTJHeDNzcXNjZjRZVHFlaUVkaTNvOVl0SHpsc053bEdoM09XUmhaeW43UlVQZ0JSTjhfMFJTM0l4OVFlTWFqUE1MOWxVcmU3ekFFRkZqYlpTX2ppVFhMOEY1c0I2WUFpRmdYNFl1d0xYZXBkTzVmUjluR3A5WElyMko3Ui1TYkVoV2pBWmhxeW9DbzhCS3hZNWh5RUswTjNLYl82TG03Z1k?oc=5",
+          "published_at": "2026-11-15T16:41:52+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 8 - Security Affairs",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-15T16:19:02+00:00",
+      "summary": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 8 Security Affairs",
+      "claims": [
+        "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 8 Security Affairs"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZG1pRzhORzZoRWVaQlhsYUVuRzA1ZjlVaXgyRWZiMFlyX0tIVU9rUEJ2TW5pNXJTMXNQaS1VNzdqTUdsRXM3VkI3VTdpa2w3RV9KdWZSeXlyQTBVWXZtTEIwcE90QU04OXN3MHJDWjNoY1BNbElpdVBvTzFnN0tIc2FJRXZvQk0xYXNDZ0I4MUJtSUZfcjY5Y2dYRdIBoAFBVV95cUxOUXNyMGZXR1dPbVhuakJ3MU5aekY1ZjdiSGFXaEdqY1ROSlhnU3QtYkU5YzhVdmlObzNvd19BM2Y1WGFUWWFyZ2pLSkZZUTc2OGt5UVBtVVV2WGRtUG5aQzZjanh3TndDVlY0UzRBZDJTZ2pOZkgyMkV6WVhmSm9yUWpwNGtlbktscGNTUnlIZUJtRGgyYk9HZHdFcnBmbnJ2?oc=5",
+          "published_at": "2026-11-15T16:19:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli continues F1 title celebrations with special presidential meeting - Motorsport Week",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T16:02:31+00:00",
+      "summary": "Kimi Antonelli continues F1 title celebrations with special presidential meeting Motorsport Week",
+      "claims": [
+        "Kimi Antonelli continues F1 title celebrations with special presidential meeting Motorsport Week"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTVhNX0NSaGp4cFQ4TVlyQ0p4OGQwMTIwMW9ScC1idmc4eGxLaVJmZnZOUl92WEZRRWdINmRGbU1XS2ZkY0VXcGdXRGpyRDBDejdyYjFrOEhyaERqM3VFZFlVWGd0bGd2ZzctUHdEUFNFNmhTUFQ4T1FVcjE0UUR2dg?oc=5",
+          "published_at": "2026-11-15T16:02:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Why ‘physical AI’ marks the next frontier in industrial applications - The Indian Express",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-15T14:58:00+00:00",
+      "summary": "Why ‘physical AI’ marks the next frontier in industrial applications The Indian Express",
+      "claims": [
+        "Why ‘physical AI’ marks the next frontier in industrial applications The Indian Express"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMm1FOWdyNlU5QTlNaUhaNlRpck1nNklLTUZWSFdjU1g0SWxZNEFFdDA4dWpHdTFEM3pNTEoyd2VKWjFkZjV3SVZ2T1VGODViU3BYQlR2cHJ3bTlfNkJaMEgxSS13WlJZVldpcnRoMFlZNUFEWU40YTZoQUp0UjRqaVdiLUMxcDNhWmdMT3N0ckE2dU9rQjY0SGdkWXVhNWZqcnVRejNMX0pYZkZwcVIxdzB4VFd6WHpkejNNRXpBeFlyZ2VJS1dN0gHOAUFVX3lxTE42YWw5UUdabnp2LWJpNFFLRVJidkxvVnVuS0R3MkxJMkczdnZmM0JZeUJBT0VVcG0zRTU5RERISzhrMHIyRVV6WTRjTnhtb2hZRWxjWXR4U1drbzRLNTVIQ21yYWd4QVFaZGVla3FRTG4wWHJZQnBjZGp2cE5rRWgtd053Y2lKVUlFeVFEdHR2LXV3QXJlRkNtYUl2T0h3b0EzWjItTWNlRVJkdGFxdnc5OHExblBoU3c5Vl9DaXM3LTJFRjBPR1ZSTTN0WFlB?oc=5",
+          "published_at": "2026-11-15T14:58:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Mercedes explains how Russell made Kimi Antonelli’s F1 success possible - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T14:55:00+00:00",
+      "summary": "Mercedes explains how Russell made Kimi Antonelli’s F1 success possible PlanetF1",
+      "claims": [
+        "Mercedes explains how Russell made Kimi Antonelli’s F1 success possible PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYXJzaVhrV0IxbkRUSkZUWGFjaHFoMHJxeE9zM09SbVhMZ0FkWi1qa1ZFRjIxM2ZDTWwzeTlJZEc0WndIRHJmY1Z1UUQwLUwtQ05hVVIybG9rN0xaVXVKbWFlby02WkRoYXdhNXN4dk10Q19xQ0o4cEd4ekJGMDgwaDl5T2RHSWU1dWtFYw?oc=5",
+          "published_at": "2026-11-15T14:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Ferrari rejected Kimi Antonelli: Luca di Montezemolo reveals why Maurizio Arrivabene said no - Scuderia Fans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-15T14:52:56+00:00",
+      "summary": "Ferrari rejected Kimi Antonelli: Luca di Montezemolo reveals why Maurizio Arrivabene said no Scuderia Fans",
+      "claims": [
+        "Ferrari rejected Kimi Antonelli: Luca di Montezemolo reveals why Maurizio Arrivabene said no Scuderia Fans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU2dTTEVFZlVSWGNiemxNdkd6RmdxeDVtMWR4aWVVNlJLUFhaUEl3Q0NOLVkzcHI3OHU1M1hQVGh3ODB3dmFuTTBBWkU0RFBoNFpFUU9vc2RBbGJuVkN0WkVfSi1DVDA0cjd1M3NnaE1pMU96WHZzWHJ2a3d2M0hWd1Fhb2pYa0ZJRzFYaE1SZC1HVVVFUXRhbnB6NkVvQU1TRFliRC1QNm5Rb1JqWEpwNHVJeXVzOVBk?oc=5",
+          "published_at": "2026-11-15T14:52:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
