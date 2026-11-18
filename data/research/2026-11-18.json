@@ -1,0 +1,931 @@
+{
+  "report_date": "2026-11-18",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-18T01:42:53.613868+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 33
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 64
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 111,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-17T17:45:00+00:00",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "claims": [
+        "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "published_at": "2026-11-17T17:45:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Put Gemini to work for you",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "published_at": "2026-11-17T17:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Introducing ChatGPT for Sales",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "claims": [
+        "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "published_at": "2026-11-17T08:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-17T00:45:30+00:00",
+      "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,...",
+      "claims": [
+        "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+          "published_at": "2026-11-17T00:45:30+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "claims": [
+        "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "published_at": "2026-11-17T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Astra for Law leads in legal intelligence",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "claims": [
+        "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/astra-law-6-2",
+          "published_at": "2026-11-17T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Introducing OpenAI for Chile",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "claims": [
+        "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "published_at": "2026-11-17T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "NVIDIA Vera Rubin NVL72 Achieves up to 2x Blackwell Ultra Performance in MLPerf Training v6.1",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-16T21:27:31+00:00",
+      "summary": "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf...",
+      "claims": [
+        "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/",
+          "published_at": "2026-11-16T21:27:31+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Toto Wolff reveals heartwarming memory of a teenage Kimi Antonelli living at his house - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-18T01:02:26+00:00",
+      "summary": "Toto Wolff reveals heartwarming memory of a teenage Kimi Antonelli living at his house Motorsport.com",
+      "claims": [
+        "Toto Wolff reveals heartwarming memory of a teenage Kimi Antonelli living at his house Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdlY4YkVIUFVMQ0JwN1BBY3hwWGQ2dTNhZ2xoUmpRSC05ZHAxeW1ack5pb2lOR3lIcFZTVVNBQW85QThLaGtBRGVFckZ4alppOUhXZy1XS2dhdktxdC0xb0UtS2dsUXY3TGlNcG5oYkZPQ0Y1TEtZaEZXa3IzRDFBOWpnV2xoZERFbjIxYUxVSHB3b2JTSjlzWlVWc1dodDJwaS13WVNRQmJxQkJ1S1ZHN1JaQjd5ZHNwQmtwLTFUekFzYXo0a1pjdjFqSQ?oc=5",
+          "published_at": "2026-11-18T01:02:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "DeepSeek Caps Free Service Usage for First Time Amid Chip Shortage, Exposing Compute Infrastructure Limits - BigGo Finance",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-17T23:26:00+00:00",
+      "summary": "DeepSeek Caps Free Service Usage for First Time Amid Chip Shortage, Exposing Compute Infrastructure Limits BigGo Finance",
+      "claims": [
+        "DeepSeek Caps Free Service Usage for First Time Amid Chip Shortage, Exposing Compute Infrastructure Limits BigGo Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zYU5zYTd0bThOdlNVSUcyMXZ4Zjh5Nkt4eHhZd0N2SUp1TXhFcEJLamY4Ti1HOV8yTWFjMzc5X0taci1GNEd4MjZjc3lNUXprNlhnRVdIcWZDZHp0eW5zSThXMzdIb0dtcjFzYWZlVldscWVxanc?oc=5",
+          "published_at": "2026-11-17T23:26:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Microsoft (MS) is competing with OpenAI and Antropic by unveiling its own artificial intelligence (A.. - 매일경제",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T21:31:37+00:00",
+      "summary": "Microsoft (MS) is competing with OpenAI and Antropic by unveiling its own artificial intelligence (A.. 매일경제",
+      "claims": [
+        "Microsoft (MS) is competing with OpenAI and Antropic by unveiling its own artificial intelligence (A.. 매일경제"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBudGR2c1p1akE4ZjRhSF9Rc3hVYU5YSm5OTU5OWUxsaVdnT0lkc1M4STBNRWhBdFJFa3FQdzZ2R0hXaUVmS0Frc19MNA?oc=5",
+          "published_at": "2026-11-17T21:31:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "GPT-6 Astra edits AI weights in the Qwen experiment - NeoTeo",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-17T21:18:58+00:00",
+      "summary": "GPT-6 Astra edits AI weights in the Qwen experiment NeoTeo",
+      "claims": [
+        "GPT-6 Astra edits AI weights in the Qwen experiment NeoTeo"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVmpxaTVrTkoyU09DaVJhM09nYkJXTHlNbEJGSFE1QUZMYlNoeWxacUNlQkJ5VVZJNVFrNnVkeW1IcFNqTGdrQk1Bd3d1TU9RZFZGR0d4WnpZcW5DVmtrcmVFVFE4cXJ2MWZJX2htbV85V1lfUGk3NHBBdlo2Q0U1REktd1U4VlU2ZlVXcmthS3NlRkRp?oc=5",
+          "published_at": "2026-11-17T21:18:58+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "NATO Is Now Using OpenAI’s ‘Daybreak’ AI Models - The National Interest",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T20:30:56+00:00",
+      "summary": "NATO Is Now Using OpenAI’s ‘Daybreak’ AI Models The National Interest",
+      "claims": [
+        "NATO Is Now Using OpenAI’s ‘Daybreak’ AI Models The National Interest"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYnN5alJCSm52UHZqeFVmV0dEZzQxVk16WEQzTEdTM2VwSFZsZlo4UnU1aTF1cGtmckxhbFFSUkticmdfSUJaNlVIcnV4RDRDdmZDa1luZjhCV1BzRmdMWFUyOEZVb29BYlhHaEJPUzBKLWk1WW55SVhsd18yVUdsVHdrdzg4T0IyYlIzZzJCM1diSklp?oc=5",
+          "published_at": "2026-11-17T20:30:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI - Moneycontrol.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T20:14:13+00:00",
+      "summary": "Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI Moneycontrol.com",
+      "claims": [
+        "Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI Moneycontrol.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUHctM0JXcHpCVXNHS1JQa2otdGNma1QxUXV3c3VYRU1CaVdoSWZ0MV9RSUR4VEtYN21rWkgtWmZKRENTLUJqTFJhaUpBV01zU1I2QVJCWGdRTXNZTWRUMmd1UG5jZGk0T01xRVFfOWRfZVd2RmhRSlRBcFBoc0VXLXJ5WlRpMVo1TmJTbXZNS2xfaHZLLUZiQWdFOC1LYm5uMm0weVRHTGdHN0p3SEpCbU82aWR0VUNkRkE1aDlXWlkteURSN0IyY2NzaEd3bWt4NmpIblFXbC1Td09wYkJ0WXMwNzlZNkhQRXRvNjZfWGzSAfYBQVVfeXFMTU5nSHNCckVNNEZkSDRYc0FQRV9nREdrYlZrRVZsUWFxLVEzSGhsSDc3TDRCNkxremx6dTdQa0RCdGFGamFHOUlXNFEyaFBDQnIzOWxTN2lqWkt0MmZPTXFadnFLT1BFTmJKMFJUamI2Ujl6a2Z3ZUJCcHhqNDNkM0kxcTZuLVRKOERBU2JlT2RueU1ab0FYajNtMmVaNC1wY3VPaDFPNzZFajFjWkNjQzNuTk8ydDVhN0RNNzd5S2JpSzZLLTVDQlo5MXhGcUpGU0dIbTJvaWxKR3gzMERicnJHSlNFQnFYbHNqU3Eybmpoa2hFOFV3?oc=5",
+          "published_at": "2026-11-17T20:14:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How Kimi Antonelli’s wage compares to George Russell as Toto Wolff hints at ‘reward’ for F1 title - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-17T20:00:00+00:00",
+      "summary": "How Kimi Antonelli’s wage compares to George Russell as Toto Wolff hints at ‘reward’ for F1 title F1 Oversteer",
+      "claims": [
+        "How Kimi Antonelli’s wage compares to George Russell as Toto Wolff hints at ‘reward’ for F1 title F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPak1uNGFRdnBPbzVEd1FEV2pEMWJzZEdWQW1BZHU1bHpNTmljRmVRa0sxMUVENmw3UjJTbzMzTV9GVUdRb0NVVi1oVDl2UkhNN21JemtDMmtmT1BLRWtteHc2b2xaZUdCYTF1VEJEU2pLNUlmYUQxV1l3QkU5NS1ORWJFaG1UbFBMNWpGRW5KbnZOTG41SnZocUYyTTkxMHllMFlReURNbUo4UDVZOXVLeHgtcjRRdFgzWUNHUmNZa0VYSlZBc2pF?oc=5",
+          "published_at": "2026-11-17T20:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli is going to get PAID, Toto Wolff drops big contract hint - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-17T19:57:00+00:00",
+      "summary": "Kimi Antonelli is going to get PAID, Toto Wolff drops big contract hint GPFans",
+      "claims": [
+        "Kimi Antonelli is going to get PAID, Toto Wolff drops big contract hint GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQTlERmpRX0k2Z1JYRm5zYVRYSFI3aVhaRHFZQWxhUk9XVElUMGh1TnlGSUFQczZFWHFTMkcxZXBQcUh2VVVjOWFfbnRkdHllcHphVTFjYUNzelNHLWgtX3llb05ZajZxdmgwZEtTNGl2TnFrWG16cW9QYkdwcVJhV29xdTRidlNwYWlRa00taElxdlU?oc=5",
+          "published_at": "2026-11-17T19:57:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI model uncovers critical security vulnerability in Java: Report - Anadolu Ajansı",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-18T01:33:12+00:00",
+      "summary": "AI model uncovers critical security vulnerability in Java: Report Anadolu Ajansı",
+      "claims": [
+        "AI model uncovers critical security vulnerability in Java: Report Anadolu Ajansı"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeGdVcXd5YkVBU2RMN2lOUnQxd0w1aVNPQUo5ZjZJMXVxUXBxY2JaUlMxZ2FweWp0dGo1cDRsZTQ0dHZrVVRVdmlxQTZ1T1NCaFRKTC1odkdjcmJIaHN3N044a0MwVk9ESUdjR242Z2doVjNQb0swYzBhRGZIbnpKV1JoV051WTJlZG55cmp4Q3A1T3RNR0U1d05UdkFnYTNQWHNoS2RMVUpScXJWUHFzcmVScXFQNTg?oc=5",
+          "published_at": "2026-11-18T01:33:12+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Who are the 22 drivers racing in the Formula 1 Las Vegas Grand Prix? - Las Vegas Review-Journal",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-17T21:55:03+00:00",
+      "summary": "Who are the 22 drivers racing in the Formula 1 Las Vegas Grand Prix? Las Vegas Review-Journal",
+      "claims": [
+        "Who are the 22 drivers racing in the Formula 1 Las Vegas Grand Prix? Las Vegas Review-Journal"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxNNEt3bXhvSVpfOEdkUmNMejZJX0I1dFFjbWxHWGxKVVppU1dLZjhici1xeHZIanB4eGJWcHZnZDlUSlNZdmdKNGtJQ0tpY3NzMXplRm5EQzVIbXhtdVRncFNINnB3Qk1PUDdEa1lhWS0xb3l6bThhOG9vdWNEZGlRSlZfbHc2TFBITlpoZnpwYW9Xc0xCbDdzNjUwUXNlQXVsYmQxTGZQVkY2SEZGdmRqcUtHS3lqY19PajlaYkE3TnlGcUxrd1pBTXR1ME1IdENRR1lfZXFUdjRSMDFFSlQwSWRGS1JSdXQ0eWpqb3BBRW1qUlNXY3IxSmQ1dmc2YmRJeE1mT3lGSUJkUmJESVdzRUc0SmR0eU1JYmZobk1BNVQwaFA3ckxQWWlPX05IUG5VUkNwaVpUWE00anFkOU1TUFAyeXdKR01xUFZOa0o4NExzRHZkM3FNRU5Gb1hNWVY2YzdYSmQ5N0w2a3NzeW1aUVdmTVVQa0s0Y3RzMHN4Ymc2Qk1hcWg0c1E0ZkNiNHc0cnlaMm1lNi1vb0hzTFhhVmthWlhWYnVFb0VLdmQwcw?oc=5",
+          "published_at": "2026-11-17T21:55:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Cut generative AI costs: Code for rules, models for judgment - Amazon Web Services (AWS)",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T21:14:55+00:00",
+      "summary": "Cut generative AI costs: Code for rules, models for judgment Amazon Web Services (AWS)",
+      "claims": [
+        "Cut generative AI costs: Code for rules, models for judgment Amazon Web Services (AWS)"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQVg3V1dEQVNwMUFueGFmczVVUzE2RUd4UUtkNWtBakFoMG9ILVhNU1M3WXVZSXNXdlpYRzFfVWx0X3pKX3NuM1RXckowRzktMUpzWHphbUJZWlJXX2ZOTk9JOE44U1hnNDZudU10dVI2UWhQV3hWcHNWVHpTLU4zV2VUZFAyZkFhYS1BWUVET3h4SHpyNW96aXdYVUxpMHZPeXRUMVc5LWM?oc=5",
+          "published_at": "2026-11-17T21:14:55+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Advocacy groups sue five AI companies, seek halt to new AI model development - Canadian Lawyer",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T20:52:15+00:00",
+      "summary": "Advocacy groups sue five AI companies, seek halt to new AI model development Canadian Lawyer",
+      "claims": [
+        "Advocacy groups sue five AI companies, seek halt to new AI model development Canadian Lawyer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNakFuQ01WUG9pdjhGRHJHUG9PWlczRXVUanZVMC1US0pUYWFLTnp1dFRNd055WVRvaWUyOHIzRk10dzZpdTdvcFhwMXhCMk5oYjJYR24yX0xCLWhvRHppUnV3S0hWMF9VSzlpbE5EY09Rc0p2TlhZanFweURvSVczbFNmSTJIeU80djZ4VUVhMDI1VUFXeURzYTdyU25qX1VVMDlPSl9MazJMb0t2UERidFdTR0IwWTdDa1pEODJVOWlydFh3RHR5UUtWMGNxeG50?oc=5",
+          "published_at": "2026-11-17T20:52:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Artificial Intelligence (AI) in Healthcare - Cureus",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T20:26:20+00:00",
+      "summary": "Artificial Intelligence (AI) in Healthcare Cureus",
+      "claims": [
+        "Artificial Intelligence (AI) in Healthcare Cureus"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNlMySWVQR1FvLW9UbVlTaXc2WkJtS3ptTi1WNUNWT3VLRGh2THlSclVzRzVqYUgtalNVblFhM1RZS3FMVFdxRHhDQ1ZHeEF4TG9QQ1Zxc05FOXF5aTJLWG85eThBMWpzeGpWTDcwaThsTWhYLVM3cktTbjB4UGwxRHp0SlBCdw?oc=5",
+          "published_at": "2026-11-17T20:26:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Why Qualcomm teamed with F1’s new star in race for sports marketing ROI - Marketing Dive",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-17T20:20:15+00:00",
+      "summary": "Why Qualcomm teamed with F1’s new star in race for sports marketing ROI Marketing Dive",
+      "claims": [
+        "Why Qualcomm teamed with F1’s new star in race for sports marketing ROI Marketing Dive"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ09YX0dNX192TjY4TVlKYTlBOUlSamNrY0pOYjR3T3duZ3h6M3NmazJjXzc5MThCbVgxRVRubXN2cnpqd1VfckR5dXFHeTJqUWpyc3AzT1lkc2Z5Tjdtd0xTeENEVEk3azdUT3V6VTFwOUZVOUJCV21veFdoNEdBXzJIT3ZCLUdrQkFzUXZmcmMzWkhnUEVub3AydHlCeDBHS0d2cXZ2aEREdjFkMjhjcnR2dw?oc=5",
+          "published_at": "2026-11-17T20:20:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Artificial Intelligence and the New Colonialism in Latin America - LA Progressive",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T20:14:10+00:00",
+      "summary": "Artificial Intelligence and the New Colonialism in Latin America LA Progressive",
+      "claims": [
+        "Artificial Intelligence and the New Colonialism in Latin America LA Progressive"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY2RuN3IzUjFvRDhzT1haUl9sN1JDVHNYeWhGeHYyOXl1LVBaaWFuSUhaSUxzM1poamQxSm1NMURSYkt2alhLMEphUVdHWmFKY0xmdzNpZlZEa0tXTFlQYmduNFFjLUF2U1RRcXVvYkFibDlEX29xUm9MaVdxOHd4UjFuQQ?oc=5",
+          "published_at": "2026-11-17T20:14:10+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "November Journal of Cardiac Failure Focus Issue on Artificial Intelligence: AI Echo Raises HFpEF Detection to 78% - PR Newswire",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-17T20:14:00+00:00",
+      "summary": "November Journal of Cardiac Failure Focus Issue on Artificial Intelligence: AI Echo Raises HFpEF Detection to 78% PR Newswire",
+      "claims": [
+        "November Journal of Cardiac Failure Focus Issue on Artificial Intelligence: AI Echo Raises HFpEF Detection to 78% PR Newswire"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOYVBwZmN4ODhFTFdUQlBQeFloMmZxM1hYaDhlOTU3cnh6QXpJUGJlZDNicHRuX2JGRDBmZ255Ny1uTlcyZkk4ZDRWTDV6bHNpUTlwcGx0YW04MFRUNVlmV19HUDlUbFZadGQ2NWxza3g1dnRNUGJXMEJLUGZYaGxjLWNCVUoxZlJnbWt4N2hpaXQ3eC1kNE12dl9WNGRuR1Z6VXhFcWhyNEV1SHRndUxCUnp5bEJFd3RGNUNGNTYzVXhQakRuLUN1am1aQzY0dFpteUw2OHBGeXd0dG1uR3FIaWFfRUJrUGlMdVUxMHAyNXRWSE9rcGViMkhMaw?oc=5",
+          "published_at": "2026-11-17T20:14:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
