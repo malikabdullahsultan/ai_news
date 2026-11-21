@@ -1,0 +1,951 @@
+{
+  "report_date": "2026-11-22",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-21T23:50:51.563927+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 47
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 88
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 136,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "category": "research",
+      "company": "Google Research",
+      "region": "US",
+      "published_at": "2026-11-20T23:30:30+00:00",
+      "summary": "Generative AI",
+      "claims": [
+        "Generative AI"
+      ],
+      "primary_sources": [
+        {
+          "name": "Google Research Blog",
+          "organization": "Google Research",
+          "region": "US",
+          "kind": "official",
+          "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+          "published_at": "2026-11-20T23:30:30+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "research",
+        "robotics",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Oscar Piastri reveals jaw-dropping Kimi Antonelli advantage: 'Perfect example' - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T21:52:22+00:00",
+      "summary": "Oscar Piastri reveals jaw-dropping Kimi Antonelli advantage: 'Perfect example' RacingNews365",
+      "claims": [
+        "Oscar Piastri reveals jaw-dropping Kimi Antonelli advantage: 'Perfect example' RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa2NDUVFaOUpvaEdWUkdvODRwSEVSU09iclVCMUNUZjJBNkZUak93MFU3aEk0SDRYVGVyN0ZITm45Tl9kRFFfQ0g2MFA3TDZiMmx3QWdNOUtCUTRDVDlsajhOR2VLYUR1Xy1XbUNVYm9hY3JNUkoxazl1TlVjUzZLaUIzeXBxaklRMWVhTEdlR3ZUcXhYWHk3Z2Y2Y1NKdWd5eXYw?oc=5",
+          "published_at": "2026-11-21T21:52:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Hackers swapped a hosted DeepSeek model for 53 hours and stripped away its safety protections - CryptoSlate",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T21:30:30+00:00",
+      "summary": "Hackers swapped a hosted DeepSeek model for 53 hours and stripped away its safety protections CryptoSlate",
+      "claims": [
+        "Hackers swapped a hosted DeepSeek model for 53 hours and stripped away its safety protections CryptoSlate"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5",
+          "published_at": "2026-11-21T21:30:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Lawyer Builds Personal AI Cluster to Run DeepSeek, Achieving Up to 184 Tokens Per Second Using 12 Used NVIDIA V100s - Technetbook",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T20:36:00+00:00",
+      "summary": "Lawyer Builds Personal AI Cluster to Run DeepSeek, Achieving Up to 184 Tokens Per Second Using 12 Used NVIDIA V100s Technetbook",
+      "claims": [
+        "Lawyer Builds Personal AI Cluster to Run DeepSeek, Achieving Up to 184 Tokens Per Second Using 12 Used NVIDIA V100s Technetbook"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb19fWllrV1pDNWNVQVFDblR0V1NLZnV4SGVoNUU1dl9LWlZmYlBJckoyU2lkQWRqZTE5dEM4b3JFOFhnNkdIVjJWY3ZNOGxuMWZNeXhhLTd1a3NwVThLY1B0TEttemgzLXhUb0lmZWJJV3I3NGVSY3BaWElneW14aDJ0VXQ?oc=5",
+          "published_at": "2026-11-21T20:36:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Las Vegas Grand Prix updates: Kimi Antonelli is fastest in qualifying, but Max Verstappen inherits pole position - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T19:10:08+00:00",
+      "summary": "F1 Las Vegas Grand Prix updates: Kimi Antonelli is fastest in qualifying, but Max Verstappen inherits pole position Yahoo Sports",
+      "claims": [
+        "F1 Las Vegas Grand Prix updates: Kimi Antonelli is fastest in qualifying, but Max Verstappen inherits pole position Yahoo Sports",
+        "Kimi Antonelli fastest in Vegas qualifying but Max Verstappen inherits pole Motorcycle Sports",
+        "Antonelli quickest but Verstappen on pole for Vegas Grand Prix eNCA",
+        "Las Vegas Grand Prix Qualifying: Kimi Antonelli fastest, but Max Verstappen starts from pole grandprix247"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWFUelJlTmNDa05XamZYZjJHQ05nZEkxSWZ0RlVqSXZHZEpvbzEtY0duM005bWZhbFpUamtyZGRlTXUwYm9jTUlaZ21uTWotV3hhd3o5SklYSWJscXJ3TWduN0RWUEQwS3Q0SWVCcmcyVFMtMWtyY3IxVU1SZWxlMWdHajNfbzFPTVJiWEt0SzJ1MzdVaGtidFRxWVR4YWljWUUyeGx6Vk5OVjZQSy1pZjhfcTlPM3RWVGgweE9jSDNFa0xpdTBZODgzTkVSNUROMlp0dXFxbGg?oc=5",
+          "published_at": "2026-11-21T19:10:08+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdWIwd0V5cnV5MXZnSHRtaV82aWxUbkpLaE5VZkJDQklkdWhvbzBuM0ttMmpSUWppRU1yWWQ0MTZKbkllYXp5MUU3RGtTOHRFM00zNUEtOEl1RUpJNXAzRGZhLUJDcEJuS05JbmRGMzRzM1dLaU1BYm1udlBxV3YxV2dmSW9RYVd4NU1KUjNPVUF6VFA5OC1VUVZablA4Q2MzM1VBSFcyaHY?oc=5",
+          "published_at": "2026-11-21T15:42:36+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGNidU81QldheHhEQXhQejE0YzdPaEs1bXBtOTM5SXVZbTZ4eWk0RUM3N2F1OThoc0k0TTVuOWFnM1VTZ29GZXNCVG02WW93STZuYTdBXzdMUWxUUGxqVExYRUxNSFJ6YXViNDRDekhrLTgwMDdUTkM0SHpSeUx6Nmg5VnY?oc=5",
+          "published_at": "2026-11-21T08:16:53+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWVowLTBoMHl6UW4wQXQ4WTdHNDlRVkNHU1prdG5hTmpFWkh3NVdGSUlOMmh6OVg0NW5IdGt6TVdnLUxkUFlNYzhuaUZNSG80SWFZcW1MVjB1NTBtUTZ1R0hEY3NUXzRScjQ4SU9IR052Vjh6S3RlQTBiRVUwMmRyY0RtcVdBZmtEellycENyMk1DQnVYVi1mTk1pTXFDSkxPcVZwUkJuOG1jRnB1UFg0WFE4dVJpTk1nemQ0QzUyN1RZS2VKQkMyNFlDeTcyaEE?oc=5",
+          "published_at": "2026-11-21T07:37:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "CertiK and Columbia University Researchers Formally Verify Production AI Kernels From DeepSeek and FlashAttention - CoinDesk",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T18:06:21+00:00",
+      "summary": "CertiK and Columbia University Researchers Formally Verify Production AI Kernels From DeepSeek and FlashAttention CoinDesk",
+      "claims": [
+        "CertiK and Columbia University Researchers Formally Verify Production AI Kernels From DeepSeek and FlashAttention CoinDesk"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQYXR0OUhCeUx3ZURTeWN4VUJ5QTJZcEt4U0lWZ090dUptMEZIcl9yV2I3VDU5QWwyUVRxZzlEbHI2VjZOUDQyNk5FTXF1QUNJUi1fX3BEQjBCbE5pTGdUaVRfV3ZyaER1X1did09yMFdzV0hnT0ZMV3JKUldrbkkwdmZzd0J4ZDFic293TkdzZFdWMVBkdjJTRDc5eGxoZVZpZWVpMTZiZzF6M2JOUExTUmlBZUlhMlRONWFrMVRqX1NvUVBmOFdFblc5Vm9uOWRMNUc4aE5Bc1owT3ltQVBqX2lqVnRlM29Bc0xFSGNad1FEM1JjR3c?oc=5",
+          "published_at": "2026-11-21T18:06:21+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli prepared to support George Russell with Mercedes team orders in 2026 - Motorcycle Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T18:04:03+00:00",
+      "summary": "Kimi Antonelli prepared to support George Russell with Mercedes team orders in 2026 Motorcycle Sports",
+      "claims": [
+        "Kimi Antonelli prepared to support George Russell with Mercedes team orders in 2026 Motorcycle Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc1FFbVhIN05TY09IclB3Vk9GaklTRGNpdm1YbU5tenlvdEtMcXRLSjF1OUxDUFNoUXBLNHhKRWpxLTlVRTdlYWxJQzViaXhFRUtlcGlVbUc1ZFo2Sk16ZVVrc1dGWXJ2anBKaVR4MGtFNEZmcDN4VkJJd0JaTkkwVFFrTW1ZOExSOHpmeUxkLVBUWXYzWVgyQkQ2alN5WEN4c2tEVzJLQ3FsYkRIdUFMc1ZZdw?oc=5",
+          "published_at": "2026-11-21T18:04:03+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 fans are all in agreement about George Russell as Kimi Antonelli’s 2027 Mercedes salary emerges - F1 Oversteer",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T17:00:00+00:00",
+      "summary": "F1 fans are all in agreement about George Russell as Kimi Antonelli’s 2027 Mercedes salary emerges F1 Oversteer",
+      "claims": [
+        "F1 fans are all in agreement about George Russell as Kimi Antonelli’s 2027 Mercedes salary emerges F1 Oversteer"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa2c0VS1oZzFPU0kzemMzaUpjUXFSck02Sm92dmM5eGVjTDBlcWo5aURuY0tHVFptOEt2VFNxTmxJUTJFNGV5UzFhWlpOdGxuWWN6ek0zb2g5Wjk1LXMxUE9lRHM3dVRRdEcyeERiU3U2eWkxYjR1ZXA1dVZCaHZmUkJVZTQ2ZWVCV0xGdjhwam1WbWxMT2hXcjVRMUZyR3lJcDV3ak1JZUs2a2pFSE1yZFpUMjh0SHpBUGNCdVdmVHVNMGd6ZFBQRElNcw?oc=5",
+          "published_at": "2026-11-21T17:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli reveals stance on potential George Russell team orders - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T16:53:22+00:00",
+      "summary": "Kimi Antonelli reveals stance on potential George Russell team orders PlanetF1",
+      "claims": [
+        "Kimi Antonelli reveals stance on potential George Russell team orders PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZUpIRjA2Y2RZSTNNSXlEd1VKUEtmSkNHWnFDSUlnRkMtaGNsLVJXZG1Cemd4dUtOSGdkbGdIOFVSWVZnY3VkeVE2MUMxVWU1RTM2bkUwVlBpLW1tVEdWNGhpUXVkZW5sM1FWcGdtNGZSaFdGZnVMUDdSczBNcVd5X2I3TGQ?oc=5",
+          "published_at": "2026-11-21T16:53:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "What’s Your AI-Literacy IQ? - WSJ",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T21:31:45+00:00",
+      "summary": "What’s Your AI-Literacy IQ? WSJ",
+      "claims": [
+        "What’s Your AI-Literacy IQ? WSJ"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rYXU0QkVVYWROaHJXX0ozQXduV0hJbWxCUE01TmZ4ZmdBa3AyVmc2VWE5SERuRG1RM19TWUNzNlNUbHctZW9XUmRNaDVEa20wS3FuODhXS3ZuN2ctbFhOeGhEekNRYjg?oc=5",
+          "published_at": "2026-11-21T21:31:45+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Trump Team Weighs Chinese AI Disclosure Rule - Wisevoter",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T21:05:30+00:00",
+      "summary": "Trump Team Weighs Chinese AI Disclosure Rule Wisevoter",
+      "claims": [
+        "Trump Team Weighs Chinese AI Disclosure Rule Wisevoter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOHJLMlBiNmZpaHN0TUx3TGZMVkJyOHRVQmhfdm9GQXJHdk5PbHdIeTB4Qnc0ZU5GNVlMbUhjUnVlN000b0RkdlR6UU1sUWNlOFZDbjBodTBPeTFrUjhrdjJEM3BuMWJqMzJBOVVyWVo4aHZYNGk5UTQ0cFAtSXZKRmdsVldOMllsSzRfcXZCY2w?oc=5",
+          "published_at": "2026-11-21T21:05:30+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sparks fly at Vegas F1 qualifying - Fox Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T20:41:18+00:00",
+      "summary": "Sparks fly at Vegas F1 qualifying Fox Sports",
+      "claims": [
+        "Sparks fly at Vegas F1 qualifying Fox Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMHdjazVwNnJKSWVUc3hIb0t4WE9JWXVRM1VIaFMyczRNcjZvakpKSVQ3bFF3X3h1YUVhR0VGaDNDUlZraGtWbEtyQWE4SDk5bjdSSnRRR0hlUHJKbHBnUnJqa0FxRENXZ2Q1ZVhzSnB5QnlRUzc3VE0xWWx2T1JUcFI2aVNERUFXSklIc3QwMGQ2TEVPRVBnRmNzS3loOG52aUFNVjI5SmxOUFNOTXc?oc=5",
+          "published_at": "2026-11-21T20:41:18+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Verstappen inherits Las Vegas pole as Ferrari faces nightmare and Russell feud heats up - Grande Prêmio",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T20:00:00+00:00",
+      "summary": "Verstappen inherits Las Vegas pole as Ferrari faces nightmare and Russell feud heats up Grande Prêmio",
+      "claims": [
+        "Verstappen inherits Las Vegas pole as Ferrari faces nightmare and Russell feud heats up Grande Prêmio"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMkdXVGNxelNyeUlqY2tUcU9FOG1rTWd5WjNXTklJaTF6aWlTa21STjBOb1lQaDVLY0lLSzBJbkxtT2VJV085Rjg3THl3clFrZGpsSThIVmRQaFJHWFdZMjg4MkptZG5IbGlqV3JXZW05LU5Kczhaei1NLUsydTNiN3dxSTJxUHhHSGxiUWMwa3c5Qm91TjZsVzZ1bzhib21IbGM2a1VISVZjemNtdjVTZjZkZUxBY3dtZndHVHVhLV9SQXpVU0hqeA?oc=5",
+          "published_at": "2026-11-21T20:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Etsy faces backlash over including AI model training in new policy update - CBC",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T19:43:13+00:00",
+      "summary": "Etsy faces backlash over including AI model training in new policy update CBC",
+      "claims": [
+        "Etsy faces backlash over including AI model training in new policy update CBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ0RFdlkwMTVtaVJvQ1J2bzBIOUtEWWFYZWsxbnkxaThuM2VKc0Nxd0p4VzA0bHEwZ0QydVF6S2FHaWtKRno1aEYtYXlSdkptWWpZTFU5VmxDVDdRQXhGYkEwQ3RZbTc5SEkwMGNYcFNjLW9lN1M4aURUSWVLZmxzNTJkdVVFS1NNSmUxZm51SVNlUW8?oc=5",
+          "published_at": "2026-11-21T19:43:13+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "NPI Report Finds AI Spend Visibility Lags - Wisevoter",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T18:03:32+00:00",
+      "summary": "NPI Report Finds AI Spend Visibility Lags Wisevoter",
+      "claims": [
+        "NPI Report Finds AI Spend Visibility Lags Wisevoter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSm82VnUyVE1LNE4yVWRweU9OWnNnbFc2Q2xTZVY2LXl3QnM0b0xFWFdUOFdiNmlwbno1Sy1IX0d2Sl9fZU1lZTRMTDM5YUdseEhhSXcwZm5UbFMxVHJQX3F0c2xybU1MUXNIakFGV2RsRWt3M0hQakJkOVBocUUwLVZaeXQwZFlhTk1ZXw?oc=5",
+          "published_at": "2026-11-21T18:03:32+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "We’ve Found the Only Good AI Chatbot: One So Tiny It Fits on a Single MS-DOS Floppy Disk - Futurism",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T17:52:00+00:00",
+      "summary": "We’ve Found the Only Good AI Chatbot: One So Tiny It Fits on a Single MS-DOS Floppy Disk Futurism",
+      "claims": [
+        "We’ve Found the Only Good AI Chatbot: One So Tiny It Fits on a Single MS-DOS Floppy Disk Futurism"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53MzU2cm80aFk3SWZwbXlFQUVKTmFRTEtXbjFjN3pPMmRNeEpZbUM2ODlvX1lCNlNCeVpYNWU1Sl9zUWJZLWdXQ2xRajRmQjFKYmMtekJBUmNadWtIdzFDbjAwQmNIdjFUZTBpNHZnaDZhcUk?oc=5",
+          "published_at": "2026-11-21T17:52:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "MIT develops training technique to improve AI climate models - The Daily Star",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T17:36:01+00:00",
+      "summary": "MIT develops training technique to improve AI climate models The Daily Star",
+      "claims": [
+        "MIT develops training technique to improve AI climate models The Daily Star"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNDJPV2t1M3RiTWNJSVlXLWowVE9Wb3AwcHVxTlIzMW4tUy02bFBIcFc2V1dUSFFaQ0MyRFJZODdUcE9XVk5ZQ1NTenRaZmE1bEJsUU5lNExiRTBhUUE3Z2tCck9PcmhUVWRhUEd6T3NiVzBhR01KUEw2Z0w1bkk2cjdldl9Vb1ljbWNkR1J0Yk1kblNtanNSdzlyZnIzcjVRdWl0cTlTYXdVNXY3bXREQURHR1BHZw?oc=5",
+          "published_at": "2026-11-21T17:36:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "China's Military Uses AI for Cyber Drills, US Report Raises Concerns - Lokmat Times",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T17:17:56+00:00",
+      "summary": "China's Military Uses AI for Cyber Drills, US Report Raises Concerns Lokmat Times",
+      "claims": [
+        "China's Military Uses AI for Cyber Drills, US Report Raises Concerns Lokmat Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNakNGem9lTUpaOXdPMHY0cmRBdzQwWTU1eUtxWGV3a2YySjZ0WF85a2NfMmM3Qm12OFBrcms0c3o0NUtHT3A3OERDVmJOZTdpSi1CbFQtQjNhdFJCUDR3ZUk0WExTTzRWbVB4Tm9IcFo5MVJYb2hhQkpFQXdMUFdVUkp6VUZ4MGpiaW1JU1lhbnFZUkw4OHUzY2RSbGd6aWFfSm5kbVZqa3N1TF9lbTl0a0FzRXljZWlIS084N3I3NNIBvwFBVV95cUxNakNGem9lTUpaOXdPMHY0cmRBdzQwWTU1eUtxWGV3a2YySjZ0WF85a2NfMmM3Qm12OFBrcms0c3o0NUtHT3A3OERDVmJOZTdpSi1CbFQtQjNhdFJCUDR3ZUk0WExTTzRWbVB4Tm9IcFo5MVJYb2hhQkpFQXdMUFdVUkp6VUZ4MGpiaW1JU1lhbnFZUkw4OHUzY2RSbGd6aWFfSm5kbVZqa3N1TF9lbTl0a0FzRXljZWlIS084N3I3NA?oc=5",
+          "published_at": "2026-11-21T17:17:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "House Panel Says Airbnb, DoorDash Use Chinese AI - Wisevoter",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T16:53:22+00:00",
+      "summary": "House Panel Says Airbnb, DoorDash Use Chinese AI Wisevoter",
+      "claims": [
+        "House Panel Says Airbnb, DoorDash Use Chinese AI Wisevoter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeU14NVBVbExoSmtQNlBBeUY1UjVLNXJXcUZnaVNndkhoUWFtZjd4TExJSHA2enlLejlQLWplSFZIcG5nZ0lqNy0wTW9Ybm5XLXpVVHRxRHNiX1B3X3F1bDBaTFhmSTRhV0M2d0xCRHNnUUU1Nnc0d0RzVkRDdkRlMTROUzBmeEVNRVlYaDJRZjBtUQ?oc=5",
+          "published_at": "2026-11-21T16:53:22+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Inkling 2 Mini on a Mac: Requirements, Ollama Setup and Qwen 3.8 27B Compared - Fello AI",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T16:28:48+00:00",
+      "summary": "Inkling 2 Mini on a Mac: Requirements, Ollama Setup and Qwen 3.8 27B Compared Fello AI",
+      "claims": [
+        "Inkling 2 Mini on a Mac: Requirements, Ollama Setup and Qwen 3.8 27B Compared Fello AI"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsRXZqZzk2c21fckphM0NQVlFDa25pUUFTaW5PZkNmbnVVRUdBN3pza25VSTJZY0lfSVg3MEQwN2V1TTdVYUdoTlpuc0tzd1k1?oc=5",
+          "published_at": "2026-11-21T16:28:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global",
+        "china"
+      ]
+    },
+    {
+      "title": "Russell lashes out at Verstappen after Las Vegas GP clash: ‘He’s screwing all of us’ - The Guardian",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-21T16:26:00+00:00",
+      "summary": "Russell lashes out at Verstappen after Las Vegas GP clash: ‘He’s screwing all of us’ The Guardian",
+      "claims": [
+        "Russell lashes out at Verstappen after Las Vegas GP clash: ‘He’s screwing all of us’ The Guardian"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWldJRlJpSC1nUzlwNkNocEk1UGxJbm5uQjN6U04tMDlQZnpCVE5jbm1xTDFFMFVpWnlscS1TVVNtZFliN3Z6T0VKSjQ5ZWwtc1ptSzIyZEN4ZnBVMndacGpZOEMtSnZYbmNvNVpYNzc2ZVRaN0JyLV9aZTBFUjQ1dkZPbEtTZ0Q1WktCZnM0Wl9idkcteF9aOE9JTmF6bHVJbzhKbk15aVltbFVYR19xVENvX0YtTXc?oc=5",
+          "published_at": "2026-11-21T16:26:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Lab Releases Open Model That Runs on Laptop - Wisevoter",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T16:23:33+00:00",
+      "summary": "Lab Releases Open Model That Runs on Laptop Wisevoter",
+      "claims": [
+        "Lab Releases Open Model That Runs on Laptop Wisevoter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcjJkVlZBLVA4V1pmZ0lXTWFaZDhxeUo2Mnoya0QzVW1kVDBKOU10ODZQZ1FkUzdocmlwLWVHT0VoTmtQUkJDbTFnaXNMTkYxWnJPYWZaMUxIQ3MxcEN4YVNtZDZmTFlPYjhudHQwVzRxdVUtZm90Y3Zac2lFMlNWT2RYdHFlZw?oc=5",
+          "published_at": "2026-11-21T16:23:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "In a first for Jadavpur University, Abhiroop Chatterjee wins Google PhD Fellowship 2026 in machine learning - Careers360",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T16:09:58+00:00",
+      "summary": "In a first for Jadavpur University, Abhiroop Chatterjee wins Google PhD Fellowship 2026 in machine learning Careers360",
+      "claims": [
+        "In a first for Jadavpur University, Abhiroop Chatterjee wins Google PhD Fellowship 2026 in machine learning Careers360"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNDJ1RUt4SmZDS1N6VktBYjhFQ0w1TGd4YUtGUUdTM0xWZnBPd3MtZV9NZ2FJaGo3TG50MU1DQjd0Nk5STXJsODRVNWw5M2Q0aU9IRm1JZ3ByenZWWmlZck8wb3pwWEIxMjh1cy1razFvNkRYOWd1ZEo4VW1GTGUyTk14NWxpWmdVVnB2YW1NR2ZOalJwVTkwWGZLdFd1cU16V25WWGlFYTRjV0Y4Y1lkY2RNa0N5clJWc1pvQTJhOTlTX3g5M3I0bldEdnBJVDYwRFoySW9YVjlMLXJVS3pwWHFKbVN1QndQa29xRg?oc=5",
+          "published_at": "2026-11-21T16:09:58+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI may not work like the human brain after all, scientists discover - ScienceDaily",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-21T15:25:56+00:00",
+      "summary": "AI may not work like the human brain after all, scientists discover ScienceDaily",
+      "claims": [
+        "AI may not work like the human brain after all, scientists discover ScienceDaily"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yaS1OaGZZX0NqZndfaW1HQ01LQmZxU0lIaUhmTVdEdFZPSVpJUlVudjBFVFR2eFdmY3F6U2FTbThfbU9lOE5kUmowYUJuOUl5d1c3TEM3dWxsUG9WQUFVZVB6dkFSTDk4eWFOTHhPWQ?oc=5",
+          "published_at": "2026-11-21T15:25:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
