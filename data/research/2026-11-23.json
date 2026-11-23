@@ -1,0 +1,917 @@
+{
+  "report_date": "2026-11-23",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-23T00:22:45.497206+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 26
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 44
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 71,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Perplexity and Intelligence",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-22T00:00:00+00:00",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "claims": [
+        "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "published_at": "2026-11-22T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "George Russell and Kimi Antonelli Debut Y-3 x Mercedes-AMG F1 Championship Jacket in Las Vegas - House of Heat°",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-23T00:10:34+00:00",
+      "summary": "George Russell and Kimi Antonelli Debut Y-3 x Mercedes-AMG F1 Championship Jacket in Las Vegas House of Heat°",
+      "claims": [
+        "George Russell and Kimi Antonelli Debut Y-3 x Mercedes-AMG F1 Championship Jacket in Las Vegas House of Heat°"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TZE9mNENUZWlRVUxmZHdWZzFwZ3ZIZXlGczFWdVlKcy01ZXA4RUxnb2wtaWxreWFELVNfdXBUVk1KRHg3NFZKXzNURjRwNzZzbzM2NF83dGczRGxWUlBjdGpNaHFpdXVFLUdqeUdIeHNlVTA1RjR4alF1Z1NoNmM?oc=5",
+          "published_at": "2026-11-23T00:10:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Lifted Once and Fell From Second to Fourth. Russell Has No Regrets - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T22:45:00+00:00",
+      "summary": "Kimi Antonelli Lifted Once and Fell From Second to Fourth. Russell Has No Regrets Yahoo Sports",
+      "claims": [
+        "Kimi Antonelli Lifted Once and Fell From Second to Fourth. Russell Has No Regrets Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeU9aSnB5MVRrZEVUNTFVUFJLd0FpdWttSTR1RWJMYm8ybVBuZ2FaVllOWlJ4VDJqLVB5SlpqR0hDMEd4QXpyVk16bXZMSEdIUmRldHEwZ3YwUzNTZ2hCZXdjNi1zQVJadmZmcFUxNU1zRUpzMEVVaEZUODBFX0JnNWxXM0toUW8?oc=5",
+          "published_at": "2026-11-22T22:45:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "A Star Is Born: Is Kimi Antonelli the Future of Formula 1? - The University Times",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T22:26:09+00:00",
+      "summary": "A Star Is Born: Is Kimi Antonelli the Future of Formula 1? The University Times",
+      "claims": [
+        "A Star Is Born: Is Kimi Antonelli the Future of Formula 1? The University Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWlBaTjAwTWpqdEFxNGdCWkNGUEhSYU9fVEFHTDRubGltZnpucDZqdExEYm53VG1qZGp5ekVRaU5nbEZjeWRaTDRFM1RabHIzZVVHXzNuRTNELWZLcnhyaVRxN0Q5b09oRkVnTWx6TlMwNk9kSWlHcHRUYW1fUmZZTWNWVktscjVfdVlkby1Pb2RUcDN5dm5B?oc=5",
+          "published_at": "2026-11-22T22:26:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi K3.5 Leak: Why the Next Kimi Thinks Less, Not More - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T19:14:38+00:00",
+      "summary": "Kimi K3.5 Leak: Why the Next Kimi Thinks Less, Not More OrcaRouter",
+      "claims": [
+        "Kimi K3.5 Leak: Why the Next Kimi Thinks Less, Not More OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsZ3NIXzk5alZQczRORW9uNzlINjJkdnpkY3AzQVZwdVIwWGdqMFZtWHpiMlluLTE0YVE2aHNhVHRCTnBZNXlYMUp3STFPekE0TEQ3RFk2dGRXeEFJYjV0eQ?oc=5",
+          "published_at": "2026-11-22T19:14:38+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "LingSante-3.1-flash vs DeepSeek V4.1 Flash: Who Wins? - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T19:11:34+00:00",
+      "summary": "LingSante-3.1-flash vs DeepSeek V4.1 Flash: Who Wins? OrcaRouter",
+      "claims": [
+        "LingSante-3.1-flash vs DeepSeek V4.1 Flash: Who Wins? OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM1dFYWYzUS1RbWk2N1NNdHhObkRvNXpDNEtMS0V2eUtfRVlHR0NvcVBROEJZcVpiYzNYMG1hS0RobVRoNzZxeTdPbHdxNHdCMHczbFBsQnM1VmFjMFFMdUpwZ1d1TjNqb05rdEwza2E0b01tZVRUX0VBMnhucTBsY0lR?oc=5",
+          "published_at": "2026-11-22T19:11:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "‘It's a Shame': Kimi Antonelli Explains Why He Got Slow Before Last Lap and Lost to Max Verstappen - Yahoo Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T18:32:43+00:00",
+      "summary": "‘It's a Shame': Kimi Antonelli Explains Why He Got Slow Before Last Lap and Lost to Max Verstappen Yahoo Sports",
+      "claims": [
+        "‘It's a Shame': Kimi Antonelli Explains Why He Got Slow Before Last Lap and Lost to Max Verstappen Yahoo Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV3JPNzFiODRNRkU0RDNrbVJsM1hsQ0tSc0EyVVd0S3B5ZGdpUWNPbjN1NDdkUXlPdl8zN3lCazhnMFVnWTNxU2V4cEZpNklrVExyd1AtenB4OVVXaWVZTXYzalVSUmVIcVFTR3VUNDNKSDZicG9nTHZnTFZtMG1mMGNnbDhQSjJreUE?oc=5",
+          "published_at": "2026-11-22T18:32:43+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Ex-Qwen lead Junyang Lin's Pragmatik Labs more than doubles its valuation to $5 billion - MLQ.ai",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T17:57:34+00:00",
+      "summary": "Ex-Qwen lead Junyang Lin's Pragmatik Labs more than doubles its valuation to $5 billion MLQ.ai",
+      "claims": [
+        "Ex-Qwen lead Junyang Lin's Pragmatik Labs more than doubles its valuation to $5 billion MLQ.ai"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQnZQWHRtNVFmbjR5LWkwWS1Ta2w5em9JUC01RjB0cHBvQWMxc1A1OE1aSmNFeWRQaEpGX05kLVFMN01XYml1ZXYyS3I3SEhxcG1SdGFoTk1RTXdiYUU5OVNqRWxZbjhaNU5La3QxUzlkbHVNX3JiSkdCMHVUbXE4dnpPbms5TUt4ckR1TnZIU05VVnBuMTRiTnVKTE5LTnFFU2g2TkVnMUd4QQ?oc=5",
+          "published_at": "2026-11-22T17:57:34+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "OpenAI strengthens AI safeguards, cuts reasoning extraction attack rates - TechGig",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T16:54:07+00:00",
+      "summary": "OpenAI strengthens AI safeguards, cuts reasoning extraction attack rates TechGig",
+      "claims": [
+        "OpenAI strengthens AI safeguards, cuts reasoning extraction attack rates TechGig"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdUNEbHlXbFBQejB4Zk5Fc1plVFlzYXVMRkljUVNTMEpFQlY1cXlSVXdDMGVYeHN2cTRvNnFQdmItTFNkVTZoNXZpVm1xRUFPZjBicEZYeXNQaUt1RkNQX0k4V3Q0VDdGQS1CN3dOdUtSd3l0bG9FWDV3UV8yQmhHd3lyUWhSYW13Rk1ubURURW0wbHRyUzdTZS15d0x2bW1vQTJJMWk3bnRCSV9NRGc?oc=5",
+          "published_at": "2026-11-22T16:54:07+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Subsidiary Dividends Rise and AI Looks Promising... LG's Price Target Cut - 파이낸셜뉴스",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T23:50:31+00:00",
+      "summary": "Subsidiary Dividends Rise and AI Looks Promising... LG's Price Target Cut 파이낸셜뉴스",
+      "claims": [
+        "Subsidiary Dividends Rise and AI Looks Promising... LG's Price Target Cut 파이낸셜뉴스"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96eG5zRHJaNFFrRlo1Rm9tRzFZc3F0bTF4ZkFxT2NSN01YLWNRclBXdEl5XzRHZGxRdWdVX2phaERLZEpjcDM1ei0yUjFOcUNWamo3UXEyWk8?oc=5",
+          "published_at": "2026-11-22T23:50:31+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "KB Securities sees LG valuation upside from subsidiary reforms and AI - Chosunbiz",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T22:56:00+00:00",
+      "summary": "KB Securities sees LG valuation upside from subsidiary reforms and AI Chosunbiz",
+      "claims": [
+        "KB Securities sees LG valuation upside from subsidiary reforms and AI Chosunbiz"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTnhTZmZUbnlWNWt6OWtFQ3hIeVpkdGotUTYyMU91MkxoYksxV1c3UHlXRFU4QkFPaWlaQlNvS000NVJNZXF4UnVPSk1sZWZqSWhaZk1RbHZhNmMwUzF4RU9KT1l5dm9FMlhJWjQ2d0VJYmptWGFmVkktSDZpczA2b9IBlAFBVV95cUxON0UyOTlqMzJqRnhMZ3RsUDRKSzNNdU1hWWk0SzU3QV9mbk9mZ0hDYVFVVnQ2STBmb1ZqaWttdDlSZldZZC1ZSzdEcnNkNkVFNTV6ZW40cFp3ZFNxSEdDNEZQVzlQQ0g1SGlJNTM5YTFjVGZ1WmZjOFFrYVlkTnpyX19MS1hJTjRJU2pkamlsVEhtRWND?oc=5",
+          "published_at": "2026-11-22T22:56:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Silicon Valley model collapse, what The Atlantic really argues - Pasquale Pillitteri",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T22:50:48+00:00",
+      "summary": "Silicon Valley model collapse, what The Atlantic really argues Pasquale Pillitteri",
+      "claims": [
+        "Silicon Valley model collapse, what The Atlantic really argues Pasquale Pillitteri"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb2tFN3BlQjdpVEdoaVp6XzBKMXBFMzF0OVVCU2Zlb1NkYlhRM2Q4d0tnalBBUGt1RWN3REs0VEdsX2VZRVA2bWYyZWxwRHBqbnFxcFkwbk9DVzhWOUlPcmZmSWl0UVN4QUR2RDZiZGNRT3ZwOEF2MDJ6R2p2emVDbm5acHd4UDlHOXZDYU54eGRpOFJrZmdmZ3c5ZnlBSlU?oc=5",
+          "published_at": "2026-11-22T22:50:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Cybersecurity Firms Expand into AI Development, Operation - 조선일보",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T22:03:09+00:00",
+      "summary": "Cybersecurity Firms Expand into AI Development, Operation 조선일보",
+      "claims": [
+        "Cybersecurity Firms Expand into AI Development, Operation 조선일보"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRmdFcE1tNVRaSll5NjRONDVKV1RiYmVDNU05U3FNVGpqWU9naTJWRm9oLXU3OVVtN1hzNDV4NDlVS3ZYS3ZYOFU1bVFZWXdKWHhhR2U2c0F3RnRJNUJqWGY4aEM0NHdXM21OcnlpelZzOGU2dGNqUUtrdHlkTUdKbW4yUzVaOVRx?oc=5",
+          "published_at": "2026-11-22T22:03:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI Model Discovers Hidden Career Trajectories by Clustering Online Professional Histories - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T21:56:15+00:00",
+      "summary": "AI Model Discovers Hidden Career Trajectories by Clustering Online Professional Histories Bioengineer.org",
+      "claims": [
+        "AI Model Discovers Hidden Career Trajectories by Clustering Online Professional Histories Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOazR5cVgxU0k0R1VmUDhST2F5TmFVdldDUjlwWWNHbU04WWhYZlROcWFabDlWMGhIb3BNUXJYZHY4TUtBQXRhYnltSEtUblBtalQ3RW04dG05cVFpQWlITU9JbDUtaXVraFlXaGJUUVI2cEdwLVFLSl9mSjNGTEI1bHFhMXR4bzdBcmJWQ21fV18tM0lSc0pGSUwzREVGWUxqZm9fNFJaVjRFWDFReEhnTnd5bkM?oc=5",
+          "published_at": "2026-11-22T21:56:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "UOB Explores A*STAR’s MERaLiON AI Model to Support Customer Interactions - Hubbis",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T21:13:16+00:00",
+      "summary": "UOB Explores A*STAR’s MERaLiON AI Model to Support Customer Interactions Hubbis",
+      "claims": [
+        "UOB Explores A*STAR’s MERaLiON AI Model to Support Customer Interactions Hubbis"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU1JkdzRFNERCV1lLaF9IOWIzOTV4MUFuUjBfaElZeG9LVDYtNDc3ejJ2cWc0SFp2X1dJRXF6c3c1eHoyQVpxbmRTZWZOcklnZlc5enVIWEhlX09lTnRUSXQ3T1lfcHp6cGptTFplRm1HbUZ2aTRQcFVWcFhlX2tOOXg3QUNmNnp5bUNiazlPb1ZDcXJGekVzUlRJbno?oc=5",
+          "published_at": "2026-11-22T21:13:16+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Piastri on podium as Verstappen wins in Vegas - Fox Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T20:55:06+00:00",
+      "summary": "Piastri on podium as Verstappen wins in Vegas Fox Sports",
+      "claims": [
+        "Piastri on podium as Verstappen wins in Vegas Fox Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQnBTZEIwc2hsQVc1NThubm9LZFVGNWUxaW1EN0FabnBwMXVicjlwSlpYZW1HbmxLaXNCeGlDVXhHb2Y3anZkX1hUQ0xoUWZZUFVOY25iNnFaaHdGTEJ0Q09wV2RDX2NzbUpuaU9YTm9jT3E0Qi1RTFZYaHJOV0k5MmE3dC1Lem9VQzZ5ejBxaVg1QmM0akJ3WUw1bWIxbEJfS1JNYXR2c1ZFUVlocV9MaUJBMV9PaWtzMHdiRkd6SQ?oc=5",
+          "published_at": "2026-11-22T20:55:06+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Grimes Drops Two New Songs From Psy Opera - Hit Channel",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T19:25:37+00:00",
+      "summary": "Grimes Drops Two New Songs From Psy Opera Hit Channel",
+      "claims": [
+        "Grimes Drops Two New Songs From Psy Opera Hit Channel"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RdUlCRGlvNGNsaExDbEdIa2VSd3UtUUJqakpGUWs5RUJvWmpjWVJZOXJUaEhScTBEN3lvcFlySkNwRmFNb1ZPZUxKY01mTE93UFVKRGdfaTJ5a3N6aS1TbEdPVkFNaDRxRHo0a3VQemhiMDVGbEE?oc=5",
+          "published_at": "2026-11-22T19:25:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "20 Best AI Tools in 2026: Free and Paid Apps Ranked - PaidFreeDroid",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T19:02:47+00:00",
+      "summary": "20 Best AI Tools in 2026: Free and Paid Apps Ranked PaidFreeDroid",
+      "claims": [
+        "20 Best AI Tools in 2026: Free and Paid Apps Ranked PaidFreeDroid"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSFIzNVUwdFBoUWgxbFBCRmhQZHBFY18wQXE0QjVCM2ZEa3Z6S3pFUFdyWlRuQ25IUnN2SldkNG1fRmFkelZiaDZZRGFobEx2bnJxdHRqWUdlQk5uUUlhbVZtQlV5cTJWRzJRR3ZxTjc5WWxWVG90TFZodGR6ZlVEMFY5allHOE9ZdFc3ckpXMA?oc=5",
+          "published_at": "2026-11-22T19:02:47+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sarvam unveils upgraded 105B AI model, plans more releases amid Token Factory criticism - Moneycontrol.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T18:57:56+00:00",
+      "summary": "Sarvam unveils upgraded 105B AI model, plans more releases amid Token Factory criticism Moneycontrol.com",
+      "claims": [
+        "Sarvam unveils upgraded 105B AI model, plans more releases amid Token Factory criticism Moneycontrol.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQN3FPU3Z0X0U0aUk5a09NbnA5SU84TE1pUXc1aGdaTVdjVnBZR3U5YkhkLWZtaGczZ2xRTkdfZm8za2N1VTRiSDZEOU9vaVpiVzJCMzFDN0xXa29EZ2dQMXhISmFaMmhPUkRtb2YtZFg3UTFHWlROUjBtQWNha0dXTFE2NTgzNmpKd0tCSzZobU9BNmc5UkR6MkxPbnNLR3VacnFjYWl3WExYaDBORG91MGNfZ09TLW9MTUJtNEJPZnpDNjU0c1hpMVNvYk0wUHhlR1dFYWpuRTdKeTNSak1sY1dBVVpGQTZmbnV6UlNZcWZUMWPSAfgBQVVfeXFMTWdHc1JxeHgxNURjRnlsTXg4Z1lEcVBTbmlQNkFOQ3hQNGY5T2wxR1JiRm1WTkxsWTBRbG1XUWstYWJudGhwN3dDZFZ1NHdBMzk5SUVQRzRfNUI3ZmlwOEVpMjdsWEs3aktSNEtyeUNmNy1naENlMFpET2ExbmN4LXVPcVlDOXQ5eDNELW5Kc2NUNXJ3bEFjMEdUbWxrSWpueWJxaGZkcDJGTThFTVZBZmFCWVRnbDJwcnBVQkozTmotQ0dkaXUzS1FRMC00aFo5VnFIWHh6M09fcDZGZ3U1alhNbHRtMXJCSjVxWDhPcUpZSEFWcHA4ZmI?oc=5",
+          "published_at": "2026-11-22T18:57:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI Startup Claims Human-Level Smell Intelligence - Wisevoter",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T18:30:09+00:00",
+      "summary": "AI Startup Claims Human-Level Smell Intelligence Wisevoter",
+      "claims": [
+        "AI Startup Claims Human-Level Smell Intelligence Wisevoter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUWdQNGNCQ0tDeEl2SG5sS3RRRjVBdEtzQWZoamktRzhKUndVOFZJdVphWjZRODQwZm15QVJiNzZsOGkwUEtsc3U1RHFYUDhXblFLX0F6ZGZsbEFvNUtPaXprUGZzMV94bkdNeVhTQWVCcy1ZdEE4R2JJeERmNjFaSnQ5ZGlMcjVhLUgzejZsVUNVX2d3?oc=5",
+          "published_at": "2026-11-22T18:30:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "When AI causes harm, who should be held responsible? - Earth.com",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T18:05:00+00:00",
+      "summary": "When AI causes harm, who should be held responsible? Earth.com",
+      "claims": [
+        "When AI causes harm, who should be held responsible? Earth.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSTFyODNKVWRoVExkeG05NlJDeVRmclUyazVwU1o4aUV5YUw3djU3UmdRWHQzbWViUEtpNVB3R2c2Z0gtVnM3UG9MMkNzdERnekZZUzVUb3FrQjJQM3ZCVnJ2d1BjM3hoWDQtS1NaamdXQ1hlR0M3WW1BcFZuaXdfMVFZQVh4c2JV?oc=5",
+          "published_at": "2026-11-22T18:05:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Antonelli's lift cost Mercedes a final-lap shot at Las Vegas win - Grandprix.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-22T16:50:00+00:00",
+      "summary": "Antonelli's lift cost Mercedes a final-lap shot at Las Vegas win Grandprix.com",
+      "claims": [
+        "Antonelli's lift cost Mercedes a final-lap shot at Las Vegas win Grandprix.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWFJjejg4ZmV3NDNRRnhtQk8zWFJ0d0ZSeFA1U1dRcjVGUC1SZWxwbDlBOEphRmVBc28yeXlKbVc0MHBXOXlfekxlbTBmdVl0THlpZTFXMENoR2RaSF90eU95emp3OVIwM1lXWFdEQUlTZjhGZ0F5WWNTVFpOdV9iU3VCVG5UTXVULWM0SjFpRTBheUhVUE56dndxVDNWUHAt?oc=5",
+          "published_at": "2026-11-22T16:50:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Sarvam hits back at critics amid backlash over Chinese models, announces improved 105B AI model - The Economic Times",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T16:49:58+00:00",
+      "summary": "Sarvam hits back at critics amid backlash over Chinese models, announces improved 105B AI model The Economic Times",
+      "claims": [
+        "Sarvam hits back at critics amid backlash over Chinese models, announces improved 105B AI model The Economic Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPVjJudmp6eTRzNHVFSktUN1FOYTJ6dnNKRFNoa1FQMmtER21DQ2dsLW1ldWZralc2S2ViUm5ma3E1TW1UdjN6QWpkT1hDNXpmWFk1UDBmTFQ3aFdxMVVSNmRCMkk1VlJyWmQ3NHVDZERUd0NGNTMwcXRyX05zVHpxQy0xNE5RNmt6eS1HUmFTQVFBbjBtX0Vza3hYMktBT2h0TUw4c2JOMVJmVm5XY3JRTmdJVlFpSmVUREhERzJKTEw3dE1TWDZTMTE0ODhVNWI2SUNDTHlXQ25lckJ4RjVqbVFYT2F4Q3ctcEhUR0xBalVkRXRQOE40S203SDkyTzRPd1J6blU0MmnSAY4CQVVfeXFMTnQ1NUJRa3hCcEtDZ2FlSTk5ZTRTMTZmdk8wZGpibk9id3BvWDR6ZC1uQ0JLam9GeUhEcWZhM0lOdlJ5UWNYVEIwR2M5OHAtTjI5ZFlKRk5BcVhvaTNybXd0MDhUelNTNkVHSUR2dVdydTMzWk9KdkpRTHdJVDNNRmo2bzlDQ2JudHFveXdpeVltWkVGZV9sWHVkc091MWswZko5UUJvX09rclMtR2FsZTFpdFRvMktOWS1VYVE5S1FLeVNLRk1uVzN6eVlGbU04UXowWUtXR0xQd0pPUDlIcnJGa2Vnb1p5Tkh5d1YxVFFsbTJtYktXV1poV2UwQlNOdm1kTTVOUnlhWENYaG1R?oc=5",
+          "published_at": "2026-11-22T16:49:58+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Has AI solved the Riemann hypothesis? Claim rocks 200th birthday event in China - South China Morning Post",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-22T16:01:05+00:00",
+      "summary": "Has AI solved the Riemann hypothesis? Claim rocks 200th birthday event in China South China Morning Post",
+      "claims": [
+        "Has AI solved the Riemann hypothesis? Claim rocks 200th birthday event in China South China Morning Post"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU2hYcVM0OW8xRWZmcjdiR3FKbS1JcVpvLThrUGowbXk5eEpreUQ2bUZvSHltN3Z2bW44QUNQZWN4dmhNemlvOEp2QVkzdzUycjFLa1BXYjBUbnY1OGdKUVR1eVByNTNQVzQwWmk3T3l5UkxXalBqd1l5dE9hRUt5OW5TN3dkVDFLbHgzNGFUcFdPOHphbVIzWG9HTGpRUjltV0F1YUpDTmJpVmFGY2kwWE5lOW9UZWJVOVk4Xzc2Y09MZUJsTUFRZUFRWjI1UdIBzgFBVV95cUxQWWJfWkUwc3BLdTlWcGJXaGhpUGQtQUs0dWlybzRHQjBqQTA1S1Izc25aWHhhNkpwT21aOHQ4SDgzc0tKN3k5em41c2g2RGdNUDRqLVhCeWY2b3BPcjZXQlNYY2M5VXZ6TjB1UzJXdmlzS1dsT09VbHlmTUQxSXhZTTRjVW9Rb0NTN2YydjV6YVRUaEZQTkFlTklOU3FDZFVFM0h1bVN0cWFRR19pWjVOQXdnZEJVaGpGUm9iazZCcm1WX0d5dWt4WEFSNGZfdw?oc=5",
+          "published_at": "2026-11-22T16:01:05+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
