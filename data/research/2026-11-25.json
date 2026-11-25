@@ -1,0 +1,948 @@
+{
+  "report_date": "2026-11-25",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-25T03:05:17.100361+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 35
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 37
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 90,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Q&A: How Everstone Brings Where Winds Meet to Life with NVIDIA DLSS 5",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-24T22:26:24+00:00",
+      "summary": "Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more...",
+      "claims": [
+        "Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/",
+          "published_at": "2026-11-24T22:26:24+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "What’s New for Game Developers: AI Animation and RTX Tools",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-24T22:21:40+00:00",
+      "summary": "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image...",
+      "claims": [
+        "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
+          "published_at": "2026-11-24T22:21:40+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-24T18:44:13+00:00",
+      "summary": "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world...",
+      "claims": [
+        "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
+          "published_at": "2026-11-24T18:44:13+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Prepare Market Data for Forecasting with NVIDIA Megatron Core",
+      "category": "hardware",
+      "company": "NVIDIA",
+      "region": "US",
+      "published_at": "2026-11-24T17:19:53+00:00",
+      "summary": "Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market...",
+      "claims": [
+        "Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market..."
+      ],
+      "primary_sources": [
+        {
+          "name": "NVIDIA Technical Blog",
+          "organization": "NVIDIA",
+          "region": "US",
+          "kind": "official",
+          "url": "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/",
+          "published_at": "2026-11-24T17:19:53+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "hardware",
+        "inference",
+        "robotics"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-11-24T16:34:13+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+          "published_at": "2026-11-24T16:34:13+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "How Gemini is changing the game for Golden State's organization and fans.",
+      "category": "Gemini",
+      "company": "Google DeepMind",
+      "region": "US",
+      "published_at": "2026-11-24T16:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Google AI Blog",
+          "organization": "Google DeepMind",
+          "region": "US",
+          "kind": "official",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+          "published_at": "2026-11-24T16:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "Gemini",
+        "multimodal",
+        "research",
+        "science"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "claims": [
+        "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "published_at": "2026-11-24T13:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Searching for distant planets with Astra",
+      "category": "models",
+      "company": "OpenAI",
+      "region": "US",
+      "published_at": "2026-11-24T11:00:00+00:00",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "claims": [
+        "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes."
+      ],
+      "primary_sources": [
+        {
+          "name": "OpenAI News",
+          "organization": "OpenAI",
+          "region": "US",
+          "kind": "official",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "published_at": "2026-11-24T11:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "coding",
+        "models",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Anthropic is one of Elon Musk’s biggest competitors in artificial intelligence. It is also one of his biggest customers. - Facebook",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-25T00:52:14+00:00",
+      "summary": "Anthropic is one of Elon Musk’s biggest competitors in artificial intelligence. It is also one of his biggest customers. Facebook",
+      "claims": [
+        "Anthropic is one of Elon Musk’s biggest competitors in artificial intelligence. It is also one of his biggest customers. Facebook"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaWI4OW5SZWg5a3V0dlpkUGdOR0NzcV9tUHdOUjkwVV9Ka1pCMHJ1ekZNdHpFamp0ZW9wbDQycnlONTlNMXBaX21SWjdFU290YU0wWFc1SlhvVmVQdnVwWm41ai1OUERSNGItVkFnb0ltOHVFeVgxTmVCTXJabVlhekhpQ2taVkhUdnBsekVLSElsd19nWml3Q2NHYmdDbzdhTTR2QkV4ZW51cjdzck40M2RjeGZkcVl4YnB5Yk1MMTlyeWh4QVdqZEpwNUtRSXpSNThv?oc=5",
+          "published_at": "2026-11-25T00:52:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Solar Pro 4 vs Qwen 4 Max: 29 Index Points, a Quarter the Price - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-25T00:46:39+00:00",
+      "summary": "Solar Pro 4 vs Qwen 4 Max: 29 Index Points, a Quarter the Price OrcaRouter",
+      "claims": [
+        "Solar Pro 4 vs Qwen 4 Max: 29 Index Points, a Quarter the Price OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0MHJVN0x0NHRwVkFSMVhDQ2ZuY2xMWktGWUVIVEE0M3d2RUswQmdUZXkwamF2OUJ1V3JwNlI5UmNUQmVma25NSFAyY3dzakh1SVhCQy1aMjFlMzh2NmFnZW4tVVB2NEU?oc=5",
+          "published_at": "2026-11-25T00:46:39+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Solar Pro 4 vs Kimi K3.1 Pro: 33 Points and an Eighth the Output Price - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-25T00:44:56+00:00",
+      "summary": "Solar Pro 4 vs Kimi K3.1 Pro: 33 Points and an Eighth the Output Price OrcaRouter",
+      "claims": [
+        "Solar Pro 4 vs Kimi K3.1 Pro: 33 Points and an Eighth the Output Price OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tcXRwcTVHdlJlX1dTZnJtdDZXbE9xZ3FDSGN3RU5TYkRiOTdSR0FNNjdDOHRQcml6NVVyN0N0REplY0RFWmd3a2pxcW5PN2JEWkRfU0FOaW13VDF1cGhST3VfZGlwQkdRQS1Z?oc=5",
+          "published_at": "2026-11-25T00:44:56+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Solar Pro 4 vs DeepSeek V4.1 Pro: The Missing Model - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-25T00:34:25+00:00",
+      "summary": "Solar Pro 4 vs DeepSeek V4.1 Pro: The Missing Model OrcaRouter",
+      "claims": [
+        "Solar Pro 4 vs DeepSeek V4.1 Pro: The Missing Model OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jLXg2SU9yd3hqSzVqNlBNVmxoRWJ4Q21NUnhZQkZ0OWRJOXNOM253X3FGcWNUVFZ6V2Ria1BLNElZU2ZBajBwR1ZiSkpYY1NWOHNBdVZKc3E2V3E2VlU3dUs3Qm8xbm95NTFFeTBJb2o?oc=5",
+          "published_at": "2026-11-25T00:34:25+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Zhihu Invests 1.5 Billion Yuan for Indirect Stake in DeepSeek, CEO Zhou Yuan Says Core Business Won't Be Sacrificed - BigGo Finance",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-25T00:25:00+00:00",
+      "summary": "Zhihu Invests 1.5 Billion Yuan for Indirect Stake in DeepSeek, CEO Zhou Yuan Says Core Business Won't Be Sacrificed BigGo Finance",
+      "claims": [
+        "Zhihu Invests 1.5 Billion Yuan for Indirect Stake in DeepSeek, CEO Zhou Yuan Says Core Business Won't Be Sacrificed BigGo Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Ydzh6SmFJMEJiaHMzNFdWeFVlN0xEdEVTLWE3TVFfak5TZFhpZWJNMlZtY1lxVFBRcTRLa3piM2MycUNuZjhYb0RlanphNFd6a0xRUWpKM0lGSzg3TUxvMVgxZUJBZUNTS0lSS044Zm5YWlJuVnc?oc=5",
+          "published_at": "2026-11-25T00:25:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "AI Models Too Powerful: Anthropic, OpenAI Employees Warn Against Public Release - theopenpress.in",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-24T23:53:01+00:00",
+      "summary": "AI Models Too Powerful: Anthropic, OpenAI Employees Warn Against Public Release theopenpress.in",
+      "claims": [
+        "AI Models Too Powerful: Anthropic, OpenAI Employees Warn Against Public Release theopenpress.in"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUTlKWU5LRXBOTGNVYUtEdi13alpZODg3clJqR2ZUWTRsdjJHMXViV3BlSko3X1ZaMlJPRzdMUHE3R2pvazk5eDRJWlJwMXNwa0wyMTNBckJGYXhiM08tMVQ3b3llZEhPZC1xbmo5ek9IeVFnX1JLbTFsVGFOZXJrN09NZlMyWl8temVKcW5IVFgtd3NNZWFaMWVJZmFBLVlMbnFjNGFzMA?oc=5",
+          "published_at": "2026-11-24T23:53:01+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "DeepSeek founder now worth US$55bil - The Star",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-24T23:47:26+00:00",
+      "summary": "DeepSeek founder now worth US$55bil The Star",
+      "claims": [
+        "DeepSeek founder now worth US$55bil The Star"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmVvQUdNY3BKM2hsdEYtdUkxbXY2VklYd3EtN0VoMWgyVGxabUVfdnI0UHFSZVRXUGZTbUVRMXo3amNQTHRERlNnSXdxLTllZHp5QzRzWExCbXp4YjZfNmtVb2tRX2ZUdkNIRWw1N05Ha0JlNnBtb1dadnpFNENySzhXWk5lQmpsU2RieFZHX1FNTXlRNmhhSFVOYw?oc=5",
+          "published_at": "2026-11-24T23:47:26+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Toto Wolff sends clear message over Kimi Antonelli’s potential Ferrari future - Scuderia Fans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-24T21:52:19+00:00",
+      "summary": "Toto Wolff sends clear message over Kimi Antonelli’s potential Ferrari future Scuderia Fans",
+      "claims": [
+        "Toto Wolff sends clear message over Kimi Antonelli’s potential Ferrari future Scuderia Fans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYmk4Z09HR3pYQTRZYkNyS2VwcW9BcGpNR05PWlE2SlR0emliblRESG9aVVpmV1FQTi1NMldyWWd5RXpJTnA4R3VhYWExemdQTmtaemFoNVJpdmYtM1pTb0x0aFYzTU5xSzdQQjhkXy1UYWlDOWNEaTdjSmxyTGdTTkkwekd2bW5tLTJrc2hDNFNDRE1vQklWajZkYVYtdkdpaEo4Ng?oc=5",
+          "published_at": "2026-11-24T21:52:19+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "SpaceX weighs dropping China-made AI models from Cursor - IDNFinancials",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-24T23:20:00+00:00",
+      "summary": "SpaceX weighs dropping China-made AI models from Cursor IDNFinancials",
+      "claims": [
+        "SpaceX weighs dropping China-made AI models from Cursor IDNFinancials"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWWFQaEFzcGc3QVpsRFU2VjhESXBERVFNYVlENlUtT0ZhazN0ak93TjFtOEFsR3NzVDRlZGN3SlEzRkZsdWZTcXJjekVla3BIM2ZSQWQ3a1FuQjRrOTFpOEx4NEQ2RnhIc2kwWkFlSmZhTHRGR1B0YzFxVnZpMUZxU24taFVYSnJkVDBUUnRyVGNqa2RMcGh0bUdKQ3Y?oc=5",
+          "published_at": "2026-11-24T23:20:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "SWE-2.1 vs SWE-2: What One More RL Pass on K3 Bought - OrcaRouter",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-24T22:54:33+00:00",
+      "summary": "SWE-2.1 vs SWE-2: What One More RL Pass on K3 Bought OrcaRouter",
+      "claims": [
+        "SWE-2.1 vs SWE-2: What One More RL Pass on K3 Bought OrcaRouter"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pU2JtTG9rNlRJeFVfTmtRSjFndzl2em9Pc2R6Q3JrSzA5QWFuUzBKZlpJcVR6UUlickZQSFdJSGZMclpfaFdRUzhaMDdsU1FMM2pRbkpNUlBWWEU?oc=5",
+          "published_at": "2026-11-24T22:54:33+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AI Model Rapidly Predicts Sleep Apnea Severity Using Brief Physiological Recordings - Bioengineer.org",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-24T22:43:37+00:00",
+      "summary": "AI Model Rapidly Predicts Sleep Apnea Severity Using Brief Physiological Recordings Bioengineer.org",
+      "claims": [
+        "AI Model Rapidly Predicts Sleep Apnea Severity Using Brief Physiological Recordings Bioengineer.org"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQnZLRlk2WFJtdGlRWDFEekZoeTRZdkZ1cmZDMTdabGFodFFrN1p6ZF80YVZmUUdnNXR4Y3FiS1NnMnA5Q2NiNE54cGwxM0ZEY0RWNUdMMWNWNWRPMnozZklsQ2o0cWZOMkNyMjZNOVRlU2dKSjhuNXZSTkhWSVBXdk1saWNGX0RyNjJwLU9sakFWUDVJS01OR3hpT0RBMkJTN3NnVU9JZkNEaEtG?oc=5",
+          "published_at": "2026-11-24T22:43:37+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "WorldX develops AI model targeting African languages - Vanguard News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-24T21:21:02+00:00",
+      "summary": "WorldX develops AI model targeting African languages Vanguard News",
+      "claims": [
+        "WorldX develops AI model targeting African languages Vanguard News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSE9lNnU0eHdlbnBHSm1WejE1bGh0QjNKWHMzOTdYUFZ0cTZ1S256eXBZYzkyMGpCV1o1VUtnbEc1ZHRHaFFJQ0ZMekwydWpBalNuenU5ZlpyM29pYzNaeWJDeVhJZ3FfaTRqU3M0NWFZaUdXNkg3NWpBdHd3T1pMbHJ2amJ1cHlKNkJfXzhqc3YwZHPSAZgBQVVfeXFMTkxLVk52VEtVZ2pnVERiMzFhTjlVOFdyampaTGMwa0xOMl8yTHVlODlDZDNodlhQek95dG41OFRzejFaeXo0SmVyZGlJeERKZlJlOW9uQVNITGg5RDFkclBBeDFqOGtsYllldGJyb1JVbER5amdWel8zZW54REcxS204YlNENTg0WUF6aV9McHdTeTlQdnlQRVM?oc=5",
+          "published_at": "2026-11-24T21:21:02+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Tenaza launches TRAX, Nigeria’s first purpose-built AI model for debt recovery, cross-border asset tracing - Vanguard News",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-24T21:11:15+00:00",
+      "summary": "Tenaza launches TRAX, Nigeria’s first purpose-built AI model for debt recovery, cross-border asset tracing Vanguard News",
+      "claims": [
+        "Tenaza launches TRAX, Nigeria’s first purpose-built AI model for debt recovery, cross-border asset tracing Vanguard News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTXNiNnUtWnpsMGoyNWg2blI4dE9XZ0UyLWJhYzJpaEVTbmtmcnFXaXRZSk9lZzNfNEZWOTlPcDE4a2NwaGRIRTZ2amg5RlFzT1F1T2s1OURUOVZHNHd6Njd0cE9kV2dXWUV0S0xDQzZhc1JaamYyOEQ5WHlJMmtSOHdTNDR3aUwzd2txaktPeXpqcHduUk5oV3N1UWZZRDdBNUxkVlJ5OWMwU2JOWDFwNFRYNHZZZUV0SERmUUJoWnhIbVctUGFrSmdqaUVfVFVWbEtKYTV0MNIB3AFBVV95cUxOcjFSUVRzMVEyVF9YYUh3M3JvSTUxY3FLR0V5dThIOEc0cjVaQTR6cmdwQS11SXh0TGl1VlJldF8xWHkwbi1xdWR0Nkh3VExxOHMxR190aURzODQ4bW5NZVkwZms0d05WSFdkZnctc3lpcEJEZXpDcnF4NUMwM1JYV0sxbnNvLUJmaGw3Qi13azlhLXNqQ1BKdUY0RzBuMGxZRVNpZDVuUmlDMjdLa1VQTjJwemVXSWhncEZvY1ZDNS1KZUp1OG5OdklIZEhXekFSZGJocG4yaWE2V2pp?oc=5",
+          "published_at": "2026-11-24T21:11:15+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Frontier AI employees alarmed that unseen Open AI and Anthropic models are too powerful to release, report claims — worry spreads that executives are ‘out of touch’ with severity of risks, will choose profit over safety - Tom's Hardware",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-24T21:00:00+00:00",
+      "summary": "Frontier AI employees alarmed that unseen Open AI and Anthropic models are too powerful to release, report claims — worry spreads that executives are ‘out of touch’ with severity of risks, will choose profit over safety Tom's Hardware",
+      "claims": [
+        "Frontier AI employees alarmed that unseen Open AI and Anthropic models are too powerful to release, report claims — worry spreads that executives are ‘out of touch’ with severity of risks, will choose profit over safety Tom's Hardware"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPUDBvdGZPSXFmVHpDeGFIc1gyZTM2SDVpY1lsRF80djNqaDNzSkF5Uy1kbFdaT3ZFcG1abTRHVFFHYmFyZmVfMmVtUERkNVM0bU9xYlZUUF9qY3Vpa0tKRXlhZ2RqdVo2UmRvSjN1SklUOXA4anJfX2t4cURCLWQwTXJycUJURjNEZVB6ellRTUF4QWt4ZS1TOWZTNHNmUkN0elFXTFBNak5IMG5ONWpRM3QzUjZDTTAzcmgxcGFDMWFYd1NFc09LS1dDTTRvU1MwZ092ZEhsSkFHcW5zbTdpTjgxcmVzTHo2eUdZbUwta0VyT0h0am40MDhaMlZBeUJiUVluVy05TUlPbGRmdkptbDBUMHpLbFlBOFAweUR2OWlSUVN3R1NESHExdG5zOGE3U2pHWTdhOWFla040TUVHOWFRcXRaS2NGeV90MXFNd3NqMGRPRUlBR0tBcjAwMXlSTHJjOWVBM2dPZmdJd0VfNUtXNmcyQV91QTAtc0JGNU9kUTBKRXQ2VkpXUUo0aFBrOGc?oc=5",
+          "published_at": "2026-11-24T21:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "global"
+      ]
+    },
+    {
+      "title": "Best Open Source AI Models in 2026, Ranked and Compared - Fello AI",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-24T20:47:04+00:00",
+      "summary": "Best Open Source AI Models in 2026, Ranked and Compared Fello AI",
+      "claims": [
+        "Best Open Source AI Models in 2026, Ranked and Compared Fello AI"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51ZzZVb1llckpDajdIc0xua0d6VWU5SDJoN1dfR1hYQmtUTUZmdlZUN3Etd0cxY2FfcVMyVDlFTVl0YUNNT2hmOFVYMXV5SXJ5LTE5ME9qbGJRVWc?oc=5",
+          "published_at": "2026-11-24T20:47:04+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "DeepSeek founder Liang Wenfeng's wealth rises to $55 billion - The Daily Star",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-24T20:09:06+00:00",
+      "summary": "DeepSeek founder Liang Wenfeng's wealth rises to $55 billion The Daily Star",
+      "claims": [
+        "DeepSeek founder Liang Wenfeng's wealth rises to $55 billion The Daily Star",
+        "DeepSeek founder Liang Wenfeng’s wealth hits $55 billion News Karnataka",
+        "DeepSeek founder's wealth triples to $55 billion NewsBytes"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcC1ueG0yTXVDM1lXMXY2TlFoWVlxTHVqU25OUVlfZVJoYzdKOVlYM0tzMTcyc3ZVZVA5bVluaFJ0dElnTEFiXzZkSHdONzdiSWJldDFLUUZHWXoyUDM4MGVENTM2NGpzZTlkQVJCZUZPMXBvZWxld0dUUWhMb0RlM3Q3bkEwVElUZTJpZUpIckt0Z1pYcGlDYl9XTDkwd055M1hhM2pPVWR6WkJuOF9Pa1N5SQ?oc=5",
+          "published_at": "2026-11-24T20:09:06+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbnBTTTM1dTdYcF8wbHJoSnh0X0NUY3JyN0NkSmVzaTFBeENmZi1SQ3ozSTFZckRYSnhiRXhCUUlwdjhkUGJNVmtrT3FncFdaNFJQeHMyWnVQSFh5akpSS3FKekRMQ01YZFkwdjZ5MmZSRVlWM3lrY3k3Q1k3RjdwckFuZkk0Smd3eDF6SkVJQTFJdDJ0T0MwZ2xESnM?oc=5",
+          "published_at": "2026-11-24T17:11:37+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMmY1Yi1XQ0dtUVFIZzVKd3pkRXhLMmc0N183UU8xN3dUSE1wQXVQdmNEODZ5c0xuRF9Sa1ZDMjc0ekFhdnhFdzJETU9HVnNOWlpBWi1KdWdoVk45YVB4ZXdQcmcybmVtaVBzY0VjdmpUTnUxbTdOem9iRVRTc2tuM0VzRHo5SFpuOEcyQS1vaGF5UDdvV0FqakdOMWFmZlhZRE12UlZTYkZnaFRraFNv?oc=5",
+          "published_at": "2026-11-24T05:03:23+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    }
+  ]
+}
