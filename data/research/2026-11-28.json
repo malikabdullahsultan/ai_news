@@ -1,0 +1,970 @@
+{
+  "report_date": "2026-11-28",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 36,
+  "window_ends_at": "2026-11-28T02:03:12.828456+00:00",
+  "watchlist_checked": {
+    "global_topics": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "Anthropic",
+      "Claude",
+      "Claude Code",
+      "Google DeepMind",
+      "Gemini",
+      "Google Research",
+      "Meta AI",
+      "Llama",
+      "Microsoft",
+      "Copilot",
+      "Azure AI",
+      "NVIDIA",
+      "AMD",
+      "xAI",
+      "Grok",
+      "Hugging Face",
+      "robotics",
+      "computer use",
+      "AI agents",
+      "MCP"
+    ],
+    "china_topics": [
+      "DeepSeek",
+      "Alibaba",
+      "Qwen",
+      "Tencent",
+      "Hunyuan",
+      "Baidu",
+      "ERNIE",
+      "ByteDance",
+      "Doubao",
+      "Seed",
+      "Moonshot AI",
+      "Kimi",
+      "Zhipu AI",
+      "GLM",
+      "MiniMax",
+      "01.AI",
+      "StepFun",
+      "Huawei",
+      "Pangu",
+      "Ascend",
+      "Xiaomi AI",
+      "SenseTime",
+      "iFlytek",
+      "Ant Group AI",
+      "JD AI",
+      "Meituan AI",
+      "Unitree",
+      "Chinese AI chip",
+      "中国人工智能",
+      "大模型",
+      "机器人"
+    ],
+    "china_check_performed": true
+  },
+  "source_status": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "name": "Qwen Blog",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "DeepSeek GitHub Releases",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Artificial Intelligence",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "status": "ok",
+      "items": 398
+    },
+    {
+      "name": "arXiv Machine Learning",
+      "url": "https://export.arxiv.org/rss/cs.LG",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "arXiv Robotics",
+      "url": "https://export.arxiv.org/rss/cs.RO",
+      "status": "ok",
+      "items": 0
+    },
+    {
+      "name": "AI news discovery",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+AI+model+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 25
+    },
+    {
+      "name": "Chinese AI news discovery",
+      "url": "https://news.google.com/rss/search?q=DeepSeek+OR+Qwen+OR+Kimi+OR+%E7%99%BE%E5%BA%A6%E6%96%87%E5%BF%83+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "status": "ok",
+      "items": 90
+    }
+  ],
+  "successful_source_count": 12,
+  "raw_item_count": 514,
+  "candidate_story_count": 24,
+  "stories": [
+    {
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "category": "open-source",
+      "company": "Hugging Face",
+      "region": "Global",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "",
+      "claims": [],
+      "primary_sources": [
+        {
+          "name": "Hugging Face Blog",
+          "organization": "Hugging Face",
+          "region": "Global",
+          "kind": "official",
+          "url": "https://huggingface.co/blog/video-trainium3",
+          "published_at": "2026-11-27T00:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "models",
+        "open-source"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces, sensor readings, or environment changes may be unavailable, distorted, or poorly selected. We call the effort to reduce this bottleneck context scaling. We frame a model as $P_\\theta(d\\mid c)$ within a system governed by three budgets: training $B_\\theta$, decision-time $B_d$, and context-infrastructure $B_c$. Pretraining scaling invests in $\\theta$; decision-time scaling searches, refines, or verifies decisions under supplied context; context scaling improves the system's capacity to acquire, represent, deliver, evaluate, and persist deployment state for model use. The three programs interact, but only $B_c$ targets what the system can make available before a decision. This view makes the model-infrastructure pair the unit of analysis. We define effective-context value as a task- and intervention-dependent attribution, separate deployment state from model-visible context, and identify availability, fidelity, selection, and utilization failures. We then organize current mechanisms through a five-operation context lifecycle and propose controlled budget interventions and utility-cost curves for evaluation. The result",
+      "claims": [
+        "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces, sensor readings, or environment changes may be unavailable, distorted, or poorly selected. We call the effort to reduce this bottleneck context scaling. We frame a model as $P_\\theta(d\\mid c)$ within a system governed by three budgets: training $B_\\theta$, decision-time $B_d$, and context-infrastructure $B_c$. Pretraining scaling invests in $\\theta$; decision-time scaling searches, refines, or verifies decisions under supplied context; context scaling improves the system's capacity to acquire, represent, deliver, evaluate, and persist deployment state for model use. The three programs interact, but only $B_c$ targets what the system can make available before a decision. This view makes the model-infrastructure pair the unit of analysis. We define effective-context value as a task- and intervention-dependent attribution, separate deployment state from model-visible context, and identify availability, fidelity, selection, and utilization failures. We then organize current mechanisms through a five-operation context lifecycle and propose controlled budget interventions and utility-cost curves for evaluation. The result"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33160",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausible but physically infeasible, or rated highly by a judge while quietly breaking a task requirement. We propose a scoring framework that combines a small set of hard checks every answer must pass with a wider set of softer checks whose scores are blended into one number per candidate. This adaptive scoring framework consists of three components: a drafting model that produces the candidates, a configuring model that selects and weights the checks for each task, and scoring models that rate properties no grounded tool can compute. We apply our proposed method to four tasks: writing code that is both correct and secure (CWEval), generating robot manipulation plans (LIBERO with added safety variants), passing competitive-programming hidden tests (LiveCodeBench), and answering questions from retrieved documents (HotpotQA). An ablation study isolates the contribution of each component and finds that the largest gains come from combining hard checks with candidate comparison: on tasks where the first sampled answer is often broken or unsafe, this pairing lifts joint correctness-and-safety by",
+      "claims": [
+        "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausible but physically infeasible, or rated highly by a judge while quietly breaking a task requirement. We propose a scoring framework that combines a small set of hard checks every answer must pass with a wider set of softer checks whose scores are blended into one number per candidate. This adaptive scoring framework consists of three components: a drafting model that produces the candidates, a configuring model that selects and weights the checks for each task, and scoring models that rate properties no grounded tool can compute. We apply our proposed method to four tasks: writing code that is both correct and secure (CWEval), generating robot manipulation plans (LIBERO with added safety variants), passing competitive-programming hidden tests (LiveCodeBench), and answering questions from retrieved documents (HotpotQA). An ablation study isolates the contribution of each component and finds that the largest gains come from combining hard checks with candidate comparison: on tasks where the first sampled answer is often broken or unsafe, this pairing lifts joint correctness-and-safety by"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33161",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that connect a result to a formal library. Existing evaluations often provide isolated theorem statements in settings where much of this supporting theory is already available in Mathlib. We introduce AutoformBench, a benchmark of 341 Lean 4 formalization tasks drawn from 24 advanced mathematical sources. Lean-experienced mathematicians formalized and audited each target statement, leaving the corresponding Lean proof to the evaluated agent. Each problem is embedded in a broader mathematical development: agents receive the informal proof but must translate it into Lean while constructing the missing definitions, intermediate lemmas, and supporting infrastructure. We compare the performance of frontier models on these problems. We find a largely shared difficulty frontier: success depends less on mathematical domain than on models' ability to construct missing formal infrastructure. Data and code at https://github.com/facebookresearch/autoformbench",
+      "claims": [
+        "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that connect a result to a formal library. Existing evaluations often provide isolated theorem statements in settings where much of this supporting theory is already available in Mathlib. We introduce AutoformBench, a benchmark of 341 Lean 4 formalization tasks drawn from 24 advanced mathematical sources. Lean-experienced mathematicians formalized and audited each target statement, leaving the corresponding Lean proof to the evaluated agent. Each problem is embedded in a broader mathematical development: agents receive the informal proof but must translate it into Lean while constructing the missing definitions, intermediate lemmas, and supporting infrastructure. We compare the performance of frontier models on these problems. We find a largely shared difficulty frontier: success depends less on mathematical domain than on models' ability to construct missing formal infrastructure. Data and code at https://github.com/facebookresearch/autoformbench"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33165",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuning quality and cost. We investigate whether general-purpose decision models can guide tuning, using Jev as a deployed representative that returns structured choices and numeric scores across diverse tasks. To assess where it helps, we compare its use as an optimizer, performance predictor, and region guider against conventional methods and a large language model (LLM) on eight AI tuning tasks. Conventional optimizers attain rank 1 in six of eight comparisons. Similarly, established predictors outperform Jev in seven. Through region guidance, however, it finds configurations with lower perplexity than those selected by the native tuner, offering a quality gain when additional decision time and API fees are acceptable. These findings yield actionable recommendations on selecting the decision role, retaining conventional predictors, and balancing tuning quality against cost.",
+      "claims": [
+        "arXiv:2611.33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget. Existing tuners use different sampling and search policies, making the choice of decision strategy central to both tuning quality and cost. We investigate whether general-purpose decision models can guide tuning, using Jev as a deployed representative that returns structured choices and numeric scores across diverse tasks. To assess where it helps, we compare its use as an optimizer, performance predictor, and region guider against conventional methods and a large language model (LLM) on eight AI tuning tasks. Conventional optimizers attain rank 1 in six of eight comparisons. Similarly, established predictors outperform Jev in seven. Through region guidance, however, it finds configurations with lower perplexity than those selected by the native tuner, offering a quality gain when additional decision time and API fees are acceptable. These findings yield actionable recommendations on selecting the decision role, retaining conventional predictors, and balancing tuning quality against cost."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33190",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate response. We introduce a clinically grounded taxonomy that characterizes harm along three dimensions: what the harm is, who is involved, and when it occurs. It further separates harm characterization from intervention decisions, thus enabling safety policies to be specified outside the model weights through explicit, clinician-curated instructions that can be updated and audited. We validate the taxonomy with expert clinicians and validate a panel of LLM judges to scale annotation. Relabeling public benchmarks in this taxonomy shows that they rarely contain harm directed at the user, which accounts for nearly half of the harm in real conversations. We then train MindGuard2, a 35B-A3B reasoning-based guard model using supervised fine-tuning on short reasoning traces followed by reinforcement learning with a reasoning-length penalty, to minimize inference overhead while preserving the benefits of reasoning. On two public benchmarks and real-world conversations, MindGuard2 achieves balanced accuracy comparable to the substantially larger GLM-5.3 at approximately 10x lower median latency, advan",
+      "claims": [
+        "arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate response. We introduce a clinically grounded taxonomy that characterizes harm along three dimensions: what the harm is, who is involved, and when it occurs. It further separates harm characterization from intervention decisions, thus enabling safety policies to be specified outside the model weights through explicit, clinician-curated instructions that can be updated and audited. We validate the taxonomy with expert clinicians and validate a panel of LLM judges to scale annotation. Relabeling public benchmarks in this taxonomy shows that they rarely contain harm directed at the user, which accounts for nearly half of the harm in real conversations. We then train MindGuard2, a 35B-A3B reasoning-based guard model using supervised fine-tuning on short reasoning traces followed by reinforcement learning with a reasoning-length penalty, to minimize inference overhead while preserving the benefits of reasoning. On two public benchmarks and real-world conversations, MindGuard2 achieves balanced accuracy comparable to the substantially larger GLM-5.3 at approximately 10x lower median latency, advan"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33263",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and stating its premises as the problem. However, a planted proof is only one possible proof. A problem can also have shorter proofs, or several unrelated ones, and its stated depth then overstates what solving it requires. We measure what a problem actually requires, relative to a stated set of inference rules. For each problem, we compute the steps every proof must make, the shortest proof, the number of minimal proofs and the indispensable premises, and export certificates that an independent checker verifies. Audits of eight datasets find depth that is forced (ProofWriter, Blocksworld), problems labelled depth 5 that require about two specific rule applications (FLDx2), and answers that need no particular step (ZebraLogic). We then construct problems whose every proof has a requested structure, using a catalog of shortcuts proved once per rule set. Every constructed problem is checked in full and comes with its own certificate. In training, the best data mixes depths and problem types. At equal size, such mixtures of certified problem types, including model-checking problems that forward generation does not produce, transfe",
+      "claims": [
+        "arXiv:2611.33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models. Their difficulty is usually set by planting a proof, that is, by sampling a proof of the desired depth and stating its premises as the problem. However, a planted proof is only one possible proof. A problem can also have shorter proofs, or several unrelated ones, and its stated depth then overstates what solving it requires. We measure what a problem actually requires, relative to a stated set of inference rules. For each problem, we compute the steps every proof must make, the shortest proof, the number of minimal proofs and the indispensable premises, and export certificates that an independent checker verifies. Audits of eight datasets find depth that is forced (ProofWriter, Blocksworld), problems labelled depth 5 that require about two specific rule applications (FLDx2), and answers that need no particular step (ZebraLogic). We then construct problems whose every proof has a requested structure, using a catalog of shortcuts proved once per rule set. Every constructed problem is checked in full and comes with its own certificate. In training, the best data mixes depths and problem types. At equal size, such mixtures of certified problem types, including model-checking problems that forward generation does not produce, transfe"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33303",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33304v1 Announce Type: new Abstract: The Platonic Representation Hypothesis (PRH) posits that AI models converge toward a shared representation of the world, even when trained on different data modalities. Previous work has found evidence for the PRH in the activations of vision and language models. In this work, we ask whether vision and language models also converge in how they act on these representations: precisely, in how these internal representations affect the models' output. At a chosen layer of a transformer, the Jacobian lens gives every word in the vocabulary (or class in an image classifier) a vector in the hidden state: the vector that most increases the model's tendency to generate that word, at that position or later, or to predict that class. Collectively, these vectors make up what is referred to as the model's J-space. We find evidence of the PRH in J-space across vision and language models, and furthermore, we find that J-spaces mostly converge up to a rotation. That is, a single rotation, fitted on a subset of words, approximately maps one model's J-space onto another's, and so applies to words and classes it was not fitted on. A word's vector, rotated from a text-only language model's J-space into the visual patch tokens of a vision-language model, changes the object the vision-language model says is in the image (and only in the image region wh",
+      "claims": [
+        "arXiv:2611.33304v1 Announce Type: new Abstract: The Platonic Representation Hypothesis (PRH) posits that AI models converge toward a shared representation of the world, even when trained on different data modalities. Previous work has found evidence for the PRH in the activations of vision and language models. In this work, we ask whether vision and language models also converge in how they act on these representations: precisely, in how these internal representations affect the models' output. At a chosen layer of a transformer, the Jacobian lens gives every word in the vocabulary (or class in an image classifier) a vector in the hidden state: the vector that most increases the model's tendency to generate that word, at that position or later, or to predict that class. Collectively, these vectors make up what is referred to as the model's J-space. We find evidence of the PRH in J-space across vision and language models, and furthermore, we find that J-spaces mostly converge up to a rotation. That is, a single rotation, fitted on a subset of words, approximately maps one model's J-space onto another's, and so applies to words and classes it was not fitted on. A word's vector, rotated from a text-only language model's J-space into the visual patch tokens of a vision-language model, changes the object the vision-language model says is in the image (and only in the image region wh"
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33304",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+      "category": "research",
+      "company": "arXiv",
+      "region": "Global",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "summary": "arXiv:2611.33322v1 Announce Type: new Abstract: A language model can name a brand without classifying it correctly. This study measures these outcomes separately for 1,000 B2B SaaS brands across 333 product categories. On Gemma 4 12B, with no external retrieval, category prompts elicit 510 brands (51.0%). A separate five-candidate category probe ranks the reference label first for 787 brands, a distractor first for 194, and yields little separation for 19. Among the 981 separated rankings, the error rate is 19.8%. It falls to 3.5% for the 547 brands with a winner-to-runner-up log-probability margin above 0.6. These are within-cohort measurements, not calibrated confidence estimates. Exploratory regressions associate technical coverage with recall and an owned-properties composite with category accuracy, but the composites use different adjustment sets and do not establish causal effects. Across four Gemma generations, measured recall is 39.8%, 44.3%, 51.1% and 51.0%. A separate representation-based sentiment measure has little linear association with customer ratings (r=0.03, n=921). The findings support reporting recall and category accuracy separately. Failure to elicit a brand does not establish its absence from model parameters or training data.",
+      "claims": [
+        "arXiv:2611.33322v1 Announce Type: new Abstract: A language model can name a brand without classifying it correctly. This study measures these outcomes separately for 1,000 B2B SaaS brands across 333 product categories. On Gemma 4 12B, with no external retrieval, category prompts elicit 510 brands (51.0%). A separate five-candidate category probe ranks the reference label first for 787 brands, a distractor first for 194, and yields little separation for 19. Among the 981 separated rankings, the error rate is 19.8%. It falls to 3.5% for the 547 brands with a winner-to-runner-up log-probability margin above 0.6. These are within-cohort measurements, not calibrated confidence estimates. Exploratory regressions associate technical coverage with recall and an owned-properties composite with category accuracy, but the composites use different adjustment sets and do not establish causal effects. Across four Gemma generations, measured recall is 39.8%, 44.3%, 51.1% and 51.0%. A separate representation-based sentiment measure has little linear association with customer ratings (r=0.03, n=921). The findings support reporting recall and category accuracy separately. Failure to elicit a brand does not establish its absence from model parameters or training data."
+      ],
+      "primary_sources": [
+        {
+          "name": "arXiv Artificial Intelligence",
+          "organization": "arXiv",
+          "region": "Global",
+          "kind": "research",
+          "url": "https://arxiv.org/abs/2611.33322",
+          "published_at": "2026-11-27T05:00:00+00:00"
+        }
+      ],
+      "secondary_sources": [],
+      "creator_sources": [],
+      "topics": [
+        "agents",
+        "reasoning",
+        "research"
+      ],
+      "verification_notes": [],
+      "confidence": "high",
+      "watchlist_matches": []
+    },
+    {
+      "title": "F1 Qatar GP long runs: Kimi Antonelli nearly a second clear of Max Verstappen on Friday - Motorsport.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T22:26:14+00:00",
+      "summary": "F1 Qatar GP long runs: Kimi Antonelli nearly a second clear of Max Verstappen on Friday Motorsport.com",
+      "claims": [
+        "F1 Qatar GP long runs: Kimi Antonelli nearly a second clear of Max Verstappen on Friday Motorsport.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOY3ZfVThVOHBmYUlCdXJsZzZpbWlOTkNXTVZ2eHRqUGpHYmRQVEVOQ00wVnRkbWU5ZU1ELXYzSU9LRE91T2VMOE8yb0V4NlItdmRfVmI4amV4eV9ZeFlvOTNXRDZNZ3JWVjlFeXFzM2hyaHFrR3EzMTVRRmhFTFJFSHY0dVcxU1N0djNiaDJIY3IyZWx6Si1STGdBbnpXc3dnQkd6eGNOZVdRYW5oVllBaEp1Zzlvd1FTcXlYWHMzNVlrV3ZTUFBkZnZqWTJNdw?oc=5",
+          "published_at": "2026-11-27T22:26:14+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "U.S. Crackdown on Overseas Compute Pays Off as Chinese AI Flagship Models Fall Into Disarray, Kimi K4 Delayed to Mid-2027 - BigGo Finance",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T21:55:00+00:00",
+      "summary": "U.S. Crackdown on Overseas Compute Pays Off as Chinese AI Flagship Models Fall Into Disarray, Kimi K4 Delayed to Mid-2027 BigGo Finance",
+      "claims": [
+        "U.S. Crackdown on Overseas Compute Pays Off as Chinese AI Flagship Models Fall Into Disarray, Kimi K4 Delayed to Mid-2027 BigGo Finance"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DZGQ2VHRTQ1hhdGZYeGlMMWNTTjZMUWxsLTJCUTlzbnZoc09YM2wwX0RiSWNxZDBjd3lLWjVQTWc1a2otRloySlhQc1pKZjk5OTFtYzRCYWtxQnExSks5bmI5aTYwUDNKNFJ4ZVNfYzlGMjI0ckE?oc=5",
+          "published_at": "2026-11-27T21:55:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Antonelli completes Qatar practice double as Mercedes dominate - Free Malaysia Today",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T21:23:02+00:00",
+      "summary": "Qatar GP: Kimi Antonelli completes Friday practice double as Mercedes dominate despite red-flag interruptions Sky Sports",
+      "claims": [
+        "Antonelli completes Qatar practice double as Mercedes dominate Free Malaysia Today",
+        "Qatar GP: Kimi Antonelli completes Friday practice double as Mercedes dominate despite red-flag interruptions Sky Sports",
+        "Kimi Antonelli completes Qatar GP practice double as Mercedes dominate The Straits Times"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLU15ak5nSnZGYTlINHFjelJfd0k1bU5kUm55am40ZWVOcnhkZlVjZmVBcDNDTF80NXBfdDZiYmtrbDRhRmtlOFdhcC1ZTUJiaHNobG1reXQxejA5bUNOX2I0NVU3anNQbUZPQmRkM2c0MklaQ0xBMGRfUDczWkJ0Z2VlM013TU9KTkpxRE5NT1ZRdnRCLTJCR1NsRVNOcU5PSEs2Z0ZxN1RQM1RTalYxVjE0WTdFbFAtemNLLXI1N28?oc=5",
+          "published_at": "2026-11-27T21:23:02+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSmMzOWZ5X0lvdklCbk1oazZEYi1LbTNiSEtSSGZyWE9VeDlvR0pXaWd0X19JM3p5VmhqWWZFSjktcDBGVlZqbjFIR3Y5U3dWa0VGSmVOSWdtZWU3dXp2Mjhfbi1JZVREc3pFbXpoU3VBVjRIUXpzMjFIc2RkU3dSaDVRZGIwNXRYc2kzOUpGZGgtMmFvSjI2NFdiaThfNWVkN1hJd0NkdThGRWc0ek1ueGhrYXUzQlZDWmIwb1o2UzFURE1lMmJFZk93VGxnbWpZN2c1ZUtfMTlZODlnZjhQRWwxdzNOZw?oc=5",
+          "published_at": "2026-11-27T19:57:04+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWHQ1SURRREpySzNMZC1kNDV5ZFNvYmRyUEUycmQxc0hwb3ZfQ3NBRFVkZWxSMXk5QUh6U3FpQXE3V0wwVGpDN1RMbmNjbXZIYnh2bzM0b0FpZVZQNzM4c0R5eG9LUVJTRGxIU0JhQ0dtTWFKMXNKbVlBZXlQeWF6UTR6Qlc5d1JZU2NHNVgzdEhxbUtGTF9mRzAwWFRpckMycFd0ZmVjelBXYzNxb3JRWQ?oc=5",
+          "published_at": "2026-11-27T15:07:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli voices Max Verstappen desire as motorsport icon announces shock retirement - RacingNews365 Review - RacingNews365",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T21:00:00+00:00",
+      "summary": "Kimi Antonelli voices Max Verstappen desire as motorsport icon announces shock retirement - RacingNews365 Review RacingNews365",
+      "claims": [
+        "Kimi Antonelli voices Max Verstappen desire as motorsport icon announces shock retirement - RacingNews365 Review RacingNews365",
+        "Kimi Antonelli voices desire to partner up with Max Verstappen RacingNews365"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORjBzR0NQQkZwNWkzOWxkZ2NpblJvbGRlZDU4dDBONUVOdTFBbWFoNktGSjMxZ1piRG1xamFqbGluUlRGWGUwQjhwUk96R2pndG54V3JWdmsyNnlfN3pDcmRaR2pnT1FNdXNlYks5NEZQVGtJSm94ajU2bG9OdElaM1dGamhjQU1vR2VSY0lJWEV1V0hPT2JGbGdLdUZkQy1qRkdxUUpHNUF2YWZZcm5EeHAtYXY3cXhUS3BDZTBjNE41UGZtRG1IY0F5MmQ5VlJmbnc?oc=5",
+          "published_at": "2026-11-27T21:00:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRllOWTVqZGZuZlZOdmUzZmI4VXZNQ0puQ2pWR2NuUEFZWTd5d2xwOG5ZY1NoTlpaREdKbFdtNzgzZFJJV0JfZ3ZMWTRGNjJtM0dMS2dnU0l5dURSMUV2RnAzbGFFbHNZY1A4YVhzZ0RRRUZQQ1ppTzJsbDdqQmxhN3JZN2l3TWRqNHR6aXpXOUMyUQ?oc=5",
+          "published_at": "2026-11-27T08:00:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "F1 Update: Kimi tops both practice sessions - CODE Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T20:48:00+00:00",
+      "summary": "F1 Update: Kimi tops both practice sessions CODE Sports",
+      "claims": [
+        "F1 Update: Kimi tops both practice sessions CODE Sports",
+        "F1 Update: Kimi tops both practice sessions Fox Sports",
+        "F1 Update: Kimi tops both practice sessions NT News"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmk1TEd4V1dSenFKT3Y5RHJLdWFkbllzd3cxeXhRMnJoZE1WSVhsbzVSNEhLQ3ltN3lERkdpY2wzT1ktWTVVRmlGZWp5NTNYa1NKbDl0bUhJZFdXVGFwLVltX3NrR3pRMkRyaEY1S3I2SVlDcjhBM0pMVzdRejRBN2VZS2ZUYXZUNmhCVlRnR1VRSTNEM2dFZnJtM1JfbDZfeGxiX3ZpYmNFbTU3ZUR6TFFFTWlrTElSZlNGQjJRQQ?oc=5",
+          "published_at": "2026-11-27T20:48:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSEl3ZzljcDdYa0FDbGE5VTMybl82TnJTU05UYVBITG51LUhSc2ZxOUhObU9nYUYzM1ZKZzREdFNfeFY0SF9tVGJ5MEtKSmVYWFJWMmJPMjIzdE9yQ0VWRWRwblRUMHU4RjZEVUlRbXhmUFZUdE1rdmlYaVJwa09XbnFURjBHbThqMG9Cd2VFQXU5emlFM2RWZHk0T2J3cjFEdVE4c1lrVzlnVTE2TDk2ak1BMENDR0dRTjk4?oc=5",
+          "published_at": "2026-11-27T20:48:00+00:00"
+        },
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdmt1b3k2dkl2NG1BTUVLM29xX3dXUldLMkhaX045WlY1VzJNMzZYWWt5aHhXS1hXdGItMHNBeHJ2TkRicElyeklJYUR0dkQxZWJ4c01ISlprWnd1cTUtM3RHbTdxVkRmbG12ZTZBMWQtTzNSb1VWNzhkbGVoRTJId2VFZVlNVGRvVFBHUl90MnlLU3FPdk9OWGdlaUpWWmQzUGZGUWJndmE3R1RNOFoxWWU2LS1xWjRSTmg4LVREXy1RZw?oc=5",
+          "published_at": "2026-11-27T20:48:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli wants Verstappen as a teammate and asks Mercedes for permission. - GPFans",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T20:44:00+00:00",
+      "summary": "Kimi Antonelli wants Verstappen as a teammate and asks Mercedes for permission. GPFans",
+      "claims": [
+        "Kimi Antonelli wants Verstappen as a teammate and asks Mercedes for permission. GPFans"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRXEyRnNkd3dWWjRIMnJ6c0N4S1R4TW95MW9oc2dCYjd1REtaREN3WUVNU2xKdzZYRlhpUmtTU0ZyakpPZkJibFBzbmE5QW1sR1A2ZWMxRExCckQ4VmhKX3hudDdBbmY3Q0pCaVZaMjd3bkM0TlVVRXVlZkt6NkF6ZUp0UkpFZVJZTWRIR2JCZ0p1NmZZSEo0QUVIMEF6X2R4?oc=5",
+          "published_at": "2026-11-27T20:44:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Cognition Releases SWE-2.1, a Kimi-Based Coding Model - The Defiant",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T20:17:20+00:00",
+      "summary": "Cognition Releases SWE-2.1, a Kimi-Based Coding Model The Defiant",
+      "claims": [
+        "Cognition Releases SWE-2.1, a Kimi-Based Coding Model The Defiant"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNelFESXVudzdtQ1RxUFNxWlBkNG9DNmp3NnlSVFhLV2xYWnVmV1dZYm4xTUN5VFJWSGVRMG8xZ21ZV05Zcl9UNjRSSElON0NpMkQ2bDhrU3NSd0FiQjFjSVoycDZONmpNc2puWmkzSkhZRDhhRXhLcllDYXhfQ0loMVNUZ0UwQ2JRTDNEOXhXcw?oc=5",
+          "published_at": "2026-11-27T20:17:20+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli reveals major concern for Qatar Grand Prix - PlanetF1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T20:08:48+00:00",
+      "summary": "Kimi Antonelli reveals major concern for Qatar Grand Prix PlanetF1",
+      "claims": [
+        "Kimi Antonelli reveals major concern for Qatar Grand Prix PlanetF1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVzJfekYzTGVlYTBjUjBsT1hLbXgtcFFmUDFrTnRkekdtTDRzSy15RlNqQmhEQXI0NzBLeFBTNk5OSTVlUlBxQnJOakhJMHRNMHAteUlEQjlqek9qMmhKZ0pNNzJ5SUNNZ3ZsMGRBUVVfZjJ5OVB5YkV5WWhvbHQ5dGFTNGxKdw?oc=5",
+          "published_at": "2026-11-27T20:08:48+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "BharatGen Patram 1.5: Indigenous AI model launched to decode handwritten notes, scanned papers & multilingual documents - Organiser",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-28T01:32:35+00:00",
+      "summary": "BharatGen Patram 1.5: Indigenous AI model launched to decode handwritten notes, scanned papers & multilingual documents Organiser",
+      "claims": [
+        "BharatGen Patram 1.5: Indigenous AI model launched to decode handwritten notes, scanned papers & multilingual documents Organiser"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVXp2dTJuRkJWbjdWS2diVURUenRlVmFtbS01Z25qOTRxZDlBLUhkYzN1Zll2ZjZESkVPbWxETFJmR2JmbG5tcUV1NGQxY3JGcXMyUnNkemlRckxNMWJ0a0ZzNTZ2S3B2WkxJN3pDR3daZTNiOW94cFdHUW14RnU5RWU5cmwtSE1FZnJXcDNvRlpFUnU5cHNxekhuYmtQRmF3M2ZKeXpKTE9BLXBkTFZjWXJWU2tKX0FDZ0F2MW9uMUVMcE00WG1OcnhWZTljNExKa0V5S3lna2pmSTlCLWZjVjkzQlNZWVY4SUhxOU5wenJ0WEM0RHfSAfsBQVVfeXFMT1AxX1NNbnRTXzRPWjhGcHdMdmVjMGoyU1ZxTHZmRFJHMEhpM1ZMZjUyNkFvcU1wWmRxQzVqdUZncUlYQUdxaFo1dWhQYWZOeFpETWp4TnJSdU5fXzJyWm5aT1M5anpjRGltanhsd1V6QlBpdURmQ0U4LTItWHFGYVpHMTJYZ3Q5a2ZqRTFWdllmSXdDS0d6TG1fN0NCOHZoSHFWUEdyUHdSaVdETE1YWUk0cDZhWlZDMWhvaGZlTjlEVFU5LUlJT25xN21qTzBkNDhJazJUejZhSnMwMkJIMFRPVkgtdG90c2k1Zlg0UjJXekJYX3B1aWw2emM?oc=5",
+          "published_at": "2026-11-28T01:32:35+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "XPENG unveils WorldGPT, an AI model that powers cars, robots and drones - YugaTech",
+      "category": "discovery",
+      "company": "Google News RSS",
+      "region": "Global",
+      "published_at": "2026-11-27T22:11:11+00:00",
+      "summary": "XPENG unveils WorldGPT, an AI model that powers cars, robots and drones YugaTech",
+      "claims": [
+        "XPENG unveils WorldGPT, an AI model that powers cars, robots and drones YugaTech"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "AI news discovery",
+          "organization": "Google News RSS",
+          "region": "Global",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEpVSWpNTEFzM1lVZjBNZGtCZHBMOFhTSk85UTA4anRqbEJpbnBYQzcwc3lTMzhDSG9yUmRZUnM0N2VzWnRUakNLcDhSOFFWbTF6Qkh0Y2F6ZGY2TGRqNGY4MXhGQk1EWFN1WFBNV2h3VENQVjZBeG5TQjdlSVNoUG5TVkFzNkJYNE1XaWxGQ0x1MmhPS3l4bkprMk5EYWZySFE?oc=5",
+          "published_at": "2026-11-27T22:11:11+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Verstappen not happy after Hamilton near collision - Fox Sports",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T20:26:00+00:00",
+      "summary": "Verstappen not happy after Hamilton near collision Fox Sports",
+      "claims": [
+        "Verstappen not happy after Hamilton near collision Fox Sports"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY2dKN3VGTVFydGc1aUZ1YVNRdUxHNXpZRk5kX3B3U2wzbVVfN0xoNXNXX0dLeFZPY2NidU1xenRaeHFQRWR5ektQakVHaHZoMklpMTdxZ2xkY3F1QWlqZHE0RVN3azBXaFVvRnhSQlVmeXZsZ0ViMGtUaUFrYWsxZnQtZGh1RXU4QzF3eFh0aTdOclNSV0tkak5yRVJiR0VONWYySVY4UzV6bHA2U1E4aHhjNGFBbF94aGl0a3dPRWxCd21odEE?oc=5",
+          "published_at": "2026-11-27T20:26:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    },
+    {
+      "title": "Kimi Antonelli fastest twice: Who could pose a threat to him in Qatar - SPEEDWEEK.com",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T20:03:55+00:00",
+      "summary": "Kimi Antonelli fastest twice: Who could pose a threat to him in Qatar SPEEDWEEK.com",
+      "claims": [
+        "Kimi Antonelli fastest twice: Who could pose a threat to him in Qatar SPEEDWEEK.com"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRUFKYk9ZQUZPLW1FOXRfaHppa2wyTzJtdkRiZnpObFFXdmRIYnNfSDM2WTdFRXgyU0VzbW1rMnplamhad243TC1wWUtpczdSVXRvdVBBam12R242ek53TjBoa2lpQlpLa2FxVy1Bd0tRQjlwU3psdGpzaUhEOGw2aENMVWhVcks4dmwzLWpZMUg?oc=5",
+          "published_at": "2026-11-27T20:03:55+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli Leads George Russell In Qatar GP FP1 - Sportscape Magazine",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T19:55:08+00:00",
+      "summary": "Kimi Antonelli Leads George Russell In Qatar GP FP1 Sportscape Magazine",
+      "claims": [
+        "Kimi Antonelli Leads George Russell In Qatar GP FP1 Sportscape Magazine"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaGxVNUY3NmlwN1RnVE1ETEloLWQzdlJsYl9Mdk5CSm9sX3NVTVpLWmM4QktKNVREamRscjh2elhoRHFfVTBPVk5ZMG4ybldWazlUZzhOdnpZR3FpeVhPRlNUZkFoUlZVdXYtaWp1VUtDaXZLa2l1ZmNLOVFON25GVzBmWnRKM09VVFlfNmp2S1pGSjV6Q1JNajRqYw?oc=5",
+          "published_at": "2026-11-27T19:55:08+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "Kimi Antonelli has the edge in second practice ahead of Qatar Grand Prix - LBC",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T19:54:09+00:00",
+      "summary": "Kimi Antonelli has the edge in second practice ahead of Qatar Grand Prix LBC",
+      "claims": [
+        "Kimi Antonelli has the edge in second practice ahead of Qatar Grand Prix LBC"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQzNwNlpZNm5LM3dMbHVfTk5TRFBnNkFNYU5CR2Z3dTRwb3ZkczBzN0FaSEN5aE9iUHluLXJ3RkxoZDB2cy1ra0xKUmRtYzlLRDRlOVJIUU9KNVR5eVZ5UTJnd1gxUnN1UVFTdVNsRlBwandMM0tqTUlCc0ZKTEFDWXU4emRfbkVw?oc=5",
+          "published_at": "2026-11-27T19:54:09+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": [
+        "china"
+      ]
+    },
+    {
+      "title": "'You can never write off Max and the others' – Antonelli wary of rivals despite topping Friday in Qatar - Formula 1",
+      "category": "China",
+      "company": "Google News RSS",
+      "region": "China",
+      "published_at": "2026-11-27T19:44:00+00:00",
+      "summary": "'You can never write off Max and the others' – Antonelli wary of rivals despite topping Friday in Qatar Formula 1",
+      "claims": [
+        "'You can never write off Max and the others' – Antonelli wary of rivals despite topping Friday in Qatar Formula 1"
+      ],
+      "primary_sources": [],
+      "secondary_sources": [
+        {
+          "name": "Chinese AI news discovery",
+          "organization": "Google News RSS",
+          "region": "China",
+          "kind": "discovery",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOOHFibEl5Vmpoenh2OE1MNzVHbEFjZ1lEbW1WbHJ0cWJNb0VHM0x4RnVLUGRrdlc0eU15djRHWGpUb0JZUjc4TjlyYmhRalI1MVg4bVp0UnllVndJV1p0eEFEa0gxZEQyOF9ZVklfdHpQWkJpdG9xaTZuM3JFdkNiR0NaZWlDbzJIUWpxS0xobXd1ZUZTcmJ0VDJtbzNMTkZPbEY4LWYxNFVOOFF4YmNRUzdjTFRfSFZfZFF3b1EyV1pUWUhsSDdBMk8telNUV09Fa2RCZmlyYndCTW1UY2NVcFNhRG82VTZ6Z1NtMFBkN04ta0MycXdjUg?oc=5",
+          "published_at": "2026-11-27T19:44:00+00:00"
+        }
+      ],
+      "creator_sources": [],
+      "topics": [
+        "China",
+        "discovery"
+      ],
+      "verification_notes": [
+        "Discovery coverage found; primary evidence still needs checking."
+      ],
+      "confidence": "medium",
+      "watchlist_matches": []
+    }
+  ]
+}
